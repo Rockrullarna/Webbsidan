@@ -4,16 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://www.rockrullarna.se/globalassets/dk-rockrullarna---danssport/bilder/loggan/png/rockrullarna-rrbla-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" type="css" href="static/css/website.css" /> 
   <title>Rockrullarna.se</title>
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li>Nyheter</li>
-        <li>Danskurser
+        <li><a href="/Nyheter" title="Nyheter">Nyheter</a></li>
+        <li class="dropdown">
+          <a href="/Danskurser" title="Danskurser">Danskurser</a>
           <ul>
-            <li>Kursöversikt
+            <li class="dropdown">Kursöversikt
               <ul>
                 <li>Bugg</li>
                 <li>Fox</li>
@@ -30,7 +33,7 @@
             <li>Betalning</li>
           </ul>
         </li>
-        <li>Tävlingsdans
+        <li class="dropdown">Tävlingsdans
           <ul>
             <li>Tävlingskalender</li>
             <li>Vilka tävlar var</li>
@@ -41,10 +44,10 @@
         </li>
         <li>Aktivitetskalender</li>
         <li>Boka lilla salen</li>
-        <li>Föreningen
+        <li class="dropdown">Föreningen
           <ul>
             <li>Historia</li>
-            <li>Styrande dokument
+            <li class="dropdown">Styrande dokument
               <ul>
                 <li>Verksamhetsbeskrivning</li>
                 <li>Stadgar</li>
@@ -53,15 +56,15 @@
                 <li>Policy mot diskriminering</li>
               </ul>
             </li>
-            <li>Möten och protokoll
+            <li class="dropdown">Möten och protokoll
               <ul>
                 <li>Årsmöte</li>
                 <li>Medlemsmöte</li>
                 <li>Styrelsemöte</li>
               </ul>
             </li>
-            <li>Organisation
-              <li>Styrelsen
+            <li class="dropdown">Organisation
+              <li class="dropdown">Styrelsen
                 <ul>
                   <li>Styrelsearkiv</li>
                 </ul>
@@ -72,11 +75,11 @@
             <li>Bli medlem hos oss</li>
           </ul>
         </li>
-        <li>Kontakta oss
+        <li class="dropdown">Kontakta oss
           <ul>
             <li>Kontaktinformation</li>
             <li>Hitta till oss</li>
-            <li>Frågor och Svar
+            <li class="dropdown">Frågor och Svar
               <ul>
                 <li>Teams-möten</li>
                 <li>Zoom-möte</li>
