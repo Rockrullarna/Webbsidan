@@ -14,12 +14,7 @@ h1, h2, h3, h4 {
 }
 
 main {
-  width: 75%;
-  padding: 0em 15%;
-}
-
-aside {
-  width: 24%;
+  padding: 0em 5em;
 }
 
 nav ul {
