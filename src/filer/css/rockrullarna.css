@@ -33,7 +33,7 @@ a:hover {
   background-color: #00ffd5;
 }
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -82,4 +82,98 @@ nav .dropdown-content a:hover {background-color: #f1f1f1;}
 
 nav .dropdown:hover .dropdown-content {
   display: block;
+} */
+
+
+/* START: BOOTSTRAP 5 Multi-level dropdown
+    From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */
+
+button:focus, .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
+
+header {
+    background-color: #008489;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0AEDED;
+    -webkit-text-stroke: #fff 1px;
+
+}
+
+.navbar-brand:hover {
+    color: #3F3B51;
+
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+}
+
+.dropdown-menu .dropdown-item {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #008489;
+    color: #fff;
+}
+
+.dropdown-mega .dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-mega h5 {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin: 0;
+}
+
+.list-group-item {
+    font-size: 16px;
+    color: #3F3B51;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 12px 0;
+}
+
+.list-group-item:hover {
+    color: #008489;
+}
+
+.btn {
+    background-color: #0AEDED;
+}
+
+section {
+    height: 100vh;
+}
+
+/* Responsive */
+@media(max-width: 991.5px) {
+    .navbar-brand {
+        font-size: 30px
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 10px;
+    }
+
+    form {
+        margin: 30px 0;
+    }
+}
+
+/* ENDING: BOOTSTRAP 5 Multi-level dropdown */
