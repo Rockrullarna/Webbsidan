@@ -30,7 +30,8 @@ a:visited {
 }
 
 a:hover {
-  background-color: #00ffd5;
+  background-color: #00ABD6;
+  color: #fff;
 }
 
 /* nav ul {
@@ -94,17 +95,11 @@ button:focus, .navbar-toggler:focus {
 }
 
 header {
-    background-color: #008489;
     padding: 15px 0;
 }
 
 .navbar-brand {
     font-size: 2rem;
-}
-
-.navbar-brand:hover {
-    color: #3F3B51;
-
 }
 
 .navbar-nav .nav-item {
@@ -114,20 +109,36 @@ header {
 .navbar-nav .nav-link {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #00ABD6;
     display: inline-block;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 .dropdown-menu .dropdown-item {
     margin-bottom: 10px;
 }
 
+.dropdown-item {
+  color: #00ABD6;
+}
+
+.dropdown-item:visited {
+  color: #00ABD6;
+}
+
+.dropdown-item:focus {
+  background-color: #ddd;
+}
+
 .dropdown-menu .dropdown-item:hover {
-    background-color: #008489;
+    background-color: #00ABD6;
     color: #fff;
 }
 
-.dropdown-mega .dropdown-menu {
+/* .dropdown-mega .dropdown-menu {
     width: 100%;
 }
 
@@ -135,7 +146,7 @@ header {
     padding-bottom: 12px;
     border-bottom: 1px solid rgba(0, 0, 0, .125);
     margin: 0;
-}
+} */
 
 .list-group-item {
     font-size: 16px;
@@ -145,12 +156,16 @@ header {
     padding: 12px 0;
 }
 
-.list-group-item:hover {
-    color: #008489;
-}
+/* .list-group-item:hover {
+    color: #890000;
+} */
 
 .btn {
-    background-color: #0AEDED;
+    background-color: #00ABD6;
+}
+
+.btn:hover {
+  background-color: #555;
 }
 
 section {
@@ -170,6 +185,30 @@ section {
     form {
         margin: 30px 0;
     }
+
+    #navbar-toggler{
+      height: 33px;
+      width: 33px;
+      position: relative;
+      display: block;
+      margin: 0.5em 0.5em;
+      float: right;
+      padding: 3px 6px;
+      background: transparent;
+      border: 3px solid #555;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+  
+  .navButton-Line{
+      background:#00ABD6;
+      display: block;
+      width: 15px;
+      height: 3px;
+      border-radius: 1px;
+      margin: 3px 0;
+  }
+
 }
 
 /* ENDING: BOOTSTRAP 5 Multi-level dropdown */
