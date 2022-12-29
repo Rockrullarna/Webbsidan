@@ -7,7 +7,13 @@
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" /> 
-  <title>Dansklubben Rockrullarna - Välkommen till vår ideella dansförening i Örebro!</title>
+  <title>
+    <?php if ($header_title=="") { 
+      echo "Dansklubben Rockrullarna - Välkommen till vår ideella dansförening i Örebro!";
+    } else {
+      echo "$header_title - Dansklubben Rockrullarna";
+    }?>
+  </title>
 </head>
 <body>
   <header>
