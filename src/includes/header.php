@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" /> 
   <title>
     <?php if ($header_title=="") { 
-      echo "Dansklubben Rockrullarna - Välkommen till vår ideella dansförening i Örebro!";
+      echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
-      echo "$header_title - Dansklubben Rockrullarna";
+      echo "$header_title | Rockrullarna";
     }?>
   </title>
 </head>
