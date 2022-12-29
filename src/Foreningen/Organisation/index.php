@@ -10,10 +10,8 @@
     </h1>
     <p>Fullständig organisation, roll och uppdragsbeskrivning återfinns i <a href="/foreningen/Styrande-dokument/Verksamhetsbeskrivning" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen (Annex C – Roll och uppdragsbeskrivning)</a>.</p>
     <p>
+      <h2>Info om organisationen</h2>
       <table style="width: 260px; height: auto; margin: 1em; border: 0;">
-        <caption>
-          <h3>Info om organisationen</h3>
-        </caption>
         <tbody>
           <tr>
             <td>

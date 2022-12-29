@@ -14,10 +14,8 @@
       Vi träffas säkrast på plats i danslokalen från söndag till torsdag mellan klockan 18:00-20:30.<br />
       Fast du når oss bäst via mejl på <a href="mailto:info@rockrullarna.se" title="Maila oss: info@rockrullarna.se">info@rockrullarna.se</a>
     </p>
+    <h3>Info om föreningen</h3>
     <table style="width: 260px; height: auto; margin: 1em; border: 0;">
-      <caption>
-        <h3>Info om föreningen</h3>
-      </caption>
       <tbody>
         <tr>
           <td>

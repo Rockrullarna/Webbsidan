@@ -17,10 +17,8 @@
       Rockrullarna har kurser inom Bugg (barn, ungdom, vuxen), Fox, West Coast Swing samt Barndans.<br />
       Kursverksamheten omfattar allt från nybörjare till tävlingsdans. Vid utvalda tillfällen erbjuder vi även helgevenemang.
     </p>
+    <h2>Kurser & aktiviteter</h2>
     <table style="width: 25em; margin: 1em; border: 0;" >
-      <caption>
-        <h3 style="text-align: left;">Kurser & aktiviteter</h3>
-      </caption>
       <tbody>
         <tr>
           <td>

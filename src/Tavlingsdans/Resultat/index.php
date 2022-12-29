@@ -9,7 +9,7 @@
       Tävlingsresultat
     </h1>
     <p>
-      <iframe frameborder="0" height="1000" id="iframe1" marginheight="0" marginwidth="0" scrolling="yes" src="https://www.dans.se/tools/comp/results/?org=ROCKRULLARNA" width="540"></iframe>
+      <iframe frameborder="0" height="1000" marginheight="0" marginwidth="0" scrolling="yes" src="https://www.dans.se/tools/comp/results/?org=ROCKRULLARNA" style="width: 95%; min-width: 540px;"></iframe>
     </p>
     <p>
       Om hämtningen inte fungerar automatiskt, hittar ni resultat för RR via dans.se :<br />

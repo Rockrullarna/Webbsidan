@@ -25,10 +25,8 @@
     <p>
       <em>Alla helgkurser är bindande från och med det du blivit antagen. Vi vill hålla en god kvalitet och bokar in externa tränare som måste avbokas vid för få anmälningar.</em>
     </p>
+    <h3>Vidare info danskurser</h3>
     <table style="width: 25em; margin: 1em; border: 0;">
-      <caption>
-        <h3 style="text-align: left;">Vidare info danskurser</h3>
-      </caption>
       <tbody>
       <tr>
         <td>

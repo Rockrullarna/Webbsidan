@@ -12,10 +12,8 @@
       Här finner du våra publika mötesprotokoll från olika möten vi genomfört. Tränarmöten och vissa andra möten dokumenteras men delas bara till berörda parter direkt.
     </p>
     <p>
+      <h2>Våra mötesprotokoll</h2>
       <table style="width: 260px; height: auto; margin: 1em; border: 0;">
-        <caption>
-          <h3>Våra mötesprotokoll</h3>
-        </caption>
         <tbody>
           <tr>
             <td>

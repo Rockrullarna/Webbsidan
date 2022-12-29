@@ -6,7 +6,7 @@
   $page_url = "/Tavlingsdans";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
-  
+
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
@@ -17,10 +17,8 @@
     <p>I menyn under tävlingsdans kan ni läsa om vad ni behöver göra för att tävla, vilka par som tävlar samt tävlingsresultat.</p>
     <p>Kontakta oss via e-post på <a href="mailto:tavlingsansvarig@rockrullarna.se" title="Maila till: tavlingsansvarig@rockrullarna.se">tavlingsansvarig@rockrullarna.se</a></p>
     <p>Lycka till!</p>
+    <h2>Vidare info tävlingsdans</h2>
     <table style="width: 400px; height: auto; margin: 1em; border: 0">
-      <caption>
-        <h2>Vidare info tävlingsdans</h2>
-      </caption>
       <tbody>
         <tr>
           <td>
