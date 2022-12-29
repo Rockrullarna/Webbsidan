@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anmälan till danskurser - Rockrullarna.se</title>
-  <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
-</head>
-<body>
-  <header>
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-  </header>
-  <main>
+<?php
+  $header_title = "Anmälan till danskurser";
+  include_once '../../includes/header.php'
+?>
     <div id="BreadCrumbsDiv">
       <a href="../../">Rockrullarna.se</a> / <a href="../">Danskurser</a> / <span>Anmälan danskurser</span>
     </div>
@@ -46,11 +35,6 @@
       <li><span><strong>Betalning:</strong></span><br /><span>Observera att betalning skall INTE ske innan du fått ditt antagningsbeked från oss via e-post!</span><br /><br /></li>
       <li><span><strong>Kvitto:</strong></span><br /><span>När vi mottagit din betalning kommer ett kvitto att skickas via e-post.</span></li>
     </ol>
-  </main>
-  <footer>
-
-  </footer>
-</body>
-</html>
-
-
+<?php
+  include_once '../../includes/footer.php'
+?>

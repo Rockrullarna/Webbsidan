@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakta oss - Rockrullarna.se</title>
-  <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
-</head>
-<body>
-  <header>
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-  </header>
-  <main>
+<?php
+  $header_title = "Kontakta oss";
+  include_once '../includes/header.php'
+?>
     <div id="BreadCrumbsDiv">
       <a href="../">Rockrullarna.se</a> / <span>Kontakta oss</span>
     </div>
@@ -116,9 +105,6 @@
     <h2>Hitta till oss</h2>
     <p><strong>► <a href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google Maps)">Visa Google Maps karta (öppnas i nytt fönster)</a></strong></p>
     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.6115304119815!2d15.164433639652334!3d59.27572964011082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c14d4a35b37db%3A0x948d71326b2d8b7c!2sDansklubben%20Rockrullarna%20i%20%C3%96rebro!5e0!3m2!1ssv!2sse!4v1672057129075!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-  </main>
-  <footer>
-
-  </footer>
-</body>
-</html>
+<?php
+  include_once '../includes/footer.php'
+?>

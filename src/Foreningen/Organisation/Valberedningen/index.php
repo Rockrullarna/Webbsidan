@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valberedningen - Organisation - Föreningen - Rockrullarna.se</title>
-  <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
-</head>
-<body>
-  <header>
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-  </header>
-  <main>
+<?php
+  $header_title = "Valberedningen - Organisation - Föreningen";
+  include_once '../../../includes/header.php'
+?>
     <div id="BreadCrumbsDiv">
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Organisation</a> / <span>Valberedningen</span>
     </div>
@@ -26,9 +15,6 @@
     <p>Har du förslag på personer som vill vara verksam i styrelsen? Skicka ditt förslag till valberedningen.</p>
     <p>► <a href="mailto:valberedningen@rockrullarna.se" title="Mejla till: valberedningen@rockrullarna.se">valberedningen@rockrullarna.se</a></p>
     <p><em>OBS. Personen du vill föreslå måste vara tillfrågad och vill ställa upp för val till styrelsen.</em></p>
-  </main>
-  <footer>
-
-  </footer>
-</body>
-</html>
+<?php
+  include_once '../../../includes/footer.php'
+?>

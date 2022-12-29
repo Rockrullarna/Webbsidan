@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Betalning - Rockrullarna.se</title>
-  <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
-</head>
-<body>
-  <header>
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-  </header>
-  <main>
+<?php
+  $header_title = "Betalning - Danskurser";
+  include_once '../../includes/header.php'
+?>
     <div id="BreadCrumbsDiv">
       <a href="../../">Rockrullarna.se</a> / <a href="../">Danskurser</a> / <span>Betalning</span>
     </div>
@@ -59,9 +48,6 @@
     <p>
       Betalning vid café görs via <strong>Swish: 1232220283</strong> eller med kontanter. Om du swishar, märk betalningen med "Fika", eller liknande. 
     </p>
-  </main>
-  <footer>
-
-  </footer>
-</body>
-</html>
+<?php
+  include_once '../../includes/footer.php'
+?>
