@@ -1,5 +1,12 @@
 <?php
   $header_title = "";
+  $header_description = "";
+
+  $page_updated = "2022-12-30 14:20";
+  $page_url = "";
+  $page_contact_name = "";
+  $page_contact_email = "";
+
   include_once 'includes/header.php'
 ?>
     <h1>Dansklubben Rockrullarna</h1>
