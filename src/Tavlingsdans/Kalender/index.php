@@ -1,5 +1,11 @@
 <?php
   $header_title = "Kalender - Tävlingsdans";
+  $header_description = "Tävlingskalendern för kommande tävlingar";
+
+  $page_updated = "2022-12-29 21:33";
+  $page_contact_name = "Tävlingsansvarig";
+  $page_contact_email = "tavlingsansvarig@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
