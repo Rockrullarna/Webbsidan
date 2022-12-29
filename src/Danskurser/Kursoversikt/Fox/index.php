@@ -14,7 +14,7 @@
   </header>
   <main>
     <div id="BreadCrumbsDiv">
-      <a href="../../../">Hem</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>Fox</span>
+      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>Fox</span>
     </div>
     <h1>Fox</h1>
     <p>Fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret genom att aktivt arbeta med känsla, balans, hållning och närvaro. Grundstegen utförs i quicksteg och slowsteg. Med fria steg sätter föraren ihop sin egen dans utifrån vad du hör och känner i musiken. Den moderna foxen har influenser från flera dansstilar t.ex. Kizomba.&nbsp;</p>

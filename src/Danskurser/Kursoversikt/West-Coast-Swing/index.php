@@ -14,7 +14,7 @@
   </header>
   <main>
     <div id="BreadCrumbsDiv">
-      <a href="../../../">Hem</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>West Coast Swing</span>
+      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>West Coast Swing</span>
     </div>
     <h1>West Coast Swing (WCS)</h1>
     <p>West Coast Swing (även kallat: WCS) är en cool pardans med rötter i Lindy hop och passar till bland annat musik så som radiohits, pop, slow rock, blues, R&amp;B, hiphop och ballader.</p>

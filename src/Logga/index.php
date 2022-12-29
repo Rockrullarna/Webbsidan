@@ -14,7 +14,7 @@
   </header>
   <main>
     <div id="BreadCrumbsDiv">
-      <a href="../">Hem</a> / <span>Logga (Grafisk profil)</span>
+      <a href="../">Rockrullarna.se</a> / <span>Logga (Grafisk profil)</span>
     </div>
     <h1>Rockrullarnas Logga (Grafisk profil)</h1>
     <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna.</p>

@@ -3,7 +3,7 @@
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../">Hem</a> / <span>Tävlingsdans</span>
+      <a href="../">Rockrullarna.se</a> / <span>Tävlingsdans</span>
     </div>
     <h1>Tävlingsdans</h1>
     <p>Rockrullarna erbjuder tävlingsinriktade kurser inom Bugg och West Coast Swing. Här får paren utveckla sin dans och förbereda sig mentalt för att vara redo på tävlingsgolvet.</p>

@@ -14,7 +14,7 @@
   </header>
   <main>
     <div id="BreadCrumbsDiv">
-      <a href="../">Hem</a> / <span>Föreningen</span>
+      <a href="../">Rockrullarna.se</a> / <span>Föreningen</span>
     </div>
     <h1>Rockrullarna - Din dansförening i Örebro!</h1> 
     <h2>Varmt välkommen till Rockrullarna i Örebro!</h2>

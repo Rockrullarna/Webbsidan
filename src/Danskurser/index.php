@@ -14,7 +14,7 @@
   </header>
   <main>
     <div id="BreadCrumbsDiv">
-      <a href="../">Hem</a> / <span>Danskurser</span>
+      <a href="../">Rockrullarna.se</a> / <span>Danskurser</span>
     </div>
     <h1>Våra danskurser</h1>
     <p>

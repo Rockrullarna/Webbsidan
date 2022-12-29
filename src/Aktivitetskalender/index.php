@@ -3,7 +3,7 @@
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../">Hem</a> / <span>Aktivitetskalender</span>
+      <a href="../">Rockrullarna.se</a> / <span>Aktivitetskalender</span>
     </div>
     <h1>Aktivitetskalender</h1>
     <p>
