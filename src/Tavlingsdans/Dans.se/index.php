@@ -1,5 +1,12 @@
 <?php
   $header_title = "Dans.se - Tävlingsdans";
+  $header_description = "Information om vårt kurs och tävlingssystem";
+
+  $page_updated = "2022-12-29 23:45";
+  $page_url = "/Tavlingsdans/Dans.se";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

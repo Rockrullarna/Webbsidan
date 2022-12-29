@@ -1,5 +1,12 @@
 <?php
   $header_title = "Vote4Dance - Tävlingsdans";
+  $header_description = "Information om tävlingssystemet Vote 4 Dance";
+
+  $page_updated = "2022-12-29 23:48";
+  $page_url = "/Tavlingsdans/Vote4Dance";
+  $page_contact_name = "Tävlingsansvarig";
+  $page_contact_email = "tavlingsansvarig@rockrullarna.se";
+
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

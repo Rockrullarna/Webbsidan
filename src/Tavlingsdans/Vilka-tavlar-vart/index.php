@@ -1,5 +1,12 @@
 <?php
   $header_title = "Vilka tävlar vart? - Tävlingsdans";
+  $header_description = "Här ser du alla våra tävlande som är anmälda till kommande tävlingar";
+
+  $page_updated = "2022-12-29 23:48";
+  $page_url = "/Tavlingsdans/Vilka-tavlar-vart";
+  $page_contact_name = "Tävlingsansvarig";
+  $page_contact_email = "tavlingsansvarig@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
