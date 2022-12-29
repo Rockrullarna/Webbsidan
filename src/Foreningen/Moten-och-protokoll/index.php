@@ -40,5 +40,5 @@
       </a>
     </p>
 <?php
-  include_once '../../../includes/footer.php'
+  include_once '../../includes/footer.php'
 ?>
