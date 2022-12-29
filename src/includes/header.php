@@ -15,26 +15,30 @@
   <meta name="TITLE" content="<?php if (empty($header_title)) {
       echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
-      echo "$header_title | Rockrullarna";
+      echo "$header_title | Dansklubben Rockrullarna";
   }?>" />
-  <meta name="DESCRIPTION" content="<?php if (empty($page_description)) {
+  <meta name="DESCRIPTION" content="<?php if (empty($header_description)) {
       echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro.";
     } else {
-      echo "Rockrullarna.se | $page_description";
+      echo "$header_description | Rockrullarna.se";
   }?>" />
   <meta name="RATING" content="General" />
-  <meta property="og:url" content="https://www.rockrullarna.se/tavlingsdans/tavlingsresultat" />
+  <meta property="og:url" content="<?php if (empty($page_url)) {
+      echo "https://rockrullarna.se/";
+    } else {
+      echo "https://rockrullarna.se" . $page_url . "";
+  }?>" />
   <meta property="og:title" content="<?php if (empty($header_title)) {
       echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
-      echo "$header_title | Rockrullarna";
+      echo "$header_title | Dansklubben Rockrullarna";
   }?>" />
-  <meta property="og:description" content="<?php if (empty($page_description)) {
+  <meta property="og:description" content="<?php if (empty($header_description)) {
       echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro.";
     } else {
-      echo "Rockrullarna.se | $page_description";
+      echo "$header_description | Rockrullarna.se";
   }?>" />
-  <meta property="og:image" content="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
+  <meta property="og:image" content="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
   <meta property="og:site_name" content="Dansklubben Rockrullarna" />
   <meta property="og:type" content="website" />
   <meta name="creation_date" content="Thu, 29 Dec 2022 21:29:00 GMT" />
