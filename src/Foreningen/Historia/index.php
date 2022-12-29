@@ -24,5 +24,5 @@
       År 1998 bestämde föreningen att satsa på en egen lokal och 1999 stod det klart att kursverksamheten skulle äga rum i Haga Centrum där föreningen än idag genomför sin verksamhet.
     </p>
 <?php
-  include_once '../../../includes/footer.php'
+  include_once '../../includes/footer.php'
 ?>
