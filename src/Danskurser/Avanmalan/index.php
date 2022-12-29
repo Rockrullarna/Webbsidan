@@ -16,6 +16,11 @@
       Observera att anmälan till föreningens aktiviteter är bindande inom 14 dagar före start (gäller ej nybörjarkurs med ”prova på”). <br />
       Vid sjukdom kan återbetalning endast genomföras vid uppvisande av läkarintyg.
     </p>
+    <p>
+      Skicka oss ett mail via: <a href="kurser@rockrullarna.se">kurser@rockrullarna.se</a> för att avanmäla dig från danskursen.<br />
+      Uppge gärna ditt referensnummer för anmälan (ex. R1234567).
+    </p> 
+    <!--
     <table id="id_matrix">
       <tbody>
         <tr>
@@ -147,6 +152,7 @@
         </tr>
       </tbody>
     </table>
+    -->
 <?php
   include_once '../../includes/footer.php'
 ?>
