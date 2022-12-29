@@ -1,5 +1,12 @@
 <?php
   $header_title = "Policy mot diskriminering - Styrande dokument - Föreningen";
+  $header_description = "Vår ideella förening ska vara en trygg plats för alla! Därav ska INGEN kränkas eller särbehandlas";
+
+  $page_updated = "2022-12-29 23:36";
+  $page_url = "/Foreningen/Styrande-dokument/Policy-mot-diskriminering";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

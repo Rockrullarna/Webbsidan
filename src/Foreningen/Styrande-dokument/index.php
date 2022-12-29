@@ -1,5 +1,12 @@
 <?php
   $header_title = "Styrande dokument - Föreningen";
+  $header_description = "Våra styreande föreningsdokument";
+
+  $page_updated = "2022-12-29 23:27";
+  $page_url = "/Foreningen/Styrande-dokument";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

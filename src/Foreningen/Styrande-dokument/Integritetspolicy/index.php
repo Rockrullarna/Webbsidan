@@ -1,5 +1,12 @@
 <?php
   $header_title = "Integritetspolicy - Styrande dokument - Föreningen";
+  $header_description = "Du ska kunna känna dig trygg med att vår ideella förening behandlar dina personuppgifter korrekt";
+
+  $page_updated = "2022-12-29 23:38";
+  $page_url = "/Foreningen/Styrande-dokument/Integritetspolicy";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

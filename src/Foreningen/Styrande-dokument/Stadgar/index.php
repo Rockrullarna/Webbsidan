@@ -1,5 +1,12 @@
 <?php
   $header_title = "Stadgar - Styrande dokument - Föreningen";
+  $header_description = "Vår ideella förenings nuvarande stadgar";
+
+  $page_updated = "2022-12-29 23:33";
+  $page_url = "/Foreningen/Styrande-dokument/Stadgar";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
@@ -322,17 +329,6 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <hr />
-    <span style="float: left; margin: 3px 0; font-size: 11px; text-transform: uppercase;">
-        Uppdaterad: 02 JULI 2020 23:23
-    </span>
-    <span style="float: right">
-      Skribent: <span>Styrelsen, Rockrullarna</span>
-      <br />
-      <span>
-        E-post: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a>
-      </span>
-    </span>
 <?php
   include_once '../../../includes/footer.php'
 ?>
