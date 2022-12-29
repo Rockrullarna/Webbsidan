@@ -16,7 +16,7 @@
       Vilka tävlar vart?
     </h1>
     <p>
-      <iframe frameborder="0" height="1000" marginheight="0" marginwidth="0" src="https://dans.se/tools/comp/registrations/?org=ROCKRULLARNA"  style="width: 95%; min-width: 540px;"></iframe>
+      <iframe frameborder="0" height="1000" marginheight="0" marginwidth="0" src="https://dans.se/tools/comp/registrations/?org=ROCKRULLARNA"  style="width: 98%; min-width: 320px;"></iframe>
     </p>
     <p>
       Om hämtningen inte fungerar automatiskt, hittar ni tävlingsanmälningar via dans.se :<br />

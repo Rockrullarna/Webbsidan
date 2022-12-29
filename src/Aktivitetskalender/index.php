@@ -17,7 +17,7 @@
       Här visas våra kommande händelser hämtade från dans.se, vårt bokningssystem.
     </p>
     <p>
-      <iframe frameborder="0" height="700" scrolling="yes" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" style="border-width: 0; width: 95%; min-width: 540px;"></iframe>
+      <iframe frameborder="0" height="700" scrolling="yes" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" style="border-width: 0; width: 98%; min-width: 320px;"></iframe>
     </p>
     <p>
       Aktivitetskalendern hämtas från vårt bokningssystem dans.se via direktlänken: <br />

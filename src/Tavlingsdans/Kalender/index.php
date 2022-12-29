@@ -16,7 +16,7 @@
       Tävlingskalender
     </h1>
     <p>
-      <iframe frameborder="0" height="1200" scrolling="auto" src="https://dans.se/tools/comp/events/?fed=dsf" style="width: 95%; min-width: 540px;"></iframe>
+      <iframe frameborder="0" height="1200" scrolling="auto" src="https://dans.se/tools/comp/events/?fed=dsf" style="width: 98%; min-width: 320px;"></iframe>
     </p>
     <p>
       Om hämtningen inte fungerar automatiskt, hittar ni tävlingskalendern via dans.se :<br />
