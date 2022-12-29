@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aktivitetskalender - Rockrullarna.se</title>
-  <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
-</head>
-<body>
-  <header>
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-  </header>
-  <main>
+<?php
+  $header_title = "Aktivitetskalender";
+  include_once '../includes/header.php'
+?>
     <div id="BreadCrumbsDiv">
       <a href="../">Hem</a> / <span>Aktivitetskalender</span>
     </div>
@@ -27,9 +16,6 @@
       Aktivitetskalendern hämtas från vårt bokningssystem dans.se via direktlänken: <br />
       <a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" alt="Direktlänk till dans.se" title="Externa webbplatsen dans.se öppnas i ny flik" target="_blank" rel="noopener">https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1</a>
     </p>
-  </main>
-  <footer>
-
-  </footer>
-</body>
-</html>
+<?php
+  include_once '../includes/footer.php'
+?>
