@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
   padding: 0em 5em;
-  /* margin: 0 23rem; */
 }
 
 a {
@@ -132,41 +131,44 @@ section {
 
 /* Responsive */
 @media(max-width: 991.5px) {
-    .navbar-brand {
-        font-size: 1.2rem;
-    }
-
-    .navbar-nav .nav-item {
-        margin: 5px 10px;
-    }
-
-    form {
-        margin: 30px 0;
-    }
-
-    #navbar-toggler{
-      height: 33px;
-      width: 33px;
-      position: relative;
-      display: block;
-      margin: 0.5em 0.5em;
-      float: right;
-      padding: 3px 6px;
-      background: transparent;
-      border: 3px solid #555;
-      border-radius: 8px;
-      cursor: pointer;
+  main {
+    padding: 0rem 1rem;
   }
-  
+
+  form {
+    margin: 30px 0;
+  }
+
+  #navbar-toggler{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    display: block;
+    margin: 0.5em 0.5em;
+    float: right;
+    padding: 3px 6px;
+    background: transparent;
+    border: 3px solid #555;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
   .navButton-Line{
-      background:#00ABD6;
-      display: block;
-      width: 15px;
-      height: 3px;
-      border-radius: 1px;
-      margin: 3px 0;
+    background:#00ABD6;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-radius: 1px;
+    margin: 3px 0;
   }
 
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 10px;
+  }
 }
 
 /* ENDING: BOOTSTRAP 5 Multi-level dropdown */
