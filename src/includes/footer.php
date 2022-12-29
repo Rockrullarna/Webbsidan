@@ -12,9 +12,9 @@
       </div>
       <div id="footer-page-contact" class="col-6 text-end">
         <?php if (empty($page_contact_email)) { 
-          echo "<a href=\"mailto:info@rockrullarna.se\">Info, Rockrullarna</a>";
+          echo "<a href=\"mailto:info@rockrullarna.se\" title=\"Mejla till: info@rockrullarna.se\">Info, Rockrullarna</a>";
         } else {
-          echo "<a href=\"mailto:$page_contact_email\">$page_contact_name, Rockrullarna</a>";
+          echo "<a href=\"mailto:$page_contact_email\" title=\"Mejla till: $page_contact_email\">$page_contact_name, Rockrullarna</a>";
         }?>
       </div>
     </div>
