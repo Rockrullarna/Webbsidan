@@ -15,8 +15,8 @@
     <h1>
       Medlemsrabatter
     </h1>
-    <p>Som medlem i DK Rockrullarna har du medlemsrabatt hos nedanstående företag. <br />Visa ditt medlemsbevis i kassan.</p>
-    <table style="border: 1px solid #f5f5f5; width: 594px; height: 56px;" border="1">
+    <p>Som medlem i den ideella föreningen DK Rockrullarna har du medlemsrabatt hos nedanstående företag. <br />Visa ditt medlemsbevis i kassan.</p>
+    <table style="border: 1px solid #f5f5f5; width: 594px; height: 56px;">
       <thead>
         <tr>
           <th style="width: 85.9773px;">Företag</th>
