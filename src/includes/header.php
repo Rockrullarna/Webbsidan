@@ -188,4 +188,4 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="container-md">
