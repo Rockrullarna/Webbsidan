@@ -1,5 +1,12 @@
 <?php
   $header_title = "Fox - Kursöversikt - Danskurser";
+  $header_description = "Fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret";
+
+  $page_updated = "2022-12-29 22:51";
+  $page_url = "/Danskurser/Kursoversikt/Fox";
+  $page_contact_name = "Kurser";
+  $page_contact_email = "kurser@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

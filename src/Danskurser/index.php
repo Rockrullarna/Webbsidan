@@ -1,5 +1,12 @@
 <?php
   $header_title = "Danskurser";
+  $header_description = "Information om våra danskurser";
+
+  $page_updated = "2022-12-29 22:35";
+  $page_url = "/Danskurser";
+  $page_contact_name = "Kurser";
+  $page_contact_email = "kurser@rockrullarna.se";
+
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

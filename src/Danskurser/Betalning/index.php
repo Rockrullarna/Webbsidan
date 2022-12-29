@@ -1,5 +1,12 @@
 <?php
   $header_title = "Betalning - Danskurser";
+  $header_description = "Betalningsinformation för vår kursverksamhet";
+
+  $page_updated = "2022-12-29 22:56";
+  $page_url = "/Danskurser/Betalning";
+  $page_contact_name = "Kassören";
+  $page_contact_email = "ekonomi@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

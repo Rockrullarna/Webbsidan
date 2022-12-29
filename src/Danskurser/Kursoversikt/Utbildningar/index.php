@@ -1,5 +1,12 @@
 <?php
   $header_title = "Utbildningar - Kursöversikt - Danskurser";
+  $header_description = "Information om våra utbildningar på dansklubben";
+
+  $page_updated = "2022-12-29 22:46";
+  $page_url = "/Danskurser/Kursoversikt/Utbildningar";
+  $page_contact_name = "Utbildningsansvarig";
+  $page_contact_email = "utbildningsansvarig@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

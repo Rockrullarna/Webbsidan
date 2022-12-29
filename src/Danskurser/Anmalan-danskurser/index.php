@@ -1,5 +1,12 @@
 <?php
   $header_title = "Anmälan till danskurser";
+  $header_description = "Här finner du anmälningslänkar till alla våra danskurser! Välkommen med din anmälan";
+
+  $page_updated = "2022-12-29 22:57";
+  $page_url = "/Danskurser/Anmalan-danskurser";
+  $page_contact_name = "Kurser";
+  $page_contact_email = "kurser@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

@@ -1,5 +1,12 @@
 <?php
   $header_title = "Privatlektioner - Kursöversikt - Danskurser";
+  $header_description = "Privatlektioner är inte en del av ordinarie verksamhet, utan något som är upp till varje tränare att erbjuda i mån av tid och möjlighet";
+
+  $page_updated = "2022-12-29 22:49";
+  $page_url = "/Danskurser/Kursoversikt/Privatlektioner";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

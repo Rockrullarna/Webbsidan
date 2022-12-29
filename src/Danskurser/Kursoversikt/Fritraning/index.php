@@ -1,5 +1,12 @@
 <?php
   $header_title = "Fri träning - Kursöversikt - Danskurser";
+  $header_description = "Fria träningstider som erbjuds nere på dansklubben";
+
+  $page_updated = "2022-12-29 22:50";
+  $page_url = "/Danskurser/Kursoversikt/Fritraning";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

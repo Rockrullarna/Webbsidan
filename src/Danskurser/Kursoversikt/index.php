@@ -1,5 +1,12 @@
 <?php
   $header_title = "Kursöversikt - Danskurser";
+  $header_description = "Här finns en kursöversikt över alla våra dansstilar och vårt kursutbud";
+
+  $page_updated = "2022-12-29 22:36";
+  $page_url = "/Danskurser/Kursoversikt";
+  $page_contact_name = "Kurser";
+  $page_contact_email = "kurser@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

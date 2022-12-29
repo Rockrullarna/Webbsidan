@@ -1,5 +1,12 @@
 <?php
   $header_title = "Trivselkvällar - Kursöversikt - Danskurser";
+  $header_description = "Trivselkvällar är till för att skapa sociala dansstunder tillsammans på dansklubben";
+
+  $page_updated = "2022-12-29 22:48";
+  $page_url = "/Danskurser/Kursoversikt/Trivselkvallar";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
