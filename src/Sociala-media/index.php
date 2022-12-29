@@ -1,5 +1,12 @@
 <?php
   $header_title = "Sociala media flöden";
+  $header_description = "Information om de sociala media-sidorna vi använder oss av för kommunikation";
+
+  $page_updated = "2022-12-29 23:44";
+  $page_url = "/Sociala-media";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

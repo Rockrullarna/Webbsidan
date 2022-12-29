@@ -1,5 +1,12 @@
 <?php
   $header_title = "Logga (Grafisk profil)";
+  $header_description = "Vår grafiska profil och alla våra loggor som kan användas";
+
+  $page_updated = "2022-12-29 23:43";
+  $page_url = "/Logga";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
