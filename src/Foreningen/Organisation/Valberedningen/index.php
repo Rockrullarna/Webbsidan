@@ -1,5 +1,12 @@
 <?php
   $header_title = "Valberedningen - Organisation - Föreningen";
+  $header_description = "Information om den ideella föreningens valberedning";
+
+  $page_updated = "2022-12-30 00:24";
+  $page_url = "/Foreningen/Organisation/Valberedningen";
+  $page_contact_name = "Valberedningen";
+  $page_contact_email = "valberedningen@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

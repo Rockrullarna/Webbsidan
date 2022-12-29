@@ -1,5 +1,12 @@
 <?php
   $header_title = "Organisation - Föreningen";
+  $header_description = "Vår ideella förenings organisationsträd";
+
+  $page_updated = "2022-12-30 00:23";
+  $page_url = "/Foreningen/Organisation";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+  
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

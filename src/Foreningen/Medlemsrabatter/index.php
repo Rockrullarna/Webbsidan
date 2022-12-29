@@ -1,5 +1,12 @@
 <?php
   $header_title = "Medlemsrabatter - Föreningen";
+  $header_description = "Som medlem i den ideella föreningen DK Rockrullarna så har du medlemsrabatt hos följande företag";
+
+  $page_updated = "2022-12-30 00:30";
+  $page_url = "/Foreningen/Medlemsrabatter";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

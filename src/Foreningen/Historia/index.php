@@ -1,5 +1,12 @@
 <?php
   $header_title = "Historia - Föreningen";
+  $header_description = "Dansklubben Rockrullarna (DKRR) startades den 23 oktober 1983 där Ulf Bergentoft var en av grundarna";
+
+  $page_updated = "2022-12-30 00:33";
+  $page_url = "/Foreningen/Historia";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
+
   include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">

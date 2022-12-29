@@ -1,5 +1,12 @@
 <?php
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
+  $header_description = "Här finner du våra publika mötesprotokoll från olika möten vi genomfört";
+
+  $page_updated = "2022-12-30 00:28";
+  $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
+  $page_contact_name = "Styrelsen";
+  $page_contact_email = "styrelsen@rockrullarna.se";
+
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
@@ -272,7 +279,7 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="/globalassets/dk-rockrullarna---danssport/dokument/protokoll-och-handlingar-arsmoten/2020/rockrullarnas-resultatrakning_-_2019-01-01--2019-12-31-med-fg.ar.pdf?w=900&amp;h=900" title="DKRR-2020-Resultaträkning_-_2019-01-01--2019-12-31-med-föregående-år-2018" target="_blank" rel="gallery">
-                  <img src="https://www7.idrottonline.se/images/design/Extensions/pdf.gif" width="18" height="18" />&nbsp;
+                  <img src="https://www7.idrottonline.se/images/design/Extensions/pdf.gif" width="18" height="18" /> 
                   DKRR-2020-Resultaträkning_-_2019-01-01--2019-12-31-med-föregående-år-2018
               </a>
               <span class="title">DKRR-2020-Resultaträkning_-_2019-01-01--2019-12-31-med-föregående-år-2018</span>
