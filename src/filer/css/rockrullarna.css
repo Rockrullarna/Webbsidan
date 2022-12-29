@@ -39,6 +39,10 @@ a:hover {
   pointer-events: none;
 }
 
+#BreadCrumbsDiv {
+  margin-bottom: 1rem;
+}
+
 
 /* START: BOOTSTRAP 5 Multi-level dropdown
     From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */
