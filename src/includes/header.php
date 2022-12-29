@@ -7,30 +7,30 @@
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" /> 
-  <title><?php if (empty($header_title)) { 
+  <title><?php if (empty($header_title)) {
       echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
       echo "$header_title | Rockrullarna";
   }?></title>
   <meta name="TITLE" content="<?php if (empty($header_title)) {
-      echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!"; 
+      echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
       echo "$header_title | Rockrullarna";
   }?>" />
   <meta name="DESCRIPTION" content="<?php if (empty($page_description)) {
-      echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro."; 
+      echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro.";
     } else {
       echo "Rockrullarna.se | $page_description";
   }?>" />
   <meta name="RATING" content="General" />
   <meta property="og:url" content="https://www.rockrullarna.se/tavlingsdans/tavlingsresultat" />
   <meta property="og:title" content="<?php if (empty($header_title)) {
-      echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!"; 
+      echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
     } else {
       echo "$header_title | Rockrullarna";
   }?>" />
   <meta property="og:description" content="<?php if (empty($page_description)) {
-      echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro."; 
+      echo "Dansklubben Rockrullarna, en ideell dansförening i Örebro.";
     } else {
       echo "Rockrullarna.se | $page_description";
   }?>" />
@@ -38,12 +38,12 @@
   <meta property="og:site_name" content="Dansklubben Rockrullarna" />
   <meta property="og:type" content="website" />
   <meta name="creation_date" content="Thu, 29 Dec 2022 21:29:00 GMT" />
-  <meta name="LAST-MODIFIED" content="<?php if (isset($page_updated)) { 
+  <meta name="LAST-MODIFIED" content="<?php if (isset($page_updated)) {
       echo "$page_updated";
     } else {
       echo "Datum saknas";
   }?>" />
-  <meta name="REVISED" content="<?php if (isset($page_updated)) { 
+  <meta name="REVISED" content="<?php if (isset($page_updated)) {
       echo "$page_updated";
     } else {
       echo "Datum saknas";
