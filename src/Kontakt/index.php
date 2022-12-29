@@ -3,7 +3,7 @@
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../">Rockrullarna.se</a> / <span>Kontakta oss</span>
+      <a href="../">Rockrullarna.se</a> / <span>Kontakt</span>
     </div>
     <h1>Kontakta oss</h1>
     <p>
