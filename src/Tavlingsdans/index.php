@@ -37,17 +37,17 @@
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender (extern länk)</a></strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
             <p><strong>► <a href="./Dans.se" title="Dans.se">Info om dans.se</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
             <p><strong>► <a href="./Vote4Dance" title="Vote4Dance">Info om Vote4Dance</a></strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p><strong>► <a href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender (extern länk)</a></strong></p>
           </td>
         </tr>
       </tbody>
