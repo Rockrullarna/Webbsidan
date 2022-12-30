@@ -1,6 +1,6 @@
 <?php
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
-  $header_description = "Här finner du våra publika mötesprotokoll från olika möten vi genomfört";
+  $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
   $page_updated = "2022-12-30 00:28";
   $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
@@ -21,35 +21,22 @@
     <p> </p>
     <p>Här nedan samlas protokoll och handlingar från årsmöten.<br />(Välj senaste året i listan här nedan för att se årets handlingar)</p>
     <div id="GalleryChildAlbumSelector">
-        
-                <label for="gallerychildalbum">Välj kategori:</label>
-                <select id="gallerychildalbum" name="gallerychildalbum">
-                    <option value="0">KATEGORI</option>
-            
-                <option value="1347666">2012</option>
-            
-                <option value="1347663">2013</option>
-            
-                <option value="1347662">2014</option>
-            
-                <option value="1347661">2015</option>
-            
-                <option value="1347660">2016</option>
-            
-                <option value="1347659">2017</option>
-            
-                <option value="1347658">2018</option>
-            
-                <option value="1342051">2019</option>
-            
-                <option value="1294639">2020</option>
-            
-                <option value="1325515">2021</option>
-            
-                <option value="1367948">2022</option>
-            
-                </select>
-                <input type="submit" value="Välj" name="gallerychildalbumsubmit" />
+      <label for="gallerychildalbum">Välj kategori:</label>
+      <select id="gallerychildalbum" name="gallerychildalbum">
+        <option value="0">KATEGORI</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+      <input type="submit" value="Välj" name="gallerychildalbumsubmit" />
     </div>
     <table class="GalleryTable" border="0" cellpadding="0" cellspacing="0">
       <tr class="GalleryTableHeader">
