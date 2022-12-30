@@ -18,8 +18,11 @@
     </p>
     <h2>Facebook</h2>
     <p>
-      <!-- Feed uppdateras från: https://developers.facebook.com/docs/plugins/page-plugin/ -->
       <a href="https://fb.me/rockrullarna" title="Rockrullarna på facebook">fb.me/rockrullarna</a>
+    </p>
+    <p>
+      <!-- Feed uppdateras från: https://developers.facebook.com/docs/plugins/page-plugin/ -->
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frockrullarna&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=702771861196793" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </p>
     <h2>Instagram</h2>
     <p>
