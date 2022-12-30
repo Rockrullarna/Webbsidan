@@ -18,15 +18,17 @@
     </p>
     <h2>Facebook</h2>
     <p>
-      a
+      <!-- Feed uppdateras från: https://developers.facebook.com/docs/plugins/page-plugin/ -->
+      <a href="https://fb.me/rockrullarna" title="Rockrullarna på facebook">fb.me/rockrullarna</a>
     </p>
     <h2>Tik-Tok</h2>
+    <p><a href="https://www.tiktok.com/@dansklubbrockrullarna" title="Rockrullarna på tik tok">tiktok.com/@dansklubbrockrullarna</a></p>
     <p>
-      a
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dansklubbrockrullarna" data-unique-id="dansklubbrockrullarna" data-embed-type="creator" style="max-width: 780px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@dansklubbrockrullarna?refer=creator_embed">@dansklubbrockrullarna</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
     </p>
     <h2>Instagram</h2>
     <p>
-      a
+      <a href="https://www.instagram.com/rockrullarna" title="Rockrullarna på instagram">instagram.com/rockrullarna</a>
     </p>
 <?php
   include_once '../includes/footer.php'
