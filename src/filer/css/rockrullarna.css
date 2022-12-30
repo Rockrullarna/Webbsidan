@@ -103,7 +103,7 @@ header {
 }
 
 .dropdown-item:focus {
-  background-color: #ddd;
+  background-color: #005bd6;
 }
 
 .dropdown-menu .dropdown-item:hover {
