@@ -14,11 +14,11 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  pointer-events: none;
 }
 
 main {
   padding: 0em 5em;
-  /* margin: 0 23rem; */
 }
 
 a {
@@ -34,56 +34,13 @@ a:hover {
   color: #fff;
 }
 
-/* nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #38444d;
+.no-visual-search {
+  pointer-events: none;
 }
 
-nav li {
-  float: left;
+#BreadCrumbsDiv {
+  margin-bottom: 1rem;
 }
-
-nav li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-nav li.dropdown {
-  display: inline-block;
-}
-
-nav .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-nav .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-nav .dropdown-content a:hover {background-color: #f1f1f1;}
-
-nav .dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 
 /* START: BOOTSTRAP 5 Multi-level dropdown
@@ -174,41 +131,44 @@ section {
 
 /* Responsive */
 @media(max-width: 991.5px) {
-    .navbar-brand {
-        font-size: 1.2rem;
-    }
-
-    .navbar-nav .nav-item {
-        margin: 5px 10px;
-    }
-
-    form {
-        margin: 30px 0;
-    }
-
-    #navbar-toggler{
-      height: 33px;
-      width: 33px;
-      position: relative;
-      display: block;
-      margin: 0.5em 0.5em;
-      float: right;
-      padding: 3px 6px;
-      background: transparent;
-      border: 3px solid #555;
-      border-radius: 8px;
-      cursor: pointer;
+  main {
+    padding: 0rem 1rem;
   }
-  
+
+  form {
+    margin: 30px 0;
+  }
+
+  #navbar-toggler{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    display: block;
+    margin: 0.5em 0.5em;
+    float: right;
+    padding: 3px 6px;
+    background: transparent;
+    border: 3px solid #555;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
   .navButton-Line{
-      background:#00ABD6;
-      display: block;
-      width: 15px;
-      height: 3px;
-      border-radius: 1px;
-      margin: 3px 0;
+    background:#00ABD6;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-radius: 1px;
+    margin: 3px 0;
   }
 
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 10px;
+  }
 }
 
 /* ENDING: BOOTSTRAP 5 Multi-level dropdown */
