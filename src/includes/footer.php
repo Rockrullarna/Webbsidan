@@ -30,10 +30,14 @@
         Messenger: <a href="https://m.me/rockrullarna">m.me/rockrullarna</a>
       </div>
       <div id="footer-contact" class="col-lg-4 col-xl-3 text-center align-self-end p-0 mt-3">
-        <a href="/Kontakt">Se all kontaktinformation</a>
+        <a href="/Kontakt">Se all kontaktinformation</a><br />
+        &copy; 2023 - Dansklubben Rockrullarna
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-3">
-        <a href="/Kontakt">Se all kontaktinformation</a>
+        <a href="https://m.me/rockrullarna" alt="Messenger" title="Chatta med oss på Messenger">Messenger</a>
+        <a href="https://fb.me/rockrullarna" alt="Facebook" title="Följ oss på Facebook">Facebook</a>
+        <a href="https://www.instagram.com/rockrullarna" alt="Instagram" title="Följ oss på Instagram">Instagram</a>
+        <a href="https://www.tiktok.com/@dansklubbrockrullarna" alt="TikTok" title="Följ oss på TikTok">TikTok</a>
       </div>
     </div>
     <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
