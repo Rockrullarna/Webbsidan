@@ -60,7 +60,7 @@
       <a class="navbar-brand" href="/" style="width: 4rem;">
         <img alt="Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-SVG-logga.svg" />
       </a>
-      <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" style="margin-right: 1rem; color: #00ABD6;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+      <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <span class="navButton-Line" aria-hidden="true"></span>
         <span class="navButton-Line" aria-hidden="true"></span>
         <span class="navButton-Line" aria-hidden="true"></span>
@@ -189,4 +189,4 @@
       </div>
     </nav>
   </header>
-  <main class="container-md">
+  <main id="ContentStart" class="container-md">
