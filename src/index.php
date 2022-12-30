@@ -21,7 +21,7 @@
         <p>
           Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan: 
           <strong>
-            <a href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Danskurser / Anmälan danskurser</a>
+            <a href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
         </p>
         <p>
