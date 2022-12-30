@@ -12,19 +12,22 @@
     <h1>Dansklubben Rockrullarna</h1>
     <p>Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är Bugg, Fox och West Coast Swing.</p>
     <p>Klubben är för dig som medlem. Vi som dansar här ställer upp ideellt och lär varandra.</p>
-    <h2>Sociala media</h2>
-    <h3>Facebook</h3>
+    <h2>Nyheter</h2>
     <p>
-      <!-- Feed uppdateras från: https://developers.facebook.com/docs/plugins/page-plugin/ -->
-      feed
+      Senaste nytt hittar du på <a href="/Sociala-media">Sociala media-sidan</a>.
     </p>
-    <h3>Instagram</h3>
+    <h2>Kommande aktiviteter</h2>
     <p>
-      feed
+      Här hittar du våra kommande aktiviteter från <a href="/Aktivitetskalender">Aktivitetskalendern</a>. 
     </p>
-    <h3>TikTok</h3>
     <p>
-      feed
+      Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan: 
+      <strong>
+        <a href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Danskurser / Anmälan danskurser</a>
+      </strong>
+    </p>
+    <p>
+      <iframe frameborder="0" height="700" scrolling="yes" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" style="border-width: 0; width: 98%; min-width: 320px;"></iframe>
     </p>
 <?php
   include_once 'includes/footer.php'
