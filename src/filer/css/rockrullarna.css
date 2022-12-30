@@ -42,6 +42,22 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.SkipToContentLink {
+  background: #00ABD6;
+  color: #fff;
+  height: 30px;
+  left: 5%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.SkipToContentLink:focus {
+  transform: translateY(0%);
+  color: #fff;
+}
+
 
 /* START: BOOTSTRAP 5 Multi-level dropdown
     From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */

@@ -54,6 +54,9 @@
   }?>" />
 </head>
 <body>
+  <a class="SkipToContentLink" href="#ContentStart" accesskey="s">
+    Hoppa till sidans innehåll
+  </a>
   <header>
     <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
     <nav class="navbar navbar-expand-lg ph-3">
