@@ -56,14 +56,15 @@
 <body>
   <header>
     <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-    <nav class="navbar navbar-expand-lg p-3">
+    <nav class="navbar navbar-expand-lg ph-3">
       <a class="navbar-brand" href="/" style="width: 4rem;">
         <img alt="Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-SVG-logga.svg" />
       </a>
-      <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+      <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" style="margin-right: 1rem; color: #00ABD6;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <span class="navButton-Line" aria-hidden="true"></span>
         <span class="navButton-Line" aria-hidden="true"></span>
         <span class="navButton-Line" aria-hidden="true"></span>
+         Meny
       </button>
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">

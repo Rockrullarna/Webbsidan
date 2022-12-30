@@ -60,7 +60,7 @@ header {
 }
 
 .navbar-nav .nav-item {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .navbar-nav .nav-link {
@@ -141,7 +141,7 @@ section {
 
   #navbar-toggler{
     height: 33px;
-    width: 33px;
+    width: 60px;
     position: relative;
     display: block;
     margin: 0.5em 0.5em;
@@ -159,7 +159,7 @@ section {
     width: 15px;
     height: 3px;
     border-radius: 1px;
-    margin: 3px 0;
+    margin: 3px auto;
   }
 
   .navbar-brand {
