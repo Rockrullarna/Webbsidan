@@ -38,6 +38,10 @@ a:hover {
   pointer-events: none;
 }
 
+.word-wrap {
+  word-wrap: break-word;
+}
+
 #BreadCrumbsDiv {
   margin-bottom: 1rem;
 }
