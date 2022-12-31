@@ -1,5 +1,5 @@
 <?php
-  $header_title = "Skicka ärende eller fråga";
+  $header_title = "Skicka ärende eller fråga - Kontakt";
   $header_description = "Här kan du kontakta oss via e-post";
 
   $page_updated = "2022-12-31 16:48";
