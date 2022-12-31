@@ -17,14 +17,12 @@
       Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
     </p>
 
-  
-    <div class="FAQCategoryHeading1">
+    <h2 class="FAQCategoryHeading1">
                 Teams-möte
-            </div>
-
-    <div class="FAQquestion">
+    </h2>
+    <h3 class="FAQquestion">
         <p>Hur ansluter jag till Teams-m&ouml;tet som jag ska n&auml;rvara vid hos Rockrullarna?&nbsp;</p>
-    </div>
+    </h3>
 
     <span id="para1" class="faqFact DisplayNone">
         <ol>
@@ -59,13 +57,9 @@
         <br />
     </span>
 
-                    
-                        
-                        
-
-    <div class="FAQquestion">
+    <h3 class="FAQquestion">
         <p>Hur b&ouml;r jag agera under ett Teams-m&ouml;te?</p>
-    </div>
+    </h3>
 
     <span id="para2" class="faqFact DisplayNone">
         <p>Under v&aring;ra Teams-m&ouml;ten s&aring; finns det n&aring;gra saker att t&auml;nka p&aring;, s&aring; vi inte pratar i mun p&aring; varandra och f&aring;r ett riktigt trevligt m&ouml;te tillsammans.</p>
@@ -97,19 +91,12 @@
         <br />
     </span>
 
-                    
-                
-            
-                <div class="FAQCategoryHeading1">
-                    Zoom-möte
-                </div>
-                
-                        
-                        
-
-    <div class="FAQquestion">
+    <h2 class="FAQCategoryHeading1">
+        Zoom-möte
+    </h2>
+    <h3 class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min Mobil/Surfplatta?</p>
-    </div>
+    </h3>
 
     <span id="para3" class="faqFact DisplayNone">
         <p>1. Ladda ned Zoom via din applikations-butik (App Store/Google Play).</p>
@@ -144,15 +131,11 @@
             </p>
         </div>
         <br />
-    </span>
+    </span>             
 
-                    
-                        
-                        
-
-    <div class="FAQquestion">
+    <h3 class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min Dator?</p>
-    </div>
+    </h3>
 
     <span id="para4" class="faqFact DisplayNone">
         <p>1. Navigera till länken du fått i e-postmeddelandet med inbjudan till mötet. </p>
@@ -183,13 +166,9 @@
         <br />
     </span>
 
-                    
-                        
-                        
-
-    <div class="FAQquestion">
+    <h3 class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min webbläsare?</p>
-    </div>
+    </h3>
 
     <span id="para5" class="faqFact DisplayNone">
         <p>1. Navigera till länken du fått i e-postmeddelandet med inbjudan till mötet. </p>
@@ -218,19 +197,12 @@
         <br />
     </span>
 
-                    
-                
-            
-                <div class="FAQCategoryHeading1">
-                    Dans.se
-                </div>
-                
-                        
-                        
-
-    <div class="FAQquestion">
+    <h2 class="FAQCategoryHeading1">
+        Dans.se
+    </h2>
+    <h3 class="FAQquestion">
         <p>Hur loggar jag in och &auml;ndrar jag mina personuppgifter i dans.se?</p>
-    </div>
+    </h3>
 
     <span id="para6" class="faqFact DisplayNone">
         <ol>
