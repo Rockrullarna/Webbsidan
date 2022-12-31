@@ -22,6 +22,9 @@
     } else {
       echo "$header_description | Rockrullarna.se";
   }?>" />
+  <?php if (empty($header_keywords)) {
+      echo "<meta name=\"KEYWORDS\" content=\"$header_keywords\"";
+  }?>
   <meta name="RATING" content="General" />
   <meta property="og:url" content="<?php if (empty($page_url)) {
       echo "https://rockrullarna.se/";
@@ -38,7 +41,11 @@
     } else {
       echo "$header_description | Rockrullarna.se";
   }?>" />
-  <meta property="og:image" content="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
+  <meta property="og:image" content="<?php if (isset($page_image)) {
+      echo "$page_image";
+    } else {
+      echo "https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg";
+  }?>" />
   <meta property="og:site_name" content="Dansklubben Rockrullarna" />
   <meta property="og:type" content="website" />
   <meta name="creation_date" content="Thu, 29 Dec 2022 21:29:00 GMT" />
