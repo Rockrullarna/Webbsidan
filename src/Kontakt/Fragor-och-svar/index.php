@@ -20,25 +20,24 @@
     <h2 id="teams-mote" class="FAQCategoryHeading1">
       Teams-möte
     </h2>
+
     <h3 id="teams-ansluta-till-mote" class="FAQquestion">
         <p>Hur ansluter jag till Teams-mötet som jag ska närvara vid hos Rockrullarna? </p>
     </h3>
-
     <span id="para1" class="faqFact DisplayNone">
-    <ol>
-      <li>Du börjar med att ansluta genom att öppna den Teams-länken du fått av oss i inbjudan till din e-postadress (har du inte fått någon länk, kontakta oss via: <a href="mailto:info@rockrullarna.se" title="info@rockrullarna.se">info@rockrullarna.se</a>). </li>
-      <li>Se gärna till att ladda ned Teams på din dator, mobil eller surfplatta via den översta knappen i länken "Ladda ner app".</li>
-      <li>Gå sedan tillbaka till den inbjudan du fått av oss och öppna sedan Teams-mötet igen. </li>
-      <li>Välj nu att starta mötet via din Teams-app. </li>
-      <li>Se till att du har rätt inställningar för högtalare/ljud på din enhet (kan även ändras under mötet om det behövs). </li>
-      <li>Stäng gärna av mikrofonen på din enhet när du anslutit till mötet. </li>
-      <li>Nu ser vi till att ha ett riktigt trevligt möte tillsammans!</li>
-    </ol>
-    <p class="mt-5">Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
-    <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
-    <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#teams-ansluta-till-mote</a></p>
+      <ol>
+        <li>Du börjar med att ansluta genom att öppna den Teams-länken du fått av oss i inbjudan till din e-postadress (har du inte fått någon länk, kontakta oss via: <a href="mailto:info@rockrullarna.se" title="mejla till: info@rockrullarna.se">info@rockrullarna.se</a>). </li>
+        <li>Se gärna till att ladda ned Teams på din dator, mobil eller surfplatta via den översta knappen i länken "Ladda ner app".</li>
+        <li>Gå sedan tillbaka till den inbjudan du fått av oss och öppna sedan Teams-mötet igen. </li>
+        <li>Välj nu att starta mötet via din Teams-app. </li>
+        <li>Se till att du har rätt inställningar för högtalare/ljud på din enhet (kan även ändras under mötet om det behövs). </li>
+        <li>Stäng gärna av mikrofonen på din enhet när du anslutit till mötet. </li>
+        <li>Nu ser vi till att ha ett riktigt trevligt möte tillsammans!</li>
+      </ol>
+      <p class="mt-5">Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
+      <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
+      <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#teams-ansluta-till-mote</a></p>
     </span>
-
     <span id="linkShow1" class="DisplayBlock">
         <div class="faq" onclick="return toggleMe(&#39;para1&#39;, &#39;linkShow1&#39;, &#39;linkHide1&#39;)">
             <p>
@@ -56,23 +55,21 @@
         <br />
     </span>
 
-    <h3 class="FAQquestion">
+    <h3 id="teams-information-under-motet" class="FAQquestion">
         <p>Hur bör jag agera under ett Teams-möte?</p>
     </h3>
-
     <span id="para2" class="faqFact DisplayNone">
-        <p>Under våra Teams-möten så finns det några saker att tänka på, så vi inte pratar i mun på varandra och får ett riktigt trevligt möte tillsammans.</p>
-    <p><img class="no-visual-search"src="./Teams-mote/bild-Teams-InfoUnderMotet.png" alt="Teams information under mötet" width="720" height="186" /></p>
-    <ul>
-    <li><strong>Begär ordet</strong> när du vill prata genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan använda funktionen "Räck upp handen"✋ (nr 2 i bilden). <br /><br /></li>
-    <li><strong>Kom åt chatten</strong> genom att trycka på "pratbubblan"💬 (nr 3 i bilden) och där kan du skriva in dina frågor närsomhelst under mötet. Så besvaras dessa i turordning. <br /><br /></li>
-    <li><strong>Stäng av ljudet</strong> genom att se till så "mikrofon-ikonen"🎤 (nr 4 i bilden) är överstreckad.<br /><br /></li>
-    <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
-    </ul>
-    <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
-    <p>Direktlänk till detta svaret: <br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet" title="Teams - Information under mötet">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet</a> </p>
+      <p>Under våra Teams-möten så finns det några saker att tänka på, så vi inte pratar i mun på varandra och får ett riktigt trevligt möte tillsammans.</p>
+      <p><img class="no-visual-search"src="./Teams-mote/bild-Teams-InfoUnderMotet.png" alt="Teams information under mötet" width="720" height="186" /></p>
+      <ul>
+        <li><strong>Begär ordet</strong> när du vill prata genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan använda funktionen "Räck upp handen"✋ (nr 2 i bilden). <br /><br /></li>
+        <li><strong>Kom åt chatten</strong> genom att trycka på "pratbubblan"💬 (nr 3 i bilden) och där kan du skriva in dina frågor närsomhelst under mötet. Så besvaras dessa i turordning. <br /><br /></li>
+        <li><strong>Stäng av ljudet</strong> genom att se till så "mikrofon-ikonen"🎤 (nr 4 i bilden) är överstreckad.<br /><br /></li>
+        <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
+      </ul>
+      <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
+      <p>Direktlänk till detta svaret: <br /><a href="#teams-information-under-motet">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#teams-information-under-motet</a></p>
     </span>
-
     <span id="linkShow2" class="DisplayBlock">
         <div class="faq" onclick="return toggleMe(&#39;para2&#39;, &#39;linkShow2&#39;, &#39;linkHide2&#39;)">
             <p>
@@ -93,10 +90,10 @@
     <h2 id="zoom-mote" class="FAQCategoryHeading1">
         Zoom-möte
     </h2>
-    <h3 class="FAQquestion">
+
+    <h3 id="zoom-ansluta-till-mote-via-mobil" class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min Mobil/Surfplatta?</p>
     </h3>
-
     <span id="para3" class="faqFact DisplayNone">
         <p>1. Ladda ned Zoom via din applikations-butik (App Store/Google Play).</p>
     <p>Länk till <a href="https://itunes.apple.com/us/app/id546505307" target="_blank" title="Zoom i App Store (iOS)" rel="noopener">Zoom i App Store (iOS)<br /></a>Länk till <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings" target="_blank" title="Zoom i Google Play (Android)" rel="noopener">Zoom i Google Play (Android)</a></p>
@@ -113,8 +110,8 @@
     <p> </p>
     <p>Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
     <p>Vi ses online! :) </p>
+    <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-mobil">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-mobil</a></p>
     </span>
-
     <span id="linkShow3" class="DisplayBlock">
         <div class="faq" onclick="return toggleMe(&#39;para3&#39;, &#39;linkShow3&#39;, &#39;linkHide3&#39;)">
             <p>
@@ -132,10 +129,9 @@
         <br />
     </span>             
 
-    <h3 class="FAQquestion">
+    <h3 id="zoom-ansluta-till-mote-via-dator" class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min Dator?</p>
     </h3>
-
     <span id="para4" class="faqFact DisplayNone">
         <p>1. Navigera till länken du fått i e-postmeddelandet med inbjudan till mötet. </p>
     <p>2. Ladda ned och installera Zoom ifrån länken till inbjudan (Klicka på: download &amp; run Zoom, sedan installera det programmet som laddades ned i nedre delen av webbläsaren). </p>
@@ -146,8 +142,8 @@
     <p> </p>
     <p>Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
     <p>Vi ses online! :) </p>
+    <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-dator">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-dator</a></p>
     </span>
-
     <span id="linkShow4" class="DisplayBlock">
         <div class="faq" onclick="return toggleMe(&#39;para4&#39;, &#39;linkShow4&#39;, &#39;linkHide4&#39;)">
             <p>
@@ -165,10 +161,9 @@
         <br />
     </span>
 
-    <h3 class="FAQquestion">
+    <h3 id="zoom-ansluta-till-mote-via-webben" class="FAQquestion">
         <p>Hur ansluter jag till Zoom-mötet via min webbläsare?</p>
     </h3>
-
     <span id="para5" class="faqFact DisplayNone">
         <p>1. Navigera till länken du fått i e-postmeddelandet med inbjudan till mötet. </p>
     <p>2. Du bör nu få valet att antingen ladda ned Zoom till din dator, eller ansluta via webbläsaren, välj då "Start from your browser" (starta från din webbläsare) , även om det är rekommenterat att du istället laddar ned Zoom och sedan, följer guiden: "Hur ansluter jag till mötet via datorn", eftersom du då får tillgång till fler funktioner via dator-versionen än webb-versionen av Zoom. <br /><img class="no-visual-search"title="Starta från webbläsaren" src="./Zoom-mote/bild-Zoom-1-starta-fran-webblasaren.png" alt="Starta från webbläsaren" width="534" height="427" /></p>
@@ -177,6 +172,7 @@
     <p>5. Nu är du inne i mötet, längst ned i mötet ser du knappar för att starta Mikrofon/Webbkamera eller Chatten. <br /><img class="no-visual-search"title="Nu är du inne i mötet" src="./Zoom-mote/bild-Zoom-4-Mic.png" alt="Nu är du inne i mötet" width="534" height="426" /></p>
     <p>6. För att kunna vara med på omröstningar behöver du tillåta Pop-up fönster, som dyker upp när en omröstning startar (detta fungerar direkt om du har installerat Zoom). <br /><br /><br />Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
     <p>Vi ses online! :) </p>
+    <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-webben">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-webben</a></p>
     </span>
 
     <span id="linkShow5" class="DisplayBlock">
@@ -199,10 +195,10 @@
     <h2 id="dans-se" class="FAQCategoryHeading1">
         Dans.se
     </h2>
-    <h3 class="FAQquestion">
+
+    <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="FAQquestion">
         <p>Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?</p>
     </h3>
-
     <span id="para6" class="faqFact DisplayNone">
         <ol>
     <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
@@ -215,7 +211,7 @@
     </ol>
     <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
     <p><br /></p>
-    <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?m=%7cpx%7b(t%7eHz(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st&amp;contentEncoding=utf-8&amp;l=sv" title="Skyddad adress"><img class="no-visual-search"class="emailEncoderImage" alt="This is a mailto link" src="/IdrottOnlineKlubb/orebro/DKRockrullarna-Danssport/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?it=z(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st" /></a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+    <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
     <p><br /><br /></p>
     <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
     <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
@@ -226,9 +222,8 @@
     <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
     <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
     <p> </p>
-    <p>Direktlänk till detta svaret: <br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter</a> </p>
+    <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
     </span>
-
     <span id="linkShow6" class="DisplayBlock">
         <div class="faq" onclick="return toggleMe(&#39;para6&#39;, &#39;linkShow6&#39;, &#39;linkHide6&#39;)">
             <p>
