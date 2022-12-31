@@ -51,7 +51,7 @@
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="https://dans.se/shop/?org=rockrullarna&mship" title="dans.se - Bli medlem hos Rockrullarna">Bli medlem hos Rockrullarna (dans.se)</a></strong></p>
+            <p><strong>► <a href="https://dans.se/shop/?org=rockrullarna&mship" title="dans.se - Bli medlem hos Rockrullarna" target="_blank">Bli medlem hos Rockrullarna (dans.se)</a></strong></p>
           </td>
         </tr>
       </tbody>
