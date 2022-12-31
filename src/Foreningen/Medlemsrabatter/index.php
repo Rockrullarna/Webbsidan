@@ -41,5 +41,5 @@
       Skicka ett mail till <a href="mailto:info@rockrullarna.se" title="Mejla till info@rockrullarna.se">info@rockrullarna.se</a>
     </p>
 <?php
-  include_once '../../../includes/footer.php'
+  include_once '../../includes/footer.php'
 ?>
