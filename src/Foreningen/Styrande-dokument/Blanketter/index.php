@@ -17,7 +17,7 @@
     </h1>
     <p>
       På denna sida visas våra blanketter för olika ändamål. <br />
-      (DKRR-003 , finns även som digitalt formulär på sidan: <a href="/Kontaktaoss/skickaarendefraga/ansokanomevenemang/" title="Ansökan om evenemang">Ansökan om evenemang</a>)
+      (DKRR-003 , finns även som digitalt formulär på sidan: <a href="/Kontakt/Skicka-arende-fraga/Ansokan-om-evenemang" title="Ansökan om evenemang">Ansökan om evenemang</a>)
     </p>
     <table class="GalleryTable" border="0" cellpadding="0" cellspacing="0">
       <tr class="GalleryTableHeader">
