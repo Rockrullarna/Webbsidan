@@ -22,9 +22,11 @@
     } else {
       echo "$header_description | Rockrullarna.se";
   }?>" />
-  <?php if (empty($header_keywords)) {
-      echo "<meta name=\"KEYWORDS\" content=\"$header_keywords\"";
-  }?>
+  <meta name="KEYWORDS" content="<?php if (isset($header_keywords)) {
+      echo "$header_keywords";
+    } else {
+      echo "Dansklubben Rockrullarna, Ideell dansförening i Örebro";
+  }?>" />
   <meta name="RATING" content="General" />
   <meta property="og:url" content="<?php if (empty($page_url)) {
       echo "https://rockrullarna.se/";
