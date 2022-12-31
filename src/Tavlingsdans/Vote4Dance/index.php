@@ -7,7 +7,7 @@
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
 
-  include_once '../includes/header.php'
+  include_once '../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
       <a href="../../">Rockrullarna.se</a> / <a href="../">Tävlingsdans</a> / <span>Vote4Dance</span>
@@ -22,5 +22,5 @@
     <hr />
     <p><a href="http://vote4dance.com" target="_blank" title="Vote4Dance (öppnas i nytt fönster)">www.vote4dance.com</a></p>
 <?php
-  include_once '../includes/footer.php'
+  include_once '../../includes/footer.php'
 ?>
