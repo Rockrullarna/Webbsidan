@@ -18,7 +18,18 @@
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
     <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/anmalandanskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
     <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/Styrandedokument/Verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/foreningen/Styrandedokument/Stadgar/" title="Stadgarna">Stadgarna</a>).</p>
-    <p> </p>
+    <p>&nbsp;</p>
+    <h2>Protokollen för årsmöten</h2>
+    <p>Här finns protokoll från våra årsmöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
+    <p>
+      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/Esnw21kgySVGhlMpoWoxRo4BpkWyddlH5bix5ssyM5MQVw?e=Hpg6gG" target="_blank" title="Rockrullarnas årsmötesprotokoll (öppnas i nytt fönster)">
+        <span style="font-size: x-large;">Årsmötesprotokoll (Publikt på SharePoint)</span>
+      </a>
+    </p>
+    <p>
+      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Årsmöten (kräver inloggning)
+    </p>
+    <!--
     <p>Här nedan samlas protokoll och handlingar från årsmöten.<br />(Välj senaste året i listan här nedan för att se årets handlingar)</p>
     <div id="GalleryChildAlbumSelector">
       <label for="gallerychildalbum">Välj kategori:</label>
@@ -586,6 +597,7 @@
           </td>
       </tr>
     </table>
+    -->
 <?php
   include_once '../../../includes/footer.php'
 ?>

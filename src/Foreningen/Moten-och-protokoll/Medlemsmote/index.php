@@ -19,9 +19,18 @@
     <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/Anmalan-danskurser" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Fest".</p>
     <p>Information gällande medlemsmötet kommer ut via sociala medier, hemsida samt via tränare.</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <h2>Protokollen</h2>
-    <p>Här nedan samlas protokoll från medlemsmöten.</p>
+    <h2>Protokollen för medlemsmöten</h2>
+    <p>Här finns protokoll från våra medlemsmöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
+    <p>
+      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EpJGcTeiphJPp6evzYUdUBUBBF-3IN0iT5gpXut0w7K98A?e=lDOXYz" target="_blank" title="Rockrullarnas medlemsmötesprotokoll (öppnas i nytt fönster)">
+        <span style="font-size: x-large;">Medlemsmötesprotokoll (Publikt på SharePoint)</span>
+      </a>
+    </p>
+    <p>
+      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Medlemsmöten (kräver inloggning)
+    </p>
+
+    <!--
     <table class="GalleryTable" border="0" cellpadding="0" cellspacing="0">
       <tr class="GalleryTableHeader">
           <td colspan="2" class="paddingLeft5">Titel</td>
@@ -62,6 +71,7 @@
           </td>
       </tr>
     </table>
+    -->
 <?php
   include_once '../../../includes/footer.php'
 ?>

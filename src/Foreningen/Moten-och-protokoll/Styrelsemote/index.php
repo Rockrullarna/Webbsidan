@@ -16,6 +16,23 @@
       Styrelsemöte
     </h1>
     <p>Här nedan samlas protokoll från våra styrelsemöten.</p>
+    <p>&nbsp;</p>
+    <h2>Protokollen för styrelsemöten</h2>
+    <p>Här finns protokoll från våra styrelsemöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
+    <p>
+      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBDEypef0qldzu1QfBHXShQQ?e=UOi6iC" target="_blank" title="Rockrullarnas styrelsemötesprotokoll (öppnas i nytt fönster)">
+        <span style="font-size: x-large;">Styrelsemötesprotokoll (Publikt på SharePoint)</span>
+      </a>
+    </p>
+    <p>
+      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten (kräver inloggning)
+    </p>
+
+    <!--
+    <p>
+      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBWNqCRKGgZYXCNNSKrqoxQw?e=fggGFy">https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBWNqCRKGgZYXCNNSKrqoxQw?e=fggGFy</a>
+    </p>
+    <p><iframe src="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBWNqCRKGgZYXCNNSKrqoxQw?e=fggGFy&action=interactivepreview" style="min-width:  320px; width: 98%; min-height: 450px; max-height: 600px;"></iframe></p>
     <div id="GalleryChildAlbumSelector">
       <label for="gallerychildalbum">Välj kategori:</label>
       <select id="gallerychildalbum" name="gallerychildalbum">
@@ -1609,6 +1626,7 @@
       </tr>
 
     </table>
+    -->
 <?php
   include_once '../../../includes/footer.php'
 ?>

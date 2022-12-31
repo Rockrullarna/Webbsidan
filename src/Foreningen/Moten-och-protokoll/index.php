@@ -24,17 +24,17 @@
         <tbody>
           <tr>
             <td>
-              <p><strong>► <a href="./Arsmote" title="Årsmöte">Årsmöte</a></strong></p>
+              <a href="./Arsmote" title="Årsmöte"><p><strong>► Årsmöte</strong></p></a>
             </td>
           </tr>
           <tr>
             <td>
-              <p><strong>► <a href="./Medlemsmote" title="Medlemsmöte">Medlemsmöte</a></strong></p>
+              <a href="./Medlemsmote" title="Medlemsmöte"><p><strong>► Medlemsmöte</strong></p></a>
             </td>
           </tr>
           <tr>
             <td>
-              <p><strong>► <a href="./Styrelsemote" title="Styrelsemöte">Styrelsemöte</a></strong></p>
+              <a href="./Styrelsemote" title="Styrelsemöte"><p><strong>► Styrelsemöte</strong></p></a>
             </td>
           </tr>
         </tbody>
