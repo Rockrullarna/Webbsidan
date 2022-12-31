@@ -13,16 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Kurser</span>
     </div>
     <h1>Fråga gällande våra kurser (kurser)</h1>
-    <p></p>
-
-    <h1 id="ContentStart">
-      <span>Fråga gällande kurser</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:kurser@rockrullarna.se" title="Mejla till: kurser@rockrullarna.se">Maila kurser</a></p>
       <br />
       <div>
         <p><span class="TextRun SCXW264050255 BCX8" lang="SV-SE" data-contrast="auto">Frågor som specifikt gäller kurser</span><span class="TextRun SCXW264050255 BCX8" lang="SV-SE" data-contrast="auto">.</span><span class="EOP SCXW264050255 BCX8" data-ccp-props="{&quot;134233279&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>

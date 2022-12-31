@@ -13,15 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Allmäna frågor</span>
     </div>
     <h1>Allmäna frågor (info)</h1>
-    <p></p>
-    <h1 id="ContentStart">
-      <span>Allmänna frågor</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">Maila info</a></p>
       <br />
       <div>
         <p><span class="TextRun SCXW264050255 BCX8" lang="SV-SE" data-contrast="auto">Generella frågor som berör föreningen</span><span class="TextRun SCXW264050255 BCX8" lang="SV-SE" data-contrast="auto">.</span><span class="EOP SCXW264050255 BCX8" data-ccp-props="{&quot;134233279&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>

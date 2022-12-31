@@ -13,15 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Styrelsen</span>
     </div>
     <h1>Fråga till styrelsen (styrelsen)</h1>
-    <p></p>
-    <h1 id="ContentStart">
-      <span>Fråga till Styrelsen</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">Maila styrelsen</a></p>
       <br />
       <div>
         <ul class="BulletListStyle1 SCXW264050255 BCX8" role="list">

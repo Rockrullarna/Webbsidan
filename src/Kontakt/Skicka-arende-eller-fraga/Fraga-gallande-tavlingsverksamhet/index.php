@@ -4,8 +4,8 @@
 
   $page_updated = "2022-12-31 18:42";
   $page_url = "/Kontakt/Skicka-arende-eller-fraga/Fraga-gallande-tavlingsverksamhet";
-  $page_contact_name = "Info";
-  $page_contact_email = "info@rockrullarna.se";
+  $page_contact_name = "Tävlingsansvarig";
+  $page_contact_email = "tavlingsansvarig@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
@@ -13,15 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Tavlingsverksamhet</span>
     </div>
     <h1>Fråga gällande tävlingsverksamhet (tavlingsansvarig)</h1>
-    <p></p>
-    <h1 id="ContentStart">
-      <span>Fråga gällande tävlingsverksamhet</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:tavlingsansvarig@rockrullarna.se" title="Mejla till: tavlingsansvarig@rockrullarna.se">Maila tävlingsansvarig</a></p>
       <br />
       <div>
         <p>Frågor som specifikt gäller tävlingsverksamheten.</p>

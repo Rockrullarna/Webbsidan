@@ -13,15 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Ansökan om evenemang</span>
     </div>
     <h1>Ansökan om evenemang (styrelsen)</h1>
-    <p></p>
-    <h1 id="ContentStart">
-      <span>Ansökan om evenemang</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">Maila styrelsen</a></p>
       <br />
       <div>
         <p>Denna sidan har till syfte att redovisa den information som styrelsen behöver för att fatta genomförandebeslut av önskat evenemang. Informationen ger även underlag så att föreningen kan skapa evenemang i dans.se.&nbsp;</p>

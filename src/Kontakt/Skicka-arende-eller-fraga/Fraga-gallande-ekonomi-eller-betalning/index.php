@@ -13,16 +13,7 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Kontakt</a> / <a href="../">Skicka ärende eller fråga</a> / <span>Ekonomi eller betalning</span>
     </div>
     <h1>Fråga gällande Ekonomi eller betalning (ekonomi)</h1>
-    <p></p>
-
-    <h1 id="ContentStart">
-      <span>Fråga gällande ekonomi/betalning</span>
-    </h1>
-
-
-    <div class="PageBodyDiv" style="overflow:visible">
-
-
+    <p><a href="mailto:ekonomi@rockrullarna.se" title="Mejla till: ekonomi@rockrullarna.se">Maila kassören</a></p>
       <br />
       <div>
         <p>Frågor som gäller ekonomi, exempelvis betalning av kursavgifter.</p>
