@@ -2,7 +2,7 @@
   $header_title = "Integritetspolicy - Styrande dokument - Föreningen";
   $header_description = "Du ska kunna känna dig trygg med att vår ideella förening behandlar dina personuppgifter korrekt";
 
-  $page_updated = "2022-12-29 23:38";
+  $page_updated = "2020-10-14 18:45";
   $page_url = "/Foreningen/Styrande-dokument/Integritetspolicy";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -229,17 +229,9 @@
     <p>Mer information om hur föreningen arbetar för att tillvarata dina rättigheter återfinns i dokument ”<i>Instruktioner för att tillvarata enskildas rättigheter”</i> som hittas på <a href="http://www.rf.se/">www.rf.se</a>.</p>
     <h2>Om du vill veta mera</h2>
     <p>Har du frågor om föreningens personuppgiftsbehandling eller vill utöva dina rättigheter kontaktas: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
-    <hr />
-    <span style="float: left; margin: 3px 0; font-size: 11px; text-transform: uppercase;">
-        Uppdaterad: 14 OKTOBER 2020 18:45
-    </span>
-    <span style="float: right">
-      Skribent: <span>Styrelsen, Rockrullarna</span>
-      <br />
-      <span>
-        E-post: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a>
-      </span>
-    </span>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 <?php
   include_once '../../../includes/footer.php'
 ?>

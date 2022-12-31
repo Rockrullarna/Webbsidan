@@ -22,6 +22,9 @@
       <a href="DKRR-001-v1.0-Verksamhetsbeskrivning.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001-v1.0-Verksamhetsbeskrivning.pdf</a><br />
       Eller läs det här nedan.</p>
     <iframe src="DKRR-001-v1.0-Verksamhetsbeskrivning.pdf"  style="width: 98%; min-width: 320px; height: 600px"></iframe>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 <?php
   include_once '../../../includes/footer.php'
 ?>

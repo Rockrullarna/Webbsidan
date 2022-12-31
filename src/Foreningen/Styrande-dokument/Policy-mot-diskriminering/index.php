@@ -2,7 +2,7 @@
   $header_title = "Policy mot diskriminering - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förening ska vara en trygg plats för alla! Därav ska INGEN kränkas eller särbehandlas";
 
-  $page_updated = "2022-12-29 23:36";
+  $page_updated = "2020-10-14 19:05";
   $page_url = "/Foreningen/Styrande-dokument/Policy-mot-diskriminering";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -95,17 +95,9 @@
     <p>Vi har alla ett ansvar för vår gemensamma miljö.</p>
     <p>&nbsp;</p>
     <p>Har du frågor om föreningens diskrimineringspolicy eller vill utöva dina rättigheter kontaktas: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
-    <hr />
-    <span style="float: left; margin: 3px 0; font-size: 11px; text-transform: uppercase;">
-        Uppdaterad: 14 OKTOBER 2020 19:05
-    </span>
-    <span style="float: right">
-      Skribent: <span>Styrelsen, Rockrullarna</span>
-      <br />
-      <span>
-        E-post: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a>
-      </span>
-    </span>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 <?php
   include_once '../../../includes/footer.php'
 ?>
