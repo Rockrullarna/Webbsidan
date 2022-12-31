@@ -162,7 +162,7 @@
                   <li><a class="dropdown-item" href="/Foreningen/Organisation/Valberedningen">Valberedningen</a></li>
                 </ul>
               </li>
-              <li><a class="dropdown-item" href="/Medlemsrabatter">Medlemsrabatter</a></li>
+              <li><a class="dropdown-item" href="/Foreningen/Medlemsrabatter">Medlemsrabatter</a></li>
               <li><a class="dropdown-item" href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss (dans.se)</a></li>
             </ul>
           </li>
