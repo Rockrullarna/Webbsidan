@@ -16,7 +16,7 @@
       Anmälan till danskurser
     </h1>
     <p>
-      Här nedan hittar ni anmälningslänkar till alla danskurser vi har på dansklubben Rockrullarna. Klicka på kursernas länkar för att se priserna eller anmäla er till danskursen.
+      Här nedan hittar ni anmälningslänkar till alla danskurser vi har på Dansklubben Rockrullarna. Klicka på kursernas länkar för att se priserna eller anmäla er till danskursen.
     </p>
     <p>
       Står det bara <strong>INFO </strong>på alla aktivteter, så håller vi på att förbereda inför publiceringen av nästa termin.
