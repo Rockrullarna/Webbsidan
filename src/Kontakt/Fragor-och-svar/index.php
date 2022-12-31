@@ -17,27 +17,27 @@
       Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
     </p>
 
-    <h2 class="FAQCategoryHeading1">
-                Teams-möte
+    <h2 id="Teams-mote" class="FAQCategoryHeading1">
+      Teams-möte
     </h2>
     <h3 class="FAQquestion">
-        <p>Hur ansluter jag till Teams-m&ouml;tet som jag ska n&auml;rvara vid hos Rockrullarna?&nbsp;</p>
+        <p>Hur ansluter jag till Teams-mötet som jag ska närvara vid hos Rockrullarna? </p>
     </h3>
 
     <span id="para1" class="faqFact DisplayNone">
-        <ol>
-    <li>Du b&ouml;rjar med att ansluta genom att &ouml;ppna den Teams-l&auml;nken du f&aring;tt av oss i inbjudan till din e-postadress (har du inte f&aring;tt n&aring;gon l&auml;nk, kontakta oss via:&nbsp;<a href="/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?m=%7cpx%7b(t%7eHx%7du%7eN(r%7erz(r(u%7b%7bp(r%7dp8(st&amp;contentEncoding=utf-8&amp;l=sv" title="Skyddad adress"><img class="emailEncoderImage" alt="This is a mailto link" src="/IdrottOnlineKlubb/orebro/DKRockrullarna-Danssport/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?it=(s(t(y(rt%7b(st%7dN(r%7erz(r(u%7b%7bp(r%7dp8(st" /></a>).&nbsp;</li>
-    <li>Se g&auml;rna till att ladda ned Teams p&aring; din dator, mobil eller surfplatta via den &ouml;versta knappen i l&auml;nken "Ladda ner app".</li>
-    <li>G&aring; sedan tillbaka till den inbjudan du f&aring;tt av oss och &ouml;ppna sedan Teams-m&ouml;tet igen.&nbsp;</li>
-    <li>V&auml;lj nu att starta m&ouml;tet via din Teams-app.&nbsp;</li>
-    <li>Se till att du har r&auml;tt inst&auml;llningar f&ouml;r h&ouml;gtalare/ljud p&aring; din enhet (kan &auml;ven &auml;ndras under m&ouml;tet om det beh&ouml;vs).&nbsp;</li>
-    <li>St&auml;ng g&auml;rna av mikrofonen p&aring; din enhet n&auml;r du anslutit till m&ouml;tet.&nbsp;</li>
-    <li>Nu ser vi till att ha ett riktigt trevligt m&ouml;te tillsammans!</li>
-    </ol>
-    <p>&nbsp;<span style="color: #ffffff;">.</span></p>
-    <p>Alla steg finns h&auml;r beskrivna i en kortare (2 min) informations-film:&nbsp;</p>
+      <ol>
+        <li>Du börjar med att ansluta genom att öppna den Teams-länken du fått av oss i inbjudan till din e-postadress (har du inte fått någon länk, kontakta oss via: <a href="mailto:info@rockrullarna.se" title="info@rockrullarna.se">info@rockrullarna.se</a>). </li>
+        <li>Se gärna till att ladda ned Teams på din dator, mobil eller surfplatta via den översta knappen i länken "Ladda ner app".</li>
+        <li>Gå sedan tillbaka till den inbjudan du fått av oss och öppna sedan Teams-mötet igen. </li>
+        <li>Välj nu att starta mötet via din Teams-app. </li>
+        <li>Se till att du har rätt inställningar för högtalare/ljud på din enhet (kan även ändras under mötet om det behövs). </li>
+        <li>Stäng gärna av mikrofonen på din enhet när du anslutit till mötet. </li>
+        <li>Nu ser vi till att ha ett riktigt trevligt möte tillsammans!</li>
+      </ol>
+    <p> </p>
+    <p>Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
     <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
-    <p>Direktl&auml;nk till detta svaret:&nbsp;<br /><a href="https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/AnslutaTillMote">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/AnslutaTillMote</a>&nbsp;</p>
+    <p>Direktlänk till detta svaret: <br /><a href="https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/AnslutaTillMote">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/AnslutaTillMote</a> </p>
     </span>
 
     <span id="linkShow1" class="DisplayBlock">
@@ -58,20 +58,20 @@
     </span>
 
     <h3 class="FAQquestion">
-        <p>Hur b&ouml;r jag agera under ett Teams-m&ouml;te?</p>
+        <p>Hur bör jag agera under ett Teams-möte?</p>
     </h3>
 
     <span id="para2" class="faqFact DisplayNone">
-        <p>Under v&aring;ra Teams-m&ouml;ten s&aring; finns det n&aring;gra saker att t&auml;nka p&aring;, s&aring; vi inte pratar i mun p&aring; varandra och f&aring;r ett riktigt trevligt m&ouml;te tillsammans.</p>
+        <p>Under våra Teams-möten så finns det några saker att tänka på, så vi inte pratar i mun på varandra och får ett riktigt trevligt möte tillsammans.</p>
     <p><img src="https://www7.idrottonline.se/globalassets/dk-rockrullarna---danssport/bilder/fragor_och_svar/teams-mote/infoundermotet.png?w=720&amp;h=186" alt="" width="720" height="186" /></p>
     <ul>
-    <li><strong>Beg&auml;r ordet</strong> n&auml;r du vill prata genom att trycka p&aring; "r&auml;ck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan anv&auml;nda funktionen "R&auml;ck upp handen"✋ (nr 2 i bilden).&nbsp;<br /><br /></li>
-    <li><strong>Kom &aring;t chatten</strong> genom att trycka p&aring; "pratbubblan"💬 (nr 3 i bilden) och d&auml;r kan du skriva in dina fr&aring;gor n&auml;rsomhelst under m&ouml;tet. S&aring; besvaras dessa i turordning.&nbsp;<br /><br /></li>
-    <li><strong>St&auml;ng av ljudet</strong> genom att se till s&aring; "mikrofon-ikonen"🎤 (nr 4 i bilden) &auml;r &ouml;verstreckad.<br /><br /></li>
-    <li><strong>Skicka en reaktion</strong>&nbsp;kan du g&ouml;ra genom att trycka p&aring; "r&auml;ck upp handen figuren"🙋&zwj;♀️&nbsp;(nr 1 i bilden) och sedan n&auml;rsomhelst under m&ouml;tet skicka en "tumme upp"👍, "hj&auml;rta"💓, "appl&aring;d"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under m&ouml;tets g&aring;ng, som kommer synas f&ouml;r alla deltagare.&nbsp;</li>
+    <li><strong>Begär ordet</strong> när du vill prata genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan använda funktionen "Räck upp handen"✋ (nr 2 i bilden). <br /><br /></li>
+    <li><strong>Kom åt chatten</strong> genom att trycka på "pratbubblan"💬 (nr 3 i bilden) och där kan du skriva in dina frågor närsomhelst under mötet. Så besvaras dessa i turordning. <br /><br /></li>
+    <li><strong>Stäng av ljudet</strong> genom att se till så "mikrofon-ikonen"🎤 (nr 4 i bilden) är överstreckad.<br /><br /></li>
+    <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
     </ul>
     <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
-    <p>Direktl&auml;nk till detta svaret:&nbsp;<br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet" title="Teams - Information under mötet">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet</a>&nbsp;</p>
+    <p>Direktlänk till detta svaret: <br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet" title="Teams - Information under mötet">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Teams-mote/InformationUnderMotet</a> </p>
     </span>
 
     <span id="linkShow2" class="DisplayBlock">
@@ -91,7 +91,7 @@
         <br />
     </span>
 
-    <h2 class="FAQCategoryHeading1">
+    <h2 id="Zoom-mote" class="FAQCategoryHeading1">
         Zoom-möte
     </h2>
     <h3 class="FAQquestion">
@@ -197,37 +197,37 @@
         <br />
     </span>
 
-    <h2 class="FAQCategoryHeading1">
+    <h2 id="dans-se" class="FAQCategoryHeading1">
         Dans.se
     </h2>
     <h3 class="FAQquestion">
-        <p>Hur loggar jag in och &auml;ndrar jag mina personuppgifter i dans.se?</p>
+        <p>Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?</p>
     </h3>
 
     <span id="para6" class="faqFact DisplayNone">
         <ol>
-    <li>G&aring; in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
-    <li>Om du inte kommer ih&aring;g dina inloggningsuppgifter g&aring; via "Har redan ett konto men gl&ouml;mt dina uppgifter?"&nbsp;</li>
-    <li>Fyll i ditt f&ouml;rnamn och din e-postadress, samt tryck p&aring;: "Skicka inloggningsnyckel"</li>
-    <li>Du f&aring;r nu ett mail till din mailadress s&aring; du kan s&auml;tta ett l&ouml;senord till ditt konto.&nbsp;</li>
-    <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a>&nbsp;-&gt;&nbsp;"Logga in med befintliga inloggningsuppgifter"</li>
-    <li>N&auml;r du &auml;r inloggad p&aring; ditt dans.se-konto, s&aring; trycker du p&aring;: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>"&nbsp;</li>
-    <li>H&auml;r kan du nu &auml;ndra dina personuppgifter som alla dansklubbar anv&auml;nder om dig vid anm&auml;lningar till danskurser.&nbsp;</li>
+    <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
+    <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
+    <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
+    <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
+    <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
+    <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>" </li>
+    <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
     </ol>
-    <p>&nbsp;Bilder finns nedan som hj&auml;lper dig i n&aring;gra steg h&auml;r ovan.&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Lyckas du inte sj&auml;lv &auml;ndra dina personuppgifter i dans.se, s&aring; kan du alltid kontakta oss via: <a href="/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?m=%7cpx%7b(t%7eHz(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st&amp;contentEncoding=utf-8&amp;l=sv" title="Skyddad adress"><img class="emailEncoderImage" alt="This is a mailto link" src="/IdrottOnlineKlubb/orebro/DKRockrullarna-Danssport/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?it=z(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st" /></a>&nbsp;eller n&aring;gon i receptionen, s&aring; hj&auml;lper vi dig f&aring; korrekta uppgifter i systemet.</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p><strong>&nbsp;Bild till steg 2:&nbsp;</strong><br /><br /><img src="https://www7.idrottonline.se/globalassets/dk-rockrullarna---danssport/bilder/fragor_och_svar/dans.se/dans-se-inloggning1.png?w=600&amp;h=417" alt="" width="600" height="417" /></p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+    <p> </p>
+    <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?m=%7cpx%7b(t%7eHz(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st&amp;contentEncoding=utf-8&amp;l=sv" title="Skyddad adress"><img class="emailEncoderImage" alt="This is a mailto link" src="/IdrottOnlineKlubb/orebro/DKRockrullarna-Danssport/Kontaktaoss/fragorochsvar/EmailEncoderEmbed.aspx?it=z(u(r(st(rN(r%7erz(r(u%7b%7bp(r%7dp8(st" /></a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+    <p> </p>
+    <p> </p>
+    <p><strong> Bild till steg 2: </strong><br /><br /><img src="https://www7.idrottonline.se/globalassets/dk-rockrullarna---danssport/bilder/fragor_och_svar/dans.se/dans-se-inloggning1.png?w=600&amp;h=417" alt="" width="600" height="417" /></p>
+    <p> </p>
+    <p> </p>
     <p><strong>Bild till steg 3:</strong><br /><br /><img src="https://www7.idrottonline.se/globalassets/dk-rockrullarna---danssport/bilder/fragor_och_svar/dans.se/dans-se-inloggning2.png?w=600&amp;h=397" alt="" width="600" height="397" /></p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    <p> </p>
+    <p> </p>
     <p><strong>Bild till steg 6:</strong><br /><br /><img src="https://www7.idrottonline.se/globalassets/dk-rockrullarna---danssport/bilder/fragor_och_svar/dans.se/dans-se-inloggning3.png?w=600&amp;h=447" alt="" width="600" height="447" /></p>
-    <p>&nbsp;</p>
-    <p>Direktl&auml;nk till detta svaret:&nbsp;<br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter</a>&nbsp;</p>
+    <p> </p>
+    <p>Direktlänk till detta svaret: <br /><a href="https://www.rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter">https://www.Rockrullarna.se/KontaktaOss/FragorOchSvar/Dans.se/AndraMinaPersonuppgifter</a> </p>
     </span>
 
     <span id="linkShow6" class="DisplayBlock">
