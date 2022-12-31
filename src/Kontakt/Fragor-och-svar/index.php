@@ -1,6 +1,6 @@
 <?php
   $header_title = "Frågor och svar (FAQ)";
-  $header_description = "Kontaktinformation till den ideella föreningen Dansklubben Rockrullarna i Örebro";
+  $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
   $page_updated = "2022-12-31 16:48";
   $page_url = "/Kontakt/Fragor-och-svar";
