@@ -44,7 +44,7 @@
     echo "$header_description | Rockrullarna.se";
   }?>" />
   <meta property="og:image" content="<?php if (empty($page_image)) {
-    echo "https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg";
+    echo "https://rockrullarna.se/filer/bilder/social-startsida-lar-dig-dansa.jpg";
   } else {
     echo "$page_image";
   }?>" />
