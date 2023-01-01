@@ -24,7 +24,7 @@
         <span style="font-size: x-large;">Styrelsemötesprotokoll (Publikt på SharePoint)</span>
       </a>
     </p>
-    <p>
+    <p class="word-wrap">
       https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten (kräver inloggning)
     </p>
 

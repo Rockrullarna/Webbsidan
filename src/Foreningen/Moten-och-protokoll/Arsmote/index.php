@@ -26,7 +26,7 @@
         <span style="font-size: x-large;">Årsmötesprotokoll (Publikt på SharePoint)</span>
       </a>
     </p>
-    <p>
+    <p class="word-wrap">
       https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Årsmöten (kräver inloggning)
     </p>
     <!--
