@@ -4,17 +4,17 @@
     <div class="row mb-5">
       <div id="footer-page-updated" class="col-6">
         UPPDATERAD: 
-        <?php if (isset($page_updated)) { 
-          echo "$page_updated";
-        } else {
+        <?php if (empty($page_updated)) { 
           echo "Datum saknas";
+        } else {
+          echo "$page_updated";
         }?>
       </div>
       <div id="footer-page-contact" class="col-6 text-end">
-        <?php if (isset($page_contact_email)) { 
-            echo "<a href=\"mailto:$page_contact_email\" title=\"Mejla till: $page_contact_email\">$page_contact_name, Rockrullarna</a>";
-          } else {
-            echo "<a href=\"mailto:info@rockrullarna.se\" title=\"Mejla till: info@rockrullarna.se\">Info, Rockrullarna</a>";
+        <?php if (empty($page_contact_email)) { 
+          echo "<a href=\"mailto:info@rockrullarna.se\" title=\"Mejla till: info@rockrullarna.se\">Info, Rockrullarna</a>";
+        } else {
+          echo "<a href=\"mailto:$page_contact_email\" title=\"Mejla till: $page_contact_email\">$page_contact_name, Rockrullarna</a>";
         }?>
       </div>
     </div>
