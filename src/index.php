@@ -26,7 +26,7 @@
           </strong>
         </p>
         <p>
-          <iframe frameborder="0" height="500" scrolling="yes" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" style="border-width: 0; width: 98%; min-width: 320px;"></iframe>
+          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border-width: 0; width: 98%; min-width: 320px; height: 500px;"></iframe>
         </p>
       </section>
       <section id="start-news" class="col-12 col-lg-6 text-center">
@@ -36,7 +36,7 @@
         </p>
         <h3>Facebook</h3>
         <p>
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frockrullarna&tabs=timeline&width=450&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=702771861196793" width="450" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          <iframe title="Facebook flödet för Rockrullarna" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frockrullarna&tabs=timeline&width=450&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=702771861196793" style="border:none;overflow:hidden; min-width: 320; max-width: 450; height: 500;" scrolling="no" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </p>
       </section>
     </div>
