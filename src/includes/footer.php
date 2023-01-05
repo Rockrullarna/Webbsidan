@@ -45,7 +45,7 @@
           </svg></a>
       </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
-        &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna<br />
+        &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, v12.2.230105a<br />
         <a href="/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
     </div>
