@@ -2,7 +2,7 @@
   $header_title = "Styrande dokument - Föreningen";
   $header_description = "Våra styreande föreningsdokument";
 
-  $page_updated = "2022-12-29 23:27";
+  $page_updated = "2023-01-27 11:28";
   $page_url = "/Foreningen/Styrande-dokument";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -20,7 +20,7 @@
       <tbody>
       <tr>
         <td>
-          <p><strong>► <a href="./Verksamhetsbeskrivning" title="Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></strong></p>
+          <p><strong>► <a href="./Verksamhetsbeskrivning" title="DKRR-001 Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></strong></p>
         </td>
       </tr>
       <tr>
@@ -41,6 +41,11 @@
       <tr>
         <td>
           <p><strong>► <a href="./Policy-mot-diskriminering" title="Policy mot diskriminering">Policy mot diskriminering</a></strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>► <a href="./Arshjul" title="DKRR-002 Årshjul">Årshjul</a></strong></p>
         </td>
       </tr>
       </tbody>

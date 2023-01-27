@@ -139,6 +139,7 @@
                   <li><a class="dropdown-item" href="/Foreningen/Styrande-dokument/Blanketter">Blanketter</a></li>
                   <li><a class="dropdown-item" href="/Foreningen/Styrande-dokument/Integritetspolicy">Integritetspolicy</a></li>
                   <li><a class="dropdown-item" href="/Foreningen/Styrande-dokument/Policy-mot-diskriminering">Policy mot diskriminering</a></li>
+                  <li><a class="dropdown-item" href="/Foreningen/Styrande-dokument/Arshjul">Årshjul</a></li>
                 </ul>
               </li>
               <li class="dropstart">
