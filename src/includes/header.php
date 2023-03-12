@@ -206,27 +206,27 @@
                     data-bs-toggle="dropdown"
                     data-bs-display="static">
               <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
-              <span class="d-lg-none ms-2">Toggle theme</span>
+              <span class="d-lg-none ms-2">Växla tema</span>
             </button>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
                   <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
-                  Light
+                  Mörkt
                   <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
                 </button>
               </li>
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
                   <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
-                  Dark
+                  Ljust
                   <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
                 </button>
               </li>
               <li>
                 <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
                   <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
-                  Auto
+                  Systeminställning 
                   <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
                 </button>
               </li>
