@@ -46,8 +46,8 @@
       </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.4.20230308" target="_blank" rel="nofollow">
-          v12.4.20230308
+        <a title="Visa källkoden via GitHub" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.4.20230312" target="_blank" rel="nofollow">
+          v12.4.20230312
         </a><br />
         <a href="/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
