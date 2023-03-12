@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2023-03-08 07:52";
+  $page_updated = "2023-03-12 18:41";
   $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -43,19 +43,23 @@
         <td><a href="./Handlingar/DKRR-2023-Ekonomi-Resultaträkning--2022-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
+        <td>DKRR-2023 Valberedningens förslag</td>
+        <td><a href="./Handlingar/DKRR-2023-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr>
+      <tr>
         <td>DKRR-2023 Versamhetsberättelse för 2022</td>
         <td><a href="./Handlingar/DKRR-2023-Versamhetsberättelse-för-2022.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
-        <td>DKRR-2023 Års Ekonomi Budget</td>
+        <td>DKRR-2023 Års Ekonomi Budgetförslag</td>
         <td><a href="./Handlingar/DKRR-2023-Års-Ekonomi-Budget.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
-        <td>DKRR-2023 Revisionsberättelse</td>
+        <td>DKRR-2023 Verksamhetsplan för 2023</td>
         <td><i>Kommer snart...</i></td>
       </tr>
       <tr>
-        <td>DKRR-2023 Valberedningens förslag</td>
+        <td>DKRR-2023 Revisionsberättelse</td>
         <td><i>Kommer snart...</i></td>
       </tr>
     </table>
