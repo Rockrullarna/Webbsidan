@@ -109,7 +109,7 @@
     <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
     <nav class="navbar sticky-top navbar-expand-lg ph-3">
       <a class="navbar-brand dkrr-logo-link" href="/">
-        <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="./filer/bilder/Rockrullarna-SVG-logga.svg" />
+        <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-SVG-logga.svg" />
       </a>
       <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <span class="navButton-Line" aria-hidden="true"></span>
