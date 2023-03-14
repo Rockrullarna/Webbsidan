@@ -106,8 +106,6 @@
         <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
-    <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-    <nav class="navbar sticky-top navbar-expand-lg ph-3">
       <a class="navbar-brand dkrr-logo-link" href="/">
         <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-SVG-logga.svg" />
       </a>
@@ -229,15 +227,21 @@
               <li><a class="dropdown-item" href="/Kontakt/Hjalp">Hjälp</a></li>
             </ul>
           </li>
-        </ul>
-        <!--
-        <form class="d-flex ms-auto">
-          <div class="input-group">
-            <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn border-0" type="submit">Search</button>
-          </div>
-        </form>
-        -->
+    <div class="mt-5">
+      <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
+    </div>
+    <nav class="navbar fixed-top navbar-expand-lg p-0">
+      <div class="container-fluid dkrr-navbar-bg">
+          </ul>
+          <!--
+          <form class="d-flex ms-auto">
+            <div class="input-group">
+              <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn border-0" type="submit">Search</button>
+            </div>
+          </form>
+          -->
+        </div>
       </div>
     </nav>
   </header>

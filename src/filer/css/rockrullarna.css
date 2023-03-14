@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   width: 100%;
-  max-width: 50em;
+  max-width: 50rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -53,9 +53,13 @@ a:hover {
   background-color: #fff;
 }
 
+.dkrr-navbar-bg {
+  background-color: #111;
+}
+
 .header-icon {
-  width: 1em;
-  height: 1em;
+  width: 1rem;
+  height: 1rem;
   fill: #00ABD6
 }
 
@@ -74,7 +78,7 @@ a:hover {
 .SkipToContentLink {
   background: #00ABD6;
   color: #fff;
-  height: 30px;
+  height: 2rem;
   left: 5%;
   padding: 8px;
   position: absolute;
@@ -99,6 +103,10 @@ a:hover {
 
 [data-bs-theme=light] .dkrr-logo:hover {
   background-color: #000;
+}
+
+[data-bs-theme=light] .dkrr-navbar-bg {
+  background-color: #eee;
 }
 
 [data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
@@ -199,11 +207,11 @@ header {
   }
 
   .navbar-toggler{
-    height: 65px;
-    width: 90px;
+    height: 3rem;
+    width: 5rem;
     position: relative;
     display: block;
-    margin: 0.5em 1rem;
+    margin: .1rem 1rem;
     float: right;
     padding: 3px 6px;
     border: 3px solid #555;
