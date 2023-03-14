@@ -134,7 +134,7 @@
               <li><a class="dropdown-item" href="/Tavlingsdans/Dans.se">Dans.se</a></li>
               <li><a class="dropdown-item" href="/Tavlingsdans/Vote4Dance">Vote 4 Dance</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender (danssport.se)</a></li>
+              <li><a class="dropdown-item" href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank" rel="noopener">DSF Tävlingskalender (danssport.se)</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="/Aktivitetskalender">Aktivitetskalender</a></li>
@@ -180,7 +180,7 @@
                 </ul>
               </li>
               <li><a class="dropdown-item" href="/Foreningen/Medlemsrabatter">Medlemsrabatter</a></li>
-              <li><a class="dropdown-item" href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss (dans.se)</a></li>
+              <li><a class="dropdown-item" href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank" rel="noopener">Bli medlem hos oss (dans.se)</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -188,8 +188,8 @@
             <ul class="dropdown-menu shadow">
               <li><a class="dropdown-item" href="/Kontakt">Kontaktinformation</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)" target="_blank">Hitta till oss (Google maps)</a></li>
-              <li><a class="dropdown-item" href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" target="_blank">Chatta med oss (Messenger)</a></li>
+              <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)" target="_blank" rel="noopener">Hitta till oss (Google maps)</a></li>
+              <li><a class="dropdown-item" href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" target="_blank" rel="noopener">Chatta med oss (Messenger)</a></li>
               <li><hr class="dropdown-divider"></li>
               <li class="dropstart">
                 <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Frågor och Svar</a>
