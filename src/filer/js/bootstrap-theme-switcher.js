@@ -15,11 +15,13 @@
         return storedTheme
       }
   
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
     }
   
     const setTheme = function (theme) {
-      if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.documentElement.setAttribute('data-bs-theme', 'light')
+      } else if (theme === 'auto') { 
         document.documentElement.setAttribute('data-bs-theme', 'dark')
       } else {
         document.documentElement.setAttribute('data-bs-theme', theme)
