@@ -47,7 +47,7 @@
     <h2>Kontaktuppgifter för DK Rockrullarna - Danssport</h2>
     <div class="row">
       <div class="table-responsive col-auto">
-        <table class="table table-dark table-striped" summary="Kontaktuppgifter">
+        <table class="table table-secondary table-striped" summary="Kontaktuppgifter">
           <tbody>
             <tr>
               <th width="6em">Bildad</th>
