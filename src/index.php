@@ -60,7 +60,7 @@
         </p>
         <figure class="text-end mb-5">
           <blockquote class="blockquote">
-            <p>"Rockrullarna erbjuder varm gemenskap och glädje."</p>
+            <p>"Rockrullarna erbjuder en varm gemenskap och glädje."</p>
           </blockquote>
           <figcaption class="blockquote-footer">
             Medlem hos <cite title="Source Title">Dansklubben Rockrullarna</cite>
