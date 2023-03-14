@@ -21,17 +21,21 @@ main {
   padding: 0em 5em;
 }
 
-a {
-  color: #0082e6;
-}
-
-a:visited {
+a, a:visited {
   color: #0082e6;
 }
 
 a:hover {
   background-color: #00ABD6;
   color: #fff;
+}
+
+.dkrr-logo:hover {
+  background-color: #fff;
+}
+
+.dkrr-logo-link {
+  width: 4rem;
 }
 
 .no-visual-search {
@@ -62,6 +66,32 @@ a:hover {
   color: #fff;
 }
 
+/* START: LIGHT-mode */
+[data-bs-theme=light] body {
+  color: #000;
+  background-color: #fff;
+}
+
+[data-bs-theme=light] a, [data-bs-theme=light] a:visited {
+  color: #12009d;
+}
+
+[data-bs-theme=light] .dkrr-logo:hover {
+  background-color: #000;
+}
+/* ENDING: LIGHT-mode */
+
+/* START: Bootstrap 5 Theme-switcher modifyer */
+.theme-icon, .theme-icon-active {
+  width: 1em;
+  height: 1em;
+}
+
+#bd-theme { /* Knappen för Theme-switch */
+  background-color: #000;
+  fill: #00ABD6;
+}
+/* ENDING: Bootstrap 5 Theme-switcher modifyer */
 
 /* START: BOOTSTRAP 5 Multi-level dropdown
     From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */

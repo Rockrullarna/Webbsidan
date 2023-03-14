@@ -1,7 +1,7 @@
   </main>
   <footer class="container-md">
     <hr />
-    <div class="row mb-5">
+    <div class="row">
       <div id="footer-page-updated" class="col-6">
         UPPDATERAD: 
         <?php if (empty($page_updated)) { 
@@ -10,7 +10,7 @@
           echo "$page_updated";
         }?>
       </div>
-      <div id="footer-page-contact" class="col-6 text-end">
+      <div id="footer-page-contact" class="col-6 mb-2 text-end">
         <?php if (empty($page_contact_email)) { 
           echo "<a href=\"mailto:info@rockrullarna.se\" title=\"Mejla till: info@rockrullarna.se\">Info, Rockrullarna</a>";
         } else {
@@ -18,7 +18,39 @@
         }?>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row justify-content-end">
+      <div class="col-auto btn-group dropdown">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+            <span class="ms-2">Växla färgtema</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+              <svg class="bi me-2 theme-icon"><use href="#moon-stars-fill"></use></svg>
+              Mörkt
+              <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+              <svg class="bi me-2 theme-icon"><use href="#sun-fill"></use></svg>
+              Ljust
+              <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center mb-0 active" data-bs-theme-value="auto">
+              <svg class="bi me-2 theme-icon"><use href="#circle-half"></use></svg>
+              Systeminställning 
+              <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
       <div id="footer-adress" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         BESÖKSADRESS<br />
         Vaktelvägen 2, Haga Centrum<br />
@@ -46,8 +78,8 @@
       </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-          v12.4.20230312
         <a title="Visa källkoden via GitHub" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.4.20230312" target="_blank" rel="noopener">
+          v12.5.20230314
         </a><br />
         <a href="/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
