@@ -37,6 +37,7 @@ a:hover {
 .btn-primary {
   background-color: #00ABD6;
   border-color: #00ABD6;
+  color: #fff!important;
 }
 
 .btn:hover {
