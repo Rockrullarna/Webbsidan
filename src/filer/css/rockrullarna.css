@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   width: 100%;
-  max-width: 50em;
+  max-width: 50rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,17 +21,46 @@ main {
   padding: 0em 5em;
 }
 
-a {
-  color: #0082e6;
-}
-
-a:visited {
+a, a:visited {
   color: #0082e6;
 }
 
 a:hover {
   background-color: #00ABD6;
   color: #fff;
+}
+
+.btn {
+  border: .1em solid;
+}
+
+.btn-primary {
+  background-color: #00ABD6;
+  border-color: #00ABD6;
+  color: #fff!important;
+}
+
+.btn:hover {
+  background-color: #555;
+  border-color: #00ABD6;
+}
+
+.dkrr-logo-link {
+  width: 3.5rem;
+}
+
+.dkrr-logo:hover {
+  background-color: #fff;
+}
+
+.dkrr-navbar-bg {
+  background-color: #111;
+}
+
+.header-icon {
+  width: 1rem;
+  height: 1rem;
+  fill: #00ABD6
 }
 
 .no-visual-search {
@@ -49,7 +78,7 @@ a:hover {
 .SkipToContentLink {
   background: #00ABD6;
   color: #fff;
-  height: 30px;
+  height: 2rem;
   left: 5%;
   padding: 8px;
   position: absolute;
@@ -62,6 +91,40 @@ a:hover {
   color: #fff;
 }
 
+/* START: LIGHT-mode fixes */
+[data-bs-theme=light] body {
+  color: #000;
+  background-color: #fff;
+}
+
+[data-bs-theme=light] .btn-primary {
+  color: #000;
+}
+
+[data-bs-theme=light] .dkrr-logo:hover {
+  background-color: #000;
+}
+
+[data-bs-theme=light] .dkrr-navbar-bg {
+  background-color: #eee;
+}
+
+[data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
+  fill: #000;
+}
+/* ENDING: LIGHT-mode fixes */
+
+/* START: Bootstrap 5 Theme-switcher modifyer */
+.theme-icon, .theme-icon-active {
+  width: 1em;
+  height: 1em;
+  fill: #fff;
+}
+
+#bd-theme { /* Knappen för Theme-switch */
+  fill: #000;
+}
+/* ENDING: Bootstrap 5 Theme-switcher modifyer */
 
 /* START: BOOTSTRAP 5 Multi-level dropdown
     From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */
@@ -133,22 +196,6 @@ header {
     padding: 12px 0;
 }
 
-/* .list-group-item:hover {
-    color: #890000;
-} */
-
-.btn {
-    background-color: #00ABD6;
-}
-
-.btn:hover {
-  background-color: #555;
-}
-
-/* section {
-    height: 100vh;
-} */
-
 /* Responsive */
 @media(max-width: 991.5px) {
   main {
@@ -160,11 +207,11 @@ header {
   }
 
   .navbar-toggler{
-    height: 65px;
-    width: 90px;
+    height: 3.6rem;
+    width: 5rem;
     position: relative;
     display: block;
-    margin: 0.5em 1rem;
+    margin: .1rem 1rem;
     float: right;
     padding: 3px 6px;
     border: 3px solid #555;
