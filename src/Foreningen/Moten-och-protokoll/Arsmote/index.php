@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2023-03-12 18:41";
+  $page_updated = "2023-03-13 18:41";
   $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
