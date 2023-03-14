@@ -107,7 +107,7 @@
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <img alt="Logga för Dansklubben Rockrullarna" src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
-    <nav class="navbar navbar-expand-lg ph-3">
+    <nav class="navbar sticky-top navbar-expand-lg ph-3">
       <a class="navbar-brand dkrr-logo-link" href="/">
         <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="./filer/bilder/Rockrullarna-SVG-logga.svg" />
       </a>
