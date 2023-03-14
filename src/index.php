@@ -36,8 +36,8 @@
           <a class="btn btn-outline-secondary" role="button" href="/Danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
         </p>
         <h2>
-          Bli stödmedlem
           <svg class="bi me-2 header-icon"><use href="#person-heart"></use></svg>
+          Bli stödmedlem
         </h2>
         <p class="mb-1">
           Bli gärna medlem genom att swisha <b aria-label="150 kronor">150kr</b> till
@@ -45,8 +45,8 @@
         <h3>Swish-nummer: 123-222 02 83</h3>
         <p class="mb-5">Så fort vår kassör registrerat din betalning (inom ca 1 vecka), så är du medlem hos oss.</p>
         <h2>
-          Nyheter
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
+          Nyheter
         </h2>
         <p>
           Senaste nytt hittar du på sidan:
@@ -69,8 +69,8 @@
       </section>
       <section id="start-news" class="col-12 col-lg-6 text-center">
         <h2>
-          Kommande aktiviteter
           <svg class="bi me-2 header-icon"><use href="#calendar-week"></use></svg>
+          Kommande aktiviteter
         </h2>
         <p>
           Här hittar du våra kommande aktiviteter från <a href="/Aktivitetskalender">Aktivitetskalendern</a>. 
