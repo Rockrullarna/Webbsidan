@@ -86,14 +86,14 @@ a:hover {
   color: #fff;
 }
 
-/* START: LIGHT-mode */
+/* START: LIGHT-mode fixes */
 [data-bs-theme=light] body {
   color: #000;
   background-color: #fff;
 }
 
-[data-bs-theme=light] a, [data-bs-theme=light] a:visited {
-  color: #12009d;
+[data-bs-theme=light] .btn-primary {
+  color: #000;
 }
 
 [data-bs-theme=light] .dkrr-logo:hover {
@@ -103,7 +103,7 @@ a:hover {
 [data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
   fill: #000;
 }
-/* ENDING: LIGHT-mode */
+/* ENDING: LIGHT-mode fixes */
 
 /* START: Bootstrap 5 Theme-switcher modifyer */
 .theme-icon, .theme-icon-active {
