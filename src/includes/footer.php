@@ -63,10 +63,10 @@
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
           SOCIALT<br />
-          <a href="https://m.me/rockrullarna" rel="noopener" alt="Messenger" title="Chatta med oss på Messenger" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
-          <a href="https://fb.me/rockrullarna" rel="noopener" alt="Facebook" title="Följ oss på Facebook" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
-          <a href="https://www.instagram.com/rockrullarna" rel="noopener" alt="Instagram" title="Följ oss på Instagram" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
-          <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" alt="TikTok" title="Följ oss på TikTok" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
+          <a href="https://m.me/rockrullarna" rel="noopener" title="Chatta med oss på Messenger" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
+          <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
+          <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
+          <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
