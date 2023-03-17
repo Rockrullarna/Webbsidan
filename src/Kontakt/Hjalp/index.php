@@ -21,5 +21,5 @@
       Allmän information och användarhjälp hittar du på <a href="https://www.idrottonline.se">informationssidorna om IdrottOnline</a>.
     </p>
 <?php
-  include_once '../../../includes/footer.php'
+  include_once '../../includes/footer.php'
 ?>
