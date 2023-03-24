@@ -60,7 +60,7 @@
       </tr>
       <tr>
         <td>DKRR-2023 Verksamhetsplan för 2023</td>
-        <td><i>Kommer snart...</i></td>
+        <td><a href="./Handlingar/DKRR-2023-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
     </table>
     <p>&nbsp;</p>
