@@ -43,6 +43,10 @@
         <td><a href="./Handlingar/DKRR-2023-Ekonomi-Resultaträkning--2022-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
+        <td>DKRR-2023 Revisionsberättelse för 2022</td>
+        <td><a href="./Handlingar/DKRR-2023-Rev.berattelse-2022.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr>
+      <tr>
         <td>DKRR-2023 Valberedningens förslag</td>
         <td><a href="./Handlingar/DKRR-2023-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
@@ -56,11 +60,7 @@
       </tr>
       <tr>
         <td>DKRR-2023 Verksamhetsplan för 2023</td>
-        <td><i>Kommer snart...</i></td>
-      </tr>
-      <tr>
-        <td>DKRR-2023 Revisionsberättelse</td>
-        <td><i>Kommer snart...</i></td>
+        <td><a href="./Handlingar/DKRR-2023-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
     </table>
     <p>&nbsp;</p>
