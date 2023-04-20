@@ -131,7 +131,7 @@
       <tr>
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./Format/EPS-Tryck/2020-08-10--Rockrullarna-logga-TRYCKversion-Orebro.eps" title="Rockrullarna-EPS-logga-TRYCKversion-Orebro.eps" target="_blank" rel="gallery">
-            <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
+            <img src="/filer/bilder/design/extension-eps.gif" width="18" height="18" />&nbsp;
             Rockrullarna-EPS-logga-TRYCKversion-Orebro
           </a>
         </td>
@@ -143,7 +143,7 @@
       <tr>
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./Format/EPS-AdobeIllustrator-editerbar-text/2020-08-10--Rockrullarna-loggorna-EDITERBAR.eps" title="Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10.eps" target="_blank" rel="gallery">
-            <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
+            <img src="/filer/bilder/design/extension-eps.gif" width="18" height="18" />&nbsp;
             Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10
           </a>
         </td>
@@ -239,7 +239,7 @@
       <tr>
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./Format/PSD/Rockrullarna-loggorna-PSD-1450px.psd" title="Rockrullarna-loggorna-PSD-1450px.psd" target="_self" rel="lightbox-gallery">
-            <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
+            <img src="/filer/bilder/design/extension-psd.gif" width="18" height="18" />&nbsp;
             Rockrullarna-PSD-loggorna-1450px
           </a> 
         </td>
