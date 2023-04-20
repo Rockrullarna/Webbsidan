@@ -47,12 +47,9 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="/typsnitt/bernhard-antique-d-ot-bold-condensed_6777_font_typsnitt.ttf" title="Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt" target="_blank" rel="gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-default.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
                   Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt
               </a>
-              <span class="title">Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">TTF</td>
@@ -65,12 +62,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-AnmalanTillKurser.png" title="QRkod-AnmalanTillKurser" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-AnmalanTillKurser
               </a>
-              <span class="title">QRkod-AnmalanTillKurser</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -83,12 +77,9 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-Epost-Rockrullarna.png" title="QRkod-Epost-Rockrullarna" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-Epost-Rockrullarna
               </a>
-              <span class="title">QRkod-Epost-Rockrullarna</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -101,12 +92,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-intranet.png" title="QRkod-intranet" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-intranet
               </a>
-              <span class="title">QRkod-intranet</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -119,12 +107,9 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-Kursutvardering.png" title="QRkod-Kursutvardering" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-Kursutvardering
               </a>
-              <span class="title">QRkod-Kursutvardering</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -137,12 +122,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-SharePoint.png" title="QRkod-SharePoint" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-SharePoint
               </a>
-              <span class="title">QRkod-SharePoint</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -155,12 +137,9 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-SharePoint-Styrelsen.png" title="QRkod-SharePoint-Styrelsen" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-SharePoint-Styrelsen
               </a>
-              <span class="title">QRkod-SharePoint-Styrelsen</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -173,12 +152,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/QRkod-SharePoint-Tranare.png" title="QRkod-SharePoint-Tranare" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-png.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
                   QRkod-SharePoint-Tranare
               </a>
-              <span class="title">QRkod-SharePoint-Tranare</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -191,12 +167,9 @@
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/QR-koder/readme-Vad står det i koderna.txt" title="readme-Vad står det i QR-koderna" target="_blank" rel="gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-txt.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-txt.gif" width="18" height="18" />&nbsp;
                   readme-Vad står det i QR-koderna
               </a>
-              <span class="title">readme-Vad står det i QR-koderna</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">TXT</td>
@@ -208,12 +181,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/EPS-Tryck/2020-08-10--Rockrullarna-logga-TRYCKversion-Orebro.eps" title="Rockrullarna-EPS-logga-TRYCKversion-Orebro.eps" target="_blank" rel="gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-default.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
                   Rockrullarna-EPS-logga-TRYCKversion-Orebro
               </a>
-              <span class="title">Rockrullarna-EPS-logga-TRYCKversion-Orebro</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">EPS</td>
@@ -226,12 +196,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/EPS-AdobeIllustrator-editerbar-text/2020-08-10--Rockrullarna-loggorna-EDITERBAR.eps" title="Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10.eps" target="_blank" rel="gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-default.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
                   Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10
               </a>
-              <span class="title">Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">EPS</td>
@@ -247,9 +214,6 @@
                   <img src="./Format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla.png" width="64" height="64" />&nbsp;
                   Rockrullarna-PNG-bgGenomskinlig-frontRRbla
               </a>
-              <span class="title">Rockrullarna-PNG-bgGenomskinlig-frontRRbla</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -265,9 +229,6 @@
                   <img src="./Format/PNG/Rockrullarna-bgGenomskinlig-frontSvart.png" width="64" height="64" />&nbsp;
                   Rockrullarna-PNG-bgGenomskinlig-frontSvart
               </a>
-              <span class="title">Rockrullarna-PNG-bgGenomskinlig-frontSvart</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -283,9 +244,6 @@
                   <img src="./Format/PNG/Rockrullarna-bgGenomskinlig-frontVit.png" width="64" height="64" />&nbsp;
                   Rockrullarna-PNG-bgGenomskinlig-frontVit
               </a>
-              <span class="title">Rockrullarna-PNG-bgGenomskinlig-frontVit</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -301,9 +259,6 @@
                   <img src="./Format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje.png" width="64" height="64" />&nbsp;
                   Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje
               </a>
-              <span class="title">Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -319,9 +274,6 @@
                   <img src="./Format/PNG/Rockrullarna-bgSvart-frontRRbla.png" width="64" height="64" />&nbsp;
                   Rockrullarna-bgSvart-frontRRbla
               </a>
-              <span class="title">Rockrullarna-bgSvart-frontRRbla</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -336,10 +288,7 @@
               <a href="./Format/PNG/Rockrullarna-bgVit-frontRRbla.png" title="Rockrullarna-bgVit-frontRRbla.png" target="_self" rel="lightbox-gallery">
                   <img src="./Format/PNG/Rockrullarna-bgVit-frontRRbla.png" width="64" height="64" />&nbsp;
                   Rockrullarna-PNG-bgVit-frontRRbla
-              </a>
-              <span class="title">Rockrullarna-PNG-Vit-RRbla</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
+              </a>  
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -354,10 +303,7 @@
               <a href="./Format/PNG/Rockrullarna-bgVit-frontSvart.png" title="Rockrullarna-bgVit-frontSvart.png" target="_self" rel="lightbox-gallery">
                   <img src="./Format/PNG/Rockrullarna-bgVit-frontSvart.png" width="64" height="64" />&nbsp;
                   Rockrullarna-PNG-bgVit-frontSvart
-              </a>
-              <span class="title">Rockrullarna-PNG-bgVit-frontSvart</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
+              </a> 
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PNG</td>
@@ -370,12 +316,9 @@
       <tr class='GalleryTableRowEven'>
           <td colspan="2" class="GalleryTableCellIcon">
               <a href="./Format/PSD/Rockrullarna-loggorna-PSD-1450px.psd" title="Rockrullarna-loggorna-PSD-1450px.psd" target="_self" rel="lightbox-gallery">
-                  <img src="/filer/bilder/design/Extensions/extension-default.gif" width="18" height="18" />&nbsp;
+                  <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
                   Rockrullarna-PSD-loggorna-1450px
-              </a>
-              <span class="title">Rockrullarna-PSD-loggorna-1450px</span>
-              <span class="description"></span>
-              <span class="creator"></span>   
+              </a> 
           </td>
           <td class="GalleryTableCellFileDate">2020-10-16</td>
           <td class="GalleryTableCellFileType">PSD</td>
