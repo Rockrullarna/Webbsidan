@@ -70,10 +70,10 @@
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.5.20230314" target="_blank" rel="noopener">
-          v12.5.20230314
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.5.20230420" target="_blank" rel="noopener">
+          v12.5.20230420
         </a><br />
-        <a href="/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
+        <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
     </div>
     <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
