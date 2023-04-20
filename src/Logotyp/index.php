@@ -13,10 +13,10 @@
     <a href="../">Rockrullarna.se</a> / <span>Logotyp</span>
   </div>
   <h1>Rockrullarnas Logotyp (Grafisk profil)</h1>
-  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (<a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
+  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
   <p>Här kan du hämta ned vår logga, typsnitt och mallar för att skapa bilder till Facebook-evenemang och till andra evenemang.&nbsp;</p>
   <p>Direktlänk till denna sidan att dela:<br /><a href="/Logotyp/">https://www.Rockrullarna.se/Logotyp</a><em><br /></em></p>
-  <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><strong>Rockrullarna-PNG-Svart-RRbla.png</strong></p>
+  <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><a href="./Format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_blank"><strong>Rockrullarna-bgSvart-frontRRbla.png</strong></a></p>
   <p>Färgkoden som vi använder för vår blåa "Rockrullarna-färg" (RRBlå) är: <strong><span style="color: #00abd6;">#00ABD6</span></strong></p>
   <p>Typsnitt som används i loggan är: <strong>Bernhard Antique D OT</strong><br />(finns att hämta här nedan och bara dubbelklicka för att installera på din dator för användning)</p>
   <p>Här kan du sortera på kategori:</p>
@@ -229,7 +229,7 @@
           <a href="./Format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_self" rel="lightbox-gallery">
             <img src="./Format/PNG/Rockrullarna-bgSvart-frontRRbla.png" width="64" height="64" />&nbsp;
             Rockrullarna-bgSvart-frontRRbla
-          </a>
+          </a> (Standard)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -241,7 +241,7 @@
           <a href="./Format/PNG/Rockrullarna-bgVit-frontRRbla.png" title="Rockrullarna-bgVit-frontRRbla.png" target="_self" rel="lightbox-gallery">
             <img src="./Format/PNG/Rockrullarna-bgVit-frontRRbla.png" width="64" height="64" />&nbsp;
             Rockrullarna-PNG-bgVit-frontRRbla
-          </a>  
+          </a> (för dokument)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
