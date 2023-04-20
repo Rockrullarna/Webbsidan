@@ -36,7 +36,8 @@
       </select>
       <input type="submit" value="Välj" name="gallerychildalbumsubmit" />
     </div>
-    <table class="GalleryTable" border="0" cellpadding="0" cellspacing="0">
+    <div class="table-responsive">
+    <table class="GalleryTable table table-secondary table-striped">
       <tr class="GalleryTableHeader">
           <td colspan="2">Titel</td>
           <td>Uppladdad</td>
@@ -272,6 +273,7 @@
           <td class="GalleryTableCellFileSize">1 MB</td>
       </tr>
     </table>
+    </div>
 <?php
   include_once '../includes/footer.php'
 ?>
