@@ -10,12 +10,12 @@
   include_once '../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../">Rockrullarna.se</a> / <span>Logga (Grafisk profil)</span>
+      <a href="../">Rockrullarna.se</a> / <span>Logotyp (Grafisk profil)</span>
     </div>
-    <h1>Rockrullarnas Logga (Grafisk profil)</h1>
-    <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna.</p>
+    <h1>Rockrullarnas Logotyp (Grafisk profil)</h1>
+    <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (<a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
     <p>Här kan du hämta ned vår logga, typsnitt och mallar för att skapa bilder till Facebook-evenemang och till andra evenemang.&nbsp;</p>
-    <p>Direktlänk till denna sidan att dela:<br /><a href="/GrafiskProfil/">https://www.Rockrullarna.se/GrafiskProfil</a><em><br /></em></p>
+    <p>Direktlänk till denna sidan att dela:<br /><a href="/Logotyp/">https://www.Rockrullarna.se/Logotyp</a><em><br /></em></p>
     <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><strong>Rockrullarna-PNG-Svart-RRbla.png</strong></p>
     <p>Färgkoden som vi använder för vår blåa "Rockrullarna-färg" (RRBlå) är: <strong><span style="color: #00abd6;">#00ABD6</span></strong></p>
     <p>Typsnitt som används i loggan är: <strong>Bernhard Antique D OT</strong><br />(finns att hämta här nedan och bara dubbelklicka för att installera på din dator för användning)</p>
