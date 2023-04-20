@@ -61,7 +61,7 @@
           <a href="./Format/QR-koder/QRkod-AnmalanTillKurser.png" title="QRkod-AnmalanTillKurser" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-AnmalanTillKurser
-          </a>
+          </a> (https://www.Rockrullarna.se/kurser/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -73,7 +73,7 @@
           <a href="./Format/QR-koder/QRkod-Epost-Rockrullarna.png" title="QRkod-Epost-Rockrullarna" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-Epost-Rockrullarna
-          </a>
+          </a> (https://epost.Rockrullarna.se/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -85,7 +85,7 @@
           <a href="./Format/QR-koder/QRkod-intranet.png" title="QRkod-intranet" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-intranet
-          </a>
+          </a> (https://intranet.Rockrullarna.se/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -97,7 +97,7 @@
           <a href="./Format/QR-koder/QRkod-Kursutvardering.png" title="QRkod-Kursutvardering" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-Kursutvardering
-          </a>
+          </a> (https://kursutvardering.Rockrullarna.se/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -109,7 +109,7 @@
           <a href="./Format/QR-koder/QRkod-SharePoint.png" title="QRkod-SharePoint" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-SharePoint
-          </a>
+          </a> (https://SharePoint.Rockrullarna.se/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -121,35 +121,11 @@
           <a href="./Format/QR-koder/QRkod-SharePoint-Styrelsen.png" title="QRkod-SharePoint-Styrelsen" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-SharePoint-Styrelsen
-          </a>
+          </a> (https://styrelsen.Rockrullarna.se/)
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
         <td class="GalleryTableCellFileSize">3 KB</td>
-      </tr>
-
-      <tr>
-        <td colspan="2" class="GalleryTableCellIcon">
-          <a href="./Format/QR-koder/QRkod-SharePoint-Tranare.png" title="QRkod-SharePoint-Tranare" target="_self" rel="lightbox-gallery">
-            <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
-            QRkod-SharePoint-Tranare
-          </a>
-        </td>
-        <td class="GalleryTableCellFileDate">2020-10-16</td>
-        <td class="GalleryTableCellFileType">PNG</td>
-        <td class="GalleryTableCellFileSize">3 KB</td>
-      </tr>
-
-      <tr>
-        <td colspan="2" class="GalleryTableCellIcon">
-          <a href="./Format/QR-koder/readme-Vad står det i koderna.txt" title="readme-Vad står det i QR-koderna" target="_blank" rel="gallery">
-            <img src="/filer/bilder/design/extension-txt.gif" width="18" height="18" />&nbsp;
-            readme-Vad står det i QR-koderna
-          </a>
-        </td>
-        <td class="GalleryTableCellFileDate">2020-10-16</td>
-        <td class="GalleryTableCellFileType">TXT</td>
-        <td class="GalleryTableCellFileSize">1 KB</td>
       </tr>
 
       <tr>
