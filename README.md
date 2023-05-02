@@ -1,5 +1,5 @@
 # Rockrullarna / Webbsidan
-Kod-biblioteket [GitHub.com/Rockrullarna/Webbsidan](https://github.com/Rockrullarna/Webbsidan) för vår webbsida 2.0
+Kod-biblioteket [GitHub.com/Rockrullarna/Webbsidan](https://github.com/Rockrullarna/Webbsidan) för vår webbsida v12.x
 
 ## Vart finns källkoden?
 Källkoden finns under [mappen src (SouRce Code, eller källkod på svenska)](https://github.com/Rockrullarna/Webbsidan/tree/main/src)
