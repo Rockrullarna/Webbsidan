@@ -2,7 +2,7 @@
   $header_title = "Frågor och svar (FAQ)";
   $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
-  $page_updated = "2022-12-31 16:48";
+  $page_updated = "2023-05-02 21:36";
   $page_url = "/Kontakt/Fragor-och-svar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -17,7 +17,7 @@
       Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
     </p>
 
-    <h2 id="teams-mote" class="FAQCategoryHeading1">
+    <h2 id="teams-mote" class="FAQCategoryHeading">
       Teams-möte
     </h2>
 
@@ -79,7 +79,7 @@
     </span>
     -->
 
-    <h2 id="zoom-mote" class="FAQCategoryHeading1">
+    <h2 id="zoom-mote" class="FAQCategoryHeading">
         Zoom-möte
     </h2>
 
@@ -171,7 +171,7 @@
     </span>
     -->
 
-    <h2 id="dans-se" class="FAQCategoryHeading1">
+    <h2 id="dans-se" class="FAQCategoryHeading">
         Dans.se
     </h2>
 

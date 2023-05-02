@@ -59,6 +59,16 @@ a:hover {
   background-color: #111;
 }
 
+.FAQCategoryHeading {
+  margin-top: 4rem;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.FAQquestion {
+  margin-top: 3rem;
+}
+
 .header-icon {
   width: 2rem;
   height: 2rem;
