@@ -2,7 +2,7 @@
   $header_title = "Danskurser";
   $header_description = "Information om våra danskurser";
 
-  $page_updated = "2022-12-29 22:35";
+  $page_updated = "2023-05-02 21:48";
   $page_url = "/Danskurser";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -25,7 +25,10 @@
     <p>
       <em>Alla helgkurser är bindande från och med det du blivit antagen. Vi vill hålla en god kvalitet och bokar in externa tränare som måste avbokas vid för få anmälningar.</em>
     </p>
-    <h3>Vidare info danskurser</h3>
+    <p class="mb-5">
+      <a class="btn btn-primary btn-lg" role="button" href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmäl dig till våra danskurser</a>
+    </p>
+    <h2>Vidare info danskurser</h2>
     <table style="width: 25em; margin: 1em; border: 0;">
       <tbody>
       <tr>
@@ -50,6 +53,10 @@
       </tr>
       </tbody>
     </table>
+    <p class="mt-5">
+      Våra kursstarter och anmälningsformulär hittar ni via anmälningssidan: 
+      <a href="../Anmalan-danskurser" title="rockrullarna.se/Kurser" target="_top">rockrullarna.se/Kurser</a>
+    </p>
 <?php
   include_once '../includes/footer.php'
 ?>
