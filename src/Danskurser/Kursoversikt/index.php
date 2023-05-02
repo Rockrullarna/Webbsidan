@@ -2,7 +2,7 @@
   $header_title = "Kursöversikt - Danskurser";
   $header_description = "Här finns en kursöversikt över alla våra dansstilar och vårt kursutbud";
 
-  $page_updated = "2022-12-29 22:36";
+  $page_updated = "2023-05-02 21:49";
   $page_url = "/Danskurser/Kursoversikt";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -16,6 +16,9 @@
     <p>
       Rockrullarna har kurser inom Bugg (barn, ungdom, vuxen), Fox, West Coast Swing samt Barndans.<br />
       Kursverksamheten omfattar allt från nybörjare till tävlingsdans. Vid utvalda tillfällen erbjuder vi även helgevenemang.
+    </p>
+    <p class="mb-5">
+      <a class="btn btn-primary btn-lg" role="button" href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmäl dig till våra danskurser</a>
     </p>
     <h2>Kurser & aktiviteter</h2>
     <table style="width: 25em; margin: 1em; border: 0;" >
@@ -67,7 +70,7 @@
         </tr>
       </tbody>
     </table>
-    <p>
+    <p class="mt-5">
       Våra kursstarter och anmälningsformulär hittar ni via anmälningssidan: 
       <a href="../Anmalan-danskurser" title="rockrullarna.se/Kurser" target="_top">rockrullarna.se/Kurser</a>
     </p>
