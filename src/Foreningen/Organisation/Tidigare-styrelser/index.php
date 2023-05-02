@@ -2,7 +2,7 @@
   $header_title = "Tidigare styrelser - Organisation - Föreningen";
   $header_description = "Information om den ideella föreningens tidigare styrelser";
 
-  $page_updated = "2022-12-30 00:25";
+  $page_updated = "2023-05-02 20:25";
   $page_url = "/Foreningen/Organisation/Tidigare-styrelser";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
