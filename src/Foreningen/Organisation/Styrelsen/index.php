@@ -2,7 +2,7 @@
   $header_title = "Styrelsen - Organisation - Föreningen";
   $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
-  $page_updated = "2022-12-30 00:26";
+  $page_updated = "2023-05-02 19:52";
   $page_url = "/Foreningen/Organisation/Styrelsen";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -15,18 +15,18 @@
     <h1>
       Styrelsen
     </h1>
-    <p><strong>Det är vi som sitter i styrelsen från årsmötet 2022</strong></p>
+    <p><strong>Det är vi som sitter i styrelsen sedan årsmötet 2023-03-25.</strong></p>
     <p>
-      Ordförande: John Hägglöf<br />
-      Vice ordförande: Pierre Hagström<br />
-      Kassör: Jonas Arvidson<br />
+      Ordförande (1år): John Hägglöf<br />
+      Vice ordförande (2år): Pierre Hagström<br />
+      Kassör (1år): Jonas Arvidson<br />
       Sekreterare: Utlyses separat per styrelsemöte<br />
-      Ledamot: Malin Bengtsson<br />
-      Ledamot: Ulrika Larsson<br />
-      Ledamot: Pernilla Söderqvist<br />
-      Ledamot: Mathias Grundblad<br />
-      Suppleant: Andreas Milton<br />
-      Suppleant: Peter Århammar
+      Ledamot (2år): Pernilla Söderqvist<br />
+      Ledamot (2år): Peter Århammar<br />
+      Ledamot (2år): Marie Hedlund<br />
+      Ledamot (1år): Jenny Öhman<br />
+      Suppleant (1år): Andreas Milton<br />
+      Suppleant (1år): Åke Eriksson
     </p>
     <p>
       <em>
