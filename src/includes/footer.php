@@ -53,9 +53,10 @@
     <div class="row">
       <div id="footer-adress" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         BESÖKSADRESS<br />
-        <a href="https://www.google.se/maps/place/Dansklubben+Rockrullarna+i+%C3%96rebro/@59.2756333,15.160794,16.44z/data=!4m6!3m5!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754194!4d15.1647762!16s%2Fg%2F11c76mt8xm" rel="noopener" title="Hitta till: Dansklubben Rockrullarna (Google Maps, öppnas i nytt fönster)" target="_blank"></a>
-        Vaktelvägen 2, Haga Centrum<br />
-        70348 Örebro
+        <a href="https://www.google.se/maps/place/Dansklubben+Rockrullarna+i+%C3%96rebro/@59.2756333,15.160794,16.44z/data=!4m6!3m5!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754194!4d15.1647762!16s%2Fg%2F11c76mt8xm" rel="noopener" title="Hitta till: Dansklubben Rockrullarna (Google Maps, öppnas i nytt fönster)" target="_blank">
+          Vaktelvägen 2, Haga Centrum<br />
+          70348 Örebro
+        </a>
       </div>
       <div id="footer-mail" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         KONTAKT<br />
