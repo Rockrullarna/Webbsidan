@@ -1,11 +1,11 @@
 <?php
   $header_title = "Webbkarta";
-  $header_description = "Information om tävlingssystemet Vote 4 Dance";
+  $header_description = "Webbkarta (sitemap) för webbsidan: rockrullarna.se";
 
-  $page_updated = "2022-12-29 23:48";
-  $page_url = "/Tavlingsdans/Vote4Dance";
-  $page_contact_name = "Tävlingsansvarig";
-  $page_contact_email = "tavlingsansvarig@rockrullarna.se";
+  $page_updated = "2023-05-02 21:24";
+  $page_url = "/Webbkarta";
+  $page_contact_name = "Info";
+  $page_contact_email = "info@rockrullarna.se";
 
   include_once '../includes/header.php'
 ?>
@@ -15,7 +15,7 @@
     <h1>Webbkarta</h1>
     <p>
       <ul>
-        <li><a href="/Nyheter" title="Nyheter">Nyheter</a></li>
+        <li><a href="/Sociala-media" title="Sociala media flöden">Sociala media</a></li>
         <li class="dropdown">
           <a href="/Danskurser" title="Danskurser">Danskurser</a>
           <ul>
@@ -39,7 +39,7 @@
         <li class="dropdown"><a href="/Tavlingsdans" title="Tävlingsdans">Tävlingsdans</a>
           <ul>
             <li><a href="/Tavlingsdans/Kalender" title="Tävlingskalender">Tävlingskalender</a></li>
-            <li><a href="/Tavlingsdans/VilkaTavlarVar" title="Vilka tävlar var">Vilka tävlar var</a></li>
+            <li><a href="/Tavlingsdans/Vilka-tavlar-vart" title="Vilka tävlar vart">Vilka tävlar vart</a></li>
             <li><a href="/Tavlingsdans/Resultat" title="Tävlingsresultat">Tävlingsresultat</a></li>
             <li><a href="/Tavlingsdans/Dans.se" title="Dans.se">Dans.se</a></li>
             <li><a href="https://www.danssport.se/taevling/taevlingskalender/" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender</a></li>
@@ -58,6 +58,7 @@
                 <li><a href="/Foreningen/Styrande-dokument/Blanketter" title="Blanketter">Blanketter</a></li>
                 <li><a href="/Foreningen/Styrande-dokument/Integritetspolicy" title="Integritetspolicy">Integritetspolicy</a></li>
                 <li><a href="/Foreningen/Styrande-dokument/Policy-mot-diskriminering" title="Policy mot diskriminering">Policy mot diskriminering</a></li>
+                <li><a href="/Foreningen/Styrande-dokument/Arshjul" title="DKRR Årshjul">Årshjul</a></li>
               </ul>
             </li>
             <li class="dropdown"><a href="/Foreningen/Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
@@ -68,30 +69,28 @@
               </ul>
             </li>
             <li class="dropdown"><a href="/Foreningen/Organisation" title="Organisation">Organisation</a>
-              <li class="dropdown"><a href="/Foreningen/Organisation/Styrelsen" title="Styrelsen">Styrelsen</a>
-                <ul>
-                  <li><a href="/Foreningen/Organisation/Styrelsen/Styrelsearkiv" title="Styrelsearkiv">Styrelsearkiv</a></li>
-                </ul>
-              </li>
-              <li><a href="/Foreningen/Organisation/Valberedningen" title="Valberedningen">Valberedningen</a></li>
+              <ul>
+                <li><a href="/Foreningen/Organisation/Styrelsen" title="Styrelsen">Styrelsen</a></li>
+                <li><a href="/Foreningen/Organisation/Tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
+                <li><a href="/Foreningen/Organisation/Valberedningen" title="Valberedningen">Valberedningen</a></li>
+              </ul>
             </li>
-            <li><a href="/Medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
+            <li><a href="/Foreningen/Medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
             <li><a href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss</a></li>
           </ul>
         </li>
-        <li><a href="/Sociala-media" title="Sociala media">Sociala media</a></li>
-        <li class="dropdown"><a href="/Kontakt" title="Kontakta oss">Kontakta oss</a>
+        <li class="dropdown"><a href="/Kontakt" title="Kontakta oss">Kontakta</a>
           <ul>
-            <li><a href="/Kontakt/Information" title="Kontaktinformation">Kontaktinformation</a></li>
+            <li><a href="/Kontakt" title="Kontaktinformation">Kontaktinformation</a></li>
             <li><a href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)">Hitta till oss</a></li>
-            <li class="dropdown"><a href="/Kontakt/FragorOchSvar" title="Frågor och Svar">Frågor och Svar</a>
+            <li class="dropdown"><a href="/Kontakt/Fragor-och-svar" title="Vanliga frågor och svar (FAQ)">Vanliga frågor och svar (FAQ)</a>
               <ul>
-                <li><a href="/Kontakt/FragorOchSvar/Teams-mote" title="Teams-möten">Teams-möten</a></li>
-                <li><a href="/Kontakt/FragorOchSvar/Zoom-mote" title="Zoom-möte">Zoom-möte</a></li>
-                <li><a href="/Kontakt/FragorOchSvar/Dans.se" title="Dans.se">Dans.se</a></li>
+                <li><a href="/Kontakt/Fragor-och-svar/#teams-mote" title="Teams-möten">Teams-möten</a></li>
+                <li><a href="/Kontakt/Fragor-och-svar/#zoom-mote" title="Zoom-möte">Zoom-möte</a></li>
+                <li><a href="/Kontakt/Fragor-och-svar/#dans-se" title="Dans.se">Dans.se</a></li>
               </ul>
             </li>
-            <li><a href="/Kontakt/SkickaArendeFraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></li>
+            <li><a href="/Kontakt/Skicka-arende-eller-fraga" title="Skicka ärende eller fråga">Skicka ärende eller fråga</a></li>
             <li><a href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" title="_blank">Chatta med oss (Messenger)</a></li>
             <li><a href="/Webbkarta" title="Webbkarta">Webbkarta</a></li>
             <li><a href="/Kontakt/Hjalp" title="Hjälp">Hjälp</a></li>
