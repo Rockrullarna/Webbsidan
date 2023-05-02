@@ -2,7 +2,7 @@
   $header_title = "Tidigare styrelser - Organisation - Föreningen";
   $header_description = "Information om den ideella föreningens tidigare styrelser";
 
-  $page_updated = "2022-12-30 00:25";
+  $page_updated = "2023-05-02 20:25";
   $page_url = "/Foreningen/Organisation/Tidigare-styrelser";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -17,6 +17,19 @@
     </h1>
     <p>
       Styrelser från tidigare år
+    </p>
+    <p>
+      <strong>Styrelsen från årsmötet 2022</strong><br />
+      Ordförande: John Hägglöf<br />
+      Vice ordförande: Pierre Hagström<br />
+      Kassör: Jonas Arvidson<br />
+      Sekreterare: Utlyses separat per styrelsemöte<br />
+      Ledamot: Malin Bengtsson (vakant från 2022 sept.)<br />
+      Ledamot: Ulrika Larsson<br />
+      Ledamot: Pernilla Söderqvist<br />
+      Ledamot: Mathias Grundblad<br />
+      Suppleant: Andreas Milton<br />
+      Suppleant: Peter Århammar<br /><br />
     </p>
     <p><strong>Styrelsen från årsmötet 2021</strong><br />Ordförande: Petra Johansson<br />Vice ordförande: Pierre Hagström<br />Kassör: Jonas Arvidson<br />Sekreterare: Utlyses separat per styrelsemöte<br />Ledamot: Åsa Nilsson<br />Ledamot: Ulrika Larsson<br />Ledamot: Pernilla Söderqvist<br />Ledamot: Mathias Grundblad<br />Suppleant: Andreas Milton<br />Suppleant: Peter Århammar<br /><br /></p>
     <p><strong>Styrelsen från årsmötet 2020</strong><br />Ordförande: Petra Johansson<br />Vice ordförande: Pierre Hagström<br />Kassör: Åsa Nilsson<br />Sekreterare: Jonas Arvidson<br />Ledamot: Ulrika Larsson<br />Ledamot: Tove Sahrblom<br />Ledamot: Mathias Grundblad<br />Suppleant: Andreas Milton<br />Suppleant: Pernilla Söderqvist<br /><br /></p>

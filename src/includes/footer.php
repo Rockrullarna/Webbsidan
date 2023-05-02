@@ -53,25 +53,28 @@
     <div class="row">
       <div id="footer-adress" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         BESÖKSADRESS<br />
-        Vaktelvägen 2, Haga Centrum<br />
-        70348 Örebro
+        <a href="https://www.google.se/maps/place/Dansklubben+Rockrullarna+i+%C3%96rebro/@59.2756333,15.160794,16.44z/data=!4m6!3m5!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754194!4d15.1647762!16s%2Fg%2F11c76mt8xm" rel="noopener" title="Hitta till: Dansklubben Rockrullarna (Google Maps, öppnas i nytt fönster)" target="_blank">
+          Vaktelvägen 2, Haga Centrum<br />
+          70348 Örebro
+        </a>
       </div>
       <div id="footer-mail" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         KONTAKT<br />
-        Messenger: <a href="https://m.me/rockrullarna" title="Chatta med oss på Messenger (Messenger öppnas i nytt fönster)" target="_blank" rel="noopener">m.me/rockrullarna</a><br />
-        E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
+        <svg width="16" height="16" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg> Messenger: <a href="https://m.me/rockrullarna" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank" rel="noopener">m.me/rockrullarna</a>
+        <br />
+        <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-at"><use href="#envelope-at"></use></svg> E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
           SOCIALT<br />
-          <a href="https://m.me/rockrullarna" rel="noopener" title="Chatta med oss på Messenger (Messenger öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
-          <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook (Facebook öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
-          <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram (Instagram öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
-          <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok (TikTok öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
+          <a href="https://m.me/rockrullarna" rel="noopener" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
+          <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook (Facebook, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
+          <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram (Instagram, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
+          <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok (TikTok, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.5.20230420" target="_blank" rel="noopener">
-          v12.5.20230420
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.5.20230502" target="_blank" rel="noopener">
+          v12.5.20230502
         </a><br />
         <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>

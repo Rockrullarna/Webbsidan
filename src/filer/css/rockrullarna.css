@@ -22,7 +22,9 @@ main {
 }
 
 a, a:visited {
+  padding: 0 .2em;
   color: #0082e6;
+  display: inline-block;
 }
 
 a:hover {
