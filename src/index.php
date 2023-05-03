@@ -31,8 +31,8 @@
         <p>
           Vill du anmäla dig till någon av våra aktiviteter eller kurser?
         </p>
-        <p class="mb-5">  
-          <a class="btn btn-primary btn-lg" role="button" href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
+        <p class="mb-3">  
+          <a class="btn btn-primary btn-lg mb-3" role="button" href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           <a class="btn btn-outline-secondary" role="button" href="/Danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
         </p>
         <h2>
