@@ -73,13 +73,13 @@
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.6.20230502" target="_blank" rel="noopener">
-          v12.6.20230502
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.7.20230713/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
+          v12.7.20230713
         </a><br />
         <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
     </div>
-    <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </footer>
 </body>
 </html>

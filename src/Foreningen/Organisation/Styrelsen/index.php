@@ -2,7 +2,7 @@
   $header_title = "Styrelsen - Organisation - Föreningen";
   $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
-  $page_updated = "2023-05-02 19:52";
+  $page_updated = "2023-07-13 23:02";
   $page_url = "/Foreningen/Organisation/Styrelsen";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -18,7 +18,7 @@
     <p><strong>Det är vi som sitter i styrelsen sedan årsmötet 2023-03-25.</strong></p>
     <p>
       Ordförande (1år): John Hägglöf<br />
-      Vice ordförande (2år): Pierre Hagström<br />
+      Vice ordförande (2år): Pierre Hagström (vakant, hoppat av sitt uppdrag)<br />
       Kassör (1år): Jonas Arvidson<br />
       Sekreterare: Utlyses separat per styrelsemöte<br />
       Ledamot (2år): Pernilla Söderqvist<br />

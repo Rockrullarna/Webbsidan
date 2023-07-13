@@ -46,7 +46,7 @@
       <!-- TODO: Fixa länken! -->
       <tr>
         <td colspan="2" class="GalleryTableCellIcon">
-          <a href="/typsnitt/bernhard-antique-d-ot-bold-condensed_6777_font_typsnitt.ttf" title="Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt" target="_blank" rel="gallery">
+          <a href="./Typsnitt/Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt.ttf" title="Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt" target="_blank" rel="gallery">
             <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
             Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt
           </a>
