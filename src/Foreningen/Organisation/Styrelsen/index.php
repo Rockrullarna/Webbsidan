@@ -18,7 +18,7 @@
     <p><strong>Det är vi som sitter i styrelsen sedan årsmötet 2023-03-25.</strong></p>
     <p>
       Ordförande (1år): John Hägglöf<br />
-      Vice ordförande (2år): Pierre Hagström<br />
+      Vice ordförande (2år): Pierre Hagström (vakant, hoppat av sitt uppdrag)<br />
       Kassör (1år): Jonas Arvidson<br />
       Sekreterare: Utlyses separat per styrelsemöte<br />
       Ledamot (2år): Pernilla Söderqvist<br />
