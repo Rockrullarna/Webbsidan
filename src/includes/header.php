@@ -111,7 +111,9 @@
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <div class="mt-5">
-      <img alt="Logga för Dansklubben Rockrullarna" src="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
+      <a href="https://rockrullarna.se/">
+        <img alt="Logga för Dansklubben Rockrullarna" src="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
+      </a>
     </div>
     <nav class="navbar fixed-top navbar-expand-lg p-0">
       <div class="container-fluid dkrr-navbar-bg">
