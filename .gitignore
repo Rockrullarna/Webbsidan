@@ -351,3 +351,4 @@ MigrationBackup/
 
 # Rockrullarna ignorerade dokument-filer
 src/filer/dokument/
+src/.DS_Store
