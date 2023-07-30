@@ -2,7 +2,7 @@
   $header_title = "Danskurser";
   $header_description = "Information om våra danskurser";
 
-  $page_updated = "2023-05-02 21:48";
+  $page_updated = "2023-07-30 21:48";
   $page_url = "/Danskurser";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -14,13 +14,17 @@
     </div>
     <h1>Våra danskurser</h1>
     <p>
-      Vad kul att du intresserat dig för dans, den roligaste motionsformen du kan tänka dig. Hos oss är alla välkomna för att lära sig dansa. Vi har kurser inom Bugg, West Coast Swing och Fox. Vid utvalda tillfällen anordnar vi även intensivkurser/helgkurser i både ovanstående och andra dansstilar.
+      Vad kul att du intresserat dig för dans, den roligaste motionsformen du kan tänka dig. Hos oss är alla välkomna för att lära sig dansa. Vi har kurser inom <a href="/Danskurser/Kursoversikt/Bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
+      <a href="/Danskurser/Kursoversikt/Fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
+      <a href="/Danskurser/Kursoversikt/West-Coast-Swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a> samt 
+      <a href="/Danskurser/Kursoversikt/Dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn / ungdommar</b></a>. 
+      Vid utvalda tillfällen anordnar vi även intensivkurser/helgkurser i både ovanstående och andra dansstilar.
     </p>
     <p>
       Du anmäler dig antigen ensam eller i par och väljer mellan barn och ungdom eller vuxenkurser. När du anmält dig får du bekräftelse via e-post samt ytterligare ett när om du blivit antagen och då med utförlig betalningsinformation.
     </p>
     <p>
-      <em>OBS! Anmälan är bindande inom 14 dagar före aktivitetens start. Detta gäller dock inte nybörjarkurser med prova-på-gång första tillfället.</em>
+      <em>OBS! Anmälan är bindande inom 14 dagar före aktivitetens start.</em>
     </p>
     <p>
       <em>Alla helgkurser är bindande från och med det du blivit antagen. Vi vill hålla en god kvalitet och bokar in externa tränare som måste avbokas vid för få anmälningar.</em>

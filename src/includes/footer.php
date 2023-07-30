@@ -60,21 +60,18 @@
       </div>
       <div id="footer-mail" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         KONTAKT<br />
-        <svg width="16" height="16" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg> Messenger: <a href="https://m.me/rockrullarna" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank" rel="noopener">m.me/rockrullarna</a>
-        <br />
         <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-at"><use href="#envelope-at"></use></svg> E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
           SOCIALT<br />
-          <a href="https://m.me/rockrullarna" rel="noopener" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
           <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook (Facebook, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
           <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram (Instagram, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
           <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok (TikTok, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.7.20230713/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
-          v12.7.20230713
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.8.20230730/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
+          v12.8.20230730
         </a><br />
         <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
@@ -83,4 +80,3 @@
   </footer>
 </body>
 </html>
-
