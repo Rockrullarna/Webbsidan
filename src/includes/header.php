@@ -239,17 +239,18 @@
               </ul>
             </li>
           </ul>
-          <!-- <form class="d-flex ms-auto" method="get" action="https://www.bing.com/search?q=site%3A+rockrullarna.se+"> -->
-          <!-- <form class="d-flex ms-auto" method="get" action="https://www.bing.com/search">
+          <form class="d-flex ms-auto">
             <div class="input-group">
-              <input name="q" class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn border-0" type="submit">Search</button>
+              <input id="search" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
+              <button class="btn border-0" onclick="search()">Sök</button>
             </div>
-          </form> -->
-
-          <form>
-  <input id="search" type="search" placeholder="Search" aria-label="Search">
-  <button onclick="search()">Sök</button>
+          </form>
+          <script>
+            function search() {
+              var query = "site:rockrullarna.se " + document.getElementById("search").value;
+              window.location.href = "https://www.bing.com/search?q=" + encodeURIComponent(query);
+            }
+          </script>
         </div>
       </div>
     </nav>
