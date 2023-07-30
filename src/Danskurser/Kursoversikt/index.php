@@ -2,7 +2,7 @@
   $header_title = "Kursöversikt - Danskurser";
   $header_description = "Här finns en kursöversikt över alla våra dansstilar och vårt kursutbud";
 
-  $page_updated = "2023-05-02 21:49";
+  $page_updated = "2023-07-30 21:49";
   $page_url = "/Danskurser/Kursoversikt";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
