@@ -108,7 +108,11 @@
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <div class="m-5 text-center">
       <a href="https://rockrullarna.se/">
-        <img alt="Logga för Dansklubben Rockrullarna" src="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" class="logo" />
+        <picture>
+          <source type="image/webp" srcset="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
+          <source type="image/jpeg" srcset="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
+          <img src="https://rockrullarna.se/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" alt="Logga för Dansklubben Rockrullarna" class="logo" />
+        </picture>
       </a>
     </div>
     <nav class="navbar fixed-top navbar-expand-lg p-0">
