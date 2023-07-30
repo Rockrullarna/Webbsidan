@@ -14,7 +14,11 @@
     </div>
     <h1>Våra danskurser</h1>
     <p>
-      Vad kul att du intresserat dig för dans, den roligaste motionsformen du kan tänka dig. Hos oss är alla välkomna för att lära sig dansa. Vi har kurser inom Bugg, West Coast Swing och Fox. Vid utvalda tillfällen anordnar vi även intensivkurser/helgkurser i både ovanstående och andra dansstilar.
+      Vad kul att du intresserat dig för dans, den roligaste motionsformen du kan tänka dig. Hos oss är alla välkomna för att lära sig dansa. Vi har kurser inom <a href="/Danskurser/Kursoversikt/Bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
+      <a href="/Danskurser/Kursoversikt/Fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
+      <a href="/Danskurser/Kursoversikt/West-Coast-Swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a> samt 
+      <a href="/Danskurser/Kursoversikt/Dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn / ungdommar</b></a>. 
+      Vid utvalda tillfällen anordnar vi även intensivkurser/helgkurser i både ovanstående och andra dansstilar.
     </p>
     <p>
       Du anmäler dig antigen ensam eller i par och väljer mellan barn och ungdom eller vuxenkurser. När du anmält dig får du bekräftelse via e-post samt ytterligare ett när om du blivit antagen och då med utförlig betalningsinformation.
