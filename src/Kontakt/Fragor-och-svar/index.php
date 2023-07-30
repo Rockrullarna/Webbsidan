@@ -24,11 +24,11 @@
     <div class="accordion" id="accordionPanelsStayOpen-DansSe">
       <div class="accordion-item">
         <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseDansSeOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
             Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?
           </button>
         </h3>
-        <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse show">
+        <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse">
           <div class="accordion-body">
             <ol>
               <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
