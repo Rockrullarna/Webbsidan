@@ -223,9 +223,9 @@
                   <ul class="dropdown-menu shadow">
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Dans.se">Dans.se</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Teams-mote">Teams-möten</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Zoom-mote">Zoom-möte</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Dans.se">Dans.se</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>
