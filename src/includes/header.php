@@ -241,14 +241,15 @@
           </ul>
           <form class="d-flex ms-auto">
             <div class="input-group">
-              <input id="search" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
-              <button class="btn border-0" onclick="search()">Sök</button>
+              <input id="searchValue" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
+              <button class="btn border-0" type="submit" onclick="searchFunc()">Sök</button>
             </div>
           </form>
           <script>
-            function search() {
-              var query = "site:rockrullarna.se " + document.getElementById("search").value;
-              window.location.href = "https://www.bing.com/search?q=" + encodeURIComponent(query);
+            function searchFunc() {
+              var searchQuery = document.getElementById("searchValue").value;
+              var searchUrl = "https://www.bing.com/search?q=site:rockrullarna.se+" + encodeURIComponent(searchQuery);
+              window.open(searchUrl, '_blank').focus();
             }
           </script>
         </div>
