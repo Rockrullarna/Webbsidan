@@ -17,6 +17,51 @@
       Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
     </p>
 
+    <h2 id="dans-se" class="FAQCategoryHeading">
+        Dans.se
+    </h2>
+
+    <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="FAQquestion">
+        <p>Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?</p>
+    </h3>
+    <span id="para6" class="faqFact DisplayNone">
+      <ol>
+        <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
+        <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
+        <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
+        <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
+        <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
+        <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>" </li>
+        <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
+      </ol>
+      <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+      <p><br /></p>
+      <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+      <p><br /><br /></p>
+      <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
+      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+      <p><br /><br /></p>
+      <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
+      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+      <p><br /><br /></p>
+      <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
+      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
+      <p> </p>
+      <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+    </span>
+    <!--
+    <span id="linkShow6" class="DisplayBlock">
+      <p>
+          Visa svar
+      </p>
+    </span>
+    <span id="linkShow6" class="DisplayNone">
+      <p>
+          Dölj svar
+      </p>
+    </span>
+    -->
+
     <h2 id="teams-mote" class="FAQCategoryHeading">
       Teams-möte
     </h2>
@@ -171,50 +216,6 @@
     </span>
     -->
 
-    <h2 id="dans-se" class="FAQCategoryHeading">
-        Dans.se
-    </h2>
-
-    <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="FAQquestion">
-        <p>Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?</p>
-    </h3>
-    <span id="para6" class="faqFact DisplayNone">
-      <ol>
-        <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
-        <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
-        <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
-        <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
-        <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
-        <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>" </li>
-        <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
-      </ol>
-      <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
-      <p><br /></p>
-      <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
-      <p><br /><br /></p>
-      <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
-      <p><br /><br /></p>
-      <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
-      <p><br /><br /></p>
-      <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-      <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
-      <p> </p>
-      <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
-    </span>
-    <!--
-    <span id="linkShow6" class="DisplayBlock">
-      <p>
-          Visa svar
-      </p>
-    </span>
-    <span id="linkShow6" class="DisplayNone">
-      <p>
-          Dölj svar
-      </p>
-    </span>
-    -->
 <?php
   include_once '../../includes/footer.php'
 ?>
