@@ -60,8 +60,6 @@
       </div>
       <div id="footer-mail" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         KONTAKT<br />
-        <svg width="16" height="16" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg> Messenger: <a href="https://m.me/rockrullarna" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank" rel="noopener">m.me/rockrullarna</a>
-        <br />
         <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-at"><use href="#envelope-at"></use></svg> E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
