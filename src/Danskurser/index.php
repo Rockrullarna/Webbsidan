@@ -24,7 +24,7 @@
       Du anmäler dig antigen ensam eller i par och väljer mellan barn och ungdom eller vuxenkurser. När du anmält dig får du bekräftelse via e-post samt ytterligare ett när om du blivit antagen och då med utförlig betalningsinformation.
     </p>
     <p>
-      <em>OBS! Anmälan är bindande inom 14 dagar före aktivitetens start. Detta gäller dock inte nybörjarkurser med prova-på-gång första tillfället.</em>
+      <em>OBS! Anmälan är bindande inom 14 dagar före aktivitetens start.</em>
     </p>
     <p>
       <em>Alla helgkurser är bindande från och med det du blivit antagen. Vi vill hålla en god kvalitet och bokar in externa tränare som måste avbokas vid för få anmälningar.</em>
