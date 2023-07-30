@@ -22,7 +22,7 @@
     </p>
     <p>
       Om ni önskar att besöka oss så träffas vi säkrast nere i våra lokaler under terminerna från söndag till torsdag mellan klockan 18:00-20:30.<br />
-      För att veta att någon är på plats, kolla i <a href="/Aktivitetskalender">vår Aktivitetskalender</a>, så vi bedriver verksamhet när du tänkt besöka oss.
+      För att veta att någon är på plats, kolla i vår <a href="/Aktivitetskalender">Aktivitetskalender</a>, så vi bedriver verksamhet när du tänkt besöka oss.
     </p>
     <table style="border: 0;">
       <tbody>
