@@ -217,7 +217,6 @@
                 <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt">Kontaktinformation</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)" target="_blank" rel="noopener">Hitta till oss (Google maps)</a></li>
-                <li><a class="dropdown-item" href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" target="_blank" rel="noopener">Chatta med oss (Messenger)</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Frågor och Svar</a>

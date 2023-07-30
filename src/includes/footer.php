@@ -64,7 +64,6 @@
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
           SOCIALT<br />
-          <a href="https://m.me/rockrullarna" rel="noopener" title="Chatta med oss på Messenger (Messenger, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-messenger"><use href="#messenger"></use></svg></a>
           <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook (Facebook, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
           <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram (Instagram, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
           <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok (TikTok, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
