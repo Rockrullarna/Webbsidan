@@ -239,14 +239,13 @@
               </ul>
             </li>
           </ul>
-          <!--
-          <form class="d-flex ms-auto">
+          <!-- <form class="d-flex ms-auto" method="get" action="https://www.bing.com/search?q=site%3A+rockrullarna.se+"> -->
+          <form class="d-flex ms-auto" method="get" action="https://www.bing.com/search">
             <div class="input-group">
-              <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
+              <input name="q" class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn border-0" type="submit">Search</button>
             </div>
           </form>
-          -->
         </div>
       </div>
     </nav>
