@@ -17,7 +17,7 @@
       Välkommen till Dansklubben Rockrullarna!
     </p>
     <p>
-      Vår ideella förening föredrar att du kontaktar oss via E-post eller Messenger enligt uppgifterna nedan.<br />
+      Vår ideella förening föredrar att du kontaktar oss via E-post som du hittar på sidan: <strong><a href="./Skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong>.<br />
       Då föreningen oftas är upptagen med kursverksamhet och vi inte har några anställda så har vi tyvärr ingen möljlighet att svara i telefon. 
     </p>
     <p>
@@ -34,11 +34,6 @@
         <tr>
           <td>
             <p><strong>► <a href="./Skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong></p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p><strong>► <a href="https://m.me/Rockrullarna" title="Chatta med oss (Facebook messenger)">Chatta med oss (Facebook Messenger)</a></strong></p>
           </td>
         </tr>
       </tbody>
