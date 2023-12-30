@@ -228,6 +228,7 @@
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Dans.se">Dans.se</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Friskvard-ePassi">Friskvård ePassi</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Teams-mote">Teams-möten</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Zoom-mote">Zoom-möte</a></li>
                   </ul>
