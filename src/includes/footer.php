@@ -70,8 +70,8 @@
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.8.20230730/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
-          v12.8.20230730
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.10.20240123/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
+          v12.10.20240123
         </a><br />
         <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>

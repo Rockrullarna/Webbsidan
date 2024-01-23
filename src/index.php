@@ -3,7 +3,7 @@
   $header_description = "Dansklubben Rockrullarna är ideell dansförening som är öppen för alla oavsett ålder, kön, religion eller etnicitet. Vi har kurser inom Bugg (barn, ungdom, vuxen), Fox och West Coast Swing. Vid utvalda tillfällen erbjuder vi även intensivkurser av olika slag. För mer information kontakta oss via e-post info@rockrullarna.se";
   $header_keywords = "bugg,  bugg center,  bugg centrum,  bugg dans,  bugg dans i örebro,  bugg dans örebro,  bugg i örebro,  bugg kurs,  bugg kurser,  bugg nerke,  bugg sverige,  bugg örebro,  bugga i närke,  bugga i sverige,  bugga i örebro,  bugga nerke,  bugga sverige,  bugga örebro,  buggcenter,  buggcenter nerke,  buggcenter sverige,  buggcenter örebro,  buggkurs,  buggkurs i örebro,  buggkurser,  centrum för bugg,  centrum för dans,  centrum för wcs,  dans,  dans center,  dans centrum,  dans kurs,  dans kurser,  dans skola,  dans sport,  dans örebro,  dansa,  dansa bugg,  dansa bugg i örebro,  dansa bugg örebro,  dansa i örebro,  dansa örebro,  danscenter,  dans-center,  danscenter i örebro,  danscenter örebro,  danscentrum,  dans-centrum,  danscentrum i örebro,  danscentrum örebro,  danskurser ,  danskurser i nerke,  danskurser i örebro,  dansskola,  dans-skola,  danssport,  dans-sport,  danssport i örebro,  danssport örebro,  fox dans,  fox kurs,  fox kurser,  foxkurs,  foxtrott,  foxtrott dans,  foxtrott kurs,  foxtrott kurser,  kurs i bugg,  kurs i dans,  kurs i foxtrott,  kurs i wcs,  kurs i west coast swing,  kurser i bugg,  kurser i dans,  kurser i foxtrott,  kurser i wcs,  kurser i west coast swing,  nerke,  närke,  WCS i örebro,  wcs kurs,  wcs kurser,  WCS örebro,  wcskurs,  west coast swing,  west coast swing i örebro,  west coast swing örebro,  west cost swing kurser,  örebro,  örebro bugg,  örebro bugg dans,  örebro buggdans, dans i Örebro, zumba, sumba";
 
-  $page_updated = "2023-07-30 23:04";
+  $page_updated = "2024-01-23 21:26";
   $page_url = "";
   $page_contact_name = "";
   $page_contact_email = "";
@@ -16,7 +16,7 @@
       Våra primära dansstilar är <a href="/Danskurser/Kursoversikt/Bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
       <a href="/Danskurser/Kursoversikt/Fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
       <a href="/Danskurser/Kursoversikt/West-Coast-Swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a>. 
-      Vi har även ett stort fokus på <a href="/Danskurser/Kursoversikt/Dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>.
+      <!-- Vi har även ett stort fokus på <a href="/Danskurser/Kursoversikt/Dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
       Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
     <div class="row">
       <section id="start-activity" class="col-12 col-lg-6 text-center">
@@ -48,8 +48,14 @@
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
           Nyheter
         </h2>
+        <h3>
+          <a href="/Foreningen/Moten-och-protokoll/Arsmote" title="Länk till årsmötet 2024">Årsmöte lördag 2024-03-23, kl. 17:00</a>
+        </h3>
         <p>
-          Senaste nytt hittar du på sidan:
+          Välkomna på klubbens årsmöte! Mer info finner du <a href="/Foreningen/Moten-och-protokoll/Arsmote" title="Länk till årsmötet 2024">på sidan för vårt årsmöte 2024</a>.
+        </p>
+        <p>
+          Övriga nyheter nytt hittar du på sidan:
         </p>
         <p class="mb-5">
           <a class="btn btn-outline-secondary" role="button" href="/Sociala-media" title="Sociala media">
