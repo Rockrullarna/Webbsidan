@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2023-03-13 18:41";
+  $page_updated = "2024-01-23 21:41";
   $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -21,46 +21,54 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <h2>Årsmötet 2023</h2>
-    <p>Anmälan till årsmötet 2023 gör du här: <a href="https://dans.se/rockrullarna/shop/new?event=180308" title="_blank">Anmälningsformulär till årsmötet 2023</a>.</p>
-    <h3>Handlingar inför Årsmötet 2023 (2022 års verksamhet)</h3>
-    <p>Här finns alla de handlingar som ska avhandlas inför årsmötet 2023, där vi går igenom verksamhetsåret 2022.</p>
+    <h2>Årsmötet 2024</h2>
+    <p>Anmälan till årsmötet 2024 gör du här: <a href="https://dans.se/rockrullarna/shop/new?event=210750" title="_blank">Anmälningsformulär till årsmötet 2024</a>.</p>
+    <h3>Handlingar inför Årsmötet 2024 (2023 års verksamhet)</h3>
+    <p>Här finns alla de handlingar som ska avhandlas inför årsmötet 2024, där vi går igenom verksamhetsåret 2023.</p>
     <table class="table">
       <tr>
         <th>Handlingarna</th>
         <th></th>
       </tr>
       <tr>
-        <td>DKRR-2023 Dagordning Årsmöte</td>
-        <td><a href="./Handlingar/DKRR-2023-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Dagordning Årsmöte</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Ekonomi - Balansräkning 2022-12-31</td>
-        <td><a href="./Handlingar/DKRR-2023-Ekonomi-Balansräkning--2022-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Ekonomi - Balansräkning 2023-12-31</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Balansräkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Ekonomi - Resultaträkning 2022-12-31</td>
-        <td><a href="./Handlingar/DKRR-2023-Ekonomi-Resultaträkning--2022-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Ekonomi - Resultaträkning 2023-12-31</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Resultaträkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Revisionsberättelse för 2022</td>
-        <td><a href="./Handlingar/DKRR-2023-Rev.berattelse-2022.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Revisionsberättelse för 2023</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Valberedningens förslag</td>
-        <td><a href="./Handlingar/DKRR-2023-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Valberedningens förslag</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Versamhetsberättelse för 2022</td>
-        <td><a href="./Handlingar/DKRR-2023-Versamhetsberättelse-för-2022.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Versamhetsberättelse för 2023</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Versamhetsberättelse-för-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Års Ekonomi Budgetförslag</td>
-        <td><a href="./Handlingar/DKRR-2023-Års-Ekonomi-Budget.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Års Ekonomi Budgetförslag</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2023-Års-Ekonomi-Budget.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2023 Verksamhetsplan för 2023</td>
-        <td><a href="./Handlingar/DKRR-2023-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2024 Verksamhetsplan för 2024</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./Handlingar/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
     </table>
     <p>&nbsp;</p>
