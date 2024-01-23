@@ -2,7 +2,7 @@
   $header_title = "Frågor och svar (FAQ)";
   $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
-  $page_updated = "2023-07-30 22:00";
+  $page_updated = "2023-12-30 15:30";
   $page_url = "/Kontakt/Fragor-och-svar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -44,19 +44,103 @@
             <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
             <p><br /><br /></p>
             <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+            <p><img class="no-visual-search" src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
             <p><br /><br /></p>
             <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+            <p><img class="no-visual-search" src="./Dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
             <p><br /><br /></p>
             <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search"src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
+            <p><img class="no-visual-search" src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
             <p> </p>
             <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
           </div>
         </div>
       </div>
     </div>
+
+    <h2 id="friskvard-ePassi" class="FAQCategoryHeading">
+      Friskvård med ePassi
+    </h2>
+
+    <div class="accordion" id="accordionPanelsStayOpen-Friskvard-ePassi">
+      <div class="accordion-item">
+        <h3 id="friskvardsbetalning-med-ePassi" class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-Friskvard-ePassi-One" aria-expanded="false" aria-controls="panelsStayOpen-collapse-Friskvard-ePassi-One">
+            Hur loggar jag in och betalar med friskvårdsappen ePassi?
+          </button>
+        </h3>
+        <div id="panelsStayOpen-collapse-Friskvard-ePassi-One" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p>Epassi är den app som vi har avtal med för att kunna ta emot fristvårdsbetalningar. Du kan även ha avtal via din arbetsgivare att betala in kursavgiften och sedan få tillbaka pengar för friskvårsutlägg mot uppvisande av vårt kvitto.</p>
+            <p>För att logga in och betala med Epassi-appen så kan du göra på följande sätt: </p>
+            <ol>
+              <li>Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter.</li>
+              <li>Installera applikationen på din mobiltelefon och öppna sedan Epassi.</li>
+              <li>Välj "Sverige" som land.</li>
+              <li>Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare.</li>
+              <li>Byt till BankID-appen och legitimera din identifikation.</li>
+              <li>Ange om Epassi ska få komma åt din platsinformation eller ej (kan nekas, då vi kommer att söka fram Rockrullarna).</li>
+              <li>Markera sökfältet.</li>
+              <li>Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna".</li>
+              <li>Klicka sedan in på "Dansklubben Rockrullarna".</li>
+              <li>Navigera ned rutan för att "ANGE BELOPP".</li>
+              <li>Fyll i kursavgiften som du tänkt betala in (alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</li>
+              <li>Du får nu en extra påminnelse om att verkligen bekräfta köpet, här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</li>
+              <li>Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna.</li>
+            </ol>
+            <p> Det finns även bilder här nedanför som hjälper dig att förklara allt steg för steg. </p>
+            <p><br /></p>
+            <p>Lyckas du inte genomföra betalningen på egen hand, kan du alltid prata med oss i receptionen innan eller efter en danskurs hos oss. Alternativt mejla till vår kassör via e-post: <a href="mailto:ekonomi@rockrullarna.se" title="mejla till: ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>, så hjälper vi dig med friskvårdsbetalningen.</p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 1 - Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-01-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 1 - Ladda ned appen" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 2 - Installera applikationen på din mobiltelefon och öppna sedan Epassi: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-02-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 2 - Ladda ned appen" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 3 - Välj "Sverige" som land: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-03-starta-appen-valj-sverige.jpg" alt="ePassi Bild på Steg 3 - Starta appen och välj Sverige" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 4 - Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-04-logga-in-med-bankId.jpg" alt="ePassi Bild på Steg 4 - Logga in med BankID" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 5 - Byt till BankID-appen och legitimera din identifikation: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-05-logga-in-i-bankId-appen.jpg" alt="ePassi Bild på Steg 5 - Logga in i BankId-appen" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 6 - Ange om Epassi ska få komma åt din platsinformation eller ej: </strong></p>
+            <p>(kan nekas, då vi kommer att söka fram Rockrullarna).</p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-06-acceptera-eller-neka-plats-info.jpg" alt="ePassi Bild på Steg 6 - Acceptera eller neka plats-info" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 7 - Markera sökfältet: </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-07-sok-efter-leverantor.jpg" alt="ePassi Bild på Steg 7 - Sök efter leverantör" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 8 - Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna": </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-08-skriv-in-Rockrullarna.jpg" alt="ePassi Bild på Steg 8 - Skriv in Rockrullarna" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 9 - Klicka sedan in på "Dansklubben Rockrullarna": </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-09-klicka-in-pa-Dansklubben-Rockrullarna.jpg" alt="ePassi Bild på Steg 9 - Klicka in på Dansklubben Rockrullarna" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 10 - Navigera ned rutan för att "ANGE BELOPP": </strong></p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-10-tryck-pa-ange-belopp.jpg" alt="ePassi Bild på Steg 10 - Tryck på ANGE BELOPP" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 11 - Fyll i kursavgiften som du tänkt betala in: </strong></p>
+            <p>(alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-11-ange-beloppet-for-kursavgiften.jpg" alt="ePassi Bild på Steg 11 - Ange beloppet för kursavgiften" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Bild till steg 12 - Du får nu en extra påminnelse om att verkligen bekräfta köpet: </strong></p>
+            <p>Här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-12-bekrafta-betalningen.jpg" alt="ePassi Bild på Steg 12 - Bekräfta betalningen" width="200" height="433" /></p>
+            <p><br /><br /></p>
+            <p><strong> Steg 13 - Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna! </strong></p>
+            <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
+            <p><img class="no-visual-search" src="./Friskvard-ePassi/ePassi-13-tips-om-belopp.jpg" alt="ePassi Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p>
+            <p><br /><br /><br /></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-ePassi">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#friskvardsbetalning-med-ePassi</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <h2 id="teams-mote" class="FAQCategoryHeading">
       Teams-möte
@@ -95,7 +179,7 @@
         <div id="panelsStayOpen-collapseTeamsTwo" class="accordion-collapse collapse">
           <div class="accordion-body">
             <p>Under våra Teams-möten så finns det några saker att tänka på, så vi inte pratar i mun på varandra och får ett riktigt trevligt möte tillsammans.</p>
-            <p><img class="no-visual-search"src="./Teams-mote/bild-Teams-InfoUnderMotet.png" alt="Teams information under mötet" width="720" height="186" /></p>
+            <p><img class="no-visual-search" src="./Teams-mote/bild-Teams-InfoUnderMotet.png" alt="Teams information under mötet" width="720" height="186" /></p>
             <ul>
               <li><strong>Begär ordet</strong> när du vill prata genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan använda funktionen "Räck upp handen"✋ (nr 2 i bilden). <br /><br /></li>
               <li><strong>Kom åt chatten</strong> genom att trycka på "pratbubblan"💬 (nr 3 i bilden) och där kan du skriva in dina frågor närsomhelst under mötet. Så besvaras dessa i turordning. <br /><br /></li>
@@ -151,9 +235,9 @@
           <div class="accordion-body">
             <p>1. Navigera till länken du fått i e-postmeddelandet med inbjudan till mötet. </p>
             <p>2. Ladda ned och installera Zoom ifrån länken till inbjudan (Klicka på: download &amp; run Zoom, sedan installera det programmet som laddades ned i nedre delen av webbläsaren). </p>
-            <p><img class="no-visual-search"title="Ladda ned och installera Zoom" src="./Zoom-mote/bild-Zoom-dator-1-klicka-pa-nedladdade-filen.png" alt="Ladda ned och installera Zoom" width="498" height="424" /></p>
+            <p><img class="no-visual-search" title="Ladda ned och installera Zoom" src="./Zoom-mote/bild-Zoom-dator-1-klicka-pa-nedladdade-filen.png" alt="Ladda ned och installera Zoom" width="498" height="424" /></p>
             <p>3. Efter installationen av Zoom är klar, klicka igen på länken ifrån mailet med inbjudan, och sedan ska det gå att starta Zoom via "öppna". </p>
-            <p><img class="no-visual-search"title="Öppna zoom" src="./Zoom-mote/bild-Zoom-dator-2-ladda-ned.png" alt="Öppna zoom" width="497" height="394" /> </p>
+            <p><img class="no-visual-search" title="Öppna zoom" src="./Zoom-mote/bild-Zoom-dator-2-ladda-ned.png" alt="Öppna zoom" width="497" height="394" /> </p>
             <p>4. Nu bör du vara inne i Zoom-mötet. </p>
             <p> </p>
             <p>Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
