@@ -33,42 +33,42 @@
       <tr>
         <td>DKRR-2024 Dagordning Årsmöte</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Ekonomi - Balansräkning 2023-12-31</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Balansräkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Balansräkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Ekonomi - Resultaträkning 2023-12-31</td>
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Resultaträkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr>
+      <tr>
+        <td>DKRR-2024 Ekonomi - Årsbudget förslag 2024</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Resultaträkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Årsbudget 2024.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Revisionsberättelse för 2023</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Valberedningens förslag</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Versamhetsberättelse för 2023</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Versamhetsberättelse-för-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
-      </tr>
-      <tr>
-        <td>DKRR-2024 Års Ekonomi Budgetförslag</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2023-Års-Ekonomi-Budget.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Versamhetsberättelse-för-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Verksamhetsplan för 2024</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
     </table>
     <p>&nbsp;</p>
