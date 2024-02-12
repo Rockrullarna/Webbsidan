@@ -133,25 +133,22 @@
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Danskurser</a>
               <ul class="dropdown-menu shadow">
                 <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser">Våra danskurser</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Anmalan-danskurser">Anmälan till danskurser</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li class="dropend">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Kursöversikt</a>
-                  <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt">Kursöversikten</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Dans-barn-och-ungdom">Barn och ungdom</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Bugg">Bugg</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fox">Fox</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/West-Coast-Swing">West Coast Swing</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fritraning">Friträning</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Evenemang">Evenemang</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Privatlektioner">Privatlektioner</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Trivselkvallar">Trivselkvällar</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Utbildningar">Utbildningar</a></li>
-                  </ul>
-                </li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Anmalan-danskurser">Anmälan danskurser</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Avanmalan">Avanmälan</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt">Kursöversikten</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Dans-barn-och-ungdom">Barn och ungdom</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Bugg">Bugg</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fox">Fox</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/West-Coast-Swing">West Coast Swing</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Trivselkvallar">Trivselkvällar</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Evenemang">Evenemang</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fritraning">Friträning</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Privatlektioner">Privatlektioner</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Utbildningar">Utbildningar</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Anmalan-danskurser">Anmäl dig till danskurs</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Avanmalan">Avanmäl dig från danskurs</a></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Betalning">Betalning</a></li>
               </ul>
             </li>
