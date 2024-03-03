@@ -7,6 +7,7 @@
   $page_url = "";
   $page_contact_name = "";
   $page_contact_email = "";
+  $page_hidden_logo = true;
 
   include_once '../includes/header.php'
 ?>
