@@ -16,8 +16,8 @@
       Årsmöte
     </h1>
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
-    <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/anmalandanskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
-    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/Styrandedokument/Verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/foreningen/Styrandedokument/Stadgar/" title="Stadgarna">Stadgarna</a>).</p>
+    <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/Anmalan-danskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
+    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/Foreningen/Styrande-dokument/Stadgar/" title="Stadgarna">Stadgarna</a>).</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
