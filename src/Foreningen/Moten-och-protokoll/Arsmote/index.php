@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2024-01-23 21:41";
+  $page_updated = "2024-03-23 13:22";
   $page_url = "/Foreningen/Moten-och-protokoll/Arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -52,8 +52,8 @@
       </tr>
       <tr>
         <td>DKRR-2024 Revisionsberättelse för 2023</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DK-Rockrullarna-2023-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Valberedningens förslag</td>
