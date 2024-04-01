@@ -16,8 +16,8 @@
       Årsmöte
     </h1>
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
-    <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/anmalandanskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
-    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/Styrandedokument/Verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/foreningen/Styrandedokument/Stadgar/" title="Stadgarna">Stadgarna</a>).</p>
+    <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/Anmalan-danskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
+    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/Foreningen/Styrande-dokument/Stadgar/" title="Stadgarna">Stadgarna</a>).</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -32,43 +32,43 @@
       </tr>
       <tr>
         <td>DKRR-2024 Dagordning Årsmöte</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Ekonomi - Balansräkning 2023-12-31</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Balansräkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Balansräkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Ekonomi - Resultaträkning 2023-12-31</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Ekonomi-Resultaträkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Resultaträkning--2023-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr>
+      <tr>
+        <td>DKRR-2024 Ekonomi - Årsbudget förslag 2024</td>
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Ekonomi-Årsbudget-2024.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Revisionsberättelse för 2023</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Valberedningens förslag</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Valberedningens-forslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Valberedningens-förslag.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2024 Versamhetsberättelse för 2023</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Versamhetsberättelse-för-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
-      </tr>
-      <tr>
-        <td>DKRR-2024 Års Ekonomi Budgetförslag</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2023-Års-Ekonomi-Budget.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./Handlingar/2024/DKRR-2024-Versamhetsberättelse-för-2023.pdf" target="_blank">Visa / Ladda ned</a></td> 
       </tr>
       <tr>
         <td>DKRR-2024 Verksamhetsplan för 2024</td>
         <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./Handlingar/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><a href="./Handlingar/2024/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
     </table>
     <p>&nbsp;</p>

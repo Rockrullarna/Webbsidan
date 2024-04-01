@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCKRULLARNA</title>
+    <!-- Lägg till bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Lägg till anpassad CSS för rubriker och bilder -->
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            color: #00abd6;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skapa en header med titel och navigationsmeny -->
+    <div class="container-fluid bg-dark text-white py-3">
+        <div class="container">
+            <h1 class="text-center">ROCKRULLARNA</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">BILJETTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FOTOGRAFIER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NYHETER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">KURSER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">DANSER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TÄVLINGAR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">KONTAKT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BOKA BILJETT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Skapa en huvudinnehållsområde med två sektioner -->
+    <div class="container my-4">
+        <!-- Skapa en övre sektion med tre rader av bilder eller innehållsblock -->
+        <div class="row">
+            <!-- Skapa en första rad med en bild och en rubrik -->
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFuY2UlMjBjbHVifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dansklubb bild">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <h2>Välkommen till ROCK ROLL ARENA</h2>
+            </div>
+        </div>
+        <!-- Skapa en andra rad med tre innehållsblock med rubriker och texter -->
+        <div class="row my-4">
+            <div class="col-md-4">
+                <h3>KURSER</h3>
+                <p>Vill du lära dig att dansa rock'n'roll, bugg, swing eller någon annan dansstil? Vi har kurser för alla nivåer och åldrar. Anmäl dig idag och upptäck glädjen i att dansa!</p>
+            </div>
+            <div class="col-md-4">
+                <h3>DANSER</h3>
+                <p>Kom och dansa med oss på våra populära danskvällar! Vi har liveband, DJ, bar och en härlig stämning. Oavsett om du är nybörjare eller erfaren dansare, så finns det något för dig.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>TÄVLINGAR</h3>
+                <p>Är du redo för en utmaning? Delta i våra tävlingar och visa vad du kan! Vi har tävlingar för olika dansstilar, nivåer och kategorier. Du kan tävla ensam, i par eller i grupp.</p>
+            </div>
+        </div>
+        <!-- Skapa en tredje rad med en bild och en rubrik -->
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+                <h2>Boka din biljett nu!</h2>
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFuY2UlMjBjbHVifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dansklubb bild">
+            </div>
+        </div>
+        <!-- Skapa en nedre sektion med två stora innehållsblock -->
+        <div class="row my-4">
+            <!-- Skapa ett innehållsblock med en rubrik och en kalender -->
+            <div class="col-md-6">
+                <h3>AKTIVITETS – KALENDER</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Datum</th>
+                            <th>Evenemang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15 feb</td>
+                            <td>Danskurs för nybörjare</td>
+                        </tr>
+                        <tr>
+                            <td>16 feb</td>
+                            <td>Danskväll med liveband</td>
+                        </tr>
+                        <tr>
+                            <td>17 feb</td>
+                            <td>Tävling i rock'n'roll</td>
+                        </tr>
+                        <tr>
+                            <td>18 feb</td>
+                            <td>Danskurs för fortsättare</td>
+                        </tr>
+                        <tr>
+                            <td>19 feb</td>
+                            <td>Danskväll med DJ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Skapa ett innehållsblock med en rubrik och sociala medier ikoner -->
+            <div class="col-md-6">
+                <h3>SOC. MEDIA FÖLJ MEDLEM</h3>
+                <p>Följ oss på sociala medier för att få de senaste nyheterna, erbjudandena och bilderna från våra evenemang. Du kan också dela dina egna upplevelser och tips med andra medlemmar.</p>
+                <div class="d-flex justify-content-around">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Facebook ikon" width="50" height="50"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Instagram ikon" width="50" height="50"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111749.png" alt="YouTube ikon" width="50" height="50"></a>
+                </div>
+            </div>
+                <!-- Skapa en footer med information och länk -->
+    <div class="container-fluid bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>ROCK ROLL ARENA är en dansklubb som erbjuder kurser, danser, tävlingar och andra evenemang för alla som älskar att dansa rock'n'roll, bugg, swing och andra dansstilar. Vi har en stor och modern lokal med bra ljud, ljus och ventilation. Vi har också en trevlig bar och ett café där du kan köpa drycker och snacks. Vi välkomnar alla, oavsett ålder, kön, erfarenhet eller bakgrund. Kom och dansa med oss!</p>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-end">
+                    <a href="https://www.rockrullarna.se" class="text-white">Besök vår hemsida</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Lägg till bootstrap 5 CDN för javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
