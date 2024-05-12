@@ -246,7 +246,7 @@
           <form class="d-flex ms-auto">
             <div class="input-group">
               <input id="searchValue" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
-              <button class="btn border-0" type="submit" onclick="searchFunc()">Sök</button>
+              <button class="btn btn-primary border-0" type="submit" onclick="searchFunc()">Sök</button>
             </div>
           </form>
           <script>
