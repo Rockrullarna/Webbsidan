@@ -60,7 +60,8 @@
       </div>
       <div id="footer-mail" class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center p-0 mt-4">
         KONTAKT<br />
-        <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-at"><use href="#envelope-at"></use></svg> E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
+        <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-at"><use href="#envelope-at"></use></svg> 
+        E-post: <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>
       </div>
       <div id="footer-social" class="col-12 col-lg-4 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
           SOCIALT<br />
@@ -70,8 +71,10 @@
         </div>
       <div id="footer-contact" class="col-12 col-xl-3 text-center align-self-end p-0 mt-4 mb-3">
         &copy; <?php echo date("Y"); ?> - Dansklubben Rockrullarna, 
-        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" href="https://github.com/Rockrullarna/Webbsidan/tree/v12.11.20240401/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" target="_blank" rel="noopener">
-          v12.11.20240401
+        <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" 
+            href="https://github.com/Rockrullarna/Webbsidan/tree/v12.12.20240512/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" 
+            target="_blank" rel="noopener">
+          v12.12.20240512
         </a><br />
         <a href="https://rockrullarna.se/Kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
