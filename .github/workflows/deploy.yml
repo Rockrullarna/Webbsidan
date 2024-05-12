@@ -16,8 +16,8 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_HOST }}
-          server: ${{ secrets.SFTP_PASSWORD }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          server: ${{ secrets.SFTP_HOST }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './src/*'  # Specify the path to your files
           remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/deploy-test/'
