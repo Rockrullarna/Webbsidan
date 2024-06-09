@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 50rem;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
   pointer-events: none;
 }
 
@@ -24,7 +20,7 @@ main {
 }
 
 a, a:visited {
-  padding: 0 .2em;
+  padding: .2em;
   color: #0082e6;
   display: inline-block;
 }
@@ -32,6 +28,16 @@ a, a:visited {
 a:hover {
   background-color: #00ABD6;
   color: #fff;
+}
+
+.bild {
+  width: 60rem;
+  max-width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .btn {
