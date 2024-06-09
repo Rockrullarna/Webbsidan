@@ -32,17 +32,15 @@ include_once '../../../includes/header.php'
     är en grupp av flera personer som hjälps åt. Det ska inte vara betungande 
     att vara engagerad hos oss, tvärtom! 
   </p>
-  <p>
+  <figure class="figure">
     <a href="organisationstradet.jpg" title="Klicka för att se bild i större format">
-      <img src="organisationstradet.jpg" alt="En bild som visar Rockrullarnas organisationsträd" class="bild" />
-    </a>
-  </p>
-  <p>
-    <em>
-      Bilden visar Rockrullarnas nya organisationsstruktur. <br />
-      <i>Klicka på bilden för att se den i större format.</i>
-    </em>
-  </p>
+      <img 
+        src="organisationstradet.jpg"
+        class="figure-img img-fluid rounded"
+        alt="En bild som visar Rockrullarnas organisationsträd">
+      </a>
+    <figcaption class="figure-caption">Bilden visar Rockrullarnas nya organisationsstruktur. <i>Klicka på bilden för att se den i större format.</i></figcaption>
+  </figure>
   <p>
     <b>Kommittéernas uppdrag</b> är att vara en samlad kompetens inom sin dansstil 
     i föreningen och att bl.a. bidra i föreningens verksamhetsplanering. 
@@ -54,20 +52,15 @@ include_once '../../../includes/header.php'
     Detta innebär mer direktkontakt - mellan kommittéerna och styrelsen, samt 
     kommittéerna emellan. 
   </p>
-  <p>
+  <figure class="figure">
     <a href="sektionernas-koppling-till-styrelsen.jpg" title="Klicka för att se bild i större format">
       <img 
-        src="sektionernas-koppling-till-styrelsen.jpg" 
-        alt="En bild som visar hur sektionerna kopplas till styrelsearbetet inom Rockrullarna"
-        class="bild" />
-    </a>
-  </p>
-  <p>
-    <em>
-      Bilden visar hur sektionerna kopplas till styrelsearbetet inom Rockrullarna. <br />
-      <i>Klicka på bilden för att se den i större format.</i>
-    </em>
-  </p>
+        src="sektionernas-koppling-till-styrelsen.jpg"
+        class="figure-img img-fluid rounded"
+        alt="En bild som visar hur sektionerna kopplas till styrelsearbetet inom Rockrullarna">
+      </a>
+    <figcaption class="figure-caption">Bilden visar hur sektionerna kopplas till styrelsearbetet inom Rockrullarna. <i>Klicka på bilden för att se den i större format.</i></figcaption>
+  </figure>
   <p>
     Varje kommitté ska arbeta som ett team i alla frågor, och alla i kommittén ska 
     kunna ta vid för varandra. Men de kommer att ha utsedda ansvariga inom olika 
@@ -79,20 +72,15 @@ include_once '../../../includes/header.php'
     samordnande marknadsföringsansvarig och kommunikatör, dessa roller innehas ofta av personer
     som redan sitter på andra ansvarsroller och har nära kontakt med verksamheten.
   </p>
-  <p>
+  <figure class="figure">
     <a href="omrades-kommitteer.jpg" title="Klicka för att se bild i större format">
       <img 
-        src="omrades-kommitteer.jpg" 
-        alt="En bild som visar hur ansvarsroller för tävling, är kopplad till gemensamma områdes kommittén Tävlings-kommittén"
-        class="bild" />
-    </a>
-  </p>
-  <p>
-    <em>
-      Bilden visar hur danssektionernas kommittéer har gemensamma områdes kommittéer. <br />
-      <i>Klicka på bilden för att se den i större format.</i>
-    </em>
-  </p>
+        src="omrades-kommitteer.jpg"
+        class="figure-img img-fluid rounded"
+        alt="En bild som visar hur ansvarsroller för tävling, är kopplad till gemensamma områdes kommittén Tävlings-kommittén">
+      </a>
+    <figcaption class="figure-caption">Bilden visar hur danssektionernas kommittéer har gemensamma områdes kommittéer. <i>Klicka på bilden för att se den i större format.</i></figcaption>
+  </figure>
   <h2>
     Medlemmar inom de olika dans-kommittéerna
   </h2>
@@ -104,6 +92,7 @@ include_once '../../../includes/header.php'
   <p>Jens Wiklund, Milla Olsson, Ulrika Bertilsdotter, Jonas Arvidson, Åsa Nyström.</p>
   <h3>West Coast Swing-kommittén</h3>
   <p>Sara Sjöström, Jonas Arvidson, Elin Östlund, Elin Nordeman <i>(tävling)</i>, Regina Holmberg <i>(danskvällar)</i>.</p>
+  <p><br /><br /><br /><br /></p>
   <p>
     <em>
       Vid frågor, kontakta gärna oss i styrelsen via vår gemensamma e-post: 
