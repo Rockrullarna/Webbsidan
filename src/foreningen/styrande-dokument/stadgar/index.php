@@ -3,7 +3,7 @@
   $header_description = "Vår ideella förenings nuvarande stadgar";
 
   $page_updated = "2022-06-14 23:33";
-  $page_url = "/Foreningen/Styrande-dokument/Stadgar";
+  $page_url = "/foreningen/styrande-dokument/stadgar";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

@@ -173,45 +173,45 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Föreningen</a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen">Föreningen</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen">Föreningen</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Historia">Historia</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/historia">Historia</a></li>
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Styrande dokument</a>
                   <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument">Våra styrande dokument</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument">Våra styrande dokument</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Stadgar">Stadgar</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Blanketter">Blanketter</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Integritetspolicy">Integritetspolicy</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Policy-mot-diskriminering">Policy mot diskriminering</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Styrande-dokument/Arshjul">Årshjul</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/verksamhetsbeskrivning">Verksamhetsbeskrivning</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/stadgar">Stadgar</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/blanketter">Blanketter</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/integritetspolicy">Integritetspolicy</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/policy-mot-diskriminering">Policy mot diskriminering</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/styrande-dokument/arshjul">Årshjul</a></li>
                   </ul>
                 </li>
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Möten och protokoll</a>
                   <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Moten-och-protokoll">Möten och protokoll</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/Moten-och-protokoll">Möten och protokoll</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Moten-och-protokoll/Arsmote">Årsmöte</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Moten-och-protokoll/Medlemsmote">Medlemsmöte</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Moten-och-protokoll/Styrelsemote">Styrelsemöte</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll/arsmote">Årsmöte</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll/medlemsmote">Medlemsmöte</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll/styrelsemote">Styrelsemöte</a></li>
                   </ul>
                 </li>
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Organisation</a>
                   <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation">Vår organisation</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation">Vår organisation</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/strukturen">Strukturen</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/Styrelsen">Styrelsen</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/Tidigare-styrelser">Tidigare styrelser</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/strukturen">Strukturen</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/styrelsen">Styrelsen</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/tidigare-styrelser">Tidigare styrelser</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/Valberedningen">Valberedningen</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/valberedningen">Valberedningen</a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Medlemsrabatter">Medlemsrabatter</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/medlemsrabatter">Medlemsrabatter</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://dans.se/" title="Medlemsregister (dans.se - Öppnas i nytt fönster)" target="_blank" rel="noopener">Medlemsregister (dans.se)</a></li>
                 <li><a class="dropdown-item" href="https://www.rf.se/bidrag-och-stod/it-tjanster/idrottonline/" title="Information om IdrottOnline hos Riksidrottsförbundet (rf.se - Öppnas i nytt fönster)" target="_blank" rel="noopener">IdrottOnline information (rf.se)</a></li>

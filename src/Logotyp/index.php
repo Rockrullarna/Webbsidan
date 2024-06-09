@@ -13,7 +13,7 @@
     <a href="../">Rockrullarna.se</a> / <span>Logotyp</span>
   </div>
   <h1>Rockrullarnas Logotyp (Grafisk profil)</h1>
-  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
+  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/foreningen/styrande-dokument/verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
   <p>Här kan du hämta ned vår logga, typsnitt och mallar för att skapa bilder till Facebook-evenemang och till andra evenemang.&nbsp;</p>
   <p>Direktlänk till denna sidan att dela:<br /><a href="/Logotyp/">https://www.Rockrullarna.se/Logotyp</a><em><br /></em></p>
   <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><a href="./Format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_blank"><strong>Rockrullarna-bgSvart-frontRRbla.png</strong></a></p>

@@ -3,7 +3,7 @@
   $header_description = "Här finner du våra publika styrelsemöte-protokoll från olika möten vi genomfört";
 
   $page_updated = "2022-12-30 12:27";
-  $page_url = "/Foreningen/Moten-och-protokoll/Styrelsemote";
+  $page_url = "/foreningen/moten-och-protokoll/styrelsemote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

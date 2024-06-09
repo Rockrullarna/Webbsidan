@@ -48,34 +48,34 @@
         </li>
         <li><a href="/Aktivitetskalender" title="Aktivitetskalender">Aktivitetskalender</a></li>
         <li><a href="/Boka-lilla-salen" title="Boka lilla salen">Boka lilla salen</a></li>
-        <li class="dropdown"><a href="/Foreningen" title="Föreningen">Föreningen</a>
+        <li class="dropdown"><a href="/foreningen" title="Föreningen">Föreningen</a>
           <ul>
-            <li><a href="/Foreningen/Historia" title="Historia">Historia</a></li>
-            <li class="dropdown"><a href="/Foreningen/Styrande-dokument" title="Styrande dokument">Styrande dokument</a>
+            <li><a href="/foreningen/historia" title="Historia">Historia</a></li>
+            <li class="dropdown"><a href="/foreningen/styrande-dokument" title="Styrande dokument">Styrande dokument</a>
               <ul>
-                <li><a href="/Foreningen/Styrande-dokument/Verksamhetsbeskrivning" title="Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></li>
-                <li><a href="/Foreningen/Styrande-dokument/Stadgar" title="Stadgar">Stadgar</a></li>
-                <li><a href="/Foreningen/Styrande-dokument/Blanketter" title="Blanketter">Blanketter</a></li>
-                <li><a href="/Foreningen/Styrande-dokument/Integritetspolicy" title="Integritetspolicy">Integritetspolicy</a></li>
-                <li><a href="/Foreningen/Styrande-dokument/Policy-mot-diskriminering" title="Policy mot diskriminering">Policy mot diskriminering</a></li>
-                <li><a href="/Foreningen/Styrande-dokument/Arshjul" title="DKRR Årshjul">Årshjul</a></li>
+                <li><a href="/foreningen/styrande-dokument/verksamhetsbeskrivning" title="Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></li>
+                <li><a href="/foreningen/styrande-dokument/stadgar" title="Stadgar">Stadgar</a></li>
+                <li><a href="/foreningen/styrande-dokument/blanketter" title="Blanketter">Blanketter</a></li>
+                <li><a href="/foreningen/styrande-dokument/integritetspolicy" title="Integritetspolicy">Integritetspolicy</a></li>
+                <li><a href="/foreningen/styrande-dokument/policy-mot-diskriminering" title="Policy mot diskriminering">Policy mot diskriminering</a></li>
+                <li><a href="/foreningen/styrande-dokument/arshjul" title="DKRR Årshjul">Årshjul</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="/Foreningen/Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
+            <li class="dropdown"><a href="/foreningen/Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
               <ul>
-                <li><a href="/Foreningen/Moten-och-protokoll/Arsmote" title="Årsmöte">Årsmöte</a></li>
-                <li><a href="/Foreningen/Moten-och-protokoll/Medlemsmote" title="Medlemsmöte">Medlemsmöte</a></li>
-                <li><a href="/Foreningen/Moten-och-protokoll/Styrelsemote" title="Styrelsemöte">Styrelsemöte</a></li>
+                <li><a href="/foreningen/moten-och-protokoll/arsmote" title="Årsmöte">Årsmöte</a></li>
+                <li><a href="/foreningen/moten-och-protokoll/medlemsmote" title="Medlemsmöte">Medlemsmöte</a></li>
+                <li><a href="/foreningen/moten-och-protokoll/styrelsemote" title="Styrelsemöte">Styrelsemöte</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="/Foreningen/Organisation" title="Organisation">Organisation</a>
+            <li class="dropdown"><a href="/foreningen/organisation" title="Organisation">Organisation</a>
               <ul>
-                <li><a href="/Foreningen/Organisation/Styrelsen" title="Styrelsen">Styrelsen</a></li>
-                <li><a href="/Foreningen/Organisation/Tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
-                <li><a href="/Foreningen/Organisation/Valberedningen" title="Valberedningen">Valberedningen</a></li>
+                <li><a href="/foreningen/organisation/styrelsen" title="Styrelsen">Styrelsen</a></li>
+                <li><a href="/foreningen/organisation/tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
+                <li><a href="/foreningen/organisation/valberedningen" title="Valberedningen">Valberedningen</a></li>
               </ul>
             </li>
-            <li><a href="/Foreningen/Medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
+            <li><a href="/foreningen/medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
             <li><a href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss</a></li>
           </ul>
         </li>

@@ -3,7 +3,7 @@
   $header_description = "Vår ideella förenings organisationsträd";
 
   $page_updated = "2022-12-30 00:23";
-  $page_url = "/Foreningen/Organisation";
+  $page_url = "/foreningen/organisation";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
   
@@ -15,7 +15,7 @@
     <h1>
       Organisation
     </h1>
-    <p>Fullständig organisation, roll och uppdragsbeskrivning återfinns i <a href="/foreningen/Styrande-dokument/Verksamhetsbeskrivning" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen (Annex C – Roll och uppdragsbeskrivning)</a>.</p>
+    <p>Fullständig organisation, roll och uppdragsbeskrivning återfinns i <a href="/foreningen/styrande-dokument/verksamhetsbeskrivning" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen (Annex C – Roll och uppdragsbeskrivning)</a>.</p>
     <p>
       <h2>Info om organisationen</h2>
       <table style="width: 260px; height: auto; margin: 1em; border: 0;">

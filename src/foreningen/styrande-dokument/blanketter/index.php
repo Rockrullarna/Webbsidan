@@ -3,7 +3,7 @@
   $header_description = "Här finns våra blanketter som används för olika ändamål";
 
   $page_updated = "2022-12-29 23:40";
-  $page_url = "/Foreningen/Styrande-dokument/Blanketter";
+  $page_url = "/foreningen/styrande-dokument/blanketter";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

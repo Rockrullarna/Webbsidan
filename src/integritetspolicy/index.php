@@ -1,4 +1,4 @@
 <?php
-  header('Location: ../Foreningen/Styrande-dokument/Integritetspolicy');
+  header('Location: ../foreningen/styrande-dokument/integritetspolicy');
   exit;
 ?>

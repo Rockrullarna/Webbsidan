@@ -49,10 +49,10 @@
           Nyheter
         </h2>
         <h3>
-          <a href="/Foreningen/Moten-och-protokoll/Arsmote" title="Länk till årsmötet 2024">Årsmöte lördag 2024-03-23, kl. 17:00</a>
+          <a href="/foreningen/moten-och-protokoll/arsmote" title="Länk till årsmötet 2024">Årsmöte lördag 2024-03-23, kl. 17:00</a>
         </h3>
         <p>
-          Välkomna på klubbens årsmöte! Mer info finner du <a href="/Foreningen/Moten-och-protokoll/Arsmote" title="Länk till årsmötet 2024">på sidan för vårt årsmöte 2024</a>.
+          Välkomna på klubbens årsmöte! Mer info finner du <a href="/foreningen/moten-och-protokoll/arsmote" title="Länk till årsmötet 2024">på sidan för vårt årsmöte 2024</a>.
         </p>
         <p>
           Övriga nyheter nytt hittar du på sidan:

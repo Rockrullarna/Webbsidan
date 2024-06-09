@@ -3,7 +3,7 @@
   $header_description = "Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten";
 
   $page_updated = "2022-12-29 23:28";
-  $page_url = "/Foreningen/Styrande-dokument/Verksamhetsbeskrivning";
+  $page_url = "/foreningen/styrande-dokument/verksamhetsbeskrivning";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

@@ -3,7 +3,7 @@
   $header_description = "Vår ideella förening ska vara en trygg plats för alla! Därav ska INGEN kränkas eller särbehandlas";
 
   $page_updated = "2020-10-14 19:05";
-  $page_url = "/Foreningen/Styrande-dokument/Policy-mot-diskriminering";
+  $page_url = "/foreningen/styrande-dokument/policy-mot-diskriminering";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

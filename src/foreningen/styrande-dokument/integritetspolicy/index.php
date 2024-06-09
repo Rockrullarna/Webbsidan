@@ -3,7 +3,7 @@
   $header_description = "Du ska kunna känna dig trygg med att vår ideella förening behandlar dina personuppgifter korrekt";
 
   $page_updated = "2020-10-14 18:45";
-  $page_url = "/Foreningen/Styrande-dokument/Integritetspolicy";
+  $page_url = "/foreningen/styrande-dokument/integritetspolicy";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

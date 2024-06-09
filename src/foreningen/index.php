@@ -3,7 +3,7 @@
   $header_description = "Information om den ideella dansföreningen Rockrullarna i Örebro";
 
   $page_updated = "2022-12-29 23:25";
-  $page_url = "/Foreningen";
+  $page_url = "/foreningen";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 

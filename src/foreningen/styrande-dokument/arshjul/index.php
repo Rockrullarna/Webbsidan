@@ -3,7 +3,7 @@
   $header_description = "DKRRs Årshjul används av föreningens medlemmar för att hålla koll på alla de årliga åtaganden vi har inom Rockrullarna";
 
   $page_updated = "2023-01-27 11:24";
-  $page_url = "/Foreningen/Styrande-dokument/Arshjul";
+  $page_url = "/foreningen/styrande-dokument/arshjul";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

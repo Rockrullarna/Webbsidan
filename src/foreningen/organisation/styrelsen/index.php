@@ -3,7 +3,7 @@
   $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
   $page_updated = "2024-04-01 20:34";
-  $page_url = "/Foreningen/Organisation/Styrelsen";
+  $page_url = "/foreningen/organisation/styrelsen";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 

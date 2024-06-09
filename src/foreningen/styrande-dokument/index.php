@@ -3,7 +3,7 @@
   $header_description = "Våra styreande föreningsdokument";
 
   $page_updated = "2023-01-27 11:28";
-  $page_url = "/Foreningen/Styrande-dokument";
+  $page_url = "/foreningen/styrande-dokument";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
