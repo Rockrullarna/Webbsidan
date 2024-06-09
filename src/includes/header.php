@@ -204,6 +204,7 @@
                   <ul class="dropdown-menu shadow">
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation">Vår organisation</a></li>
                     <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/strukturen">Strukturen</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/Styrelsen">Styrelsen</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/Foreningen/Organisation/Tidigare-styrelser">Tidigare styrelser</a></li>
                     <li><hr class="dropdown-divider"></li>

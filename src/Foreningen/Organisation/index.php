@@ -22,6 +22,11 @@
         <tbody>
           <tr>
             <td>
+              <p><strong>► <a href="./styrelsen" title="Strukturen">Strukturen</a></strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <p><strong>► <a href="./Styrelsen" title="Styrelsen">Styrelsen</a></strong></p>
             </td>
           </tr>
