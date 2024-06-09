@@ -22,7 +22,7 @@
         <tbody>
           <tr>
             <td>
-              <p><strong>► <a href="./styrelsen" title="Strukturen">Strukturen</a></strong></p>
+              <p><strong>► <a href="./strukturen" title="Strukturen">Strukturen</a></strong></p>
             </td>
           </tr>
           <tr>
