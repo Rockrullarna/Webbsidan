@@ -19,8 +19,9 @@
     <ul>
       <li>Privatlektioner är inte en del av ordinarie verksamhet, utan något som är upp till varje tränare att erbjuda i mån av tid och möjlighet.</li>
       <li>Styrelsen utser ej vilken tränare som ska ge privatlektioner. Det är upp till den enskilde medlemmen att kontakta den tränare som man önskar privatlektion av.</li>
-      <li>Med privatlektion avses lektion för ett danspar och inte en grupp.</li>
+      <li>Med privatlektion avses lektion för en person eller ett danspar och inte en grupp.</li>
       <li>Samtliga deltagare måste vara medlemmar i DK Rockrullarna och delta på minst en ordinarie danskurs.</li>
+      <li>En förfrågan om privatlektion kan du alltid ställa till: <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a></li>
     </ul>
     <p>
       Observera att föreningen har inget utbildningsmaterial som specifikt riktar sig för privatlektioner.
