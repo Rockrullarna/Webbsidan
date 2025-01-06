@@ -2,7 +2,7 @@
   $header_title = "Aktivitetskalender";
   $header_description = "Här finns schema för alla våra aktiviteter vi håller vid dansklubben";
 
-  $page_updated = "2022-12-29 22:33";
+  $page_updated = "2025-01-06 23:25";
   $page_url = "/aktivitetskalender";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
