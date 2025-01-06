@@ -2,7 +2,7 @@
   $header_title = "Hjälp - Kontakt";
   $header_description = "Här finner du hjälp hur du kommer i kontakt med oss";
 
-  $page_updated = "2022-12-31 19:14";
+  $page_updated = "2025-01-06 23:29";
   $page_url = "/kontakt/hjalp";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -14,7 +14,7 @@
     </div>
     <h1>Hjälp</h1>
     <p>
-      Har du frågor om användningen av Rockrullarnas webbsida, kontakta oss då via: 
+      Har du frågor om användningen av Rockrullarnas webbsida, alternativt förslag på ändringar, kontakta oss då via: 
       <a href="mailto:info@rockrullarna.se" title="Mejla till: info@rockrullarna.se">info@rockrullarna.se</a>.
     </p>
     <p>
