@@ -13,10 +13,10 @@
     <h1>Dansklubben Rockrullarna</h1>
     <p>
       Välkommen till dansglädjen hos vår ideella dansförening i Örebro!
-      Våra primära dansstilar är <a href="/Danskurser/Kursoversikt/Bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
-      <a href="/Danskurser/Kursoversikt/Fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
-      <a href="/Danskurser/Kursoversikt/West-Coast-Swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a>. 
-      <!-- Vi har även ett stort fokus på <a href="/Danskurser/Kursoversikt/Dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
+      Våra primära dansstilar är <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
+      <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
+      <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a>. 
+      <!-- Vi har även ett stort fokus på <a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
       Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
     <div class="row">
       <section id="start-activity" class="col-12 col-lg-6 text-center">
@@ -32,8 +32,8 @@
           Vill du anmäla dig till någon av våra aktiviteter eller kurser?
         </p>
         <p class="mb-3">  
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
-          <a class="btn btn-outline-secondary" role="button" href="/Danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
+          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
+          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
         </p>
         <h2>
           <svg class="bi me-2 header-icon"><use href="#person-heart"></use></svg>
@@ -58,7 +58,7 @@
           Övriga nyheter nytt hittar du på sidan:
         </p>
         <p class="mb-5">
-          <a class="btn btn-outline-secondary" role="button" href="/Sociala-media" title="Sociala media">
+          <a class="btn btn-outline-secondary" role="button" href="/sociala-media" title="Sociala media">
             <svg width="16" height="16" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg>
             Sociala media
             <svg width="16" height="16" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
@@ -79,13 +79,13 @@
           Kommande aktiviteter
         </h2>
         <p>
-          Här hittar du våra kommande aktiviteter från <a href="/Aktivitetskalender">Aktivitetskalendern</a>. 
+          Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender">Aktivitetskalendern</a>. 
         </p>
         <p>
           Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan: 
           <br />
           <strong>
-            <a href="/Danskurser/Anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
+            <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
         </p>
         <p>

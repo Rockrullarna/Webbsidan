@@ -3,7 +3,7 @@
   $header_description = "Bugg är en vanlig svensk pardans som dansas till musik i fyrafjärdedelstakt i vanligtvis snabbt tempo, 120-180 BPM. Dansen är helt improviserad där föraren har till uppgift att föra följaren i olika snurrar, turer och kombinationer";
 
   $page_updated = "2022-12-29 22:55";
-  $page_url = "/Danskurser/Kursoversikt/Bugg";
+  $page_url = "/danskurser/kursoversikt/bugg";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 

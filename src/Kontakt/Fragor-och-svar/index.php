@@ -3,7 +3,7 @@
   $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
   $page_updated = "2024-06-09 12:26";
-  $page_url = "/Kontakt/Fragor-och-svar";
+  $page_url = "/kontakt/fragor-och-svar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
@@ -52,7 +52,7 @@
             <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
             <p><img class="no-visual-search img-fluid" src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
             <p> </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
             <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
             <p><img class="no-visual-search img-fluid" src="./Friskvard-ePassi/ePassi-13-tips-om-belopp.jpg" alt="ePassi Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p>
             <p><br /><br /><br /></p>
-            <p>Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-ePassi">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#friskvardsbetalning-med-ePassi</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-ePassi">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-ePassi</a></p>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@
             </ol>
             <p class="mt-5">Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
             <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
-            <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#teams-ansluta-till-mote</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-ansluta-till-mote</a></p>
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
               <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
             </ul>
             <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
-            <p>Direktlänk till detta svaret: <br /><a href="#teams-information-under-motet">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#teams-information-under-motet</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#teams-information-under-motet">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-information-under-motet</a></p>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@
             <p> </p>
             <p>Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
             <p>Vi ses online! :) </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-mobil">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-mobil</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-mobil">https://www.Rockrullarna.se/kontakt/fragor-och-svar#zoom-ansluta-till-mote-via-mobil</a></p>
           </div>
         </div>
       </div>
@@ -242,7 +242,7 @@
             <p> </p>
             <p>Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
             <p>Vi ses online! :) </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-dator">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-dator</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-dator">https://www.Rockrullarna.se/kontakt/fragor-och-svar#zoom-ansluta-till-mote-via-dator</a></p>
           </div>
         </div>
       </div>
@@ -261,7 +261,7 @@
             <p>5. Nu är du inne i mötet, längst ned i mötet ser du knappar för att starta Mikrofon/Webbkamera eller Chatten. <br /><img class="no-visual-search img-fluid"title="Nu är du inne i mötet" src="./Zoom-mote/bild-Zoom-4-Mic.png" alt="Nu är du inne i mötet" width="534" height="426" /></p>
             <p>6. För att kunna vara med på omröstningar behöver du tillåta Pop-up fönster, som dyker upp när en omröstning startar (detta fungerar direkt om du har installerat Zoom). <br /><br /><br />Vi hoppas nu att allt ska fungera bra under mötet vi kommer att ha här via Zoom. </p>
             <p>Vi ses online! :) </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-webben">https://www.Rockrullarna.se/Kontakt/Fragor-och-svar#zoom-ansluta-till-mote-via-webben</a></p>
+            <p>Direktlänk till detta svaret: <br /><a href="#zoom-ansluta-till-mote-via-webben">https://www.Rockrullarna.se/kontakt/fragor-och-svar#zoom-ansluta-till-mote-via-webben</a></p>
           </div>
         </div>
       </div>

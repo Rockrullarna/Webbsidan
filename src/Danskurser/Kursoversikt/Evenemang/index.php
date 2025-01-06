@@ -3,7 +3,7 @@
   $header_description = "Evenemang utanför ordinarie verksamhet styrs bland annat av efterfrågan. Vi välkomnar önskemål från föreningens medlemmar";
 
   $page_updated = "2022-12-29 22:52";
-  $page_url = "/Danskurser/Kursoversikt/Evenemang";
+  $page_url = "/danskurser/kursoversikt/evenemang";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 

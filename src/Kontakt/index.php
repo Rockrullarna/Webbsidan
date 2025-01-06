@@ -3,7 +3,7 @@
   $header_description = "Kontaktinformation till den ideella föreningen Dansklubben Rockrullarna i Örebro";
 
   $page_updated = "2023-07-30 23:01";
-  $page_url = "/Kontakt";
+  $page_url = "/kontakt";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
@@ -17,23 +17,23 @@
       Välkommen till Dansklubben Rockrullarna!
     </p>
     <p>
-      Vår ideella förening föredrar att du kontaktar oss via E-post som du hittar på sidan: <strong><a href="./Skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong>.<br />
+      Vår ideella förening föredrar att du kontaktar oss via E-post som du hittar på sidan: <strong><a href="./skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong>.<br />
       Då föreningen oftas är upptagen med kursverksamhet och vi inte har några anställda så har vi tyvärr ingen möljlighet att svara i telefon. 
     </p>
     <p>
       Om ni önskar att besöka oss så träffas vi säkrast nere i våra lokaler under terminerna från söndag till torsdag mellan klockan 18:00-20:30.<br />
-      För att veta att någon är på plats, kolla i vår <a href="/Aktivitetskalender">Aktivitetskalender</a>, så vi bedriver verksamhet när du tänkt besöka oss.
+      För att veta att någon är på plats, kolla i vår <a href="/aktivitetskalender">Aktivitetskalender</a>, så vi bedriver verksamhet när du tänkt besöka oss.
     </p>
     <table style="border: 0;">
       <tbody>
         <tr>
           <td>
-            <p><strong>► <a href="./Fragor-och-svar" title="Frågor och svar">Frågor och svar</a></strong></p>
+            <p><strong>► <a href="./fragor-och-svar" title="Frågor och svar">Frågor och svar</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong></p>
+            <p><strong>► <a href="./skicka-arende-eller-fraga" title="Skicka ärende/fråga">Skicka ärende/fråga</a></strong></p>
           </td>
         </tr>
       </tbody>

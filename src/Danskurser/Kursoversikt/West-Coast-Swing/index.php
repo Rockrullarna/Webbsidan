@@ -3,7 +3,7 @@
   $header_description = "West Coast Swing (WCS) är en cool pardans med rötter i Lindy hop";
 
   $page_updated = "2022-12-29 22:37";
-  $page_url = "/Danskurser/Kursoversikt/West-Coast-Swing";
+  $page_url = "/danskurser/kursoversikt/west-coast-swing";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 

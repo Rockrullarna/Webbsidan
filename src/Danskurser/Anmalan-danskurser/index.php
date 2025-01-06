@@ -3,7 +3,7 @@
   $header_description = "Här finner du anmälningslänkar till alla våra danskurser! Välkommen med din anmälan";
 
   $page_updated = "2023-05-02 21:47";
-  $page_url = "/Danskurser/Anmalan-danskurser";
+  $page_url = "/danskurser/anmalan-danskurser";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 

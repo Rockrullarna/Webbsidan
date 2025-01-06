@@ -3,7 +3,7 @@
   $header_description = "Information om vår barn och ungdomsverksamhet";
 
   $page_updated = "2022-12-29 22:52";
-  $page_url = "/Danskurser/Kursoversikt/Dans-barn-och-ungdom";
+  $page_url = "/danskurser/kursoversikt/dans-barn-och-ungdom";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 

@@ -120,7 +120,7 @@
     <nav class="navbar fixed-top navbar-expand-lg p-0">
       <div class="container-fluid dkrr-navbar-bg">
         <a class="navbar-brand dkrr-logo-link" href="https://rockrullarna.se/">
-          <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="https://rockrullarna.se/filer/bilder/Rockrullarna-SVG-logga.svg" />
+          <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="https://rockrullarna.se/filer/bilder/rockrullarna-svg-logga.svg" />
         </a>
         <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
           <span class="navButton-Line" aria-hidden="true"></span>
@@ -130,46 +130,46 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav navbar-nav-scroll mx-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/Sociala-media">Sociala media</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/sociala-media">Sociala media</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Danskurser</a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser">Våra danskurser</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Anmalan-danskurser">Anmälan till danskurser</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser">Våra danskurser</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/anmalan-danskurser">Anmälan till danskurser</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt">Kursöversikten</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Dans-barn-och-ungdom">Barn och ungdom</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Bugg">Bugg</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fox">Fox</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/West-Coast-Swing">West Coast Swing</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt">Kursöversikten</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/dans-barn-och-ungdom">Barn och ungdom</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/bugg">Bugg</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/fox">Fox</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/west-coast-swing">West Coast Swing</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Trivselkvallar">Trivselkvällar</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Evenemang">Evenemang</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Fritraning">Friträning</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Privatlektioner">Privatlektioner</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Kursoversikt/Utbildningar">Utbildningar</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/trivselkvallar">Trivselkvällar</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/evenemang">Evenemang</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/fritraning">Friträning</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/privatlektioner">Privatlektioner</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/utbildningar">Utbildningar</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Anmalan-danskurser">Anmäl dig till danskurs</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Avanmalan">Avanmäl dig från danskurs</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Danskurser/Betalning">Betalning</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/anmalan-danskurser">Anmäl dig till danskurs</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/avanmalan">Avanmäl dig från danskurs</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/betalning">Betalning</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Tävlingsdans</a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans">Tävlingsdans</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans">Tävlingsdans</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans/Kalender">Kalender</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans/Vilka-tavlar-vart">Vilka tävlar vart?</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans/Resultat">Resultat</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans/Dans.se">Dans.se</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Tavlingsdans/Vote4Dance">Vote 4 Dance</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans/kalender">Kalender</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans/vilka-tavlar-vart">Vilka tävlar vart?</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans/resultat">Resultat</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans/dans.se">Dans.se</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/tavlingsdans/vote4dance">Vote 4 Dance</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank" rel="noopener">DSF Tävlingskalender (danssport.se)</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/Aktivitetskalender">Aktivitetskalender</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/Boka-lilla-salen">Boka lilla salen</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/aktivitetskalender">Aktivitetskalender</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://rockrullarna.se/boka-lilla-salen">Boka lilla salen</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Föreningen</a>
               <ul class="dropdown-menu shadow">
@@ -223,24 +223,24 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Kontakta</a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt">Kontaktinformation</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt">Kontaktinformation</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps - Öppnas i nytt fönster)" target="_blank" rel="noopener">Hitta till oss (Google maps)</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Frågor och Svar</a>
                   <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar">Frågor och Svar</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Dans.se">Dans.se</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Friskvard-ePassi">Friskvård ePassi</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Teams-mote">Teams-möten</a></li>
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Zoom-mote">Zoom-möte</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/fragor-och-svar/dans.se">Dans.se</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/fragor-och-svar/friskvard-epassi">Friskvård ePassi</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/fragor-och-svar/teams-mote">Teams-möten</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/fragor-och-svar/zoom-mote">Zoom-möte</a></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Webbkarta">Webbkarta</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/Kontakt/Hjalp">Hjälp</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/webbkarta">Webbkarta</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/kontakt/hjalp">Hjälp</a></li>
               </ul>
             </li>
           </ul>

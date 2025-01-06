@@ -3,7 +3,7 @@
   $header_description = "Här kan du boka träning i lilla danssalen";
 
   $page_updated = "2022-12-29 22:34";
-  $page_url = "/Boka-lilla-salen";
+  $page_url = "/boka-lilla-salen";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 

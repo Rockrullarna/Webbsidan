@@ -3,7 +3,7 @@
   $header_description = "Här hittar du information om vår tävlingsdans";
 
   $page_updated = "2022-12-29 22:10";
-  $page_url = "/Tavlingsdans";
+  $page_url = "/tavlingsdans";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
 
@@ -22,17 +22,17 @@
       <tbody>
         <tr>
           <td>
-            <p><strong>► <a href="./Kalender" title="Tävlingskalender">Tävlingskalender</a></strong></p>
+            <p><strong>► <a href="./kalender" title="Tävlingskalender">Tävlingskalender</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Vilka-tavlar-vart" title="Vilka tävlar vart">Vilka tävlar vart?</strong></a></p>
+            <p><strong>► <a href="./vilka-tavlar-vart" title="Vilka tävlar vart">Vilka tävlar vart?</strong></a></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Resultat" title="Tävlingsresultat">Tävlingsresultat</a></strong></p>
+            <p><strong>► <a href="./resultat" title="Tävlingsresultat">Tävlingsresultat</a></strong></p>
           </td>
         </tr>
         <tr>
@@ -42,7 +42,7 @@
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Vote4Dance" title="Vote4Dance">Info om Vote4Dance</a></strong></p>
+            <p><strong>► <a href="./vote4dance" title="Vote4Dance">Info om Vote4Dance</a></strong></p>
           </td>
         </tr>
         <tr>

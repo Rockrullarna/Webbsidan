@@ -3,7 +3,7 @@
   $header_description = "Tävlingskalendern för kommande tävlingar";
 
   $page_updated = "2022-12-29 21:33";
-  $page_url = "/Tavlingsdans/Kalender";
+  $page_url = "/tavlingsdans/kalender";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
 

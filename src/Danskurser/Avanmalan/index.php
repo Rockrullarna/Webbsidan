@@ -3,7 +3,7 @@
   $header_description = "Här kan du avboka dig från våra danskurser som du tidigare anmält dig till";
 
   $page_updated = "2022-12-29 22:05";
-  $page_url = "/Danskurser/Avanmalan";
+  $page_url = "/danskurser/avanmalan";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 

@@ -3,7 +3,7 @@
   $header_description = "Betalningsinformation för vår kursverksamhet";
 
   $page_updated = "2023-12-30 16:14";
-  $page_url = "/Danskurser/Betalning";
+  $page_url = "/danskurser/betalning";
   $page_contact_name = "Kassören";
   $page_contact_email = "ekonomi@rockrullarna.se";
 
@@ -45,7 +45,7 @@
     </p>
     <p>
       Instruktioner för betalning via Epassi appen, hittar du på vår sida: <br />
-      <a href="https://rockrullarna.se/Kontakt/Fragor-och-svar/Friskvard-ePassi">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvård ePassi</a>
+      <a href="https://rockrullarna.se/kontakt/fragor-och-svar/friskvard-epassi">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvård ePassi</a>
     </p>
     <p>
       Vid betalning via Epassi kan betalningen till DK Rockrullarna dröja vilket kan leda till att din ankomstregistrering kan vara missvisande (displayen på blir orange och du blir ombedd att kontakta personal). Vi ber er ha överseende med detta.

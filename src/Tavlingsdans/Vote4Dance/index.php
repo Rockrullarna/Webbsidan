@@ -3,7 +3,7 @@
   $header_description = "Information om tävlingssystemet Vote 4 Dance";
 
   $page_updated = "2022-12-29 23:48";
-  $page_url = "/Tavlingsdans/Vote4Dance";
+  $page_url = "/tavlingsdans/vote4dance";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
 

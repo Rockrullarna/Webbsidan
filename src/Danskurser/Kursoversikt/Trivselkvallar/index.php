@@ -3,7 +3,7 @@
   $header_description = "Trivselkvällar är till för att skapa sociala dansstunder tillsammans på dansklubben";
 
   $page_updated = "2022-12-29 22:48";
-  $page_url = "/Danskurser/Kursoversikt/Trivselkvallar";
+  $page_url = "/danskurser/kursoversikt/trivselkvallar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
@@ -20,7 +20,7 @@
       Trivselkvällarna hålls under aktiv terminsperiod i föreningens lokal den sista söndagen i månaden. Aktuella tider hänvisas till hemsidan.
     </p>
     <p>
-      På trivselkvällen har medlemmar och icke medlemmar möjlighet att träffas, dansa, fika och ha det trevligt. Generellt gäller att den Stora salen används för Bugg/Fox och den Lilla salen används för West Coast Swing.
+      På trivselkvällen har medlemmar och icke medlemmar möjlighet att träffas, dansa, fika och ha det trevligt. Generellt gäller att den Stora salen används för Bugg/fox och den Lilla salen används för West Coast Swing.
     </p>
     <p>
       Med jämna mellanrum erbjuder föreningen även trivselkvällar som riktar sig mot WCS och Fox. Samtliga trivselkvällar presenteras på sociala media och på hemsidan.

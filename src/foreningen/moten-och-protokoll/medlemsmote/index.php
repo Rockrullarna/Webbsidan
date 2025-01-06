@@ -16,7 +16,7 @@
       Medlemsmöte
     </h1>
     <p>En gång per hösttermin anordnar föreningen ett medlemsmöte. På mötet presenterar styrelsen aktuella frågor och ärenden samt tar emot medlemmarnas synpunkter. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
-    <p>Anmälan till årsmötet görs via sidan <a href="/Danskurser/Anmalan-danskurser" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Fest".</p>
+    <p>Anmälan till årsmötet görs via sidan <a href="/danskurser/anmalan-danskurser" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Fest".</p>
     <p>Information gällande medlemsmötet kommer ut via sociala medier, hemsida samt via tränare.</p>
     <p>&nbsp;</p>
     <h2>Protokollen för medlemsmöten</h2>

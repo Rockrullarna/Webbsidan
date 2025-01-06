@@ -3,7 +3,7 @@
   $header_description = "Fria träningstider som erbjuds nere på dansklubben";
 
   $page_updated = "2022-12-29 22:50";
-  $page_url = "/Danskurser/Kursoversikt/Fritraning";
+  $page_url = "/danskurser/kursoversikt/fritraning";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
@@ -28,7 +28,7 @@
     </p>
     <p>
       För aktuella tider se i vår: 
-      <a href="/Aktivitetskalender" title="Aktivitetskalender" target="_top">Aktivitetskalender</a>
+      <a href="/aktivitetskalender" title="Aktivitetskalender" target="_top">Aktivitetskalender</a>
     </p>
 <?php
   include_once '../../../includes/footer.php'

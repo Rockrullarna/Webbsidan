@@ -3,7 +3,7 @@
   $header_description = "Information om de sociala media-sidorna vi använder oss av för kommunikation";
 
   $page_updated = "2023-04-20 21:38";
-  $page_url = "/Sociala-media";
+  $page_url = "/sociala-media";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
