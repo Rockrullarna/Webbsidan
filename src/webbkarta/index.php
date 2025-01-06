@@ -2,7 +2,7 @@
   $header_title = "Webbkarta";
   $header_description = "Webbkarta (sitemap) för webbsidan: rockrullarna.se";
 
-  $page_updated = "2023-05-02 21:24";
+  $page_updated = "2025-01-06 23:55";
   $page_url = "/webbkarta";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -91,7 +91,7 @@
               </ul>
             </li>
             <li><a href="/kontakt/skicka-arende-eller-fraga" title="Skicka ärende eller fråga">Skicka ärende eller fråga</a></li>
-            <li><a href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" title="_blank">Chatta med oss (Messenger)</a></li>
+            <!-- <li><a href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" title="_blank">Chatta med oss (Messenger)</a></li> -->
             <li><a href="/webbkarta" title="Webbkarta">Webbkarta</a></li>
             <li><a href="/kontakt/hjalp" title="Hjälp">Hjälp</a></li>
           </ul>
