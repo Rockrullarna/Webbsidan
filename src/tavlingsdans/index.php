@@ -2,7 +2,7 @@
   $header_title = "Tävlingsdans";
   $header_description = "Här hittar du information om vår tävlingsdans";
 
-  $page_updated = "2022-12-29 22:10";
+  $page_updated = "2025-01-07 02:20";
   $page_url = "/tavlingsdans";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
