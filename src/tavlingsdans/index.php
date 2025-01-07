@@ -37,7 +37,7 @@
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Dans.se" title="Dans.se">Info om dans.se</a></strong></p>
+            <p><strong>► <a href="./dans.se" title="Dans.se">Info om dans.se</a></strong></p>
           </td>
         </tr>
         <tr>

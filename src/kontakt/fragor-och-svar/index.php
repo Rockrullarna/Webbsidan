@@ -44,13 +44,13 @@
             <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
             <p><br /><br /></p>
             <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./Dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
             <p><br /><br /></p>
             <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./Dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
             <p><br /><br /></p>
             <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./Dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
+            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
             <p> </p>
             <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
           </div>
