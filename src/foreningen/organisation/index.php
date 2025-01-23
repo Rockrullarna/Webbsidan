@@ -2,7 +2,7 @@
   $header_title = "Organisation - Föreningen";
   $header_description = "Vår ideella förenings organisationsträd";
 
-  $page_updated = "2022-12-30 00:23";
+  $page_updated = "2024-06-09 15:35";
   $page_url = "/foreningen/organisation";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -22,7 +22,7 @@
         <tbody>
           <tr>
             <td>
-              <p><strong>► <a href="./styrelsen" title="Strukturen">Strukturen</a></strong></p>
+              <p><strong>► <a href="./strukturen" title="Strukturen">Strukturen</a></strong></p>
             </td>
           </tr>
           <tr>
