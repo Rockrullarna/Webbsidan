@@ -3,13 +3,52 @@
   $header_description = "Dansklubben Rockrullarna är ideell dansförening som är öppen för alla oavsett ålder, kön, religion eller etnicitet. Vi har kurser inom Bugg (barn, ungdom, vuxen), Fox och West Coast Swing. Vid utvalda tillfällen erbjuder vi även intensivkurser av olika slag. För mer information kontakta oss via e-post info@rockrullarna.se";
   $header_keywords = "bugg,  bugg center,  bugg centrum,  bugg dans,  bugg dans i örebro,  bugg dans örebro,  bugg i örebro,  bugg kurs,  bugg kurser,  bugg nerke,  bugg sverige,  bugg örebro,  bugga i närke,  bugga i sverige,  bugga i örebro,  bugga nerke,  bugga sverige,  bugga örebro,  buggcenter,  buggcenter nerke,  buggcenter sverige,  buggcenter örebro,  buggkurs,  buggkurs i örebro,  buggkurser,  centrum för bugg,  centrum för dans,  centrum för wcs,  dans,  dans center,  dans centrum,  dans kurs,  dans kurser,  dans skola,  dans sport,  dans örebro,  dansa,  dansa bugg,  dansa bugg i örebro,  dansa bugg örebro,  dansa i örebro,  dansa örebro,  danscenter,  dans-center,  danscenter i örebro,  danscenter örebro,  danscentrum,  dans-centrum,  danscentrum i örebro,  danscentrum örebro,  danskurser ,  danskurser i nerke,  danskurser i örebro,  dansskola,  dans-skola,  danssport,  dans-sport,  danssport i örebro,  danssport örebro,  fox dans,  fox kurs,  fox kurser,  foxkurs,  foxtrott,  foxtrott dans,  foxtrott kurs,  foxtrott kurser,  kurs i bugg,  kurs i dans,  kurs i foxtrott,  kurs i wcs,  kurs i west coast swing,  kurser i bugg,  kurser i dans,  kurser i foxtrott,  kurser i wcs,  kurser i west coast swing,  nerke,  närke,  WCS i örebro,  wcs kurs,  wcs kurser,  WCS örebro,  wcskurs,  west coast swing,  west coast swing i örebro,  west coast swing örebro,  west cost swing kurser,  örebro,  örebro bugg,  örebro bugg dans,  örebro buggdans, dans i Örebro, zumba, sumba";
 
-  $page_updated = "2025-01-06 23:25";
+  $page_updated = "2024-01-23 21:26";
   $page_url = "";
   $page_contact_name = "";
   $page_contact_email = "";
+  $page_hidden_logo = true;
 
-  include_once 'includes/header.php'
+  include_once '../includes/header.php'
 ?>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="max-width: 800;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1537365587684-f490102e1225?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1529229504105-4ea795dcbf59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1550026593-f369f98df0af?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <h1>Dansklubben Rockrullarna</h1>
     <p>
       Välkommen till dansglädjen hos vår ideella dansförening i Örebro!
@@ -19,12 +58,34 @@
       <!-- Vi har även ett stort fokus på <a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
       Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
     <div class="row">
+      <h2>
+        <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
+        Lär dig att dansa!
+        <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
+      </h2>
+      <div class="col-6 col-lg-3 text-center">
+        <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">
+          <svg class="bd-placeholder-img rounded" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="40%" y="50%" fill="#dee2e6" dy=".3em">BUGG</text></svg>
+        </a>
+      </div>
+      <div class="col-6 col-lg-3 text-center">
+        <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">
+          <svg class="bd-placeholder-img rounded" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="40%" y="50%" fill="#dee2e6" dy=".3em">FOX</text></svg>
+        </a>
+      </div>
+      <div class="col-6 col-lg-3 text-center">
+        <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">
+          <svg class="bd-placeholder-img rounded" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="10%" y="50%" fill="#dee2e6" dy=".3em">WEST COAST SWING</text></svg>
+        </a>
+      </div>
+      <div class="col-6 col-lg-3 text-center">
+        <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">
+          <svg class="bd-placeholder-img rounded" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="20%" y="50%" fill="#dee2e6" dy=".3em">ANMÄL DIG IDAG!</text></svg>
+        </a>
+      </div>
+    </div>
+    <div class="row">
       <section id="start-activity" class="col-12 col-lg-6 text-center">
-        <h2>
-          <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
-          Lär dig att dansa!
-          <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
-        </h2>
         <p>
           Hos oss kan du lära dig att dansa!
         </p>
@@ -54,17 +115,16 @@
         <p>
           Välkomna på klubbens årsmöte! Mer info finner du <a href="/foreningen/moten-och-protokoll/arsmote" title="Länk till årsmötet 2024">på sidan för vårt årsmöte 2024</a>.
         </p>
+        <h2 class="mt-4">
+          SOCIALA MEDIA
+        </h2>
         <p>
-          Övriga nyheter nytt hittar du på sidan:
+          Följ oss via sociala media: <br />
+          <a href="https://fb.me/rockrullarna" rel="noopener" title="Följ oss på Facebook (Facebook, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg></a>
+          <a href="https://www.instagram.com/rockrullarna" rel="noopener" title="Följ oss på Instagram (Instagram, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-instagram"><use href="#instagram"></use></svg></a>
+          <a href="https://www.tiktok.com/@dansklubbrockrullarna" rel="noopener" title="Följ oss på TikTok (TikTok, öppnas i nytt fönster)" target="_blank"><svg width="32" height="32" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg></a>
         </p>
-        <p class="mb-5">
-          <a class="btn btn-outline-secondary" role="button" href="/sociala-media" title="Sociala media">
-            <svg width="16" height="16" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg>
-            Sociala media
-            <svg width="16" height="16" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
-          </a>
-        </p>
-        <figure class="text-end mb-5">
+        <figure class="text-end mb-5 mt-4">
           <blockquote class="blockquote">
             <p>"Rockrullarna erbjuder en varm gemenskap och glädje."</p>
           </blockquote>
@@ -82,14 +142,14 @@
           Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender">Aktivitetskalendern</a>. 
         </p>
         <p>
+          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;"></iframe>
+        </p>
+        <p>
           Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan: 
           <br />
           <strong>
             <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
-        </p>
-        <p>
-          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;"></iframe>
         </p>
       </section>
     </div>
@@ -119,5 +179,5 @@
     </symbol>
   </svg><!-- End of Bootstrap Icons symbols -->
 <?php
-  include_once 'includes/footer.php'
+  include_once '../includes/footer.php'
 ?>
