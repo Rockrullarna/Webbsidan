@@ -1,4 +1,4 @@
 <?php
-  header('Location: ../#friskvard-ePassi');
+  header('Location: ../#friskvard-epassi');
   exit;
 ?>

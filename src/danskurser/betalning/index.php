@@ -2,7 +2,7 @@
   $header_title = "Betalning - Danskurser";
   $header_description = "Betalningsinformation för vår kursverksamhet";
 
-  $page_updated = "2023-12-30 16:14";
+  $page_updated = "2025-01-23 23:14";
   $page_url = "/danskurser/betalning";
   $page_contact_name = "Kassören";
   $page_contact_email = "ekonomi@rockrullarna.se";
@@ -37,7 +37,7 @@
     <h2>Friskvård</h2>
     <p>
       Betalning av våra danskurser via friskvård är fullt möjligt via Epassi, alternativt att du skickar in kvittot till din arbetsgivare. <br />
-      OBSERVERA, att du INTE kan betala medlemsavgiften med friskvård.
+      OBSERVERA, att du INTE kan betala medlemsavgiften med friskvård. (Info om friskvård hos Skatteverket: <a href="https://www.skatteverket.se/privat/skatter/arbeteochinkomst/formaner/personalvardmotionochfriskvard.4.7459477810df5bccdd4800014540.html?q=medlemsavgifter">Skatteverket.se</a>)
     </p>
     <h3>Epassi</h3>
     <p>
