@@ -34,6 +34,11 @@
     <p>
       När vi mottagit din betalning skickas ett kvitto ut via e-post.
     </p>
+    <h2 id="studentrabatt">Studentrabatt</h2>
+    <p>
+      Vi erbjuder alla studenter 20% studentrabatt mot uppvisande av printscreen på sitt studentleg.<br />
+      Rabatten gäller på ordinarie danskurser. Skicka bilden till: <a href="mailto:kurser@rockrullarna.se">kurser@rockrullarna.se</a>, för att få studentrabatten tillagd på dina kursavgifter.
+    </p>
     <h2 id="friskvard">Friskvård</h2>
     <p>
       Betalning av våra danskurser via friskvård är fullt möjligt via Epassi, alternativt att du skickar in kvittot till din arbetsgivare. <br />
