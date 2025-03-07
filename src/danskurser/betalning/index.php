@@ -36,7 +36,7 @@
     </p>
     <h2 id="studentrabatt">Studentrabatt</h2>
     <p>
-      Vi erbjuder alla studenter 20% studentrabatt mot uppvisande av printscreen på sitt studentleg.<br />
+      Vi erbjuder alla studenter 20% studentrabatt mot uppvisande av printscreen på ditt studentleg.<br />
       Rabatten gäller på ordinarie danskurser. Skicka bilden till: <a href="mailto:kurser@rockrullarna.se">kurser@rockrullarna.se</a>, för att få studentrabatten tillagd på dina kursavgifter.
     </p>
     <h2 id="friskvard">Friskvård</h2>
