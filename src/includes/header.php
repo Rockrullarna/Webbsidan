@@ -217,7 +217,7 @@
                 <li class="dropstart">
                   <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Möten och protokoll</a>
                   <ul class="dropdown-menu shadow">
-                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/Moten-och-protokoll">Möten och protokoll</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll">Möten och protokoll</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll/arsmote">Årsmöte</a></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/moten-och-protokoll/medlemsmote">Medlemsmöte</a></li>
