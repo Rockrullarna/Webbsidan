@@ -2,7 +2,7 @@
 $header_title = "Styrelsen - Organisation - Organisationsstruktur";
 $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
-$page_updated = "2024-06-09 11:34";
+$page_updated = "2025-03-10 18:10";
 $page_url = "/foreningen/organisation/styrelsen";
 $page_contact_name = "Styrelsen";
 $page_contact_email = "styrelsen@rockrullarna.se";
@@ -81,17 +81,165 @@ include_once '../../../includes/header.php'
       </a>
     <figcaption class="figure-caption">Bilden visar hur danssektionernas kommittéer har gemensamma områdes kommittéer. <i>Klicka på bilden för att se den i större format.</i></figcaption>
   </figure>
-  <h2>
+  <h2 id="kommitteer">
     Medlemmar inom de olika dans-kommittéerna
   </h2>
-  <h3>Ungdomskommittén</h3>
+  <h3 id="ungdoms-kommitteen">Ungdomskommittén</h3>
   <p>Nellie Modin, Emma Elfström.</p>
-  <h3>Bugg-kommittén</h3>
-  <p>Stefan Ericsson, Joakim Berg, Linnea Sohlberg Modin, Thomas Modin.</p>
-  <h3>Fox-kommittén</h3>
-  <p>Jens Wiklund, Milla Olsson, Ulrika Bertilsdotter, Jonas Arvidson, Åsa Nyström.</p>
-  <h3>West Coast Swing-kommittén</h3>
-  <p>Sara Sjöström, Jonas Arvidson, Elin Östlund, Elin Nordeman <i>(tävling)</i>, Regina Holmberg <i>(danskvällar)</i>.</p>
+  <p><br /><br /></p>
+  <h3 id="bugg-kommitteen">Bugg-kommittén</h3>
+  <p>Linnea Sohlberg Modin, Stefan Ericsson, Thomas Modin, Pernilla Söderqvist, Nellie Modin</p>
+  <h4>Bugg-kommitténs sammankallande</h4>
+  <ul>
+    <li>Linnea Sohlberg Modin</li>
+    <li>Stefan Ericsson</li>
+  </ul>
+  <h4>Bugg tränareansvarig</h4>
+  <ul>
+    <li>Thomas Modin</li>
+  </ul>
+  <h4>Bugg tävlingsansvarig</h4>
+  <ul>
+    <li>Pernilla Söderqvist</li>
+  </ul>
+  <h4>Bugg marknadsföringsansvarig</h4>
+  <ul>
+    <li>Nellie Modin</li>
+    <li>Stefan Ericsson</li>
+  </ul>
+  <h4>Bugg kursadministratörer</h4>
+  <ul>
+    <li>Thomas Modin</li>
+  </ul>
+  <h4>Bugg socialdansansvarig</h4>
+  <ul>
+    <li>Thomas Modin</li>
+  </ul>
+  <h4>Bugg musikansvarig</h4>
+  <ul>
+    <li>VAKANT</li>
+  </ul>
+  <p><br /><br /></p>
+  <h3 id="fox-kommitteen">Fox-kommittén</h3>
+  <p>Jens Wiklund, Milla Olsson, Ulrika Bertilsdotter, Ulrika Aronsson, Elin Östlund, Jonas Arvidson, Åsa Nyström.</p>
+  <h4>Fox-kommitténs sammankallande</h4>
+  <ul>
+    <li>Jens Wiklund</li>
+  </ul>
+  <h4>Fox tränareansvarig</h4>
+  <ul>
+    <li>Jens Wiklund</li>
+  </ul>
+  <h4>Fox tävlingsansvarig</h4>
+  <ul>
+    <li>Jens Wiklund</li>
+  </ul>
+  <h4>Fox marknadsföringsansvarig</h4>
+  <ul>
+    <li>Jens Wiklund</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h4>Fox kursadministratörer</h4>
+  <ul>
+    <li>Elin Östlund</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h4>Fox socialdansansvarig</h4>
+  <ul>
+    <li>Ulrika "Ullis" Aronsson</li>
+  </ul>
+  <h4>Fox musikansvarig</h4>
+  <ul>
+    <li>Jens Wiklund</li>
+  </ul>
+  <p><br /><br /></p>
+  <h3 id="wcs-kommitteen">West Coast Swing-kommittén</h3>
+  <p>Sara Sjöström, Jonas Arvidson, Elin Nordeman <i>(tävling)</i>, Regina Holmberg <i>(danskvällar)</i>.</p>
+  <h4>WCS-kommitténs sammankallande</h4>
+  <ul>
+    <li>Sara Sjöström</li>
+  </ul>
+  <h4>WCS tränareansvarig</h4>
+  <ul>
+    <li>Sara Sjöström</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h4>WCS tävlingsansvarig</h4>
+  <ul>
+    <li>Elin Nordeman</li>
+  </ul>
+  <h4>WCS marknadsföringsansvarig</h4>
+  <ul>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h4>WCS kursadministratörer</h4>
+  <ul>
+    <li>Sara Sjöström</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h4>WCS socialdansansvarig</h4>
+  <ul>
+    <li>Regina Holmberg</li>
+  </ul>
+  <h4>WCS musikansvarig</h4>
+  <ul>
+    <li>Jonas Arvidson</li>
+    <li>Sara Sjöström</li>
+  </ul>
+  <p><br /><br /></p>
+  <h2 id="overgripande-kommitteer">
+    Medlemmar inom de övergripande-kommittéerna
+  </h2>
+  <h3 id="ekonomi-kommitteen">Ekonomi-kommittéen (+ kassör)</h3>
+  <ul>
+    <li>Helena Luthman (kassör, sammankallande)</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h3 id="fest-kommitteen">Festkommittén (+ Café)</h3>
+  <ul>
+    <li>Anna Gahm</li>
+  </ul>
+  <h3 id="valberednings-kommitteen">Valberednings-kommittéen</h3>
+  <p>Se sidan: <a href="../valberedningen">Valberedningen</a><br /></p>
+  <h3 id="evenemang-kommitteen">Event-kommittén (Workshop/danskvällar)</h3>
+  <ul>
+    <li>Emil Schyman</li>
+    <li>Jonas Arvidson</li>
+  </ul>
+  <h3 id="tavlings-kommitteen">Tävlingskommittén</h3>
+  <ul>
+    <li>Pernilla Söderqvist (Bugg)</li>
+    <li>Jens Wiklund (Fox)</li>
+    <li>Elin Nordeman (WCS)</li>
+  </ul>
+  <h3 id="marknadsforings-kommitteen">Marknadsföringskommittén</h3>
+  <ul>
+    <li>Nellie Modin (Bugg)</li>
+    <li>Stefan Ericsson (Bugg)</li>
+    <li>Jens Wiklund (Fox)</li>
+    <li>Jonas Arvidson (Fox/WCS)</li>
+  </ul>
+  <p>Nellie Modin, Stefan Ericsson, Jonas Arvidson.</p>
+  <h3 id="kursadministrations-kommitteen">Kursadministrationskommittén</h3>
+  <ul>
+    <li>Thomas Modin (Bugg)</li>
+    <li>Elin Östlund (Fox)</li>
+    <li>Jonas Arvidson (Fox/WCS)</li>
+    <li>Sara Sjöström (WCS)</li>
+  </ul>
+  <h3 id="socialdans-kommitteen">Socialdanskommittén</h3>
+  <ul>
+    <li>Thomas Modin (Bugg)</li>
+    <li>Ulrika Aronsson (Fox)</li>
+    <li>Maria R Holm (WCS)</li>
+  </ul>
+  <h3 id="musik-kommitteen">Musikkommittén</h3>
+  <ul>
+    <li>VAKANT (Bugg)</li>
+    <li>Jens Wiklund (Fox)</li>
+    <li>Jonas Arvidson (WCS)</li>
+    <li>Sara Sjöström (WCS)</li>
+  </ul>
   <p><br /><br /><br /><br /></p>
   <p>
     <em>
