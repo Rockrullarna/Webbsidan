@@ -19,7 +19,7 @@
     <p>Här finns alla de handlingar som ska avhandlas inför årsmötet 2024, där vi går igenom verksamhetsåret 2023.</p>
     <table class="table">
       <tr>
-        <th>Handlingarna</th>
+        <th>Handlingarna för 2024</th>
         <th></th>
       </tr>
       <tr>
@@ -44,8 +44,9 @@
       </tr>
       <tr>
         <td>DKRR-2024 Revisionsberättelse för 2023</td>
+        <td><i>Ej uppladdad...</i></td>
         <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="../handlingar/2024/DK-Rockrullarna-2023-Rev.berattelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <!-- <td><a href="../handlingar/2024/DKRR-2024-Revisionsberättelse-2023.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
         <td>DKRR-2024 Valberedningens förslag</td>
@@ -59,7 +60,8 @@
       </tr>
       <tr>
         <td>DKRR-2024 Verksamhetsplan för 2024</td>
-        <td><i>Kommer snart...</i></td>
+        <td><i>Saknades...</i></td>
+        <!-- <td><i>Kommer snart...</i></td> -->
         <!-- <td><a href="../handlingar/2024/DKRR-2024-Verksamhetsplan.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
     </table>
