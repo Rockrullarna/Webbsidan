@@ -2,7 +2,7 @@
   $header_title = "Styrelsemöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika styrelsemöte-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2022-12-30 12:27";
+  $page_updated = "2025-03-10 17:59";
   $page_url = "/foreningen/moten-och-protokoll/styrelsemote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -25,7 +25,9 @@
       </a>
     </p>
     <p class="word-wrap">
-      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten (kräver inloggning)
+      <a href="https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten" target="_blank" title="Rockrullarnas styrelsemötesprotokoll (öppnas i nytt fönster)">
+      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten
+      </a> (kräver inloggning)
     </p>
 
     <!--

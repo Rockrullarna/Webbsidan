@@ -2,7 +2,7 @@
   $header_title = "Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika mötesprotokoll från olika möten vi genomfört";
 
-  $page_updated = "2022-12-30 00:27";
+  $page_updated = "2025-03-10 17:55";
   $page_url = "/foreningen/moten-och-protokoll";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -24,17 +24,17 @@
         <tbody>
           <tr>
             <td>
-              <a href="./Arsmote" title="Årsmöte"><p><strong>► Årsmöte</strong></p></a>
+              <a href="./arsmote" title="Årsmöte"><p><strong>► Årsmöte</strong></p></a>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="./Medlemsmote" title="Medlemsmöte"><p><strong>► Medlemsmöte</strong></p></a>
+              <a href="./medlemsmote" title="Medlemsmöte"><p><strong>► Medlemsmöte</strong></p></a>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="./Styrelsemote" title="Styrelsemöte"><p><strong>► Styrelsemöte</strong></p></a>
+              <a href="./styrelsemote" title="Styrelsemöte"><p><strong>► Styrelsemöte</strong></p></a>
             </td>
           </tr>
         </tbody>

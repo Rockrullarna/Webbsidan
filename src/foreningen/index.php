@@ -2,7 +2,7 @@
   $header_title = "Föreningen";
   $header_description = "Information om den ideella dansföreningen Rockrullarna i Örebro";
 
-  $page_updated = "2022-12-29 23:25";
+  $page_updated = "2025-03-10 17:53";
   $page_url = "/foreningen";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -22,31 +22,31 @@
       Fast du når oss bäst via mejl på <a href="mailto:info@rockrullarna.se" title="Maila oss: info@rockrullarna.se">info@rockrullarna.se</a>
     </p>
     <h3>Info om föreningen</h3>
-    <table style="width: 260px; height: auto; margin: 1em; border: 0;">
+    <table style="width: 360px; height: auto; margin: 1em; border: 0;">
       <tbody>
         <tr>
           <td>
-            <p><strong>► <a href="./Historia" title="Historia">Historia</a></strong></p>
+            <p><strong>► <a href="./historia" title="Historia">Historia</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Styrande-dokument" title="Styrande dokument">Styrande dokument</a></strong></p>
+            <p><strong>► <a href="./styrande-dokument" title="Styrande dokument">Styrande dokument</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a></strong></p>
+            <p><strong>► <a href="./moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Organisation" title="Organisation">Organisation</a></strong></p>
+            <p><strong>► <a href="./organisation" title="Organisation">Organisation</a></strong></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p><strong>► <a href="./Medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></strong></p>
+            <p><strong>► <a href="./medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></strong></p>
           </td>
         </tr>
         <tr>

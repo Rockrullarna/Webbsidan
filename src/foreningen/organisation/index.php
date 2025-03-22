@@ -2,7 +2,7 @@
   $header_title = "Organisation - Föreningen";
   $header_description = "Vår ideella förenings organisationsträd";
 
-  $page_updated = "2024-06-09 15:35";
+  $page_updated = "2025-03-10 18:03";
   $page_url = "/foreningen/organisation";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -27,22 +27,24 @@
           </tr>
           <tr>
             <td>
-              <p><strong>► <a href="./Styrelsen" title="Styrelsen">Styrelsen</a></strong></p>
+              <p><strong>► <a href="./styrelsen" title="Styrelsen">Styrelsen</a></strong></p>
             </td>
           </tr>
           <tr>
             <td>
-              <p><strong>► <a href="./Tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></strong></p>
+              <p><strong>► <a href="./tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></strong></p>
             </td>
           </tr>
           <tr>
             <td>
-              <p><strong>► <a href="./Valberedningen" title="Valberedningen">Valberedningen</a></strong></p>
+              <p><strong>► <a href="./valberedningen" title="Valberedningen">Valberedningen</a></strong></p>
             </td>
           </tr>
         </tbody>
       </table>
     </p>
+    <h2>Organisationens roller</h2>
+    <p>För att se vem som ingår i de olika kommittéerna, se sidan: <a href="./strukturen#kommitteer" title="Strukturen med våra kommittéer">strukturen med klubbens olika kommittéer</a>.</p>
     <p>Nedanstående tabell listar de roller som ingår i organisationen.</p>
     <table style="border-width: 1px;">
     <tbody>
