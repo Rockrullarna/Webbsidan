@@ -8,6 +8,9 @@ Källkoden finns under [mappen src (SouRce Code, eller källkod på svenska)](ht
 Webbsidan finns uppladdad på vår domän: [rockrullarna.se](https://rockrullarna.se/)
 
 ## Hur laddas hemsidan upp?
+Som standard nu så laddas källkoden upp via SFTP via en GitHub-action när man gör en merge till main.  
+Se filen ```.github\workflows\deploy.yml```.  
+  
 De som har access till GitHub-organisationen Rockrullarna, kan se en guide för uppladdning till vår domän via repot: 
 [GitHub.com/Rockrullarna/Webbsidan-privat](https://github.com/Rockrullarna/Webbsidan-privat)
   
