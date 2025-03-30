@@ -12,6 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Add version Tag
+        run: echo "v12.19.$(date +'%Y%m%d%H%M')" > ./src/version.txt
+
+      - name: Update .\src\includes\footer.php with version
+        run: sed -i "s/Version: [0-9]*\.[0-9]*\.[0-9]*/Version: $(cat ./src/version.txt)/" ./src/includes/footer.php
+
       - name: Deploy files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
@@ -20,6 +26,6 @@ jobs:
           server: ${{ secrets.SFTP_HOST }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './src/*'  # Specify the path to your files
-          remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/deploy-test/'
+          remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/beta/'
           sftp_only: true
           sftpArgs: '-o ConnectTimeout=15'

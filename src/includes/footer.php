@@ -74,7 +74,7 @@
         <a title="Visa källkoden via GitHub (GitHub öppnas i nytt fönster)" 
             href="https://github.com/Rockrullarna/Webbsidan/tree/v12.18.20250329/src/<?php if (empty($page_url)) { echo "/index.php"; } else { echo "$page_url/index.php"; }?>" 
             target="_blank" rel="noopener">
-            v12.18.20250329
+            Version: v12.18.20250329
         </a><br />
         <a href="https://rockrullarna.se/kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
