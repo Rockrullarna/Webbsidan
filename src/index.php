@@ -3,7 +3,40 @@
   $header_description = "Dansklubben Rockrullarna är ideell dansförening som är öppen för alla oavsett ålder, kön, religion eller etnicitet. Vi har kurser inom Bugg (barn, ungdom, vuxen), Fox och West Coast Swing. Vid utvalda tillfällen erbjuder vi även intensivkurser av olika slag. För mer information kontakta oss via e-post info@rockrullarna.se";
   $header_keywords = "bugg,  bugg center,  bugg centrum,  bugg dans,  bugg dans i örebro,  bugg dans örebro,  bugg i örebro,  bugg kurs,  bugg kurser,  bugg nerke,  bugg sverige,  bugg örebro,  bugga i närke,  bugga i sverige,  bugga i örebro,  bugga nerke,  bugga sverige,  bugga örebro,  buggcenter,  buggcenter nerke,  buggcenter sverige,  buggcenter örebro,  buggkurs,  buggkurs i örebro,  buggkurser,  centrum för bugg,  centrum för dans,  centrum för wcs,  dans,  dans center,  dans centrum,  dans kurs,  dans kurser,  dans skola,  dans sport,  dans örebro,  dansa,  dansa bugg,  dansa bugg i örebro,  dansa bugg örebro,  dansa i örebro,  dansa örebro,  danscenter,  dans-center,  danscenter i örebro,  danscenter örebro,  danscentrum,  dans-centrum,  danscentrum i örebro,  danscentrum örebro,  danskurser ,  danskurser i nerke,  danskurser i örebro,  dansskola,  dans-skola,  danssport,  dans-sport,  danssport i örebro,  danssport örebro,  fox dans,  fox kurs,  fox kurser,  foxkurs,  foxtrott,  foxtrott dans,  foxtrott kurs,  foxtrott kurser,  kurs i bugg,  kurs i dans,  kurs i foxtrott,  kurs i wcs,  kurs i west coast swing,  kurser i bugg,  kurser i dans,  kurser i foxtrott,  kurser i wcs,  kurser i west coast swing,  nerke,  närke,  WCS i örebro,  wcs kurs,  wcs kurser,  WCS örebro,  wcskurs,  west coast swing,  west coast swing i örebro,  west coast swing örebro,  west cost swing kurser,  örebro,  örebro bugg,  örebro bugg dans,  örebro buggdans, dans i Örebro, zumba, sumba";
 
-  $page_updated = "2025-03-07 23:05";
+
+  // Läs innehållet från version.txt
+  $versionUrl = 'https://rockrullarna.se/version.txt';
+  $versionContent = file_get_contents($versionUrl);
+
+  // Kontrollera om läsningen lyckades
+  if ($versionContent === false) {
+    // Misslyckades att läsa innehållet från version.txt, 
+    // skriver ut en hårdkodad version från nu när denna automatiska inläsning lades till
+    $page_updated = "2025-03-30 22:45";
+  } else {
+    // Skriver ut datum och tid från version.txt
+    $versionString = $versionContent;
+    
+    // Extrahera datum och tid från strängen
+    preg_match('/\d{8}\.\d{4}/', $versionString, $matches);
+
+    if (!empty($matches)) {
+      $dateTimeString = $matches[0]; // "20250330.2038"
+      $date = substr($dateTimeString, 0, 8); // "20250330"
+      $time = substr($dateTimeString, 9, 4); // "2038"
+
+      // Omformatera till "YYYY-MM-DD HH:MM"
+      $formattedDateTime = substr($date, 0, 4) . '-' . substr($date, 4, 2) . '-' . substr($date, 6, 2) . ' ' . substr($time, 0, 2) . ':' . substr($time, 2, 2);
+
+      $page_updated = $formattedDateTime; // "2025-03-30 20:38"
+    } else {
+      // Visar datum/tid för senaste version v12.18.20250329 
+      // om det inte går att läsa innehållet från version.txt
+      $page_updated = "2025-03-29 12:55";
+    }
+  }
+
+  //$page_updated = "2025-03-07 23:05";
   $page_url = "";
   $page_contact_name = "";
   $page_contact_email = "";
