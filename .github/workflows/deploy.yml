@@ -12,8 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Add version Tag
-        run: echo "v12.19.$(date+'%Y%m%d').$(date+'%H%M')" > ./src/version.txt
+      - name: Add version.txt file
+        run: echo "v13.$(date +'%Y%m%d').$(date +'%H%M')" > ./src/version.txt
 
       - name: Deploy files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
