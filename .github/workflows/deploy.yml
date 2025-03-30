@@ -1,4 +1,12 @@
-name: Deploy via SFTP
+# Detta workflow kommer att ta alla filer i ./src/ mappen och 
+# med SFTP ladda upp dessa på https://www.rockrullarna.se/
+#
+# Miljö variablerna som används i detta workflow kan hittas här (krypterade):
+# https://github.com/organizations/Rockrullarna/settings/secrets/actions
+#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+name: Deploy PHP-filer via SFTP
 
 on:
   push:
