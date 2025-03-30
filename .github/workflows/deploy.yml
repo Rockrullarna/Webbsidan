@@ -21,4 +21,4 @@ jobs:
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './src/*'  # Specify the path to your files
           remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/deploy-test/'
-          sftpArgs: '-o ConnectTimeout=5'
+          sftpArgs: '-o ConnectTimeout=15'
