@@ -16,7 +16,7 @@ jobs:
         run: echo "v12.19.$(date +'%Y%m%d%H%M')" > ./src/version.txt
 
       - name: Update ./src/includes/footer.php with version
-        run: sed -i "s|Version: [0-9]*\.[0-9]*\.[0-9]*|Version: $(cat ./src/version.txt | sed 's|/|\\/|g')|" ./src/includes/footer.php
+        run: perl -pi -e 's|Version: [0-9]*\.[0-9]*\.[0-9]*|Version: $(cat ./src/version.txt)|' ./src/includes/footer.php
 
       - name: Deploy files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
