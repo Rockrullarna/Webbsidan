@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2025-03-29 11:55";
+  $page_updated = "2025-03-30 19:51";
   $page_url = "/foreningen/moten-och-protokoll/arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -83,6 +83,12 @@
         <td>DKRR-2025 Verksamhetsinriktning 2025-2026</td>
         <!-- <td><i>Kommer snart...</i></td> -->
         <td><a href="./handlingar/2025/DKRR-2025-Verksamhetsinriktning-2025-2026.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr>
+      <tr>
+        <td>DKRR-2025 Årsmöte</td>
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./handlingar/2025/DKRR-2025-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <!-- https://rockrullarna.se/foreningen/moten-och-protokoll/arsmote/handlingar/2025/DKRR-2025-%C3%85rsm%C3%B6te.pdf -->
       </tr>
     </table>
     <p>&nbsp;</p>
