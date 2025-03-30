@@ -23,6 +23,6 @@ jobs:
           server: ${{ secrets.SFTP_HOST }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './src/*'  # Specify the path to your files
-          remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/beta/'
-          sftp_only: true
+          remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/' # Specify the remote path (wwwroot)
+          sftp_only: true # Optional: If true, only SFTP will be used. If false, SCP will be used. Default is false (denna krävs som true för att fungera med one.com)
           sftpArgs: '-o ConnectTimeout=15'
