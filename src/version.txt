@@ -1,1 +1,8 @@
-v1
+Denna fil innehåller enbart versionsnummer efter uppdatering från pipeline. 
+Exempel, om man navigerar till: 
+https://rockrullarna.se/version.txt
+
+Så visas versionummer: 
+v12.19.20250330.1837
+
+Den 30 mars 2025, kl 18:37.
