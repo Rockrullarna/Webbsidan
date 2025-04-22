@@ -2,7 +2,7 @@
   $header_title = "Valberedningen - Organisation - Föreningen";
   $header_description = "Information om den ideella föreningens valberedning";
 
-  $page_updated = "2022-12-30 00:24";
+  $page_updated = "2025-04-22 19:09";
   $page_url = "/foreningen/organisation/valberedningen";
   $page_contact_name = "Valberedningen";
   $page_contact_email = "valberedningen@rockrullarna.se";
@@ -18,12 +18,12 @@
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Som representant i valberedningen förväntas du ha god kunskap om verksamheten samt kännedom om de personer som är aktiva i föreningen.</p>
     <p>Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
     <p>&nbsp;</p>
-    <h2>Valberedningen 2024-2025</h2>
-    <p>Valberedningen för mars 2024 - mars 2025 består av:</p>
+    <h2>Valberedningen 2025-2026</h2>
+    <p>Valberedningen för mars 2025 - mars 2026 består av:</p>
     <ul>
-      <li>Sofia Olsen</li>
-      <li>Anders Nilsson</li>
-      <li>Joakim Berg</li>
+      <li>Andreas Milton</li>
+      <li>???</li>
+      <li>???</li>
     </ul>
     <p>&nbsp;</p>
     <hr />

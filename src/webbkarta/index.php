@@ -2,7 +2,7 @@
   $header_title = "Webbkarta";
   $header_description = "Webbkarta (sitemap) för webbsidan: rockrullarna.se";
 
-  $page_updated = "2025-01-06 23:55";
+  $page_updated = "2025-04-22 19:27";
   $page_url = "/webbkarta";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -70,9 +70,11 @@
             </li>
             <li class="dropdown"><a href="/foreningen/organisation" title="Organisation">Organisation</a>
               <ul>
+              <li><a href="/foreningen/organisation/strukturen" title="Strukturen">Strukturen</a></li>
                 <li><a href="/foreningen/organisation/styrelsen" title="Styrelsen">Styrelsen</a></li>
                 <li><a href="/foreningen/organisation/tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
                 <li><a href="/foreningen/organisation/valberedningen" title="Valberedningen">Valberedningen</a></li>
+                <li><a href="/foreningen/organisation/revisorer" title="Revisorer">Revisorer</a></li>
               </ul>
             </li>
             <li><a href="/foreningen/medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>

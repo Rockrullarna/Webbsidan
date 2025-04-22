@@ -234,6 +234,7 @@
                     <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/tidigare-styrelser">Tidigare styrelser</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/valberedningen">Valberedningen</a></li>
+                    <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/organisation/revisorer">Revisorer</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/foreningen/medlemsrabatter">Medlemsrabatter</a></li>

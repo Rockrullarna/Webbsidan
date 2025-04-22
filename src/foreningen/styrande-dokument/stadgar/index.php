@@ -2,7 +2,7 @@
   $header_title = "Stadgar - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förenings nuvarande stadgar";
 
-  $page_updated = "2022-06-14 23:33";
+  $page_updated = "2025-03-29 17:00";
   $page_url = "/foreningen/styrande-dokument/stadgar";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -222,7 +222,7 @@
     <li>Val av<ol style="list-style-type: lower-alpha;">
     <li>föreningens ordförande för en tid av två (2) år (jämna år);</li>
     <li>tre (3) ledamöter i styrelsen för en tid av två (2) år;</li>
-    <li>två (2) suppleanter (ersättare) i styrelsen för en tid av ett (1) år;</li>
+    <li>två (2) till fyra (4) suppleanter (ersättare) i styrelsen för en tid av ett (1) år;</li>
     <li>två (2) revisorer jämte suppleanter (ersättare) för en tid av ett (1) år. I detta val får inte styrelsens ledamöter delta;</li>
     <li>tre (3) ledamöter i valberedningen för en tid av ett (1) år, av vilka en ska utses till ordförande.</li>
     </ol></li>

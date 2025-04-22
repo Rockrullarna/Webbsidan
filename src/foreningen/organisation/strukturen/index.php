@@ -2,7 +2,7 @@
 $header_title = "Styrelsen - Organisation - Organisationsstruktur";
 $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
-$page_updated = "2025-03-10 18:10";
+$page_updated = "2025-04-22 19:20";
 $page_url = "/foreningen/organisation/styrelsen";
 $page_contact_name = "Styrelsen";
 $page_contact_email = "styrelsen@rockrullarna.se";
@@ -219,7 +219,6 @@ include_once '../../../includes/header.php'
     <li>Jens Wiklund (Fox)</li>
     <li>Jonas Arvidson (Fox/WCS)</li>
   </ul>
-  <p>Nellie Modin, Stefan Ericsson, Jonas Arvidson.</p>
   <h3 id="kursadministrations-kommitteen">Kursadministrationskommittén</h3>
   <ul>
     <li>Thomas Modin (Bugg)</li>
@@ -231,6 +230,7 @@ include_once '../../../includes/header.php'
   <ul>
     <li>Thomas Modin (Bugg)</li>
     <li>Ulrika Aronsson (Fox)</li>
+    <li>David Filblad (Fox)</li>
     <li>Maria R Holm (WCS)</li>
   </ul>
   <h3 id="musik-kommitteen">Musikkommittén</h3>
