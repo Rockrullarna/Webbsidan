@@ -22,8 +22,8 @@
     <p>Valberedningen för mars 2025 - mars 2026 består av:</p>
     <ul>
       <li>Andreas Milton</li>
-      <li>???</li>
-      <li>???</li>
+      <li>Anna Skanebo</li>
+      <li>Martin Braf</li>
     </ul>
     <p>&nbsp;</p>
     <hr />
