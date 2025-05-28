@@ -61,7 +61,7 @@
           <a href="./format/QR-koder/QRkod-AnmalanTillKurser.png" title="QRkod-AnmalanTillKurser" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-AnmalanTillKurser
-          </a> (https://www.Rockrullarna.se/kurser/)
+          </a> ( https://www.rockrullarna.se/kurser )
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
@@ -97,7 +97,7 @@
           <a href="./format/QR-koder/QRkod-Kursutvardering.png" title="QRkod-Kursutvardering" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
             QRkod-Kursutvardering
-          </a> (https://kursutvardering.Rockrullarna.se/)
+          </a> ( https://www.rockrullarna.se/kursutvardering )
         </td>
         <td class="GalleryTableCellFileDate">2020-10-16</td>
         <td class="GalleryTableCellFileType">PNG</td>
