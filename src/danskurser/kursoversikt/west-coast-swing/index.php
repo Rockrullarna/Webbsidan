@@ -2,7 +2,7 @@
   $header_title = "West Coast Swing - Kursöversikt - Danskurser";
   $header_description = "West Coast Swing (WCS) är en cool pardans med rötter i Lindy hop";
 
-  $page_updated = "2022-12-29 22:37";
+  $page_updated = "2025-06-08 18:08";
   $page_url = "/danskurser/kursoversikt/west-coast-swing";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -13,7 +13,18 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>West Coast Swing</span>
     </div>
     <h1>West Coast Swing (WCS)</h1>
-    <p>West Coast Swing (även kallat: WCS) är en cool pardans med rötter i Lindy hop och passar till bland annat musik så som radiohits, pop, slow rock, blues, R&amp;B, hiphop och ballader.</p>
+    <p>
+      West Coast Swing (även kallat: WCS) är en dynamisk och kreativ pardans som har sina rötter i lindy hop men har utvecklats till en mer modern och flexibel stil. Den dansas till många olika musikgenrer, från blues och radiohits/pop till R&amp;B och funk samt ballader, vilket gör den mångsidig och anpassningsbar.
+    </p>
+    <p>
+      Det som utmärker West Coast Swing är dess smidiga rörelser, improvisation och eleganta "elasticitet" mellan dansarna. Det är en dans där båda parter kan bidra till musikaliteten och kreativiteten, vilket skapar en lekfull och interaktiv känsla.
+    </p>
+    <p>
+      En annan charm med West Coast Swing är att den uppmuntrar individuell stil och personlig tolkning av musiken, vilket gör att dansen kan se lite olika ut beroende på vilka som dansar tillsammans. Det är en perfekt kombination av teknik, frihet och musikalitet!
+    </p>
+    <p>
+      Vill du lära dig mer eller kanske prova på en kurs? Anmäl dig då här nedan. 🤩💃🕺
+    </p>
     <h2>Här nedan visas våra West Coast Swing-kurser:</h2>
     <p>
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset">
