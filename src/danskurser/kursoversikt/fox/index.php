@@ -1,8 +1,8 @@
 <?php
   $header_title = "Fox - Kursöversikt - Danskurser";
-  $header_description = "Fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret";
+  $header_description = "Svensk fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret";
 
-  $page_updated = "2022-12-29 22:51";
+  $page_updated = "2025-06-08 20:36";
   $page_url = "/danskurser/kursoversikt/fox";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -33,7 +33,7 @@
     <h2>Här nedan visas våra Svensk fox-kurser:</h2>
     <p>
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=foxtrot,fox;reset">
-        Hämtar data om foxkurser ifrån dans.se... <br />
+        Hämtar data om fox-kurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)
       </a>
       <script src="https://dans.se/api/init.js" type="text/javascript"></script>
