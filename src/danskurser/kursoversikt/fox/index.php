@@ -13,10 +13,26 @@
       <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>Fox</span>
     </div>
     <h1>Fox</h1>
-    <p>Fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret genom att aktivt arbeta med känsla, balans, hållning och närvaro. Grundstegen utförs i quicksteg och slowsteg. Med fria steg sätter föraren ihop sin egen dans utifrån vad du hör och känner i musiken. Den moderna foxen har influenser från flera dansstilar t.ex. Kizomba.&nbsp;</p>
-    <h2>Här nedan visas våra foxkurser:</h2>
     <p>
-      <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=foxtrot;reset">
+      Den moderna dansstilen Svensk fox (även kallat "Fox") är en fascinerande utveckling av den klassiska traditionella dansstilen Foxtrot. 
+    </p>
+    <p>
+      Det är en pardans där frihet och musikalisk tolkning spelar en stor roll. 
+      Till skillnad från den mer formella foxtroten, där stegen är strikt definierade, så bygger Svenska foxen på att dansparet anpassar sin dans till musiken och känslan i stunden. 
+      Det handlar om samspel, kroppskontroll, balans, hållning och närvaro —ett subtilt samarbete där dansparet skapar dansen i realtid genom att lyssna både på musiken och sin danspartner.
+    </p>
+    <p>
+      Den moderna foxen influeras av andra dansstilar, såsom Kizomba och Tango, vilket ger den en unik blandning av mjuka rörelser och nära kontakt. 
+      Dansen präglas av långa glidande steg, en följsam dynamik och en intensiv musikalisk känsla. 
+      Grundstegen utförs i quicksteg och slowsteg. Med fria steg sätter föraren ihop sin egen dans utifrån vad du hör och känner i musiken.
+      Det är en dans som kan vara både sensuell och energifylld, beroende på musiken och hur paret tolkar den.
+    </p>
+    <p>
+      Har du dansat Svensk fox 🦊 själv? Kanske detta är din nya favoritstil inom dans som inspirerar dig. 🕺💃
+    </p>
+    <h2>Här nedan visas våra Svensk fox-kurser:</h2>
+    <p>
+      <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=foxtrot,fox;reset">
         Hämtar data om foxkurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)
       </a>
