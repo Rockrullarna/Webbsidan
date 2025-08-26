@@ -168,10 +168,10 @@
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/fox">Fox</a></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/west-coast-swing">West Coast Swing</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/trivselkvallar">Trivselkvällar</a></li>
-                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/evenemang">Evenemang</a></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/fritraning">Friträning</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/evenemang">Evenemang</a></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/privatlektioner">Privatlektioner</a></li>
+                <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/trivselkvallar">Trivselkvällar</a></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/kursoversikt/utbildningar">Utbildningar</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://rockrullarna.se/danskurser/anmalan-danskurser">Anmäl dig till danskurs</a></li>

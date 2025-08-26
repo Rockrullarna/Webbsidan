@@ -12,7 +12,7 @@
   if ($versionContent === false) {
     // Misslyckades att läsa innehållet från version.txt, 
     // skriver ut en hårdkodad version från nu när denna automatiska inläsning lades till
-    $page_updated = "2025-03-30 22:45";
+    $page_updated = "2025-08-26 17:26";
   } else {
     // Skriver ut datum och tid från version.txt
     $versionString = $versionContent;
@@ -32,7 +32,7 @@
     } else {
       // Visar datum/tid för senaste version v12.18.20250329 
       // om det inte går att läsa innehållet från version.txt
-      $page_updated = "2025-03-29 12:55";
+      $page_updated = "2025-08-26 17:26";
     }
   }
 
