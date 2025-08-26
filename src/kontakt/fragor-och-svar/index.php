@@ -64,10 +64,10 @@
           </button>
         </h3>
         <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
-          <p> OBS! Detta gäller endast för <a href ="./danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
-          <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
-          <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
           <div class="accordion-body">
+            <p> OBS! Detta gäller endast för <a href ="./danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
+            <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
+            <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
             <ol>
               <li>Checka in dig som vanligt vid incheckningsdisken.</li>
               <li>Öppna din mejl direkt i mobilen - du har fått en bekräftelse på din incheckning med en betal-länk.</li>
