@@ -2,7 +2,7 @@
   $header_title = "Kursöversikt - Danskurser";
   $header_description = "Här finns en kursöversikt över alla våra dansstilar och vårt kursutbud";
 
-  $page_updated = "2023-07-30 21:49";
+  $page_updated = "2025-08-26 17:21";
   $page_url = "/danskurser/kursoversikt";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -66,6 +66,21 @@
         <tr>
           <td>
             <p><strong>► <a href="./utbildningar" title="Utbildningar">Utbildningar</a></strong></p>
+          </td>
+        </tr>
+         <tr>
+          <td>
+            <p><strong>► <a href="./anmalan-danskurser" title="Anmäl dig till danskurs">Anmäl dig till danskurs</a></strong></p>
+          </td>
+        </tr>
+         <tr>
+          <td>
+            <p><strong>► <a href="./avanmalan" title="Avanmäl dig från danskurs">Avanmäl dig från danskurs</a></strong></p>
+          </td>
+        </tr>
+         <tr>
+          <td>
+            <p><strong>► <a href="./betalning" title="Betalning">Betalning</a></strong></p>
           </td>
         </tr>
       </tbody>
