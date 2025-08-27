@@ -136,9 +136,15 @@
             <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
         </p>
-        <p>
-          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;" loading="lazy" referrerpolicy="no-referrer"></iframe>
-        </p>
+        <div id="aktiviteter-lista" class="mb-4" aria-busy="true" aria-live="polite">
+          <div class="loading text-muted small">Hämtar aktiviteter... från <a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" rel="noopener" target="_blank">aktivitetskalendern via dans.se</a></div>
+        </div>
+        <noscript>
+          <p>
+            <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;" loading="lazy" referrerpolicy="no-referrer"></iframe>
+          </p>
+          <p><a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" rel="noopener" target="_blank">Se aktivitetskalendern på dans.se</a></p>
+        </noscript>
       </section>
     </div>
 
@@ -167,5 +173,7 @@
     </symbol>
   </svg><!-- End of Bootstrap Icons symbols -->
 <?php
+  // Ladda script för att hämta aktiviteter (ersätter tidigare iframe)
+  echo '<script src="/filer/js/aktiviteter.js" defer></script>';
   include_once 'includes/footer.php'
 ?>
