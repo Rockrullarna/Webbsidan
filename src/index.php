@@ -56,8 +56,8 @@
           <p class="mb-3">Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
           <div class="d-flex flex-wrap gap-2 mb-3" aria-label="Snabbknappar">
             <a class="btn btn-primary btn-lg" role="button" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
-            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
-            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
+            <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
+            <a class="btn btn-outline-secondary" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
           </div>
         </div>
         <div class="col-12 col-lg-5 text-center">
@@ -79,7 +79,7 @@
           Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
         </p>
         <p class="mb-4">  
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig till danskurs</a>
+          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmäl dig till kurser</a>
           <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
         </p>
         <h2>
@@ -136,15 +136,9 @@
             <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
         </p>
-        <div id="aktiviteter-lista" class="mb-4" aria-busy="true" aria-live="polite">
-          <div class="loading text-muted small">Hämtar aktiviteter... från <a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" rel="noopener" target="_blank">aktivitetskalendern via dans.se</a></div>
-        </div>
-        <noscript>
-          <p>
-            <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;" loading="lazy" referrerpolicy="no-referrer"></iframe>
-          </p>
-          <p><a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" rel="noopener" target="_blank">Se aktivitetskalendern på dans.se</a></p>
-        </noscript>
+        <p>
+          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </p>
       </section>
     </div>
 
@@ -173,7 +167,5 @@
     </symbol>
   </svg><!-- End of Bootstrap Icons symbols -->
 <?php
-  // Ladda script för att hämta aktiviteter (ersätter tidigare iframe)
-  echo '<script src="/filer/js/aktiviteter.js" defer></script>';
   include_once 'includes/footer.php'
 ?>
