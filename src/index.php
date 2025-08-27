@@ -43,60 +43,75 @@
 
   include_once 'includes/header.php'
 ?>
-    <h1>Dansklubben Rockrullarna</h1>
-    <p>
-      Välkommen till dansglädjen hos vår ideella dansförening i Örebro!
-      Våra primära dansstilar är <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
-      <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
-      <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a>. 
-      <!-- Vi har även ett stort fokus på <a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
-      Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
+    <section class="py-4 mb-4 border-bottom" aria-labelledby="hero-heading">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-7">
+          <h1 id="hero-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h1>
+          <p class="lead">
+            Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är 
+            <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
+            <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><strong>Fox</strong></a> och
+            <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
+          </p>
+          <p class="mb-3">Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
+          <div class="d-flex flex-wrap gap-2 mb-3" aria-label="Snabbknappar">
+            <a class="btn btn-primary btn-lg" role="button" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
+            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
+            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 text-center">
+          <picture>
+            <source type="image/png" srcset="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" />
+            <img src="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" class="img-fluid rounded shadow" alt="Dansande medlemmar hos Rockrullarna" loading="lazy" width="580" height="100">
+          </picture>
+        </div>
+      </div>
+    </section>
     <div class="row">
-      <section id="start-activity" class="col-12 col-lg-6 text-center">
-        <h2>
+      <section id="start-activity" class="col-12 col-lg-6 text-center" aria-labelledby="lar-dig-dansa-heading">
+        <h2 id="lar-dig-dansa-heading">
           <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
           Lär dig att dansa!
           <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
         </h2>
-        <p>
-          Hos oss kan du lära dig att dansa!
+        <p class="mb-3">
+          Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
         </p>
-        <p>
-          Vill du anmäla dig till någon av våra aktiviteter eller kurser?
-        </p>
-        <p class="mb-3">  
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
-          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
+        <p class="mb-4">  
+          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig till danskurs</a>
+          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
         </p>
         <h2>
           <svg class="bi me-2 header-icon"><use href="#person-heart"></use></svg>
           Bli stödmedlem
         </h2>
         <p class="mb-1">
-          Bli gärna medlem genom att swisha <b aria-label="150 kronor">150kr</b> till
+          Bli stödmedlem snabbt och enkelt via sidan <a class="fw-semibold" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">bli medlem</a>.
         </p>
-        <h3>Swish-nummer: 123-222 02 83</h3>
-        <p class="mb-5">Så fort vår kassör registrerat din betalning (inom ca 1 vecka), så är du medlem hos oss.</p>
-        <h2>
+        <p class="mb-1">
+          Du får instruktioner för direktbetalning via Swish eller bankgiro.
+        </p>
+        <p class="mb-5">
+          När betalningen registrerats är ditt medlemskap aktivt (vanligen inom en vecka).
+        </p>
+        <h2 id="nyheter-heading">
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
           Nyheter
         </h2>
-        <h3>Årsmöte 2025</h3>
-        <p>
-          Välkomna på klubbens årsmöte, lördagen 29 mars kl. 16:00! Mer info finner du <a href="/foreningen/moten-och-protokoll/arsmote" title="Länk till årsmötet 2025">på sidan för vårt årsmöte 2025</a>.
-        </p>
-        <h3>Information om betalningar</h3>
-        <p>Info gällande betalningar med friskvård och studentrabatter och annat hittar du via vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
-        <p>
-          Övriga nyheter nytt hittar du på sidan:
-        </p>
-        <p class="mb-5">
+        <div class="mb-4">
+          <h3 id="betalningar-heading" class="h5 mb-2">Betalningar & rabatter</h3>
+          <p class="mb-2">Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
+        </div>
+        <div class="mb-5">
+          <h3 id="fler-uppdateringar-heading" class="h5 mb-2">Fler uppdateringar</h3>
+          <p class="mb-3">Följ våra kanaler för löpande nyheter, bilder och evenemang.</p>
           <a class="btn btn-outline-secondary" role="button" href="/sociala-media" title="Sociala media">
             <svg width="16" height="16" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg>
             Sociala media
             <svg width="16" height="16" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
           </a>
-        </p>
+        </div>
         <figure class="text-end mb-5">
           <blockquote class="blockquote">
             <p>"Rockrullarna erbjuder en varm gemenskap och glädje."</p>
@@ -106,8 +121,8 @@
           </figcaption>
         </figure>
       </section>
-      <section id="start-news" class="col-12 col-lg-6 text-center">
-        <h2>
+      <section id="start-news" class="col-12 col-lg-6 text-center" aria-labelledby="aktiviteter-heading">
+        <h2 id="aktiviteter-heading">
           <svg class="bi me-2 header-icon"><use href="#calendar-week"></use></svg>
           Kommande aktiviteter
         </h2>
