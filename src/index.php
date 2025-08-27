@@ -56,8 +56,8 @@
           <p class="mb-3">Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
           <div class="d-flex flex-wrap gap-2 mb-3" aria-label="Snabbknappar">
             <a class="btn btn-primary btn-lg" role="button" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
-            <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
-            <a class="btn btn-outline-secondary" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
+            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
+            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
           </div>
         </div>
         <div class="col-12 col-lg-5 text-center">
@@ -79,7 +79,7 @@
           Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
         </p>
         <p class="mb-4">  
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmäl dig till kurser</a>
+          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig till danskurs</a>
           <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
         </p>
         <h2>
