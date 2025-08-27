@@ -62,8 +62,8 @@
         </div>
         <div class="col-12 col-lg-5 text-center">
           <picture>
-            <source type="image/png" srcset="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" />
-            <img src="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" class="img-fluid rounded shadow" alt="Dansande medlemmar hos Rockrullarna" loading="lazy" width="580" height="100">
+            <source type="image/webp" srcset="https://rockrullarna.se/filer/bilder/Rockrullarna-social-startsida.jpg" />
+            <img src="https://rockrullarna.se/filer/bilder/Rockrullarna-social-startsida.jpg" class="img-fluid rounded shadow" alt="Dansande medlemmar hos Rockrullarna" loading="lazy" width="640" height="360">
           </picture>
         </div>
       </div>
@@ -75,43 +75,45 @@
           Lär dig att dansa!
           <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
         </h2>
-        <p class="mb-3">
-          Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
+        <p>
+          Hos oss kan du lära dig att dansa!
         </p>
-        <p class="mb-4">  
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmäl dig till kurser</a>
-          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
+        <p>
+          Vill du anmäla dig till någon av våra aktiviteter eller kurser?
+        </p>
+        <p class="mb-3">  
+          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
+          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Lär dig mer</a>
         </p>
         <h2>
           <svg class="bi me-2 header-icon"><use href="#person-heart"></use></svg>
           Bli stödmedlem
         </h2>
         <p class="mb-1">
-          Bli stödmedlem snabbt och enkelt via sidan <a class="fw-semibold" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">bli medlem</a>.
+          Bli gärna medlem genom att swisha <b aria-label="150 kronor">150kr</b> till
         </p>
-        <p class="mb-1">
-          Du får instruktioner för direktbetalning via Swish eller bankgiro.
-        </p>
-        <p class="mb-5">
-          När betalningen registrerats är ditt medlemskap aktivt (vanligen inom en vecka).
-        </p>
+        <h3>Swish-nummer: 123-222 02 83</h3>
+        <p class="mb-5">Så fort vår kassör registrerat din betalning (inom ca 1 vecka), så är du medlem hos oss.</p>
   <h2 id="nyheter-heading">
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
           Nyheter
         </h2>
-        <div class="mb-4">
-          <h3 class="h5 mb-2">Betalningar & rabatter</h3>
-          <p class="mb-2">Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
-        </div>
-        <div class="mb-5">
-          <h3 class="h5 mb-2">Fler uppdateringar</h3>
-          <p class="mb-3">Följ våra kanaler för löpande nyheter, bilder och evenemang.</p>
+        <h3>Årsmöte 2025</h3>
+        <p>
+          Välkomna på klubbens årsmöte, lördagen 29 mars kl. 16:00! Mer info finner du <a href="/foreningen/moten-och-protokoll/arsmote" title="Länk till årsmötet 2025">på sidan för vårt årsmöte 2025</a>.
+        </p>
+        <h3>Information om betalningar</h3>
+        <p>Info gällande betalningar med friskvård och studentrabatter och annat hittar du via vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
+        <p>
+          Övriga nyheter nytt hittar du på sidan:
+        </p>
+        <p class="mb-5">
           <a class="btn btn-outline-secondary" role="button" href="/sociala-media" title="Sociala media">
             <svg width="16" height="16" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg>
             Sociala media
             <svg width="16" height="16" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
           </a>
-        </div>
+        </p>
         <figure class="text-end mb-5">
           <blockquote class="blockquote">
             <p>"Rockrullarna erbjuder en varm gemenskap och glädje."</p>
