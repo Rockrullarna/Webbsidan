@@ -8,7 +8,16 @@
 (() => {
     'use strict'
   
-    const storedTheme = localStorage.getItem('theme')
+    // Migrate and remove legacy key 'theme'
+    (function migrateLegacy(){
+      const legacy = localStorage.getItem('theme');
+      if (legacy && !localStorage.getItem('dkrr-theme')) {
+        localStorage.setItem('dkrr-theme', legacy);
+      }
+      if (legacy) localStorage.removeItem('theme');
+    })();
+
+    const storedTheme = localStorage.getItem('dkrr-theme');
   
     const getPreferredTheme = () => {
       if (storedTheme) {
@@ -26,6 +35,8 @@
       } else {
         document.documentElement.setAttribute('data-bs-theme', theme)
       }
+      // Persist only in new key
+      localStorage.setItem('dkrr-theme', theme)
     }
   
     setTheme(getPreferredTheme())
@@ -44,22 +55,23 @@
     }
   
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-      if (storedTheme !== 'light' || storedTheme !== 'dark') {
+      const currentStored = localStorage.getItem('dkrr-theme') || 'auto'
+      if (currentStored === 'auto') {
         setTheme(getPreferredTheme())
+        showActiveTheme(getPreferredTheme())
       }
     })
   
     window.addEventListener('DOMContentLoaded', () => {
       showActiveTheme(getPreferredTheme())
   
-      document.querySelectorAll('[data-bs-theme-value]')
-        .forEach(toggle => {
-          toggle.addEventListener('click', () => {
-            const theme = toggle.getAttribute('data-bs-theme-value')
-            localStorage.setItem('theme', theme)
-            setTheme(theme)
-            showActiveTheme(theme)
-          })
+      document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
+        toggle.addEventListener('click', () => {
+          const theme = toggle.getAttribute('data-bs-theme-value')
+          setTheme(theme)
+          showActiveTheme(theme)
         })
+      })
     })
+    
   })()

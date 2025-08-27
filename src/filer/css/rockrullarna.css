@@ -196,6 +196,12 @@ button:focus, .navbar-toggler:focus {
     box-shadow: none;
 }
 
+/* Tydlig fokusmarkering för hamburgermenyn vid tangentbordsnavigering */
+.navbar-toggler:focus-visible {
+  outline: 3px solid #00ABD6;
+  outline-offset: 3px;
+}
+
 header {
     padding: 15px 0;
 }

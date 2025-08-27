@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark light">
   <link href="https://rockrullarna.se/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap Theme switcher --><script src="https://rockrullarna.se/filer/js/bootstrap-theme-switcher.js"></script>
+  <!-- Header logic (nav highlight, search) --><script src="https://rockrullarna.se/filer/js/header.js" defer></script>
   <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://rockrullarna.se/filer/css/rockrullarna.css" /> 
   <title><?php if (empty($header_title)) {
@@ -276,13 +278,7 @@
               <button class="btn btn-primary border-0" type="submit" onclick="searchFunc()">Sök</button>
             </div>
           </form>
-          <script>
-            function searchFunc() {
-              var searchQuery = document.getElementById("searchValue").value;
-              var searchUrl = "https://www.bing.com/search?q=site:rockrullarna.se+" + encodeURIComponent(searchQuery);
-              window.open(searchUrl, '_blank').focus();
-            }
-          </script>
+          <!-- Sökfunktion hanteras nu i header.js (för att undvika inline JS) -->
         </div>
       </div>
     </nav>
