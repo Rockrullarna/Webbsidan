@@ -252,6 +252,7 @@
     </table>
   </div>
   <p id="filterResultInfo" class="text-muted small"></p>
+  <p> Det finns även marknadsföringsmaterial tillgängligt via: <a href="/marknadsforing/">https://www.Rockrullarna.se/marknadsforing</a></p>
   <script>
     (function() {
       const select = document.getElementById('gallerychildalbum');
