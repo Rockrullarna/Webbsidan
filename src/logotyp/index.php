@@ -2,7 +2,7 @@
   $header_title = "Logotyp (Grafisk profil)";
   $header_description = "Vår grafiska profil och alla våra loggor som kan användas";
 
-  $page_updated = "2023-04-20 21:28";
+  $page_updated = "2025-08-27 21:28";
   $page_url = "/logotyp";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -21,19 +21,21 @@
   <p>Typsnitt som används i loggan är: <strong>Bernhard Antique D OT</strong><br />(finns att hämta här nedan och bara dubbelklicka för att installera på din dator för användning)</p>
   <p>Här kan du sortera på kategori:</p>
   <div id="GalleryChildAlbumSelector">
-    <label for="gallerychildalbum">Välj kategori:</label>
-    <select id="gallerychildalbum" name="gallerychildalbum">
-      <option value="0">KATEGORI</option>
-      <option value="1312989">Logotyp</option>
-      <option value="1312981">Mallar</option>
-      <option value="1312990">QR-koder</option>
-      <option value="1313012">Tryck-mallar (kläder, dekaler)</option>
-      <option value="1312979">Typsnitt</option>
-      <option value="1313013">EPS</option>
-      <option value="1313001">PNG</option>
-      <option value="1312978">PSD</option>
-    </select>
-    <input type="submit" value="Välj" name="gallerychildalbumsubmit" />
+    <form method="get" action="">
+      <label for="gallerychildalbum">Välj kategori:</label>
+      <select id="gallerychildalbum" name="gallerychildalbum">
+        <option value="0">KATEGORI</option>
+        <option value="logotyp">Logotyp</option>
+        <option value="mallar">Mallar</option>
+        <option value="qr">QR-koder</option>
+        <option value="tryck-mallar">Tryck-mallar (kläder, dekaler)</option>
+        <option value="typsnitt">Typsnitt</option>
+        <option value="eps">EPS</option>
+        <option value="png">PNG</option>
+        <option value="psd">PSD</option>
+      </select>
+      <input type="submit" value="Välj" name="gallerychildalbumsubmit" />
+    </form>
   </div>
   <div class="table-responsive">
     <table class="GalleryTable table table-secondary table-striped">
@@ -44,7 +46,7 @@
         <td>Storlek</td>
       </tr>
       <!-- TODO: Fixa länken! -->
-      <tr>
+      <tr data-category="typsnitt"> <!-- Typsnitt -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./Typsnitt/Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt.ttf" title="Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt" target="_blank" rel="gallery">
             <img src="/filer/bilder/design/extension-default.gif" width="18" height="18" />&nbsp;
@@ -56,7 +58,7 @@
         <td class="GalleryTableCellFileSize">64 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-AnmalanTillKurser.png" title="QRkod-AnmalanTillKurser" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -68,7 +70,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-Epost-Rockrullarna.png" title="QRkod-Epost-Rockrullarna" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -80,7 +82,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-intranet.png" title="QRkod-intranet" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -92,7 +94,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-Kursutvardering.png" title="QRkod-Kursutvardering" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -104,7 +106,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-SharePoint.png" title="QRkod-SharePoint" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -116,7 +118,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="qr"> <!-- QR-koder -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/QR-koder/QRkod-SharePoint-Styrelsen.png" title="QRkod-SharePoint-Styrelsen" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-png.gif" width="18" height="18" />&nbsp;
@@ -128,7 +130,7 @@
         <td class="GalleryTableCellFileSize">3 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="tryck-mallar eps"> <!-- Tryck-mallar & EPS -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/EPS-Tryck/2020-08-10--Rockrullarna-logga-TRYCKversion-Orebro.eps" title="Rockrullarna-EPS-logga-TRYCKversion-Orebro.eps" target="_blank" rel="gallery">
             <img src="/filer/bilder/design/extension-eps.gif" width="18" height="18" />&nbsp;
@@ -140,7 +142,7 @@
         <td class="GalleryTableCellFileSize">507 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="eps"> <!-- EPS -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/EPS-AdobeIllustrator-editerbar-text/2020-08-10--Rockrullarna-loggorna-EDITERBAR.eps" title="Rockrullarna-EPS-loggorna-EDITERBAR-Uppdaterad-2020-08-10.eps" target="_blank" rel="gallery">
             <img src="/filer/bilder/design/extension-eps.gif" width="18" height="18" />&nbsp;
@@ -152,7 +154,7 @@
         <td class="GalleryTableCellFileSize">339 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla.png" title="Rockrullarna-PNG-bgGenomskinlig-frontRRbla.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla.png" width="64" height="64" />&nbsp;
@@ -164,7 +166,7 @@
         <td class="GalleryTableCellFileSize">73 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgGenomskinlig-frontSvart.png" title="Rockrullarna-PNG-bgGenomskinlig-frontSvart.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgGenomskinlig-frontSvart.png" width="64" height="64" />&nbsp;
@@ -176,7 +178,7 @@
         <td class="GalleryTableCellFileSize">74 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgGenomskinlig-frontVit.png" title="Rockrullarna-PNG-bgGenomskinlig-frontVit.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgGenomskinlig-frontVit.png" width="64" height="64" />&nbsp;
@@ -188,7 +190,7 @@
         <td class="GalleryTableCellFileSize">72 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje.png" title="Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgGenomskinlig-frontRRbla-kantlinje.png" width="64" height="64" />&nbsp;
@@ -200,7 +202,7 @@
         <td class="GalleryTableCellFileSize">2 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgSvart-frontRRbla.png" width="64" height="64" />&nbsp;
@@ -212,7 +214,7 @@
         <td class="GalleryTableCellFileSize">85 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgVit-frontRRbla.png" title="Rockrullarna-bgVit-frontRRbla.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgVit-frontRRbla.png" width="64" height="64" />&nbsp;
@@ -224,7 +226,7 @@
         <td class="GalleryTableCellFileSize">93 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="logotyp png"> <!-- Logotyp & PNG -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PNG/Rockrullarna-bgVit-frontSvart.png" title="Rockrullarna-bgVit-frontSvart.png" target="_self" rel="lightbox-gallery">
             <img src="./format/PNG/Rockrullarna-bgVit-frontSvart.png" width="64" height="64" />&nbsp;
@@ -236,7 +238,7 @@
         <td class="GalleryTableCellFileSize">85 KB</td>
       </tr>
 
-      <tr>
+      <tr data-category="psd"> <!-- PSD -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./format/PSD/Rockrullarna-loggorna-PSD-1450px.psd" title="Rockrullarna-loggorna-PSD-1450px.psd" target="_self" rel="lightbox-gallery">
             <img src="/filer/bilder/design/extension-psd.gif" width="18" height="18" />&nbsp;
@@ -249,6 +251,70 @@
       </tr>
     </table>
   </div>
+  <p id="filterResultInfo" class="text-muted small"></p>
+  <script>
+    (function() {
+      const select = document.getElementById('gallerychildalbum');
+      const form = select.closest('form');
+      const rows = Array.from(document.querySelectorAll('.GalleryTable tr'))
+        .filter(tr => !tr.classList.contains('GalleryTableHeader'));
+      const info = document.getElementById('filterResultInfo');
+
+      const legacyMap = { // fallback för gamla query-parametrar (numeriska id:n)
+        '1312989':'logotyp',
+        '1312981':'mallar',
+        '1312990':'qr',
+        '1313012':'tryck-mallar',
+        '1312979':'typsnitt',
+        '1313013':'eps',
+        '1313001':'png',
+        '1312978':'psd'
+      };
+
+      function applyFilter(pushState=true) {
+        let val = select.value;
+        // Translate legacy numeric value if present
+        if (legacyMap[val]) val = legacyMap[val];
+        let visibleCount = 0;
+        rows.forEach(tr => {
+          const cats = (tr.getAttribute('data-category') || '').split(/\s+/);
+            if (val === '0' || cats.includes(val)) {
+              tr.style.display = '';
+              visibleCount++;
+            } else {
+              tr.style.display = 'none';
+            }
+        });
+        if (info) {
+          info.textContent = val === '0' ? 'Visar alla filer (' + visibleCount + ').' : 'Visar ' + visibleCount + ' filer i vald kategori.';
+        }
+        if (pushState) {
+          const url = new URL(window.location);
+          if (val === '0') {
+            url.searchParams.delete('gallerychildalbum');
+          } else {
+            url.searchParams.set('gallerychildalbum', val);
+          }
+          window.history.replaceState({}, '', url);
+        }
+      }
+
+      // Change handler (no form submit needed)
+      select.addEventListener('change', () => applyFilter());
+
+      // Intercept form submit to avoid page reload
+      form && form.addEventListener('submit', (e) => { e.preventDefault(); applyFilter(); });
+
+      // Initialize from query string if present
+      const params = new URLSearchParams(window.location.search);
+      const initialRaw = params.get('gallerychildalbum');
+      const initial = legacyMap[initialRaw] || initialRaw;
+      if (initial && select.querySelector('option[value="' + initial + '"]')) {
+        select.value = initial;
+      }
+      applyFilter(false);
+    })();
+  </script>
 <?php
   include_once '../includes/footer.php'
 ?>
