@@ -43,34 +43,17 @@
 
   include_once 'includes/header.php'
 ?>
-    <section class="py-4 mb-4 border-bottom" aria-labelledby="hero-heading">
-      <div class="row align-items-center g-4">
-        <div class="col-12 col-lg-7">
-          <h1 id="hero-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h1>
-          <p class="lead">
-            Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är 
-            <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
-            <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><strong>Fox</strong></a> och
-            <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
-          </p>
-          <p class="mb-3">Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
-          <div class="d-flex flex-wrap gap-2 mb-3" aria-label="Snabbknappar">
-            <a class="btn btn-primary btn-lg" role="button" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
-            <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
-            <a class="btn btn-outline-secondary" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 text-center">
-          <picture>
-            <source type="image/webp" srcset="https://rockrullarna.se/filer/bilder/Rockrullarna-social-startsida.jpg" />
-            <img src="https://rockrullarna.se/filer/bilder/Rockrullarna-social-startsida.jpg" class="img-fluid rounded shadow" alt="Dansande medlemmar hos Rockrullarna" loading="lazy" width="640" height="360">
-          </picture>
-        </div>
-      </div>
-    </section>
+    <h1>Dansklubben Rockrullarna</h1>
+    <p>
+      Välkommen till dansglädjen hos vår ideella dansförening i Örebro!
+      Våra primära dansstilar är <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
+      <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
+      <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><b>West Coast Swing</b></a>. 
+      <!-- Vi har även ett stort fokus på <a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Gå till översiktssidan för dans till barn och ungdommar"><b>Dans för barn och ungdommar</b></a>. -->
+      Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
     <div class="row">
-      <section id="start-activity" class="col-12 col-lg-6 text-center" aria-labelledby="lar-dig-dansa-heading">
-        <h2 id="lar-dig-dansa-heading">
+      <section id="start-activity" class="col-12 col-lg-6 text-center">
+        <h2>
           <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
           Lär dig att dansa!
           <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
@@ -94,7 +77,7 @@
         </p>
         <h3>Swish-nummer: 123-222 02 83</h3>
         <p class="mb-5">Så fort vår kassör registrerat din betalning (inom ca 1 vecka), så är du medlem hos oss.</p>
-  <h2 id="nyheter-heading">
+        <h2>
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
           Nyheter
         </h2>
@@ -123,8 +106,8 @@
           </figcaption>
         </figure>
       </section>
-      <section id="start-news" class="col-12 col-lg-6 text-center" aria-labelledby="aktiviteter-heading">
-        <h2 id="aktiviteter-heading">
+      <section id="start-news" class="col-12 col-lg-6 text-center">
+        <h2>
           <svg class="bi me-2 header-icon"><use href="#calendar-week"></use></svg>
           Kommande aktiviteter
         </h2>
@@ -139,7 +122,7 @@
           </strong>
         </p>
         <p>
-          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;" loading="lazy" referrerpolicy="no-referrer"></iframe>
+          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;"></iframe>
         </p>
       </section>
     </div>
