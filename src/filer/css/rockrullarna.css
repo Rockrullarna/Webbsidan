@@ -27,7 +27,22 @@ a, a:visited {
 
 a:hover {
   background-color: #00ABD6;
-  color: #fff;
+  color: #000; /* Bättre kontrast: svart text på RRBlå bakgrund (WCAG AA) */
+}
+
+/* Fokusmarkering för tangentbordsnavigering */
+a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-link:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px dashed #00ABD6;
+  outline-offset: 2px;
+}
+
+/* Reducera rörelse för användare som föredrar det */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .bild {
@@ -54,6 +69,33 @@ a:hover {
   background-color: #555;
   border-color: #00ABD6;
 }
+
+/* Sekundär text (för svag tidigare på mörk bakgrund). Ökar kontrast. */
+.text-muted { color: #b5b5b5 !important; }
+[data-bs-theme=light] .text-muted { color: #555 !important; }
+
+/* Footer grå texter mot mörk bakgrund */
+footer, footer p, footer a { line-height: 1.4; }
+
+/* Justera nav-länkar för bättre kontrast i dark */
+.navbar-nav .nav-link { color: #00ABD6; }
+.navbar-nav .nav-link:focus-visible { background:#222; }
+[data-bs-theme=light] .navbar-nav .nav-link { color: #005f7d; }
+[data-bs-theme=light] .navbar-nav .nav-link:hover { color:#000; }
+
+/* Knappar outline-secondary bör få tydligare border i dark */
+.btn-outline-secondary { color:#ccc; border-color:#888; }
+.btn-outline-secondary:hover { color:#000; background:#00ABD6; border-color:#00ABD6; }
+[data-bs-theme=light] .btn-outline-secondary { color:#222; border-color:#666; }
+[data-bs-theme=light] .btn-outline-secondary:hover { color:#000; }
+
+/* Tabell / struktur färgjusteringar om sekundära tabeller används */
+.table-secondary { --bs-table-bg:#1b1b1b; --bs-table-striped-bg:#222; --bs-table-color:#e6e6e6; }
+[data-bs-theme=light] .table-secondary { --bs-table-bg:#f2f9fb; --bs-table-striped-bg:#e5f3f7; --bs-table-color:#002a33; }
+
+/* Fokus på skip-link i light-mode */
+[data-bs-theme=light] .SkipToContentLink { background:#00ABD6; color:#000; }
+[data-bs-theme=light] .SkipToContentLink:focus { background:#00ABD6; color:#000; }
 
 .dkrr-logo-link {
   width: 3.5rem;
