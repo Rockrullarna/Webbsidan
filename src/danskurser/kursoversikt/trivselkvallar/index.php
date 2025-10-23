@@ -26,9 +26,9 @@
       Med jämna mellanrum erbjuder föreningen även trivselkvällar som riktar sig mot WCS och Fox. Samtliga trivselkvällar presenteras på sociala media och på hemsidan.
     </p>
     <p>
-      Alla är hjärtligt välkomna! 🙂
+      Alla klubbens medlemmar är hjärtligt välkomna! 🙂
     </p>
-    <h2>Entréavgift trivsälkvällar</h2>
+    <h2><small>Entréavgift trivselkvällar</small></h2>
     <ul>
       <li><strong>Medlem</strong>: Fritt inträde (men enbart för medlemmar 150kr/år)</li>
     </ul>
@@ -46,9 +46,9 @@
       Vill du som medlem vara med och anordna en socialdans? Kontakta oss via <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a>.
     </p>
     <p>
-      Alla är hjärtligt välkomna! 🙂
+      Alla är hjärtligt välkomna! 💃🕺
     </p>
-    <h2>Entréavgift</h2>
+    <h2><small>Entréavgift socialdanser</small></h2>
     <ul>
       <li><strong>Medlem</strong>: 40 SEK</li>
       <li><strong>Ej medlem</strong>: 80 SEK</li>
