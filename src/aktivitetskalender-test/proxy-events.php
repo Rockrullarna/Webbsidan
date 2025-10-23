@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-$upstream = 'https://dans.se/xml/?type=events&org=rockrullarna';
+$upstream = 'https://dans.se/xml/?type=events&org=rockrullarna&regStatus=NONE_EXPIRED';
 $cacheTtlSeconds = 300; // cache for 5 minutes
 $cacheFile = sys_get_temp_dir() . '/rockrullarna-events.xml';
 
