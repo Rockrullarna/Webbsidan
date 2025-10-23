@@ -1,0 +1,1246 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<cogwork>
+<language>sv</language>
+<retrieved>2025-10-23T08:02:03+02:00</retrieved>
+<session>
+<username userId="291769">JonasDans</username>
+<privilege integerValue="650">Lokalt ansvarig</privilege>
+<organization orgId="118">Dansklubben Rockrullarna</organization>
+<http_connection>keep-alive</http_connection>
+<HTTPS>on</HTTPS>
+</session>
+<request>
+<type>events</type>
+<org>rockrullarna</org>
+</request>
+<events>
+<search>
+<maxRows maxRowsDefault="250" maxRowsAllowed="10000">250</maxRows>
+<result>
+<numRowsFound>21</numRowsFound>
+<numRowsShown>21</numRowsShown>
+<firstShownRowNum>1</firstShownRowNum>
+<lastShownRowNum>21</lastShownRowNum>
+</result>
+</search>
+<event key="cZtOzQtwpzAdxXqesbrc9ZjC" id="event_260961" eventId="260961" eventCode="HT25-FOX-steg1-nyb_tis_8ggr" eventTypeNumber="2">
+<uid>260961.event@cogwork.se</uid>
+<source>https://dans.se/event/260961</source>
+<title>Fox - Steg 1 (nybörjare) veckokurs tisdagar (start 21 okt) - 8 tillfällen</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-09-22 18:07:02</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="207">Fox</category>
+<place>Stora Salen</place>
+<sorting>5890</sorting>
+<pricing>
+<base currency="SEK">600</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-09-22 18:00:00</startShowing>
+<startDirectReg>2025-09-22 18:00:00</startDirectReg>
+<startLateReg>2025-10-14 00:00:00</startLateReg>
+<closeReg>2025-11-03 08:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="LATE" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=260961</url>
+<statusName>Efteranm.</statusName>
+<statusText>Efteranmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="2">2025-10-21</startDate>
+<startTime>20:10:00</startTime>
+<endDate dayOfWeek="2">2025-12-09</endDate>
+<endTime>21:10:00</endTime>
+<dayAndTime>Tis 20.10-21.10</dayAndTime>
+<occasions numberOfPlannedOccasions="8" numberOfScheduledOccasions="8" cardinality="8">
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-21 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-21 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-28 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-28 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-04 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-04 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-11 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-11 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-18 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-18 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-25 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-25 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-12-02 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-12-02 21:10:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-12-09 20:10:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-12-09 21:10:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<instructors>2</instructors>
+<staff>3</staff>
+<accepted>24</accepted>
+<leaders>13</leaders>
+<followers>11</followers>
+<singleLeaders>12</singleLeaders>
+<singleFollowers>10</singleFollowers>
+<couples>1</couples>
+<acceptedLeaders>13</acceptedLeaders>
+<acceptedFollowers>11</acceptedFollowers>
+<acceptedSingleLeaders>12</acceptedSingleLeaders>
+<acceptedSingleFollowers>10</acceptedSingleFollowers>
+<acceptedCouples>1</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="vBgIkiK0BzqHUFxrLXihjoW6" itemId="4769">Fox</primaryEventGroup>
+<categories>
+<category categoryId="category_207">Fox</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="9" categoryId="category_207">Nybörjare</level>
+<maxParticipants>80</maxParticipants>
+</requirements>
+<instructors cardinality="2">
+<combinedTitle>Camilla W, Lars</combinedTitle>
+<instructor personId="person_510015">
+<name nickname="Lars">Lars Norman</name>
+<thumb width="128">https://static.cogwork.se/thumbs/portrait/100050099.jpg</thumb>
+</instructor>
+<instructor personId="person_156055">
+<name nickname="Camilla">Camilla Wellsén</name>
+</instructor>
+</instructors>
+<longdescription>
+<![CDATA[ <p><b>Kursm&aring;l:</b><br /> H&auml;r f&aring;r du&nbsp;l&auml;ra dig&nbsp;grunderna i Svensk Fox. Kursens fokus ligger p&aring; nyb&ouml;rjare, men alla som vill finslipa sin grundteknik &auml;r varmt v&auml;lkomna.</p> <p>&nbsp;</p> <p><b>F&ouml;rkunskapskrav:</b><br /> - Inga f&ouml;rkunskaper kr&auml;vs&nbsp;eftersom att denna kurs&nbsp;&auml;r till f&ouml;r dig som aldrig dansat Fox, eller till dig som&nbsp;vill tr&auml;na&nbsp;extra p&aring; grunderna i Fox.</p> <p>&nbsp;</p> <p><b>Kursinneh&aring;ll:</b><br /> - Grundtekniker<br /> - Takt och Tempo<br /> - Roller&nbsp;(f&ouml;ra-f&ouml;lja)<br /> - H&aring;llning,&nbsp;fattning och kontakt<br /> - Ergonomi i dansen</p> <p>Lika stor vikt kommer l&auml;ggas p&aring; f&ouml;rarrollen som f&ouml;ljarrollen, d&aring; b&aring;da &auml;r lika viktiga i dansen Fox.&nbsp;</p> <p>&nbsp;</p> <p><strong>&Aring;lder:</strong><br /> Fr&aring;n 15&aring;r</p> <p>&nbsp;</p> <p><strong>Rotation p&aring; kursen</strong><br /> Rotation till&auml;mpas i f&ouml;rsta hand under kursen men det &auml;r &auml;ven m&ouml;jligt att enbart dansa med sin partner.</p> <p>Om ni inte vill rotera danspartner under kursen beh&ouml;ver ni:<br /> -&nbsp;Paranm&auml;la er ihop<br /> -&nbsp;Skriva som kommentar i anm&auml;lan att ni enbart vill dansa med den ni &auml;r anm&auml;ld med.</p> <p>Vill ni rotera partner under kursen beh&ouml;ver ni inte g&ouml;ra eller skriva n&aring;got speciellt vid er par/singelanm&auml;lan.</p> <p>&nbsp;</p> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska</li> <li>Anv&auml;nd dansskor eller inomhusskor som inte har svart sula/ger svarta m&auml;rken p&aring; v&aring;rt dansgolv</li> <li>Anv&auml;nd o&ouml;mma kl&auml;der. En extra tr&ouml;ja att kunna ta av eller p&aring;, v&aring;r lokal ligger i k&auml;llaren och upplevs ibland som varm,&nbsp;ibland&nbsp;som&nbsp;kylig</li> <li>Anv&auml;nd inte starka parfymer eller andra dofter, t&auml;nk p&aring; de du dansar med</li> <li>Kom ih&aring;g att l&auml;gga i P-skiva n&auml;r ni kommer till v&aring;r danslokal</li> </ul> <p>V&auml;lkommen!</p> <hr /> <p><strong>OBSERVERA!</strong><br /> - F&ouml;rsta kurstillf&auml;llet &auml;r ej l&auml;ngre&nbsp;gratis (d.v.s prova-p&aring;-tilf&auml;lle). Ett prova-p&aring;-tillf&auml;lle kommer&nbsp;att h&aring;llas ca tv&aring; veckor f&ouml;re kursstart. F&ouml;lj v&aring;r Facebook (<a href="https://facebook.com/rockrullarna">facebook.com/rockrullarna</a>) f&ouml;r datum och tid f&ouml;r prova-p&aring;-tillf&auml;llet.<br /> -<b>&nbsp;</b>Eventuell avanm&auml;lan skall ske<strong>&nbsp;senast en (1)&nbsp;vecka&nbsp;innan kursstart</strong>.&nbsp;D&auml;refter &auml;r anm&auml;lan bindande vilket inneb&auml;r att kursavgiften skall betalas.<br /> -<b>&nbsp;</b>Kursavgiften &aring;terbetalas endast vid uppvisande av l&auml;karintyg.&nbsp;<br /> -&nbsp;Avanm&auml;lan&nbsp;och fr&aring;gor skickas till:&nbsp;<strong><em>kurser@rockrullarna.se</em></strong>.</p> ]]>
+</longdescription>
+</event>
+<event key="zZ6sVpko3zL6sYhDmBlL7uUt" id="event_262902" eventId="262902" eventCode="HT25-12-04-Fox-grunder-intensiv" eventTypeNumber="2">
+<uid>262902.event@cogwork.se</uid>
+<source>https://dans.se/event/262902</source>
+<title>Fox Intensiv för alla aktiva medlemmar</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-10-20 12:40:56</created>
+<author personId="person_711913">David Säflund</author>
+<category catId="207">Fox</category>
+<place>Stora Salen</place>
+<registrationPeriods>
+<startShowing>2025-10-20 15:00:00</startShowing>
+<startDirectReg>2025-10-20 15:00:00</startDirectReg>
+<closeReg>2025-12-03 23:59:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="DIRECT" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=262902</url>
+<statusName>Direkt</statusName>
+<statusText>Direktanmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="4">2025-12-04</startDate>
+<startTime>18:00:00</startTime>
+<endDate dayOfWeek="4">2025-12-04</endDate>
+<endTime>21:30:00</endTime>
+<dayAndTime>Tors 18.00-21.30</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="4">2025-12-04 18:00:00</startDateTime>
+<endDateTime dayOfWeek="4">2025-12-04 21:30:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<instructors>1</instructors>
+<staff>9</staff>
+<accepted>18</accepted>
+<inQueue>5</inQueue>
+<new>2</new>
+<leaders>8</leaders>
+<followers>17</followers>
+<singleLeaders>6</singleLeaders>
+<singleFollowers>15</singleFollowers>
+<couples>2</couples>
+<acceptedLeaders>8</acceptedLeaders>
+<acceptedFollowers>10</acceptedFollowers>
+<acceptedSingleLeaders>6</acceptedSingleLeaders>
+<acceptedSingleFollowers>8</acceptedSingleFollowers>
+<acceptedCouples>2</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="vBgIkiK0BzqHUFxrLXihjoW6" itemId="4769">Fox</primaryEventGroup>
+<categories>
+<category categoryId="category_207">Fox</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="9" categoryId="category_207">Nybörjare</level>
+</requirements>
+<instructors cardinality="1">
+<combinedTitle>Jens W</combinedTitle>
+<instructor personId="person_336344">
+<name nickname="Jens">Jens Wiklund</name>
+</instructor>
+</instructors>
+<longdescription>
+<![CDATA[ <p>4 December s&aring; kommer vi att h&aring;lla grundkurs i Svensk Fox f&ouml;r alla medlemmar som har g&aring;tt kurs p&aring; klubben under hela 2025</p> <p><strong>4 december<br /> Kl 18:00-21:30</strong><br /> Gratis och endast f&ouml;r medlemmar som g&aring;tt kurs under 2025</p> <p>Vi kommer g&aring; igenom:</p> <p>Grundteknik&nbsp;<br /> Promenad, start/stopp<br /> H&aring;llning/Ergonomi<br /> V&auml;ndningar</p> <p>&nbsp;</p> <p>Spelar ingen roll vilken kurs du har g&aring;tt. WCS, Bugg eller Fox,&nbsp;<br /> <br /> V&auml;lkomna&nbsp;&ouml;nskar Foxkommite&eacute;n<br /> &nbsp;</p> <hr /> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska.</li> <li>Anv&auml;nd&nbsp;inomhus-/dansskor som inte l&auml;mnar&nbsp;m&auml;rken p&aring;&nbsp;dansgolvet.</li> <li>Lokalen ligger i en k&auml;llare&nbsp;och upplevs ibland som varm och ibland som&nbsp;kylig.&nbsp;</li> <li>Anv&auml;nd inte parfym&nbsp;eller andra starka dofter.</li> <li>P-skiva (3 h) g&auml;ller p&aring; intilliggande parkering. <ul> <li>D&aring; kursen &auml;r l&auml;ngre &auml;n 3h beh&ouml;ver bilen flyttas ex. i samband med lunchen.</li> </ul> </li> <li>Mat ing&aring;r ej. <ul> <li>I f&ouml;reningens lokaler finns kyl och micro.</li> <li>I k&ouml;pcentret (Haga centrum) finns en resturang (pizzeria) samt en ICA&nbsp;med salladsbar m.m.</li> </ul> </li> </ul> <hr /> <p><strong>OBSERVERA!</strong><br /> -<b>&nbsp;</b>Kursavgiften &aring;terbetalas endast vid uppvisande av l&auml;karintyg.&nbsp;<br /> -&nbsp;Avanm&auml;lan och eventuella&nbsp;fr&aring;gor skickas till:&nbsp;<strong><em>kurser@rockrullarna.se</em></strong>.</p> ]]>
+</longdescription>
+</event>
+<event key="EtYbAohqVs19BGgiX0yBpIYB" id="event_258225" eventId="258225" eventCode="HT25-10-25-WCS-AndreasOchClaudia" eventTypeNumber="2">
+<uid>258225.event@cogwork.se</uid>
+<source>https://dans.se/event/258225</source>
+<title>West Coast Swing - 25/10 - Avancerad nivå & tävlingsträning - med Andreas & Claudia</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-08-20 22:33:37</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>4510</sorting>
+<pricing>
+<base currency="SEK">450</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-08-20 00:00:00</startShowing>
+<startDirectReg>2025-08-21 18:00:00</startDirectReg>
+<startLateReg>2025-10-25 01:00:00</startLateReg>
+<closeReg>2025-10-26 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="DIRECT" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=258225</url>
+<statusName>Direkt</statusName>
+<statusText>Direktanmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-10-25</startDate>
+<startTime>13:00:00</startTime>
+<endDate dayOfWeek="6">2025-10-25</endDate>
+<endTime>17:45:00</endTime>
+<dayAndTime>Lör 13.00-17.45</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-10-25 13:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-10-25 17:45:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<accepted>35</accepted>
+<withDrawn>2</withDrawn>
+<denied>1</denied>
+<leaders>16</leaders>
+<followers>19</followers>
+<singleLeaders>8</singleLeaders>
+<singleFollowers>11</singleFollowers>
+<couples>8</couples>
+<acceptedLeaders>16</acceptedLeaders>
+<acceptedFollowers>19</acceptedFollowers>
+<acceptedSingleLeaders>8</acceptedSingleLeaders>
+<acceptedSingleFollowers>11</acceptedSingleFollowers>
+<acceptedCouples>8</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="DVcqN7FvmSvhJmxhVAub1diD" itemId="4773">Helg & Intensivkurser</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="33" categoryId="category_47">Avancerad</level>
+<maxParticipants>80</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p><strong>Inneh&aring;ll &amp; Tr&auml;nare&nbsp;&nbsp;</strong></p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{78}" paraid="1583978069"><strong>Tema: </strong>Styling och variationer.</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{72}" paraid="522318463">Claudia har dansat sedan hon var &aring;tta &aring;r gammal. Danskarri&auml;ren inleddes med ballroom, jazz och salsa innan hon fastnade f&ouml;r WCS 2013.&nbsp;&nbsp;</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{78}" paraid="847865598">Andreas har dansat bugg i ungef&auml;r 25 &aring;r och b&ouml;rjade med WCS 2015, som han d&aring; fastnade f&ouml;r direkt.&nbsp;</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{84}" paraid="728918517">Claudia och Andreas har dansat tillsammans sedan 2017 och reser regelbundet p&aring; event i s&aring;v&auml;l Sverige som utomlands. Det de brinner f&ouml;r mest i dansen &auml;r lekfullheten och musikaliteten.&nbsp;&nbsp;</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{90}" paraid="1406506812">Anm&auml;l dig och var med och dela en dag med Andreas och Claudia, p&aring; temat styling och variationer!&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{110}" paraid="589732501"><strong>F&ouml;rkunskaper&nbsp;</strong><br /> Du ska ha g&aring;tt kurs i WCS p&aring; minst steg 3, samt g&auml;rna socialdansat mycket och deltagit p&aring; WCS events. Observera att detta &auml;r f&ouml;r att alla deltagare ska kunna f&aring; ut mesta m&ouml;jliga av inneh&aring;llet p&aring; kursen. Du ska kunna turer som left side pass, right side under arm, wipe och sugar push.&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{124}" paraid="609913539"><strong>Schema &nbsp;</strong><br /> Tr&auml;ning 13:00 - 17:45, med 45 min paus.&nbsp;<br /> Och WCS socialdanskv&auml;ll.&nbsp;<br /> Det finns m&ouml;jlighet att boka privatlektioner tidigare p&aring; dagen.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527"><strong>Pris &nbsp;</strong><br /> Medlemmar 2025 i Rockrullarna: 450kr &nbsp;<br /> &Ouml;vriga: 600kr (d&aring; medlemsskap p&aring; 150kr kr&auml;vs)&nbsp;<br /> Entr&eacute;avgift till efterf&ouml;ljande danskv&auml;ll ing&aring;r.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">Det g&aring;r bra att boka in privatlektioner med Andreas och Claudia f&ouml;re/efter tr&auml;ningstiden &ndash; h&ouml;r av er till n&aring;gon av dem p&aring; Messenger f&ouml;r bokning av tid. Den lilla lokalen beh&ouml;ver bokas om man vill nyttja den till detta, vilket g&ouml;rs l&auml;ttast genom rockrullarnas hemsida.&nbsp;&nbsp;</p> <p><strong>OBS! </strong>Anm&auml;lan &auml;r bindande vilket inneb&auml;r att kursavgiften endast kan &aring;terf&aring;s vid uppvisande av l&auml;karintyg pga av sjukdom.</p> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska</li> <li>Anv&auml;nd dansskor eller inomhusskor som inte har svart sula/ger svarta m&auml;rken p&aring; v&aring;rt dansgolv</li> <li>Anv&auml;nd o&ouml;mma kl&auml;der. En extra tr&ouml;ja kan vara bra, v&aring;r lokal ligger i k&auml;llaren och upplevs ibland som varm,&nbsp;ibland&nbsp;som&nbsp;kylig</li> <li>Anv&auml;nd inte starka parfymer eller andra dofter, t&auml;nk p&aring; de du dansar med</li> <li>Kom ih&aring;g att l&auml;gga i 3-timmars P-skiva, samt fr&aring;ga om Aimo-park app-koden f&ouml;r att f&aring; betala 10kr f&ouml;r parkeringen under hela dagen och slippa justera P-skivan var 3e timma.</li> </ul> <p>&nbsp;</p> <p>V&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="E6vfDBM0qPlPGJQKLsE9aeCb" id="event_258226" eventId="258226" eventCode="HT25-11-08-WCS-JohannaOchDaniel" eventTypeNumber="2">
+<uid>258226.event@cogwork.se</uid>
+<source>https://dans.se/event/258226</source>
+<title>West Coast Swing - 8/11 - Avancerad nivå & tävlingsträning - med Johanna & Daniel</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-08-20 22:45:41</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>4510</sorting>
+<pricing>
+<base currency="SEK">450</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-08-20 00:00:00</startShowing>
+<startDirectReg>2025-08-21 18:00:00</startDirectReg>
+<startLateReg>2025-11-08 01:00:00</startLateReg>
+<closeReg>2025-11-09 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="DIRECT" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=258226</url>
+<statusName>Direkt</statusName>
+<statusText>Direktanmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-11-08</startDate>
+<startTime>13:00:00</startTime>
+<endDate dayOfWeek="6">2025-11-08</endDate>
+<endTime>17:45:00</endTime>
+<dayAndTime>Lör 13.00-17.45</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-11-08 13:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-11-08 17:45:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<accepted>13</accepted>
+<inQueue>5</inQueue>
+<withDrawn>1</withDrawn>
+<leaders>6</leaders>
+<followers>12</followers>
+<singleLeaders>2</singleLeaders>
+<singleFollowers>8</singleFollowers>
+<couples>4</couples>
+<acceptedLeaders>6</acceptedLeaders>
+<acceptedFollowers>7</acceptedFollowers>
+<acceptedSingleLeaders>2</acceptedSingleLeaders>
+<acceptedSingleFollowers>3</acceptedSingleFollowers>
+<acceptedCouples>4</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="DVcqN7FvmSvhJmxhVAub1diD" itemId="4773">Helg & Intensivkurser</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="33" categoryId="category_47">Avancerad</level>
+<maxParticipants>80</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p><strong>Inneh&aring;ll &amp; Tr&auml;nare&nbsp;&nbsp;</strong></p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{72}" paraid="522318463">Daniel och Johanna har dansat WCS sedan 2014 respektive 2016.</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{72}" paraid="522318463">De &auml;r b&aring;da tv&aring; utbildade kursledare enligt Global Professional Dance Instructor Association (GPDIA). 2022/2023 utbildade de sig &auml;ven till domare i West Coast Swing och &auml;r nu examinerade domare inom Svenska Danssportf&ouml;rbundet (DSF).</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{72}" paraid="522318463">Till vardags arbetar de b&aring;da tv&aring; som l&auml;rare och har en gedigen pedagogisk utbildning, vilket de utnyttjar vid danskurserna. Daniel och Johanna tror p&aring; att hitta de sm&aring; f&ouml;r&auml;ndringar som g&ouml;r st&ouml;rst skillnad f&ouml;r kursdeltagarnas dans, och ge dem de verktyg de beh&ouml;ver f&ouml;r att kunna skapa musikaliskt tillsammans.</p> <p paraeid="{e715c2c9-435a-44a3-b1fe-7eff3de426f4}{72}" paraid="522318463">De &aring;ker regelbundet p&aring; internationella event f&ouml;r att utvecklas, b&aring;de som dansare och danspedagoger. De ser fram emot att ta just din dans till n&auml;sta niv&aring;.&nbsp;</p> <p paraeid="{549a9c35-007e-44d6-b77f-02f68ce30b3a}{180}" paraid="1074798286"><strong>Tema&nbsp;</strong><br /> Vi kommer ha en kursdag fokuserad p&aring; teknik och hur vi kan utnyttja tekniken n&auml;r vi dansar till olika musik. Kursen kommer vara givande b&aring;de f&ouml;r dig som &auml;r inriktad p&aring; att t&auml;vla i West Coast, men den kommer &auml;ven vara v&auml;ldigt nyttig f&ouml;r dig som vill fokusera mer p&aring; att utveckla din f&ouml;rm&aring;ga att socialdansa. Under dagen kommer vi arbeta med solo&ouml;vningar, linj&auml;r/cirkul&auml;r f&ouml;rning/f&ouml;ljning, footwork och hur vi dansar till olika typer av musik. Vi ses i &Ouml;rebro i november!&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{110}" paraid="589732501"><strong>F&ouml;rkunskaper&nbsp;</strong><br /> Du ska ha g&aring;tt kurs i WCS p&aring; <strong>minst steg 3</strong>, samt g&auml;rna socialdansat mycket och deltagit p&aring; WCS events. Observera att detta &auml;r f&ouml;r att alla deltagare ska kunna f&aring; ut mesta m&ouml;jliga av inneh&aring;llet p&aring; kursen.&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{124}" paraid="609913539"><strong>Schema &nbsp;</strong><br /> Tr&auml;ning 13:00 - 17:45, med 45 min paus.&nbsp;<br /> Och WCS socialdanskv&auml;ll.&nbsp;<br /> Det finns m&ouml;jlighet att boka privatlektioner tidigare p&aring; dagen.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527"><strong>Pris &nbsp;</strong><br /> Medlemmar 2025 i Rockrullarna: 450kr &nbsp;<br /> &Ouml;vriga: 600kr (d&aring; medlemsskap p&aring; 150kr kr&auml;vs)&nbsp;<br /> Entr&eacute;avgift till efterf&ouml;ljande danskv&auml;ll ing&aring;r.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">Det finns m&ouml;jlighet att boka privatlektioner i anslutning till tr&auml;ningen &ndash; h&ouml;r av er till Johanna eller Daniel p&aring; messenger f&ouml;r bokning. Stora salen &auml;r reserverad f&ouml;r privatlektioner under dagen, det finns &auml;ven m&ouml;jlighet att boka lilla salen efter tr&auml;ningen, p&aring; egen hand via rockrullarnas hemsida.&nbsp;&nbsp;</p> <p><strong>OBS! </strong>Anm&auml;lan &auml;r bindande vilket inneb&auml;r att kursavgiften endast kan &aring;terf&aring;s vid uppvisande av l&auml;karintyg pga av sjukdom.</p> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska</li> <li>Anv&auml;nd dansskor eller inomhusskor som inte har svart sula/ger svarta m&auml;rken p&aring; v&aring;rt dansgolv</li> <li>Anv&auml;nd o&ouml;mma kl&auml;der. En extra tr&ouml;ja kan vara bra, v&aring;r lokal ligger i k&auml;llaren och upplevs ibland som varm,&nbsp;ibland&nbsp;som&nbsp;kylig</li> <li>Anv&auml;nd inte starka parfymer eller andra dofter, t&auml;nk p&aring; de du dansar med</li> <li>Kom ih&aring;g att l&auml;gga i 3-timmars P-skiva, samt fr&aring;ga om Aimo-park app-koden f&ouml;r att f&aring; betala 10kr f&ouml;r parkeringen under hela dagen och slippa justera P-skivan var 3e timma.</li> </ul> <p>&nbsp;</p> <p>V&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="R1vv9SXruWjsTFWsBrn09wuE" id="event_261949" eventId="261949" eventCode="HT25-12-13-WCS-SofieOchJesper" eventTypeNumber="2">
+<uid>261949.event@cogwork.se</uid>
+<source>https://dans.se/event/261949</source>
+<title>West Coast Swing - 13/12 - Avancerad nivå & tävlingsträning - med Sofie & Jesper</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-10-06 23:14:18</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>4510</sorting>
+<pricing>
+<base currency="SEK">450</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-10-07 18:00:00</startShowing>
+<startDirectReg>2025-10-07 18:00:00</startDirectReg>
+<startLateReg>2025-12-13 01:00:00</startLateReg>
+<closeReg>2025-12-14 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="DIRECT" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=261949</url>
+<statusName>Direkt</statusName>
+<statusText>Direktanmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-12-13</startDate>
+<startTime>13:00:00</startTime>
+<endDate dayOfWeek="6">2025-12-13</endDate>
+<endTime>17:45:00</endTime>
+<dayAndTime>Lör 13.00-17.45</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-12-13 13:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-12-13 17:45:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<accepted>9</accepted>
+<inQueue>5</inQueue>
+<leaders>4</leaders>
+<followers>10</followers>
+<singleLeaders>1</singleLeaders>
+<singleFollowers>7</singleFollowers>
+<couples>3</couples>
+<acceptedLeaders>4</acceptedLeaders>
+<acceptedFollowers>5</acceptedFollowers>
+<acceptedSingleLeaders>1</acceptedSingleLeaders>
+<acceptedSingleFollowers>2</acceptedSingleFollowers>
+<acceptedCouples>3</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="DVcqN7FvmSvhJmxhVAub1diD" itemId="4773">Helg & Intensivkurser</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="33" categoryId="category_47">Avancerad</level>
+<maxParticipants>80</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p><b>West Coast Swing - Avancerad niv&aring; - med Jesper och Sofie</b></p> <p><b>F&ouml;rkunskaper:</b></p> <p>Du ska ha g&aring;tt kurs i WCS p&aring;<b>&nbsp;minst steg 3</b>, samt g&auml;rna socialdansat WCS mycket och&nbsp;deltagit p&aring; WCS events. Observera att detta &auml;r f&ouml;r att alla deltagare ska kunna f&aring; ut mesta&nbsp;m&ouml;jliga av inneh&aring;llet p&aring; kursen.&nbsp;</p> <p>&nbsp;</p> <p><b>Titel:</b>&nbsp;Move &amp; Groove &nbsp;</p> <p><b>Kursbeskrivning:&nbsp;</b>I kursen kommer vi utforska hur f&ouml;rare och f&ouml;ljare kan kommunicera med&nbsp;varandra och musiken. Vi tr&auml;nar p&aring; att lyssna, svara och bygga dansen ihop &ndash; som ett&nbsp;gemensamt system snarare &auml;n tv&aring; enskilda dansare. Fokus ligger p&aring; musikalitet, samspel och&nbsp;k&auml;nslan av att verkligen dansa tillsammans.&nbsp;</p> <p paraeid="{41c48b99-4d53-4ca9-80d8-7051fdd0f25c}{127}" paraid="1825330936"><strong>Om instrukt&ouml;rerna &amp; inneh&aring;ll&nbsp;</strong></p> <p>Sofie Peilitz b&ouml;rjade sin dansresa n&auml;r hon blev tipsad av sina f&ouml;r&auml;ldrar om West Coast Swing&nbsp;- och hittade helt r&auml;tt. &nbsp;</p> <p>Sofie har en bakgrund inom musik och ser dansen som en naturlig f&ouml;rl&auml;ngning av musiken.&nbsp;Hon &auml;lskar hur West Coast ger stor frihet att uttrycka sig och g&aring;r att anpassa till niv&aring;, f&ouml;r att&nbsp;skapa dansgl&auml;dje f&ouml;r s&aring; m&aring;nga!&nbsp;</p> <p>Genom en kombination av intresse f&ouml;r uttryck genom dans, musik och lekfullhet vill hon&nbsp;sprida och dela dansgl&auml;djen med andra!</p> <p>Jesper Petersson har dansat West Coast Swing sedan barndomen och &auml;r Sveriges yngsta&nbsp;avancerade dansare. Han har &auml;ven dansat Bugg, andra swingdanser och hiphop sedan han var&nbsp;liten.&nbsp;</p> <p>Uppvuxen i Sk&aring;ne, d&auml;r han l&auml;rde sig dansa, har Jesper ocks&aring; undervisat i m&aring;nga &aring;r. Nu bor&nbsp;han i G&ouml;teborg d&auml;r han forts&auml;tter att dansa och undervisa. Jespers stil &auml;r lekfull och f&ouml;r honom&nbsp;&auml;r dansgl&auml;djen v&auml;ldigt viktig.</p> <p><br /> <b>Schema:</b>&nbsp;kl 13.00-17.45, inklusive 45min paus, uppdelat i 10 min-25 min-10 min. Socialdans&nbsp;efter&aring;t fr&aring;n kl 18.30.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527"><strong>Pris &nbsp;</strong><br /> Medlemmar 2025 i Rockrullarna: 450kr &nbsp;<br /> &Ouml;vriga: 600kr (d&aring; medlemsskap p&aring; 150kr kr&auml;vs)&nbsp;<br /> Entr&eacute;avgift till efterf&ouml;ljande danskv&auml;ll ing&aring;r.</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527">&nbsp;</p> <p paraeid="{991c8073-a9ad-491f-9705-aa175abaed9a}{138}" paraid="2121010527"><strong>OBS! </strong>Anm&auml;lan &auml;r bindande vilket inneb&auml;r att kursavgiften endast kan &aring;terf&aring;s vid uppvisande av l&auml;karintyg pga av sjukdom.</p> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska</li> <li>Anv&auml;nd dansskor eller inomhusskor som inte har svart sula/ger svarta m&auml;rken p&aring; v&aring;rt dansgolv</li> <li>Anv&auml;nd o&ouml;mma kl&auml;der. En extra tr&ouml;ja kan vara bra, v&aring;r lokal ligger i k&auml;llaren och upplevs ibland som varm,&nbsp;ibland&nbsp;som&nbsp;kylig</li> <li>Anv&auml;nd inte starka parfymer eller andra dofter, t&auml;nk p&aring; de du dansar med</li> <li>Kom ih&aring;g att l&auml;gga i 3-timmars P-skiva, samt fr&aring;ga om Aimo-park app-koden f&ouml;r att f&aring; betala 10kr f&ouml;r parkeringen under hela dagen och slippa justera P-skivan var 3e timma.</li> </ul> <p>&nbsp;</p> <p>V&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="S9ii8iIR8aUcoSPn8tzYxiQW" id="event_259124" eventId="259124" eventCode="HT25-11-01-WS-SLOWBUGG" eventTypeNumber="2">
+<uid>259124.event@cogwork.se</uid>
+<source>https://dans.se/event/259124</source>
+<title>Slowbugg - Workshop med Pierre och Linn )</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2025-09-03 16:41:03</created>
+<author personId="person_143484">Thomas Modin</author>
+<category catId="8">Bugg</category>
+<place>Stora Salen</place>
+<pricing>
+<base currency="SEK">350</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-09-23 00:00:00</startShowing>
+<startDirectReg>2025-09-24 00:00:00</startDirectReg>
+<closeReg>2025-11-01 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="DIRECT" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=259124</url>
+<statusName>Direkt</statusName>
+<statusText>Direktanmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-11-01</startDate>
+<startTime>10:00:00</startTime>
+<endDate dayOfWeek="6">2025-11-01</endDate>
+<endTime>15:00:00</endTime>
+<dayAndTime>Lör 10.00-15.00</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-11-01 10:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-11-01 15:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<statistics>
+<accepted>50</accepted>
+<new>2</new>
+<withDrawn>2</withDrawn>
+<leaders>26</leaders>
+<followers>26</followers>
+<singleLeaders>1</singleLeaders>
+<singleFollowers>1</singleFollowers>
+<couples>25</couples>
+<acceptedLeaders>25</acceptedLeaders>
+<acceptedFollowers>25</acceptedFollowers>
+<acceptedSingleLeaders>1</acceptedSingleLeaders>
+<acceptedSingleFollowers>1</acceptedSingleFollowers>
+<acceptedCouples>24</acceptedCouples>
+</statistics>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="DVcqN7FvmSvhJmxhVAub1diD" itemId="4773">Helg & Intensivkurser</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<minAge>15</minAge>
+<level minValue="27" categoryId="category_8">Medelavancerad</level>
+</requirements>
+<longdescription>
+<![CDATA[ <p><strong>Workshop Slowbugg</strong></p> <p>Rockrullarna erbjuder en danskurs i slowbugg den 1 november 2025</p> <p>Kursen v&auml;nder sig till vana dansare som vill bredda sin repertoar och f&aring; verktyg f&ouml;r att dansa till musik med&nbsp;l&aring;ngsammare takt.</p> <p><strong>OBS!</strong> Paranm&auml;lan kr&auml;vs.</p> <hr /> <p><strong>Inneh&aring;ll</strong></p> <p>Slowbugg &auml;r en elegant och mjuk variant av traditionell bugg som anpassas till l&aring;ngsammare musik.<br /> Genom att kombinera buggens grundprinciper med mjukare r&ouml;relser och &ouml;kad f&ouml;ljsamhet blir dansen b&aring;de stilfull och behaglig.<br /> Slowbugg kan med f&ouml;rdel anv&auml;ndas som ett alternativ till exempelvis foxtrot&nbsp;i sociala danssammanhang, s&auml;rskilt n&auml;r musiken har ett l&aring;ngsammare tempo och&nbsp;en tydlig rytm.&nbsp;</p> <p>Fokus i kursen:</p> <ul> <li><strong>R&ouml;relser och teknik</strong> &ndash; F&ouml;rb&auml;ttra balans, f&ouml;ljsamhet och kroppskontroll f&ouml;r att skapa en smidig och flytande dans.</li> <li><strong>Taktbehandling </strong>&ndash; Anpassning av stegl&auml;ngd, fotarbete och r&ouml;relser till musikens tempo och karakt&auml;r.</li> <li><strong>Turer och variationer</strong> &ndash; L&auml;ra sig turer och kombinationer som passar specifikt f&ouml;r slowbugg.</li> </ul> <hr /> <p><strong>Tid</strong><br /> <br /> <strong>09:30&nbsp;- 09:50</strong>&nbsp;&ndash; Incheckning och kaffe<br /> <strong>10:00 - 15:00&nbsp;</strong>&ndash; Kurstid<br /> <strong>12:00 - 13:00</strong> &ndash; Lunch</p> <hr /> <p><strong>Instrukt&ouml;rer</strong></p> <p>Pierre Hagstr&ouml;m &amp; Linn Edlund</p> <hr /> <p><strong>Kursniv&aring;</strong></p> <p>F&ouml;r dansare som har g&aring;tt minst Bugg Steg 3 p&aring; Rockrullarna eller motsvarande p&aring;&nbsp;annan dansf&ouml;rening.</p> <hr /> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska.</li> <li>Anv&auml;nd&nbsp;inomhus-/dansskor som inte l&auml;mnar&nbsp;m&auml;rken p&aring;&nbsp;dansgolvet.</li> <li>Lokalen ligger i en k&auml;llare&nbsp;och upplevs ibland som varm och ibland som&nbsp;kylig.&nbsp;</li> <li>Anv&auml;nd inte parfym&nbsp;eller andra starka dofter.</li> <li>P-skiva (3 h) g&auml;ller p&aring; intilliggande parkering. <ul> <li>D&aring; kursen &auml;r l&auml;ngre &auml;n 3h beh&ouml;ver bilen flyttas ex. i samband med lunchen.</li> </ul> </li> <li>Fika ing&aring;r.</li> <li>Lunch ing&aring;r ej. <ul> <li>I f&ouml;reningens lokaler finns kyl och micro.</li> <li>I k&ouml;pcentret (Haga centrum) finns en resturang (pizzeria) samt en ICA&nbsp;med salladsbar m.m.</li> </ul> </li> </ul> <hr /> <p><strong>OBSERVERA!</strong><br /> -<b>&nbsp;</b>Kursavgiften &aring;terbetalas endast vid uppvisande av l&auml;karintyg.&nbsp;<br /> -&nbsp;Avanm&auml;lan och eventuella&nbsp;fr&aring;gor skickas till:&nbsp;<strong><em>kurser@rockrullarna.se</em></strong>.</p> ]]>
+</longdescription>
+</event>
+<event key="Nay01a6HJhoIsEo42BHoqn3k" id="event_253823" eventId="253823" eventCode="HT25-Bugg-tavlingstraning" eventTypeNumber="2">
+<uid>253823.event@cogwork.se</uid>
+<source>https://dans.se/event/253823</source>
+<title>Bugg Tävlingsträning (gratis för medlemmar)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-05-28 21:14:00</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="8">Bugg</category>
+<place>Haga Centrum</place>
+<sorting>2890</sorting>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=253823</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="2">2025-09-02</startDate>
+<startTime>19:00:00</startTime>
+<dayAndTime>Tis 19.00-20.00</dayAndTime>
+<occasions numberOfPlannedOccasions="12" numberOfScheduledOccasions="12" cardinality="12">
+<occasion>
+<startDateTime dayOfWeek="2">2025-09-09 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-09-09 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-09-16 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-09-16 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-09-23 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-09-23 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-09-30 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-09-30 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-07 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-07 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-14 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-14 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-21 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-21 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-10-28 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-10-28 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-04 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-04 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-11 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-11 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-18 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-18 20:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="2">2025-11-25 19:00:00</startDateTime>
+<endDateTime dayOfWeek="2">2025-11-25 20:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="gzQApBt0jToF4JBtcLQ1IbRW" itemId="7175">Fri träning</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<level minValue="30" categoryId="category_8">Medelavancerad - Avancerad</level>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Fritr&auml;ning s&auml;rskilt f&ouml;r T&auml;vlingsgruppen i Bugg</p> <p>se &auml;ven aktivitetskalendern.</p> <p>&nbsp;</p> <p>Pris:&nbsp;<strong>Gratis f&ouml;r alla v&aring;ra medlemmar (150kr i medlemsavgift per kalender&aring;r)</strong><br /> Medlemsskap kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="7qsheEHTEefmHgeJgsEjRHRV" id="event_253822" eventId="253822" eventCode="HT25-FriTraning-buggfox" eventTypeNumber="2">
+<uid>253822.event@cogwork.se</uid>
+<source>https://dans.se/event/253822</source>
+<title>Friträning Bugg & Fox (gratis för medlemmar)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-05-28 21:12:56</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="8">Bugg</category>
+<place>Haga Centrum</place>
+<sorting>2850</sorting>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=253822</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="7">2025-09-07</startDate>
+<startTime>15:00:00</startTime>
+<endDate dayOfWeek="7">2025-11-23</endDate>
+<endTime>16:00:00</endTime>
+<dayAndTime>Sön 15.00-16.00</dayAndTime>
+<occasions numberOfPlannedOccasions="12" numberOfScheduledOccasions="12" cardinality="12">
+<occasion>
+<startDateTime dayOfWeek="7">2025-09-07 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-09-07 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-09-14 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-09-14 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-09-21 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-09-21 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-09-28 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-09-28 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-10-05 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-10-05 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-10-12 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-10-12 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-10-19 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-10-19 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-10-26 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-10-26 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-11-02 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-11-02 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-11-09 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-11-09 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-11-16 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-11-16 16:00:00</endDateTime>
+</occasion>
+<occasion>
+<startDateTime dayOfWeek="7">2025-11-23 15:00:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-11-23 16:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="gzQApBt0jToF4JBtcLQ1IbRW" itemId="7175">Fri träning</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<level minValue="10" categoryId="category_8">Nybörjare +</level>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Fritr&auml;ning Bugg &amp; Fox</p> <p>Kom g&auml;rna tillsammans med en danspartner, d&aring; det oftast inte till&auml;mpas partnerbyte under Bugg fritr&auml;ningarna.<br /> Alternativt kommer du ned sj&auml;lv och &ouml;var spegeltr&auml;ning.<br /> <br /> <br /> <em><strong>Uppeh&aring;ll 29 september.</strong></em><br /> &nbsp;</p> <p>Pris:&nbsp;<strong>Gratis f&ouml;r alla v&aring;ra medlemmar (150kr i medlemsavgift per kalender&aring;r)</strong><br /> Medlemsskap kr&auml;vs</p> <p>&nbsp;</p> <p><strong>Att t&auml;nka p&aring; inf&ouml;r kursen</strong></p> <ul> <li>Ta med vattenflaska</li> <li>Anv&auml;nd dansskor eller inomhusskor som inte har svart sula/ger svarta m&auml;rken p&aring; v&aring;rt dansgolv</li> <li>Anv&auml;nd o&ouml;mma kl&auml;der. En extra tr&ouml;ja kan vara bra, v&aring;r lokal ligger i k&auml;llaren och upplevs ibland som varm,&nbsp;ibland&nbsp;som&nbsp;kylig</li> <li>Anv&auml;nd inte starka parfymer eller andra dofter, t&auml;nk p&aring; de du dansar med</li> <li>Kom ih&aring;g att l&auml;gga i P-skiva n&auml;r ni kommer till v&aring;r danslokal</li> </ul> <p>&nbsp;</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="nEa7dGmluKuPNgcD3vg5q7QB" id="event_259932" eventId="259932" eventCode="HT25-10-24-traningskvall-WCS" eventTypeNumber="2">
+<uid>259932.event@cogwork.se</uid>
+<source>https://dans.se/event/259932</source>
+<title>West Coast Swing träningskväll fre 24 oktober (gratis för medlemmar)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-11 20:02:01</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>1813</sorting>
+<registrationPeriods>
+<startShowing>2025-09-11 00:00:00</startShowing>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259932</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-10-24</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="5">2025-10-24</endDate>
+<endTime>21:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-10-24 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-10-24 21:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="gzQApBt0jToF4JBtcLQ1IbRW" itemId="7175">Fri träning</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>West Coast Swing tr&auml;ningskv&auml;ll<br />​<br /> <b>Entr&eacute;:</b><br /> <strong>Gratis&nbsp;</strong>f&ouml;r medlemmar.<br /> (150kr i medlemsavgift per kalender&aring;r)&nbsp;</p> <p>&nbsp;</p> <p><br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="BWriu9oDZ3HY9D0x6zvBpjmP" id="event_259934" eventId="259934" eventCode="HT25-11-21-traningskvall-WCS" eventTypeNumber="2">
+<uid>259934.event@cogwork.se</uid>
+<source>https://dans.se/event/259934</source>
+<title>West Coast Swing träningskväll fre 21 november (gratis för medlemmar)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-11 20:04:29</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>1813</sorting>
+<registrationPeriods>
+<startShowing>2025-09-11 00:00:00</startShowing>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259934</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-11-21</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="5">2025-11-21</endDate>
+<endTime>21:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-11-21 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-11-21 21:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="gzQApBt0jToF4JBtcLQ1IbRW" itemId="7175">Fri träning</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>West Coast Swing tr&auml;ningskv&auml;ll<br />​<br /> <b>Entr&eacute;:</b><br /> <strong>Gratis&nbsp;</strong>f&ouml;r medlemmar.<br /> (150kr i medlemsavgift per kalender&aring;r)&nbsp;</p> <p>&nbsp;</p> <p><br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="cimFYEveJOpThIfS9isLzU0a" id="event_259935" eventId="259935" eventCode="HT25-11-28-traningskvall-WCS" eventTypeNumber="2">
+<uid>259935.event@cogwork.se</uid>
+<source>https://dans.se/event/259935</source>
+<title>West Coast Swing träningskväll fre 28 november (gratis för medlemmar)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-11 20:05:33</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>1813</sorting>
+<registrationPeriods>
+<startShowing>2025-09-11 00:00:00</startShowing>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259935</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-11-28</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="5">2025-11-28</endDate>
+<endTime>21:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-11-28 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-11-28 21:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="gzQApBt0jToF4JBtcLQ1IbRW" itemId="7175">Fri träning</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>West Coast Swing tr&auml;ningskv&auml;ll<br />​<br /> <b>Entr&eacute;:</b><br /> <strong>Gratis&nbsp;</strong>f&ouml;r medlemmar.<br /> (150kr i medlemsavgift per kalender&aring;r)&nbsp;</p> <p>&nbsp;</p> <p><br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="jyXvOzay6KwsE0TBf6vNILYq" id="event_254781" eventId="254781" eventCode="HT25-10-26-sista-sondag-Traningskvall" eventTypeNumber="2">
+<uid>254781.event@cogwork.se</uid>
+<source>https://dans.se/event/254781</source>
+<title>Träningskväll sista söndagen i månaden, 26 oktober (Gratis - Men medlemsskap 2025 krävs)</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-06-07 18:57:46</created>
+<author personId="person_143484">Thomas Modin</author>
+<category catId="55">Fest</category>
+<place>Stora Salen</place>
+<sorting>1880</sorting>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=254781</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="7">2025-10-26</startDate>
+<startTime>19:15:00</startTime>
+<endDate dayOfWeek="7">2025-10-26</endDate>
+<endTime>21:00:00</endTime>
+<dayAndTime>Sön 19.15-21.00</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="7">2025-10-26 19:15:00</startDateTime>
+<endDateTime dayOfWeek="7">2025-10-26 21:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_55">Fest</category>
+</categories>
+<requirements>
+<level minValue="9" categoryId="category_55">Nybörjare</level>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Tr&auml;ningskv&auml;ll p&aring; Rockrullarna <strong>f&ouml;r v&aring;ra medlemmar, </strong>sista s&ouml;ndagen i m&aring;naden under terminerna.&nbsp;<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.&nbsp;<br /> &nbsp;</p> <p>Vi dansar till ca 21:00, eller n&aring;got l&auml;ngre om flera, inklusive tr&auml;nare, vill stanna kvar l&auml;ngre.&nbsp;<br /> <br /> <strong>Pris</strong><br /> <strong>Gratis f&ouml;r alla v&aring;ra medlemmar</strong> (150kr i medlemsavgift per kalender&aring;r).</p> <p>V&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="wdblXjQFTp6ERvCx8ykA2p0l" id="event_257542" eventId="257542" eventCode="HT25-11-07-Socialdans-Fox" eventTypeNumber="2">
+<uid>257542.event@cogwork.se</uid>
+<source>https://dans.se/event/257542</source>
+<title>Fox socialdanskväll 7 november</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-08-07 09:37:46</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="207">Fox</category>
+<place>Stora Salen</place>
+<sorting>1840</sorting>
+<pricing>
+<base currency="SEK">80</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-11-08 00:00:00</startLateReg>
+<closeReg>2025-11-08 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=257542</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-11-07</startDate>
+<startTime>19:30:00</startTime>
+<endDate dayOfWeek="5">2025-11-07</endDate>
+<endTime>22:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-11-07 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-11-07 22:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_207">Fox</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Fox socialdanskv&auml;ll</p> <p>​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;<br /> <br /> Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Kom och njut av en fantastisk kv&auml;ll p&aring; dansgolvet.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="VYevj0mAXn8ZrGMh3fK1r2Lm" id="event_257543" eventId="257543" eventCode="HT25-12-05-Socialdans-Fox" eventTypeNumber="2">
+<uid>257543.event@cogwork.se</uid>
+<source>https://dans.se/event/257543</source>
+<title>Fox socialdanskväll 5 december</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-08-07 09:40:37</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="207">Fox</category>
+<place>Stora Salen</place>
+<sorting>1840</sorting>
+<pricing>
+<base currency="SEK">80</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-12-06 00:00:00</startLateReg>
+<closeReg>2025-12-06 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=257543</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-12-05</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="5">2025-12-05</endDate>
+<endTime>22:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-12-05 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-12-05 22:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_207">Fox</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Fox socialdanskv&auml;ll</p> <p>​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;<br /> <br /> Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Kom och njut av en fantastisk kv&auml;ll p&aring; dansgolvet.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="ak7DThjxEpEtYH4qxTBJINCr" id="event_259122" eventId="259122" eventCode="HT25-10-31-Trivselkvall-bugg" eventTypeNumber="2">
+<uid>259122.event@cogwork.se</uid>
+<source>https://dans.se/event/259122</source>
+<title>Trivselkväll Bugg/fox 31 oktober</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-03 16:30:46</created>
+<author personId="person_143484">Thomas Modin</author>
+<category catId="8">Bugg</category>
+<place>Stora Salen</place>
+<sorting>1840</sorting>
+<pricing>
+<base currency="SEK">40</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259122</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-10-31</startDate>
+<startTime>19:30:00</startTime>
+<endDate dayOfWeek="5">2025-10-31</endDate>
+<endTime>22:30:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-10-31 19:30:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-10-31 22:30:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Trivselkv&auml;ll bugg/fox</p> <p>​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;<br /> <br /> Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Kom och njut av en fantastisk kv&auml;ll p&aring; dansgolvet.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="T0IoyY1fjz3KZ4tOqpglDz9a" id="event_259121" eventId="259121" eventCode="HT25-11-14-Trivselkvall-bugg" eventTypeNumber="2">
+<uid>259121.event@cogwork.se</uid>
+<source>https://dans.se/event/259121</source>
+<title>Trivselkväll Bugg/fox 14 november</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-03 16:28:30</created>
+<author personId="person_143484">Thomas Modin</author>
+<category catId="8">Bugg</category>
+<place>Stora Salen</place>
+<sorting>1840</sorting>
+<pricing>
+<base currency="SEK">40</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259121</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-11-14</startDate>
+<startTime>19:30:00</startTime>
+<endDate dayOfWeek="5">2025-11-14</endDate>
+<endTime>22:30:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-11-14 19:30:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-11-14 22:30:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Trivselkv&auml;ll bugg/fox</p> <p>​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;<br /> <br /> Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Kom och njut av en fantastisk kv&auml;ll p&aring; dansgolvet.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="7QQh68KAYdVRzRuaSA62XTwA" id="event_259123" eventId="259123" eventCode="HT25-12-12Trivselkvall-bugg" eventTypeNumber="2">
+<uid>259123.event@cogwork.se</uid>
+<source>https://dans.se/event/259123</source>
+<title>Trivselkväll Bugg/fox 12 december</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-09-03 16:32:04</created>
+<author personId="person_143484">Thomas Modin</author>
+<category catId="8">Bugg</category>
+<place>Stora Salen</place>
+<sorting>1840</sorting>
+<pricing>
+<base currency="SEK">40</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-05-11 00:00:00</startShowing>
+<startLateReg>2025-09-20 00:00:00</startLateReg>
+<closeReg>2025-10-04 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="CLOSED" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=259123</url>
+<statusName>Stängd</statusName>
+<statusText>Anmälan stängd</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="5">2025-12-12</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="5">2025-12-12</endDate>
+<endTime>22:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="5">2025-12-12 19:00:00</startDateTime>
+<endDateTime dayOfWeek="5">2025-12-12 22:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_8">Bugg</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>Trivselkv&auml;ll bugg/fox</p> <p>​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;<br /> <br /> Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Kom och njut av en fantastisk kv&auml;ll p&aring; dansgolvet.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="SbmIqI0Wuy6ugtSR5XzuF7xd" id="event_257544" eventId="257544" eventCode="HT25-10-25-Socialdans-WCS" eventTypeNumber="2">
+<uid>257544.event@cogwork.se</uid>
+<source>https://dans.se/event/257544</source>
+<title>West Coast Swing socialdanskväll lör 25 oktober</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-08-07 09:43:46</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>1813</sorting>
+<pricing>
+<base currency="SEK">80</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-07-29 00:00:00</startShowing>
+<closeReg>2025-10-26 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=257544</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-10-25</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="6">2025-10-25</endDate>
+<endTime>22:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-10-25 19:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-10-25 22:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>West Coast Swing Danskv&auml;ll<br />​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;</p> <p>&nbsp;</p> <p>Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.<br /> Kostnadsfri entr&eacute; om du deltagit p&aring; helgkursen tidigare samma dag.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="ZNvwoHYuP71jCPhaQLWEymML" id="event_257545" eventId="257545" eventCode="HT25-11-08-Socialdans-WCS" eventTypeNumber="2">
+<uid>257545.event@cogwork.se</uid>
+<source>https://dans.se/event/257545</source>
+<title>West Coast Swing socialdanskväll lör 8 november</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>info@rockrullarna.se</email>
+<created>2025-08-07 09:47:13</created>
+<author personId="person_291769">Jonas Arvidson</author>
+<category catId="47">West Coast Swing</category>
+<place>Stora Salen</place>
+<sorting>1813</sorting>
+<pricing>
+<base currency="SEK">80</base>
+</pricing>
+<registrationPeriods>
+<startShowing>2025-07-29 00:00:00</startShowing>
+<closeReg>2025-10-26 00:00:00</closeReg>
+<stopShowing>2025-12-31 00:00:00</stopShowing>
+</registrationPeriods>
+<registration status="ONLY_INFO" showing="Yes" open="No">
+<url>https://dans.se/rockrullarna/shop/new?event=257545</url>
+<statusName>Info</statusName>
+<statusText>Endast info</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2025-11-08</startDate>
+<startTime>19:00:00</startTime>
+<endDate dayOfWeek="6">2025-11-08</endDate>
+<endTime>22:00:00</endTime>
+<dayAndTime>Danskväll</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="1" cardinality="1">
+<occasion>
+<startDateTime dayOfWeek="6">2025-11-08 19:00:00</startDateTime>
+<endDateTime dayOfWeek="6">2025-11-08 22:00:00</endDateTime>
+</occasion>
+</occasions>
+</schedule>
+<eventBlock key="qJKyqgYQ0IrjxRTpfCywrk39" itemId="15947">Höstterminen 2025</eventBlock>
+<primaryEventGroup key="kHIKQ2pvBbDPZrSBF6beqprj" itemId="11376">Trivselkvällar</primaryEventGroup>
+<categories>
+<category categoryId="category_47">West Coast Swing</category>
+</categories>
+<requirements>
+<maxParticipants>150</maxParticipants>
+</requirements>
+<longdescription>
+<![CDATA[ <p>West Coast Swing Danskv&auml;ll<br />​<br /> <b>Entr&eacute;:</b><br /> <strong>40 kr&nbsp;</strong>f&ouml;r medlemmar.<br /> <strong>80</strong> <strong>kr</strong> f&ouml;r icke medlemmar (150kr i medlemsavgift per kalender&aring;r)&nbsp;</p> <p>&nbsp;</p> <p>Trivselkv&auml;llarnas entr&eacute; betalas p&aring; plats via Swish.<br /> Kostnadsfri entr&eacute; om du deltagit p&aring; helgkursen tidigare samma dag.</p> <p><br /> <strong>Fika ing&aring;r</strong>.<br /> Ingen f&ouml;ranm&auml;lan kr&auml;vs.</p> <p>Hj&auml;rtligt v&auml;lkomna!</p> ]]>
+</longdescription>
+</event>
+<event key="QoWyq0VFWbIbilb4ZHJb1wcr" id="event_24584" eventId="24584" eventCode="2015-01-31-rr-lag-sm-brr-orebro" eventTypeNumber="3">
+<uid>24584.event@cogwork.se</uid>
+<source>https://dans.se/event/24584</source>
+<title>Lag-SM BRR</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2014-09-08 15:34:49</created>
+<author personId="person_62718">Siv Karlsson</author>
+<category catId="1"/>
+<description>Idrottshuset Arenahallen.</description>
+<registrationPeriods>
+<startShowing>2014-12-31 00:00:00</startShowing>
+<startDirectReg>2014-12-31 00:00:00</startDirectReg>
+<startLateReg>2015-01-07 00:00:00</startLateReg>
+</registrationPeriods>
+<registration status="LATE" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=24584</url>
+<statusName>Efteranm.</statusName>
+<statusText>Efteranmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2015-01-31</startDate>
+<endDate dayOfWeek="6">2015-01-31</endDate>
+<dayAndTime>Lör</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="0" cardinality="1"> </occasions>
+</schedule>
+<categories>
+<category categoryId="category_1"/>
+</categories>
+</event>
+<event key="B8QyzSS28rC2kHtlCL7AosMy" id="event_24585" eventId="24585" eventCode="2015-01-31-rr-sm-tiodans-orebro" eventTypeNumber="3">
+<uid>24585.event@cogwork.se</uid>
+<source>https://dans.se/event/24585</source>
+<title>SM Tiodans</title>
+<organizer organisationId="org_118">Dansklubben Rockrullarna</organizer>
+<email>kurser@rockrullarna.se</email>
+<created>2014-09-08 15:36:10</created>
+<author personId="person_62718">Siv Karlsson</author>
+<category catId="1"/>
+<registrationPeriods>
+<startShowing>2014-12-31 00:00:00</startShowing>
+<startDirectReg>2014-12-31 00:00:00</startDirectReg>
+<startLateReg>2015-01-07 00:00:00</startLateReg>
+</registrationPeriods>
+<registration status="LATE" showing="Yes" open="Yes">
+<url>https://dans.se/rockrullarna/shop/new?event=24585</url>
+<statusName>Efteranm.</statusName>
+<statusText>Efteranmälan</statusText>
+</registration>
+<schedule>
+<startDate dayOfWeek="6">2015-01-31</startDate>
+<endDate dayOfWeek="6">2015-01-31</endDate>
+<dayAndTime>Lör</dayAndTime>
+<occasions numberOfPlannedOccasions="1" numberOfScheduledOccasions="0" cardinality="1"> </occasions>
+</schedule>
+<categories>
+<category categoryId="category_1"/>
+</categories>
+<longdescription>
+<![CDATA[ Idrottshuset Arenahallen. ]]>
+</longdescription>
+</event>
+</events>
+</cogwork>
