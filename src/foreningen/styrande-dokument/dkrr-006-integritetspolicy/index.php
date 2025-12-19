@@ -1,20 +1,26 @@
 <?php
-  $header_title = "Integritetspolicy - Styrande dokument - Föreningen";
+  $header_title = "DKRR-006 Integritetspolicy - Styrande dokument - Föreningen";
   $header_description = "Du ska kunna känna dig trygg med att vår ideella förening behandlar dina personuppgifter korrekt";
 
-  $page_updated = "2020-10-14 18:45";
-  $page_url = "/foreningen/styrande-dokument/integritetspolicy";
+  $page_updated = "2025-12-19 23:35";
+  $page_url = "/foreningen/styrande-dokument/dkrr-006-integritetspolicy";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>Integritetspolicy</span>
+      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-006 Integritetspolicy</span>
     </div>
     <h1>
-      Integritetspolicy - DK Rockrullarna
+      DKRR-006 Integritetspolicy - DK Rockrullarna
     </h1>
+    <p>
+      Öppna dokumentet i nytt fönster: <br />
+      <a href="../Verksamhetsbeskrivning/DKRR-006-Integritetspolicy_v1.0.pdf">
+        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
+      </a>
+    </p>
     <h2>Parter och ansvar för behandlingen av dina personuppgifter</h2>
     <p>Dansklubben Rockrullarna, 875001-4147, Vaktelvägen 2, 703 48 Örebro (nedan kallad föreningen) är personuppgiftsansvarig för behandlingen av personuppgifter som sker inom ramen för föreningens verksamhet.</p>
     <p>Föreningen har som ändamål att bedriva idrottslig verksamhet i enlighet med ”Idrottsrörelsens verksamhetsidé, vision och värdegrund”.</p>

@@ -1,8 +1,8 @@
-<?php
+﻿<?php
   $header_title = "Webbkarta";
   $header_description = "Webbkarta (sitemap) för webbsidan: rockrullarna.se";
 
-  $page_updated = "2025-04-22 19:27";
+  $page_updated = "2025-12-20 00:27";
   $page_url = "/webbkarta";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -53,12 +53,13 @@
             <li><a href="/foreningen/historia" title="Historia">Historia</a></li>
             <li class="dropdown"><a href="/foreningen/styrande-dokument" title="Styrande dokument">Styrande dokument</a>
               <ul>
-                <li><a href="/foreningen/styrande-dokument/verksamhetsbeskrivning" title="Verksamhetsbeskrivning">Verksamhetsbeskrivning</a></li>
-                <li><a href="/foreningen/styrande-dokument/stadgar" title="Stadgar">Stadgar</a></li>
-                <li><a href="/foreningen/styrande-dokument/blanketter" title="Blanketter">Blanketter</a></li>
-                <li><a href="/foreningen/styrande-dokument/integritetspolicy" title="Integritetspolicy">Integritetspolicy</a></li>
-                <li><a href="/foreningen/styrande-dokument/policy-mot-diskriminering" title="Policy mot diskriminering">Policy mot diskriminering</a></li>
-                <li><a href="/foreningen/styrande-dokument/arshjul" title="DKRR Årshjul">Årshjul</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning" title="DKRR-001 Verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">DKRR-002 Årshjul och arbetsprocesser</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning" title="DKRR-004 Organisation- och rollbeskrivning">DKRR-004 Organisation- och rollbeskrivning</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-005-integritetspolicy" title="DKRR-005 Integritetspolicy">DKRR-005 Integritetspolicy</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-006-policy-mot-diskriminering" title="DKRR-006 Policy mot diskriminering">DKRR-006 Policy mot diskriminering</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">DKRR-007 Blankett för ansökan om evenemang</a></li>
               </ul>
             </li>
             <li class="dropdown"><a href="/foreningen/Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>

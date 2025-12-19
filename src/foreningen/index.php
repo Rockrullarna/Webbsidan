@@ -12,7 +12,7 @@
     <div id="BreadCrumbsDiv">
       <a href="../">Rockrullarna.se</a> / <span>Föreningen</span>
     </div>
-    <h1>Rockrullarna - Din dansförening i Örebro!</h1> 
+    <h1>Rockrullarna - Din dansförening i Örebro!</h1>
     <h2>Varmt välkommen till Rockrullarna i Örebro!</h2>
     <p>
       Sedan 1983 är vi är en ideell dansförening som är till för alla med dans som intresse och som önskar träffa likasinnade människor där dans, musik, glädje, gemenskap, öppenhet och mångfald är viktiga hörnstenar och delar av vår danskultur!
