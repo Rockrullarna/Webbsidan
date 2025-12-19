@@ -1,25 +1,25 @@
 <?php
-  $header_title = "Stadgar - Styrande dokument - Föreningen";
+  $header_title = "DKRR-003 Stadgar - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förenings nuvarande stadgar";
 
-  $page_updated = "2025-03-29 17:00";
-  $page_url = "/foreningen/styrande-dokument/stadgar";
+  $page_updated = "2025-12-19 23:31";
+  $page_url = "/foreningen/styrande-dokument/dkrr-003-stadgar";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>Stadgar</span>
+      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-003 Stadgar</span>
     </div>
     <h1>
-      Stadgar - DK Rockrullarna
+      DKRR-003 Stadgar - DK Rockrullarna
     </h1>
-    <p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 14 juni 2020.</p>
+    <p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 29 mars 2025.</p>
     <p>
-      Öppna dokumentet i nytt fönster (se sidan 23 - Annex A - Stadgar): <br />
-      <a href="../Verksamhetsbeskrivning/DKRR-001-v1.0-Verksamhetsbeskrivning.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001-v1.0-Verksamhetsbeskrivning.pdf
+      Öppna dokumentet i nytt fönster: <br />
+      <a href="../Verksamhetsbeskrivning/DKRR-003-Stadgar_v1.1.pdf">
+        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-003-Stadgar_v1.1.pdf
       </a>
     </p>
     <style>

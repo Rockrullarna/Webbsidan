@@ -1,20 +1,26 @@
 <?php
-  $header_title = "Policy mot diskriminering - Styrande dokument - Föreningen";
+  $header_title = "DKRR-005 Policy mot diskriminering - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förening ska vara en trygg plats för alla! Därav ska INGEN kränkas eller särbehandlas";
 
-  $page_updated = "2020-10-14 19:05";
-  $page_url = "/foreningen/styrande-dokument/policy-mot-diskriminering";
+  $page_updated = "2025-12-19 23:33";
+  $page_url = "/foreningen/styrande-dokument/dkrr-005-policy-mot-diskriminering";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
     <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>Policy mot diskriminering</span>
+      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-005 Policy mot diskriminering</span>
     </div>
     <h1>
-      Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling
+      DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling
     </h1>
+    <p>
+      Öppna dokumentet i nytt fönster: <br />
+      <a href="../Verksamhetsbeskrivning/DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
+        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
+      </a>
+    </p>
     <h2>Syfte</h2>
     <p>Dansklubben Rockrullarna ska vara en plats där alla kan vara sig själva och känna sig trygga. Vi ska respektera varandra, våra olikheter och vara en förening som välkomnar alla.</p>
     <p>Syftet med denna policy är att för föreningens medlemmar informera om:</p>

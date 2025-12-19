@@ -2,7 +2,7 @@
   $header_title = "Logotyp (Grafisk profil)";
   $header_description = "Vår grafiska profil och alla våra loggor som kan användas";
 
-  $page_updated = "2025-08-27 21:28";
+  $page_updated = "2025-12-20 00:28";
   $page_url = "/logotyp";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -13,7 +13,7 @@
     <a href="../">Rockrullarna.se</a> / <span>Logotyp</span>
   </div>
   <h1>Rockrullarnas Logotyp (Grafisk profil)</h1>
-  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/foreningen/styrande-dokument/verksamhetsbeskrivning/">Avsnitt 16 i Verksamhetsbeskrivningen</a>).</p>
+  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning">Avsnitt 15 i DKRR-001 Verksamhetsbeskrivning</a>).</p>
   <p>Här kan du hämta ned vår logga, typsnitt och mallar för att skapa bilder till Facebook-evenemang och till andra evenemang.&nbsp;</p>
   <p>Direktlänk till denna sidan att dela:<br /><a href="/logotyp/">https://www.Rockrullarna.se/logotyp</a><em><br /></em></p>
   <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><a href="./format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_blank"><strong>Rockrullarna-bgSvart-frontRRbla.png</strong></a></p>

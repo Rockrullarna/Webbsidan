@@ -10,13 +10,13 @@
 
   // Kontrollera om läsningen lyckades
   if ($versionContent === false) {
-    // Misslyckades att läsa innehållet från version.txt, 
+    // Misslyckades att läsa innehållet från version.txt,
     // skriver ut en hårdkodad version från nu när denna automatiska inläsning lades till
     $page_updated = "2025-08-26 17:26";
   } else {
     // Skriver ut datum och tid från version.txt
     $versionString = $versionContent;
-    
+
     // Extrahera datum och tid från strängen
     preg_match('/\d{8}\.\d{4}/', $versionString, $matches);
 
@@ -30,7 +30,7 @@
 
       $page_updated = $formattedDateTime; // "2025-03-30 20:38"
     } else {
-      // Visar datum/tid för senaste version v12.18.20250329 
+      // Visar datum/tid för senaste version v12.18.20250329
       // om det inte går att läsa innehållet från version.txt
       $page_updated = "2025-08-26 17:26";
     }
@@ -48,7 +48,7 @@
         <div class="col-12 col-lg-7">
           <h1 id="hero-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h1>
           <p class="lead">
-            Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är 
+            Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är
             <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
             <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><strong>Fox</strong></a> och
             <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
@@ -78,7 +78,7 @@
         <p class="mb-3">
           Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
         </p>
-        <p class="mb-4">  
+        <p class="mb-4">
           <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig till danskurs</a>
           <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
         </p>
@@ -127,10 +127,10 @@
           Kommande aktiviteter
         </h2>
         <p>
-          Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender">Aktivitetskalendern</a>. 
+          Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender">Aktivitetskalendern</a>.
         </p>
         <p>
-          Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan: 
+          Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan:
           <br />
           <strong>
             <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>

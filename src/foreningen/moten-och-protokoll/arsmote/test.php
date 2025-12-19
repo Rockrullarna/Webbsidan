@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2025-03-30 19:51";
+  $page_updated = "2025-12-20 00:17";
   $page_url = "/foreningen/moten-och-protokoll/arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -17,7 +17,7 @@
     </h1>
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
     <p>Anmälan till årsmötet görs via sidan <a href="/danskurser/anmalan-danskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
-    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/styrande-dokument/verksamhetsbeskrivning/" title="Verksamhetsbeskrivningen">Verksamhetsbeskrivningen</a> - Annex A (<a href="/foreningen/styrande-dokument/stadgar/" title="Stadgarna">Stadgarna</a>).</p>
+    <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a>.</p>
     <p>&nbsp;</p>
     <h2>Årsmötet 2025</h2>
     <p>Anmälan till årsmötet 2025 gör du här: <a href="https://dans.se/rockrullarna/shop/new?event=244368&info=1&lang=sv" title="Anmälningsformulär till årsmötet 2025 (öppnas i nytt fönster)" target="_blank">Anmälningsformulär till årsmötet 2025</a>.</p>
