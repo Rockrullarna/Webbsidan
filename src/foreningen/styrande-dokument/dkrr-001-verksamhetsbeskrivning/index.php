@@ -19,9 +19,9 @@
     <p>Verksamhetsbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
     <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
     <p>Öppna dokumentet i nytt fönster: <br />
-      <a href="DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001 Verksamhetsbeskrivning_v2.0.pdf</a><br />
+      <a href="../DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001 Verksamhetsbeskrivning_v2.0.pdf</a><br />
       Eller läs det här nedan.</p>
-    <iframe src="DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"  style="width: 98%; min-width: 320px; height: 600px"></iframe>
+    <iframe src="../DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"  style="width: 98%; min-width: 320px; height: 600px"></iframe>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

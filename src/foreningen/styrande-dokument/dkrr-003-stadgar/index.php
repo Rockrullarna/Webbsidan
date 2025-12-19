@@ -18,7 +18,7 @@
     <p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 29 mars 2025.</p>
     <p>
       Öppna dokumentet i nytt fönster: <br />
-      <a href="../Verksamhetsbeskrivning/DKRR-003-Stadgar_v1.1.pdf">
+      <a href="../DKRR-003-Stadgar_v1.1.pdf">
         <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-003-Stadgar_v1.1.pdf
       </a>
     </p>

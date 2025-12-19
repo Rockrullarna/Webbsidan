@@ -28,7 +28,7 @@
       </tr>
       <tr class='GalleryTableRowOdd'>
           <td colspan="2" class="GalleryTableCellIcon">
-              <span class="title"><a href="DKRR-007-Blankett_for_ansokan_om_evenemang_v1.0.pdf" target="_blank" rel="gallery">
+              <span class="title"><a href="../DKRR-007-Blankett_for_ansokan_om_evenemang_v1.0.pdf" target="_blank" rel="gallery">
                 <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" />
                 DKRR-007-Blankett_för_ansökan_om_evenemang_v1.0.pdf
                 </a></span>

@@ -17,7 +17,7 @@
     </h1>
     <p>
       Öppna dokumentet i nytt fönster: <br />
-      <a href="../Verksamhetsbeskrivning/DKRR-006-Integritetspolicy_v1.0.pdf">
+      <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
         <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
       </a>
     </p>
