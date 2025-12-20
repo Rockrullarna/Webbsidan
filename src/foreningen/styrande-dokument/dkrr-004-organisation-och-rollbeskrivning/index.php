@@ -39,6 +39,12 @@
       h3.section {
         font-weight: bold;
       }
+      h5 {
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+      }
       table.org-table {
         border-collapse: collapse;
         width: 100%;
@@ -366,9 +372,9 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-1"></a>4.1.1 Firmatecknare</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Föreningens firmatecknare är huvudansvarig att, vid behov, skriva under olika typer av kontrakt och avtal i föreningens namn. Exempelvis kan detta handla om att skriva under hyresavtal, bidragsansökan samt hantera föreningens bankärenden. Det är styrelsens uppgift att utse föreningens firmatecknare och är en roll som ska delges någon lämplig person inom styrelsen. Som firmatecknare arbetar du tätt med styrelsen och har ingen rätt att fatta egna beslut utan styrelsens godkännande.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Företräda föreningen juridiskt.</li>
       <li>Skriva under avtal och kontrakt i föreningens namn, t.ex. lokaler, samarbetspartners och leverantörer.</li>
@@ -376,17 +382,17 @@
       <li>Öppna och hantera bankkonton, skriva under transaktioner och ha tillgång till föreningens ekonomi.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Grundläggande utbildning i styrelsearbete.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-2"></a>4.1.2 Ordförande</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Ordförande är föreningens huvudrepresentant och ansvarar för att leda styrelsens arbete. Uppgifter som ingår i rollen är bland annat att säkerställa att föreningens verksamhet bedrivs enligt stadgar, beslut och lagar, att sammankalla och leda styrelsemöten och att delegera och följa upp arbetsuppgifter.</p>
     <p>Ordförande ansvarar även för granskning och inregistrering av registerutdrag för tränare/assistenter/hjälpdansare samt att registerutdraget hanteras på ett korrekt sätt. Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Huvudrepresentant för föreningen.</li>
       <li>Leder styrelsens arbete, fördelar arbetsuppgifter och sammankallar till styrelsemöten.</li>
@@ -396,7 +402,7 @@
       <li>Granskar och genomför inregistrering av registerkontroller (idrott online).</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Utbildning idrott online.</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
@@ -405,14 +411,14 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-3"></a>4.1.3 Vice ordförande</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Vice ordförande har till uppdrag att ta över ordföranderollen vid ordförandens frånvaro. Vice ordförande arbetar tätt tillsammans med ordförande för att med kort varsel kunna ta över rollen vid behov.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Stödja ordförandens arbete och träda in som ersättare vid ordförandens frånvaro.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Utbildning idrott online.</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
@@ -421,15 +427,15 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-4"></a>4.1.4 Ledamot</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Ledamot har till uppdrag att arbeta för föreningens bästa utifrån ett helhetsperspektiv. Rollen kräver god kännedom om verksamhetens alla områden och ansvarar för att bevaka medlemmars intresse/synpunkter/förslag och tala för dem i styrelsen.</p>
     <p>Ledamot förväntas delta på samtliga styrelsemöten (ca 10 st per år) och att arbeta med styrelserelaterade aktiviteter i enlighet med föreningens årshjul samt behovsstyrda aktiviteter. Ledamotens deltagande på styrelsemöten är viktigt då minst fyra [4] ledamöter krävs för att styrelsen ska kunna fatta beslut.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Aktivt deltagande i styrelsearbetet.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
@@ -437,14 +443,14 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-5"></a>4.1.5 Suppleant</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Suppleantens uppdrag är att ersätta ordinarie ledamot vid frånvaro. Suppleanten har då samma funktion/ansvar som en ordinarie ledamot. Om en ledamot avgår från styrelsen kan en suppleant permanent ersätta ledamoten fram till nästa årsmöte.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Ersätta ordinarie ledamot vid frånvaro.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
@@ -452,14 +458,14 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-6"></a>4.1.6 Sekreterare</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Sekreteraren ansvar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Ansvarar för att protokollföra möten samt att arkivera och offentlighetgöra fastställda protokoll.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
@@ -467,9 +473,9 @@
     <p>&nbsp;</p>
 
     <h4><a id="kap4-1-7"></a>4.1.7 Kassör</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Kassören har ansvar att förvalta föreningens ekonomiska tillgångar. Inom rollen ingår bland annat budgetarbete, registrering av medlemsavgifter, betalning av fakturor, bokföring och bokslut. Uppdraget inkluderar även granskning för att säkerställa att föreningens medlemmar behandlar föreningens ekonomi enligt styrelsens beslut.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Huvudansvar för föreningens ekonomi och bokföring.</li>
       <li>Upprätta budget och följa upp ekonomiska resultat.</li>
@@ -478,7 +484,7 @@
       <li>Se till att föreningen följer skatte- och redovisningsregler.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Ha grundläggande kunskaper i ekonomi, bokföring och föreningsverksamhet.</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
@@ -488,25 +494,25 @@
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
     <h4><a id="kap4-2-1"></a>4.2.1 Ordförande</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Valberedningens ordförande är huvudansvarig för valberedningens arbete. Ordförande sammankallar och leder möten, ser till att dagordningen följs och att alla ledamöter får komma till tals i olika frågor.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Har övergripande ansvar för valberedningens arbete.</li>
       <li>Kallar till och leder valberedningens möten.</li>
       <li>Ser till att arbetet följer föreningens stadgar och tidsramar inför årsmötet.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h4><a id="kap4-2-2"></a>4.2.2 Ledamot</h4>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Som ledamot har du en avgörande roll i att säkerställa en kompetent, engagerad och balanserad styrelse som kan leda föreningen på bästa sätt. Arbetet är strategiskt och bör präglas av objektivitet, långsiktighet och medlemsnytta.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Identifiera vilka styrelseposter som blir vakanta och vilka som står inför omval.</li>
       <li>Föra dialog med nuvarande styrelseledamöter om deras vilja att fortsätta.</li>
@@ -519,17 +525,17 @@
       <li>Vara tillgänglig på årsmötet för att presentera och motivera valberedningens förslag.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-3"></a>4.3 Revisor</h3>
-    <p><strong>Uppdragsbeskrivning</strong></p>
+    <h5>Uppdragsbeskrivning</h5>
     <p>Revisorernas ansvar är att granska föreningens årsredovisning, bokföring (räkenskaps-revision), föreningsledningens förvaltning (förvaltningsrevision) och lämna ett utlåtande om granskningsutfallet på föreningens årsmöte.</p>
     <p>Revisorerna har rapporteringsskyldighet till olika intressenter vid speciella omständigheter. Om revisorerna finner misstankar om brott inom verksamheten t.ex. förskingring, bokföringsbrott, mutbrott eller skattebrott, ska revisorerna anmäla misstanken och grunden för detta till åklagare.</p>
-    <p><strong>Huvudsakliga uppgifter</strong></p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li><strong>Ekonomisk granskning:</strong> Gå igenom bokföringen, verifikationer och årsredovisning för att kontrollera att räkenskaperna är korrekta och följer bokföringslagen. Säkerställa att inkomster och utgifter är väl dokumenterade och att föreningens medel hanteras på ett ansvarsfullt sätt. Kontrollera att budgeten har följts och att eventuella avvikelser har motiverats.</li>
       <li><strong>Förvaltningsrevision:</strong> Granska om styrelsens beslut och agerande är i linje med stadgarna, årsmötets beslut och föreningens syfte. Bedöma om styrelsen har skött sitt uppdrag på ett effektivt, öppet och rättvist sätt. Uppmärksamma eventuella risker, oegentligheter eller brister i rutiner och föreslå förbättringar.</li>
@@ -537,7 +543,7 @@
       <li><strong>Oberoende:</strong> Revisorer väljs av årsmötet och är fristående från styrelsen. Revisorerna ska inte ha någon aktiv roll i styrelsens arbete eller beslutsfattande under verksamhetsåret. De måste agera opartiskt och med integritet i sin granskning.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <p><strong>Kunskapskrav</strong></p>
+    <h5>Kunskapskrav</h5>
     <ul>
       <li>Grundläggande kunskaper i ekonomi, bokföring och föreningsverksamhet.</li>
     </ul>
@@ -556,7 +562,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <p><strong>Rollerna inom danskommittéer inkluderar:</strong></p>
+    <h5>Rollerna inom danskommittéer inkluderar</h5>
     <ul>
       <li><strong>Danskommittéansvarig:</strong> Huvudrepresentant och kommunikationslänk mellan styrelse och danskommittén. Leder och samordnar danskommitténs arbete, skapar förslag till kursscheman, ansvarar för danskommitténs ekonomi/kassa och utvärderar kursutvärderingar.</li>
       <li><strong>Tränare- och utbildningsansvarig:</strong> Säkerställer att det finns tränare till föreningens kurser och att de har rätt utbildning. Håller koll på utbildningsstatus och registerutdrag för tränare och assistenter.</li>
@@ -574,8 +580,8 @@
 
     <h3 class="section"><a id="kap4-5"></a>4.5 Ungdomskommitté</h3>
     <p>Ungdomskommittén arbetar för att väcka dansintresse hos ungdomar och öka engagemanget bland ungdomar i föreningen.</p>
-    <p><strong>Ekonomiskt ansvar:</strong> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
-    <p><strong>Roller inkluderar:</strong></p>
+    <h5>Ekonomiskt ansvar</h5><p> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
+    <h5>Roller inkluderar</h5>
     <ul>
       <li><strong>Ungdomskommittéansvarig:</strong> Huvudrepresentant och kommunikationslänk mellan styrelse och ungdomskommittén. Leder och samordnar ungdomskommittén arbete och ansvarar för ungdomskommittén ekonomi/kassa.</li>
       <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar aktiviteter för ungdomar som temakvällar, socialdanser och prova-på-tillfällen. Främjar ungas delaktighet och inflytande samt arbetar med ungdomars trygghet och välmående.</li>
@@ -584,7 +590,7 @@
 
     <h3 class="section"><a id="kap4-6"></a>4.6 Teknikkommitté</h3>
     <p>Teknikkommittén ansvarar för all teknisk utrustning inom dansföreningen och säkerställer att teknik som ljud/bild och IT-miljö (inkl. hemsida) är i fungerande skick och anpassade efter föreningens behov.</p>
-    <p><strong>Roller inkluderar:</strong></p>
+    <h5>Roller inkluderar</h5>
     <ul>
       <li><strong>Teknikkommittéansvarig:</strong> Huvudrepresentant och kontaktperson i teknikrelaterade frågor. Leder och samordnar teknikkommitténs arbete, säkerställer att tekniska åtgärder genomförs i tid och att budget tas fram för teknikanskaffning.</li>
       <li><strong>Genomförandegrupp:</strong> Säkerställer att föreningen har välfungerande teknik och IT-miljö. Ansvarar för drift och underhåll, ger stöd och felsöker tekniska problem, utvecklar och administrerar föreningens hemsida samt ger utbildning i föreningens teknik och IT-miljö.</li>
@@ -593,7 +599,7 @@
 
     <h3 class="section"><a id="kap4-7"></a>4.7 Festkommitté</h3>
     <p>Festkommittén ansvarar för att planera och genomföra sociala evenemang och fester på uppdrag av styrelsen och danskommittéerna. Festkommittén utgör en viktig del i att skapa en välkomnande och trivsam miljö för föreningens medlemmar.</p>
-    <p><strong>Roller inkluderar:</strong></p>
+    <h5>Roller inkluderar</h5>
     <ul>
       <li><strong>Festkommittéansvarig:</strong> Ansvarar för planering och genomförande av föreningens återkommande evenemang (medlemsmöte och årsmöte) samt av styrelsen och danskommittéernas övrigt utsedda evenemang. Ansvarar för lokalbokning, underhållning, mat, dukning/utsmyckning, återställning etc.</li>
       <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar föreningens evenemang, skapar trivsel och gemenskap genom ex. dekoration, musik, lekar, värdskap och andra inslag samt samarbetar med övriga kommittéer och roller inom föreningen.</li>
@@ -603,7 +609,7 @@
     <h3 class="section"><a id="kap4-8"></a>4.8 Föreningsgemensamma roller</h3>
     <p>Med föreningsgemensamma roller menas roller som varken ingår i styrelsen eller kommittéer men som är centrala och gemensamma för föreningen.</p>
     
-    <p><strong>Rollerna inkluderar:</strong></p>
+    <h5>Rollerna inkluderar</h5>
     <ul>
       <li><strong>Rollutbildningsansvarig:</strong> Säkerställer att alla rollinnehavare får nödvändig utbildning (omfattar ej utbildning av tränare/assistent/hjälpdansare). Kartlägger och dokumenterar utbildningsbehov samt planerar och samordnar utbildningstillfällen.</li>
       <li><strong>Bidragsansvarig:</strong> Ansöker om bidrag till föreningen (t.ex. LOK-stöd, Idrottslyftet, SISU). Säkerställer att underlag och ansökningar skickas in i tid och undersöker samt föreslår relevanta bidrag som föreningen kan ansöka om.</li>
