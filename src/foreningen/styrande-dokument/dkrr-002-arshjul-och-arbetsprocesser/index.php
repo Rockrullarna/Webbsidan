@@ -735,7 +735,7 @@
           <tr>
             <td>Festkommitté</td>
             <td>
-              Terminsavslutning med klubbmästerskap. Tävling anordnas av tävlingsguppen.<br/>
+              Terminsavslutning med klubbmästerskap. Tävling anordnas av tävlingsgruppen.<br/>
               Ev. genomförande av trivselkväll beroende på när terminsavslutning genomförs.
             </td>
           </tr>
