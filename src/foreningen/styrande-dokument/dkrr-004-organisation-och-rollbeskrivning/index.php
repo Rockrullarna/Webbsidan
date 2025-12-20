@@ -532,10 +532,10 @@
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-3"></a>4.3 Revisor</h3>
-    <h5>Uppdragsbeskrivning</h5>
+    <h4>Uppdragsbeskrivning</h4>
     <p>Revisorernas ansvar är att granska föreningens årsredovisning, bokföring (räkenskaps-revision), föreningsledningens förvaltning (förvaltningsrevision) och lämna ett utlåtande om granskningsutfallet på föreningens årsmöte.</p>
     <p>Revisorerna har rapporteringsskyldighet till olika intressenter vid speciella omständigheter. Om revisorerna finner misstankar om brott inom verksamheten t.ex. förskingring, bokföringsbrott, mutbrott eller skattebrott, ska revisorerna anmäla misstanken och grunden för detta till åklagare.</p>
-    <h5>Huvudsakliga uppgifter</h5>
+    <h4>Huvudsakliga uppgifter</h4>
     <ul>
       <li><strong>Ekonomisk granskning:</strong> Gå igenom bokföringen, verifikationer och årsredovisning för att kontrollera att räkenskaperna är korrekta och följer bokföringslagen. Säkerställa att inkomster och utgifter är väl dokumenterade och att föreningens medel hanteras på ett ansvarsfullt sätt. Kontrollera att budgeten har följts och att eventuella avvikelser har motiverats.</li>
       <li><strong>Förvaltningsrevision:</strong> Granska om styrelsens beslut och agerande är i linje med stadgarna, årsmötets beslut och föreningens syfte. Bedöma om styrelsen har skött sitt uppdrag på ett effektivt, öppet och rättvist sätt. Uppmärksamma eventuella risker, oegentligheter eller brister i rutiner och föreslå förbättringar.</li>
@@ -543,7 +543,7 @@
       <li><strong>Oberoende:</strong> Revisorer väljs av årsmötet och är fristående från styrelsen. Revisorerna ska inte ha någon aktiv roll i styrelsens arbete eller beslutsfattande under verksamhetsåret. De måste agera opartiskt och med integritet i sin granskning.</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
-    <h5>Kunskapskrav</h5>
+    <h4>Kunskapskrav</h4>
     <ul>
       <li>Grundläggande kunskaper i ekonomi, bokföring och föreningsverksamhet.</li>
     </ul>
@@ -580,8 +580,8 @@
 
     <h3 class="section"><a id="kap4-5"></a>4.5 Ungdomskommitté</h3>
     <p>Ungdomskommittén arbetar för att väcka dansintresse hos ungdomar och öka engagemanget bland ungdomar i föreningen.</p>
-    <h5>Ekonomiskt ansvar</h5><p> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
-    <h5>Roller inkluderar</h5>
+    <h4>Ekonomiskt ansvar</h4><p> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
+    <h4>Roller inkluderar</h4>
     <ul>
       <li><strong>Ungdomskommittéansvarig:</strong> Huvudrepresentant och kommunikationslänk mellan styrelse och ungdomskommittén. Leder och samordnar ungdomskommittén arbete och ansvarar för ungdomskommittén ekonomi/kassa.</li>
       <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar aktiviteter för ungdomar som temakvällar, socialdanser och prova-på-tillfällen. Främjar ungas delaktighet och inflytande samt arbetar med ungdomars trygghet och välmående.</li>
@@ -590,7 +590,7 @@
 
     <h3 class="section"><a id="kap4-6"></a>4.6 Teknikkommitté</h3>
     <p>Teknikkommittén ansvarar för all teknisk utrustning inom dansföreningen och säkerställer att teknik som ljud/bild och IT-miljö (inkl. hemsida) är i fungerande skick och anpassade efter föreningens behov.</p>
-    <h5>Roller inkluderar</h5>
+    <h4>Roller inkluderar</h4>
     <ul>
       <li><strong>Teknikkommittéansvarig:</strong> Huvudrepresentant och kontaktperson i teknikrelaterade frågor. Leder och samordnar teknikkommitténs arbete, säkerställer att tekniska åtgärder genomförs i tid och att budget tas fram för teknikanskaffning.</li>
       <li><strong>Genomförandegrupp:</strong> Säkerställer att föreningen har välfungerande teknik och IT-miljö. Ansvarar för drift och underhåll, ger stöd och felsöker tekniska problem, utvecklar och administrerar föreningens hemsida samt ger utbildning i föreningens teknik och IT-miljö.</li>
@@ -599,7 +599,7 @@
 
     <h3 class="section"><a id="kap4-7"></a>4.7 Festkommitté</h3>
     <p>Festkommittén ansvarar för att planera och genomföra sociala evenemang och fester på uppdrag av styrelsen och danskommittéerna. Festkommittén utgör en viktig del i att skapa en välkomnande och trivsam miljö för föreningens medlemmar.</p>
-    <h5>Roller inkluderar</h5>
+    <h4>Roller inkluderar</h4>
     <ul>
       <li><strong>Festkommittéansvarig:</strong> Ansvarar för planering och genomförande av föreningens återkommande evenemang (medlemsmöte och årsmöte) samt av styrelsen och danskommittéernas övrigt utsedda evenemang. Ansvarar för lokalbokning, underhållning, mat, dukning/utsmyckning, återställning etc.</li>
       <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar föreningens evenemang, skapar trivsel och gemenskap genom ex. dekoration, musik, lekar, värdskap och andra inslag samt samarbetar med övriga kommittéer och roller inom föreningen.</li>
@@ -609,7 +609,7 @@
     <h3 class="section"><a id="kap4-8"></a>4.8 Föreningsgemensamma roller</h3>
     <p>Med föreningsgemensamma roller menas roller som varken ingår i styrelsen eller kommittéer men som är centrala och gemensamma för föreningen.</p>
     
-    <h5>Rollerna inkluderar</h5>
+    <h4>Rollerna inkluderar</h4>
     <ul>
       <li><strong>Rollutbildningsansvarig:</strong> Säkerställer att alla rollinnehavare får nödvändig utbildning (omfattar ej utbildning av tränare/assistent/hjälpdansare). Kartlägger och dokumenterar utbildningsbehov samt planerar och samordnar utbildningstillfällen.</li>
       <li><strong>Bidragsansvarig:</strong> Ansöker om bidrag till föreningen (t.ex. LOK-stöd, Idrottslyftet, SISU). Säkerställer att underlag och ansökningar skickas in i tid och undersöker samt föreslår relevanta bidrag som föreningen kan ansöka om.</li>
