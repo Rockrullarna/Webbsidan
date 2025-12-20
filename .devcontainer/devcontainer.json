@@ -10,7 +10,7 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "echo 'Development environment ready! Run: php -S 0.0.0.0:8080 -t src'",
+  "postCreateCommand": "echo 'Development environment ready! Run: php -S 0.0.0.0:8080 -t /workspace/src'",
   "customizations": {
     "vscode": {
       "extensions": [
