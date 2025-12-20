@@ -71,7 +71,7 @@
       }
     </style>
     <div>
-    <h1><strong>Innehållsförteckning</strong></h1>
+    <h1>Innehållsförteckning</h1>
     </div>
     <div class="kapitel"><a href="#kap1">1 Inledning</a></div>
     <div class="section"><a href="#kap1-1">1.1 Bakgrund</a></div>
