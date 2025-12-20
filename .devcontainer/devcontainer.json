@@ -1,0 +1,26 @@
+{
+  "name": "Rockrullarna PHP Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Webbsidan",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "echo 'Development environment ready! Run: php -S 0.0.0.0:8080 -t src'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug"
+      ],
+      "settings": {
+        "php.validate.enable": true,
+        "php.suggest.basic": true
+      }
+    }
+  }
+}

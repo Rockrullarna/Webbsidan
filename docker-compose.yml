@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/var/www/html
+    command: php -S 0.0.0.0:8080
+    environment:
+      - PHP_CLI_SERVER_WORKERS=4
