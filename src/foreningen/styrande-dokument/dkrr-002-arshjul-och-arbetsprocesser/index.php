@@ -82,6 +82,44 @@
         color: #666;
         margin-bottom: 1em;
       }
+      .arshjul-toc {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 2em 0;
+      }
+      .arshjul-toc h3 {
+        margin-top: 0;
+        color: #e74c3c;
+        font-size: 1.1em;
+      }
+      .arshjul-toc ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }
+      .arshjul-toc li {
+        margin: 0;
+      }
+      .arshjul-toc a {
+        display: block;
+        padding: 8px 12px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.2s;
+      }
+      .arshjul-toc a:hover {
+        background-color: #e74c3c;
+        color: white;
+        border-color: #e74c3c;
+      }
     </style>
 
     <div class="arshjul-content">
@@ -124,7 +162,25 @@
       <h2>2 DKRR Årshjul - Aktiviteter</h2>
       <p>Följande avsnitt redovisar vilka aktiviteter som bör genomföras under respektive månad samt vilka roller som bär ansvar för genomförandet.</p>
 
-      <h3>2.1 Januari</h3>
+      <div class="arshjul-toc">
+        <h3>Innehållsförteckning - Hoppa till månad</h3>
+        <ul>
+          <li><a href="#januari">Januari</a></li>
+          <li><a href="#februari">Februari</a></li>
+          <li><a href="#mars">Mars</a></li>
+          <li><a href="#april">April</a></li>
+          <li><a href="#maj">Maj</a></li>
+          <li><a href="#juni">Juni</a></li>
+          <li><a href="#juli">Juli</a></li>
+          <li><a href="#augusti">Augusti</a></li>
+          <li><a href="#september">September</a></li>
+          <li><a href="#oktober">Oktober</a></li>
+          <li><a href="#november">November</a></li>
+          <li><a href="#december">December</a></li>
+        </ul>
+      </div>
+
+      <h3 id="januari">2.1 Januari</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -211,7 +267,7 @@
         </tbody>
       </table>
 
-      <h3>2.2 Februari</h3>
+      <h3 id="februari">2.2 Februari</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -277,7 +333,7 @@
         </tbody>
       </table>
 
-      <h3>2.3 Mars</h3>
+      <h3 id="mars">2.3 Mars</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -321,7 +377,7 @@
         </tbody>
       </table>
 
-      <h3>2.4 April</h3>
+      <h3 id="april">2.4 April</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -375,7 +431,7 @@
         </tbody>
       </table>
 
-      <h3>2.5 Maj</h3>
+      <h3 id="maj">2.5 Maj</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -435,7 +491,7 @@
         </tbody>
       </table>
 
-      <h3>2.6 Juni</h3>
+      <h3 id="juni">2.6 Juni</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -473,7 +529,7 @@
         </tbody>
       </table>
 
-      <h3>2.7 Juli</h3>
+      <h3 id="juli">2.7 Juli</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -493,7 +549,7 @@
         </tbody>
       </table>
 
-      <h3>2.8 Augusti</h3>
+      <h3 id="augusti">2.8 Augusti</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -565,7 +621,7 @@
         </tbody>
       </table>
 
-      <h3>2.9 September</h3>
+      <h3 id="september">2.9 September</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -609,7 +665,7 @@
         </tbody>
       </table>
 
-      <h3>2.10 Oktober</h3>
+      <h3 id="oktober">2.10 Oktober</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -661,7 +717,7 @@
         </tbody>
       </table>
 
-      <h3>2.11 November</h3>
+      <h3 id="november">2.11 November</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -715,7 +771,7 @@
         </tbody>
       </table>
 
-      <h3>2.12 December</h3>
+      <h3 id="december">2.12 December</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
