@@ -15,7 +15,9 @@
     <h1>
       DKRR-002 Årshjul och arbetsprocesser
     </h1>
-    <p><strong>Version: 1.0, Fastställd: 2023-01-26</strong></p>
+    <div class="version-info">
+      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2023-01-26
+    </div>
     <p>Syftet med DKRR Årshjul är för att hjälpa våra medlemmar att hålla koll på alla de årliga åtaganden vi har inom Rockrullarna.</p>
     <p>Årshjulet ska ses över minst en gång per år och uppdateras vid behov.</p>
     <p>

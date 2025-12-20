@@ -15,7 +15,9 @@
     <h1>
       DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling
     </h1>
-    <p><strong>Version: 1.0</strong></p>
+    <div class="version-info">
+      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2020-10-14
+    </div>
     <p>
       Öppna dokumentet i nytt fönster: <br />
       <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">

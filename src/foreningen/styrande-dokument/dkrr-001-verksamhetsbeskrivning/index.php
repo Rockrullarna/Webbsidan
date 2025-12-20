@@ -15,7 +15,9 @@
     <h1>
       DKRR-001 Verksamhetsbeskrivning
     </h1>
-    <p><strong>Version: 2.0, Fastställd: 2025-12-10</strong></p>
+    <div class="version-info">
+      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+    </div>
     <p>Syftet med verksamhetsbeskrivningen är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten.</p>
     <p>Verksamhetsbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
     <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
