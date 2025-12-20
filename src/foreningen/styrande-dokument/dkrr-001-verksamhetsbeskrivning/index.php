@@ -548,7 +548,7 @@
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
     <p>Anmälan till årsmötet görs på hemsidan <a href="https://www.rockrullarna.se">www.rockrullarna.se</a> under flik: "Danskurser" → "Anmälan till danskurser".</p>
     <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare.</p>
-    <p>Mer information gällande årsmötet hittats i dokument: <a href="../dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></p>
+    <p>Mer information gällande årsmötet hittas i dokument: <a href="../dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></p>
 
     <h3 class="avsnitt"><a id="kap7-11"></a>7.11 Externa kurser</h3>
     <p>Föreningen får ibland förfrågan om att hålla danskurser för företag och skolor. Dessa förfrågningar hanteras olika beroende på verksamhet och tillgång av tränare. Fråga om att hålla externa kurser ställs via kurser@rockrullarna.se eller info@rockrullarna.se</p>
