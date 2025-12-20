@@ -32,15 +32,15 @@
         max-width: 900px;
       }
       .arshjul-content h2 {
-        color: #333;
+        color: var(--bs-heading-color, #333);
         margin-top: 2em;
         margin-bottom: 0.5em;
         font-size: 1.5em;
-        border-bottom: 2px solid #e74c3c;
+        border-bottom: 2px solid #00abd6;
         padding-bottom: 0.3em;
       }
       .arshjul-content h3 {
-        color: #555;
+        color: var(--bs-heading-color, #555);
         margin-top: 1.5em;
         margin-bottom: 0.5em;
         font-size: 1.2em;
@@ -49,10 +49,11 @@
         width: 100%;
         border-collapse: collapse;
         margin: 1em 0;
-        background-color: #fff;
+        background-color: var(--bs-body-bg, #fff);
+        color: var(--bs-body-color, #212529);
       }
       .arshjul-table th {
-        background-color: #e74c3c;
+        background-color: #00abd6;
         color: white;
         padding: 12px;
         text-align: left;
@@ -60,38 +61,40 @@
       }
       .arshjul-table td {
         padding: 10px 12px;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid var(--bs-border-color, #ddd);
         vertical-align: top;
+        color: var(--bs-body-color, #212529);
       }
       .arshjul-table td:first-child {
         font-weight: bold;
         width: 25%;
-        background-color: #f8f9fa;
+        background-color: var(--bs-secondary-bg, #f8f9fa);
       }
       .arshjul-table tr:hover {
-        background-color: #f5f5f5;
+        background-color: var(--bs-tertiary-bg, #f5f5f5);
       }
       .arshjul-intro {
-        background-color: #f8f9fa;
+        background-color: var(--bs-secondary-bg, #f8f9fa);
         padding: 15px;
-        border-left: 4px solid #e74c3c;
+        border-left: 4px solid #00abd6;
         margin: 1.5em 0;
+        color: var(--bs-body-color, #212529);
       }
       .version-info {
         font-size: 0.9em;
-        color: #666;
+        color: var(--bs-secondary-color, #666);
         margin-bottom: 1em;
       }
       .arshjul-toc {
-        background-color: #f8f9fa;
-        border: 1px solid #ddd;
+        background-color: var(--bs-secondary-bg, #f8f9fa);
+        border: 1px solid var(--bs-border-color, #ddd);
         border-radius: 5px;
         padding: 20px;
         margin: 2em 0;
       }
       .arshjul-toc h3 {
         margin-top: 0;
-        color: #e74c3c;
+        color: #00abd6;
         font-size: 1.1em;
       }
       .arshjul-toc ul {
@@ -108,17 +111,17 @@
       .arshjul-toc a {
         display: block;
         padding: 8px 12px;
-        background-color: white;
-        border: 1px solid #ddd;
+        background-color: var(--bs-body-bg, white);
+        border: 1px solid var(--bs-border-color, #ddd);
         border-radius: 3px;
         text-decoration: none;
-        color: #333;
+        color: var(--bs-body-color, #333);
         transition: all 0.2s;
       }
       .arshjul-toc a:hover {
-        background-color: #e74c3c;
+        background-color: #00abd6;
         color: white;
-        border-color: #e74c3c;
+        border-color: #00abd6;
       }
     </style>
 
