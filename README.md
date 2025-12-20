@@ -25,11 +25,11 @@ Den enklaste vägen att komma igång med utveckling:
 
 **Alternativ 1: Docker Compose (rekommenderas)**
 ```bash
-docker-compose up
+docker compose up
 ```
-eller med Podman:
+eller med Podman (kräver Podman 4.0+):
 ```bash
-podman-compose up
+podman compose up
 ```
 
 **Alternativ 2: Endast Docker**
