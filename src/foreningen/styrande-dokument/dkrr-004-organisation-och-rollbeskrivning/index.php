@@ -57,7 +57,8 @@
         text-align: left;
       }
       table.org-table th {
-        background-color: #f2f2f2;
+        background-color: #00abd6;
+        color: white;
         font-weight: bold;
       }
       .version-table {
@@ -72,8 +73,28 @@
         text-align: left;
       }
       .version-table th {
-        background-color: #f2f2f2;
+        background-color: #00abd6;
+        color: white;
         font-weight: bold;
+      }
+      
+      /* Dark mode support */
+      [data-bs-theme="dark"] table.org-table th,
+      [data-bs-theme="dark"] .version-table th {
+        background-color: #00abd6;
+        color: white;
+      }
+      
+      [data-bs-theme="dark"] table.org-table td,
+      [data-bs-theme="dark"] .version-table td {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+        border-color: #444;
+      }
+      
+      [data-bs-theme="dark"] table.org-table,
+      [data-bs-theme="dark"] .version-table {
+        border-color: #444;
       }
     </style>
     <div>
