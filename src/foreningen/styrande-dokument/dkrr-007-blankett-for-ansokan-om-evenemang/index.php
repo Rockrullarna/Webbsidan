@@ -15,6 +15,7 @@
     <h1>
       DKRR-007 Blankett för ansökan om evenemang
     </h1>
+    <p><strong>Version: 1.0, Fastställd: 2021-01-29</strong></p>
     <p>
       På denna sida visas våra blanketter för olika ändamål. <br />
       (DKRR-007 , finns även som digitalt formulär på sidan: <a href="/kontakt/skicka-arende-eller-fraga/Ansokan-om-evenemang" title="Ansökan om evenemang">Ansökan om evenemang</a>)

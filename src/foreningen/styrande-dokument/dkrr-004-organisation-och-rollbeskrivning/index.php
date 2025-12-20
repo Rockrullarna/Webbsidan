@@ -15,6 +15,7 @@
     <h1>
       DKRR-004 Organisation och rollbeskrivning
     </h1>
+    <p><strong>Version: 1.0, Fastställd: 2025-12-10</strong></p>
     <p>Syftet med organisation och rollbeskrivning är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka roller och fördelning av ansvar mellan dessa roller inom verksamheten.</p>
     <p>Organisation och rollbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
     <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>

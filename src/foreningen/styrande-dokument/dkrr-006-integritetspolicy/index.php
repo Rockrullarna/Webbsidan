@@ -15,6 +15,7 @@
     <h1>
       DKRR-006 Integritetspolicy - DK Rockrullarna
     </h1>
+    <p><strong>Version: 1.0, Fastställd: (datum saknas)</strong></p>
     <p>
       Öppna dokumentet i nytt fönster: <br />
       <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">

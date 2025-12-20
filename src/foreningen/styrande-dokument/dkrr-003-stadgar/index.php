@@ -15,6 +15,7 @@
     <h1>
       DKRR-003 Stadgar - DK Rockrullarna
     </h1>
+    <p><strong>Version: 1.1, Fastställd: 2025-03-29</strong></p>
     <p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 29 mars 2025.</p>
     <p>
       Öppna dokumentet i nytt fönster: <br />
