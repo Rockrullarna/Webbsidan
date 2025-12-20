@@ -170,7 +170,7 @@
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap1-4"></a>1.4 Avgränsningar</h3>
-    <p>Detta dokument är avgränsat till att beskriva och föreningens organisation och roller. Information om föreningens grundläggande aktiviteter samt arbetsprocesser framgår i dokument "DKRR-002, Årshjul och arbetsprocesser".</p>
+    <p>Detta dokument är avgränsat till att beskriva och föreningens organisation och roller. Information om föreningens grundläggande aktiviteter samt arbetsprocesser framgår i dokument <a href="../dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">"DKRR-002, Årshjul och arbetsprocesser"</a>.</p>
     <p>&nbsp;</p>
 
     <h2 class="kapitel"><a id="kap2"></a>2 Organisation</h2>
@@ -576,10 +576,10 @@
 
     <h4>Ekonomiskt ansvar och befogenheter</h4>
     <ul>
-      <li><strong>Intjäning:</strong> Danskommittéerna kan få in pengar genom att anordna egna event, exempelvis workshops, hålla externa kurser eller genom att anordna trivselkvällar i föreningen. Vid anordnande av evenemang ska blankett "DKRR-007 Blankett för ansökan om evenemang" fyllas i och skickas till styrelsen.</li>
+      <li><strong>Intjäning:</strong> Danskommittéerna kan få in pengar genom att anordna egna event, exempelvis workshops, hålla externa kurser eller genom att anordna trivselkvällar i föreningen. Vid anordnande av evenemang ska blankett <a href="../dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">"DKRR-007 Blankett för ansökan om evenemang"</a> fyllas i och skickas till styrelsen.</li>
       <li><strong>Kassabegränsning:</strong> Kassan inom respektive danskommitté är begränsad till 30 000 SEK. Danskommittéernas intjänade kassa får sparas mellan verksamhetsår. På förfrågan av styrelsen ska kommittéerna kunna redogöra ekonomisk plan över hur pengarna ska nyttjas.</li>
       <li><strong>Användning:</strong> Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten samt kan även nyttjas för att ta in externa tränare eller att åka iväg på externa kurser.</li>
-      <li><strong>Godkännande av utlägg:</strong> Samtliga utlägg behöver inte godkännas, men ska redovisas genom blanketten "DKRR-007" och kunna styrkas genom kvitto, faktura eller reseersättningsunderlag. Övriga inköp behöver godkännas av styrelsen (som minimum av ordförande eller kassör).</li>
+      <li><strong>Godkännande av utlägg:</strong> Samtliga utlägg behöver inte godkännas, men ska redovisas genom blanketten <a href="../dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">"DKRR-007"</a> och kunna styrkas genom kvitto, faktura eller reseersättningsunderlag. Övriga inköp behöver godkännas av styrelsen (som minimum av ordförande eller kassör).</li>
     </ul>
     <p>&nbsp;</p>
 

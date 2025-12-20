@@ -193,43 +193,35 @@
     <p>Nedanstående tabell redovisar de dokument som är styrande inom föreningen. Dokument som riktar sig till samtliga medlemmar finns tillgänglig på hemsidan. Dokumentation som riktar sig de personer som innehar en roll i föreningen finns tillgänglig på föreningens intranät. Samtliga medlemmar ombeds att ta del av den information som finns tillgänglig.</p>
     <table class="info-table">
       <tr>
-        <th>ID</th>
-        <th>Titel</th>
+        <th>Dokument ID - Titel</th>
         <th>Beskrivning</th>
       </tr>
       <tr>
-        <td>DKRR-001</td>
-        <td>Verksamhetsbeskrivning</td>
+        <td><a href="../dkrr-001-verksamhetsbeskrivning" title="DKRR-001 Verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></td>
         <td>Detta dokument. Dokumentet riktar sig till samtliga medlemmar i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-002</td>
-        <td>Årshjul och arbetsprocesser</td>
+        <td><a href="../dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">DKRR-002 Årshjul och arbetsprocesser</a></td>
         <td>Beskriver föreningens grundläggande aktiviteter, när aktiviteter ska genomföras samt hur vissa aktiviteter ska genomföras i form av arbetsprocesser. Dokumentet riktar sig de personer som innehar en roll i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-003</td>
-        <td>Stadgar</td>
+        <td><a href="../dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></td>
         <td>Föreningens regelverk som lägger grunden för hela verksamheten. Dokumentet riktar sig till samtliga medlemmar i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-004</td>
-        <td>Organisation- och rollbeskrivning</td>
+        <td><a href="../dkrr-004-organisation-och-rollbeskrivning" title="DKRR-004 Organisation- och rollbeskrivning">DKRR-004 Organisation- och rollbeskrivning</a></td>
         <td>Definierar föreningens organisation, vilka roller som inkluderas, vad som förväntas för varje roll samt vilket utbildningsbehov som respektive roll har. Dokumentet riktar sig till samtliga medlemmar i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-005</td>
-        <td>Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</td>
+        <td><a href="../dkrr-005-policy-mot-diskriminering" title="DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling">DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</a></td>
         <td>Föreningens policy & handlingsplan mot diskriminering, sexuella trakasserier och kränkande särbehandling. Dokumentet riktar sig till samtliga medlemmar i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-006</td>
-        <td>Integritetspolicy</td>
+        <td><a href="../dkrr-006-integritetspolicy" title="DKRR-006 Integritetspolicy">DKRR-006 Integritetspolicy</a></td>
         <td>Föreningens policy över hur personuppgifter ska hanteras. Dokumentet riktar sig till samtliga medlemmar i föreningen.</td>
       </tr>
       <tr>
-        <td>DKRR-007</td>
-        <td>Blankett för ansökan om evenemang</td>
+        <td><a href="../dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">DKRR-007 Blankett för ansökan om evenemang</a></td>
         <td>Blankett som ska fyllas i och godkännas av styrelsen innan evenemang (evenemang som tillkommer utöver beslutat kursutbud som ex. helgkurs med extern tränare) får genomföras. Dokumentet riktar sig de personer som önskar anordna evenemang i föreningen.</td>
       </tr>
     </table>
@@ -468,7 +460,7 @@
     
     <p><strong>Uppträdande</strong></p>
     <p>Förening är till för att skapa glädje och gemenskap. Tänk alltid efter hur ditt uppträdande är mot andra medlemmar både i föreningens lokaler och föreningens sidor på sociala medier. Vi är alla unika, har olika målsättningar, upplever, tolkar och reagerar på olika sätt. Som medlem i DK Rockrullarna behandlar du övriga medlemmar vänskapligt, respektfullt och med sunt förnuft.</p>
-    <p>För mer information, se dokument: DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</p>
+    <p>För mer information, se dokument: <a href="../dkrr-005-policy-mot-diskriminering" title="DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling">DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</a></p>
 
     <p><strong>Ytter- och inneskor</strong></p>
     <p>Ytterskor får inte användas i lokalen. Ytterskor placeras på skohyllorna vid entrén. Föreningen tillåter heller inte att inneskor används på fel sida av skogränsen (vid entrén). Detta för att undvika onödigt slitage på våra dansgolv.</p>
@@ -556,7 +548,7 @@
     <p>Årsmötet är föreningens högsta beslutande organ som hålls före utgången av mars månad. På detta möte beslutas bland annat val av föreningens styrelsemedlemmar, genomgång av verksamhetsberättelse, revisorernas berättelse, verksamhetsplan samt ekonomisk genomgång. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
     <p>Anmälan till årsmötet görs på hemsidan <a href="https://www.rockrullarna.se">www.rockrullarna.se</a> under flik: "Danskurser" → "Anmälan till danskurser".</p>
     <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare.</p>
-    <p>Mer information gällande årsmötet hittats i dokument: DKRR-003 Stadgar</p>
+    <p>Mer information gällande årsmötet hittats i dokument: <a href="../dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></p>
 
     <h3 class="avsnitt"><a id="kap7-11"></a>7.11 Externa kurser</h3>
     <p>Föreningen får ibland förfrågan om att hålla danskurser för företag och skolor. Dessa förfrågningar hanteras olika beroende på verksamhet och tillgång av tränare. Fråga om att hålla externa kurser ställs via kurser@rockrullarna.se eller info@rockrullarna.se</p>
@@ -653,7 +645,7 @@
     </ul>
     <p>Efter utförande av ovanstående kommer displayen för ankomstregistrering antingen att lysa grönt med texten "Välkommen" eller att lysa orange med texten "Vänligen kontakta personal". Om du ombes att kontakta personal beror detta oftast på enkla fel som är lätta att lösa. Receptionspersonal finns oftast på plats och hjälper dig vid behov.</p>
     <p>Ankomstregistrering genomförs bland annat för att ge ett statistiskt underlag över antal deltagare samt ger underlag när föreningen ska ansöka om bidrag (LOK-stöd mfl.). Utöver detta används även underlagen för personuppföljning vid händelse av brand.</p>
-    <p>Föreningens integritetspolicy för hantering av personuppgifter framgår i dokument: DKRR-006 Integritetspolicy</p>
+    <p>Föreningens integritetspolicy för hantering av personuppgifter framgår i dokument: <a href="../dkrr-006-integritetspolicy" title="DKRR-006 Integritetspolicy">DKRR-006 Integritetspolicy</a></p>
 
     <p>&nbsp;</p>
 
