@@ -15,16 +15,39 @@
     <h1>
       DKRR-006 Integritetspolicy - DK Rockrullarna
     </h1>
+    <div class="version-info">
+      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+    </div>
     <p>
       Öppna dokumentet i nytt fönster: <br />
       <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
         <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
       </a>
     </p>
-    <h2>Parter och ansvar för behandlingen av dina personuppgifter</h2>
+    <style>
+      div.section {
+        padding-left:2em;
+        font-weight: bold;
+      }
+      div.subsection {
+        padding-left:4em;
+      }
+    </style>
+    <div>
+    <h1><strong>Innehållsförteckning</strong></h1>
+    </div>
+    <div class="section"><a href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a></div>
+    <div class="section"><a href="#varfor">Varför behandlar vi dina personuppgifter?</a></div>
+    <div class="subsection"><a href="#delar">Vilka delar vi personuppgifter med?</a></div>
+    <div class="subsection"><a href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a></div>
+    <div class="subsection"><a href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a></div>
+    <div class="subsection"><a href="#rattigheter">Vilka rättigheter har du?</a></div>
+    <div class="section"><a href="#veta-mera">Om du vill veta mera</a></div>
+    <p>&nbsp;</p>
+    <h2><a id="parter"></a>Parter och ansvar för behandlingen av dina personuppgifter</h2>
     <p>Dansklubben Rockrullarna, 875001-4147, Vaktelvägen 2, 703 48 Örebro (nedan kallad föreningen) är personuppgiftsansvarig för behandlingen av personuppgifter som sker inom ramen för föreningens verksamhet.</p>
     <p>Föreningen har som ändamål att bedriva idrottslig verksamhet i enlighet med ”Idrottsrörelsens verksamhetsidé, vision och värdegrund”.</p>
-    <h2>Varför behandlar vi dina personuppgifter?</h2>
+    <h2><a id="varfor"></a>Varför behandlar vi dina personuppgifter?</h2>
     <p>För att föreningen ska kunna bedriva sin verksamhet behandlas personuppgifter för olika ändamål kopplade till verksamheten.</p>
     <p>Föreningen behandlar personuppgifter för att administrera löpande föreningsaktiviteter (ex. träningsverksamhet och medlemsmöten), kommunicera med medlemmarna (kallelser till aktiviteter, information till målsmän m.m.) samt hantera medlemsrelaterade ekonomiska transaktioner (medlemsavgifter och tävlingsavgifter m.m.).</p>
     <p>Föreningen hanterar även personuppgifter i samband med ansökan om tävlingslicens till SF/SDF. Utöver behandlingen av personuppgifter vid licensansökningsprocessen behandlas personuppgifter vid varje tävlingstillfälle kopplat till licensens regelverk. Personuppgifterna behandlas vid anmälan till tävling, under pågående tävling och efter tävlingstillfället vid resultatrapportering.</p>
@@ -72,11 +95,11 @@
     </li>
     </ul>
     <h3> </h3>
-    <h3><strong>Vilka delar vi personuppgifter med?</strong></h3>
+    <h3><a id="delar"></a><strong>Vilka delar vi personuppgifter med?</strong></h3>
     <p>Uppgifterna kommer inte att överföras till tredje land och dina personuppgifter kommer inte att utsättas för automatiserat beslutsfattande.</p>
     <p>Om föreningen vid något enstaka tillfälle måste dela dina personuppgifter med tredje land kommer du att informeras särskilt om detta. Det kan exempelvis vara aktuellt när/om du anmäls till tävling i tredje land.</p>
     <h3> </h3>
-    <h3><strong>Vilken laglig grund har vi för personuppgiftsbehandling?</strong></h3>
+    <h3><a id="grund"></a><strong>Vilken laglig grund har vi för personuppgiftsbehandling?</strong></h3>
     <p>Föreningen har nedan sammanställt den lagliga grunden för behandlingen av personuppgifter som sker inom föreningens verksamhet.</p>
     <div>
     <table><colgroup><col /><col /></colgroup>
@@ -197,10 +220,10 @@
     </table>
     </div>
     <p><span><span> </span></span></p>
-    <h3><strong>Hur länge sparar vi dina personuppgifter?</strong></h3>
+    <h3><a id="hur-lange"></a><strong>Hur länge sparar vi dina personuppgifter?</strong></h3>
     <p>Föreningen kommer att genomföra en bedömning årsvis om ändamålet med behandlingen av personuppgifterna kvarstår. Om inte ändamålen med behandlingen av personuppgifterna kvarstår kommer uppgifterna att raderas.</p>
     <p> </p>
-    <h3><strong>Vilka rättigheter har du?</strong></h3>
+    <h3><a id="rattigheter"></a><strong>Vilka rättigheter har du?</strong></h3>
     <p>Du som registrerad i föreningen har flera rättigheter som du bör känna till.</p>
     <p>Du har rätt att få ett registerutdrag avseende föreningens behandling av dina personuppgifter. Föreningen ska vid begäran av registerutdrag förse dig med en kopia av de personuppgifter som är under behandling. För eventuella ytterligare kopior som du begär får föreningen ta ut en rimlig avgift utifrån administrativa kostnader. Du kan enkelt begära ett registerutdrag i IdrottOnline via Min Sida.</p>
     <p>Du har i vissa fall även rätt till dataportabilitet av personuppgifterna. Du kan enkelt begär dataportabilitet av dina personuppgifter i IdrottOnline via Min Sida.</p>
@@ -233,7 +256,7 @@
     <p>Du kan när som helst utöva dina rättigheter genom att begära tillgång till och rättelse eller radering av personuppgifter, begära begränsning av behandling eller invända mot behandling. Kontakta styrelsen för att utöva dina rättigheter.</p>
     <p>Vidare har du rätt att inge ett klagomål avseende föreningens behandling av personuppgifter till Datainspektionen, besök <a href="http://www.datainspektionen.se/">www.datainspektionen.se</a>.</p>
     <p>Mer information om hur föreningen arbetar för att tillvarata dina rättigheter återfinns i dokument ”<i>Instruktioner för att tillvarata enskildas rättigheter”</i> som hittas på <a href="http://www.rf.se/">www.rf.se</a>.</p>
-    <h2>Om du vill veta mera</h2>
+    <h2><a id="veta-mera"></a>Om du vill veta mera</h2>
     <p>Har du frågor om föreningens personuppgiftsbehandling eller vill utöva dina rättigheter kontaktas: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
