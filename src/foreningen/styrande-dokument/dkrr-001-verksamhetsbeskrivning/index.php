@@ -49,8 +49,9 @@
         text-align: left;
       }
       table.info-table th {
-        background-color: #f2f2f2;
+        background-color: #00abd6;
         font-weight: bold;
+        color: #fff;
       }
     </style>
 
