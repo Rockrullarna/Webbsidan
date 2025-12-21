@@ -44,6 +44,10 @@ show_help() {
     echo "  ./run-tests.sh prod             # Testa mot produktion"
     echo "  ./run-tests.sh links --url https://example.com"
     echo ""
+    echo "För lokal utveckling i Codespaces:"
+    echo "  ../codespace-scripts/start.sh   # Starta PHP-server"
+    echo "  ./run-tests.sh local            # Kör tester"
+    echo "  ../codespace-scripts/stop.sh    # Stoppa servern (om Docker används)"
 }
 
 # Installera dependencies
@@ -53,6 +57,15 @@ install_deps() {
     # Kontrollera att vi är i rätt mapp
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
     cd "$SCRIPT_DIR"
+    
+    # Kontrollera och installera Node.js om det saknas
+    if ! command -v node &> /dev/null; then
+        echo -e "${YELLOW}⚠️  Node.js saknas. Installerar...${NC}"
+        apt-get update
+        apt-get install -y nodejs npm
+    else
+        echo -e "${GREEN}✅ Node.js är redan installerat ($(node --version))${NC}"
+    fi
     
     # Installera npm-paket
     npm install
