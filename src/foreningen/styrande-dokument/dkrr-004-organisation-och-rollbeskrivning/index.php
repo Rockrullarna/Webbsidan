@@ -33,32 +33,8 @@
 
   <div class="container-fluid mt-4">
     <div class="row">
-      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
-      <div class="col-lg-3 d-none d-lg-block">
-        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
-          <nav class="nav nav-pills flex-column">
-            <a class="nav-link" href="#kap1">1 Inledning</a>
-            <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
-            <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
-            <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
-            <a class="nav-link subsection" href="#kap1-4">1.4 Avgränsningar</a>
-            <a class="nav-link" href="#kap2">2 Organisation</a>
-            <a class="nav-link" href="#kap3">3 Gemensamma riktlinjer och förväntningar</a>
-            <a class="nav-link" href="#kap4">4 Roll- och uppdragsbeskrivning</a>
-            <a class="nav-link subsection" href="#kap4-1">4.1 Styrelse</a>
-            <a class="nav-link subsection" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link subsection" href="#kap4-3">4.3 Revisor</a>
-            <a class="nav-link subsection" href="#kap4-4">4.4 Danskommitté</a>
-            <a class="nav-link subsection" href="#kap4-5">4.5 Ungdomskommitté</a>
-            <a class="nav-link subsection" href="#kap4-6">4.6 Teknikkommitté</a>
-            <a class="nav-link subsection" href="#kap4-7">4.7 Festkommitté</a>
-            <a class="nav-link subsection" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
-          </nav>
-        </nav>
-      </div>
-      
       <!-- Main Content with Scrollspy -->
-      <div class="col-lg-9">
+      <div class="col-lg-9 order-lg-1">
         <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
           
           <div>
@@ -608,7 +584,32 @@
     <p>&nbsp;</p>
         
         </div><!-- end scrollspy content -->
-      </div><!-- end col-lg-9 -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#kap1">1 Inledning</a>
+            <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
+            <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
+            <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+            <a class="nav-link subsection" href="#kap1-4">1.4 Avgränsningar</a>
+            <a class="nav-link" href="#kap2">2 Organisation</a>
+            <a class="nav-link" href="#kap3">3 Gemensamma riktlinjer och förväntningar</a>
+            <a class="nav-link" href="#kap4">4 Roll- och uppdragsbeskrivning</a>
+            <a class="nav-link subsection" href="#kap4-1">4.1 Styrelse</a>
+            <a class="nav-link subsection" href="#kap4-2">4.2 Valberedning</a>
+            <a class="nav-link subsection" href="#kap4-3">4.3 Revisor</a>
+            <a class="nav-link subsection" href="#kap4-4">4.4 Danskommitté</a>
+            <a class="nav-link subsection" href="#kap4-5">4.5 Ungdomskommitté</a>
+            <a class="nav-link subsection" href="#kap4-6">4.6 Teknikkommitté</a>
+            <a class="nav-link subsection" href="#kap4-7">4.7 Festkommitté</a>
+            <a class="nav-link subsection" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
     </div><!-- end row -->
   </div><!-- end container-fluid -->
 

@@ -30,25 +30,8 @@
 
 <div class="container-fluid mt-4">
   <div class="row">
-    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
-    <div class="col-lg-3 d-none d-lg-block">
-      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link" href="#syfte">Syfte</a>
-          <a class="nav-link" href="#mal">Mål</a>
-          <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
-          <a class="nav-link subsection" href="#mobbing">Mobbing/kränkande behandling</a>
-          <a class="nav-link subsection" href="#trakasserier">Trakasserier/diskriminering</a>
-          <a class="nav-link subsection" href="#sexuella-trakasserier">Sexuella trakasserier</a>
-          <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
-          <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
-          <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>
-        </nav>
-      </nav>
-    </div>
-    
     <!-- Main Content with Scrollspy -->
-    <div class="col-lg-9">
+    <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
         <div>
@@ -149,7 +132,25 @@
     <p>&nbsp;</p>
         
         </div><!-- end scrollspy content -->
-      </div><!-- end col-lg-9 -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#syfte">Syfte</a>
+            <a class="nav-link" href="#mal">Mål</a>
+            <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
+            <a class="nav-link subsection" href="#mobbing">Mobbing/kränkande behandling</a>
+            <a class="nav-link subsection" href="#trakasserier">Trakasserier/diskriminering</a>
+            <a class="nav-link subsection" href="#sexuella-trakasserier">Sexuella trakasserier</a>
+            <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
+            <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
+            <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
     </div><!-- end row -->
   </div><!-- end container-fluid -->
 

@@ -35,33 +35,8 @@
 
 <div class="container-fluid mt-4">
   <div class="row">
-    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
-    <div class="col-lg-3 d-none d-lg-block">
-      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link" href="#kap1">1 Inledning</a>
-          <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
-          <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
-          <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
-          <a class="nav-link" href="#kap2">2 DKRR Årshjul - Aktiviteter</a>
-          <a class="nav-link subsection" href="#januari">2.1 Januari</a>
-          <a class="nav-link subsection" href="#februari">2.2 Februari</a>
-          <a class="nav-link subsection" href="#mars">2.3 Mars</a>
-          <a class="nav-link subsection" href="#april">2.4 April</a>
-          <a class="nav-link subsection" href="#maj">2.5 Maj</a>
-          <a class="nav-link subsection" href="#juni">2.6 Juni</a>
-          <a class="nav-link subsection" href="#juli">2.7 Juli</a>
-          <a class="nav-link subsection" href="#augusti">2.8 Augusti</a>
-          <a class="nav-link subsection" href="#september">2.9 September</a>
-          <a class="nav-link subsection" href="#oktober">2.10 Oktober</a>
-          <a class="nav-link subsection" href="#november">2.11 November</a>
-          <a class="nav-link subsection" href="#december">2.12 December</a>
-        </nav>
-      </nav>
-    </div>
-    
     <!-- Main Content with Scrollspy -->
-    <div class="col-lg-9">
+    <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content arshjul-content" tabindex="0">
         
         <h2 id="kap1">1 Inledning</h2>
@@ -788,7 +763,33 @@
 
       <p>&nbsp;</p>
       </div><!-- end scrollspy content -->
-    </div><!-- end col-lg-9 -->
+    </div><!-- end col-lg-9 order-lg-1 -->
+    
+    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+    <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#kap1">1 Inledning</a>
+          <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
+          <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
+          <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+          <a class="nav-link" href="#kap2">2 DKRR Årshjul - Aktiviteter</a>
+          <a class="nav-link subsection" href="#januari">2.1 Januari</a>
+          <a class="nav-link subsection" href="#februari">2.2 Februari</a>
+          <a class="nav-link subsection" href="#mars">2.3 Mars</a>
+          <a class="nav-link subsection" href="#april">2.4 April</a>
+          <a class="nav-link subsection" href="#maj">2.5 Maj</a>
+          <a class="nav-link subsection" href="#juni">2.6 Juni</a>
+          <a class="nav-link subsection" href="#juli">2.7 Juli</a>
+          <a class="nav-link subsection" href="#augusti">2.8 Augusti</a>
+          <a class="nav-link subsection" href="#september">2.9 September</a>
+          <a class="nav-link subsection" href="#oktober">2.10 Oktober</a>
+          <a class="nav-link subsection" href="#november">2.11 November</a>
+          <a class="nav-link subsection" href="#december">2.12 December</a>
+        </nav>
+      </nav>
+    </div><!-- end col-lg-3 order-lg-2 -->
+    
   </div><!-- end row -->
 </div><!-- end container-fluid -->
 

@@ -30,23 +30,8 @@
 
 <div class="container-fluid mt-4">
   <div class="row">
-    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
-    <div class="col-lg-3 d-none d-lg-block">
-      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
-          <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
-          <a class="nav-link subsection" href="#delar">Vilka delar vi personuppgifter med?</a>
-          <a class="nav-link subsection" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
-          <a class="nav-link subsection" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
-          <a class="nav-link subsection" href="#rattigheter">Vilka rättigheter har du?</a>
-          <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
-        </nav>
-      </nav>
-    </div>
-    
     <!-- Main Content with Scrollspy -->
-    <div class="col-lg-9">
+    <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
         <div>
@@ -279,7 +264,23 @@
     <p>&nbsp;</p>
         
         </div><!-- end scrollspy content -->
-      </div><!-- end col-lg-9 -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
+            <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
+            <a class="nav-link subsection" href="#delar">Vilka delar vi personuppgifter med?</a>
+            <a class="nav-link subsection" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
+            <a class="nav-link subsection" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
+            <a class="nav-link subsection" href="#rattigheter">Vilka rättigheter har du?</a>
+            <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
     </div><!-- end row -->
   </div><!-- end container-fluid -->
 

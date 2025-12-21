@@ -31,35 +31,8 @@
 
 <div class="container-fluid mt-4">
   <div class="row">
-    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
-    <div class="col-lg-3 d-none d-lg-block">
-      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link" href="#kap0--rubrik">Idrottsrörelsens verksamhetsidé</a>
-          <a class="nav-link subsection" href="#kap0-p1">Definition</a>
-          <a class="nav-link subsection" href="#kap0-p2">Mål och inriktning</a>
-          <a class="nav-link" href="#kap1--rubrik">1 kap Allmänna bestämmelser</a>
-          <a class="nav-link subsection" href="#kap1-p1">1 § Ändamål</a>
-          <a class="nav-link subsection" href="#kap1-p2">2 § Föreningens namn m.m</a>
-          <a class="nav-link subsection" href="#kap1-p3">3 § Sammansättning, tillhörighet m.m</a>
-          <a class="nav-link subsection" href="#kap1-p4">4 § Beslutande organ</a>
-          <a class="nav-link subsection" href="#kap1-p5">5 § Verksamhets- och räkenskapsår</a>
-          <a class="nav-link subsection" href="#kap1-p6">6 § Firmateckning</a>
-          <a class="nav-link subsection" href="#kap1-p7">7 § Stadgeändring</a>
-          <a class="nav-link subsection" href="#kap1-p8">8 § Tvist/skiljeklausul</a>
-          <a class="nav-link subsection" href="#kap1-p9">9 § Upplösning av föreningen</a>
-          <a class="nav-link" href="#kap2--rubrik">2 kap Föreningens medlemmar</a>
-          <a class="nav-link" href="#kap3--rubrik">3 kap Årsmöte</a>
-          <a class="nav-link" href="#kap4--rubrik">4 kap Valberedning</a>
-          <a class="nav-link" href="#kap5--rubrik">5 kap Revision</a>
-          <a class="nav-link" href="#kap6--rubrik">6 kap Styrelsen</a>
-          <a class="nav-link" href="#kap7--rubrik">7 kap Övriga föreningsorgan</a>
-        </nav>
-      </nav>
-    </div>
-    
     <!-- Main Content with Scrollspy -->
-    <div class="col-lg-9">
+    <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
         <div>
@@ -355,7 +328,35 @@
     <p>&nbsp;</p>
         
         </div><!-- end scrollspy content -->
-      </div><!-- end col-lg-9 -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#kap0--rubrik">Idrottsrörelsens verksamhetsidé</a>
+            <a class="nav-link subsection" href="#kap0-p1">Definition</a>
+            <a class="nav-link subsection" href="#kap0-p2">Mål och inriktning</a>
+            <a class="nav-link" href="#kap1--rubrik">1 kap Allmänna bestämmelser</a>
+            <a class="nav-link subsection" href="#kap1-p1">1 § Ändamål</a>
+            <a class="nav-link subsection" href="#kap1-p2">2 § Föreningens namn m.m</a>
+            <a class="nav-link subsection" href="#kap1-p3">3 § Sammansättning, tillhörighet m.m</a>
+            <a class="nav-link subsection" href="#kap1-p4">4 § Beslutande organ</a>
+            <a class="nav-link subsection" href="#kap1-p5">5 § Verksamhets- och räkenskapsår</a>
+            <a class="nav-link subsection" href="#kap1-p6">6 § Firmateckning</a>
+            <a class="nav-link subsection" href="#kap1-p7">7 § Stadgeändring</a>
+            <a class="nav-link subsection" href="#kap1-p8">8 § Tvist/skiljeklausul</a>
+            <a class="nav-link subsection" href="#kap1-p9">9 § Upplösning av föreningen</a>
+            <a class="nav-link" href="#kap2--rubrik">2 kap Föreningens medlemmar</a>
+            <a class="nav-link" href="#kap3--rubrik">3 kap Årsmöte</a>
+            <a class="nav-link" href="#kap4--rubrik">4 kap Valberedning</a>
+            <a class="nav-link" href="#kap5--rubrik">5 kap Revision</a>
+            <a class="nav-link" href="#kap6--rubrik">6 kap Styrelsen</a>
+            <a class="nav-link" href="#kap7--rubrik">7 kap Övriga föreningsorgan</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
     </div><!-- end row -->
   </div><!-- end container-fluid -->
 
