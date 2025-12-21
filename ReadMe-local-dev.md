@@ -7,19 +7,29 @@ Denna guide beskriver hur du kör igång projektet lokalt med Podman Desktop ell
 - [Podman Desktop](https://podman-desktop.io/) eller [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Git
 
-## Snabbstart med Podman Desktop
+## Snabbstart med Podman (Windows)
+
+### 1. Bygg Docker-imagen
 
 ```sh
 cd C:\GitHub\RR-Webbsidan
-podman compose up --build
+podman build -t rr-webbsidan .
 ```
 
-> **OBS:** Om `podman compose` inte fungerar, installera podman-compose:
-> - **Windows (winget):** `winget install -e --id RedHat.Podman-Desktop`
-> - **Windows (pip):** `pip install podman-compose` (kräver [Python](https://www.python.org/downloads/))
-> - **macOS:** `brew install podman-compose`
+### 2. Starta containern
+
+```sh
+podman run -d -p 8080:8080 -v C:\GitHub\RR-Webbsidan\src:/var/www/html --name rr-webbsidan-dev rr-webbsidan
+```
 
 Webbsidan är nu tillgänglig på: **http://localhost:8080**
+
+### 3. Stoppa containern
+
+```sh
+podman stop rr-webbsidan-dev
+podman rm rr-webbsidan-dev
+```
 
 ## Snabbstart med Docker Desktop
 
@@ -30,21 +40,17 @@ docker-compose up --build
 
 Webbsidan är nu tillgänglig på: **http://localhost:8080**
 
-## Alternativ: Bygg och kör manuellt
+## Alternativ: docker-compose (kräver extra installation)
 
-### 1. Bygg Docker-imagen
-
-```sh
-podman build -t rr-webbsidan .
-```
-
-### 2. Starta containern
+Om du vill använda `podman compose` behöver du installera compose-providern:
 
 ```sh
-podman run -d -p 8080:8080 -v ./src:/var/www/html:Z rr-webbsidan
-```
+# Med pip (kräver Python)
+pip install podman-compose
 
-> **OBS:** `:Z` behövs på Linux för SELinux-kompatibilitet. På Windows kan du utelämna det.
+# Sedan kan du köra
+podman-compose up --build
+```
 
 ## Via Podman Desktop GUI
 
@@ -65,35 +71,35 @@ Surfa till: **http://localhost:8080**
 
 ## Stoppa containern
 
+### Med Podman (manuellt)
+
+```sh
+podman stop rr-webbsidan-dev
+podman rm rr-webbsidan-dev
+```
+
 ### Med docker-compose
 
 ```sh
-podman-compose down
+docker-compose down
 ```
 
-### Manuellt
-
-Lista körande containers:
+### Lista körande containers
 
 ```sh
 podman ps
-```
-
-Stoppa container (ersätt CONTAINER_ID):
-
-```sh
-podman stop CONTAINER_ID
 ```
 
 ## Felsökning
 
 | Problem | Lösning |
 |---------|---------|
-| Port 8080 är upptagen | Ändra porten i `docker-compose.yml` eller använd `-p 8081:8080` |
+| Port 8080 är upptagen | Ändra porten med `-p 8081:8080` |
 | Podman-maskinen startar inte | Starta om Podman Desktop eller kör `podman machine start` |
 | Ändringar syns inte | Kontrollera att volymen är korrekt monterad |
-| `podman` känns inte igen i terminalen | Starta om terminalen efter installation. Om det inte hjälper, använd GUI-metoden eller kör: `& "$env:ProgramFiles\RedHat\Podman\podman.exe" compose up --build` |
-| `podman-compose` känns inte igen | Använd `podman compose` (utan bindestreck) eller GUI-metoden |
+| `podman` känns inte igen i terminalen | Starta om terminalen efter installation |
+| `podman compose` saknar provider | Använd manuell metod (build + run) eller installera `pip install podman-compose` |
+| Container med samma namn finns redan | Kör `podman rm rr-webbsidan-dev` först |
 
 ## Utveckling
 
