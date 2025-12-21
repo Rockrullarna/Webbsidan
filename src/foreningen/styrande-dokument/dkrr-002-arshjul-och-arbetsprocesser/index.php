@@ -9,139 +9,78 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-002 Årshjul och arbetsprocesser</span>
-    </div>
-    <h1>
-      DKRR-002 Årshjul och arbetsprocesser
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2023-01-26
-    </div>
-    <p>Syftet med DKRR Årshjul är för att hjälpa våra medlemmar att hålla koll på alla de årliga åtaganden vi har inom Rockrullarna.</p>
-    <p>Årshjulet ska ses över minst en gång per år och uppdateras vid behov.</p>
-    <p>
-      Styrelsen tar tacksamt emot synpunkter på innehållet.<br />
-      Synpunkter och frågeställningar skickas till:
-      <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a>
-    </p>
-    <p>
-      Du kan också ladda ner dokumentet som PDF: <br />
-      <a href="../DKRR-002-Årshjul_v1.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-002-Årshjul_v1.0.pdf</a>
-    </p>
-    
-    <style>
-      .arshjul-content {
-        max-width: 900px;
-      }
-      .arshjul-content h2 {
-        color: var(--bs-heading-color, #333);
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-        font-size: 1.5em;
-        border-bottom: 2px solid #00abd6;
-        padding-bottom: 0.3em;
-      }
-      .arshjul-content h3 {
-        color: var(--bs-heading-color, #555);
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-        font-size: 1.2em;
-      }
-      .arshjul-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 1em 0;
-        background-color: var(--bs-body-bg, #fff);
-        color: var(--bs-body-color, #212529);
-      }
-      .arshjul-table th {
-        background-color: #00abd6;
-        color: white;
-        padding: 12px;
-        text-align: left;
-        font-weight: bold;
-      }
-      .arshjul-table td {
-        padding: 10px 12px;
-        border-bottom: 1px solid var(--bs-border-color, #ddd);
-        vertical-align: top;
-        color: var(--bs-body-color, #212529);
-      }
-      .arshjul-table td:first-child {
-        font-weight: bold;
-        width: 25%;
-        background-color: var(--bs-secondary-bg, #f8f9fa);
-      }
-      .arshjul-table tr:hover {
-        background-color: var(--bs-tertiary-bg, #f5f5f5);
-      }
-      .arshjul-intro {
-        background-color: var(--bs-secondary-bg, #f8f9fa);
-        padding: 15px;
-        border-left: 4px solid #00abd6;
-        margin: 1.5em 0;
-        color: var(--bs-body-color, #212529);
-      }
-      .version-info {
-        font-size: 0.9em;
-        color: var(--bs-secondary-color, #666);
-        margin-bottom: 1em;
-      }
-      .arshjul-toc {
-        background-color: var(--bs-secondary-bg, #f8f9fa);
-        border: 1px solid var(--bs-border-color, #ddd);
-        border-radius: 5px;
-        padding: 20px;
-        margin: 2em 0;
-      }
-      .arshjul-toc h3 {
-        margin-top: 0;
-        color: #00abd6;
-        font-size: 1.1em;
-      }
-      .arshjul-toc ul {
-        list-style: none;
-        padding: 0;
-        margin: 10px 0;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 10px;
-      }
-      .arshjul-toc li {
-        margin: 0;
-      }
-      .arshjul-toc a {
-        display: block;
-        padding: 8px 12px;
-        background-color: var(--bs-body-bg, white);
-        border: 1px solid var(--bs-border-color, #ddd);
-        border-radius: 3px;
-        text-decoration: none;
-        color: var(--bs-body-color, #333);
-        transition: all 0.2s;
-      }
-      .arshjul-toc a:hover {
-        background-color: #00abd6;
-        color: white;
-        border-color: #00abd6;
-      }
-    </style>
+<link rel="stylesheet" href="../dokument.css" />
 
-    <div class="arshjul-content">
-      <h2>1 Inledning</h2>
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-002 Årshjul och arbetsprocesser</span>
+</div>
+
+<h1>DKRR-002 Årshjul och arbetsprocesser</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2023-01-26
+</div>
+
+<p>Syftet med DKRR Årshjul är för att hjälpa våra medlemmar att hålla koll på alla de årliga åtaganden vi har inom Rockrullarna.</p>
+<p>Årshjulet ska ses över minst en gång per år och uppdateras vid behov.</p>
+<p>
+  Styrelsen tar tacksamt emot synpunkter på innehållet.<br />
+  Synpunkter och frågeställningar skickas till:
+  <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a>
+</p>
+<p>
+  Du kan också ladda ner dokumentet som PDF: <br />
+  <a href="../DKRR-002-Årshjul_v1.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-002-Årshjul_v1.0.pdf</a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
+    <div class="col-lg-3 d-none d-lg-block">
+      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#kap1">1 Inledning</a>
+          <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
+          <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
+          <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+          <a class="nav-link" href="#kap2">2 DKRR Årshjul - Aktiviteter</a>
+          <a class="nav-link subsection" href="#januari">2.1 Januari</a>
+          <a class="nav-link subsection" href="#februari">2.2 Februari</a>
+          <a class="nav-link subsection" href="#mars">2.3 Mars</a>
+          <a class="nav-link subsection" href="#april">2.4 April</a>
+          <a class="nav-link subsection" href="#maj">2.5 Maj</a>
+          <a class="nav-link subsection" href="#juni">2.6 Juni</a>
+          <a class="nav-link subsection" href="#juli">2.7 Juli</a>
+          <a class="nav-link subsection" href="#augusti">2.8 Augusti</a>
+          <a class="nav-link subsection" href="#september">2.9 September</a>
+          <a class="nav-link subsection" href="#oktober">2.10 Oktober</a>
+          <a class="nav-link subsection" href="#november">2.11 November</a>
+          <a class="nav-link subsection" href="#december">2.12 December</a>
+        </nav>
+      </nav>
+    </div>
+    
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content arshjul-content" tabindex="0">
+        
+        <style>
+          /* Inline styles removed - now in dokument.css */
+        </style>
+
+        <h2 id="kap1">1 Inledning</h2>
       
-      <h3>1.1 Bakgrund</h3>
+      <h3 id="kap1-1">1.1 Bakgrund</h3>
       <div class="arshjul-intro">
         <p>Dansklubben Rockrullarna (DKRR) startades den 23 oktober 1983. Föreningen bestod då av en grupp vänner i 20- till 30-årsåldern som studerande på Gymnastik och Idrottshuset (GIH) i Örebro. Under 1985 påbörjades kursverksamheten vilka genomfördes med interna tränare. Externa tränare anlitades vid enstaka tillfällen och tränade då en större grupp dansare. År 1984 representerandes Rockrullarna på tävlingsdansgolvet i grenarna Bugg, Rock 'n' Roll och Jitterbugg.</p>
         <p>Från 1984 och parallellt med tävlingsdansen har DKRR varit aktivt deltagande i dansuppvisningar och, i perioder, även i formationsdans. Mellan åren 1985 till 1996 har föreningen haft minst en representant i Danssportförbundet, och då i förbunds- eller sektionsstyrelsen. År 1998 beslutade föreningen att hitta en egen lokal och året därpå stod det klart att kursverksamheten skulle äga rum i Haga Centrum där verksamheten bedrivs än idag.</p>
       </div>
 
-      <h3>1.2 Syfte</h3>
+      <h3 id="kap1-2">1.2 Syfte</h3>
       <p>Syftet med detta dokument är att redovisa grundläggande aktiviteter vilka bör genomföras under verksamhetsåret (1 januari till 31 december). Dokumentet ger stöd för den årliga planeringen, till personer som har en ansvarsroll samt ger stöd för uppföljning.</p>
       <p>Dokumentet ses över en gång per år och uppdateras vid behov. Styrelsen tar tacksamt emot synpunkter på innehållet. Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
 
-      <h3>1.3 Versionshistorik</h3>
+      <h3 id="kap1-3">1.3 Versionshistorik</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -161,7 +100,7 @@
         </tbody>
       </table>
 
-      <h2>2 DKRR Årshjul - Aktiviteter</h2>
+      <h2 id="kap2">2 DKRR Årshjul - Aktiviteter</h2>
       <p>Följande avsnitt redovisar vilka aktiviteter som bör genomföras under respektive månad samt vilka roller som bär ansvar för genomförandet.</p>
 
       <div class="arshjul-toc">
@@ -852,7 +791,11 @@
       </table>
 
       <p>&nbsp;</p>
-    </div>
+      </div><!-- end scrollspy content -->
+    </div><!-- end col-lg-9 -->
+  </div><!-- end row -->
+</div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

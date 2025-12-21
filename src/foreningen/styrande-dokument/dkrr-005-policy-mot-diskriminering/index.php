@@ -9,31 +9,52 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-005 Policy mot diskriminering</span>
+<link rel="stylesheet" href="../dokument.css" />
+
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-005 Policy mot diskriminering</span>
+</div>
+
+<h1>DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2020-10-14
+</div>
+
+<p>
+  Öppna dokumentet i nytt fönster: <br />
+  <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
+  </a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
+    <div class="col-lg-3 d-none d-lg-block">
+      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#syfte">Syfte</a>
+          <a class="nav-link" href="#mal">Mål</a>
+          <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
+          <a class="nav-link subsection" href="#mobbing">Mobbing/kränkande behandling</a>
+          <a class="nav-link subsection" href="#trakasserier">Trakasserier/diskriminering</a>
+          <a class="nav-link subsection" href="#sexuella-trakasserier">Sexuella trakasserier</a>
+          <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
+          <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
+          <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>
+        </nav>
+      </nav>
     </div>
-    <h1>
-      DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2020-10-14
-    </div>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
-      </a>
-    </p>
-    <style>
-      div.section {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.subsection {
-        padding-left:4em;
-      }
-    </style>
-    <div>
+    
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
+        
+        <style>
+          /* Inline styles removed - now in dokument.css */
+        </style>
+        <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
     <div class="section"><a href="#syfte">Syfte</a></div>
@@ -129,6 +150,12 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 -->
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

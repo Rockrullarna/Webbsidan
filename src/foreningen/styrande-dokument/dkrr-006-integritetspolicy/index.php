@@ -9,31 +9,50 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-006 Integritetspolicy</span>
+<link rel="stylesheet" href="../dokument.css" />
+
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-006 Integritetspolicy</span>
+</div>
+
+<h1>DKRR-006 Integritetspolicy - DK Rockrullarna</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+</div>
+
+<p>
+  Öppna dokumentet i nytt fönster: <br />
+  <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
+  </a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Sidebar Navigation for Scrollspy (hidden on mobile) -->
+    <div class="col-lg-3 d-none d-lg-block">
+      <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
+          <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
+          <a class="nav-link subsection" href="#delar">Vilka delar vi personuppgifter med?</a>
+          <a class="nav-link subsection" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
+          <a class="nav-link subsection" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
+          <a class="nav-link subsection" href="#rattigheter">Vilka rättigheter har du?</a>
+          <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
+        </nav>
+      </nav>
     </div>
-    <h1>
-      DKRR-006 Integritetspolicy - DK Rockrullarna
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
-    </div>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
-      </a>
-    </p>
-    <style>
-      div.section {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.subsection {
-        padding-left:4em;
-      }
-    </style>
-    <div>
+    
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
+        
+        <style>
+          /* Inline styles removed - now in dokument.css */
+        </style>
+        <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
     <div class="section"><a href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a></div>
@@ -261,6 +280,12 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 -->
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>
