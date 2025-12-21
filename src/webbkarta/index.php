@@ -57,12 +57,12 @@
                 <li><a href="/foreningen/styrande-dokument/dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">DKRR-002 Årshjul och arbetsprocesser</a></li>
                 <li><a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></li>
                 <li><a href="/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning" title="DKRR-004 Organisation- och rollbeskrivning">DKRR-004 Organisation- och rollbeskrivning</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-005-integritetspolicy" title="DKRR-005 Integritetspolicy">DKRR-005 Integritetspolicy</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-006-policy-mot-diskriminering" title="DKRR-006 Policy mot diskriminering">DKRR-006 Policy mot diskriminering</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-005-policy-mot-diskriminering" title="DKRR-005 Policy mot diskriminering">DKRR-005 Policy mot diskriminering</a></li>
+                <li><a href="/foreningen/styrande-dokument/dkrr-006-integritetspolicy" title="DKRR-006 Integritetspolicy">DKRR-006 Integritetspolicy</a></li>
                 <li><a href="/foreningen/styrande-dokument/dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">DKRR-007 Blankett för ansökan om evenemang</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="/foreningen/Moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
+            <li class="dropdown"><a href="/foreningen/moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
               <ul>
                 <li><a href="/foreningen/moten-och-protokoll/arsmote" title="Årsmöte">Årsmöte</a></li>
                 <li><a href="/foreningen/moten-och-protokoll/medlemsmote" title="Medlemsmöte">Medlemsmöte</a></li>

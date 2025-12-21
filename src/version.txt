@@ -1,9 +1,11 @@
-Denna fil innehåller enbart versionsnummer efter uppdatering från GItHub release-pipeline. 
-
-Om man navigerar till denna filen via: 
-https://rockrullarna.se/version.txt
-
-Så visas versionummer: 
 v13.20250330.1837
 
-Efter en release den 30 mars 2025, kl 18:37.
+# Denna fil innehåller enbart versionsnummer efter uppdatering från GItHub release-pipeline. 
+
+# Om man navigerar till denna filen via: 
+# https://rockrullarna.se/version.txt
+
+# Så visas versionummer: 
+# v13.20250330.1837
+
+# Efter en release den 30 mars 2025, kl 18:37.

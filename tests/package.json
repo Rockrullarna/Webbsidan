@@ -1,0 +1,17 @@
+﻿{
+  "name": "rr-webbsidan-tests",
+  "version": "1.0.0",
+  "description": "Playwright-tester för RR-Webbsidan länkvalidering",
+  "scripts": {
+    "test": "playwright test",
+    "test:local": "BASE_URL=http://localhost:8080 playwright test",
+    "test:prod": "BASE_URL=https://rockrullarna.se playwright test",
+    "test:links": "playwright test link-checker",
+    "test:links:local": "BASE_URL=http://localhost:8080 playwright test link-checker",
+    "test:links:prod": "BASE_URL=https://rockrullarna.se playwright test link-checker",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}

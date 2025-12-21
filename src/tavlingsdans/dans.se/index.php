@@ -7,7 +7,7 @@
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
-  include_once '../../includes/header.php'
+  include_once '../../includes/header.php';
 ?>
     <div id="BreadCrumbsDiv">
       <a href="../../">Rockrullarna.se</a> / <a href="../">Tävlingsdans</a> / <span>Dans.se</span>
@@ -22,5 +22,5 @@
     <hr />
     <p><a href="https://dans.se/" target="_blank" title="dans.se (öppnas i nytt fönster)">www.dans.se</a></p>
 <?php
-  include_once '../../includes/footer.php'
+  include_once '../../includes/footer.php';
 ?>
