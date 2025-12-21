@@ -70,9 +70,12 @@ install_deps() {
     # Installera npm-paket
     npm install
     
-    # Installera Playwright browsers
+    # Installera Playwright browsers och system dependencies
     echo -e "${CYAN}🌐 Installerar Playwright browsers...${NC}"
     npx playwright install chromium
+    
+    echo -e "${CYAN}🔧 Installerar Playwright system dependencies...${NC}"
+    npx playwright install-deps chromium
     
     echo -e "${GREEN}✅ Installation klar!${NC}"
 }
@@ -82,17 +85,46 @@ run_tests() {
     local test_file="$1"
     
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
     cd "$SCRIPT_DIR"
+    
+    # Kontrollera localhost för lokal URL
+    if [[ "$BASE_URL" == "http://localhost"* ]]; then
+        echo -e "${CYAN}🔍 Kontrollerar om servern är tillgänglig på $BASE_URL...${NC}"
+        
+        # Försök ansluta med timeout på 2 sekunder
+        if ! timeout 2 curl -s "$BASE_URL" > /dev/null 2>&1; then
+            echo ""
+            echo -e "${RED}❌ Servern svarar inte på $BASE_URL${NC}"
+            echo ""
+            echo -e "${YELLOW}⚠️  Starta webbservern i ett annat terminalfönster:${NC}"
+            echo ""
+            echo -e "${CYAN}   bash ../codespace-scripts/start.sh${NC}"
+            echo ""
+            echo -e "${YELLOW}Eller manuellt:${NC}"
+            echo ""
+            echo -e "${CYAN}   cd ../src && php -S 0.0.0.0:8080${NC}"
+            echo ""
+            exit 1
+        fi
+        
+        echo -e "${GREEN}✅ Servern är tillgänglig${NC}"
+    fi
     
     echo ""
     echo -e "${CYAN}🧪 Kör tester mot: ${YELLOW}$BASE_URL${NC}"
     echo ""
     
+    # Kör tester med error handling
     if [ -n "$test_file" ]; then
         BASE_URL="$BASE_URL" npx playwright test "$test_file"
     else
         BASE_URL="$BASE_URL" npx playwright test
     fi
+    
+    local test_result=$?
+    
+    return $test_result
 }
 
 # Visa rapport

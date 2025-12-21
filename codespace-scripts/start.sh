@@ -96,7 +96,20 @@ else
         exit 1
     fi
     
-    echo -e "${CYAN}🐘 Startar PHP server...${NC}"
+    # Kontrollera om det redan finns en process på porten och stoppa den
+    if command -v fuser &> /dev/null && fuser $PORT/tcp &> /dev/null 2>&1; then
+        echo -e "${YELLOW}⚠️  En process körs redan på port $PORT${NC}"
+        echo -e "${YELLOW}🧹 Stoppar befintlig process...${NC}"
+        
+        pid=$(fuser $PORT/tcp 2>/dev/null || true)
+        if [ -n "$pid" ]; then
+            kill -9 $pid 2>/dev/null || true
+            sleep 1
+            echo -e "${GREEN}✅ Befintlig process stoppades${NC}"
+        fi
+    fi
+    
+    echo -e "${CYAN}🐘 Startar PHP server på port $PORT...${NC}"
     cd "$PROJECT_ROOT/src"
     
     echo -e "${GREEN}✅ PHP server startad!${NC}"
@@ -107,8 +120,10 @@ else
     echo -e "${CYAN}💡 Kör tester med (i annat terminalfönster):${NC}"
     echo -e "${YELLOW}   cd tests && ./run-tests.sh local${NC}"
     echo ""
-    echo -e "${CYAN}🛑 Stoppa servern med:${NC}"
-    echo -e "${YELLOW}   Ctrl+C${NC}"
+    echo -e "${CYAN}🛑 Stoppa servern i ett annat terminalfönster med:${NC}"
+    echo -e "${YELLOW}   bash ./codespace-scripts/stop.sh $PORT${NC}"
+    echo ""
+    echo -e "${CYAN}Eller: Ctrl+C här${NC}"
     echo ""
     
     php -S 0.0.0.0:$PORT
