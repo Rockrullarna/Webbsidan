@@ -7,6 +7,51 @@ Källkoden finns under [mappen src (SouRce Code, eller källkod på svenska)](ht
 ## Hur ser webbsidan ut?
 Webbsidan finns uppladdad på vår domän: [rockrullarna.se](https://rockrullarna.se/)
 
+## Utvecklingsmiljö
+
+### Starta med GitHub Codespaces
+Den enklaste vägen att komma igång med utveckling:
+
+1. Öppna repot på GitHub
+2. Klicka på **Code** > **Codespaces** > **Create codespace on main**
+3. Vänta tills miljön är klar
+4. Kör kommandot i terminalen:
+   ```bash
+   php -S 0.0.0.0:8080 -t src
+   ```
+5. Öppna webbsidan via **Ports**-fliken (port 8080) eller klicka på popup-notifikationen
+
+### Starta med Docker eller Podman Desktop (lokalt)
+
+**Alternativ 1: Docker Compose (rekommenderas)**
+```bash
+docker compose up
+```
+eller med Podman (kräver Podman 4.0+):
+```bash
+podman compose up
+```
+
+**Alternativ 2: Endast Docker**
+```bash
+docker build -t rockrullarna-web .
+docker run -p 8080:8080 -v $(pwd)/src:/var/www/html rockrullarna-web
+```
+eller med Podman:
+```bash
+podman build -t rockrullarna-web .
+podman run -p 8080:8080 -v $(pwd)/src:/var/www/html rockrullarna-web
+```
+
+Öppna sedan webbläsaren på: [http://localhost:8080](http://localhost:8080)
+
+### Lokal utveckling utan container
+Om du har PHP installerat lokalt kan du köra:
+```bash
+cd src
+php -S localhost:8080
+```
+
 ## Hur laddas hemsidan upp?
 Som standard nu så laddas källkoden upp via SFTP via en GitHub-action när man gör en merge till main.  
 Se filen ```.github\workflows\deploy.yml```.  
