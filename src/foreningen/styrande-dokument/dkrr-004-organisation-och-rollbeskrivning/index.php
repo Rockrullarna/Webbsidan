@@ -61,9 +61,6 @@
       <div class="col-lg-9">
         <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
           
-          <style>
-            /* Inline styles removed - now in dokument.css */
-          </style>
           <div>
     <h1>Innehållsförteckning</h1>
     </div>

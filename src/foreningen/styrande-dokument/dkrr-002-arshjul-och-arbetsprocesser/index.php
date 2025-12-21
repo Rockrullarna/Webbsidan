@@ -64,10 +64,6 @@
     <div class="col-lg-9">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content arshjul-content" tabindex="0">
         
-        <style>
-          /* Inline styles removed - now in dokument.css */
-        </style>
-
         <h2 id="kap1">1 Inledning</h2>
       
       <h3 id="kap1-1">1.1 Bakgrund</h3>
