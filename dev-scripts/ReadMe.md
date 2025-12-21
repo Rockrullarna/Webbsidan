@@ -5,9 +5,30 @@ Denna guide beskriver hur du kör igång projektet lokalt med Podman Desktop ell
 ## Förutsättningar
 
 - [Podman Desktop](https://podman-desktop.io/) eller [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - Se guide: [Installera Podman Desktop i Windows 11](https://blog.pownas.se/2025/12/13/installera-podman)
 - Git
 
-## Snabbstart med Podman (Windows)
+## Snabbstart med PowerShell-skript (rekommenderat)
+
+Det enklaste sättet att starta utvecklingsmiljön:
+
+```powershell
+# Starta utvecklingsmiljön
+.\dev-scripts\start.ps1
+
+# Stoppa utvecklingsmiljön
+.\dev-scripts\stop.ps1
+
+# Visa status
+.\dev-scripts\status.ps1
+
+# Visa live-loggar
+.\dev-scripts\logs.ps1
+```
+
+Webbsidan är tillgänglig på: **http://localhost:8080**
+
+## Snabbstart med Podman (manuellt)
 
 ### 1. Bygg Docker-imagen
 
