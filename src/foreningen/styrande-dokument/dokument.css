@@ -205,7 +205,13 @@ table.arshjul-table th,
 .document-content h2[id],
 .document-content h3[id],
 .document-content h4[id] {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
+}
+
+/* Also add scroll offset for arshjul content */
+.arshjul-content h2[id],
+.arshjul-content h3[id] {
+  scroll-margin-top: 120px;
 }
 
 /* Arshjul specific styles */
@@ -214,7 +220,7 @@ table.arshjul-table th,
 }
 
 .arshjul-content h2 {
-  color: var(--bs-heading-color, #333);
+  color: #00abd6;
   margin-top: 2em;
   margin-bottom: 0.5em;
   font-size: 1.5em;
@@ -223,10 +229,15 @@ table.arshjul-table th,
 }
 
 .arshjul-content h3 {
-  color: var(--bs-heading-color, #555);
+  color: #00abd6;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   font-size: 1.2em;
+}
+
+[data-bs-theme="dark"] .arshjul-content h2,
+[data-bs-theme="dark"] .arshjul-content h3 {
+  color: #00abd6;
 }
 
 .arshjul-intro {
