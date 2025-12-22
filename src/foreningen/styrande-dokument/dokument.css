@@ -214,6 +214,36 @@ table.arshjul-table th,
   scroll-margin-top: 120px;
 }
 
+/* Anchor link styling */
+a.anchor-link {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.3em;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-size: 0.8em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Show anchor link on hover of parent heading */
+h2:hover a.anchor-link,
+h3:hover a.anchor-link,
+h4:hover a.anchor-link {
+  opacity: 1;
+}
+
+/* Also show when the anchor itself is hovered */
+a.anchor-link:hover {
+  opacity: 1;
+  color: #00abd6;
+}
+
+/* Dark mode support for anchor links */
+[data-bs-theme="dark"] a.anchor-link:hover {
+  color: #00abd6;
+}
+
 /* Arshjul specific styles */
 .arshjul-content {
   max-width: 900px;

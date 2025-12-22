@@ -62,17 +62,17 @@
     <p>&nbsp;</p>
           </div><!-- end document-toc -->
 
-    <h2 class="kapitel"><a id="kap1"></a>1 Inledning</h2>
-    <h3 class="section"><a id="kap1-1"></a>1.1 Bakgrund</h3>
+    <h2 class="kapitel"><a id="kap1" href="#kap1" class="anchor-link">🔗</a>1 Inledning</h2>
+    <h3 class="section"><a id="kap1-1" href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
     <p>En grundläggande förutsättning till en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-2"></a>1.2 Syfte</h3>
+    <h3 class="section"><a id="kap1-2" href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
     <p>Syftet med detta dokument är att beskriva föreningens organisation och roller. Dokumentet ger stöd i det dagliga arbetet och underlättar introduktion av nya rollinnehavare i föreningen.</p>
     <p>Dokumentet ses över minst en gång per år och uppdateras vid behov. Styrelsen tar tacksamt emot synpunkter på innehållet. Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-3"></a>1.3 Versionshistorik</h3>
+    <h3 class="section"><a id="kap1-3" href="#kap1-3" class="anchor-link">🔗</a>1.3 Versionshistorik</h3>
     <table class="version-table">
       <tr>
         <th>Utgåva</th>
@@ -113,11 +113,11 @@
     </table>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-4"></a>1.4 Avgränsningar</h3>
+    <h3 class="section"><a id="kap1-4" href="#kap1-4" class="anchor-link">🔗</a>1.4 Avgränsningar</h3>
     <p>Detta dokument är avgränsat till att beskriva och föreningens organisation och roller. Information om föreningens grundläggande aktiviteter samt arbetsprocesser framgår i dokument <a href="../dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">"DKRR-002, Årshjul och arbetsprocesser"</a>.</p>
     <p>&nbsp;</p>
 
-    <h2 class="kapitel"><a id="kap2"></a>2 Organisation</h2>
+    <h2 class="kapitel"><a id="kap2" href="#kap2" class="anchor-link">🔗</a>2 Organisation</h2>
     <p>Tabellen redovisar föreningens organisation, vilka roller som finns samt antal personer per roll.</p>
     <table class="org-table">
       <tr>
@@ -268,7 +268,7 @@
     </table>
     <p>&nbsp;</p>
 
-    <h2 class="kapitel"><a id="kap3"></a>3 Gemensamma riktlinjer och förväntningar</h2>
+    <h2 class="kapitel"><a id="kap3" href="#kap3" class="anchor-link">🔗</a>3 Gemensamma riktlinjer och förväntningar</h2>
     <p>Nedan följer gemensamma riktlinjer och förväntningar som gäller för samtliga personer med en roll i föreningen.</p>
     
     <h3>1. Tillsammans för helheten</h3>
@@ -302,8 +302,8 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h2 class="kapitel"><a id="kap4"></a>4 Roll- och uppdragsbeskrivning</h2>
-    <h3 class="section"><a id="kap4-1"></a>4.1 Styrelse</h3>
+    <h2 class="kapitel"><a id="kap4" href="#kap4" class="anchor-link">🔗</a>4 Roll- och uppdragsbeskrivning</h2>
+    <h3 class="section"><a id="kap4-1" href="#kap4-1" class="anchor-link">🔗</a>4.1 Styrelse</h3>
     <p>Styrelsen har det övergripande ansvaret att leda och utveckla föreningens verksamhet i enlighet med föreningens stadgar och verksamhetsmål samt styrande direktiv från Riksidrottsförbundet och Danssportsförbundet. Styrelsens är förtroendevalda av medlemmarna och ska verka för att skapa en trygg, inkluderande och inspirerande miljö där medlemmar i alla åldrar och nivåer kan utöva dans och delta i föreningslivet.</p>
 
     <h4>Övergripande ansvar</h4>
@@ -336,7 +336,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-1"></a>4.1.1 Firmatecknare</h4>
+    <h4><a id="kap4-1-1" href="#kap4-1-1" class="anchor-link">🔗</a>4.1.1 Firmatecknare</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Föreningens firmatecknare är huvudansvarig att, vid behov, skriva under olika typer av kontrakt och avtal i föreningens namn. Exempelvis kan detta handla om att skriva under hyresavtal, bidragsansökan samt hantera föreningens bankärenden. Det är styrelsens uppgift att utse föreningens firmatecknare och är en roll som ska delges någon lämplig person inom styrelsen. Som firmatecknare arbetar du tätt med styrelsen och har ingen rätt att fatta egna beslut utan styrelsens godkännande.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -353,7 +353,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-2"></a>4.1.2 Ordförande</h4>
+    <h4><a id="kap4-1-2" href="#kap4-1-2" class="anchor-link">🔗</a>4.1.2 Ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Ordförande är föreningens huvudrepresentant och ansvarar för att leda styrelsens arbete. Uppgifter som ingår i rollen är bland annat att säkerställa att föreningens verksamhet bedrivs enligt stadgar, beslut och lagar, att sammankalla och leda styrelsemöten och att delegera och följa upp arbetsuppgifter.</p>
     <p>Ordförande ansvarar även för granskning och inregistrering av registerutdrag för tränare/assistenter/hjälpdansare samt att registerutdraget hanteras på ett korrekt sätt. Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
@@ -375,7 +375,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-3"></a>4.1.3 Vice ordförande</h4>
+    <h4><a id="kap4-1-3" href="#kap4-1-3" class="anchor-link">🔗</a>4.1.3 Vice ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Vice ordförande har till uppdrag att ta över ordföranderollen vid ordförandens frånvaro. Vice ordförande arbetar tätt tillsammans med ordförande för att med kort varsel kunna ta över rollen vid behov.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -391,7 +391,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-4"></a>4.1.4 Ledamot</h4>
+    <h4><a id="kap4-1-4" href="#kap4-1-4" class="anchor-link">🔗</a>4.1.4 Ledamot</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Ledamot har till uppdrag att arbeta för föreningens bästa utifrån ett helhetsperspektiv. Rollen kräver god kännedom om verksamhetens alla områden och ansvarar för att bevaka medlemmars intresse/synpunkter/förslag och tala för dem i styrelsen.</p>
     <p>Ledamot förväntas delta på samtliga styrelsemöten (ca 10 st per år) och att arbeta med styrelserelaterade aktiviteter i enlighet med föreningens årshjul samt behovsstyrda aktiviteter. Ledamotens deltagande på styrelsemöten är viktigt då minst fyra [4] ledamöter krävs för att styrelsen ska kunna fatta beslut.</p>
@@ -407,7 +407,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-5"></a>4.1.5 Suppleant</h4>
+    <h4><a id="kap4-1-5" href="#kap4-1-5" class="anchor-link">🔗</a>4.1.5 Suppleant</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Suppleantens uppdrag är att ersätta ordinarie ledamot vid frånvaro. Suppleanten har då samma funktion/ansvar som en ordinarie ledamot. Om en ledamot avgår från styrelsen kan en suppleant permanent ersätta ledamoten fram till nästa årsmöte.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -422,7 +422,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-6"></a>4.1.6 Sekreterare</h4>
+    <h4><a id="kap4-1-6" href="#kap4-1-6" class="anchor-link">🔗</a>4.1.6 Sekreterare</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Sekreteraren ansvar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -437,7 +437,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-1-7"></a>4.1.7 Kassör</h4>
+    <h4><a id="kap4-1-7" href="#kap4-1-7" class="anchor-link">🔗</a>4.1.7 Kassör</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Kassören har ansvar att förvalta föreningens ekonomiska tillgångar. Inom rollen ingår bland annat budgetarbete, registrering av medlemsavgifter, betalning av fakturor, bokföring och bokslut. Uppdraget inkluderar även granskning för att säkerställa att föreningens medlemmar behandlar föreningens ekonomi enligt styrelsens beslut.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -455,10 +455,10 @@
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
-    <h3 class="section"><a id="kap4-2"></a>4.2 Valberedning</h3>
+    <h3 class="section"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
-    <h4><a id="kap4-2-1"></a>4.2.1 Ordförande</h4>
+    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Valberedningens ordförande är huvudansvarig för valberedningens arbete. Ordförande sammankallar och leder möten, ser till att dagordningen följs och att alla ledamöter får komma till tals i olika frågor.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -474,7 +474,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-2-2"></a>4.2.2 Ledamot</h4>
+    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Ledamot</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som ledamot har du en avgörande roll i att säkerställa en kompetent, engagerad och balanserad styrelse som kan leda föreningen på bästa sätt. Arbetet är strategiskt och bör präglas av objektivitet, långsiktighet och medlemsnytta.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -496,7 +496,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-3"></a>4.3 Revisor</h3>
+    <h3 class="section"><a id="kap4-3" href="#kap4-3" class="anchor-link">🔗</a>4.3 Revisor</h3>
     <h4>Uppdragsbeskrivning</h4>
     <p>Revisorernas ansvar är att granska föreningens årsredovisning, bokföring (räkenskaps-revision), föreningsledningens förvaltning (förvaltningsrevision) och lämna ett utlåtande om granskningsutfallet på föreningens årsmöte.</p>
     <p>Revisorerna har rapporteringsskyldighet till olika intressenter vid speciella omständigheter. Om revisorerna finner misstankar om brott inom verksamheten t.ex. förskingring, bokföringsbrott, mutbrott eller skattebrott, ska revisorerna anmäla misstanken och grunden för detta till åklagare.</p>
@@ -514,7 +514,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-4"></a>4.4 Danskommitté</h3>
+    <h3 class="section"><a id="kap4-4" href="#kap4-4" class="anchor-link">🔗</a>4.4 Danskommitté</h3>
     <p>DKRR består av följande danskommittéer: 1 st Bugg-kommitté, 1 st WCS-kommitté och 1 st Fox-kommitté.</p>
     <p>Danskommittéerna har i uppdrag att planera, genomföra och utveckla aktiviteter inom respektive dansområde i linje med styrelsen beslut och föreningens verksamhetsmål. Alla danskommitté arbetar i samverkan med varandra och i nära dialog med styrelsen. Respektive danskommitté måste bestå av minst två personer.</p>
 
@@ -543,7 +543,7 @@
     <p><em>Notera: Alla tränare, assistenter och hjälpdansare ska vart annat år genomföra kontroll från polisens belastningsregister.</em></p>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-5"></a>4.5 Ungdomskommitté</h3>
+    <h3 class="section"><a id="kap4-5" href="#kap4-5" class="anchor-link">🔗</a>4.5 Ungdomskommitté</h3>
     <p>Ungdomskommittén arbetar för att väcka dansintresse hos ungdomar och öka engagemanget bland ungdomar i föreningen.</p>
     <h4>Ekonomiskt ansvar</h4><p> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
     <h4>Roller inkluderar</h4>
@@ -553,7 +553,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-6"></a>4.6 Teknikkommitté</h3>
+    <h3 class="section"><a id="kap4-6" href="#kap4-6" class="anchor-link">🔗</a>4.6 Teknikkommitté</h3>
     <p>Teknikkommittén ansvarar för all teknisk utrustning inom dansföreningen och säkerställer att teknik som ljud/bild och IT-miljö (inkl. hemsida) är i fungerande skick och anpassade efter föreningens behov.</p>
     <h4>Roller inkluderar</h4>
     <ul>
@@ -562,7 +562,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-7"></a>4.7 Festkommitté</h3>
+    <h3 class="section"><a id="kap4-7" href="#kap4-7" class="anchor-link">🔗</a>4.7 Festkommitté</h3>
     <p>Festkommittén ansvarar för att planera och genomföra sociala evenemang och fester på uppdrag av styrelsen och danskommittéerna. Festkommittén utgör en viktig del i att skapa en välkomnande och trivsam miljö för föreningens medlemmar.</p>
     <h4>Roller inkluderar</h4>
     <ul>
@@ -571,7 +571,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-8"></a>4.8 Föreningsgemensamma roller</h3>
+    <h3 class="section"><a id="kap4-8" href="#kap4-8" class="anchor-link">🔗</a>4.8 Föreningsgemensamma roller</h3>
     <p>Med föreningsgemensamma roller menas roller som varken ingår i styrelsen eller kommittéer men som är centrala och gemensamma för föreningen.</p>
     
     <h4>Rollerna inkluderar</h4>
