@@ -246,7 +246,7 @@
       <p><span>Om behandlingen sker för direktmarknadsföring och du motsätter sig att uppgifterna behandlas</span></p>
       </li>
       <li>
-      <p><span>Om du motsätter sig personuppgiftsbehandling som sker inom ramen för myndighetsutövning eller efter en intresseavvägning och det inte finns berättigade skäl som väger tyngre än dina intressen</span></p>
+      <p><span>Om du motsätter dig personuppgiftsbehandling som sker inom ramen för myndighetsutövning eller efter en intresseavvägning och det inte finns berättigade skäl som väger tyngre än dina intressen</span></p>
       </li>
       <li>
       <p><span>Om personuppgifterna har behandlats olagligt</span></p>
