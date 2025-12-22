@@ -35,6 +35,8 @@
     <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
         <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
@@ -85,6 +87,8 @@
     <div class="paragraf"><a href="#kap7-p3">3 § Budget och verksamhetsplan</a></div>
     <div class="paragraf"><a href="#kap7-p4">4 § Återrapportering</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2 class="kapitel"><a id="kap0--rubrik"></a>Idrottsrörelsens verksamhetsidé</h2>
     <h3 class="paragraf"><a id="kap0-p1"></a>Definition</h3>
     <p>Idrott är fysisk aktivitet som människor utför för att få motion och rekreation eller uppnå tävlingsresultat.</p>

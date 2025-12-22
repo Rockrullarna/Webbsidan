@@ -89,6 +89,17 @@ table.arshjul-table th,
   border-color: #444;
 }
 
+/* In-document table of contents - only visible on mobile */
+.document-toc {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  .document-toc {
+    display: none;
+  }
+}
+
 /* Scrollspy Navigation */
 .document-scrollspy-nav {
   position: sticky;

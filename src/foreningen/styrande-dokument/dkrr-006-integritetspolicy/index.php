@@ -34,6 +34,8 @@
     <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
         <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
@@ -45,6 +47,8 @@
     <div class="subsection"><a href="#rattigheter">Vilka rättigheter har du?</a></div>
     <div class="section"><a href="#veta-mera">Om du vill veta mera</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2><a id="parter"></a>Parter och ansvar för behandlingen av dina personuppgifter</h2>
     <p>Dansklubben Rockrullarna, 875001-4147, Vaktelvägen 2, 703 48 Örebro (nedan kallad föreningen) är personuppgiftsansvarig för behandlingen av personuppgifter som sker inom ramen för föreningens verksamhet.</p>
     <p>Föreningen har som ändamål att bedriva idrottslig verksamhet i enlighet med ”Idrottsrörelsens verksamhetsidé, vision och värdegrund”.</p>

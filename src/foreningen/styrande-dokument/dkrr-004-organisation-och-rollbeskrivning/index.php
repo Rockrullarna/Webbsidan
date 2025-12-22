@@ -37,6 +37,8 @@
       <div class="col-lg-9 order-lg-1">
         <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
           
+          <!-- In-document TOC - only visible on mobile -->
+          <div class="document-toc">
           <div>
     <h1>Innehållsförteckning</h1>
     </div>
@@ -57,6 +59,7 @@
     <div class="section"><a href="#kap4-7">4.7 Festkommitté</a></div>
     <div class="section"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
     <p>&nbsp;</p>
+          </div><!-- end document-toc -->
 
     <h2 class="kapitel"><a id="kap1"></a>1 Inledning</h2>
     <h3 class="section"><a id="kap1-1"></a>1.1 Bakgrund</h3>

@@ -74,6 +74,8 @@
       <h2 id="kap2">2 DKRR Årshjul - Aktiviteter</h2>
       <p>Följande avsnitt redovisar vilka aktiviteter som bör genomföras under respektive månad samt vilka roller som bär ansvar för genomförandet.</p>
 
+      <!-- In-document TOC - only visible on mobile -->
+      <div class="document-toc">
       <div class="arshjul-toc">
         <h3>Innehållsförteckning - Hoppa till månad</h3>
         <ul>
@@ -91,6 +93,7 @@
           <li><a href="#december">December</a></li>
         </ul>
       </div>
+      </div><!-- end document-toc -->
 
       <h3 id="januari">2.1 Januari</h3>
       <table class="arshjul-table">

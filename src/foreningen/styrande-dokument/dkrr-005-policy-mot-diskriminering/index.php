@@ -34,6 +34,8 @@
     <div class="col-lg-9 order-lg-1">
       <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
         
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
         <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
@@ -47,6 +49,8 @@
     <div class="section"><a href="#handlingsplan-individ">Handlingsplan individ</a></div>
     <div class="section"><a href="#handlingsplan-styrelse">Handlingsplan styrelse</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2><a id="syfte"></a>Syfte</h2>
     <p>Dansklubben Rockrullarna ska vara en plats där alla kan vara sig själva och känna sig trygga. Vi ska respektera varandra, våra olikheter och vara en förening som välkomnar alla.</p>
     <p>Syftet med denna policy är att för föreningens medlemmar informera om:</p>

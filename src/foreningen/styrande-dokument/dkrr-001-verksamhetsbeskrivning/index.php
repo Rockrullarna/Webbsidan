@@ -33,6 +33,8 @@
       <div class="col-lg-9 order-lg-1">
         <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
           
+          <!-- In-document TOC - only visible on mobile -->
+          <div class="document-toc">
           <h2><strong>Innehållsförteckning</strong></h2>
     <div class="kapitel"><a href="#kap1">1 Inledning</a></div>
     <div class="avsnitt"><a href="#kap1-1">1.1 Bakgrund</a></div>
@@ -96,6 +98,7 @@
     <div class="avsnitt"><a href="#kap18-5">18.5 Medlemsrabatter i företag</a></div>
 
     <p>&nbsp;</p>
+          </div><!-- end document-toc -->
 
     <h2 class="kapitel"><a id="kap1"></a>1 Inledning</h2>
     <p>För Dansklubben Rockrullarna betyder dans, glädje och gemenskap. Dansen för människor samman, stimulerar och utvecklar oss på många olika plan. I dansen kan vi vara här och nu, vi tillåts lägga allt annat åt sidan för en stund. Vi vill dela med oss av detta.</p>
