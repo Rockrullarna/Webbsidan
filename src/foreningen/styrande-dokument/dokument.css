@@ -214,29 +214,45 @@ table.arshjul-table th,
   scroll-margin-top: 120px;
 }
 
-/* Anchor link styling */
+/* Anchor link styling - visible but subtle by default, prominent on hover */
 a.anchor-link {
   text-decoration: none;
   color: inherit;
-  margin-left: 0.3em;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-  font-size: 0.8em;
+  margin-right: 0.5em;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out;
+  font-size: 0.85em;
   vertical-align: middle;
   cursor: pointer;
 }
 
-/* Show anchor link on hover of parent heading */
+/* Make anchor link fully visible on hover of parent heading */
 h2:hover a.anchor-link,
 h3:hover a.anchor-link,
 h4:hover a.anchor-link {
   opacity: 1;
 }
 
-/* Also show when the anchor itself is hovered */
-a.anchor-link:hover {
+/* Make anchor link fully visible and highlighted when directly hovered or focused */
+a.anchor-link:hover,
+a.anchor-link:focus {
   opacity: 1;
   color: #00abd6;
+  outline: 2px solid #00abd6;
+  outline-offset: 2px;
+}
+
+/* Dark mode adjustments for better visibility */
+@media (prefers-color-scheme: dark) {
+  a.anchor-link {
+    opacity: 0.6;
+  }
+  
+  a.anchor-link:hover,
+  a.anchor-link:focus {
+    color: #4dd0ff;
+    outline-color: #4dd0ff;
+  }
 }
 
 /* Dark mode support for anchor links */
