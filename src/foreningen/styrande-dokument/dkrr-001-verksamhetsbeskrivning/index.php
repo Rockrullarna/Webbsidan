@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-001 Verksamhetsbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten";
 
@@ -9,55 +9,34 @@
 
   include_once '../../../includes/header.php'
   ?>
-      <div id="BreadCrumbsDiv">
-        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-001 Verksamhetsbeskrivning</span>
-    </div>
-    <h1>
-      DKRR-001 Verksamhetsbeskrivning
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
-    </div>
-    <p>Syftet med verksamhetsbeskrivningen är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten.</p>
-    <p>Verksamhetsbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
-    <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
-    <p>Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001 Verksamhetsbeskrivning_v2.0.pdf</a></p>
+  <link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+  <script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
+  
+  <div id="BreadCrumbsDiv">
+    <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-001 Verksamhetsbeskrivning</span>
+  </div>
+  
+  <h1>DKRR-001 Verksamhetsbeskrivning</h1>
+  
+  <div class="version-info">
+    <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+  </div>
+  
+  <p>Syftet med verksamhetsbeskrivningen är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten.</p>
+  <p>Verksamhetsbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
+  <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
+  <p>Öppna dokumentet i nytt fönster: <br />
+    <a href="../DKRR-001-Verksamhetsbeskrivning_v2.0.pdf"><img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-001 Verksamhetsbeskrivning_v2.0.pdf</a></p>
 
-    <style>
-      div.kapitel {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.avsnitt {
-        padding-left:4em;
-      }
-      h2.kapitel {
-        font-size: x-large;
-        font-weight: bold;
-      }
-      h3.avsnitt {
-        font-weight: bold;
-      }
-      table.info-table {
-        border-collapse: collapse;
-        width: 100%;
-        margin: 1em 0;
-      }
-      table.info-table th,
-      table.info-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      table.info-table th {
-        background-color: #00abd6;
-        font-weight: bold;
-        color: #fff;
-      }
-    </style>
-
-    <h2><strong>Innehållsförteckning</strong></h2>
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <!-- Main Content -->
+      <div class="col-lg-9 order-lg-1">
+        <div class="document-content">
+          
+          <!-- In-document TOC - only visible on mobile -->
+          <div class="document-toc">
+          <h2><strong>Innehållsförteckning</strong></h2>
     <div class="kapitel"><a href="#kap1">1 Inledning</a></div>
     <div class="avsnitt"><a href="#kap1-1">1.1 Bakgrund</a></div>
     <div class="avsnitt"><a href="#kap1-2">1.2 Syfte</a></div>
@@ -120,6 +99,7 @@
     <div class="avsnitt"><a href="#kap18-5">18.5 Medlemsrabatter i företag</a></div>
 
     <p>&nbsp;</p>
+          </div><!-- end document-toc -->
 
     <h2 class="kapitel"><a id="kap1"></a>1 Inledning</h2>
     <p>För Dansklubben Rockrullarna betyder dans, glädje och gemenskap. Dansen för människor samman, stimulerar och utvecklar oss på många olika plan. I dansen kan vi vara här och nu, vi tillåts lägga allt annat åt sidan för en stund. Vi vill dela med oss av detta.</p>
@@ -835,6 +815,82 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy - RIGHT SIDE on large screens -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#kap1">1 Inledning</a>
+            <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
+            <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
+            <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+            <a class="nav-link" href="#kap2">2 Verksamhetsmål</a>
+            <a class="nav-link" href="#kap3">3 Styrande dokument</a>
+            <a class="nav-link" href="#kap4">4 Kontakt och aktivitetsinformation</a>
+            <a class="nav-link subsection" href="#kap4-1">4.1 Kontakt</a>
+            <a class="nav-link subsection" href="#kap4-2">4.2 Besöksadress</a>
+            <a class="nav-link subsection" href="#kap4-3">4.3 Hemsida</a>
+            <a class="nav-link subsection" href="#kap4-4">4.4 Intranät</a>
+            <a class="nav-link subsection" href="#kap4-5">4.5 Sociala medier</a>
+            <a class="nav-link" href="#kap5">5 Lokal</a>
+            <a class="nav-link subsection" href="#kap5-1">5.1 Säkerhetsinformation</a>
+            <a class="nav-link subsection" href="#kap5-2">5.2 Tillträde</a>
+            <a class="nav-link subsection" href="#kap5-3">5.3 Hyra av lokal för kommersiellt bruk</a>
+            <a class="nav-link subsection" href="#kap5-4">5.4 Bokning av Lilla salen</a>
+            <a class="nav-link subsection" href="#kap5-5">5.5 Nyttjande av lokal för barnkalas</a>
+            <a class="nav-link subsection" href="#kap5-6">5.6 Nyttjande av lokal för privat bruk</a>
+            <a class="nav-link" href="#kap6">6 Trivselregler</a>
+            <a class="nav-link" href="#kap7">7 Utbud (danskurser/evenemang/aktiviteter)</a>
+            <a class="nav-link subsection" href="#kap7-1">7.1 Bugg</a>
+            <a class="nav-link subsection" href="#kap7-2">7.2 West Coast Swing</a>
+            <a class="nav-link subsection" href="#kap7-3">7.3 Fox</a>
+            <a class="nav-link subsection" href="#kap7-4">7.4 Dans för barn och ungdom</a>
+            <a class="nav-link subsection" href="#kap7-5">7.5 Fri träning</a>
+            <a class="nav-link subsection" href="#kap7-6">7.6 Evenemang utanför ordinarie verksamhet</a>
+            <a class="nav-link subsection" href="#kap7-7">7.7 Träningskväll</a>
+            <a class="nav-link subsection" href="#kap7-8">7.8 Socialdanskväll</a>
+            <a class="nav-link subsection" href="#kap7-9">7.9 Medlemsmöte</a>
+            <a class="nav-link subsection" href="#kap7-10">7.10 Årsmöte</a>
+            <a class="nav-link subsection" href="#kap7-11">7.11 Externa kurser</a>
+            <a class="nav-link subsection" href="#kap7-12">7.12 Privatlektioner</a>
+            <a class="nav-link subsection" href="#kap7-13">7.13 Uppvisning</a>
+            <a class="nav-link" href="#kap8">8 Anmälan och betalning</a>
+            <a class="nav-link subsection" href="#kap8-1">8.1 Anmälan</a>
+            <a class="nav-link subsection" href="#kap8-2">8.2 Betalning</a>
+            <a class="nav-link subsection" href="#kap8-3">8.3 Inställd kurs och återbetalning</a>
+            <a class="nav-link" href="#kap9">9 Medlemsbevis</a>
+            <a class="nav-link" href="#kap10">10 Ankomstregistrering</a>
+            <a class="nav-link" href="#kap11">11 Förändring av personliga uppgifter</a>
+            <a class="nav-link" href="#kap12">12 Kursutvärdering</a>
+            <a class="nav-link" href="#kap13">13 Marknadsföring</a>
+            <a class="nav-link" href="#kap14">14 Kläder för kurs och tävling</a>
+            <a class="nav-link" href="#kap15">15 Grafisk profil</a>
+            <a class="nav-link subsection" href="#kap15-1">15.1 Logotyp</a>
+            <a class="nav-link subsection" href="#kap15-2">15.2 Färg</a>
+            <a class="nav-link subsection" href="#kap15-3">15.3 Format och typsnitt</a>
+            <a class="nav-link subsection" href="#kap15-4">15.4 Föreningsrelaterade kläder och associerar</a>
+            <a class="nav-link" href="#kap16">16 Ekonomi</a>
+            <a class="nav-link subsection" href="#kap16-1">16.1 Inköp</a>
+            <a class="nav-link subsection" href="#kap16-2">16.2 Arvode</a>
+            <a class="nav-link subsection" href="#kap16-3">16.3 Bidrag/stipendium</a>
+            <a class="nav-link" href="#kap17">17 Kläder och accessoarer</a>
+            <a class="nav-link" href="#kap18">18 Medlemsrabatter</a>
+            <a class="nav-link subsection" href="#kap18-1">18.1 Kurser</a>
+            <a class="nav-link subsection" href="#kap18-2">18.2 Studentrabatt</a>
+            <a class="nav-link subsection" href="#kap18-3">18.3 Pensionärsrabatt</a>
+            <a class="nav-link subsection" href="#kap18-4">18.4 Fritidskortet</a>
+            <a class="nav-link subsection" href="#kap18-5">18.5 Medlemsrabatter i företag</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

@@ -1,0 +1,293 @@
+﻿/* Common styles for governing documents (DKRR-001 to DKRR-006) */
+
+/* Table of contents styling */
+div.kapitel {
+  padding-left: 2em;
+  font-weight: bold;
+}
+
+div.avsnitt,
+div.section,
+div.subsection,
+div.paragraf {
+  padding-left: 4em;
+}
+
+/* Heading styles */
+h2.kapitel {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3.avsnitt,
+h3.paragraf,
+h3.section {
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Version info */
+.version-info {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+[data-bs-theme="dark"] .version-info {
+  color: #aaa;
+}
+
+/* Table styling */
+table.info-table,
+table.org-table,
+table.arshjul-table,
+.version-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table.info-table th,
+table.info-table td,
+table.org-table th,
+table.org-table td,
+table.arshjul-table th,
+table.arshjul-table td,
+.version-table th,
+.version-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table.info-table th,
+table.org-table th,
+table.arshjul-table th,
+.version-table th {
+  background-color: #00abd6;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Dark mode table support */
+[data-bs-theme="dark"] table.info-table td,
+[data-bs-theme="dark"] table.org-table td,
+[data-bs-theme="dark"] table.arshjul-table td,
+[data-bs-theme="dark"] .version-table td {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+[data-bs-theme="dark"] table.info-table,
+[data-bs-theme="dark"] table.org-table,
+[data-bs-theme="dark"] table.arshjul-table,
+[data-bs-theme="dark"] .version-table {
+  border-color: #444;
+}
+
+/* In-document table of contents - only visible on mobile */
+.document-toc {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+/* Hide inline TOC on desktop (lg and up) */
+@media (min-width: 992px) {
+  .document-toc {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Scrollspy Navigation */
+.document-scrollspy-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem;
+  background-color: var(--bs-secondary-bg, #f8f9fa);
+  border-radius: 0.375rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  z-index: 100;
+}
+
+/* Scrollspy heading */
+.scrollspy-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #00abd6;
+  color: var(--bs-heading-color, #333);
+}
+
+[data-bs-theme="dark"] .scrollspy-heading {
+  color: var(--bs-heading-color, #e0e0e0);
+  border-bottom-color: #00abd6;
+}
+
+.document-scrollspy-nav .nav {
+  flex-direction: column;
+}
+
+.document-scrollspy-nav .nav-link {
+  padding: 0.15rem 0.5rem;
+  margin: 0;
+  color: var(--bs-body-color);
+  border-left: 2px solid transparent;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.document-scrollspy-nav .nav-link:hover {
+  background-color: var(--bs-tertiary-bg, #e9ecef);
+  border-left-color: #00abd6;
+}
+
+.document-scrollspy-nav .nav-link.active {
+  color: #00abd6;
+  font-weight: 600;
+  border-left-color: #00abd6;
+  background-color: var(--bs-tertiary-bg, #e9ecef);
+}
+
+/* Indent subsections (1.1, 1.2, etc) */
+.document-scrollspy-nav .nav-link.subsection {
+  padding-left: 1.5rem;
+  font-size: 0.7rem;
+}
+
+/* Scrollbar styling for scrollspy nav */
+.document-scrollspy-nav::-webkit-scrollbar {
+  width: 5px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-track {
+  background: var(--bs-secondary-bg, #f8f9fa);
+  border-radius: 3px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-thumb {
+  background: #00abd6;
+  border-radius: 3px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-thumb:hover {
+  background: #0088ad;
+}
+
+/* Dark mode scrollbar */
+[data-bs-theme="dark"] .document-scrollspy-nav::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* Hide scrollspy on mobile */
+@media (max-width: 991.98px) {
+  .document-scrollspy-nav {
+    display: none !important;
+  }
+}
+
+/* Document content area */
+.document-content {
+  scroll-margin-top: 100px;
+}
+
+.document-content h2[id],
+.document-content h3[id],
+.document-content h4[id] {
+  scroll-margin-top: 120px;
+}
+
+/* Also add scroll offset for arshjul content */
+.arshjul-content h2[id],
+.arshjul-content h3[id] {
+  scroll-margin-top: 120px;
+}
+
+/* Arshjul specific styles */
+.arshjul-content {
+  max-width: 900px;
+}
+
+.arshjul-content h2 {
+  color: #00abd6;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  border-bottom: 2px solid #00abd6;
+  padding-bottom: 0.3em;
+}
+
+.arshjul-content h3 {
+  color: #00abd6;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+[data-bs-theme="dark"] .arshjul-content h2,
+[data-bs-theme="dark"] .arshjul-content h3 {
+  color: #00abd6;
+}
+
+.arshjul-intro {
+  background-color: var(--bs-secondary-bg, #f8f9fa);
+  padding: 15px;
+  border-left: 4px solid #00abd6;
+  margin: 1.5em 0;
+  color: var(--bs-body-color, #212529);
+}
+
+.arshjul-toc {
+  background-color: var(--bs-secondary-bg, #f8f9fa);
+  border: 1px solid var(--bs-border-color, #ddd);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 2em 0;
+}
+
+.arshjul-toc h3 {
+  margin-top: 0;
+  color: #00abd6;
+  font-size: 1.1em;
+}
+
+.arshjul-toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.arshjul-toc li {
+  margin: 0;
+}
+
+.arshjul-toc a {
+  display: block;
+  padding: 8px 12px;
+  background-color: var(--bs-body-bg, white);
+  border: 1px solid var(--bs-border-color, #ddd);
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--bs-body-color, #333);
+  transition: all 0.2s;
+}
+
+.arshjul-toc a:hover {
+  background-color: #00abd6;
+  color: white;
+  border-color: #00abd6;
+}

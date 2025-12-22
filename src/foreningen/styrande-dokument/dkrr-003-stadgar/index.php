@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-003 Stadgar - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förenings nuvarande stadgar";
 
@@ -9,39 +9,36 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-003 Stadgar</span>
-    </div>
-    <h1>
-      DKRR-003 Stadgar - DK Rockrullarna
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.1 | <strong>Fastställd:</strong> 2025-03-29
-    </div>
-    <p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 29 mars 2025.</p>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-003-Stadgar_v1.1.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-003-Stadgar_v1.1.pdf
-      </a>
-    </p>
-    <style>
-      div.kapitel {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.paragraf {
-        padding-left:4em;
-      }
-      h2.kapitel {
-        font-size: x-large;
-        font-weight: bold;
-      }
-      h3.paragraf {
-        font-weight: bold;
-      }
-    </style>
-    <div>
+<link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+<script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
+
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-003 Stadgar</span>
+</div>
+
+<h1>DKRR-003 Stadgar - DK Rockrullarna</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.1 | <strong>Fastställd:</strong> 2025-03-29
+</div>
+
+<p>Dansklubben Rockrullarnas Stadgar som reviderats vid årsmötet den 29 mars 2025.</p>
+<p>
+  Öppna dokumentet i nytt fönster: <br />
+  <a href="../DKRR-003-Stadgar_v1.1.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-003-Stadgar_v1.1.pdf
+  </a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9 order-lg-1">
+      <div class="document-content">
+        
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
+        <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
     <div class="kapitel"><a href="#kap0--rubrik">Idrottsrörelsens verksamhetsidé</a></div>
@@ -91,6 +88,8 @@
     <div class="paragraf"><a href="#kap7-p3">3 § Budget och verksamhetsplan</a></div>
     <div class="paragraf"><a href="#kap7-p4">4 § Återrapportering</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2 class="kapitel"><a id="kap0--rubrik"></a>Idrottsrörelsens verksamhetsidé</h2>
     <h3 class="paragraf"><a id="kap0-p1"></a>Definition</h3>
     <p>Idrott är fysisk aktivitet som människor utför för att få motion och rekreation eller uppnå tävlingsresultat.</p>
@@ -332,6 +331,68 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#kap0--rubrik">Idrottsrörelsens verksamhetsidé</a>
+            <a class="nav-link subsection" href="#kap0-p1">Definition</a>
+            <a class="nav-link subsection" href="#kap0-p2">Mål och inriktning</a>
+            <a class="nav-link" href="#kap1--rubrik">1 kap Allmänna bestämmelser</a>
+            <a class="nav-link subsection" href="#kap1-p1">1 § Ändamål</a>
+            <a class="nav-link subsection" href="#kap1-p2">2 § Föreningens namn m.m</a>
+            <a class="nav-link subsection" href="#kap1-p3">3 § Sammansättning, tillhörighet m.m</a>
+            <a class="nav-link subsection" href="#kap1-p4">4 § Beslutande organ</a>
+            <a class="nav-link subsection" href="#kap1-p5">5 § Verksamhets- och räkenskapsår</a>
+            <a class="nav-link subsection" href="#kap1-p6">6 § Firmateckning</a>
+            <a class="nav-link subsection" href="#kap1-p7">7 § Stadgeändring</a>
+            <a class="nav-link subsection" href="#kap1-p8">8 § Tvist/skiljeklausul</a>
+            <a class="nav-link subsection" href="#kap1-p9">9 § Upplösning av föreningen</a>
+            <a class="nav-link" href="#kap2--rubrik">2 kap Föreningens medlemmar</a>
+            <a class="nav-link subsection" href="#kap2-p1">1 § Medlemskap</a>
+            <a class="nav-link subsection" href="#kap2-p2">2 § Medlems skyldigheter och rättigheter</a>
+            <a class="nav-link subsection" href="#kap2-p3">3 § Medlems deltagande i tävlingsverksamhet</a>
+            <a class="nav-link subsection" href="#kap2-p4">4 § Utträde</a>
+            <a class="nav-link subsection" href="#kap2-p5">5 § Uteslutning m.m.</a>
+            <a class="nav-link subsection" href="#kap2-p6">6 § Överklagande</a>
+            <a class="nav-link subsection" href="#kap2-p7">7 § Medlemskapets upphörande</a>
+            <a class="nav-link" href="#kap3--rubrik">3 kap Årsmöte</a>
+            <a class="nav-link subsection" href="#kap3-p1">1 § Tidpunkt och kallelse</a>
+            <a class="nav-link subsection" href="#kap3-p2">2 § Förslag till ärenden att behandlas av årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p3">3 § Sammansättning och beslutförhet</a>
+            <a class="nav-link subsection" href="#kap3-p4">4 § Rösträtt samt yttrande- och förslagsrätt på årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p5">5 § Ärenden vid årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p6">6 § Valbarhet</a>
+            <a class="nav-link subsection" href="#kap3-p7">7 § Extra årsmöte</a>
+            <a class="nav-link subsection" href="#kap3-p8">8 § Beslut och omröstning</a>
+            <a class="nav-link subsection" href="#kap3-p9">9 § Ikraftträdande</a>
+            <a class="nav-link" href="#kap4--rubrik">4 kap Valberedning</a>
+            <a class="nav-link subsection" href="#kap4-p1">1 § Sammansättning</a>
+            <a class="nav-link subsection" href="#kap4-p2">2 § Åligganden</a>
+            <a class="nav-link" href="#kap5--rubrik">5 kap Revision</a>
+            <a class="nav-link subsection" href="#kap5-p1">1 § Revisorer och revision</a>
+            <a class="nav-link" href="#kap6--rubrik">6 kap Styrelsen</a>
+            <a class="nav-link subsection" href="#kap6-p1">1 § Sammansättning</a>
+            <a class="nav-link subsection" href="#kap6-p2">2 § Styrelsens åligganden</a>
+            <a class="nav-link subsection" href="#kap6-p3">3 § Kallelse, beslutförhet och omröstning</a>
+            <a class="nav-link subsection" href="#kap6-p4">4 § Överlåtelse av beslutanderätten</a>
+            <a class="nav-link" href="#kap7--rubrik">7 kap Övriga föreningsorgan</a>
+            <a class="nav-link subsection" href="#kap7-p1">1 § Kommittéer, arbetsgrupper och andra underliggande föreningsorgan</a>
+            <a class="nav-link subsection" href="#kap7-p2">2 § Instruktioner</a>
+            <a class="nav-link subsection" href="#kap7-p3">3 § Budget och verksamhetsplan</a>
+            <a class="nav-link subsection" href="#kap7-p4">4 § Återrapportering</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

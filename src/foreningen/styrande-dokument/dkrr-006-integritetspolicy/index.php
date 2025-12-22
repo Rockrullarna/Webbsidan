@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-006 Integritetspolicy - Styrande dokument - Föreningen";
   $header_description = "Du ska kunna känna dig trygg med att vår ideella förening behandlar dina personuppgifter korrekt";
 
@@ -9,31 +9,35 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-006 Integritetspolicy</span>
-    </div>
-    <h1>
-      DKRR-006 Integritetspolicy - DK Rockrullarna
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
-    </div>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
-      </a>
-    </p>
-    <style>
-      div.section {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.subsection {
-        padding-left:4em;
-      }
-    </style>
-    <div>
+<link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+<script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
+
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-006 Integritetspolicy</span>
+</div>
+
+<h1>DKRR-006 Integritetspolicy - DK Rockrullarna</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+</div>
+
+<p>
+  Öppna dokumentet i nytt fönster: <br />
+  <a href="../DKRR-006-Integritetspolicy_v1.0.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-006-Integritetspolicy_v1.0.pdf
+  </a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9 order-lg-1">
+      <div class="document-content">
+        
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
+        <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
     <div class="section"><a href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a></div>
@@ -44,6 +48,8 @@
     <div class="subsection"><a href="#rattigheter">Vilka rättigheter har du?</a></div>
     <div class="section"><a href="#veta-mera">Om du vill veta mera</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2><a id="parter"></a>Parter och ansvar för behandlingen av dina personuppgifter</h2>
     <p>Dansklubben Rockrullarna, 875001-4147, Vaktelvägen 2, 703 48 Örebro (nedan kallad föreningen) är personuppgiftsansvarig för behandlingen av personuppgifter som sker inom ramen för föreningens verksamhet.</p>
     <p>Föreningen har som ändamål att bedriva idrottslig verksamhet i enlighet med ”Idrottsrörelsens verksamhetsidé, vision och värdegrund”.</p>
@@ -240,7 +246,7 @@
       <p><span>Om behandlingen sker för direktmarknadsföring och du motsätter sig att uppgifterna behandlas</span></p>
       </li>
       <li>
-      <p><span>Om du motsätter sig personuppgiftsbehandling som sker inom ramen för myndighetsutövning eller efter en intresseavvägning och det inte finns berättigade skäl som väger tyngre än dina intressen</span></p>
+      <p><span>Om du motsätter dig personuppgiftsbehandling som sker inom ramen för myndighetsutövning eller efter en intresseavvägning och det inte finns berättigade skäl som väger tyngre än dina intressen</span></p>
       </li>
       <li>
       <p><span>Om personuppgifterna har behandlats olagligt</span></p>
@@ -261,6 +267,29 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
+            <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
+            <a class="nav-link subsection" href="#delar">Vilka delar vi personuppgifter med?</a>
+            <a class="nav-link subsection" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
+            <a class="nav-link subsection" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
+            <a class="nav-link subsection" href="#rattigheter">Vilka rättigheter har du?</a>
+            <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

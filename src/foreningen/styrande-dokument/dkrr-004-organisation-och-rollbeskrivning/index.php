@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-004 Organisation och rollbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att förstå roller och ansvar inom verksamheten";
 
@@ -9,98 +9,38 @@
 
   include_once '../../../includes/header.php'
   ?>
-      <div id="BreadCrumbsDiv">
-        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-004 Organisation och rollbeskrivning</span>
-    </div>
-    <h1>
-      DKRR-004 Organisation och rollbeskrivning
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
-    </div>
-    <p>Syftet med organisation och rollbeskrivning är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka roller och fördelning av ansvar mellan dessa roller inom verksamheten.</p>
-    <p>Organisation och rollbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
-    <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-004-Organisation-och-rollbeskrivning_v1.0.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-004 Organisation och rollbeskrivning_v1.0.pdf
-      </a>
-    </p>
-    <style>
-      div.kapitel {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.section {
-        padding-left:4em;
-      }
-      h2.kapitel {
-        font-size: x-large;
-        font-weight: bold;
-      }
-      h3.section {
-        font-weight: bold;
-      }
-      h5 {
-        font-weight: bold;
-        font-size: 1em;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-      }
-      table.org-table {
-        border-collapse: collapse;
-        width: 100%;
-        margin: 20px 0;
-      }
-      table.org-table th,
-      table.org-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      table.org-table th {
-        background-color: #00abd6;
-        color: white;
-        font-weight: bold;
-      }
-      .version-table {
-        border-collapse: collapse;
-        width: 100%;
-        margin: 20px 0;
-      }
-      .version-table th,
-      .version-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      .version-table th {
-        background-color: #00abd6;
-        color: white;
-        font-weight: bold;
-      }
-      
-      /* Dark mode support */
-      [data-bs-theme="dark"] table.org-table th,
-      [data-bs-theme="dark"] .version-table th {
-        background-color: #00abd6;
-        color: white;
-      }
-      
-      [data-bs-theme="dark"] table.org-table td,
-      [data-bs-theme="dark"] .version-table td {
-        background-color: #1a1a1a;
-        color: #e0e0e0;
-        border-color: #444;
-      }
-      
-      [data-bs-theme="dark"] table.org-table,
-      [data-bs-theme="dark"] .version-table {
-        border-color: #444;
-      }
-    </style>
-    <div>
+  <link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+  <script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
+  
+  <div id="BreadCrumbsDiv">
+    <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-004 Organisation och rollbeskrivning</span>
+  </div>
+  
+  <h1>DKRR-004 Organisation och rollbeskrivning</h1>
+  
+  <div class="version-info">
+    <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2025-12-10
+  </div>
+  
+  <p>Syftet med organisation och rollbeskrivning är att beskriva den verksamhet som bedrivs av Dansklubben Rockrullarna. Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka roller och fördelning av ansvar mellan dessa roller inom verksamheten.</p>
+  <p>Organisation och rollbeskrivning ses över minst en gång per år och uppdateras vid behov.</p>
+  <p>Styrelsen tar tacksamt emot synpunkter på innehållet. <br />Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
+  <p>
+    Öppna dokumentet i nytt fönster: <br />
+    <a href="../DKRR-004-Organisation-och-rollbeskrivning_v1.0.pdf">
+      <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-004 Organisation och rollbeskrivning_v1.0.pdf
+    </a>
+  </p>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <!-- Main Content with Scrollspy -->
+      <div class="col-lg-9 order-lg-1">
+        <div class="document-content">
+          
+          <!-- In-document TOC - only visible on mobile -->
+          <div class="document-toc">
+          <div>
     <h1>Innehållsförteckning</h1>
     </div>
     <div class="kapitel"><a href="#kap1">1 Inledning</a></div>
@@ -120,6 +60,7 @@
     <div class="section"><a href="#kap4-7">4.7 Festkommitté</a></div>
     <div class="section"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
     <p>&nbsp;</p>
+          </div><!-- end document-toc -->
 
     <h2 class="kapitel"><a id="kap1"></a>1 Inledning</h2>
     <h3 class="section"><a id="kap1-1"></a>1.1 Bakgrund</h3>
@@ -645,6 +586,38 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#kap1">1 Inledning</a>
+            <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
+            <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
+            <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+            <a class="nav-link subsection" href="#kap1-4">1.4 Avgränsningar</a>
+            <a class="nav-link" href="#kap2">2 Organisation</a>
+            <a class="nav-link" href="#kap3">3 Gemensamma riktlinjer och förväntningar</a>
+            <a class="nav-link" href="#kap4">4 Roll- och uppdragsbeskrivning</a>
+            <a class="nav-link subsection" href="#kap4-1">4.1 Styrelse</a>
+            <a class="nav-link subsection" href="#kap4-2">4.2 Valberedning</a>
+            <a class="nav-link subsection" href="#kap4-3">4.3 Revisor</a>
+            <a class="nav-link subsection" href="#kap4-4">4.4 Danskommitté</a>
+            <a class="nav-link subsection" href="#kap4-5">4.5 Ungdomskommitté</a>
+            <a class="nav-link subsection" href="#kap4-6">4.6 Teknikkommitté</a>
+            <a class="nav-link subsection" href="#kap4-7">4.7 Festkommitté</a>
+            <a class="nav-link subsection" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>

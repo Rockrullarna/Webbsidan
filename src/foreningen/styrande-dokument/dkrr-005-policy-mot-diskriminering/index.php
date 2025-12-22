@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-005 Policy mot diskriminering - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förening ska vara en trygg plats för alla! Därav ska INGEN kränkas eller särbehandlas";
 
@@ -9,31 +9,35 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-005 Policy mot diskriminering</span>
-    </div>
-    <h1>
-      DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling
-    </h1>
-    <div class="version-info">
-      <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2020-10-14
-    </div>
-    <p>
-      Öppna dokumentet i nytt fönster: <br />
-      <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
-        <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
-      </a>
-    </p>
-    <style>
-      div.section {
-        padding-left:2em;
-        font-weight: bold;
-      }
-      div.subsection {
-        padding-left:4em;
-      }
-    </style>
-    <div>
+<link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+<script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
+
+<div id="BreadCrumbsDiv">
+  <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-005 Policy mot diskriminering</span>
+</div>
+
+<h1>DKRR-005 Policy mot diskriminering, sexuella trakasserier och kränkande särbehandling</h1>
+
+<div class="version-info">
+  <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2020-10-14
+</div>
+
+<p>
+  Öppna dokumentet i nytt fönster: <br />
+  <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
+  </a>
+</p>
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- Main Content with Scrollspy -->
+    <div class="col-lg-9 order-lg-1">
+      <div class="document-content">
+        
+        <!-- In-document TOC - only visible on mobile -->
+        <div class="document-toc">
+        <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
     <div class="section"><a href="#syfte">Syfte</a></div>
@@ -46,6 +50,8 @@
     <div class="section"><a href="#handlingsplan-individ">Handlingsplan individ</a></div>
     <div class="section"><a href="#handlingsplan-styrelse">Handlingsplan styrelse</a></div>
     <p>&nbsp;</p>
+        </div><!-- end document-toc -->
+        
     <h2><a id="syfte"></a>Syfte</h2>
     <p>Dansklubben Rockrullarna ska vara en plats där alla kan vara sig själva och känna sig trygga. Vi ska respektera varandra, våra olikheter och vara en förening som välkomnar alla.</p>
     <p>Syftet med denna policy är att för föreningens medlemmar informera om:</p>
@@ -129,6 +135,31 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+        
+        </div><!-- end scrollspy content -->
+      </div><!-- end col-lg-9 order-lg-1 -->
+      
+      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <div class="col-lg-3 order-lg-2 d-none d-lg-block">
+        <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#syfte">Syfte</a>
+            <a class="nav-link" href="#mal">Mål</a>
+            <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
+            <a class="nav-link subsection" href="#mobbing">Mobbing/kränkande behandling</a>
+            <a class="nav-link subsection" href="#trakasserier">Trakasserier/diskriminering</a>
+            <a class="nav-link subsection" href="#sexuella-trakasserier">Sexuella trakasserier</a>
+            <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
+            <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
+            <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>
+          </nav>
+        </nav>
+      </div><!-- end col-lg-3 order-lg-2 -->
+      
+    </div><!-- end row -->
+  </div><!-- end container-fluid -->
+
 <?php
   include_once '../../../includes/footer.php'
 ?>
