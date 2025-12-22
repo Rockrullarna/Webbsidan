@@ -1,57 +1,61 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * Test för att verifiera att sidor laddas korrekt med query-parametrar från Facebook-länkar
- * Issue: Bug: Kan inte navigera till sidor från Facebook-länkar med query-strings (t.ex. fbclid)
+ * Test to verify that pages load correctly with query parameters from Facebook links
+ * Issue: Bug: Cannot navigate to pages from Facebook links with query-strings (e.g. fbclid)
  */
-test.describe('Facebook-länk med query-string', () => {
-  test('Fragor och Svar-sidan laddas korrekt med fbclid parameter', async ({ page, baseURL }) => {
-    // Simulera en Facebook-länk med fbclid parameter (case-sensitive)
-    const testUrl = `${baseURL}/kontakt/fragor-och-svar/?fbclid=IwY2xjawO2pa9leHRuA2FlbQIxMABicmlkETFsUnZPMEFFQlN4RmEwU1VVc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHukF5wAZa9NUzfzAimcxsTZ4OORUpfqEStomTUe9S166afGf5sXIXWIKRYdL`;
+
+// Representative Facebook click ID for testing (case-sensitive)
+const SAMPLE_FBCLID = 'IwY2xjawO2pa9leHRuA2FlbQIxMABicmlkETFsUnZPMEFFQlN4RmEwU1VVc3J0YwZhcHBfaWQ';
+
+test.describe('Facebook link with query-string', () => {
+  test('FAQ page loads correctly with fbclid parameter', async ({ page, baseURL }) => {
+    // Simulate a Facebook link with fbclid parameter (case-sensitive)
+    const testUrl = `${baseURL}/kontakt/fragor-och-svar/?fbclid=${SAMPLE_FBCLID}`;
     
     const response = await page.goto(testUrl);
     
-    // Verifiera att sidan laddar korrekt (200 OK)
+    // Verify that the page loads correctly (200 OK)
     expect(response?.status()).toBe(200);
     
-    // Verifiera att vi inte omdirigeras (fbclid ska behålla sitt case)
+    // Verify that we are not redirected (fbclid should keep its case)
     const finalUrl = page.url();
-    expect(finalUrl).toContain('fbclid=IwY2xjawO2pa9leHRuA2FlbQIxMABicmlkETFsUnZPMEFFQlN4RmEwU1VVc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHukF5wAZa9NUzfzAimcxsTZ4OORUpfqEStomTUe9S166afGf5sXIXWIKRYdL');
+    expect(finalUrl).toContain(`fbclid=${SAMPLE_FBCLID}`);
     
-    // Verifiera att sidinnehållet laddas (inte en svart ruta)
+    // Verify that page content loads (not a black screen)
     await expect(page.locator('h1')).toContainText('Vanliga frågor och svar');
     
-    // Verifiera title via page.title() istället för locator
+    // Verify title via page.title() instead of locator
     const title = await page.title();
     expect(title).toContain('Frågor och svar');
   });
 
-  test('Startsidan laddas korrekt med fbclid och andra parametrar', async ({ page, baseURL }) => {
+  test('Homepage loads correctly with fbclid and other parameters', async ({ page, baseURL }) => {
     const testUrl = `${baseURL}/?fbclid=TestValue123&utm_source=facebook&utm_medium=social`;
     
     const response = await page.goto(testUrl);
     expect(response?.status()).toBe(200);
     
-    // Verifiera att query-parametrarna behåller sitt case
+    // Verify that query parameters keep their case
     const finalUrl = page.url();
     expect(finalUrl).toContain('fbclid=TestValue123');
     expect(finalUrl).toContain('utm_source=facebook');
     
-    // Verifiera att sidinnehållet laddas
+    // Verify that page content loads
     await expect(page.locator('h1')).toContainText('Dansklubben Rockrullarna');
   });
 
-  test.skip('Uppercase i path omdirigeras men query-string behåller case', async ({ page, baseURL }) => {
-    // SKIP: PHP-serverns filsystem är case-insensitive på denna plattform
-    // Detta test fungerar i produktion med Apache på case-sensitive system
+  test.skip('Uppercase in path redirects but query-string keeps case', async ({ page, baseURL }) => {
+    // SKIP: PHP server's filesystem is case-insensitive on this platform
+    // This test works in production with Apache on case-sensitive system
     
-    // Test med uppercase path men case-sensitive query parameter
+    // Test with uppercase path but case-sensitive query parameter
     const testUrl = `${baseURL}/Kontakt/Fragor-Och-Svar/?fbclid=TestValue123`;
     
     const response = await page.goto(testUrl);
     expect(response?.status()).toBe(200);
     
-    // Path ska vara lowercase men query ska behålla sitt case
+    // Path should be lowercase but query should keep its case
     const finalUrl = page.url();
     expect(finalUrl).toContain('/kontakt/fragor-och-svar/');
     expect(finalUrl).toContain('fbclid=TestValue123'); // Case preserved

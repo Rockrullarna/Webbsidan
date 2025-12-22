@@ -79,6 +79,12 @@
         
         // Split the URI into path and query string
         $parts = parse_url($request_uri);
+        
+        // Handle malformed URLs gracefully
+        if ($parts === false) {
+            return;
+        }
+        
         $path = isset($parts['path']) ? $parts['path'] : '';
         $query = isset($parts['query']) ? '?' . $parts['query'] : '';
         
