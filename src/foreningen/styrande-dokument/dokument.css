@@ -1,4 +1,4 @@
-/* Common styles for governing documents (DKRR-001 to DKRR-006) */
+﻿/* Common styles for governing documents (DKRR-001 to DKRR-006) */
 
 /* Table of contents styling */
 div.kapitel {
@@ -92,22 +92,45 @@ table.arshjul-table th,
 /* In-document table of contents - only visible on mobile */
 .document-toc {
   margin-bottom: 2rem;
+  display: block;
 }
 
+/* Hide inline TOC on desktop (lg and up) */
 @media (min-width: 992px) {
   .document-toc {
-    display: none;
+    display: none !important;
+    visibility: hidden !important;
   }
 }
 
 /* Scrollspy Navigation */
 .document-scrollspy-nav {
+  position: -webkit-sticky;
   position: sticky;
-  top: 80px;
+  top: 70px;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 1rem;
   background-color: var(--bs-secondary-bg, #f8f9fa);
   border-radius: 0.375rem;
   border: 1px solid var(--bs-border-color, #dee2e6);
+  z-index: 100;
+}
+
+/* Scrollspy heading */
+.scrollspy-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #00abd6;
+  color: var(--bs-heading-color, #333);
+}
+
+[data-bs-theme="dark"] .scrollspy-heading {
+  color: var(--bs-heading-color, #e0e0e0);
+  border-bottom-color: #00abd6;
 }
 
 .document-scrollspy-nav .nav {
@@ -115,11 +138,14 @@ table.arshjul-table th,
 }
 
 .document-scrollspy-nav .nav-link {
-  padding: 0.25rem 0.5rem;
+  padding: 0.15rem 0.5rem;
+  margin: 0;
   color: var(--bs-body-color);
   border-left: 2px solid transparent;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
   transition: all 0.2s;
+  text-decoration: none;
 }
 
 .document-scrollspy-nav .nav-link:hover {
@@ -134,27 +160,52 @@ table.arshjul-table th,
   background-color: var(--bs-tertiary-bg, #e9ecef);
 }
 
+/* Indent subsections (1.1, 1.2, etc) */
 .document-scrollspy-nav .nav-link.subsection {
   padding-left: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
+}
+
+/* Scrollbar styling for scrollspy nav */
+.document-scrollspy-nav::-webkit-scrollbar {
+  width: 5px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-track {
+  background: var(--bs-secondary-bg, #f8f9fa);
+  border-radius: 3px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-thumb {
+  background: #00abd6;
+  border-radius: 3px;
+}
+
+.document-scrollspy-nav::-webkit-scrollbar-thumb:hover {
+  background: #0088ad;
+}
+
+/* Dark mode scrollbar */
+[data-bs-theme="dark"] .document-scrollspy-nav::-webkit-scrollbar-track {
+  background: #1a1a1a;
 }
 
 /* Hide scrollspy on mobile */
 @media (max-width: 991.98px) {
   .document-scrollspy-nav {
-    display: none;
+    display: none !important;
   }
 }
 
 /* Document content area */
 .document-content {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 
 .document-content h2[id],
 .document-content h3[id],
 .document-content h4[id] {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 
 /* Arshjul specific styles */

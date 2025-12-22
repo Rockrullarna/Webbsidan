@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-001 Verksamhetsbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Verksamhetsbeskrivning ska kunna användas av föreningens medlemmar för att besvara vanligt förekommande frågor samt att ge information om vilka riktlinjer och policys som gäller för verksamheten";
 
@@ -9,7 +9,8 @@
 
   include_once '../../../includes/header.php'
   ?>
-  <link rel="stylesheet" href="../dokument.css" />
+  <link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+  <script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
   
   <div id="BreadCrumbsDiv">
     <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-001 Verksamhetsbeskrivning</span>
@@ -29,9 +30,9 @@
 
   <div class="container-fluid mt-4">
     <div class="row">
-      <!-- Main Content with Scrollspy -->
+      <!-- Main Content -->
       <div class="col-lg-9 order-lg-1">
-        <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
+        <div class="document-content">
           
           <!-- In-document TOC - only visible on mobile -->
           <div class="document-toc">
@@ -649,7 +650,7 @@
     <p>Föreningen bekostar kläder för följande roller:</p>
     <ul>
       <li>Tränare: Två (2) t-shirts.</li>
-      <li>Assistenter: Två (2) t-shirts.</li>
+           <li>Assistenter: Två (2) t-shirts.</li>
       <li>Tävlingsdansare: En (2) hood-tröja.</li>
       <li>Tävlingsdansare med licens i annan förening: Får köpa en (1) hood-tröja för halva priset när den tävlar tillsammans med licensdansare från Rockrullarna. Trasig eller borttappad hood-tröja ersätts ej av föreningen.</li>
     </ul>
@@ -818,9 +819,10 @@
         </div><!-- end scrollspy content -->
       </div><!-- end col-lg-9 order-lg-1 -->
       
-      <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
+      <!-- Sidebar Navigation for Scrollspy - RIGHT SIDE on large screens -->
       <div class="col-lg-3 order-lg-2 d-none d-lg-block">
         <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#kap1">1 Inledning</a>
             <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
