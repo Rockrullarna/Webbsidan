@@ -1,4 +1,4 @@
-  </main>
+﻿  </main>
   <footer class="container-md">
     <hr />
     <div class="row">
@@ -90,7 +90,7 @@
               }
             ?>
         </a><br />
-        <a href="https://rockrullarna.se/kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
+        <a href="/kontakt" title="Visa sidan med kontaktinformation">Se all kontaktinformation</a>
       </div>
     </div>
     <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
