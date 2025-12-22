@@ -1,0 +1,17 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Preserve query strings when rewriting
+RewriteOptions Inherit
+
+# If the request is for a directory and index.php exists in that directory,
+# serve the index.php file
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.php -f
+RewriteRule ^(.*)$ $1/index.php [QSA,L]
+
+# If accessing a directory with a trailing slash and index.php exists,
+# serve the index.php file
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}index.php -f
+RewriteRule ^(.*)/$ $1/index.php [QSA,L]
