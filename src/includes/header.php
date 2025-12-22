@@ -76,7 +76,21 @@
   <?php
     function redirectToLowercase() {
         $request_uri = $_SERVER['REQUEST_URI'];
-        $lowercase_uri = strtolower($request_uri);
+        
+        // Split the URI into path and query string
+        $parts = parse_url($request_uri);
+        
+        // Handle malformed URLs gracefully
+        if ($parts === false) {
+            return;
+        }
+        
+        $path = isset($parts['path']) ? $parts['path'] : '';
+        $query = isset($parts['query']) ? '?' . $parts['query'] : '';
+        
+        // Only lowercase the path, preserve query string case
+        $lowercase_path = strtolower($path);
+        $lowercase_uri = $lowercase_path . $query;
 
         if ($request_uri !== $lowercase_uri) {
             header('HTTP/1.1 301 Moved Permanently');
