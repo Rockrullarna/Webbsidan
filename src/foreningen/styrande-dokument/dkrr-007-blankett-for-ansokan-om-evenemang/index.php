@@ -18,6 +18,11 @@
     <div class="version-info">
       <strong>Version:</strong> 1.0 | <strong>Fastställd:</strong> 2021-01-29
     </div>
+    
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="images/blankett-logo.jpg" alt="DKRR Blankett logotyp" style="max-width: 300px; height: auto;" />
+    </div>
+    
     <p>
       På denna sida visas våra blanketter för olika ändamål. <br />
       (DKRR-007 , finns även som digitalt formulär på sidan: <a href="/kontakt/skicka-arende-eller-fraga/Ansokan-om-evenemang" title="Ansökan om evenemang">Ansökan om evenemang</a>)

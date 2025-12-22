@@ -100,6 +100,11 @@
     <p><span>Ordningsstörningar och otillåten påverkan</span></p>
     </li>
     </ul>
+    
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="images/integritet-diagram.png" alt="Integritetspolicy översikt" style="max-width: 300px; height: auto;" />
+    </div>
+    
     <h3> </h3>
     <h3><a id="delar"></a><strong>Vilka delar vi personuppgifter med?</strong></h3>
     <p>Uppgifterna kommer inte att överföras till tredje land och dina personuppgifter kommer inte att utsättas för automatiserat beslutsfattande.</p>
