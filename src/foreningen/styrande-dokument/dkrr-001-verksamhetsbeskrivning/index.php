@@ -664,7 +664,7 @@
     <p>Typsnittet som används är "Bernhard Antique D OT Condensed" och färgen är i enlighet med kapitel 15.2.</p>
     
     <div style="text-align: center; margin: 20px 0;">
-      <img src="images/organisationsdiagram.png" alt="Dansklubben Rockrullarna logotyp" style="max-width: 400px; height: auto;" />
+      <img src="./images/organisationsdiagram.png" alt="Dansklubben Rockrullarna logotyp" style="max-width: 400px; height: auto;" />
     </div>
 
     <h3 class="avsnitt"><a id="kap15-2"></a>15.2 Färg</h3>
@@ -677,7 +677,7 @@
     </ul>
     
     <div style="text-align: center; margin: 20px 0;">
-      <img src="images/grafisk-profil.png" alt="Föreningens färgprofil" style="max-width: 300px; height: auto;" />
+      <img src="./images/grafisk-profil.png" alt="Föreningens färgprofil" style="max-width: 300px; height: auto;" />
     </div>
 
     <h3 class="avsnitt"><a id="kap15-3"></a>15.3 Format och typsnitt</h3>
@@ -712,7 +712,7 @@
     </ul>
     
     <div style="text-align: center; margin: 20px 0;">
-      <img src="images/grafisk-profil-exempel.png" alt="Exempel på typsnitt och format" style="max-width: 300px; height: auto;" />
+      <img src="./images/grafisk-profil-exempel.png" alt="Exempel på typsnitt och format" style="max-width: 300px; height: auto;" />
     </div>
 
     <h3 class="avsnitt"><a id="kap15-4"></a>15.4 Föreningsrelaterade kläder och associerar</h3>
@@ -783,8 +783,8 @@
     <p>Medlemmar i DK Rockrullarna har möjlighet att köpa föreningsrelaterade kläder och accessoarer. Viss materiel, såsom T-shirts finnas direkt tillgänglig vid receptionen medan annan materiel eventuellt måste beställas. Information om aktuellt utbud finns vid receptionen.</p>
 
     <div style="text-align: center; margin: 20px 0;">
-      <img src="images/formationsbilder-1.png" alt="Föreningskläder och accessoarer - del 1" style="max-width: 300px; height: auto; margin: 0 10px;" />
-      <img src="images/formationsbilder-2.png" alt="Föreningskläder och accessoarer - del 2" style="max-width: 300px; height: auto; margin: 0 10px;" />
+      <img src="./images/formationsbilder-1.png" alt="Föreningskläder och accessoarer - del 1" style="max-width: 300px; height: auto; margin: 0 10px;" />
+      <img src="./images/formationsbilder-2.png" alt="Föreningskläder och accessoarer - del 2" style="max-width: 300px; height: auto; margin: 0 10px;" />
     </div>
 
     <p>&nbsp;</p>

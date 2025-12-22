@@ -99,11 +99,6 @@
     <p>Idrott skall utformas och organiseras så, att den i någon form blir tillgänglig för alla och kan ge välja utövare tillfredställelse med hänsyn till var och ens värderingar.</p>
     <p>Idrott skall organiseras enligt demokratiska principer, varvid individuellt inflytande och ansvarstagande eftersträvas i gemensamma angelägenheter.</p>
     <p>Idrott skall verka som internationellt kontaktmedel och respektera alla människors lika värde.</p>
-    
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="images/idrottsrorelse-struktur.png" alt="Idrottsrörelsens struktur" style="max-width: 300px; height: auto;" />
-    </div>
-    
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

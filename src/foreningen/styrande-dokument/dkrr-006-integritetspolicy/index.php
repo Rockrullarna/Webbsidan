@@ -101,15 +101,11 @@
     </li>
     </ul>
     
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="images/integritet-diagram.png" alt="Integritetspolicy översikt" style="max-width: 300px; height: auto;" />
-    </div>
-    
-    <h3> </h3>
+    <p>&nbsp;</p>
     <h3><a id="delar"></a><strong>Vilka delar vi personuppgifter med?</strong></h3>
     <p>Uppgifterna kommer inte att överföras till tredje land och dina personuppgifter kommer inte att utsättas för automatiserat beslutsfattande.</p>
     <p>Om föreningen vid något enstaka tillfälle måste dela dina personuppgifter med tredje land kommer du att informeras särskilt om detta. Det kan exempelvis vara aktuellt när/om du anmäls till tävling i tredje land.</p>
-    <h3> </h3>
+    <p>&nbsp;</p>
     <h3><a id="grund"></a><strong>Vilken laglig grund har vi för personuppgiftsbehandling?</strong></h3>
     <p>Föreningen har nedan sammanställt den lagliga grunden för behandlingen av personuppgifter som sker inom föreningens verksamhet.</p>
     <div>

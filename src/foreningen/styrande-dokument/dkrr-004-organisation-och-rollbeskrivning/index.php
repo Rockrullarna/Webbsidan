@@ -119,11 +119,6 @@
 
     <h2 class="kapitel"><a id="kap2"></a>2 Organisation</h2>
     <p>Tabellen redovisar föreningens organisation, vilka roller som finns samt antal personer per roll.</p>
-    
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="images/organisationsstruktur.png" alt="Organisationsstruktur" style="max-width: 100%; height: auto;" />
-    </div>
-    
     <table class="org-table">
       <tr>
         <th>Organisationskategori</th>

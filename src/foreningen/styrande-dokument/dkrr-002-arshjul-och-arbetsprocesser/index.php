@@ -76,7 +76,7 @@
       <p>Följande avsnitt redovisar vilka aktiviteter som bör genomföras under respektive månad samt vilka roller som bär ansvar för genomförandet.</p>
 
       <div style="text-align: center; margin: 30px 0;">
-        <img src="images/arshjul.png" alt="DKRR Årshjul - översikt av aktiviteter under året" style="max-width: 100%; height: auto;" />
+        <img src="./images/arshjul.png" alt="DKRR Årshjul - översikt av aktiviteter under året" style="max-width: 100%; height: auto;" />
       </div>
 
       <!-- In-document TOC - only visible on mobile -->
