@@ -52,7 +52,7 @@
     <p>&nbsp;</p>
         </div><!-- end document-toc -->
         
-    <h2><a id="syfte"></a>Syfte</h2>
+    <h2><a id="syfte" href="#syfte" class="anchor-link">🔗</a>Syfte</h2>
     <p>Dansklubben Rockrullarna ska vara en plats där alla kan vara sig själva och känna sig trygga. Vi ska respektera varandra, våra olikheter och vara en förening som välkomnar alla.</p>
     <p>Syftet med denna policy är att för föreningens medlemmar informera om:</p>
     <ul>
@@ -61,7 +61,7 @@
       <li>Förebyggande arbete och föreningens mål.</li>
       <li>Redogöra eventuella konsekvenser om policy ej följs.</li>
     </ul>
-    <h2><a id="mal"></a>Mål</h2>
+    <h2><a id="mal" href="#mal" class="anchor-link">🔗</a>Mål</h2>
     <ul>
       <li>Alla medlemmar samt anhöriga till barn/ungdom ska känna att de är i en trygg miljö oavsett om det är i föreningens lokaler, föreningens sidor på sociala medier eller övrig verksamhet som anknyts till Dansklubben Rockrullarna.</li>
       <li>Alla medlemmar samt anhöriga till barn/ungdom ska veta vad diskriminering, sexuellt ofredande, kränkning och särbehandling är.</li>
@@ -70,16 +70,16 @@
       <li>Alla medlemmar samt anhöriga till barn/ungdom ska känna sig trygga i att be om hjälp från andra i föreningen.</li>
       <li>Alla representanter som innehar en ansvarsroll i föreningen ska vara goda föredömen/förebilder.</li>
     </ul>
-    <h2><a id="definitioner"></a>Definitioner och begreppsförklaring</h2>
+    <h2><a id="definitioner" href="#definitioner" class="anchor-link">🔗</a>Definitioner och begreppsförklaring</h2>
     <p>Samtliga definitioner och begreppsförklaringar är hämtade från följande källa:</p>
     <p>Bäck, C., & Magnusson, L. (Normy AB, 2019). <i>Skapa trygga idrottsmiljöer</i> (2019). Stockholm: Riksidrottsförbundet, Form och produktion (Normy AB, 2019).</p>
-    <h3><a id="mobbing"></a>Mobbing/kränkande behandling</h3>
+    <h3><a id="mobbing" href="#mobbing" class="anchor-link">🔗</a>Mobbing/kränkande behandling</h3>
     <p>Mobbning är kränkande behandling som upprepas under en längre tid. Den kan vara fysisk som slag och knuffar men även psykisk, som exempelvis elaka kommentarer, miner och utfrysning. Mobbning definieras och avgörs utifrån den utsattas upplevelser, inte den som utsätter. Att bli mobbad kan innebära Stora själsliga sår som kan sitta i hela livet, både för den som utsätts och för de som står personen nära. Mobbning är ett samhällsproblem och kan förekomma i många situationer. Det kan bland annat uppstå i skolan, på arbetsplatsen, inom föreningsidrott och på nätet.</p>
-    <h3><a id="trakasserier"></a>Trakasserier/diskriminering</h3>
+    <h3><a id="trakasserier" href="#trakasserier" class="anchor-link">🔗</a>Trakasserier/diskriminering</h3>
     <p>Trakasserier är en form av diskriminering och ska ha samband med någon av de sju diskriminerings-grunderna: kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion eller annan trosuppfattning, funktionsnedsättning, sexuell läggning och ålder. Det gemensamma för trakasserier är att de gör att en person känner sig förolämpad, hotad, kränkt eller illa behandlad. Trakasserier är ett beteende som är ovälkommet. Det är den som är utsatt för trakasserier som avgör vad som är kränkande. Samma beteende kan uppfattas som trakasserier av en person medan en annan person inte alls behöver bli illa berörd.</p>
-    <h3><a id="sexuella-trakasserier"></a>Sexuella trakasserier</h3>
+    <h3><a id="sexuella-trakasserier" href="#sexuella-trakasserier" class="anchor-link">🔗</a>Sexuella trakasserier</h3>
     <p>Sexuella trakasserier är en form av diskriminering. När en person blir utsatt för kränkande behandling eller bemötande av sexuell natur som kränker den utsattas värdighet och/eller personliga integritet räknas det som sexuella trakasserier. Ett exempel kan vara när en person blir utsatt för fysisk beröring, blickar eller kommentarer som personen ifråga själv upplever som kränkande. Många fall av sexuella trakasserier är straffbara enligt paragraferna i sexualbrottslagstiftningen.</p>
-    <h2><a id="forebyggande"></a>Förebyggande arbete</h2>
+    <h2><a id="forebyggande" href="#forebyggande" class="anchor-link">🔗</a>Förebyggande arbete</h2>
     <ul>
       <li>Föreningen erbjuder värdegrundsutbildning till alla med ledarfunktion.</li>
       <li>Informationsspridning och tillgänglighet av detta dokument via ledare, sociala media och hemsida.</li>
@@ -92,7 +92,7 @@
       </li>
       <li>Samtliga tränare genomgår kontroll i Polisens belastningsregister som används som underlag för bedömning av lämplighet till ansvarsroll.</li>
     </ul>
-    <h2><a id="handlingsplan-individ"></a>Handlingsplan individ</h2>
+    <h2><a id="handlingsplan-individ" href="#handlingsplan-individ" class="anchor-link">🔗</a>Handlingsplan individ</h2>
     <p>Vi har alla olika toleransnivåer gällande vart gränsen går för kränkning, diskriminering och sexuella trakasserier. Din nivå kanske ligger högre än andras eller tvärt om? Gränsdragningen sätts alltid hos den person som blir utsatt.</p>
     <p>Nedanstående punkter syftar till att vara vägledande om du blivit utsatt eller om du varit vittne till kränkning, diskriminering, sexuella trakasserier inom föreningens lokaler, föreningens sidor på sociala medier eller övrig verksamhet som anknyts till DK Rockrullarna.</p>
     <p> </p>
@@ -113,7 +113,7 @@
     <p>Vid de tillfällen som en konflikt inte kan lösas eller att du själv inte vill ta konflikten i egna händer, kontakta <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a> alternativt valfri person med ansvarsroll.</p>
     <p>Ditt ärende hanteras alltid i samverkan med dig.</p>
     <p> </p>
-    <h2><a id="handlingsplan-styrelse"></a>Handlingsplan styrelse</h2>
+    <h2><a id="handlingsplan-styrelse" href="#handlingsplan-styrelse" class="anchor-link">🔗</a>Handlingsplan styrelse</h2>
     <ul>
     <li><b>Skaffa en bild av läget</b></li>
     </ul>

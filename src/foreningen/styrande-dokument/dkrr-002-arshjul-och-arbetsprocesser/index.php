@@ -40,19 +40,19 @@
     <div class="col-lg-9 order-lg-1">
       <div class="document-content arshjul-content">
         
-        <h2 id="kap1">1 Inledning</h2>
+        <h2 id="kap1"><a href="#kap1" class="anchor-link">🔗</a>1 Inledning</h2>
       
-      <h3 id="kap1-1">1.1 Bakgrund</h3>
+      <h3 id="kap1-1"><a href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
       <div class="arshjul-intro">
         <p>Dansklubben Rockrullarna (DKRR) startades den 23 oktober 1983. Föreningen bestod då av en grupp vänner i 20- till 30-årsåldern som studerande på Gymnastik och Idrottshuset (GIH) i Örebro. Under 1985 påbörjades kursverksamheten vilka genomfördes med interna tränare. Externa tränare anlitades vid enstaka tillfällen och tränade då en större grupp dansare. År 1984 representerades Rockrullarna på tävlingsdansgolvet i grenarna Bugg, Rock 'n' Roll och Jitterbugg.</p>
         <p>Från 1984 och parallellt med tävlingsdansen har DKRR varit aktivt deltagande i dansuppvisningar och, i perioder, även i formationsdans. Mellan åren 1985 till 1996 har föreningen haft minst en representant i Danssportförbundet, och då i förbunds- eller sektionsstyrelsen. År 1998 beslutade föreningen att hitta en egen lokal och året därpå stod det klart att kursverksamheten skulle äga rum i Haga Centrum där verksamheten bedrivs än idag.</p>
       </div>
 
-      <h3 id="kap1-2">1.2 Syfte</h3>
+      <h3 id="kap1-2"><a href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
       <p>Syftet med detta dokument är att redovisa grundläggande aktiviteter vilka bör genomföras under verksamhetsåret (1 januari till 31 december). Dokumentet ger stöd för den årliga planeringen, till personer som har en ansvarsroll samt ger stöd för uppföljning.</p>
       <p>Dokumentet ses över en gång per år och uppdateras vid behov. Styrelsen tar tacksamt emot synpunkter på innehållet. Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
 
-      <h3 id="kap1-3">1.3 Versionshistorik</h3>
+      <h3 id="kap1-3"><a href="#kap1-3" class="anchor-link">🔗</a>1.3 Versionshistorik</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -72,7 +72,7 @@
         </tbody>
       </table>
 
-      <h2 id="kap2">2 DKRR Årshjul - Aktiviteter</h2>
+      <h2 id="kap2"><a href="#kap2" class="anchor-link">🔗</a>2 DKRR Årshjul - Aktiviteter</h2>
       <p>Följande avsnitt redovisar vilka aktiviteter som bör genomföras under respektive månad samt vilka roller som bär ansvar för genomförandet.</p>
 
       <div style="text-align: center; margin: 30px 0;">
@@ -100,7 +100,7 @@
       </div>
       </div><!-- end document-toc -->
 
-      <h3 id="januari">2.1 Januari</h3>
+      <h3 id="januari"><a href="#januari" class="anchor-link">🔗</a>2.1 Januari</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -187,7 +187,7 @@
         </tbody>
       </table>
 
-      <h3 id="februari">2.2 Februari</h3>
+      <h3 id="februari"><a href="#februari" class="anchor-link">🔗</a>2.2 Februari</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -253,7 +253,7 @@
         </tbody>
       </table>
 
-      <h3 id="mars">2.3 Mars</h3>
+      <h3 id="mars"><a href="#mars" class="anchor-link">🔗</a>2.3 Mars</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -297,7 +297,7 @@
         </tbody>
       </table>
 
-      <h3 id="april">2.4 April</h3>
+      <h3 id="april"><a href="#april" class="anchor-link">🔗</a>2.4 April</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -351,7 +351,7 @@
         </tbody>
       </table>
 
-      <h3 id="maj">2.5 Maj</h3>
+      <h3 id="maj"><a href="#maj" class="anchor-link">🔗</a>2.5 Maj</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -411,7 +411,7 @@
         </tbody>
       </table>
 
-      <h3 id="juni">2.6 Juni</h3>
+      <h3 id="juni"><a href="#juni" class="anchor-link">🔗</a>2.6 Juni</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -449,7 +449,7 @@
         </tbody>
       </table>
 
-      <h3 id="juli">2.7 Juli</h3>
+      <h3 id="juli"><a href="#juli" class="anchor-link">🔗</a>2.7 Juli</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -469,7 +469,7 @@
         </tbody>
       </table>
 
-      <h3 id="augusti">2.8 Augusti</h3>
+      <h3 id="augusti"><a href="#augusti" class="anchor-link">🔗</a>2.8 Augusti</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -541,7 +541,7 @@
         </tbody>
       </table>
 
-      <h3 id="september">2.9 September</h3>
+      <h3 id="september"><a href="#september" class="anchor-link">🔗</a>2.9 September</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -585,7 +585,7 @@
         </tbody>
       </table>
 
-      <h3 id="oktober">2.10 Oktober</h3>
+      <h3 id="oktober"><a href="#oktober" class="anchor-link">🔗</a>2.10 Oktober</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -637,7 +637,7 @@
         </tbody>
       </table>
 
-      <h3 id="november">2.11 November</h3>
+      <h3 id="november"><a href="#november" class="anchor-link">🔗</a>2.11 November</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
@@ -691,7 +691,7 @@
         </tbody>
       </table>
 
-      <h3 id="december">2.12 December</h3>
+      <h3 id="december"><a href="#december" class="anchor-link">🔗</a>2.12 December</h3>
       <table class="arshjul-table">
         <thead>
           <tr>
