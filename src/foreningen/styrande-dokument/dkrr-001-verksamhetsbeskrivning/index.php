@@ -327,6 +327,10 @@
       <li>Lilla salen används för viss kursverksamhet (barn och ungdom) men används primärt som lokal för egen träning. Lilla salen är bokningsbar via hemsidan.</li>
     </ul>
 
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/lokalen-1.png" alt="Bild över lokalen" style="max-width: 300px; height: auto; margin: 0 10px;" />
+    </div>
+
     <h3 class="avsnitt"><a id="kap5-1"></a>5.1 Säkerhetsinformation</h3>
     <p>Samtliga upptäckta brister som kan leda till brand/olycka rapporteras till styrelsen: styrelsen@rockrullarna.se</p>
     
@@ -347,6 +351,10 @@
 
     <p><strong>Samlingsplats vid brand/olycka</strong></p>
     <p>Vid brand/olycka som kräver utrymning är samlingsplatsen på den västra bilparkeringen utanför köpcentrumet. Västra bilparkeringen är den parkering som ligger närmast föreningens lokal.</p>
+
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/lokalen-2.png" alt="Bild över lokalen, med utmärkning av räddningsvägar och brandsläckare" style="max-width: 300px; height: auto; margin: 0 10px;" />
+    </div>
 
     <h3 class="avsnitt"><a id="kap5-2"></a>5.2 Tillträde</h3>
     <p>För att beträda lokalen efter ordinarie verksamhetstid behövs en tagg med personlig kod. Personer som innehar ansvarsroll i föreningen samt personer som ingår i tävlingsverksamheten är berättigade att beträda lokalen efter ordinarie verksamhetstid. Observera att tillgången är begränsad till gallerians öppettider.</p>
@@ -613,7 +621,9 @@
     <ol>
       <li>Öppna e-post från DK Rockrullarna.</li>
       <li>Navigera längst ner i e-posten.</li>
-      <li>Klicka på symbolen näst längs ut till vänster som liknar en ID-handling.</li>
+      <li>Klicka på symbolen näst längs ut till vänster som liknar en ID-handling. <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/medlemsbevis.png" alt="Bild på medlemsbevis" />
+    </div></li>
       <li>Ditt digitala medlemsbevis visas.</li>
     </ol>
 
@@ -664,7 +674,7 @@
     <p>Typsnittet som används är "Bernhard Antique D OT Condensed" och färgen är i enlighet med kapitel 15.2.</p>
     
     <div style="text-align: center; margin: 20px 0;">
-      <img src="./images/organisationsdiagram.png" alt="Dansklubben Rockrullarna logotyp" style="max-width: 400px; height: auto;" />
+      <img src="./images/logotyp.png" alt="Dansklubben Rockrullarna logotyp" style="max-width: 400px; height: auto;" />
     </div>
 
     <h3 class="avsnitt"><a id="kap15-2"></a>15.2 Färg</h3>
@@ -710,10 +720,6 @@
       <li>Fetmarkerad: Nej</li>
       <li>Färg: Svart</li>
     </ul>
-    
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="./images/grafisk-profil-exempel.png" alt="Exempel på typsnitt och format" style="max-width: 300px; height: auto;" />
-    </div>
 
     <h3 class="avsnitt"><a id="kap15-4"></a>15.4 Föreningsrelaterade kläder och associerar</h3>
     <p>Vid framtagande av föreningsrelaterade kläder och accessoarer ska följande riktlinjer eftersträvas:</p>
@@ -781,11 +787,6 @@
 
     <h2 class="kapitel"><a id="kap17"></a>17 Kläder och accessoarer</h2>
     <p>Medlemmar i DK Rockrullarna har möjlighet att köpa föreningsrelaterade kläder och accessoarer. Viss materiel, såsom T-shirts finnas direkt tillgänglig vid receptionen medan annan materiel eventuellt måste beställas. Information om aktuellt utbud finns vid receptionen.</p>
-
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="./images/formationsbilder-1.png" alt="Föreningskläder och accessoarer - del 1" style="max-width: 300px; height: auto; margin: 0 10px;" />
-      <img src="./images/formationsbilder-2.png" alt="Föreningskläder och accessoarer - del 2" style="max-width: 300px; height: auto; margin: 0 10px;" />
-    </div>
 
     <p>&nbsp;</p>
 
