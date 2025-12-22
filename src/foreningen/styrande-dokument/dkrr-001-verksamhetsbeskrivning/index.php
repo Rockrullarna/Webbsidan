@@ -685,10 +685,6 @@
       <li>Hex-värde: #00ABD6</li>
       <li>RGB: 0 171 214</li>
     </ul>
-    
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="./images/grafisk-profil.png" alt="Föreningens färgprofil" style="max-width: 300px; height: auto;" />
-    </div>
 
     <h3 class="avsnitt"><a id="kap15-3" href="#kap15-3" class="anchor-link">🔗</a>15.3 Format och typsnitt</h3>
     <p>Formella dokument som produceras av föreningen ska följa följande format och typsnitt:</p>
