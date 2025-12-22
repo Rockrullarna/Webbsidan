@@ -354,11 +354,38 @@
             <a class="nav-link subsection" href="#kap1-p8">8 § Tvist/skiljeklausul</a>
             <a class="nav-link subsection" href="#kap1-p9">9 § Upplösning av föreningen</a>
             <a class="nav-link" href="#kap2--rubrik">2 kap Föreningens medlemmar</a>
+            <a class="nav-link subsection" href="#kap2-p1">1 § Medlemskap</a>
+            <a class="nav-link subsection" href="#kap2-p2">2 § Medlems skyldigheter och rättigheter</a>
+            <a class="nav-link subsection" href="#kap2-p3">3 § Medlems deltagande i tävlingsverksamhet</a>
+            <a class="nav-link subsection" href="#kap2-p4">4 § Utträde</a>
+            <a class="nav-link subsection" href="#kap2-p5">5 § Uteslutning m.m.</a>
+            <a class="nav-link subsection" href="#kap2-p6">6 § Överklagande</a>
+            <a class="nav-link subsection" href="#kap2-p7">7 § Medlemskapets upphörande</a>
             <a class="nav-link" href="#kap3--rubrik">3 kap Årsmöte</a>
+            <a class="nav-link subsection" href="#kap3-p1">1 § Tidpunkt och kallelse</a>
+            <a class="nav-link subsection" href="#kap3-p2">2 § Förslag till ärenden att behandlas av årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p3">3 § Sammansättning och beslutförhet</a>
+            <a class="nav-link subsection" href="#kap3-p4">4 § Rösträtt samt yttrande- och förslagsrätt på årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p5">5 § Ärenden vid årsmötet</a>
+            <a class="nav-link subsection" href="#kap3-p6">6 § Valbarhet</a>
+            <a class="nav-link subsection" href="#kap3-p7">7 § Extra årsmöte</a>
+            <a class="nav-link subsection" href="#kap3-p8">8 § Beslut och omröstning</a>
+            <a class="nav-link subsection" href="#kap3-p9">9 § Ikraftträdande</a>
             <a class="nav-link" href="#kap4--rubrik">4 kap Valberedning</a>
+            <a class="nav-link subsection" href="#kap4-p1">1 § Sammansättning</a>
+            <a class="nav-link subsection" href="#kap4-p2">2 § Åligganden</a>
             <a class="nav-link" href="#kap5--rubrik">5 kap Revision</a>
+            <a class="nav-link subsection" href="#kap5-p1">1 § Revisorer och revision</a>
             <a class="nav-link" href="#kap6--rubrik">6 kap Styrelsen</a>
+            <a class="nav-link subsection" href="#kap6-p1">1 § Sammansättning</a>
+            <a class="nav-link subsection" href="#kap6-p2">2 § Styrelsens åligganden</a>
+            <a class="nav-link subsection" href="#kap6-p3">3 § Kallelse, beslutförhet och omröstning</a>
+            <a class="nav-link subsection" href="#kap6-p4">4 § Överlåtelse av beslutanderätten</a>
             <a class="nav-link" href="#kap7--rubrik">7 kap Övriga föreningsorgan</a>
+            <a class="nav-link subsection" href="#kap7-p1">1 § Kommittéer, arbetsgrupper och andra underliggande föreningsorgan</a>
+            <a class="nav-link subsection" href="#kap7-p2">2 § Instruktioner</a>
+            <a class="nav-link subsection" href="#kap7-p3">3 § Budget och verksamhetsplan</a>
+            <a class="nav-link subsection" href="#kap7-p4">4 § Återrapportering</a>
           </nav>
         </nav>
       </div><!-- end col-lg-3 order-lg-2 -->

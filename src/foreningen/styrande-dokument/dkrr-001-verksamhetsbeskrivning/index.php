@@ -650,7 +650,7 @@
     <p>Föreningen bekostar kläder för följande roller:</p>
     <ul>
       <li>Tränare: Två (2) t-shirts.</li>
-           <li>Assistenter: Två (2) t-shirts.</li>
+      <li>Assistenter: Två (2) t-shirts.</li>
       <li>Tävlingsdansare: En (2) hood-tröja.</li>
       <li>Tävlingsdansare med licens i annan förening: Får köpa en (1) hood-tröja för halva priset när den tävlar tillsammans med licensdansare från Rockrullarna. Trasig eller borttappad hood-tröja ersätts ej av föreningen.</li>
     </ul>
