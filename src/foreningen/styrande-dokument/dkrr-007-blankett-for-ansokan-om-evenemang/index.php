@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-007 Blankett för ansökan om evenemang - Styrande dokument - Föreningen";
   $header_description = "Här finns våra blanketter som används för olika ändamål";
 

@@ -24,8 +24,8 @@
 
 <p>
   Öppna dokumentet i nytt fönster: <br />
-  <a href="../DKRR-005-Policy-mot-diskriminering_v1.0.pdf">
-    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering_v1.0.pdf
+  <a href="../DKRR-005-Policy-mot-diskriminering-sexuella-trakasserier-och-kränkande-särbehandling_v1.0.pdf">
+    <img src="/filer/bilder/design/extension-pdf.gif" width="18" height="18" /> DKRR-005-Policy-mot-diskriminering-sexuella-trakasserier-och-kränkande-särbehandling_v1.0.pdf
   </a>
 </p>
 

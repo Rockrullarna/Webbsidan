@@ -327,6 +327,10 @@
       <li>Lilla salen används för viss kursverksamhet (barn och ungdom) men används primärt som lokal för egen träning. Lilla salen är bokningsbar via hemsidan.</li>
     </ul>
 
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/lokalen-1.png" alt="Bild över lokalen" style="max-width: 300px; height: auto; margin: 0 10px;" />
+    </div>
+
     <h3 class="avsnitt"><a id="kap5-1" href="#kap5-1" class="anchor-link">🔗</a>5.1 Säkerhetsinformation</h3>
     <p>Samtliga upptäckta brister som kan leda till brand/olycka rapporteras till styrelsen: styrelsen@rockrullarna.se</p>
     
@@ -347,6 +351,10 @@
 
     <p><strong>Samlingsplats vid brand/olycka</strong></p>
     <p>Vid brand/olycka som kräver utrymning är samlingsplatsen på den västra bilparkeringen utanför köpcentrumet. Västra bilparkeringen är den parkering som ligger närmast föreningens lokal.</p>
+
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/lokalen-2.png" alt="Bild över lokalen, med utmärkning av räddningsvägar och brandsläckare" style="max-width: 300px; height: auto; margin: 0 10px;" />
+    </div>
 
     <h3 class="avsnitt"><a id="kap5-2" href="#kap5-2" class="anchor-link">🔗</a>5.2 Tillträde</h3>
     <p>För att beträda lokalen efter ordinarie verksamhetstid behövs en tagg med personlig kod. Personer som innehar ansvarsroll i föreningen samt personer som ingår i tävlingsverksamheten är berättigade att beträda lokalen efter ordinarie verksamhetstid. Observera att tillgången är begränsad till gallerians öppettider.</p>
@@ -613,7 +621,9 @@
     <ol>
       <li>Öppna e-post från DK Rockrullarna.</li>
       <li>Navigera längst ner i e-posten.</li>
-      <li>Klicka på symbolen näst längs ut till vänster som liknar en ID-handling.</li>
+      <li>Klicka på symbolen näst längs ut till vänster som liknar en ID-handling. <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/medlemsbevis.png" alt="Bild på medlemsbevis" />
+    </div></li>
       <li>Ditt digitala medlemsbevis visas.</li>
     </ol>
 
@@ -662,6 +672,10 @@
     <h3 class="avsnitt"><a id="kap15-1" href="#kap15-1" class="anchor-link">🔗</a>15.1 Logotyp</h3>
     <p>Nedan presenteras DK Rockrullarnas logotyp. Logotypen finns digitalt tillgänglig på föreningens intranät.</p>
     <p>Typsnittet som används är "Bernhard Antique D OT Condensed" och färgen är i enlighet med kapitel 15.2.</p>
+    
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/logotyp.png" alt="Dansklubben Rockrullarna logotyp" style="max-width: 400px; height: auto;" />
+    </div>
 
     <h3 class="avsnitt"><a id="kap15-2" href="#kap15-2" class="anchor-link">🔗</a>15.2 Färg</h3>
     <p>Färgen som representerar DK Rockrullarna är turkos och har följande färgkod:</p>
@@ -671,6 +685,10 @@
       <li>Hex-värde: #00ABD6</li>
       <li>RGB: 0 171 214</li>
     </ul>
+    
+    <div style="text-align: center; margin: 20px 0;">
+      <img src="./images/grafisk-profil.png" alt="Föreningens färgprofil" style="max-width: 300px; height: auto;" />
+    </div>
 
     <h3 class="avsnitt"><a id="kap15-3" href="#kap15-3" class="anchor-link">🔗</a>15.3 Format och typsnitt</h3>
     <p>Formella dokument som produceras av föreningen ska följa följande format och typsnitt:</p>
