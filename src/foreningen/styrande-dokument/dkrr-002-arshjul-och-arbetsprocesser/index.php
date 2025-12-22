@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-002 Årshjul och arbetsprocesser - Styrande dokument - Föreningen";
   $header_description = "DKRRs Årshjul används av föreningens medlemmar för att hålla koll på alla de årliga åtaganden vi har inom Rockrullarna";
 
@@ -9,7 +9,8 @@
 
   include_once '../../../includes/header.php'
 ?>
-<link rel="stylesheet" href="../dokument.css" />
+<link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+<script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
 
 <div id="BreadCrumbsDiv">
   <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-002 Årshjul och arbetsprocesser</span>
@@ -37,13 +38,13 @@
   <div class="row">
     <!-- Main Content with Scrollspy -->
     <div class="col-lg-9 order-lg-1">
-      <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content arshjul-content" tabindex="0">
+      <div class="document-content arshjul-content">
         
         <h2 id="kap1">1 Inledning</h2>
       
       <h3 id="kap1-1">1.1 Bakgrund</h3>
       <div class="arshjul-intro">
-        <p>Dansklubben Rockrullarna (DKRR) startades den 23 oktober 1983. Föreningen bestod då av en grupp vänner i 20- till 30-årsåldern som studerande på Gymnastik och Idrottshuset (GIH) i Örebro. Under 1985 påbörjades kursverksamheten vilka genomfördes med interna tränare. Externa tränare anlitades vid enstaka tillfällen och tränade då en större grupp dansare. År 1984 representerandes Rockrullarna på tävlingsdansgolvet i grenarna Bugg, Rock 'n' Roll och Jitterbugg.</p>
+        <p>Dansklubben Rockrullarna (DKRR) startades den 23 oktober 1983. Föreningen bestod då av en grupp vänner i 20- till 30-årsåldern som studerande på Gymnastik och Idrottshuset (GIH) i Örebro. Under 1985 påbörjades kursverksamheten vilka genomfördes med interna tränare. Externa tränare anlitades vid enstaka tillfällen och tränade då en större grupp dansare. År 1984 representerades Rockrullarna på tävlingsdansgolvet i grenarna Bugg, Rock 'n' Roll och Jitterbugg.</p>
         <p>Från 1984 och parallellt med tävlingsdansen har DKRR varit aktivt deltagande i dansuppvisningar och, i perioder, även i formationsdans. Mellan åren 1985 till 1996 har föreningen haft minst en representant i Danssportförbundet, och då i förbunds- eller sektionsstyrelsen. År 1998 beslutade föreningen att hitta en egen lokal och året därpå stod det klart att kursverksamheten skulle äga rum i Haga Centrum där verksamheten bedrivs än idag.</p>
       </div>
 
@@ -771,6 +772,7 @@
     <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
     <div class="col-lg-3 order-lg-2 d-none d-lg-block">
       <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+        <h3 class="scrollspy-heading">Innehållsförteckning</h3>
         <nav class="nav nav-pills flex-column">
           <a class="nav-link" href="#kap1">1 Inledning</a>
           <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>

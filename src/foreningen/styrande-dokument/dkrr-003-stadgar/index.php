@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "DKRR-003 Stadgar - Styrande dokument - Föreningen";
   $header_description = "Vår ideella förenings nuvarande stadgar";
 
@@ -9,7 +9,8 @@
 
   include_once '../../../includes/header.php'
 ?>
-<link rel="stylesheet" href="../dokument.css" />
+<link rel="stylesheet" href="/foreningen/styrande-dokument/dokument.css" />
+<script src="/foreningen/styrande-dokument/scrollspy-fix.js" defer></script>
 
 <div id="BreadCrumbsDiv">
   <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Styrande dokument</a> / <span>DKRR-003 Stadgar</span>
@@ -33,7 +34,7 @@
   <div class="row">
     <!-- Main Content with Scrollspy -->
     <div class="col-lg-9 order-lg-1">
-      <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-smooth-scroll="true" class="document-content" tabindex="0">
+      <div class="document-content">
         
         <!-- In-document TOC - only visible on mobile -->
         <div class="document-toc">
@@ -337,6 +338,7 @@
       <!-- Sidebar Navigation for Scrollspy (hidden on mobile) - RIGHT SIDE -->
       <div class="col-lg-3 order-lg-2 d-none d-lg-block">
         <nav id="navbar-scrollspy" class="document-scrollspy-nav">
+          <h3 class="scrollspy-heading">Innehållsförteckning</h3>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#kap0--rubrik">Idrottsrörelsens verksamhetsidé</a>
             <a class="nav-link subsection" href="#kap0-p1">Definition</a>
