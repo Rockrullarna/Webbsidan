@@ -199,19 +199,53 @@ table.arshjul-table th,
 
 /* Document content area */
 .document-content {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 70px;
 }
 
+/* Scroll offset for headings with direct ID (DKRR-002 Årshjul style) */
 .document-content h2[id],
 .document-content h3[id],
 .document-content h4[id] {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 70px;
+}
+
+/* Scroll offset for headings with anchor link inside (DKRR-001 style) */
+.document-content h2:has(> a[id]),
+.document-content h3:has(> a[id]),
+.document-content h4:has(> a[id]) {
+  scroll-margin-top: 70px;
+}
+
+/* Alternative: Target the anchor itself with negative margin */
+.document-content h2 > a[id],
+.document-content h3 > a[id],
+.document-content h4 > a[id] {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+  height: 0;
 }
 
 /* Also add scroll offset for arshjul content */
 .arshjul-content h2[id],
 .arshjul-content h3[id] {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 70px;
+}
+
+/* Arshjul headings with anchor links inside */
+.arshjul-content h2:has(> a[id]),
+.arshjul-content h3:has(> a[id]) {
+  scroll-margin-top: 70px;
+}
+
+.arshjul-content h2 > a[id],
+.arshjul-content h3 > a[id] {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+  height: 0;
 }
 
 /* Anchor link styling - visible but subtle by default, prominent on hover */
