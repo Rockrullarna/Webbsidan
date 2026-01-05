@@ -863,43 +863,289 @@
 
     <h3 class="section"><a id="kap4-5" href="#kap4-5" class="anchor-link">🔗</a>4.5 Ungdomskommitté</h3>
     <p>Ungdomskommittén arbetar för att väcka dansintresse hos ungdomar och öka engagemanget bland ungdomar i föreningen.</p>
-    <h4>Ekonomiskt ansvar</h4><p> Kassan är begränsad till 30 000 SEK och kan sparas mellan verksamhetsår. Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten.</p>
-    <h4>Roller inkluderar</h4>
+
+    <h4>Ekonomiskt ansvar och befogenheter</h4>
     <ul>
-      <li><strong>Ungdomskommittéansvarig:</strong> Huvudrepresentant och kommunikationslänk mellan styrelse och ungdomskommittén. Leder och samordnar ungdomskommittén arbete och ansvarar för ungdomskommittén ekonomi/kassa.</li>
-      <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar aktiviteter för ungdomar som temakvällar, socialdanser och prova-på-tillfällen. Främjar ungas delaktighet och inflytande samt arbetar med ungdomars trygghet och välmående.</li>
+      <li><strong>På vilka sätt kan danskommittéerna få in pengar?</strong>
+        <ul>
+          <li>Ungdomskommittén kan få in pengar genom att anordna egna event, exempelvis workshops, hålla externa kurser eller genom att anordna trivselkvällar i föreningen.</li>
+          <li>Vid anordnande av evenemang ska blankett <a href="../dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">"DKRR-007 Blankett för ansökan om evenemang"</a> fyllas i och skickas till styrelsen. Detta för att klargöra de ekonomiska aspekterna för evenemanget.</li>
+        </ul>
+      </li>
+      <li><strong>Finns det begräsningar på hur stor kassan får vara?</strong>
+        <ul>
+          <li>Kassan är begränsad till 30 000 SEK.</li>
+          <li>Ungdomskommitténs intjänade kassa får sparas mellan verksamhetsår.</li>
+          <li>På förfrågan av styrelsen ska ungdomskommittén kunna redogöra ekonomisk plan över hur pengarna ska nyttjas.</li>
+        </ul>
+      </li>
+      <li><strong>Vad får pengarna användas till?</strong>
+        <ul>
+          <li>Intjänade pengar ska gå tillbaka till medlemmarna genom verksamheten samt kan även nyttjas för att ta in externa tränare eller att åka iväg på externa kurser.</li>
+        </ul>
+      </li>
+      <li><strong>Behöver alla utlägg godkännas av styrelsen?</strong>
+        <ul>
+          <li>Samtliga utlägg behöver inte godkännas, men ska redovisas genom blanketten <a href="../dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">"DKRR-007"</a> och kunna styrkas genom kvitto, faktura eller reseersättningsunderlag.</li>
+          <li>Exempel på inköp är inhyrda instruktörer, mindre kostnader för rekvisita, kostymer eller marknadsföring.</li>
+          <li>Övriga inköp behöver godkännas av styrelsen (som minimum av ordförande eller kassör).</li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-5-1" href="#kap4-5-1" class="anchor-link">🔗</a>4.5.1 Ungdomskommittéansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som ungdomskommittéansvarig är du länken mellan styrelsen och ungdomskommittén. Du ser till att kommittén har rätt förutsättningar att lyckas med sitt uppdrag och att arbetet bedrivs i linje med styrelsens beslut och föreningens verksamhetsmål.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Huvudrepresentant för ungdomskommittén i föreningens beslutande sammanhang.</li>
+      <li>Kommunikationslänk mellan styrelse och ungdomskommittén (i båda riktningarna).</li>
+      <li>Leder och samordnar ungdomskommittén arbete.</li>
+      <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
+      <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
+      <li>Ansvara för ungdomskommittén ekonomi/kassa.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-5-2" href="#kap4-5-2" class="anchor-link">🔗</a>4.5.2 Ungdomskommitténs genomförandegrupp</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Ungdomskommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Planera och arrangera aktiviteter för ungdomar som exempelvis temakvällar, socialdanser och prova-på-tillfällen.</li>
+      <li>Främja ungas delaktighet och inflytande där unga medlemmar kan komma till tals och påverka föreningens verksamhet.</li>
+      <li>Arbeta med ungdomars trygghet och välmående genom att visa att föreningen är en trygg plats fri från mobbning, diskriminering och trakasserier.</li>
+      <li>Väcka dansintresse hos ungdomar, rekrytera och engagera ungdomar i föreningen.</li>
+      <li>Samarbeta med danskommittéerna och externa aktörer till exempel skolor, fritidsgårdar och ungdomsförbund.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-6" href="#kap4-6" class="anchor-link">🔗</a>4.6 Teknikkommitté</h3>
     <p>Teknikkommittén ansvarar för all teknisk utrustning inom dansföreningen och säkerställer att teknik som ljud/bild och IT-miljö (inkl. hemsida) är i fungerande skick och anpassade efter föreningens behov.</p>
-    <h4>Roller inkluderar</h4>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-6-1" href="#kap4-6-1" class="anchor-link">🔗</a>4.6.1 Teknikkommittéansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Teknikkommittéansvarige leder kommitténs arbete och har det övergripande ansvaret för att tekniken fungerar i föreningens lokaler samt utgör kontaktperson i teknikrelaterade frågor.</p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
-      <li><strong>Teknikkommittéansvarig:</strong> Huvudrepresentant och kontaktperson i teknikrelaterade frågor. Leder och samordnar teknikkommitténs arbete, säkerställer att tekniska åtgärder genomförs i tid och att budget tas fram för teknikanskaffning.</li>
-      <li><strong>Genomförandegrupp:</strong> Säkerställer att föreningen har välfungerande teknik och IT-miljö. Ansvarar för drift och underhåll, ger stöd och felsöker tekniska problem, utvecklar och administrerar föreningens hemsida samt ger utbildning i föreningens teknik och IT-miljö.</li>
+      <li>Huvudrepresentant för teknikkommittén i föreningens beslutande sammanhang.</li>
+      <li>Kommunikationslänk mellan styrelse och teknikkommittén (i båda riktningarna).</li>
+      <li>Kontaktperson i teknikrelaterade frågor.</li>
+      <li>Leder och samordnar teknikkommitténs arbete.</li>
+      <li>Säkerställa att planerade tekniska åtgärder genomförs i tid.</li>
+      <li>Se till att budet tas fram och presenteras till styrelsen vid identifierat behov av teknikanskaffning.</li>
+      <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
+      <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
+      <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Väl insatt och kunnig inom teknik (ljud, bild, data och IT).</li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-6-2" href="#kap4-6-2" class="anchor-link">🔗</a>4.6.2 Teknikkommitténs genomförandegrupp</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Teknikkommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Säkerställa att föreningen har välfungerande teknik och IT-miljö.</li>
+      <li>Ansvara för drift och underhåll av teknik och IT-miljö.</li>
+      <li>Ge stöd, felsöka och åtgärda tekniska problem.</li>
+      <li>Ta fram dokumentation för användning och underhåll.</li>
+      <li>Säkerställa att teknik och IT-miljö bygger på användar- och underhållsvänliga produkter.</li>
+      <li>Utveckla och administrera föreningens hemsida.</li>
+      <li>Ge utbildning i föreningens teknik och IT-miljö.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav och förväntningar</h5>
+    <ul>
+      <li>Väl insatt och kunnig inom teknik (ljud, bild, data och IT).</li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-7" href="#kap4-7" class="anchor-link">🔗</a>4.7 Festkommitté</h3>
     <p>Festkommittén ansvarar för att planera och genomföra sociala evenemang och fester på uppdrag av styrelsen och danskommittéerna. Festkommittén utgör en viktig del i att skapa en välkomnande och trivsam miljö för föreningens medlemmar.</p>
-    <h4>Roller inkluderar</h4>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-7-1" href="#kap4-7-1" class="anchor-link">🔗</a>4.7.1 Festkommittéansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Festkommittéansvarig ansvarar för planering och genomförande av föreningens återkommande evenemang (medlemsmöte och årsmöte) samt av styrelsen och danskommittéernas övrigt utsedda evenemang. Du ansvarar för att säkerställa planering, lokalbokning, underhållning, mat, dukning/utsmyckning, återställning etc.</p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
-      <li><strong>Festkommittéansvarig:</strong> Ansvarar för planering och genomförande av föreningens återkommande evenemang (medlemsmöte och årsmöte) samt av styrelsen och danskommittéernas övrigt utsedda evenemang. Ansvarar för lokalbokning, underhållning, mat, dukning/utsmyckning, återställning etc.</li>
-      <li><strong>Genomförandegrupp:</strong> Planerar och arrangerar föreningens evenemang, skapar trivsel och gemenskap genom ex. dekoration, musik, lekar, värdskap och andra inslag samt samarbetar med övriga kommittéer och roller inom föreningen.</li>
+      <li>Huvudrepresentant för festkommittén i föreningens beslutande sammanhang.</li>
+      <li>Kommunikationslänk mellan styrelse och festkommittén (i båda riktningarna).</li>
+      <li>Leder och samordnar festkommitténs arbete.</li>
+      <li>Se till att budet tas fram och presenteras till styrelsen.</li>
+      <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
+      <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
+      <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-7-2" href="#kap4-7-2" class="anchor-link">🔗</a>4.7.2 Festkommitténs genomförandegrupp</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Festkommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommitténs uppdrag.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Planera och arrangera föreningens återkommande evenemang samt av styrelsen och danskommittéernas övrigt utsedda evenemang.</li>
+      <li>Skapa trivsel och gemenskap genom ex. dekoration, musik, lekar, värdskap och andra inslag som får medlemmarna att trivas.</li>
+      <li>Samarbeta med övriga kommittéer och roller inom föreningen.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-8" href="#kap4-8" class="anchor-link">🔗</a>4.8 Föreningsgemensamma roller</h3>
     <p>Med föreningsgemensamma roller menas roller som varken ingår i styrelsen eller kommittéer men som är centrala och gemensamma för föreningen.</p>
-    
-    <h4>Rollerna inkluderar</h4>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-1" href="#kap4-8-1" class="anchor-link">🔗</a>4.8.1 Rollutbildningsansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som rollutbildningsansvarig ansvarar du för att säkerställa att alla rollinnehavare får den utbildning som rollen förutsätter (omfattar ej utbildning av tränare/assistent/hjälpdansare). Rollutbildningsansvarig utgör en viktig del för att bidra till att föreningens kompetens och kvalitet upprätthålls över tid.</p>
+    <h5>Huvudsakliga uppgifter</h5>
     <ul>
-      <li><strong>Rollutbildningsansvarig:</strong> Säkerställer att alla rollinnehavare får nödvändig utbildning (omfattar ej utbildning av tränare/assistent/hjälpdansare). Kartlägger och dokumenterar utbildningsbehov samt planerar och samordnar utbildningstillfällen.</li>
-      <li><strong>Bidragsansvarig:</strong> Ansöker om bidrag till föreningen (t.ex. LOK-stöd, Idrottslyftet, SISU). Säkerställer att underlag och ansökningar skickas in i tid och undersöker samt föreslår relevanta bidrag som föreningen kan ansöka om.</li>
-      <li><strong>Marknadsföringsansvarig:</strong> Har det strategiska ansvaret för föreningens kommunikation utåt. Utformar riktlinjer för marknadsföring, ansvarar för föreningens grafiska profil, föreningskläder och samverkar med tränare kring kursrelaterade kläder. Samordnar även kommittéernas sociala medier-ansvariga.</li>
-      <li><strong>Lokalansvarig:</strong> Ansvarar för föreningens lokal i sin helhet. Kontaktyta mellan föreningen och hyresvärden. Inspekterar lokalen för att identifiera inköpsbehov och underhåll samt hanterar tillträden och behörigheter i systemet "Vaka".</li>
-      <li><strong>Dataskyddsombud:</strong> Kontrollerar att dataskyddsförordningen (GDPR) följs inom föreningen. Samlar in information om hur organisationen behandlar personuppgifter, granskar information och är kontaktperson för Datainspektionen samt föreningens medlemmar.</li>
-      <li><strong>Café och receptionsansvarig:</strong> Strukturerar hur receptionens förvaringsytor ska nyttjas, säkerställer att receptionen har all utrustning som behövs, definierar och inhandlar grundutbud av försäljningsprodukter samt säkerställer att receptionen bemannas vid terminsstart (ca 3 veckor).</li>
+      <li>Säkerställa att alla rollinnehavare får nödvändig utbildning.
+        <ul>
+          <li>Omfattare ej utbildningsbehov av tränare/assistent/hjälpdansare.</li>
+        </ul>
+      </li>
+      <li>Kartlägga och dokumentera utbildningsbehov för respektive roll.</li>
+      <li>Planera och samordna utbildningstillfällen.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-2" href="#kap4-8-2" class="anchor-link">🔗</a>4.8.2 Bidragsansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som bidragsansvarig ansvarar du för att ansöka om bidrag (LOK-stöd, Idrottslyftet, SISU etc.) till föreningen. Bidragsansvarig ska se till att underlag och ansökningar skickas in i tid och ska även undersöka och ge förslag på övriga bidrag som föreningen eventuellt kan söka.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Ansöka om bidrag till föreningen (t.ex. LOK-stöd, Idrottslyftet, SISU).</li>
+      <li>Säkerställa att underlag och ansökningar skickas in i tid.</li>
+      <li>Samverka med övriga roller, styrelse och kommittéer för att identifiera bidragsbehov.</li>
+      <li>Undersöka och föreslå relevanta bidrag som föreningen kan ansöka om.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning IdrottOnline (https://login.idrottonline.se/).</li>
+      <li>Utbildning dans.se (https://dans.se/).</li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-3" href="#kap4-8-3" class="anchor-link">🔗</a>4.8.3 Marknadsföringsansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Marknadsföringsansvarig har det strategiska ansvaret för föreningens kommunikation utåt. Rollen fokuserar på att sätta riktlinjer, säkerställa en enhetlig grafisk identitet och vara stöd till kommittéer i deras marknadsföringsarbete. Marknadsföringsansvarig ansvarar även för föreningens grafiska profil, föreningskläder samt samverkar med tränare kring kursrelaterade kläder.</p>
+    <h5>Samordning inom marknadsföring</h5>
+    <p>Marknadsföringsansvarig har ett samordnande ansvar gentemot kommittéernas sociala medier-ansvariga. Rollen innebär att planera och koordinera gemensamma inlägg i sociala medier vid exempelvis kursstarter, evenemang, helgdagshälsningar och kommunikation mellan terminer. Syftet är att säkerställa att innehållet publiceras på ett balanserat och genomtänkt sätt, i linje med föreningens grafiska profil och kommunikationsstrategi.</p>
+    <p>Utöver samordningen initierar och planerar marknadsföringsansvarige insatser för att föreningen ska synas på ett positivt och strategiskt sätt. Det kan innefatta förslag på deltagande i externa event, anordnande av egna aktiviteter eller andra reklamsatsningar som stärker föreningens synlighet och varumärke. Alla marknadsföringsinsatser som medför kostnader ska godkännas av ordförande, vice ordförande eller styrelsen innan genomförande.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Utformar riktlinjer för hur marknadsföring ska bedrivas inom föreningen tillsammans med styrelsen.</li>
+      <li>Säkerställa att samtliga kommittéer följer riktlinjer vad gäller marknadsföring.</li>
+      <li>Ansvara för föreningens grafiska profil, inklusive logotyp, färger, typsnitt, mallar och bildspråk.</li>
+      <li>Erbjuda ett grundutbud av föreningsgemensamma kläder och accessoarer (ex. tröjor, väskor och vattenflaskor) som kan beställas av medlemmar.</li>
+      <li>Samarbeta med tränare och assistenter för att ta fram och beställa kläder som ska användas på kurser.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-4" href="#kap4-8-4" class="anchor-link">🔗</a>4.8.4 Lokalansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som lokalansvarig ansvarar du för förningens lokal i sin helhet. Du är kontaktyta mellan föreningen och hyresvärden i frågor som berör lokalens ytor, funktion och infrastruktur. Lokalansvarig ska se över och inspektera lokalens skick och identifiera inköpsbehov av förbrukningsvaror så som städartiklar och lampor. Utöver detta ingå även ansvar att administrera tillträden och behörigheter i stödsystemet "Vaka".</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Säkerställa att lokalen är i gott skick.</li>
+      <li>Kontaktperson mot hyresvärden i frågor som rör lokalens ytor, funktion och infrastruktur.</li>
+      <li>Regelbundet inspektera lokalen för att identifiera inköpsbehov av förbrukningsmaterial, behov av underhåll eller andra åtgärder.</li>
+      <li>Hantera tillträden och behörigheter i systemet "Vaka" och säkerställa att endast behöriga har tillträde till lokalen.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning av stödsystemet "Vaka".</li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-5" href="#kap4-8-5" class="anchor-link">🔗</a>4.8.5 Dataskyddsombud</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som dataskyddsombud ansvarar du för att kontrollera att dataskyddsförordningen (GDPR) följs inom föreningen. Ansvaret omfattar att samla in information om hur organisationen behandlar personuppgifter, granskning av information, vara kontaktperson för Datainspektionen samt föreningens medlemmar.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Säkerställa att föreningen följer dataskyddsförordningen (GDPR) genom att:
+        <ul>
+          <li>Samla in information om hur föreningen behandlar personuppgifter.</li>
+          <li>Granska och analysera insamlad information.</li>
+          <li>Identifierar eventuella brister eller risker.</li>
+        </ul>
+      </li>
+      <li>Föreningens kontaktperson med Datainspektionen (Integritetsskyddsmyndigheten) och medlemmar för att besvara frågeställningar relaterade till föreningens hantering av personuppgifter.</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Väl insatt och kunnig inom data- och IT.</li>
+      <li>Väl insatt och kunnig inom dataskyddslagstiftningen:
+        <ul>
+          <li>GDPR: En grundläggande förståelse för dataskyddsförordningen och dess principer.</li>
+          <li>Kunskap om vilka rättsliga grunder som kan användas för att behandla personuppgifter (till exempel samtycke, avtal, rättslig förpliktelse).</li>
+        </ul>
+      </li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <h4><a id="kap4-8-6" href="#kap4-8-6" class="anchor-link">🔗</a>4.8.6 Café och receptionsansvarig</h4>
+    <h5>Uppdragsbeskrivning</h5>
+    <p>Som café och receptionsansvarig ansvarar du för att strukturera hur receptionens förvaringsytor ska nyttjas, säkerställa att receptionen har all utrustning (ex. köksutrustning, tallrikar och glas) som behövs samt att definiera och inhandla ett grundutbud av försäljningsprodukter till café.</p>
+    <p>I rollen ingår även att säkerställa att receptionen bemannas vid terminsstart (i ca 3 veckor) för att kunna ge medlemmarna den service som behövs.</p>
+    <h5>Huvudsakliga uppgifter</h5>
+    <ul>
+      <li>Strukturera hur receptionens förvaringsytor ska nyttjas.</li>
+      <li>Säkerställa att all nödvändig utrustning finns i receptionen/köket (till exempel köksutrustning, tallrikar och glas).</li>
+      <li>Definiera grundutbud av försäljningsprodukter.</li>
+      <li>Inhandla och fylla på grundutbudet av försäljningsprodukter (gäller under kursverksamhetsperioder).</li>
+      <li>Samordna och säkerställa bemanning av receptionen vid terminsstart (cirka 3 veckor).</li>
+      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+    </ul>
+    <h5>Kunskapskrav</h5>
+    <ul>
+      <li>Utbildning i dans.se.</li>
+      <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
