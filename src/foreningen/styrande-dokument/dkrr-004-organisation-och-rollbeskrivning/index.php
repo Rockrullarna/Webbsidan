@@ -142,6 +142,12 @@
         <td>Styrelsen</td>
         <td>Fastställt dokument på styrelsemöte, presenteras under höstmötet 2025-12-11.</td>
       </tr>
+      <tr>
+        <td>1.1</td>
+        <td>2026-01-05</td>
+        <td>Jonas Arvidson</td>
+        <td>Mindre rättningar av stavfel och formatering.</td>
+      </tr>
     </table>
     <p>&nbsp;</p>
 
@@ -396,12 +402,12 @@
       <li>Följer upp styrelsens arbetsuppgifter och säkerställer att styrelsens beslut verkställs.</li>
       <li>Säkerställer att föreningens verksamhet bedrivs enligt stadgar, beslut och lagar.</li>
       <li>Stödjer och koordinerar övriga styrelsemedlemmars arbete.</li>
-      <li>Granskar och genomför inregistrering av registerkontroller (idrott online).</li>
+      <li>Granskar och genomför inregistrering av registerkontroller (IdrottOnline).</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -417,7 +423,7 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -1056,8 +1062,8 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning IdrottOnline (https://login.idrottonline.se/).</li>
-      <li>Utbildning dans.se (https://dans.se/).</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
+      <li>Utbildning dans.se (<a href="https://dans.se/">https://dans.se/</a>).</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
@@ -1144,7 +1150,6 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning i dans.se.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
