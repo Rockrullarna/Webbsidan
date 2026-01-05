@@ -96,7 +96,7 @@
 
     <h2 class="kapitel"><a id="kap1" href="#kap1" class="anchor-link">🔗</a>1 Inledning</h2>
     <h3 class="avsnitt"><a id="kap1-1" href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
-    <p>En grundläggande förutsättning till en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
+    <p>En grundläggande förutsättning för en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer för hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
     <p>&nbsp;</p>
 
     <h3 class="avsnitt"><a id="kap1-2" href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
@@ -462,7 +462,7 @@
 
     <h4><a id="kap4-1-6" href="#kap4-1-6" class="anchor-link">🔗</a>4.1.6 Sekreterare</h4>
     <h5>Uppdragsbeskrivning</h5>
-    <p>Sekreteraren ansvar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
+    <p>Sekreteraren ansvarar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Ansvarar för att protokollföra möten samt att arkivera och offentlighetgöra fastställda protokoll.</li>
@@ -494,7 +494,7 @@
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <h3 class="avsnitt"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
-    <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
+    <p>Valberedningens arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
     <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Valberedningens ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
@@ -951,7 +951,7 @@
       <li>Kontaktperson i teknikrelaterade frågor.</li>
       <li>Leder och samordnar teknikkommitténs arbete.</li>
       <li>Säkerställa att planerade tekniska åtgärder genomförs i tid.</li>
-      <li>Se till att budet tas fram och presenteras till styrelsen vid identifierat behov av teknikanskaffning.</li>
+      <li>Se till att budget tas fram och presenteras till styrelsen vid identifierat behov av teknikanskaffning.</li>
       <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
       <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
       <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
@@ -997,7 +997,7 @@
       <li>Huvudrepresentant för festkommittén i föreningens beslutande sammanhang.</li>
       <li>Kommunikationslänk mellan styrelse och festkommittén (i båda riktningarna).</li>
       <li>Leder och samordnar festkommitténs arbete.</li>
-      <li>Se till att budet tas fram och presenteras till styrelsen.</li>
+      <li>Se till att budget tas fram och presenteras till styrelsen.</li>
       <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
       <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
       <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
