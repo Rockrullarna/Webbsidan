@@ -60,8 +60,8 @@
             <div class="subsection"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
             <div class="subsection"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
             <div class="section"><a href="#kap4-2">4.2 Valberedning</a></div>
-            <div class="subsection"><a href="#kap4-2-1">4.2.1 Valberedningens ordförande</a></div>
-            <div class="subsection"><a href="#kap4-2-2">4.2.2 Valberedningens ledamot</a></div>
+            <div class="subsection"><a href="#kap4-2-1">4.2.1 Ordförande</a></div>
+            <div class="subsection"><a href="#kap4-2-2">4.2.2 Ledamot</a></div>
             <div class="section"><a href="#kap4-3">4.3 Revisor</a></div>
             <div class="section"><a href="#kap4-4">4.4 Danskommitté</a></div>
             <div class="subsection"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
@@ -77,13 +77,13 @@
             <div class="subsection"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
             <div class="section"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
             <div class="subsection"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a></div>
+            <div class="subsection"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
             <div class="subsection"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a></div>
+            <div class="subsection"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-7">4.7 Festkommitté</a></div>
             <div class="subsection"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a></div>
+            <div class="subsection"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
             <div class="subsection"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
             <div class="subsection"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
@@ -1176,8 +1176,8 @@
             <a class="nav-link section" href="#kap4-1-6">4.1.6 Sekreterare</a>
             <a class="nav-link section" href="#kap4-1-7">4.1.7 Kassör</a>
             <a class="nav-link section" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link section" href="#kap4-2-1">4.2.1 Valberedningens ordförande</a>
-            <a class="nav-link section" href="#kap4-2-2">4.2.2 Valberedningens ledamot</a>
+            <a class="nav-link section" href="#kap4-2-1">4.2.1 Ordförande</a>
+            <a class="nav-link section" href="#kap4-2-2">4.2.2 Ledamot</a>
             <a class="nav-link section" href="#kap4-3">4.3 Revisor</a>
             <a class="nav-link section" href="#kap4-4">4.4 Danskommitté</a>
             <a class="nav-link section" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
@@ -1193,13 +1193,13 @@
             <a class="nav-link section" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
             <a class="nav-link section" href="#kap4-5">4.5 Ungdomskommitté</a>
             <a class="nav-link section" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a>
+            <a class="nav-link section" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
             <a class="nav-link section" href="#kap4-6">4.6 Teknikkommitté</a>
             <a class="nav-link section" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a>
+            <a class="nav-link section" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
             <a class="nav-link section" href="#kap4-7">4.7 Festkommitté</a>
             <a class="nav-link section" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a>
+            <a class="nav-link section" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
             <a class="nav-link section" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
             <a class="nav-link section" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
             <a class="nav-link section" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
