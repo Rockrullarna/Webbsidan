@@ -278,10 +278,10 @@
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
             <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
-            <a class="nav-link subsection" href="#delar">Vilka delar vi personuppgifter med?</a>
-            <a class="nav-link subsection" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
-            <a class="nav-link subsection" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
-            <a class="nav-link subsection" href="#rattigheter">Vilka rättigheter har du?</a>
+            <a class="nav-link section" href="#delar">Vilka delar vi personuppgifter med?</a>
+            <a class="nav-link section" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
+            <a class="nav-link section" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
+            <a class="nav-link section" href="#rattigheter">Vilka rättigheter har du?</a>
             <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
           </nav>
         </nav>
