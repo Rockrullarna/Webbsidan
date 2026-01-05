@@ -147,9 +147,9 @@
             <a class="nav-link" href="#syfte">Syfte</a>
             <a class="nav-link" href="#mal">Mål</a>
             <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
-            <a class="nav-link subsection" href="#mobbing">Mobbing/kränkande behandling</a>
-            <a class="nav-link subsection" href="#trakasserier">Trakasserier/diskriminering</a>
-            <a class="nav-link subsection" href="#sexuella-trakasserier">Sexuella trakasserier</a>
+            <a class="nav-link section" href="#mobbing">Mobbing/kränkande behandling</a>
+            <a class="nav-link section" href="#trakasserier">Trakasserier/diskriminering</a>
+            <a class="nav-link section" href="#sexuella-trakasserier">Sexuella trakasserier</a>
             <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
             <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
             <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>

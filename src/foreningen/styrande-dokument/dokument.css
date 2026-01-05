@@ -160,13 +160,14 @@ table.arshjul-table th,
   background-color: var(--bs-tertiary-bg, #e9ecef);
 }
 
-/* Indent subsections (1.1, 1.2, etc) */
-.document-scrollspy-nav .nav-link.subsection {
+/* Indent sections (1.1, 1.2, etc) */
+.document-scrollspy-nav .nav-link.section {
   padding-left: 1.5rem;
   font-size: 0.7rem;
 }
 
-.document-scrollspy-nav .nav-link.subsubsection {
+/* Indent subsections (4.4.1, 4.4.2, etc) */
+.document-scrollspy-nav .nav-link.subsection {
   padding-left: 3rem;
   font-size: 0.6rem;
 }

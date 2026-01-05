@@ -839,43 +839,43 @@
           <h3 class="scrollspy-heading">Innehållsförteckning</h3>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#kap1">1 Inledning</a>
-            <a class="nav-link subsection" href="#kap1-1">1.1 Bakgrund</a>
-            <a class="nav-link subsection" href="#kap1-2">1.2 Syfte</a>
-            <a class="nav-link subsection" href="#kap1-3">1.3 Versionshistorik</a>
+            <a class="nav-link section" href="#kap1-1">1.1 Bakgrund</a>
+            <a class="nav-link section" href="#kap1-2">1.2 Syfte</a>
+            <a class="nav-link section" href="#kap1-3">1.3 Versionshistorik</a>
             <a class="nav-link" href="#kap2">2 Verksamhetsmål</a>
             <a class="nav-link" href="#kap3">3 Styrande dokument</a>
             <a class="nav-link" href="#kap4">4 Kontakt och aktivitetsinformation</a>
-            <a class="nav-link subsection" href="#kap4-1">4.1 Kontakt</a>
-            <a class="nav-link subsection" href="#kap4-2">4.2 Besöksadress</a>
-            <a class="nav-link subsection" href="#kap4-3">4.3 Hemsida</a>
-            <a class="nav-link subsection" href="#kap4-4">4.4 Intranät</a>
-            <a class="nav-link subsection" href="#kap4-5">4.5 Sociala medier</a>
+            <a class="nav-link section" href="#kap4-1">4.1 Kontakt</a>
+            <a class="nav-link section" href="#kap4-2">4.2 Besöksadress</a>
+            <a class="nav-link section" href="#kap4-3">4.3 Hemsida</a>
+            <a class="nav-link section" href="#kap4-4">4.4 Intranät</a>
+            <a class="nav-link section" href="#kap4-5">4.5 Sociala medier</a>
             <a class="nav-link" href="#kap5">5 Lokal</a>
-            <a class="nav-link subsection" href="#kap5-1">5.1 Säkerhetsinformation</a>
-            <a class="nav-link subsection" href="#kap5-2">5.2 Tillträde</a>
-            <a class="nav-link subsection" href="#kap5-3">5.3 Hyra av lokal för kommersiellt bruk</a>
-            <a class="nav-link subsection" href="#kap5-4">5.4 Bokning av Lilla salen</a>
-            <a class="nav-link subsection" href="#kap5-5">5.5 Nyttjande av lokal för barnkalas</a>
-            <a class="nav-link subsection" href="#kap5-6">5.6 Nyttjande av lokal för privat bruk</a>
+            <a class="nav-link section" href="#kap5-1">5.1 Säkerhetsinformation</a>
+            <a class="nav-link section" href="#kap5-2">5.2 Tillträde</a>
+            <a class="nav-link section" href="#kap5-3">5.3 Hyra av lokal för kommersiellt bruk</a>
+            <a class="nav-link section" href="#kap5-4">5.4 Bokning av Lilla salen</a>
+            <a class="nav-link section" href="#kap5-5">5.5 Nyttjande av lokal för barnkalas</a>
+            <a class="nav-link section" href="#kap5-6">5.6 Nyttjande av lokal för privat bruk</a>
             <a class="nav-link" href="#kap6">6 Trivselregler</a>
             <a class="nav-link" href="#kap7">7 Utbud (danskurser/evenemang/aktiviteter)</a>
-            <a class="nav-link subsection" href="#kap7-1">7.1 Bugg</a>
-            <a class="nav-link subsection" href="#kap7-2">7.2 West Coast Swing</a>
-            <a class="nav-link subsection" href="#kap7-3">7.3 Fox</a>
-            <a class="nav-link subsection" href="#kap7-4">7.4 Dans för barn och ungdom</a>
-            <a class="nav-link subsection" href="#kap7-5">7.5 Fri träning</a>
-            <a class="nav-link subsection" href="#kap7-6">7.6 Evenemang utanför ordinarie verksamhet</a>
-            <a class="nav-link subsection" href="#kap7-7">7.7 Träningskväll</a>
-            <a class="nav-link subsection" href="#kap7-8">7.8 Socialdanskväll</a>
-            <a class="nav-link subsection" href="#kap7-9">7.9 Medlemsmöte</a>
-            <a class="nav-link subsection" href="#kap7-10">7.10 Årsmöte</a>
-            <a class="nav-link subsection" href="#kap7-11">7.11 Externa kurser</a>
-            <a class="nav-link subsection" href="#kap7-12">7.12 Privatlektioner</a>
-            <a class="nav-link subsection" href="#kap7-13">7.13 Uppvisning</a>
+            <a class="nav-link section" href="#kap7-1">7.1 Bugg</a>
+            <a class="nav-link section" href="#kap7-2">7.2 West Coast Swing</a>
+            <a class="nav-link section" href="#kap7-3">7.3 Fox</a>
+            <a class="nav-link section" href="#kap7-4">7.4 Dans för barn och ungdom</a>
+            <a class="nav-link section" href="#kap7-5">7.5 Fri träning</a>
+            <a class="nav-link section" href="#kap7-6">7.6 Evenemang utanför ordinarie verksamhet</a>
+            <a class="nav-link section" href="#kap7-7">7.7 Träningskväll</a>
+            <a class="nav-link section" href="#kap7-8">7.8 Socialdanskväll</a>
+            <a class="nav-link section" href="#kap7-9">7.9 Medlemsmöte</a>
+            <a class="nav-link section" href="#kap7-10">7.10 Årsmöte</a>
+            <a class="nav-link section" href="#kap7-11">7.11 Externa kurser</a>
+            <a class="nav-link section" href="#kap7-12">7.12 Privatlektioner</a>
+            <a class="nav-link section" href="#kap7-13">7.13 Uppvisning</a>
             <a class="nav-link" href="#kap8">8 Anmälan och betalning</a>
-            <a class="nav-link subsection" href="#kap8-1">8.1 Anmälan</a>
-            <a class="nav-link subsection" href="#kap8-2">8.2 Betalning</a>
-            <a class="nav-link subsection" href="#kap8-3">8.3 Inställd kurs och återbetalning</a>
+            <a class="nav-link section" href="#kap8-1">8.1 Anmälan</a>
+            <a class="nav-link section" href="#kap8-2">8.2 Betalning</a>
+            <a class="nav-link section" href="#kap8-3">8.3 Inställd kurs och återbetalning</a>
             <a class="nav-link" href="#kap9">9 Medlemsbevis</a>
             <a class="nav-link" href="#kap10">10 Ankomstregistrering</a>
             <a class="nav-link" href="#kap11">11 Förändring av personliga uppgifter</a>
@@ -883,21 +883,21 @@
             <a class="nav-link" href="#kap13">13 Marknadsföring</a>
             <a class="nav-link" href="#kap14">14 Kläder för kurs och tävling</a>
             <a class="nav-link" href="#kap15">15 Grafisk profil</a>
-            <a class="nav-link subsection" href="#kap15-1">15.1 Logotyp</a>
-            <a class="nav-link subsection" href="#kap15-2">15.2 Färg</a>
-            <a class="nav-link subsection" href="#kap15-3">15.3 Format och typsnitt</a>
-            <a class="nav-link subsection" href="#kap15-4">15.4 Föreningsrelaterade kläder och associerar</a>
+            <a class="nav-link section" href="#kap15-1">15.1 Logotyp</a>
+            <a class="nav-link section" href="#kap15-2">15.2 Färg</a>
+            <a class="nav-link section" href="#kap15-3">15.3 Format och typsnitt</a>
+            <a class="nav-link section" href="#kap15-4">15.4 Föreningsrelaterade kläder och associerar</a>
             <a class="nav-link" href="#kap16">16 Ekonomi</a>
-            <a class="nav-link subsection" href="#kap16-1">16.1 Inköp</a>
-            <a class="nav-link subsection" href="#kap16-2">16.2 Arvode</a>
-            <a class="nav-link subsection" href="#kap16-3">16.3 Bidrag/stipendium</a>
+            <a class="nav-link section" href="#kap16-1">16.1 Inköp</a>
+            <a class="nav-link section" href="#kap16-2">16.2 Arvode</a>
+            <a class="nav-link section" href="#kap16-3">16.3 Bidrag/stipendium</a>
             <a class="nav-link" href="#kap17">17 Kläder och accessoarer</a>
             <a class="nav-link" href="#kap18">18 Medlemsrabatter</a>
-            <a class="nav-link subsection" href="#kap18-1">18.1 Kurser</a>
-            <a class="nav-link subsection" href="#kap18-2">18.2 Studentrabatt</a>
-            <a class="nav-link subsection" href="#kap18-3">18.3 Pensionärsrabatt</a>
-            <a class="nav-link subsection" href="#kap18-4">18.4 Fritidskortet</a>
-            <a class="nav-link subsection" href="#kap18-5">18.5 Medlemsrabatter i företag</a>
+            <a class="nav-link section" href="#kap18-1">18.1 Kurser</a>
+            <a class="nav-link section" href="#kap18-2">18.2 Studentrabatt</a>
+            <a class="nav-link section" href="#kap18-3">18.3 Pensionärsrabatt</a>
+            <a class="nav-link section" href="#kap18-4">18.4 Fritidskortet</a>
+            <a class="nav-link section" href="#kap18-5">18.5 Medlemsrabatter i företag</a>
           </nav>
         </nav>
       </div><!-- end col-lg-3 order-lg-2 -->
