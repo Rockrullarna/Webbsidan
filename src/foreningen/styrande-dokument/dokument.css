@@ -166,6 +166,11 @@ table.arshjul-table th,
   font-size: 0.7rem;
 }
 
+.document-scrollspy-nav .nav-link.subsubsection {
+  padding-left: 3rem;
+  font-size: 0.6rem;
+}
+
 /* Scrollbar styling for scrollspy nav */
 .document-scrollspy-nav::-webkit-scrollbar {
   width: 5px;
