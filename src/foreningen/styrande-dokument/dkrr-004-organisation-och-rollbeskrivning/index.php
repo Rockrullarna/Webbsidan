@@ -2,7 +2,7 @@
   $header_title = "DKRR-004 Organisation och rollbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att förstå roller och ansvar inom verksamheten";
 
-  $page_updated = "2025-12-20 12:50";
+  $page_updated = "2026-01-05 10:02";
   $page_url = "/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -60,8 +60,8 @@
             <div class="sub-section"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
             <div class="sub-section"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
             <div class="section"><a href="#kap4-2">4.2 Valberedning</a></div>
-            <div class="sub-section"><a href="#kap4-2-1">4.2.1 Valberedningens Ordförande</a></div>
-            <div class="sub-section"><a href="#kap4-2-2">4.2.2 Valberedningens Ledamot</a></div>
+            <div class="sub-section"><a href="#kap4-2-1">4.2.1 Valberedningens ordförande</a></div>
+            <div class="sub-section"><a href="#kap4-2-2">4.2.2 Valberedningens ledamot</a></div>
             <div class="section"><a href="#kap4-3">4.3 Revisor</a></div>
             <div class="section"><a href="#kap4-4">4.4 Danskommitté</a></div>
             <div class="sub-section"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
@@ -77,13 +77,13 @@
             <div class="sub-section"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
             <div class="section"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
             <div class="sub-section"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
-            <div class="sub-section"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
+            <div class="sub-section"><a href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
             <div class="sub-section"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
-            <div class="sub-section"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
+            <div class="sub-section"><a href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-7">4.7 Festkommitté</a></div>
             <div class="sub-section"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
-            <div class="sub-section"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
+            <div class="sub-section"><a href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a></div>
             <div class="section"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
             <div class="sub-section"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
             <div class="sub-section"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
@@ -490,7 +490,7 @@
     <h3 class="section"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
-    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Ordförande</h4>
+    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Valberedningens ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Valberedningens ordförande är huvudansvarig för valberedningens arbete. Ordförande sammankallar och leder möten, ser till att dagordningen följs och att alla ledamöter får komma till tals i olika frågor.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -506,7 +506,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Ledamot</h4>
+    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Valberednings ledamot</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som ledamot har du en avgörande roll i att säkerställa en kompetent, engagerad och balanserad styrelse som kan leda föreningen på bästa sätt. Arbetet är strategiskt och bör präglas av objektivitet, långsiktighet och medlemsnytta.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -534,11 +534,41 @@
     <p>Revisorerna har rapporteringsskyldighet till olika intressenter vid speciella omständigheter. Om revisorerna finner misstankar om brott inom verksamheten t.ex. förskingring, bokföringsbrott, mutbrott eller skattebrott, ska revisorerna anmäla misstanken och grunden för detta till åklagare.</p>
     <h4>Huvudsakliga uppgifter</h4>
     <ul>
-      <li><strong>Ekonomisk granskning:</strong> Gå igenom bokföringen, verifikationer och årsredovisning för att kontrollera att räkenskaperna är korrekta och följer bokföringslagen. Säkerställa att inkomster och utgifter är väl dokumenterade och att föreningens medel hanteras på ett ansvarsfullt sätt. Kontrollera att budgeten har följts och att eventuella avvikelser har motiverats.</li>
-      <li><strong>Förvaltningsrevision:</strong> Granska om styrelsens beslut och agerande är i linje med stadgarna, årsmötets beslut och föreningens syfte. Bedöma om styrelsen har skött sitt uppdrag på ett effektivt, öppet och rättvist sätt. Uppmärksamma eventuella risker, oegentligheter eller brister i rutiner och föreslå förbättringar.</li>
-      <li><strong>Revisionsberättelse:</strong> Sammanställa en skriftlig revisionsberättelse till årsmötet. Lämna ett uttalande om huruvida ansvarsfrihet för styrelsen rekommenderas eller inte. Redovisa eventuella anmärkningar och ge rekommendationer för framtida förbättringar.</li>
-      <li><strong>Oberoende:</strong> Revisorer väljs av årsmötet och är fristående från styrelsen. Revisorerna ska inte ha någon aktiv roll i styrelsens arbete eller beslutsfattande under verksamhetsåret. De måste agera opartiskt och med integritet i sin granskning.</li>
-      <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
+      <li>
+        Ekonomisk granskning:
+        <ul>
+          <li>Gå igenom bokföringen, verifikationer och årsredovisning för att kontrollera att räkenskaperna är korrekta och följer bokföringslagen.</li>
+          <li>Säkerställa att inkomster och utgifter är väl dokumenterade och att föreningens medel hanteras på ett ansvarsfullt sätt.</li>
+          <li>Kontrollera att budgeten har följts och att eventuella avvikelser har motiverats.</li>
+        </ul>
+      </li>
+      <li>
+        Förvaltningsrevision:
+        <ul>
+          <li>Granska om styrelsens beslut och agerande är i linje med stadgarna, årsmötets beslut och föreningens syfte.</li>
+          <li>Bedöma om styrelsen har skött sitt uppdrag på ett effektivt, öppet och rättvist sätt.</li>
+          <li>Uppmärksamma eventuella risker, oegentligheter eller brister i rutiner och föreslå förbättringar.</li>
+        </ul>
+      </li>
+      <li>
+        Revisionsberättelse:
+        <ul>
+          <li>Sammanställa en skriftlig revisionsberättelse till årsmötet.</li>
+          <li>Lämna ett uttalande om huruvida ansvarsfrihet för styrelsen rekommenderas eller inte.</li>
+          <li>Redovisa eventuella anmärkningar och ge rekommendationer för framtida förbättringar.</li>
+        </ul>
+      </li>
+      <li>
+        Oberoende:
+        <ul>
+          <li>Revisorer väljs av årsmötet och är fristående från styrelsen.</li>
+          <li>Revisorerna ska inte ha någon aktiv roll i styrelsens arbete eller beslutsfattande under verksamhetsåret.</li>
+          <li>De måste agera opartiskt och med integritet i sin granskning.</li>
+        </ul>
+      </li>
+      <li>
+        Följa riktlinjer och förväntningar i kapitel 3.
+      </li>
     </ul>
     <h4>Kunskapskrav</h4>
     <ul>
@@ -547,7 +577,12 @@
     <p>&nbsp;</p>
 
     <h3 class="section"><a id="kap4-4" href="#kap4-4" class="anchor-link">🔗</a>4.4 Danskommitté</h3>
-    <p>DKRR består av följande danskommittéer: 1 st Bugg-kommitté, 1 st WCS-kommitté och 1 st Fox-kommitté.</p>
+    <p>DKRR består av följande danskommittéer: </p>
+    <ul>
+      <li>1 st Bugg-kommitté</li>
+      <li>1 st WCS-kommitté</li>
+      <li>1 st Fox-kommitté</li>
+    </ul>
     <p>Danskommittéerna har i uppdrag att planera, genomföra och utveckla aktiviteter inom respektive dansområde i linje med styrelsen beslut och föreningens verksamhetsmål. Alla danskommitté arbetar i samverkan med varandra och i nära dialog med styrelsen. Respektive danskommitté måste bestå av minst två personer.</p>
 
     <h4>Ekonomiskt ansvar och befogenheter</h4>
@@ -644,8 +679,8 @@
             <a class="nav-link subsubsection" href="#kap4-1-6">4.1.6 Sekreterare</a>
             <a class="nav-link subsubsection" href="#kap4-1-7">4.1.7 Kassör</a>
             <a class="nav-link subsection" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link subsubsection" href="#kap4-2-1">4.2.1 Valberedningens Ordförande</a>
-            <a class="nav-link subsubsection" href="#kap4-2-2">4.2.2 Valberedningens Ledamot</a>
+            <a class="nav-link subsubsection" href="#kap4-2-1">4.2.1 Valberedningens ordförande</a>
+            <a class="nav-link subsubsection" href="#kap4-2-2">4.2.2 Valberedningens ledamot</a>
             <a class="nav-link subsection" href="#kap4-3">4.3 Revisor</a>
             <a class="nav-link subsection" href="#kap4-4">4.4 Danskommitté</a>
             <a class="nav-link subsubsection" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
@@ -661,13 +696,13 @@
             <a class="nav-link subsubsection" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
             <a class="nav-link subsection" href="#kap4-5">4.5 Ungdomskommitté</a>
             <a class="nav-link subsubsection" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
-            <a class="nav-link subsubsection" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
+            <a class="nav-link subsubsection" href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a>
             <a class="nav-link subsection" href="#kap4-6">4.6 Teknikkommitté</a>
             <a class="nav-link subsubsection" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
-            <a class="nav-link subsubsection" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
+            <a class="nav-link subsubsection" href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a>
             <a class="nav-link subsection" href="#kap4-7">4.7 Festkommitté</a>
             <a class="nav-link subsubsection" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
-            <a class="nav-link subsubsection" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
+            <a class="nav-link subsubsection" href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a>
             <a class="nav-link subsection" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
             <a class="nav-link subsubsection" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
             <a class="nav-link subsubsection" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
