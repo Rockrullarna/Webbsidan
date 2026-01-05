@@ -44,67 +44,67 @@
               <h1>Innehållsförteckning</h1>
             </div>
             <div class="kapitel"><a href="#kap1">1 Inledning</a></div>
-            <div class="section"><a href="#kap1-1">1.1 Bakgrund</a></div>
-            <div class="section"><a href="#kap1-2">1.2 Syfte</a></div>
-            <div class="section"><a href="#kap1-3">1.3 Versionshistorik</a></div>
-            <div class="section"><a href="#kap1-4">1.4 Avgränsningar</a></div>
+            <div class="avsnitt"><a href="#kap1-1">1.1 Bakgrund</a></div>
+            <div class="avsnitt"><a href="#kap1-2">1.2 Syfte</a></div>
+            <div class="avsnitt"><a href="#kap1-3">1.3 Versionshistorik</a></div>
+            <div class="avsnitt"><a href="#kap1-4">1.4 Avgränsningar</a></div>
             <div class="kapitel"><a href="#kap2">2 Organisation</a></div>
             <div class="kapitel"><a href="#kap3">3 Gemensamma riktlinjer och förväntningar</a></div>
             <div class="kapitel"><a href="#kap4">4 Roll- och uppdragsbeskrivning</a></div>
-            <div class="section"><a href="#kap4-1">4.1 Styrelse</a></div>
-            <div class="subsection"><a href="#kap4-1-1">4.1.1 Firmatecknare</a></div>
-            <div class="subsection"><a href="#kap4-1-2">4.1.2 Ordförande</a></div>
-            <div class="subsection"><a href="#kap4-1-3">4.1.3 Vice ordförande</a></div>
-            <div class="subsection"><a href="#kap4-1-4">4.1.4 Ledamot</a></div>
-            <div class="subsection"><a href="#kap4-1-5">4.1.5 Suppleant</a></div>
-            <div class="subsection"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
-            <div class="subsection"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
-            <div class="section"><a href="#kap4-2">4.2 Valberedning</a></div>
-            <div class="subsection"><a href="#kap4-2-1">4.2.1 Ordförande</a></div>
-            <div class="subsection"><a href="#kap4-2-2">4.2.2 Ledamot</a></div>
-            <div class="section"><a href="#kap4-3">4.3 Revisor</a></div>
-            <div class="section"><a href="#kap4-4">4.4 Danskommitté</a></div>
-            <div class="subsection"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-4-2">4.4.2 Tränar- och utbildningsansvarig</a></div>
-            <div class="subsection"><a href="#kap4-4-3">4.4.3 Kursadministratör</a></div>
-            <div class="subsection"><a href="#kap4-4-4">4.4.4 Marknadsföringsansvarig (sociala media) </a></div>
-            <div class="subsection"><a href="#kap4-4-5">4.4.5 Tävlingsansvarig</a></div>
-            <div class="subsection"><a href="#kap4-4-6">4.4.6 Tävlingsverksamhet</a></div>
-            <div class="subsection"><a href="#kap4-4-7">4.4.7 Socialdansansvarig</a></div>
-            <div class="subsection"><a href="#kap4-4-8">4.4.8 Musikansvarig</a></div>
-            <div class="subsection"><a href="#kap4-4-9">4.4.9 Tränare</a></div>
-            <div class="subsection"><a href="#kap4-4-10">4.4.10 Assistent</a></div>
-            <div class="subsection"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
-            <div class="section"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
-            <div class="subsection"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
-            <div class="section"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
-            <div class="subsection"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
-            <div class="section"><a href="#kap4-7">4.7 Festkommitté</a></div>
-            <div class="subsection"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
-            <div class="subsection"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
-            <div class="section"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
-            <div class="subsection"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
-            <div class="subsection"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
-            <div class="subsection"><a href="#kap4-8-3">4.8.3 Marknadsföringsansvarig</a></div>
-            <div class="subsection"><a href="#kap4-8-4">4.8.4 Lokalansvarig</a></div>
-            <div class="subsection"><a href="#kap4-8-5">4.8.5 Dataskyddsombud</a></div>
-            <div class="subsection"><a href="#kap4-8-6">4.8.6 Café och receptionsansvarig</a></div>
+            <div class="avsnitt"><a href="#kap4-1">4.1 Styrelse</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-1">4.1.1 Firmatecknare</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-2">4.1.2 Ordförande</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-3">4.1.3 Vice ordförande</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-4">4.1.4 Ledamot</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-5">4.1.5 Suppleant</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
+            <div class="underavsnitt"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
+            <div class="avsnitt"><a href="#kap4-2">4.2 Valberedning</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-1">4.2.1 Ordförande</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-2">4.2.2 Ledamot</a></div>
+            <div class="avsnitt"><a href="#kap4-3">4.3 Revisor</a></div>
+            <div class="avsnitt"><a href="#kap4-4">4.4 Danskommitté</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-2">4.4.2 Tränar- och utbildningsansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-3">4.4.3 Kursadministratör</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-4">4.4.4 Marknadsföringsansvarig (sociala media) </a></div>
+            <div class="underavsnitt"><a href="#kap4-4-5">4.4.5 Tävlingsansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-6">4.4.6 Tävlingsverksamhet</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-7">4.4.7 Socialdansansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-8">4.4.8 Musikansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-9">4.4.9 Tränare</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-10">4.4.10 Assistent</a></div>
+            <div class="underavsnitt"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
+            <div class="avsnitt"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
+            <div class="underavsnitt"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
+            <div class="avsnitt"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
+            <div class="underavsnitt"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
+            <div class="avsnitt"><a href="#kap4-7">4.7 Festkommitté</a></div>
+            <div class="underavsnitt"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
+            <div class="avsnitt"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-3">4.8.3 Marknadsföringsansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-4">4.8.4 Lokalansvarig</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-5">4.8.5 Dataskyddsombud</a></div>
+            <div class="underavsnitt"><a href="#kap4-8-6">4.8.6 Café och receptionsansvarig</a></div>
             <p>&nbsp;</p>
           </div><!-- end document-toc -->
 
     <h2 class="kapitel"><a id="kap1" href="#kap1" class="anchor-link">🔗</a>1 Inledning</h2>
-    <h3 class="section"><a id="kap1-1" href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
+    <h3 class="avsnitt"><a id="kap1-1" href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
     <p>En grundläggande förutsättning till en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-2" href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
+    <h3 class="avsnitt"><a id="kap1-2" href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
     <p>Syftet med detta dokument är att beskriva föreningens organisation och roller. Dokumentet ger stöd i det dagliga arbetet och underlättar introduktion av nya rollinnehavare i föreningen.</p>
     <p>Dokumentet ses över minst en gång per år och uppdateras vid behov. Styrelsen tar tacksamt emot synpunkter på innehållet. Synpunkter och frågeställningar skickas till: <a href="mailto:styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-3" href="#kap1-3" class="anchor-link">🔗</a>1.3 Versionshistorik</h3>
+    <h3 class="avsnitt"><a id="kap1-3" href="#kap1-3" class="anchor-link">🔗</a>1.3 Versionshistorik</h3>
     <table class="version-table">
       <tr>
         <th>Utgåva</th>
@@ -145,7 +145,7 @@
     </table>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap1-4" href="#kap1-4" class="anchor-link">🔗</a>1.4 Avgränsningar</h3>
+    <h3 class="avsnitt"><a id="kap1-4" href="#kap1-4" class="anchor-link">🔗</a>1.4 Avgränsningar</h3>
     <p>Detta dokument är avgränsat till att beskriva och föreningens organisation och roller. Information om föreningens grundläggande aktiviteter samt arbetsprocesser framgår i dokument <a href="../dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">"DKRR-002, Årshjul och arbetsprocesser"</a>.</p>
     <p>&nbsp;</p>
 
@@ -335,7 +335,7 @@
     <p>&nbsp;</p>
 
     <h2 class="kapitel"><a id="kap4" href="#kap4" class="anchor-link">🔗</a>4 Roll- och uppdragsbeskrivning</h2>
-    <h3 class="section"><a id="kap4-1" href="#kap4-1" class="anchor-link">🔗</a>4.1 Styrelse</h3>
+    <h3 class="avsnitt"><a id="kap4-1" href="#kap4-1" class="anchor-link">🔗</a>4.1 Styrelse</h3>
     <p>Styrelsen har det övergripande ansvaret att leda och utveckla föreningens verksamhet i enlighet med föreningens stadgar och verksamhetsmål samt styrande direktiv från Riksidrottsförbundet och Danssportsförbundet. Styrelsens är förtroendevalda av medlemmarna och ska verka för att skapa en trygg, inkluderande och inspirerande miljö där medlemmar i alla åldrar och nivåer kan utöva dans och delta i föreningslivet.</p>
 
     <h4>Övergripande ansvar</h4>
@@ -487,7 +487,7 @@
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
-    <h3 class="section"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
+    <h3 class="avsnitt"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
     <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Ordförande</h4>
@@ -528,7 +528,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-3" href="#kap4-3" class="anchor-link">🔗</a>4.3 Revisor</h3>
+    <h3 class="avsnitt"><a id="kap4-3" href="#kap4-3" class="anchor-link">🔗</a>4.3 Revisor</h3>
     <h4>Uppdragsbeskrivning</h4>
     <p>Revisorernas ansvar är att granska föreningens årsredovisning, bokföring (räkenskaps-revision), föreningsledningens förvaltning (förvaltningsrevision) och lämna ett utlåtande om granskningsutfallet på föreningens årsmöte.</p>
     <p>Revisorerna har rapporteringsskyldighet till olika intressenter vid speciella omständigheter. Om revisorerna finner misstankar om brott inom verksamheten t.ex. förskingring, bokföringsbrott, mutbrott eller skattebrott, ska revisorerna anmäla misstanken och grunden för detta till åklagare.</p>
@@ -576,7 +576,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-4" href="#kap4-4" class="anchor-link">🔗</a>4.4 Danskommitté</h3>
+    <h3 class="avsnitt"><a id="kap4-4" href="#kap4-4" class="anchor-link">🔗</a>4.4 Danskommitté</h3>
     <p>DKRR består av följande danskommittéer: </p>
     <ul>
       <li>1 st Bugg-kommitté</li>
@@ -861,7 +861,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-5" href="#kap4-5" class="anchor-link">🔗</a>4.5 Ungdomskommitté</h3>
+    <h3 class="avsnitt"><a id="kap4-5" href="#kap4-5" class="anchor-link">🔗</a>4.5 Ungdomskommitté</h3>
     <p>Ungdomskommittén arbetar för att väcka dansintresse hos ungdomar och öka engagemanget bland ungdomar i föreningen.</p>
 
     <h4>Ekonomiskt ansvar och befogenheter</h4>
@@ -931,7 +931,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-6" href="#kap4-6" class="anchor-link">🔗</a>4.6 Teknikkommitté</h3>
+    <h3 class="avsnitt"><a id="kap4-6" href="#kap4-6" class="anchor-link">🔗</a>4.6 Teknikkommitté</h3>
     <p>Teknikkommittén ansvarar för all teknisk utrustning inom dansföreningen och säkerställer att teknik som ljud/bild och IT-miljö (inkl. hemsida) är i fungerande skick och anpassade efter föreningens behov.</p>
     <p>&nbsp;</p>
 
@@ -979,7 +979,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-7" href="#kap4-7" class="anchor-link">🔗</a>4.7 Festkommitté</h3>
+    <h3 class="avsnitt"><a id="kap4-7" href="#kap4-7" class="anchor-link">🔗</a>4.7 Festkommitté</h3>
     <p>Festkommittén ansvarar för att planera och genomföra sociala evenemang och fester på uppdrag av styrelsen och danskommittéerna. Festkommittén utgör en viktig del i att skapa en välkomnande och trivsam miljö för föreningens medlemmar.</p>
     <p>&nbsp;</p>
 
@@ -1019,7 +1019,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3 class="section"><a id="kap4-8" href="#kap4-8" class="anchor-link">🔗</a>4.8 Föreningsgemensamma roller</h3>
+    <h3 class="avsnitt"><a id="kap4-8" href="#kap4-8" class="anchor-link">🔗</a>4.8 Föreningsgemensamma roller</h3>
     <p>Med föreningsgemensamma roller menas roller som varken ingår i styrelsen eller kommittéer men som är centrala och gemensamma för föreningen.</p>
     <p>&nbsp;</p>
 
@@ -1160,53 +1160,53 @@
           <h3 class="scrollspy-heading">Innehållsförteckning</h3>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#kap1">1 Inledning</a>
-            <a class="nav-link section" href="#kap1-1">1.1 Bakgrund</a>
-            <a class="nav-link section" href="#kap1-2">1.2 Syfte</a>
-            <a class="nav-link section" href="#kap1-3">1.3 Versionshistorik</a>
-            <a class="nav-link section" href="#kap1-4">1.4 Avgränsningar</a>
+            <a class="nav-link avsnitt" href="#kap1-1">1.1 Bakgrund</a>
+            <a class="nav-link avsnitt" href="#kap1-2">1.2 Syfte</a>
+            <a class="nav-link avsnitt" href="#kap1-3">1.3 Versionshistorik</a>
+            <a class="nav-link avsnitt" href="#kap1-4">1.4 Avgränsningar</a>
             <a class="nav-link" href="#kap2">2 Organisation</a>
             <a class="nav-link" href="#kap3">3 Gemensamma riktlinjer och förväntningar</a>
             <a class="nav-link" href="#kap4">4 Roll- och uppdragsbeskrivning</a>
-            <a class="nav-link section" href="#kap4-1">4.1 Styrelse</a>
-            <a class="nav-link section" href="#kap4-1-1">4.1.1 Firmatecknare</a>
-            <a class="nav-link section" href="#kap4-1-2">4.1.2 Ordförande</a>
-            <a class="nav-link section" href="#kap4-1-3">4.1.3 Vice ordförande</a>
-            <a class="nav-link section" href="#kap4-1-4">4.1.4 Ledamot</a>
-            <a class="nav-link section" href="#kap4-1-5">4.1.5 Suppleant</a>
-            <a class="nav-link section" href="#kap4-1-6">4.1.6 Sekreterare</a>
-            <a class="nav-link section" href="#kap4-1-7">4.1.7 Kassör</a>
-            <a class="nav-link section" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link section" href="#kap4-2-1">4.2.1 Ordförande</a>
-            <a class="nav-link section" href="#kap4-2-2">4.2.2 Ledamot</a>
-            <a class="nav-link section" href="#kap4-3">4.3 Revisor</a>
-            <a class="nav-link section" href="#kap4-4">4.4 Danskommitté</a>
-            <a class="nav-link section" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-4-2">4.4.2 Tränar- och utbildningsansvarig</a>
-            <a class="nav-link section" href="#kap4-4-3">4.4.3 Kursadministratör</a>
-            <a class="nav-link section" href="#kap4-4-4">4.4.4 Marknadsföringsansvarig (sociala media) </a>
-            <a class="nav-link section" href="#kap4-4-5">4.4.5 Tävlingsansvarig</a>
-            <a class="nav-link section" href="#kap4-4-6">4.4.6 Tävlingsverksamhet</a>
-            <a class="nav-link section" href="#kap4-4-7">4.4.7 Socialdansansvarig</a>
-            <a class="nav-link section" href="#kap4-4-8">4.4.8 Musikansvarig</a>
-            <a class="nav-link section" href="#kap4-4-9">4.4.9 Tränare</a>
-            <a class="nav-link section" href="#kap4-4-10">4.4.10 Assistent</a>
-            <a class="nav-link section" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
-            <a class="nav-link section" href="#kap4-5">4.5 Ungdomskommitté</a>
-            <a class="nav-link section" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
-            <a class="nav-link section" href="#kap4-6">4.6 Teknikkommitté</a>
-            <a class="nav-link section" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
-            <a class="nav-link section" href="#kap4-7">4.7 Festkommitté</a>
-            <a class="nav-link section" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
-            <a class="nav-link section" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
-            <a class="nav-link section" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
-            <a class="nav-link section" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
-            <a class="nav-link section" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
-            <a class="nav-link section" href="#kap4-8-3">4.8.3 Marknadsföringsansvarig</a>
-            <a class="nav-link section" href="#kap4-8-4">4.8.4 Lokalansvarig</a>
-            <a class="nav-link section" href="#kap4-8-5">4.8.5 Dataskyddsombud</a>
-            <a class="nav-link section" href="#kap4-8-6">4.8.6 Café och receptionsansvarig</a>
+            <a class="nav-link avsnitt" href="#kap4-1">4.1 Styrelse</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-1">4.1.1 Firmatecknare</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-2">4.1.2 Ordförande</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-3">4.1.3 Vice ordförande</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-4">4.1.4 Ledamot</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-5">4.1.5 Suppleant</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-6">4.1.6 Sekreterare</a>
+            <a class="nav-link underavsnitt" href="#kap4-1-7">4.1.7 Kassör</a>
+            <a class="nav-link avsnitt" href="#kap4-2">4.2 Valberedning</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-1">4.2.1 Ordförande</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-2">4.2.2 Ledamot</a>
+            <a class="nav-link avsnitt" href="#kap4-3">4.3 Revisor</a>
+            <a class="nav-link avsnitt" href="#kap4-4">4.4 Danskommitté</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-2">4.4.2 Tränar- och utbildningsansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-3">4.4.3 Kursadministratör</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-4">4.4.4 Marknadsföringsansvarig (sociala media) </a>
+            <a class="nav-link underavsnitt" href="#kap4-4-5">4.4.5 Tävlingsansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-6">4.4.6 Tävlingsverksamhet</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-7">4.4.7 Socialdansansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-8">4.4.8 Musikansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-9">4.4.9 Tränare</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-10">4.4.10 Assistent</a>
+            <a class="nav-link underavsnitt" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
+            <a class="nav-link avsnitt" href="#kap4-5">4.5 Ungdomskommitté</a>
+            <a class="nav-link underavsnitt" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
+            <a class="nav-link avsnitt" href="#kap4-6">4.6 Teknikkommitté</a>
+            <a class="nav-link underavsnitt" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
+            <a class="nav-link avsnitt" href="#kap4-7">4.7 Festkommitté</a>
+            <a class="nav-link underavsnitt" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
+            <a class="nav-link avsnitt" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-3">4.8.3 Marknadsföringsansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-4">4.8.4 Lokalansvarig</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-5">4.8.5 Dataskyddsombud</a>
+            <a class="nav-link underavsnitt" href="#kap4-8-6">4.8.6 Café och receptionsansvarig</a>
           </nav>
         </nav>
       </div><!-- end col-lg-3 order-lg-2 -->

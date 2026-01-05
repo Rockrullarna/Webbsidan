@@ -40,15 +40,15 @@
         <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
-    <div class="section"><a href="#syfte">Syfte</a></div>
-    <div class="section"><a href="#mal">Mål</a></div>
-    <div class="section"><a href="#definitioner">Definitioner och begreppsförklaring</a></div>
-    <div class="subsection"><a href="#mobbing">Mobbing/kränkande behandling</a></div>
-    <div class="subsection"><a href="#trakasserier">Trakasserier/diskriminering</a></div>
-    <div class="subsection"><a href="#sexuella-trakasserier">Sexuella trakasserier</a></div>
-    <div class="section"><a href="#forebyggande">Förebyggande arbete</a></div>
-    <div class="section"><a href="#handlingsplan-individ">Handlingsplan individ</a></div>
-    <div class="section"><a href="#handlingsplan-styrelse">Handlingsplan styrelse</a></div>
+    <div class="kapitel"><a href="#syfte">Syfte</a></div>
+    <div class="kapitel"><a href="#mal">Mål</a></div>
+    <div class="kapitel"><a href="#definitioner">Definitioner och begreppsförklaring</a></div>
+    <div class="avsnitt"><a href="#mobbing">Mobbing/kränkande behandling</a></div>
+    <div class="avsnitt"><a href="#trakasserier">Trakasserier/diskriminering</a></div>
+    <div class="avsnitt"><a href="#sexuella-trakasserier">Sexuella trakasserier</a></div>
+    <div class="kapitel"><a href="#forebyggande">Förebyggande arbete</a></div>
+    <div class="kapitel"><a href="#handlingsplan-individ">Handlingsplan individ</a></div>
+    <div class="kapitel"><a href="#handlingsplan-styrelse">Handlingsplan styrelse</a></div>
     <p>&nbsp;</p>
         </div><!-- end document-toc -->
         
@@ -147,9 +147,9 @@
             <a class="nav-link" href="#syfte">Syfte</a>
             <a class="nav-link" href="#mal">Mål</a>
             <a class="nav-link" href="#definitioner">Definitioner och begreppsförklaring</a>
-            <a class="nav-link section" href="#mobbing">Mobbing/kränkande behandling</a>
-            <a class="nav-link section" href="#trakasserier">Trakasserier/diskriminering</a>
-            <a class="nav-link section" href="#sexuella-trakasserier">Sexuella trakasserier</a>
+            <a class="nav-link avsnitt" href="#mobbing">Mobbing/kränkande behandling</a>
+            <a class="nav-link avsnitt" href="#trakasserier">Trakasserier/diskriminering</a>
+            <a class="nav-link avsnitt" href="#sexuella-trakasserier">Sexuella trakasserier</a>
             <a class="nav-link" href="#forebyggande">Förebyggande arbete</a>
             <a class="nav-link" href="#handlingsplan-individ">Handlingsplan individ</a>
             <a class="nav-link" href="#handlingsplan-styrelse">Handlingsplan styrelse</a>
