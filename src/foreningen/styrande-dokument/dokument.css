@@ -6,15 +6,14 @@ div.kapitel {
   font-weight: bold;
 }
 
-/* Intentering for section (t.ex. 1.1, 1.2, etc) */
+/* TOC - Intentering för avsnitt (t.ex. 1.1, 1.2, etc) */
 div.avsnitt,
-div.section,
 div.paragraf {
   padding-left: 4em;
 }
 
-/* Intentering for subsection (t.ex. 4.4.1, 4.4.2, etc) */
-div.subsection {
+/* TOC - Intentering för underavsnitt (t.ex. 4.4.1, 4.4.2, etc) */
+div.underavsnitt {
   padding-left: 6em;
 }
 
@@ -27,8 +26,7 @@ h2.kapitel {
 }
 
 h3.avsnitt,
-h3.paragraf,
-h3.section {
+h3.paragraf {
   font-weight: bold;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -165,14 +163,15 @@ table.arshjul-table th,
   background-color: var(--bs-tertiary-bg, #e9ecef);
 }
 
-/* Indent sections (1.1, 1.2, etc) */
-.document-scrollspy-nav .nav-link.section {
+/* TOC - Indentering för avsnitt / paragraf (1.1, 1.2, etc) */
+.document-scrollspy-nav .nav-link.avsnitt,
+.document-scrollspy-nav .nav-link.paragraf {
   padding-left: 1.5rem;
   font-size: 0.7rem;
 }
 
-/* Indent subsections (4.4.1, 4.4.2, etc) */
-.document-scrollspy-nav .nav-link.subsection {
+/* TOC - Indentering för underavsnitt (4.4.1, 4.4.2, etc) */
+.document-scrollspy-nav .nav-link.underavsnitt {
   padding-left: 3rem;
   font-size: 0.6rem;
 }

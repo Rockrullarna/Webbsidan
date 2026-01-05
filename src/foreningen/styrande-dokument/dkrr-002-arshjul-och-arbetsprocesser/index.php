@@ -779,22 +779,22 @@
         <h3 class="scrollspy-heading">Innehållsförteckning</h3>
         <nav class="nav nav-pills flex-column">
           <a class="nav-link" href="#kap1">1 Inledning</a>
-          <a class="nav-link section" href="#kap1-1">1.1 Bakgrund</a>
-          <a class="nav-link section" href="#kap1-2">1.2 Syfte</a>
-          <a class="nav-link section" href="#kap1-3">1.3 Versionshistorik</a>
+          <a class="nav-link avsnitt" href="#kap1-1">1.1 Bakgrund</a>
+          <a class="nav-link avsnitt" href="#kap1-2">1.2 Syfte</a>
+          <a class="nav-link avsnitt" href="#kap1-3">1.3 Versionshistorik</a>
           <a class="nav-link" href="#kap2">2 DKRR Årshjul - Aktiviteter</a>
-          <a class="nav-link section" href="#januari">2.1 Januari</a>
-          <a class="nav-link section" href="#februari">2.2 Februari</a>
-          <a class="nav-link section" href="#mars">2.3 Mars</a>
-          <a class="nav-link section" href="#april">2.4 April</a>
-          <a class="nav-link section" href="#maj">2.5 Maj</a>
-          <a class="nav-link section" href="#juni">2.6 Juni</a>
-          <a class="nav-link section" href="#juli">2.7 Juli</a>
-          <a class="nav-link section" href="#augusti">2.8 Augusti</a>
-          <a class="nav-link section" href="#september">2.9 September</a>
-          <a class="nav-link section" href="#oktober">2.10 Oktober</a>
-          <a class="nav-link section" href="#november">2.11 November</a>
-          <a class="nav-link section" href="#december">2.12 December</a>
+          <a class="nav-link avsnitt" href="#januari">2.1 Januari</a>
+          <a class="nav-link avsnitt" href="#februari">2.2 Februari</a>
+          <a class="nav-link avsnitt" href="#mars">2.3 Mars</a>
+          <a class="nav-link avsnitt" href="#april">2.4 April</a>
+          <a class="nav-link avsnitt" href="#maj">2.5 Maj</a>
+          <a class="nav-link avsnitt" href="#juni">2.6 Juni</a>
+          <a class="nav-link avsnitt" href="#juli">2.7 Juli</a>
+          <a class="nav-link avsnitt" href="#augusti">2.8 Augusti</a>
+          <a class="nav-link avsnitt" href="#september">2.9 September</a>
+          <a class="nav-link avsnitt" href="#oktober">2.10 Oktober</a>
+          <a class="nav-link avsnitt" href="#november">2.11 November</a>
+          <a class="nav-link avsnitt" href="#december">2.12 December</a>
         </nav>
       </nav>
     </div><!-- end col-lg-3 order-lg-2 -->

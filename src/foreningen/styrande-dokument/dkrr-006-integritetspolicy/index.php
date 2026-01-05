@@ -40,13 +40,13 @@
         <div>
     <h1><strong>Innehållsförteckning</strong></h1>
     </div>
-    <div class="section"><a href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a></div>
-    <div class="section"><a href="#varfor">Varför behandlar vi dina personuppgifter?</a></div>
-    <div class="subsection"><a href="#delar">Vilka delar vi personuppgifter med?</a></div>
-    <div class="subsection"><a href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a></div>
-    <div class="subsection"><a href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a></div>
-    <div class="subsection"><a href="#rattigheter">Vilka rättigheter har du?</a></div>
-    <div class="section"><a href="#veta-mera">Om du vill veta mera</a></div>
+    <div class="kapitel"><a href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a></div>
+    <div class="kapitel"><a href="#varfor">Varför behandlar vi dina personuppgifter?</a></div>
+    <div class="avsnitt"><a href="#delar">Vilka delar vi personuppgifter med?</a></div>
+    <div class="avsnitt"><a href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a></div>
+    <div class="avsnitt"><a href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a></div>
+    <div class="avsnitt"><a href="#rattigheter">Vilka rättigheter har du?</a></div>
+    <div class="kapitel"><a href="#veta-mera">Om du vill veta mera</a></div>
     <p>&nbsp;</p>
         </div><!-- end document-toc -->
         
@@ -278,10 +278,10 @@
           <nav class="nav nav-pills flex-column">
             <a class="nav-link" href="#parter">Parter och ansvar för behandlingen av dina personuppgifter</a>
             <a class="nav-link" href="#varfor">Varför behandlar vi dina personuppgifter?</a>
-            <a class="nav-link section" href="#delar">Vilka delar vi personuppgifter med?</a>
-            <a class="nav-link section" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
-            <a class="nav-link section" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
-            <a class="nav-link section" href="#rattigheter">Vilka rättigheter har du?</a>
+            <a class="nav-link avsnitt" href="#delar">Vilka delar vi personuppgifter med?</a>
+            <a class="nav-link avsnitt" href="#grund">Vilken laglig grund har vi för personuppgiftsbehandling?</a>
+            <a class="nav-link avsnitt" href="#hur-lange">Hur länge sparar vi dina personuppgifter?</a>
+            <a class="nav-link avsnitt" href="#rattigheter">Vilka rättigheter har du?</a>
             <a class="nav-link" href="#veta-mera">Om du vill veta mera</a>
           </nav>
         </nav>
