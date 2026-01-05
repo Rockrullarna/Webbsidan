@@ -2,7 +2,7 @@
   $header_title = "DKRR-004 Organisation och rollbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att förstå roller och ansvar inom verksamheten";
 
-  $page_updated = "2026-01-05 10:02";
+  $page_updated = "2026-01-05 11:39";
   $page_url = "/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -60,8 +60,8 @@
             <div class="underavsnitt"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
             <div class="underavsnitt"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
             <div class="avsnitt"><a href="#kap4-2">4.2 Valberedning</a></div>
-            <div class="underavsnitt"><a href="#kap4-2-1">4.2.1 Ordförande</a></div>
-            <div class="underavsnitt"><a href="#kap4-2-2">4.2.2 Ledamot</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-1">4.2.1 Valberedningens ordförande</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-2">4.2.2 Valberedningens ledamot</a></div>
             <div class="avsnitt"><a href="#kap4-3">4.3 Revisor</a></div>
             <div class="avsnitt"><a href="#kap4-4">4.4 Danskommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
@@ -77,13 +77,13 @@
             <div class="underavsnitt"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
             <div class="avsnitt"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-7">4.7 Festkommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
             <div class="underavsnitt"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
             <div class="underavsnitt"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
@@ -141,6 +141,12 @@
         <td>2025-12-10</td>
         <td>Styrelsen</td>
         <td>Fastställt dokument på styrelsemöte, presenteras under höstmötet 2025-12-11.</td>
+      </tr>
+      <tr>
+        <td>1.1</td>
+        <td>2026-01-05</td>
+        <td>Jonas Arvidson</td>
+        <td>Mindre rättningar av stavfel och formatering.</td>
       </tr>
     </table>
     <p>&nbsp;</p>
@@ -396,12 +402,12 @@
       <li>Följer upp styrelsens arbetsuppgifter och säkerställer att styrelsens beslut verkställs.</li>
       <li>Säkerställer att föreningens verksamhet bedrivs enligt stadgar, beslut och lagar.</li>
       <li>Stödjer och koordinerar övriga styrelsemedlemmars arbete.</li>
-      <li>Granskar och genomför inregistrering av registerkontroller (idrott online).</li>
+      <li>Granskar och genomför inregistrering av registerkontroller (IdrottOnline).</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -417,7 +423,7 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -490,7 +496,7 @@
     <h3 class="avsnitt"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
     <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
-    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Ordförande</h4>
+    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Valberedningens ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Valberedningens ordförande är huvudansvarig för valberedningens arbete. Ordförande sammankallar och leder möten, ser till att dagordningen följs och att alla ledamöter får komma till tals i olika frågor.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -506,7 +512,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Ledamot</h4>
+    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Valberednings ledamot</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som ledamot har du en avgörande roll i att säkerställa en kompetent, engagerad och balanserad styrelse som kan leda föreningen på bästa sätt. Arbetet är strategiskt och bör präglas av objektivitet, långsiktighet och medlemsnytta.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -913,7 +919,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-5-2" href="#kap4-5-2" class="anchor-link">🔗</a>4.5.2 Genomförandegrupp</h4>
+    <h4><a id="kap4-5-2" href="#kap4-5-2" class="anchor-link">🔗</a>4.5.2 Ungdomskommitténs genomförandegrupp</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Ungdomskommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -958,7 +964,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-6-2" href="#kap4-6-2" class="anchor-link">🔗</a>4.6.2 Genomförandegrupp</h4>
+    <h4><a id="kap4-6-2" href="#kap4-6-2" class="anchor-link">🔗</a>4.6.2 Teknikkommitténs genomförandegrupp</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Teknikkommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -1144,7 +1150,6 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning i dans.se.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
@@ -1176,8 +1181,8 @@
             <a class="nav-link underavsnitt" href="#kap4-1-6">4.1.6 Sekreterare</a>
             <a class="nav-link underavsnitt" href="#kap4-1-7">4.1.7 Kassör</a>
             <a class="nav-link avsnitt" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link underavsnitt" href="#kap4-2-1">4.2.1 Ordförande</a>
-            <a class="nav-link underavsnitt" href="#kap4-2-2">4.2.2 Ledamot</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-1">4.2.1 Valberedningens ordförande</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-2">4.2.2 Valberedningens ledamot</a>
             <a class="nav-link avsnitt" href="#kap4-3">4.3 Revisor</a>
             <a class="nav-link avsnitt" href="#kap4-4">4.4 Danskommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
@@ -1193,13 +1198,13 @@
             <a class="nav-link underavsnitt" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
             <a class="nav-link avsnitt" href="#kap4-5">4.5 Ungdomskommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-6">4.6 Teknikkommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-7">4.7 Festkommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
             <a class="nav-link underavsnitt" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
             <a class="nav-link underavsnitt" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
