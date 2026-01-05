@@ -806,7 +806,7 @@
     <h5>Uppdragsbeskrivning</h5>
     <p>Som tränare ansvarar du för att leda kurs samt i samverkan med tränar-och utbildningsansvarige utse assistenter och ev. hjälpdansare till den kurs du ska hålla. Tränare ansvarar för, och säkerställer att assistenter vet vad som ska göras på kursen samt på vilket sätt. Efter respektive avslutat kurstillfälle ansvarar tränaren för att samla kursteamet i syfte att diskutera kurstillfället gällande vad som var bra, vad som kan bli bättre, om någon har observerat något som strider mot föreningens policy etc.</p>
     <p>Om det finns kursdeltagare som ej förhåller sig till föreningens policy trots tillsägelse har tränaren rätt att avvisa kursdeltagare från lokalen. Alla incidenter som bryter mot föreningens policy ska meddelas till styrelsen.</p>
-    <p>Alla tränare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är tränaren som själv begär ut registerutdraget hos polisen. Tränaren ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla tränare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är tränaren som själv begär ut registerutdraget hos polisen. Tränaren ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Förbereda, planera och leda danskurser.</li>
@@ -830,7 +830,7 @@
     <h4><a id="kap4-4-10" href="#kap4-4-10" class="anchor-link">🔗</a>4.4.10 Assistent</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som assistent ansvarar du för att vara ett stöd till tränare och kursdeltagare. Assistenten ska vara väl insatt om vad som ska genomföras vid kurstillfällen samt veta hur det ska utföras. Som assistent ska du vara lyhörd till deltagarna och förevisa i enlighet med tränarens beskrivning. Assistenten hjälper tränaren att hålla koll på gruppen och ger feedback till både kursdeltagare och tränare.</p>
-    <p>Alla assistenter ska vart annat år genomföra kontroll från polisens belastningsregister. Det är assistenten som själv begär ut registerutdraget hos polisen. Assistenten ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla assistenter ska vart annat år genomföra kontroll från polisens belastningsregister. Det är assistenten som själv begär ut registerutdraget hos polisen. Assistenten ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Stödja tränaren med teknik (ex. musikutrustning), genomgångar och individuell feedback.</li>
@@ -854,7 +854,7 @@
     <h5>Uppdragsbeskrivning</h5>
     <p>Syftet med hjälpdansare är dels att, vid behov, fylla ut antalet förare/följare till jämna par, dels för att kursdeltagarna ska få uppleva en korrekt utförd dans.</p>
     <p>För att vara hjälpdansare ska du vara en erfaren och tekniskt bra dansare som tydligt kan föra/följa. Hjälpdansarens roll är inte att påpeka vad som är rätt eller fel för kursdeltagarna. Förevisning och utlärning genomförs av tränare och assistenter. Som hjälpdansare ska du hålla dig till det som lärs ut och förevisas och inte gå utanför dessa ramar.</p>
-    <p>Alla hjälpdansare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är hjälpdansaren som själv begär ut registerutdraget hos polisen. Hjälpdansare ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla hjälpdansare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är hjälpdansaren som själv begär ut registerutdraget hos polisen. Hjälpdansare ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Att följa tränarens anvisningar.</li>
@@ -1091,7 +1091,7 @@
 
     <h4><a id="kap4-8-4" href="#kap4-8-4" class="anchor-link">🔗</a>4.8.4 Lokalansvarig</h4>
     <h5>Uppdragsbeskrivning</h5>
-    <p>Som lokalansvarig ansvarar du för förningens lokal i sin helhet. Du är kontaktyta mellan föreningen och hyresvärden i frågor som berör lokalens ytor, funktion och infrastruktur. Lokalansvarig ska se över och inspektera lokalens skick och identifiera inköpsbehov av förbrukningsvaror så som städartiklar och lampor. Utöver detta ingå även ansvar att administrera tillträden och behörigheter i stödsystemet "Vaka".</p>
+    <p>Som lokalansvarig ansvarar du för föreningens lokal i sin helhet. Du är kontaktyta mellan föreningen och hyresvärden i frågor som berör lokalens ytor, funktion och infrastruktur. Lokalansvarig ska se över och inspektera lokalens skick och identifiera inköpsbehov av förbrukningsvaror så som städartiklar och lampor. Utöver detta ingår även ansvar att administrera tillträden och behörigheter i stödsystemet "Vaka".</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Säkerställa att lokalen är i gott skick.</li>
