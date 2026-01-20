@@ -2,7 +2,7 @@
   $header_title = "Betalning - Danskurser";
   $header_description = "Betalningsinformation för vår kursverksamhet";
 
-  $page_updated = "2025-01-30 22:14";
+  $page_updated = "2026-01-20 23:14";
   $page_url = "/danskurser/betalning";
   $page_contact_name = "Kassören";
   $page_contact_email = "ekonomi@rockrullarna.se";
@@ -49,19 +49,29 @@
       Beloppet kan sedan användas för att betala framtida danskurser, tävlingsavgifter eller danskvällar. <br />
       Du behöver alltid betala medlemsavgiften separat via Bankgiro (<b>865-0277</b>) eller Swish (<b>1232220283</b>), märk betalningen med meddelande: "Medlemskap".
     </p>
-    <h3 id="epassi">Epassi</h3>
     <p>
-      Betalning via Epassi genomförs av enskild medlem via ePassi som är friskvårdsleverantören.
+      Vid betalning via Friskvård kan betalningen till DK Rockrullarna dröja vilket kan leda till att din ankomstregistrering kan vara missvisande (displayen på blir orange och du blir ombedd att kontakta personal). Vi ber er ha överseende med detta.
+    </p>
+    <p>
+      Kvitto på utförd betalning kommer via e-post, så fort vår kassör har registrerat din friskvårdsbetalning korrekt. Vid frågor om din friskvårdsbetalning, kontakta kassören på: <a href="mailto:ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>.
+    </p>
+    <h3 id="epassi">Leverantör: Epassi</h3>
+    <p>
+      Betalning via Epassi genomförs av enskild medlem via ePassi som är en av våra friskvårdsleverantörer.
+    </p>
+    <p>
+      Epassi-portalen: <a href="https://services.epassi.se/ui/login/">https://services.epassi.se/</a>
     </p>
     <p>
       Instruktioner för betalning via Epassi appen, hittar du på vår sida: <br />
       <a href="https://rockrullarna.se/kontakt/fragor-och-svar/friskvard-epassi">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvård ePassi</a>
     </p>
+    <h3 id="benefits">Leverantör: Benefits</h3>
     <p>
-      Vid betalning via Epassi kan betalningen till DK Rockrullarna dröja vilket kan leda till att din ankomstregistrering kan vara missvisande (displayen på blir orange och du blir ombedd att kontakta personal). Vi ber er ha överseende med detta.
+      Betalning via Benefits genomförs av enskild medlem via Benefits-portalen som är en av våra friskvårdsleverantörer.
     </p>
     <p>
-      Kvitto på utförd betalning kommer via e-post, så fort vår kassör har registrerat din friskvårdsbetalning korrekt. Vid frågor om din friskvårdsbetalning, kontakta kassören på: <a href="mailto:ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>.
+      Benefits-portalen: <a href="https://benefits.se/for-medarbetare/">https://benefits.se/for-medarbetare</a>
     </p>
     <h2 id="cafe">Café</h2>
     <p>
