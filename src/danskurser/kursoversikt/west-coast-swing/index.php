@@ -2,7 +2,7 @@
   $header_title = "West Coast Swing - Kursöversikt - Danskurser";
   $header_description = "West Coast Swing (WCS) är en cool pardans med rötter i Lindy hop";
 
-  $page_updated = "2025-06-08 18:08";
+  $page_updated = "2026-01-26 18:26";
   $page_url = "/danskurser/kursoversikt/west-coast-swing";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -27,7 +27,7 @@
     </p>
     <h2>Här nedan visas våra West Coast Swing-kurser:</h2>
     <p>
-      <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset">
+      <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Hämtar data om WCS-kurser ifrån dans.se">
         Hämtar data om WCS-kurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)
       </a>
@@ -38,7 +38,7 @@
       Har du telefonen liggandes så ser du fler fält i listan. Till exempel: <strong>Pris</strong> och om <strong>anmälan är öppen/stängd</strong>.
     </p>
     <p>
-      Om hämtningen inte fungerar automatiskt, hittar ni kurserna via: <a href="https://dans.se/shop/?lang=sv&org=rockrullarna&showPrice=1&new" title="Rockrullarna på dans.se" target="_blank">dans.se/rockrullarna/shop</a>
+      Om hämtningen inte fungerar automatiskt, hittar ni kurserna via: <a href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Rockrullarna på dans.se" target="_blank">dans.se/rockrullarna/shop</a>
     </p>
 <?php
   include_once '../../../includes/footer.php'
