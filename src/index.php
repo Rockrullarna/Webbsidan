@@ -32,7 +32,7 @@
     } else {
       // Visar datum/tid för senaste version v12.18.20250329
       // om det inte går att läsa innehållet från version.txt
-      $page_updated = "2025-08-26 17:26";
+      $page_updated = "2026-02-24 07:56";
     }
   }
 
@@ -99,6 +99,10 @@
           <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
           Nyheter
         </h2>
+        <div class="mb-4">
+          <h3 id="arsmote-heading" class="h5 mb-2">Årsmöte 2026-03-28</h3>
+          <p class="mb-2">Information om årsmötet hittar du på sidan: <a href="/foreningen/moten-och-protokoll/arsmote" title="Information om årsmötet 2026" target="_self">Föreningen / Möten och protokoll / Årsmöte 2026</a>.</p>
+        </div>
         <div class="mb-4">
           <h3 id="betalningar-heading" class="h5 mb-2">Betalningar & rabatter</h3>
           <p class="mb-2">Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
