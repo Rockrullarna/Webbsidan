@@ -2,7 +2,7 @@
   $header_title = "Årsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika årsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2025-12-20 00:17";
+  $page_updated = "2026-02-24 07:39";
   $page_url = "/foreningen/moten-och-protokoll/arsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -19,81 +19,82 @@
     <p>Anmälan till årsmötet görs via sidan <a href="/danskurser/anmalan-danskurser/" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Årsmöte". </p>
     <p>Information gällande årsmötet kommer ut via sociala medier, hemsida samt via tränare. <br />Mer information gällande årsmötet hittats i <a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a>.</p>
     <p>&nbsp;</p>
-    <h2>Årsmötet 2025</h2>
-    <p>Anmälan till årsmötet 2025 gör du här: <a href="https://dans.se/rockrullarna/shop/new?event=244368&info=1&lang=sv" title="Anmälningsformulär till årsmötet 2025 (öppnas i nytt fönster)" target="_blank">Anmälningsformulär till årsmötet 2025</a>.</p>
-    <h3>Handlingar inför Årsmötet 2025 (2024 års verksamhet)</h3>
-    <p>Här finns alla de handlingar som ska avhandlas inför årsmötet 2025, där vi går igenom verksamhetsåret 2024.</p>
+    <h2>Årsmötet 2026</h2>
+    <p>Anmälan till årsmötet 2026 gör du här: <a href="https://dans.se/rockrullarna/shop/new?event=276408&info=1&lang=sv" title="Anmälningsformulär till årsmötet 2026 (öppnas i nytt fönster)" target="_blank">Anmälningsformulär till årsmötet 2026</a>.</p>
+    <h3>Handlingar inför Årsmötet 2026 (2025 års verksamhet)</h3>
+    <p>Här finns alla de handlingar som ska avhandlas inför årsmötet 2026, där vi går igenom verksamhetsåret 2025.</p>
     <table class="table">
       <tr>
         <th>Handling</th>
         <th>Dokument-länk</th>
       </tr>
       <tr>
-        <td>DKRR-2025 Dagordning Årsmöte</td>
+        <td>DKRR-2026 Dagordning Årsmöte</td>
         <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Dagordning-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
-        <td>DKRR-2025 Ekonomi - Balansräkning 2024-12-31</td>
+        <td>DKRR-2026 Ekonomi - Balansräkning 2025-12-31</td>
         <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Ekonomi-Balansräkning--2024-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Ekonomi-Balansräkning-2025-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
-        <td>DKRR-2025 Ekonomi - Resultaträkning 2024-12-31</td>
+        <td>DKRR-2026 Ekonomi - Resultaträkning 2025-12-31</td>
         <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Ekonomi-Resultaträkning--2024-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Ekonomi-Resultaträkning-2025-12-31.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <!-- <tr>
-        <td>DKRR-2025 Ekonomi - Årsbudget förslag 2025</td>
+        <td>DKRR-2026 Ekonomi - Årsbudget förslag 2026</td>
         <td><i>Finns i Verksamhetsplanen</i></td>
         <td><i>Kommer snart...</i></td>
-        <td><a href="./handlingar/2025/DKRR-2025-Ekonomi-Årsbudget-2025.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Ekonomi-Årsbudget-2026.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr> -->
       <tr>
-        <td>DKRR-2025 Motion 1 - Ekonomigruppering</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Motion-1-Ekonomigruppering.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2026 Motion 1 - Finns ingen ännu...</td>
+        <td><i>Skicka in din motion till styrelsen om du vill att den ska behandlas på årsmötet.</i></td>
+        <!-- <td><a href="./handlingar/2026/DKRR-2026-Motion-1-Ekonomigruppering.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+      </tr>
+      <!-- <tr>
+        <td>DKRR-2026 Motion 2 - Stadgeändring</td>
+        <td><i>Kommer snart...</i></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Motion-2-Stadgeändring.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr> -->
+      <!-- <tr>
+        <td>DKRR-2026 Motion 3 - Trygga idrottsmiljöer</td>
+        <td><i>Kommer snart...</i></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Motion-3-Trygga-idrottsmiljöer.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr> -->
+      <tr>
+        <td>DKRR-2026 Revisionsberättelse för 2025</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./handlingar/2026/DKRR-2026-Revisionsberättelse-2025.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2025 Motion 2 - Stadgeändring</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Motion-2-Stadgeändring.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2026 Valberedningens förslag</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./handlingar/2026/DKRR-2026-Valberedningens-förslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2025 Motion 3 - Trygga idrottsmiljöer</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Motion-3-Trygga-idrottsmiljöer.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2026 Verksamhetsberättelse för 2025</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsberättelse-för-2025.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
       <tr>
-        <td>DKRR-2025 Revisionsberättelse för 2024</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Revisionsberättelse-2024.pdf" target="_blank">Visa / Ladda ned</a></td>
+        <td>DKRR-2026 Verksamhetsinriktning 2026-2027</td>
+        <td><i>Kommer snart...</i></td>
+        <!-- <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsinriktning-2026-2027.pdf" target="_blank">Visa / Ladda ned</a></td> -->
       </tr>
-      <tr>
-        <td>DKRR-2025 Valberedningens förslag</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Valberedningens-förslag.pdf" target="_blank">Visa / Ladda ned</a></td>
-      </tr>
-      <tr>
-        <td>DKRR-2025 Verksamhetsberättelse för 2024</td>
-        <!-- <td><i>Kommer snart...</i></td>  -->
-        <td><a href="./handlingar/2025/DKRR-2025-Verksamhetsberättelse-för-2024.pdf" target="_blank">Visa / Ladda ned</a></td>
-      </tr>
-      <tr>
-        <td>DKRR-2025 Verksamhetsinriktning 2025-2026</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Verksamhetsinriktning-2025-2026.pdf" target="_blank">Visa / Ladda ned</a></td>
-      </tr>
-      <tr>
-        <td>DKRR-2025 Årsmöte</td>
-        <!-- <td><i>Kommer snart...</i></td> -->
-        <td><a href="./handlingar/2025/DKRR-2025-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
-        <!-- https://rockrullarna.se/foreningen/moten-och-protokoll/arsmote/handlingar/2025/DKRR-2025-%C3%85rsm%C3%B6te.pdf -->
-      </tr>
+      <!-- <tr>
+        <td>DKRR-2026 Årsmöte</td>
+        <td><i>Kommer snart...</i></td>
+        <td><a href="./handlingar/2026/DKRR-2026-Årsmöte.pdf" target="_blank">Visa / Ladda ned</a></td>
+        https://rockrullarna.se/foreningen/moten-och-protokoll/arsmote/handlingar/2026/DKRR-2026-%C3%85rsm%C3%B6te.pdf
+      </tr> -->
     </table>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h2>Arkiv för årsmötes protokoll och handlingar</h2>
+    <p><a href="./2026/">Årsmöteshandlingar för 2026</a></p>
     <p><a href="./2025/">Årsmöteshandlingar för 2025</a></p>
     <p><a href="./2024/">Årsmöteshandlingar för 2024</a></p>
     <p>Tidigare handlingar hittar du via vår SharePoint (Microsoft365), där det finns arkiverat protokoll och handlingar från våra tidigare årsmöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
