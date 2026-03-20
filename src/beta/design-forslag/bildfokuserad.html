@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Förslag 4: Bildfokuserad – Rockrullarna.se</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --b-dark:    #0d1117;
+      --b-darker:  #080c10;
+      --b-surface: #161b22;
+      --b-accent:  #00ABD6;
+      --b-accent2: #0088aa;
+      --b-gold:    #f0b429;
+      --b-text:    #e6edf3;
+      --b-muted:   #8b949e;
+      --b-border:  rgba(255,255,255,0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      background: var(--b-dark);
+      color: var(--b-text);
+      font-family: 'DM Sans', Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* ── Navbar ── */
+    .rr-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      background: linear-gradient(to bottom, rgba(13,17,23,0.95), transparent);
+      transition: background 0.3s;
+    }
+
+    .rr-nav.scrolled { background: rgba(13,17,23,0.97); backdrop-filter: blur(10px); }
+
+    .rr-nav .brand {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .rr-nav .brand span { color: var(--b-accent); }
+
+    .rr-nav .nav-link {
+      color: rgba(255,255,255,0.7) !important;
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 0.3rem 0.7rem;
+      transition: color 0.15s;
+    }
+
+    .rr-nav .nav-link:hover { color: #fff !important; }
+
+    .rr-btn {
+      background: var(--b-accent);
+      color: #fff;
+      border: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.55rem 1.3rem;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.2s;
+    }
+
+    .rr-btn:hover { background: var(--b-accent2); color: #fff; }
+
+    /* ── Full-height Hero ── */
+    .rr-hero {
+      height: 100vh;
+      min-height: 600px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+
+    /* Simulated photo background with CSS gradient */
+    .rr-hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom, rgba(13,17,23,0.3) 0%, rgba(13,17,23,0.1) 40%, rgba(13,17,23,0.8) 75%, var(--b-dark) 100%),
+        linear-gradient(135deg, #1a2a1a 0%, #0a1520 30%, #1a0a20 60%, #201010 100%);
+    }
+
+    /* Decorative dance silhouette placeholder */
+    .rr-hero-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.08;
+      font-size: 25vw;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .rr-hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 0 2rem 4rem;
+      width: 100%;
+    }
+
+    .rr-hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    .rr-hero h1 em {
+      font-style: italic;
+      color: var(--b-accent);
+    }
+
+    .rr-hero p {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.75);
+      max-width: 540px;
+      margin-bottom: 2rem;
+    }
+
+    /* ── Floating info cards on hero ── */
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 99px;
+      padding: 0.4rem 1rem;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #4caf50; animation: pulse 2s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ── Image grid section ── */
+    .rr-section { padding: 5rem 2rem; }
+
+    .img-placeholder {
+      background: var(--b-surface);
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .img-placeholder::before {
+      content: attr(data-label);
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--b-muted);
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .img-placeholder.tall { padding-bottom: 130%; }
+    .img-placeholder.wide { padding-bottom: 60%; }
+    .img-placeholder.square { padding-bottom: 100%; }
+
+    .img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+      display: flex;
+      align-items: flex-end;
+      padding: 1.2rem;
+    }
+
+    /* ── Section headings ── */
+    .rr-section h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .rr-section h2 em { font-style: italic; color: var(--b-accent); }
+
+    /* ── Dance style cards ── */
+    .style-card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.25s;
+    }
+
+    .style-card:hover { transform: scale(1.02); }
+
+    .style-card-bg {
+      padding-bottom: 120%;
+      position: relative;
+    }
+
+    .style-card-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+    }
+
+    .style-card.bugg .style-card-bg::before {
+      background: linear-gradient(160deg, #1a0040 0%, #2a006a 100%);
+    }
+    .style-card.fox .style-card-bg::before {
+      background: linear-gradient(160deg, #001a30 0%, #003060 100%);
+    }
+    .style-card.wcs .style-card-bg::before {
+      background: linear-gradient(160deg, #001a20 0%, #003040 100%);
+    }
+
+    .style-card-body {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1.5rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+    }
+
+    .style-card-icon { font-size: 2.5rem; margin-bottom: 0.5rem; opacity: 0.9; }
+    .style-card-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 0 0.3rem;
+    }
+
+    .style-card p { font-size: 0.85rem; color: rgba(255,255,255,0.65); margin: 0 0 1rem; }
+
+    /* ── Event cards ── */
+    .event-card {
+      background: var(--b-surface);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--b-border);
+      transition: border-color 0.2s;
+    }
+
+    .event-card:hover { border-color: var(--b-accent); }
+
+    .event-card-top {
+      background: linear-gradient(135deg, #002030, #001520);
+      padding: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .event-date-badge {
+      background: var(--b-accent);
+      border-radius: 8px;
+      width: 3.2rem;
+      height: 3.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .event-date-badge .day { font-size: 1.3rem; font-weight: 700; line-height: 1; color: #fff; }
+    .event-date-badge .mon { font-size: 0.6rem; font-weight: 700; color: rgba(255,255,255,0.8); text-transform: uppercase; }
+
+    .event-card-top h4 { font-size: 0.95rem; font-weight: 700; margin: 0 0 0.2rem; color: #fff; }
+    .event-card-top small { color: var(--b-muted); font-size: 0.8rem; }
+    .event-card-body { padding: 1rem 1.2rem; color: var(--b-muted); font-size: 0.85rem; }
+
+    /* ── Quote ── */
+    .rr-quote {
+      background: var(--b-surface);
+      border-left: 4px solid var(--b-accent);
+      padding: 2rem;
+      border-radius: 0 12px 12px 0;
+    }
+
+    .rr-quote blockquote {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.4rem;
+      color: #fff;
+      margin: 0 0 0.8rem;
+    }
+
+    /* ── CTA ── */
+    .rr-cta {
+      background: var(--b-surface);
+      border-top: 1px solid var(--b-border);
+      border-bottom: 1px solid var(--b-border);
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .rr-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(0,171,214,0.08) 0%, transparent 70%);
+    }
+
+    .rr-cta h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: #fff;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .rr-cta p { color: var(--b-muted); max-width: 480px; margin: 0 auto 2rem; position: relative; }
+
+    /* ── Footer ── */
+    .rr-footer {
+      background: var(--b-darker);
+      color: var(--b-muted);
+      padding: 3rem 2rem 1.5rem;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--b-border);
+    }
+
+    .rr-footer .brand {
+      font-family: 'DM Serif Display', serif;
+      color: #fff;
+      font-size: 1.4rem;
+      display: block;
+      margin-bottom: 0.4rem;
+      text-decoration: none;
+    }
+
+    .rr-footer a { color: var(--b-muted); text-decoration: none; }
+    .rr-footer a:hover { color: var(--b-accent); }
+    .rr-footer h5 { color: #fff; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.8rem; }
+
+    /* ── Design annotation ── */
+    .design-note {
+      position: fixed;
+      bottom: 1.2rem;
+      right: 1.2rem;
+      background: rgba(8,12,16,0.97);
+      border: 1px solid var(--b-accent);
+      color: #f0f0f0;
+      padding: 0.8rem 1.1rem;
+      font-size: 0.78rem;
+      border-radius: 6px;
+      max-width: 260px;
+      z-index: 9999;
+    }
+
+    .design-note strong { color: var(--b-accent); display: block; margin-bottom: 0.3rem; }
+    .design-note a { color: var(--b-accent); }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="rr-nav" id="mainNav">
+    <a href="/" class="brand">Rock<span>rullarna</span></a>
+    <div class="d-flex flex-wrap gap-1 align-items-center">
+      <a href="#" class="nav-link">Hem</a>
+      <a href="#stilar" class="nav-link">Dansstilar</a>
+      <a href="#kalender" class="nav-link">Kalender</a>
+      <a href="#" class="nav-link">Föreningen</a>
+      <a href="#" class="nav-link">Kontakt</a>
+      <a href="#" class="rr-btn ms-2">Anmäl dig</a>
+    </div>
+  </nav>
+
+  <!-- Full-height hero -->
+  <section class="rr-hero">
+    <div class="rr-hero-bg"></div>
+    <div class="rr-hero-placeholder">💃</div>
+    <div class="container rr-hero-content">
+      <span class="hero-badge">
+        <span class="dot"></span>
+        Örebros dansgemenskap sedan 1980-talet
+      </span>
+      <h1>Dans&shy;glädjens<br>hem i <em>Örebro</em></h1>
+      <p>En ideell förening för alla som vill lära sig dansa Bugg, Fox och West Coast Swing — i en varm och välkomnande gemenskap.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <a href="#" class="rr-btn" style="font-size:1rem; padding:0.75rem 2rem;">Anmäl dig till kurs</a>
+        <a href="#stilar" style="color:rgba(255,255,255,0.7); display:inline-flex; align-items:center; text-decoration:none; font-weight:500; gap:0.5rem;">
+          Utforska dansstilar
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8.271 5.495a.5.5 0 0 0-.542.22l-2 3a.5.5 0 0 0 0 .57l2 3a.5.5 0 1 0 .834-.556L6.724 9H11.5a.5.5 0 0 0 0-1H6.724l1.839-2.729a.5.5 0 0 0-.292-.776z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual gallery / dance styles -->
+  <section id="stilar" class="rr-section">
+    <div class="container">
+      <p style="color:var(--b-accent); font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.5rem;">Våra dansstilar</p>
+      <div class="row align-items-end mb-4">
+        <div class="col-12 col-md-8">
+          <h2>Tre stilar, <em>ett hjärta</em></h2>
+          <p style="color:var(--b-muted);">Vi undervisar Bugg, Fox och West Coast Swing på alla nivåer. Välj den stil som lockar dig — eller prova alla tre!</p>
+        </div>
+        <div class="col-12 col-md-4 text-md-end">
+          <a href="#" class="rr-btn">Visa alla kurser</a>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="style-card bugg">
+            <div class="style-card-bg"></div>
+            <div class="style-card-body">
+              <div class="style-card-icon">💃</div>
+              <h3 class="style-card-title">Bugg</h3>
+              <p>Sveriges folkligaste pardans — social och rolig</p>
+              <a href="#" class="rr-btn" style="font-size:0.85rem; padding:0.4rem 1rem;">Läs mer →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="style-card fox">
+            <div class="style-card-bg"></div>
+            <div class="style-card-body">
+              <div class="style-card-icon">🎩</div>
+              <h3 class="style-card-title">Fox</h3>
+              <p>Dynamisk och elegant med tidlöst uttryck</p>
+              <a href="#" class="rr-btn" style="font-size:0.85rem; padding:0.4rem 1rem;">Läs mer →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="style-card wcs">
+            <div class="style-card-bg"></div>
+            <div class="style-card-body">
+              <div class="style-card-icon">🎵</div>
+              <h3 class="style-card-title">West Coast Swing</h3>
+              <p>Modern, musikalisk och improviserad</p>
+              <a href="#" class="rr-btn" style="font-size:0.85rem; padding:0.4rem 1rem;">Läs mer →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kalender + nyheter -->
+  <section id="kalender" class="rr-section" style="background:var(--b-surface); padding-top:4rem; padding-bottom:4rem;">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-12 col-lg-6">
+          <p style="color:var(--b-accent); font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.5rem;">Aktiviteter</p>
+          <h2 class="mb-4">Kommande <em>aktiviteter</em></h2>
+          <div class="row g-3">
+            <div class="col-12">
+              <div class="event-card">
+                <div class="event-card-top">
+                  <div class="event-date-badge"><div class="day">25</div><div class="mon">Mar</div></div>
+                  <div><h4>Bugg nybörjarkurs – tillfälle 1</h4><small>📍 Haga Centrum, Örebro</small></div>
+                </div>
+                <div class="event-card-body">Perfekt för dig som aldrig dansat bugg. Inga förkunskaper krävs.</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="event-card">
+                <div class="event-card-top">
+                  <div class="event-date-badge"><div class="day">28</div><div class="mon">Mar</div></div>
+                  <div><h4>Årsmöte 2026</h4><small>📍 Haga Centrum, Örebro</small></div>
+                </div>
+                <div class="event-card-body">Föreningens stadgeenliga årsmöte. Alla medlemmar välkomna.</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="event-card">
+                <div class="event-card-top">
+                  <div class="event-date-badge"><div class="day">5</div><div class="mon">Apr</div></div>
+                  <div><h4>Danssocial – öppet för alla</h4><small>📍 Haga Centrum, Örebro</small></div>
+                </div>
+                <div class="event-card-body">Kom och dansa! Öppet för alla nivåer och dansstilar.</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="rr-btn mt-3 d-inline-block">Visa hela kalendern</a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <p style="color:var(--b-accent); font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.5rem;">Gemenskap</p>
+          <h2 class="mb-4">Varför <em>Rockrullarna?</em></h2>
+
+          <div class="rr-quote mb-4">
+            <blockquote>"Rockrullarna erbjuder en varm gemenskap och glädje. Hit vill man komma tillbaka!"</blockquote>
+            <small style="color:var(--b-muted);">— Medlem hos Dansklubben Rockrullarna</small>
+          </div>
+
+          <div class="d-flex flex-column gap-3">
+            <div class="d-flex gap-3 align-items-start">
+              <span style="font-size:1.5rem; flex-shrink:0;">🤝</span>
+              <div>
+                <strong style="color:#fff;">Ideell förening</strong>
+                <p style="color:var(--b-muted); font-size:0.9rem; margin:0.2rem 0 0;">Vi ställer upp för varandra och lär varandra dansa.</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 align-items-start">
+              <span style="font-size:1.5rem; flex-shrink:0;">🎓</span>
+              <div>
+                <strong style="color:#fff;">Alla nivåer</strong>
+                <p style="color:var(--b-muted); font-size:0.9rem; margin:0.2rem 0 0;">Kurser för nybörjare till avancerade dansare.</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 align-items-start">
+              <span style="font-size:1.5rem; flex-shrink:0;">🌍</span>
+              <div>
+                <strong style="color:#fff;">Alla välkomna</strong>
+                <p style="color:var(--b-muted); font-size:0.9rem; margin:0.2rem 0 0;">Oavsett ålder, kön, erfarenhet eller bakgrund.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="font-family:'DM Serif Display',serif; color:#fff; font-size:1.3rem; margin-top:2rem; margin-bottom:1rem;">Följ oss</h3>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="#" class="rr-btn">📘 Facebook</a>
+            <a href="#" class="rr-btn" style="background:rgba(255,255,255,0.08); border:1px solid var(--b-border);">📸 Instagram</a>
+            <a href="#" class="rr-btn" style="background:rgba(255,255,255,0.08); border:1px solid var(--b-border);">🎵 TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="rr-cta">
+    <h2>Börja dansa idag</h2>
+    <p>Anmäl dig till en kurs eller bli stödmedlem. Det är lätt, roligt och du behöver inga förkunskaper.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3" style="position:relative;">
+      <a href="#" class="rr-btn" style="font-size:1rem; padding:0.75rem 2rem;">Anmäl dig till kurs</a>
+      <a href="#" class="rr-btn" style="background:rgba(255,255,255,0.08); border:1px solid var(--b-border); font-size:1rem; padding:0.75rem 2rem;">Bli stödmedlem</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="rr-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <a href="/" class="brand">Rockrullarna</a>
+          <p>Ideell dansförening i Örebro</p>
+          <small>Bugg · Fox · West Coast Swing</small>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5>Kurser</h5>
+          <div class="d-flex flex-column gap-1"><a href="#">Bugg</a><a href="#">Fox</a><a href="#">WCS</a><a href="#">Alla kurser</a></div>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5>Föreningen</h5>
+          <div class="d-flex flex-column gap-1"><a href="#">Om oss</a><a href="#">Styrelsen</a><a href="#">Dokument</a><a href="#">Bli stödmedlem</a></div>
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Kontakt</h5>
+          <p>Vaktelvägen 2, Haga Centrum<br>70348 Örebro</p>
+          <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a>
+          <br><br>
+          <a href="#">Facebook</a> &nbsp;·&nbsp; <a href="#">Instagram</a> &nbsp;·&nbsp; <a href="#">TikTok</a>
+        </div>
+      </div>
+      <hr style="border-color:var(--b-border); margin-top:2rem;">
+      <p class="text-center mb-0" style="font-size:0.78rem;">
+        &copy; 2026 Dansklubben Rockrullarna &nbsp;|&nbsp; <a href="/integritetspolicy">Integritetspolicy</a> &nbsp;|&nbsp; <a href="/kontakt">Kontakt</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Design annotation -->
+  <div class="design-note">
+    <strong>Förslag 4 – Bildfokuserad</strong>
+    DM Serif Display + DM Sans · Full-height hero · Event-kort<br>
+    <strong style="color:#ccc; font-size:0.7rem; display:block; margin-top:0.4rem;">För- och nackdelar:</strong>
+    ✅ Stark visuell impact<br>
+    ✅ Engagerande &amp; modernt<br>
+    ⚠️ Kräver bra fotografier<br>
+    <a href="index.html">← Alla förslag</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Simple scroll effect for navbar
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
