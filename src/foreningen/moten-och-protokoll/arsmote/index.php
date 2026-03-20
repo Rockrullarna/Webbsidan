@@ -49,11 +49,11 @@
         <td><i>Kommer snart...</i></td>
         <td><a href="./handlingar/2026/DKRR-2026-Ekonomi-Årsbudget-2026.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr> -->
-      <tr>
+      <!-- <tr>
         <td>DKRR-2026 Motion 1 - Finns ingen ännu...</td>
         <td><i>Skicka in din motion till styrelsen om du vill att den ska behandlas på årsmötet.</i></td>
-        <!-- <td><a href="./handlingar/2026/DKRR-2026-Motion-1-Ekonomigruppering.pdf" target="_blank">Visa / Ladda ned</a></td> -->
-      </tr>
+        <td><a href="./handlingar/2026/DKRR-2026-Motion-1-Ekonomigruppering.pdf" target="_blank">Visa / Ladda ned</a></td>
+      </tr> -->
       <!-- <tr>
         <td>DKRR-2026 Motion 2 - Stadgeändring</td>
         <td><i>Kommer snart...</i></td>
@@ -66,23 +66,23 @@
       </tr> -->
       <tr>
         <td>DKRR-2026 Revisionsberättelse för 2025</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./handlingar/2026/DKRR-2026-Revisionsberättelse-2025.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./handlingar/2026/DKRR-2026-Revisionsberättelse-2025.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2026 Valberedningens förslag</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./handlingar/2026/DKRR-2026-Valberedningens-förslag.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./handlingar/2026/DKRR-2026-Valberedningens-förslag.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2026 Verksamhetsberättelse för 2025</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsberättelse-för-2025.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsberättelse-för-2025.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <tr>
         <td>DKRR-2026 Verksamhetsinriktning 2026-2027</td>
-        <td><i>Kommer snart...</i></td>
-        <!-- <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsinriktning-2026-2027.pdf" target="_blank">Visa / Ladda ned</a></td> -->
+        <!-- <td><i>Kommer snart...</i></td> -->
+        <td><a href="./handlingar/2026/DKRR-2026-Verksamhetsinriktning-för-2026-2027.pdf" target="_blank">Visa / Ladda ned</a></td>
       </tr>
       <!-- <tr>
         <td>DKRR-2026 Årsmöte</td>
