@@ -2,7 +2,7 @@
   $header_title = "Revisorer - Organisation - Föreningen";
   $header_description = "Information om den ideella föreningens valberedning";
 
-  $page_updated = "2025-04-22 19:10";
+  $page_updated = "2026-03-31 22:21";
   $page_url = "/foreningen/organisation/revisorer";
   $page_contact_name = "Revisorerna";
   $page_contact_email = "ekonomi@rockrullarna.se";
@@ -22,14 +22,14 @@
     <p>Revisorerna ska även granska att styrelsen följer föreningens stadgar och de beslut som årsmötet fattat.</p>
     <p>&nbsp;</p>
     <h2>
-      Revisorerna 2025-2026
+      Revisorerna 2026-2027
     </h2>
-    <p>Revisorerna för mars 2025 - mars 2026 består av:</p>
+    <p>Revisorerna för mars 2026 - mars 2027 består av:</p>
     <ul>
       <li>Revisor (1 år) Karl-Erik Wallin</li>
       <li>Revisor (1 år) Kjell Englund</li>
-      <li>Revisor ersättare (1 år) Andreas "Brunte" Espeborn</li>
       <li>Revisor ersättare (1 år) Jonas Stenström</li>
+      <li>Revisor ersättare (1 år) Maria Carneland</li>
     </ul>
     <p>&nbsp;</p>
     <hr />
