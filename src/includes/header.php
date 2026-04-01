@@ -173,7 +173,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Danskurser</a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="/danskurser">Våra danskurser</a></li>
+                <li><a class="dropdown-item" href="/danskurser">Danskurser</a></li>
+                <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="/danskurser/anmalan-danskurser">Anmälan till danskurser</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="/danskurser/kursoversikt">Kursöversikten</a></li>

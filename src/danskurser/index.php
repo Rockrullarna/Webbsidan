@@ -2,7 +2,7 @@
   $header_title = "Danskurser";
   $header_description = "Information om våra danskurser";
 
-  $page_updated = "2023-07-30 21:48";
+  $page_updated = "2026-04-01 20:48";
   $page_url = "/danskurser";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -12,7 +12,7 @@
     <div id="BreadCrumbsDiv">
       <a href="../">Rockrullarna.se</a> / <span>Danskurser</span>
     </div>
-    <h1>Våra danskurser</h1>
+    <h1>Danskurser</h1>
     <p>
       Vad kul att du intresserat dig för dans, den roligaste motionsformen du kan tänka dig. Hos oss är alla välkomna för att lära sig dansa. Vi har kurser inom <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><b>Bugg</b></a>, 
       <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><b>Fox</b></a> och 
