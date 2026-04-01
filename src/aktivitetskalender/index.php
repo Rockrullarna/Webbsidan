@@ -23,7 +23,8 @@
 ?>
     <p class="mt-3">
       Aktivitetskalendern hämtas från vårt bokningssystem dans.se via RSS-flödet: <br />
-      <a href="https://dans.se/rockrullarna/rss" title="RSS-flödet från dans.se (öppnas i nytt fönster)" target="_blank" rel="noopener">https://dans.se/rockrullarna/rss</a>
+      <?php $rss_source_url = 'https://dans.se/rockrullarna/rss'; ?>
+      <a href="<?php echo htmlspecialchars($rss_source_url, ENT_QUOTES, 'UTF-8'); ?>" title="RSS-flödet från dans.se (öppnas i nytt fönster)" target="_blank" rel="noopener"><?php echo htmlspecialchars($rss_source_url, ENT_QUOTES, 'UTF-8'); ?></a>
     </p>
     <p>
       Du kan också se schemat direkt på dans.se: <br />

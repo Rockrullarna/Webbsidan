@@ -27,7 +27,7 @@ $rss_context = stream_context_create([
   ],
 ]);
 
-$rss_raw = @file_get_contents($rss_url, false, $rss_context);
+$rss_raw = file_get_contents($rss_url, false, $rss_context);
 
 if ($rss_raw === false) {
   $rss_error = 'Kunde inte hämta RSS-flödet från dans.se.';
@@ -87,19 +87,27 @@ if ($rss_raw === false) {
 <?php else: ?>
   <div class="aktivitetskalender-scroll list-group" role="list" style="max-height:500px; overflow-y:auto; border-radius:.375rem;">
     <?php foreach ($rss_items as $rss_item): ?>
-      <<?php echo $rss_item['link'] ? 'a href="' . htmlspecialchars($rss_item['link'], ENT_QUOTES, 'UTF-8') . '" target="_blank" rel="noopener"' : 'div'; ?>
-        class="list-group-item list-group-item-action d-flex gap-3 align-items-start py-2 px-3"
-        role="listitem"<?php echo $rss_item['link'] ? ' title="' . $rss_item['title'] . ' (öppnas på dans.se i nytt fönster)"' : ''; ?>>
+      <?php
+        $months = ['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+        $item_classes = 'list-group-item list-group-item-action d-flex gap-3 align-items-start py-2 px-3';
+      ?>
+      <?php if ($rss_item['link']): ?>
+        <a href="<?php echo htmlspecialchars($rss_item['link'], ENT_QUOTES, 'UTF-8'); ?>"
+          class="<?php echo $item_classes; ?>"
+          role="listitem"
+          target="_blank"
+          rel="noopener"
+          title="<?php echo $rss_item['title']; ?> (öppnas på dans.se i nytt fönster)">
+      <?php else: ?>
+        <div class="<?php echo $item_classes; ?>" role="listitem">
+      <?php endif; ?>
         <?php if ($rss_item['date']): ?>
           <div class="text-center flex-shrink-0" style="min-width:3.5rem;" aria-label="Datum">
             <div class="fw-bold" style="font-size:.85rem; color:#00ABD6; line-height:1.1;">
               <?php echo htmlspecialchars($rss_item['date']->format('d'), ENT_QUOTES, 'UTF-8'); ?>
             </div>
             <div style="font-size:.75rem; text-transform:uppercase; opacity:.8;">
-              <?php
-                $months = ['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
-                echo $months[(int)$rss_item['date']->format('n') - 1];
-              ?>
+              <?php echo $months[(int)$rss_item['date']->format('n') - 1]; ?>
             </div>
             <div style="font-size:.7rem; opacity:.65;">
               <?php echo htmlspecialchars($rss_item['date']->format('H:i'), ENT_QUOTES, 'UTF-8'); ?>
@@ -126,7 +134,11 @@ if ($rss_raw === false) {
             </svg>
           </div>
         <?php endif; ?>
-      </<?php echo $rss_item['link'] ? 'a' : 'div'; ?>>
+      <?php if ($rss_item['link']): ?>
+        </a>
+      <?php else: ?>
+        </div>
+      <?php endif; ?>
     <?php endforeach; ?>
   </div>
 <?php endif; ?>
