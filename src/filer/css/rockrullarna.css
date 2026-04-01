@@ -149,6 +149,17 @@ a:hover {
 /* #endregion Accessibility */
 
 /* #region Light Theme Fixes */
+
+/* ── CSS-variabler för ljust tema ── */
+[data-bs-theme=light] {
+  --b-dark:    #f4f6f8;
+  --b-darker:  #e8eaed;
+  --b-surface: #ffffff;
+  --b-text:    #24292f;
+  --b-muted:   #57606a;
+  --b-border:  rgba(0,0,0,0.12);
+}
+
 [data-bs-theme=light] body {
   color: #000;
   background-color: #fff;
@@ -162,9 +173,52 @@ a:hover {
   background-color: #000;
 }
 
+/* Navbar */
 [data-bs-theme=light] .dkrr-navbar-bg {
   background: rgba(238,238,238,0.97);
   border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+[data-bs-theme=light] .dkrr-navbar-bg.scrolled {
+  background: rgba(238,238,238,0.98);
+}
+
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link,
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:visited {
+  color: rgba(0,0,0,0.65);
+}
+
+[data-bs-theme=light] .nav-link:hover,
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:hover {
+  color: #000;
+  background: none;
+}
+
+/* Footer */
+[data-bs-theme=light] .rr-footer {
+  background: var(--b-darker);
+  border-top-color: var(--b-border);
+  color: var(--b-muted);
+}
+
+[data-bs-theme=light] .rr-footer .rr-footer-brand {
+  color: var(--b-text);
+}
+
+[data-bs-theme=light] .rr-footer h5 {
+  color: var(--b-text);
+}
+
+[data-bs-theme=light] .rr-footer a {
+  color: var(--b-muted);
+}
+
+[data-bs-theme=light] .rr-footer a:hover {
+  color: var(--b-accent2);
+}
+
+[data-bs-theme=light] .rr-footer .rr-footer-copyright {
+  color: var(--b-muted);
 }
 
 [data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
