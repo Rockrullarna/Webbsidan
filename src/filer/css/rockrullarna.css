@@ -1,12 +1,26 @@
-/* #region Base Layout */
+﻿/* #region Base Layout */
+/* ─── CSS-variabler ─── */
+:root {
+  --b-dark:    #0d1117;
+  --b-darker:  #080c10;
+  --b-surface: #161b22;
+  --b-accent:  #00ABD6;
+  --b-accent2: #0088aa;
+  --b-gold:    #f0b429;
+  --b-text:    #e6edf3;
+  --b-muted:   #8b949e;
+  --b-border:  rgba(255,255,255,0.08);
+}
+
 body {
-  background-color: #000;
-  color: #f1f1f1;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--b-dark);
+  color: var(--b-text);
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00ABD6;
+  color: var(--b-accent);
+  font-family: 'DM Serif Display', serif;
 }
 
 .logo {
@@ -24,7 +38,7 @@ main {
 /* #region Links */
 a, a:visited {
   padding: .2em;
-  color: #0082e6;
+  color: var(--b-accent);
   display: inline-block;
 }
 
@@ -80,8 +94,19 @@ a:hover {
   background-color: #fff;
 }
 
+/* ─── Bildfokuserad – navbar ─── */
 .dkrr-navbar-bg {
-  background-color: #111;
+  background: linear-gradient(to bottom, rgba(13,17,23,0.97), rgba(13,17,23,0.95));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--b-border);
+  transition: background 0.3s, backdrop-filter 0.3s;
+}
+
+.dkrr-navbar-bg.scrolled {
+  background: rgba(13,17,23,0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .FAQCategoryHeading {
@@ -138,7 +163,8 @@ a:hover {
 }
 
 [data-bs-theme=light] .dkrr-navbar-bg {
-  background-color: #eee;
+  background: rgba(238,238,238,0.97);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 [data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
@@ -180,14 +206,21 @@ header {
 }
 
 .navbar-nav .nav-link {
-    font-size: 16px;
-    font-weight: 400;
-    color: #00ABD6;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.7);
     display: inline-block;
-    padding: 1rem;
+    padding: 0.4rem 0.8rem;
+    transition: color 0.15s;
 }
 
-.nav-link:hover {
+.dkrr-navbar-bg .navbar-nav .nav-link,
+.dkrr-navbar-bg .navbar-nav .nav-link:visited {
+  color: rgba(255,255,255,0.7);
+}
+
+.nav-link:hover,
+.dkrr-navbar-bg .navbar-nav .nav-link:hover {
   color: #fff;
 }
 
@@ -299,6 +332,88 @@ header {
   }
 }
 /* #endregion Responsive Navigation */
+
+/* #region Footer */
+.rr-footer {
+  background: var(--b-darker);
+  color: var(--b-muted);
+  padding: 3rem 2rem 1.5rem;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--b-border);
+}
+
+.rr-footer .rr-footer-brand {
+  font-family: 'DM Serif Display', serif;
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+}
+
+.rr-footer .rr-footer-brand:hover {
+  color: var(--b-accent);
+  background: none;
+}
+
+.rr-footer a {
+  color: var(--b-muted);
+  text-decoration: none;
+  padding: 0;
+  display: inline;
+  background: none;
+}
+
+.rr-footer a:hover {
+  color: var(--b-accent);
+  background: none;
+}
+
+.rr-footer h5 {
+  color: #fff;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.8rem;
+}
+
+.rr-footer .rr-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.rr-footer .rr-footer-divider {
+  border-color: var(--b-border);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.rr-footer .rr-footer-copyright {
+  font-size: 0.78rem;
+  text-align: center;
+  color: var(--b-muted);
+}
+
+.rr-footer .rr-footer-social {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.rr-footer .rr-footer-social a {
+  color: var(--b-muted);
+}
+
+.rr-footer .rr-footer-social a:hover {
+  color: var(--b-accent);
+  background: none;
+}
+
+/* #endregion Footer */
 
 /* #region Aktivitetskalender */
 .rr-kal-compact {

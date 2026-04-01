@@ -7,6 +7,7 @@
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap Theme switcher --><script src="/filer/js/bootstrap-theme-switcher.js"></script>
   <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bildfokuserad – Google Fonts --><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
   <title><?php if (empty($header_title)) {
     echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
@@ -302,5 +303,23 @@
         </div>
       </div>
     </nav>
+    <script>
+      (function () {
+        var nav = document.querySelector('.dkrr-navbar-bg');
+        if (!nav) return;
+        var ticking = false;
+        function updateNav() {
+          nav.classList.toggle('scrolled', window.scrollY > 40);
+          ticking = false;
+        }
+        window.addEventListener('scroll', function () {
+          if (!ticking) {
+            requestAnimationFrame(updateNav);
+            ticking = true;
+          }
+        }, { passive: true });
+        updateNav();
+      })();
+    </script>
   </header>
   <main id="ContentStart" class="container-md">
