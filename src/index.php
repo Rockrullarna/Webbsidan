@@ -37,16 +37,142 @@
   }
 
   //$page_updated = "2025-03-07 23:05";
+  $page_hidden_logo = true; // Dölj "Lär dig dansa hos oss"-bilden på startsidan
   $page_url = "";
   $page_contact_name = "";
   $page_contact_email = "";
 
   include_once 'includes/header.php'
 ?>
-    <section class="py-4 mb-4 border-bottom" aria-labelledby="hero-heading">
+<?php
+  // ── Hero-bilder (slumpmässig vid sidladdning) ──────────────────────────────
+  // Platshållare: ersätt src-värdet med faktiska bilder när de finns.
+  // Lägg till fler rader för att utöka samlingen (3–5 rekommenderas).
+  $hero_images = [
+    [
+      'bg'    => 'linear-gradient(135deg,#0a1f10 0%,#052010 40%,#0a2818 100%)',
+      'label' => 'Danskvällen – Rockrullarna',
+    ],
+    [
+      'bg'    => 'linear-gradient(135deg,#12011f 0%,#200540 40%,#0e0325 100%)',
+      'label' => 'Bugg på dansgolvet',
+    ],
+    [
+      'bg'    => 'linear-gradient(135deg,#011524 0%,#022a45 40%,#011828 100%)',
+      'label' => 'Fox – elegans i rörelse',
+    ],
+    [
+      'bg'    => 'linear-gradient(135deg,#1a0808 0%,#3a0e0e 40%,#200a0a 100%)',
+      'label' => 'West Coast Swing',
+    ],
+    [
+      'bg'    => 'linear-gradient(135deg,#0c1a00 0%,#1a3300 40%,#0e2200 100%)',
+      'label' => 'Gemenskap på Rockrullarna',
+    ],
+  ];
+  $hero = $hero_images[array_rand($hero_images)];
+
+  // ── Dansstils-kort (2–5 slumpade bilder per stil) ─────────────────────────
+  $style_images = [
+    'bugg' => [
+      ['bg' => 'linear-gradient(160deg,#1a0040 0%,#2a006a 100%)', 'label' => 'Bugg – nybörjarkurs'],
+      ['bg' => 'linear-gradient(160deg,#12003a 0%,#200058 100%)', 'label' => 'Bugg på dansgolvet'],
+      ['bg' => 'linear-gradient(160deg,#200050 0%,#380080 100%)', 'label' => 'Bugg friträning'],
+    ],
+    'fox' => [
+      ['bg' => 'linear-gradient(160deg,#001a30 0%,#003060 100%)', 'label' => 'Fox – elegans'],
+      ['bg' => 'linear-gradient(160deg,#00121f 0%,#002244 100%)', 'label' => 'Fox-kurs'],
+      ['bg' => 'linear-gradient(160deg,#001828 0%,#003558 100%)', 'label' => 'Fox avancerad'],
+    ],
+    'wcs' => [
+      ['bg' => 'linear-gradient(160deg,#001a20 0%,#003040 100%)', 'label' => 'West Coast Swing'],
+      ['bg' => 'linear-gradient(160deg,#001216 0%,#002230 100%)', 'label' => 'WCS social dance'],
+      ['bg' => 'linear-gradient(160deg,#00181e 0%,#002d3a 100%)', 'label' => 'WCS kurs'],
+    ],
+  ];
+  $bugg = $style_images['bugg'][array_rand($style_images['bugg'])];
+  $fox  = $style_images['fox'][array_rand($style_images['fox'])];
+  $wcs  = $style_images['wcs'][array_rand($style_images['wcs'])];
+?>
+    <!-- Hero – bildfokuserad ──────────────────────────────────────────── -->
+    <section class="rr-hero" aria-label="Välkommen till Dansklubben Rockrullarna">
+      <div class="rr-hero-bg" style="background: <?= htmlspecialchars($hero['bg']) ?>;" role="img" aria-label="<?= htmlspecialchars($hero['label']) ?>"></div>
+      <div class="rr-hero-overlay"></div>
+      <div class="container rr-hero-content">
+        <span class="rr-hero-badge">
+          <span class="rr-hero-dot" aria-hidden="true"></span>
+          Örebros dansgemenskap sedan 1983
+        </span>
+        <h1 id="hero-heading">Dans&shy;glädjens<br>hem i <em>Örebro</em></h1>
+        <p>En ideell förening för alla som vill lära sig dansa Bugg, Fox och West Coast Swing — i en varm och välkomnande gemenskap.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a class="rr-btn-inline" style="font-size:1rem; padding:0.7rem 1.8rem;" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig till kurs</a>
+          <a href="#dansstilar" style="color:rgba(255,255,255,0.75); display:inline-flex; align-items:center; text-decoration:none; font-weight:500; gap:0.4rem; font-size:0.95rem;">
+            Utforska dansstilar <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dansstilar – tre kort ──────────────────────────────────────────── -->
+    <section id="dansstilar" class="rr-style-section" aria-labelledby="dansstilar-heading">
+      <p class="rr-style-label" aria-hidden="true">Våra dansstilar</p>
+      <div class="row align-items-end mb-3">
+        <div class="col-12 col-md-8">
+          <h2 id="dansstilar-heading">Tre stilar, <em>ett hjärta</em></h2>
+          <p style="color:var(--b-muted); margin-top:0.3rem;">Kurser för nybörjare till avancerade — välj den stil som lockar dig!</p>
+        </div>
+        <div class="col-12 col-md-4 text-md-end mt-2 mt-md-0">
+          <a href="/danskurser" class="rr-btn-inline" title="Visa alla danskurser">Visa alla kurser</a>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <a href="/danskurser/kursoversikt/bugg" class="rr-style-card" title="Läs mer om Bugg">
+            <div class="rr-style-card-bg" style="background: <?= htmlspecialchars($bugg['bg']) ?>;" role="img" aria-label="<?= htmlspecialchars($bugg['label']) ?>">
+              <div class="rr-style-card-overlay"></div>
+            </div>
+            <div class="rr-style-card-body">
+              <span class="rr-style-card-icon" aria-hidden="true">💃</span>
+              <h3 class="rr-style-card-title">Bugg</h3>
+              <p class="rr-style-card-desc">Sveriges folkligaste pardans — social och rolig</p>
+              <span class="rr-btn-inline">Läs mer →</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="/danskurser/kursoversikt/fox" class="rr-style-card" title="Läs mer om Fox">
+            <div class="rr-style-card-bg" style="background: <?= htmlspecialchars($fox['bg']) ?>;" role="img" aria-label="<?= htmlspecialchars($fox['label']) ?>">
+              <div class="rr-style-card-overlay"></div>
+            </div>
+            <div class="rr-style-card-body">
+              <span class="rr-style-card-icon" aria-hidden="true">🎩</span>
+              <h3 class="rr-style-card-title">Fox</h3>
+              <p class="rr-style-card-desc">Dynamisk och elegant med tidlöst uttryck</p>
+              <span class="rr-btn-inline">Läs mer →</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="/danskurser/kursoversikt/west-coast-swing" class="rr-style-card" title="Läs mer om West Coast Swing">
+            <div class="rr-style-card-bg" style="background: <?= htmlspecialchars($wcs['bg']) ?>;" role="img" aria-label="<?= htmlspecialchars($wcs['label']) ?>">
+              <div class="rr-style-card-overlay"></div>
+            </div>
+            <div class="rr-style-card-body">
+              <span class="rr-style-card-icon" aria-hidden="true">🎵</span>
+              <h3 class="rr-style-card-title">West Coast Swing</h3>
+              <p class="rr-style-card-desc">Modern, musikalisk och improviserad</p>
+              <span class="rr-btn-inline">Läs mer →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 mb-4 border-bottom" aria-labelledby="intro-heading">
       <div class="row align-items-center g-4">
         <div class="col-12 col-lg-7">
-          <h1 id="hero-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h1>
+          <h2 id="intro-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h2>
           <p class="lead">
             Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är
             <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
@@ -59,12 +185,6 @@
             <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
             <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
           </div>
-        </div>
-        <div class="col-12 col-lg-5 text-center">
-          <picture>
-            <source type="image/png" srcset="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" />
-            <img src="https://rockrullarna.se/filer/bilder/design/Rockrullarna-mini.png" class="img-fluid rounded shadow" alt="Dansande medlemmar hos Rockrullarna" loading="lazy" width="580" height="100">
-          </picture>
         </div>
       </div>
     </section>
