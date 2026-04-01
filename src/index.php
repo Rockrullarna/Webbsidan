@@ -140,8 +140,9 @@
             <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
           </strong>
         </p>
-        <p>
-          <iframe title="Rockrullarnas aktivitetskalender" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" scrolling="yes" style="border: .1em solid; width: 98%; min-width: 320px; height: 500px;"></iframe>
+        <?php include_once 'includes/aktivitetskalender-rss.php'; ?>
+        <p class="mt-2 text-center">
+          <a class="btn btn-outline-secondary btn-sm" href="/aktivitetskalender" title="Visa hela aktivitetskalendern">Visa hela kalendern</a>
         </p>
       </section>
     </div>

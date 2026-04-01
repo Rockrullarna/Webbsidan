@@ -16,14 +16,18 @@
     <p>
       Här visas våra kommande händelser hämtade från dans.se, vårt bokningssystem.
     </p>
-    <p>
-      <a class="cwLoadContent" href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1">Hämtar innehåll från dans.se...</a>
-      <script src="https://dans.se/files/1326/js/lib.js"></script>
-      <iframe frameborder="0" height="700" scrolling="yes" src="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" style="border-width: 0; width: 98%; min-width: 320px;"></iframe>
+<?php
+  $rss_max_items = 50;
+  $rss_show_desc = true;
+  include_once '../includes/aktivitetskalender-rss.php';
+?>
+    <p class="mt-3">
+      Aktivitetskalendern hämtas från vårt bokningssystem dans.se via RSS-flödet: <br />
+      <a href="https://dans.se/rockrullarna/rss" title="RSS-flödet från dans.se (öppnas i nytt fönster)" target="_blank" rel="noopener">https://dans.se/rockrullarna/rss</a>
     </p>
     <p>
-      Aktivitetskalendern hämtas från vårt bokningssystem dans.se via direktlänken: <br />
-      <a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" alt="Direktlänk till dans.se" title="Externa webbplatsen dans.se öppnas i ny flik" target="_blank" rel="noopener">https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1</a>
+      Du kan också se schemat direkt på dans.se: <br />
+      <a href="https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1" title="Aktivitetskalendern på dans.se (öppnas i nytt fönster)" target="_blank" rel="noopener">https://dans.se/view/schedule/?org=rockrullarna&days=180&showEndTime=1</a>
     </p>
 <?php
   include_once '../includes/footer.php'
