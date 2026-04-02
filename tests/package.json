@@ -9,6 +9,10 @@
     "test:links": "playwright test link-checker",
     "test:links:local": "BASE_URL=http://localhost:8080 playwright test link-checker",
     "test:links:prod": "BASE_URL=https://rockrullarna.se playwright test link-checker",
+    "test:visual": "playwright test visual-regression",
+    "test:visual:local": "BASE_URL=http://localhost:8080 playwright test visual-regression",
+    "test:visual:prod": "BASE_URL=https://rockrullarna.se playwright test visual-regression",
+    "test:visual:update": "BASE_URL=http://localhost:8080 playwright test visual-regression --update-snapshots",
     "report": "playwright show-report"
   },
   "devDependencies": {

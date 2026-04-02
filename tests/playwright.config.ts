@@ -17,6 +17,18 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
+
+  // ── Konfiguration för visuella regression-tester ────────────────────────────
+  snapshotDir: './snapshots',
+  snapshotPathTemplate: '{snapshotDir}/{testFileName}/{arg}{ext}',
+  expect: {
+    toHaveScreenshot: {
+      // Tillåt upp till 2 % pixelskillnad för att undvika flaky tester
+      // vid t.ex. subtil anti-aliasing-skillnad mellan körningar.
+      maxDiffPixelRatio: 0.02,
+    },
+  },
+
   projects: [
     {
       name: 'chromium',
