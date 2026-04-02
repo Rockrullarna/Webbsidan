@@ -12,7 +12,7 @@
   if ($versionContent === false) {
     // Misslyckades att läsa innehållet från version.txt,
     // skriver ut en hårdkodad version från nu när denna automatiska inläsning lades till
-    $page_updated = "2025-08-26 17:26";
+    $page_updated = "2026-04-02 22:02"; // Hårdkodad version som används om det inte går att läsa från version.txt - uppdaterad för första version 14 av sidan, som lanseras 2026-04-02
   } else {
     // Skriver ut datum och tid från version.txt
     $versionString = $versionContent;
@@ -21,22 +21,21 @@
     preg_match('/\d{8}\.\d{4}/', $versionString, $matches);
 
     if (!empty($matches)) {
-      $dateTimeString = $matches[0]; // "20250330.2038"
-      $date = substr($dateTimeString, 0, 8); // "20250330"
-      $time = substr($dateTimeString, 9, 4); // "2038"
+      $dateTimeString = $matches[0]; // "20260402.2202"
+      $date = substr($dateTimeString, 0, 8); // "20260402"
+      $time = substr($dateTimeString, 9, 4); // "2202"
 
       // Omformatera till "YYYY-MM-DD HH:MM"
       $formattedDateTime = substr($date, 0, 4) . '-' . substr($date, 4, 2) . '-' . substr($date, 6, 2) . ' ' . substr($time, 0, 2) . ':' . substr($time, 2, 2);
 
-      $page_updated = $formattedDateTime; // "2025-03-30 20:38"
+      $page_updated = $formattedDateTime; // "2026-04-02 22:02"
     } else {
-      // Visar datum/tid för senaste version v12.18.20250329
+      // Visar datum/tid för senaste version v14.20260402.2202
       // om det inte går att läsa innehållet från version.txt
-      $page_updated = "2026-02-24 07:56";
+      $page_updated = "2026-04-02 22:02";
     }
   }
 
-  //$page_updated = "2025-03-07 23:05";
   $page_hidden_logo = true; // Dölj "Lär dig dansa hos oss"-bilden på startsidan
   $page_url = "";
   $page_contact_name = "";
