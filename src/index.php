@@ -250,6 +250,14 @@
             <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
             Här hjälps vi åt, lär av varandra och driver föreningen framåt tillsammans.
           </p>
+          <div class="rr-values" aria-label="Rockrullarnas ledord">
+            <p class="rr-values-label">Våra ledord</p>
+            <div class="rr-values-list">
+              <span class="rr-value-pill">Dans</span>
+              <span class="rr-value-pill">Glädje</span>
+              <span class="rr-value-pill">Gemenskap</span>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-lg-4 rr-intro-actions" aria-label="Snabbknappar">
           <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>

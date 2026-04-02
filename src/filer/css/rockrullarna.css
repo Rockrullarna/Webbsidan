@@ -1070,6 +1070,55 @@ header {
 }
 /* #endregion Intro band */
 
+.rr-values {
+  margin-top: 1.4rem;
+}
+
+.rr-values-label {
+  color: var(--b-accent-strong);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 0.7rem;
+}
+
+.rr-values-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.rr-value-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.2rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,171,214,0.24);
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.14) 0%, rgba(0,171,214,0.05) 100%),
+    var(--b-surface);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 10px 30px rgba(0,0,0,0.16);
+  color: var(--b-text);
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.rr-value-pill::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.75rem;
+  border-radius: 999px;
+  background: var(--b-accent);
+  box-shadow: 0 0 0 0.32rem rgba(0,171,214,0.12);
+  flex-shrink: 0;
+}
+
 /* #region Aktivitetssektion */
 .rr-activity-section {
   background: var(--b-surface);
@@ -1233,7 +1282,7 @@ header {
   border-left: 4px solid var(--b-accent);
   padding: 1.5rem 1.8rem;
   border-radius: 0 12px 12px 0;
-  margin: 0;
+  margin: 0 0 1.6rem;
 }
 
 .rr-blockquote p {
@@ -1255,6 +1304,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 0.2rem;
   margin-bottom: 1.6rem;
 }
 
@@ -1417,6 +1467,15 @@ header {
     max-height: none;
   }
 
+  .rr-values-list {
+    gap: 0.6rem;
+  }
+
+  .rr-value-pill {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .rr-intro-actions {
     grid-template-columns: 1fr;
   }
@@ -1456,6 +1515,7 @@ header {
 
   .rr-blockquote {
     padding: 1.25rem 1.1rem;
+    margin-bottom: 1.35rem;
   }
 }
 /* #endregion Calendar card */
@@ -1504,6 +1564,14 @@ header {
 
 [data-bs-theme=light] .rr-brand-logo-wrap {
   background: linear-gradient(180deg, rgba(0,171,214,0.12) 0%, rgba(0,171,214,0.04) 100%);
+}
+
+[data-bs-theme=light] .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.12) 0%, rgba(0,171,214,0.04) 100%),
+    var(--b-surface);
+  border-color: rgba(0,171,214,0.22);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 10px 24px rgba(0,0,0,0.06);
 }
 
 [data-bs-theme=light] .rr-event-card-title {
