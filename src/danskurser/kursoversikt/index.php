@@ -68,14 +68,6 @@
         </div>
 
         <div class="rr-courses-links-grid">
-          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">
-            <span class="rr-courses-link-kicker">Barn och ungdom</span>
-            <h3>Dans för barn och ungdom</h3>
-            <p>Kurser som ger unga dansare en trygg och rolig väg in i dansen.</p>
-            <span class="rr-courses-overview-meta">Barn, ungdom och utveckling</span>
-            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
-          </a>
-
           <a class="rr-courses-link-card" href="/danskurser/kursoversikt/bugg" title="Bugg">
             <span class="rr-courses-link-kicker">Pardans</span>
             <h3>Bugg</h3>
@@ -85,7 +77,7 @@
           </a>
 
           <a class="rr-courses-link-card" href="/danskurser/kursoversikt/fox" title="Fox">
-            <span class="rr-courses-link-kicker">Socialdans</span>
+            <span class="rr-courses-link-kicker">Svensk</span>
             <h3>Fox</h3>
             <p>Mjuk och följsam pardans för dig som vill dansa nära och utveckla känsla i musiken.</p>
             <span class="rr-courses-overview-meta">Lugn, närvaro och samspel</span>
@@ -97,6 +89,14 @@
             <h3>West Coast Swing</h3>
             <p>Kreativ, musikalisk och improviserad dansstil med mycket uttryck och lekfullhet.</p>
             <span class="rr-courses-overview-meta">Musikalitet och improvisation</span>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">
+            <span class="rr-courses-link-kicker">Barn och ungdom</span>
+            <h3>Dans för barn och ungdom</h3>
+            <p>Kurser som ger unga dansare en trygg och rolig väg in i dansen.</p>
+            <span class="rr-courses-overview-meta">Barn, ungdom och utveckling</span>
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
