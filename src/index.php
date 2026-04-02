@@ -180,11 +180,11 @@
     <section id="dansstilar" class="rr-style-section" aria-labelledby="dansstilar-heading">
       <p class="rr-style-label" aria-hidden="true">Våra dansstilar</p>
       <div class="row align-items-end mb-4">
-        <div class="col-12 col-md-8">
-          <h2 id="dansstilar-heading">Tre stilar, <em>ett hjärta</em></h2>
+        <div class="col-12 col-md-9">
+          <h2 id="dansstilar-heading">Tre dansstilar, <em>ett hjärta</em> 🩵</h2>
           <p style="color:var(--b-muted); margin-top:0.25rem; font-size:0.95rem;">Från första danssteget till fortsatt utveckling. Välj den stil som lockar dig mest, eller prova flera.</p>
         </div>
-        <div class="col-12 col-md-4 text-md-end mt-2 mt-md-0">
+        <div class="col-12 col-md-3 text-md-end mt-2 mt-md-0">
           <a href="/danskurser/anmalan-danskurser" class="rr-btn-inline" title="Visa alla danskurser">Visa alla kurser</a>
         </div>
       </div>
