@@ -1,5 +1,5 @@
 # Rockrullarna / Webbsidan
-Kod-biblioteket [GitHub.com/Rockrullarna/Webbsidan](https://github.com/Rockrullarna/Webbsidan) för vår webbsida v13.x
+Kod-biblioteket [GitHub.com/Rockrullarna/Webbsidan](https://github.com/Rockrullarna/Webbsidan) för vår webbsida v14.x
 
 ## Vart finns källkoden?
 Källkoden finns under [mappen src (SouRce Code, eller källkod på svenska)](https://github.com/Rockrullarna/Webbsidan/tree/main/src)
@@ -62,18 +62,5 @@ De som har access till GitHub-organisationen Rockrullarna, kan se en guide för 
 <br />
   
 ## Versionshistorik
-Detta är generation/version 13 av hemsidan och hur den har sett ut genom åren.  
+Detta är generation/version 14 av hemsidan och hur den har sett ut genom åren.  
 Historik kan hittas via exempelvis: Wayback machine. De som har tillgång till den privata koden under Rockrullarnas GitHub-organisation: https://github.com/orgs/Rockrullarna/repositories , kan hitta historiken för de olika sidorna via: https://github.com/Rockrullarna/Webbsidan-backup  
-
-### Nya versioner eller kod-brancher
-Strukturen för nya versioner/branch är följande:  
-v`[huvudversion]`.`[byggdatum]`-`[funktion-som-utvecklats]`  
-  
-### Exempel på versioner:  
-`v12.6.20230502-bootstrap-v5.3`  
-`v12.7.20230713-klickbar-logga-samt-github-lankning`  
-`v12.8.20230730-tar-bort-messenger-och-lagger-till-sok-funktion`   
-`v12.9.20231230-ePassi-guide`  
---- Mönster bytt från version 13 ---
-`v13.20250330-versionsnummer-via-automatisk-release`
-  
