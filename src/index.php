@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   $header_title = "";
   $header_description = "Dansklubben Rockrullarna är ideell dansförening som är öppen för alla oavsett ålder, kön, religion eller etnicitet. Vi har kurser inom Bugg (barn, ungdom, vuxen), Fox och West Coast Swing. Vid utvalda tillfällen erbjuder vi även intensivkurser av olika slag. För mer information kontakta oss via e-post info@rockrullarna.se";
   $header_keywords = "bugg,  bugg center,  bugg centrum,  bugg dans,  bugg dans i örebro,  bugg dans örebro,  bugg i örebro,  bugg kurs,  bugg kurser,  bugg nerke,  bugg sverige,  bugg örebro,  bugga i närke,  bugga i sverige,  bugga i örebro,  bugga nerke,  bugga sverige,  bugga örebro,  buggcenter,  buggcenter nerke,  buggcenter sverige,  buggcenter örebro,  buggkurs,  buggkurs i örebro,  buggkurser,  centrum för bugg,  centrum för dans,  centrum för wcs,  dans,  dans center,  dans centrum,  dans kurs,  dans kurser,  dans skola,  dans sport,  dans örebro,  dansa,  dansa bugg,  dansa bugg i örebro,  dansa bugg örebro,  dansa i örebro,  dansa örebro,  danscenter,  dans-center,  danscenter i örebro,  danscenter örebro,  danscentrum,  dans-centrum,  danscentrum i örebro,  danscentrum örebro,  danskurser ,  danskurser i nerke,  danskurser i örebro,  dansskola,  dans-skola,  danssport,  dans-sport,  danssport i örebro,  danssport örebro,  fox dans,  fox kurs,  fox kurser,  foxkurs,  foxtrott,  foxtrott dans,  foxtrott kurs,  foxtrott kurser,  kurs i bugg,  kurs i dans,  kurs i foxtrott,  kurs i wcs,  kurs i west coast swing,  kurser i bugg,  kurser i dans,  kurser i foxtrott,  kurser i wcs,  kurser i west coast swing,  nerke,  närke,  WCS i örebro,  wcs kurs,  wcs kurser,  WCS örebro,  wcskurs,  west coast swing,  west coast swing i örebro,  west coast swing örebro,  west cost swing kurser,  örebro,  örebro bugg,  örebro bugg dans,  örebro buggdans, dans i Örebro, zumba, sumba";
@@ -258,85 +258,139 @@
         </div>
       </div>
     </section>
-    <div class="row">
-      <section id="start-activity" class="col-12 col-lg-6 text-center" aria-labelledby="lar-dig-dansa-heading">
-        <h2 id="lar-dig-dansa-heading">
-          <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
-          Lär dig att dansa!
-          <svg class="bi me-2 header-icon"><use href="#music-note-beamed"></use></svg>
-        </h2>
-        <p class="mb-3">
-          Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Anmäl dig till våra kurser eller läs mer om hur vi hjälper dig utvecklas.
-        </p>
-        <p class="mb-4">
-          <a class="btn btn-primary btn-lg mb-2" role="button" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig till danskurs</a>
-          <a class="btn btn-outline-secondary" role="button" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
-        </p>
-        <h2>
-          <svg class="bi me-2 header-icon"><use href="#person-heart"></use></svg>
-          Bli stödmedlem
-        </h2>
-        <p class="mb-1">
-          Bli stödmedlem snabbt och enkelt via sidan <a class="fw-semibold" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">bli medlem</a>.
-        </p>
-        <p class="mb-1">
-          Du får instruktioner för direktbetalning via Swish eller bankgiro.
-        </p>
-        <p class="mb-5">
-          När betalningen registrerats är ditt medlemskap aktivt (vanligen inom en vecka).
-        </p>
-        <h2 id="nyheter-heading">
-          <svg class="bi me-2 header-icon"><use href="#newspaper"></use></svg>
-          Nyheter
-        </h2>
-        <div class="mb-4">
-          <h3 id="arsmote-heading" class="h5 mb-2">Årsmöte 2026-03-28</h3>
-          <p class="mb-2">Information om årsmötet hittar du på sidan: <a href="/foreningen/moten-och-protokoll/arsmote" title="Information om årsmötet 2026" target="_self">Föreningen / Möten och protokoll / Årsmöte 2026</a>.</p>
+      <section class="rr-activity-section" aria-labelledby="startsida-section-heading">
+        <div class="row g-5 align-items-start">
+          <div class="col-12 col-lg-5">
+            <p class="rr-style-label" aria-hidden="true">Gemenskap och kurser</p>
+            <h2 id="startsida-section-heading">Allt du behöver för att <em>komma igång</em></h2>
+            <p class="rr-activity-lead">
+              Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Hos oss hittar du kurser,
+              aktiviteter och en varm gemenskap som gör det enkelt att komma in i dansen.
+            </p>
+
+            <div class="rr-activity-actions" aria-label="Snabbval för startsidan">
+              <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Jag vill anmäla mig</a>
+              <a class="rr-btn-inline" href="/danskurser" title="Lär dig mer om Rockrullarnas danskurser och aktiviteter">Om våra kurser</a>
+            </div>
+
+            <blockquote class="rr-blockquote">
+              <p>"Rockrullarna erbjuder en varm gemenskap och glädje. Hit vill man komma tillbaka."</p>
+              <footer>Medlem hos <cite>Dansklubben Rockrullarna</cite></footer>
+            </blockquote>
+
+            <div class="rr-feature-list" aria-label="Fördelar med Rockrullarna">
+              <div class="rr-feature-item">
+                <span class="rr-feature-marker" aria-hidden="true"></span>
+                <div>
+                  <strong>Ideell förening</strong>
+                  <p>Vi ställer upp för varandra och bygger verksamheten tillsammans.</p>
+                </div>
+              </div>
+              <div class="rr-feature-item">
+                <span class="rr-feature-marker" aria-hidden="true"></span>
+                <div>
+                  <strong>Alla nivåer</strong>
+                  <p>Kurser för nybörjare, fortsättning och dig som vill utvecklas vidare.</p>
+                </div>
+              </div>
+              <div class="rr-feature-item">
+                <span class="rr-feature-marker" aria-hidden="true"></span>
+                <div>
+                  <strong>Alla välkomna</strong>
+                  <p>Oavsett ålder, bakgrund eller tidigare erfarenhet finns det en plats för dig.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rr-membership-card">
+              <div>
+                <p class="rr-membership-label">Stöd klubben</p>
+                <h3 class="rr-membership-title">Bli stödmedlem</h3>
+                <p>
+                  Bli stödmedlem snabbt och enkelt via sidan <a href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">bli medlem</a>.
+                  Du får instruktioner för direktbetalning via Swish eller bankgiro, och medlemskapet är normalt aktivt inom en vecka.
+                </p>
+                <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-7">
+            <div class="rr-activity-panel">
+              <div class="rr-activity-panel-header">
+                <div>
+                  <p class="rr-style-label" aria-hidden="true">Aktiviteter</p>
+                  <h2 id="aktiviteter-heading">Kommande <em>aktiviteter</em></h2>
+                </div>
+                <a class="rr-btn-inline" href="/aktivitetskalender" title="Visa aktivitetskalendern">Hela kalendern</a>
+              </div>
+
+              <div class="rr-event-list">
+                <article class="rr-event-card" aria-labelledby="arsmote-heading">
+                  <div class="rr-event-card-top">
+                    <div class="rr-event-date-badge">
+                      <div class="rr-edb-day">28</div>
+                      <div class="rr-edb-mon">Mar</div>
+                    </div>
+                    <div>
+                      <h3 id="arsmote-heading" class="rr-event-card-title">Årsmöte 2026</h3>
+                      <small class="rr-event-card-meta">Haga Centrum, Örebro</small>
+                    </div>
+                  </div>
+                  <div class="rr-event-card-body">
+                    Information om årsmötet hittar du på sidan
+                    <a href="/foreningen/moten-och-protokoll/arsmote" title="Information om årsmötet 2026">Föreningen / Möten och protokoll / Årsmöte 2026</a>.
+                  </div>
+                </article>
+
+                <article class="rr-event-card" aria-labelledby="betalningar-heading">
+                  <div class="rr-event-card-top">
+                    <div class="rr-event-date-badge rr-event-date-badge-alt">
+                      <span class="rr-event-date-text">Info</span>
+                    </div>
+                    <div>
+                      <h3 id="betalningar-heading" class="rr-event-card-title">Betalningar och rabatter</h3>
+                      <small class="rr-event-card-meta">Friskvård, studentrabatt och betalningssätt</small>
+                    </div>
+                  </div>
+                  <div class="rr-event-card-body">
+                    Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår
+                    <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt" title="Läs mer om betalningar och rabatter">sida om betalningar</a>.
+                  </div>
+                </article>
+
+                <article class="rr-event-card" aria-labelledby="sociala-kanaler-heading">
+                  <div class="rr-event-card-top">
+                    <div class="rr-event-date-badge rr-event-date-badge-alt">
+                      <span class="rr-event-date-text">Nu</span>
+                    </div>
+                    <div>
+                      <h3 id="sociala-kanaler-heading" class="rr-event-card-title">Följ våra kanaler</h3>
+                      <small class="rr-event-card-meta">Nyheter, bilder och kommande evenemang</small>
+                    </div>
+                  </div>
+                  <div class="rr-event-card-body">
+                    Få fler uppdateringar via <a href="/sociala-media" title="Sociala media">sociala media</a> och håll koll på vad som är på gång i föreningen.
+                  </div>
+                </article>
+              </div>
+
+              <div class="rr-calendar-card">
+                <p class="rr-calendar-intro">
+                  Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
+                  Vill du boka en plats går du vidare till
+                  <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>.
+                </p>
+                <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
+                <script src="/filer/js/aktivitetskalender.js"></script>
+                <p class="mt-3">
+                  <a class="btn btn-outline-secondary" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mb-4">
-          <h3 id="betalningar-heading" class="h5 mb-2">Betalningar & rabatter</h3>
-          <p class="mb-2">Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt">sida om betalningar</a>.</p>
-        </div>
-        <div class="mb-5">
-          <h3 id="fler-uppdateringar-heading" class="h5 mb-2">Fler uppdateringar</h3>
-          <p class="mb-3">Följ våra kanaler för löpande nyheter, bilder och evenemang.</p>
-          <a class="btn btn-outline-secondary" role="button" href="/sociala-media" title="Sociala media">
-            <svg width="16" height="16" fill="currentColor" class="bi bi-facebook"><use href="#facebook"></use></svg>
-            Sociala media
-            <svg width="16" height="16" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
-          </a>
-        </div>
-        <figure class="text-end mb-5">
-          <blockquote class="blockquote">
-            <p>"Rockrullarna erbjuder en varm gemenskap och glädje."</p>
-          </blockquote>
-          <figcaption class="blockquote-footer">
-            Medlem hos <cite title="Source Title">Dansklubben Rockrullarna</cite>
-          </figcaption>
-        </figure>
       </section>
-      <section id="start-news" class="col-12 col-lg-6 text-center" aria-labelledby="aktiviteter-heading">
-        <h2 id="aktiviteter-heading">
-          <svg class="bi me-2 header-icon"><use href="#calendar-week"></use></svg>
-          Kommande aktiviteter
-        </h2>
-        <p>
-          Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender">Aktivitetskalendern</a>.
-        </p>
-        <p>
-          Vill du anmäla dig till någon av våra aktiviteter eller kurser, kan du göra detta via sidan:
-          <br />
-          <strong>
-            <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter">Anmälan till danskurser</a>
-          </strong>
-        </p>
-        <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
-        <script src="/filer/js/aktivitetskalender.js"></script>
-        <p class="mt-3">
-          <a class="btn btn-outline-secondary" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
-        </p>
-      </section>
-    </div>
 
     <!-- Bootstrap Icons symbols, from: https://icons.getbootstrap.com/ -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

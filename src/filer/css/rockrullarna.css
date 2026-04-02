@@ -6,10 +6,14 @@
   --b-surface: #161b22;
   --b-accent:  #00ABD6;
   --b-accent2: #0088aa;
+  --b-accent-strong: #00ABD6;
   --b-gold:    #f0b429;
   --b-text:    #e6edf3;
   --b-muted:   #8b949e;
   --b-border:  rgba(255,255,255,0.08);
+  --b-link:    #61b8ff;
+  --b-link-hover-bg: #00ABD6;
+  --b-button-text: #041317;
 }
 
 body {
@@ -19,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--b-accent);
+  color: var(--b-accent-strong);
   font-family: 'DM Serif Display', serif;
 }
 
@@ -38,13 +42,13 @@ main {
 /* #region Links */
 a, a:visited {
   padding: .2em;
-  color: var(--b-accent);
+  color: var(--b-link);
   display: inline-block;
 }
 
 a:hover {
-  background-color: #00ABD6;
-  color: #fff;
+  background-color: var(--b-link-hover-bg);
+  color: var(--b-button-text);
 }
 /* #endregion Links */
 
@@ -74,9 +78,9 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #00ABD6;
-  border-color: #00ABD6;
-  color: #fff!important;
+  background-color: var(--b-accent);
+  border-color: var(--b-accent);
+  color: var(--b-button-text)!important;
 }
 
 .btn:hover {
@@ -136,7 +140,7 @@ a:hover {
 .header-icon {
   width: 2rem;
   height: 2rem;
-  fill: #00ABD6
+  fill: var(--b-accent-strong)
 }
 
 #BreadCrumbsDiv {
@@ -146,8 +150,8 @@ a:hover {
 
 /* #region Accessibility */
 .SkipToContentLink {
-  background: #00ABD6;
-  color: #fff;
+  background: var(--b-accent);
+  color: var(--b-button-text);
   height: 2rem;
   left: 5%;
   padding: 8px;
@@ -158,7 +162,7 @@ a:hover {
 
 .SkipToContentLink:focus {
   transform: translateY(0%);
-  color: #fff;
+  color: var(--b-button-text);
 }
 /* #endregion Accessibility */
 
@@ -169,9 +173,14 @@ a:hover {
   --b-dark:    #f4f6f8;
   --b-darker:  #e8eaed;
   --b-surface: #ffffff;
+  --b-accent:  #0a8fb0;
   --b-text:    #24292f;
   --b-muted:   #57606a;
   --b-border:  rgba(0,0,0,0.12);
+  --b-accent-strong: #005f78;
+  --b-link: #005a9c;
+  --b-link-hover-bg: #79d4eb;
+  --b-button-text: #041317;
 }
 
 [data-bs-theme=light] body {
@@ -180,7 +189,7 @@ a:hover {
 }
 
 [data-bs-theme=light] .btn-primary {
-  color: #000;
+  color: var(--b-button-text)!important;
 }
 
 /* Navbar */
@@ -534,7 +543,7 @@ header {
 
 .rr-hero-lead {
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.88);
   max-width: 490px;
   margin-bottom: 2.2rem;
   line-height: 1.65;
@@ -583,7 +592,7 @@ header {
 .rr-hero-btn {
   display: inline-block;
   background: var(--b-accent);
-  color: #fff;
+  color: var(--b-button-text);
   font-size: 0.95rem;
   font-weight: 700;
   padding: 0.8rem 2rem;
@@ -598,14 +607,14 @@ header {
   background: var(--b-accent2);
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(0,171,214,0.5);
-  color: #fff;
+  color: var(--b-button-text);
 }
 
 .rr-hero-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.88);
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -631,15 +640,18 @@ header {
   bottom: 0.9rem;
   right: 1.2rem;
   z-index: 3;
-  font-size: 0.65rem;
-  color: rgba(255,255,255,0.25);
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.88);
   text-decoration: none;
   letter-spacing: 0.03em;
+  background: rgba(8,12,16,0.72);
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
   transition: color 0.2s;
 }
 
 .rr-hero-credit:hover {
-  color: rgba(255,255,255,0.55);
+  color: #fff;
 }
 
 /* ─── Bildfokuserad – Dansstilar-sektion ─── */
@@ -648,7 +660,7 @@ header {
 }
 
 .rr-style-label {
-  color: var(--b-accent);
+  color: var(--b-accent-strong);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -658,7 +670,7 @@ header {
 
 .rr-style-section h2 em {
   font-style: italic;
-  color: var(--b-accent);
+  color: var(--b-accent-strong);
 }
 
 /* ─── Bildfokuserad – Style cards ─── */
@@ -768,7 +780,7 @@ header {
   align-items: center;
   gap: 0.35rem;
   background: var(--b-accent);
-  color: #fff;
+  color: var(--b-button-text);
   font-size: 0.82rem;
   font-weight: 700;
   padding: 0.45rem 1.1rem;
@@ -786,13 +798,13 @@ header {
 
 .rr-style-card-link:hover {
   background: var(--b-accent2);
-  color: #fff;
+  color: var(--b-button-text);
 }
 
 .rr-btn-inline {
   display: inline-block;
   background: var(--b-accent);
-  color: #fff;
+  color: var(--b-button-text);
   font-size: 0.82rem;
   font-weight: 700;
   padding: 0.4rem 1rem;
@@ -803,7 +815,7 @@ header {
 
 .rr-btn-inline:hover {
   background: var(--b-accent2);
-  color: #fff;
+  color: var(--b-button-text);
   transform: translateY(-1px);
 }
 
@@ -914,15 +926,54 @@ header {
   border-radius: 16px;
   padding: 3rem 2.5rem;
   margin: 2.5rem 0;
+  box-shadow: 0 22px 60px rgba(0,0,0,0.18);
 }
 
 .rr-activity-section h2 {
   color: var(--b-text);
+  margin-bottom: 0.75rem;
 }
 
 .rr-activity-section h2 em {
   font-style: italic;
-  color: var(--b-accent);
+  color: var(--b-accent-strong);
+}
+
+.rr-activity-lead {
+  color: var(--b-muted);
+  font-size: 0.98rem;
+  line-height: 1.75;
+  max-width: 34rem;
+  margin-bottom: 1.5rem;
+}
+
+.rr-activity-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-bottom: 1.6rem;
+}
+
+.rr-activity-panel {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.01) 100%);
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  padding: 1.4rem;
+}
+
+.rr-activity-panel-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rr-event-list {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
 }
 /* #endregion Aktivitetssektion */
 
@@ -965,17 +1016,22 @@ header {
   border: 1px solid var(--b-border);
 }
 
+.rr-event-date-badge-alt {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--b-border);
+}
+
 .rr-edb-day {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: var(--b-button-text);
 }
 
 .rr-edb-mon {
   font-size: 0.58rem;
   font-weight: 700;
-  color: rgba(255,255,255,0.8);
+  color: rgba(4,19,23,0.88);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -983,6 +1039,14 @@ header {
 .rr-edb-icon {
   font-size: 1.3rem;
   line-height: 1;
+}
+
+.rr-event-date-text {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b-button-text);
 }
 
 .rr-event-card-title {
@@ -1034,12 +1098,23 @@ header {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .rr-feature-item {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+}
+
+.rr-feature-marker {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 30%, #38cfff, var(--b-accent2));
+  box-shadow: 0 0 0 6px rgba(0,171,214,0.08);
+  flex-shrink: 0;
+  margin-top: 0.4rem;
 }
 
 .rr-feature-icon {
@@ -1070,14 +1145,20 @@ header {
   border: 1px solid var(--b-border);
   border-radius: 12px;
   padding: 1.4rem 1.6rem;
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
   transition: border-color 0.2s;
 }
 
 .rr-membership-card:hover {
   border-color: var(--b-accent);
+}
+
+.rr-membership-label {
+  color: var(--b-accent-strong);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
 }
 
 .rr-membership-icon {
@@ -1102,6 +1183,81 @@ header {
 }
 /* #endregion Membership card */
 
+/* #region Calendar card */
+.rr-calendar-card {
+  background: var(--b-dark);
+  border: 1px solid var(--b-border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.rr-calendar-intro {
+  color: var(--b-muted);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-bottom: 0.9rem;
+}
+
+.rr-calendar-frame {
+  border: 1px solid var(--b-border);
+  width: 100%;
+  min-width: 320px;
+  height: 500px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+@media (max-width: 991px) {
+  .rr-activity-section {
+    padding: 1.5rem;
+  }
+
+  .rr-activity-panel {
+    padding: 1rem;
+  }
+
+  .rr-activity-panel-header {
+    align-items: start;
+  }
+
+  .rr-calendar-frame {
+    min-width: 0;
+    height: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rr-intro-band {
+    padding: 2rem 0;
+  }
+
+  .rr-activity-section {
+    margin: 2rem 0;
+    border-radius: 14px;
+  }
+
+  .rr-activity-actions,
+  .rr-activity-panel-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rr-event-card-top {
+    padding: 0.9rem 1rem;
+  }
+
+  .rr-event-card-body,
+  .rr-calendar-card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .rr-blockquote {
+    padding: 1.25rem 1.1rem;
+  }
+}
+/* #endregion Calendar card */
+
 /* #region Light mode overrides for new components */
 [data-bs-theme=light] .rr-activity-section {
   background: var(--b-surface);
@@ -1115,6 +1271,16 @@ header {
 
 [data-bs-theme=light] .rr-event-card-top {
   background: linear-gradient(135deg, rgba(0,32,72,0.07), rgba(0,21,48,0.07));
+}
+
+[data-bs-theme=light] .rr-hero-credit {
+  background: rgba(255,255,255,0.9);
+  color: #1f2328;
+}
+
+[data-bs-theme=light] .rr-event-date-badge-alt {
+  background: rgba(0,95,120,0.12);
+  border-color: rgba(0,95,120,0.22);
 }
 
 [data-bs-theme=light] .rr-event-card-title {
