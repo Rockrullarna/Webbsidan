@@ -15,6 +15,7 @@
   --b-link-hover-bg: #00ABD6;
   --b-button-text: #041317;
   --b-logo-hover-light: #032533;
+  --rr-fixed-nav-offset: 3.35rem;
 }
 
 body {
@@ -29,10 +30,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  width: 100%;
-  max-width: 50rem;
+  width: auto;
+  max-width: min(100%, 50rem);
+  max-height: min(25vh, 250px);
+  height: auto;
   display: block;
+  margin-inline: auto;
   pointer-events: none;
+}
+
+.rr-header-logo-wrap {
+  margin: var(--rr-fixed-nav-offset) auto 0.15rem;
+  padding: 0;
+}
+
+.rr-header-logo-link,
+.rr-header-logo-link:visited {
+  display: inline-block;
+  padding: 0;
+  background: none;
+}
+
+.rr-header-logo-link:hover,
+.rr-header-logo-link:focus-visible,
+.rr-header-logo-link:active,
+.rr-header-logo-link:visited:hover,
+.rr-header-logo-link:visited:focus-visible,
+.rr-header-logo-link:visited:active {
+  padding: 0;
+  background: none;
 }
 
 main {
@@ -153,16 +179,23 @@ a:hover {
 .SkipToContentLink {
   background: var(--b-accent);
   color: var(--b-button-text);
-  height: 2rem;
-  left: 5%;
-  padding: 8px;
-  position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
+  left: 1rem;
+  top: 0.75rem;
+  padding: 0.6rem 0.9rem;
+  position: fixed;
+  z-index: 1100;
+  border-radius: 0.45rem;
+  transform: translateY(calc(-100% - 1rem));
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.SkipToContentLink:focus {
-  transform: translateY(0%);
+.SkipToContentLink:focus,
+.SkipToContentLink:focus-visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
   color: var(--b-button-text);
 }
 /* #endregion Accessibility */
@@ -269,7 +302,13 @@ button:focus, .navbar-toggler:focus {
 }
 
 header {
-    padding: 15px 0;
+    padding: 0;
+}
+
+@media(max-width: 991.5px) {
+  :root {
+    --rr-fixed-nav-offset: 4.9rem;
+  }
 }
 
 .navbar-brand {

@@ -185,7 +185,7 @@
           <p style="color:var(--b-muted); margin-top:0.25rem; font-size:0.95rem;">Från första danssteget till fortsatt utveckling. Välj den stil som lockar dig mest, eller prova flera.</p>
         </div>
         <div class="col-12 col-md-4 text-md-end mt-2 mt-md-0">
-          <a href="/danskurser" class="rr-btn-inline" title="Visa alla danskurser">Visa alla kurser</a>
+          <a href="/danskurser/anmalan-danskurser" class="rr-btn-inline" title="Visa alla danskurser">Visa alla kurser</a>
         </div>
       </div>
       <div class="row g-3">

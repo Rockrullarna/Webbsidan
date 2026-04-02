@@ -147,8 +147,8 @@
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <?php if (!isset($page_hidden_logo) || $page_hidden_logo == false || empty($page_hidden_logo)) {
-    echo '<div class="m-5 text-center">
-            <a href="/">
+    echo '<div class="rr-header-logo-wrap text-center">
+            <a href="/" class="rr-header-logo-link">
               <picture>
                 <source type="image/webp" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
                 <source type="image/jpeg" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
