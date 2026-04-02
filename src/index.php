@@ -268,27 +268,20 @@
     </section>
 
     <section class="rr-brand-strip" aria-labelledby="brand-strip-heading">
-      <div class="row g-4 align-items-stretch">
-        <div class="col-12 col-lg-8">
-          <article class="rr-brand-card rr-brand-photo-card">
-            <picture>
-              <source type="image/webp" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
-              <source type="image/jpeg" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
-              <img src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" alt="Lär dig dansa hos Rockrullarna" class="rr-brand-photo" />
-            </picture>
-          </article>
-        </div>
-        <div class="col-12 col-lg-4">
-          <aside class="rr-brand-card rr-brand-logo-card" aria-labelledby="brand-strip-heading">
+      <aside class="rr-brand-card rr-brand-logo-card" aria-labelledby="brand-strip-heading">
+        <div class="rr-brand-layout">
+          <div class="rr-brand-copy-block">
             <p class="rr-style-label" aria-hidden="true">Välkommen till klubben</p>
             <h2 id="brand-strip-heading">En förening att <em>dansa och växa i</em></h2>
             <p class="rr-brand-copy">Hos Rockrullarna är du välkommen både som helt ny och som van dansare. Vi bygger föreningen tillsammans och skapar en miljö där det är lätt att känna sig hemma.</p>
+          </div>
+          <div class="rr-brand-logo-panel">
             <div class="rr-brand-logo-wrap">
               <img src="/filer/bilder/rockrullarna-svg-logga.svg" alt="Rockrullarnas logotyp" class="rr-brand-logo-img" />
             </div>
-          </aside>
+          </div>
         </div>
-      </div>
+      </aside>
     </section>
 
       <section class="rr-activity-section" aria-labelledby="startsida-section-heading">

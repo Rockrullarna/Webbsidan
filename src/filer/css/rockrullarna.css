@@ -1056,32 +1056,31 @@ header {
   box-shadow: 0 18px 48px rgba(0,0,0,0.14);
 }
 
-.rr-brand-photo-card {
-  display: block;
-  padding: 0;
-  background: #020405;
-}
-
-.rr-brand-photo-card picture {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.rr-brand-photo {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center center;
-}
-
 .rr-brand-logo-card {
-  height: 100%;
   padding: 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background:
+    radial-gradient(circle at top right, rgba(0,171,214,0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0)),
+    var(--b-surface);
+}
+
+.rr-brand-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(16rem, 0.9fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.rr-brand-copy-block {
+  max-width: 44rem;
+}
+
+.rr-brand-logo-panel {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .rr-brand-logo-card h2 {
@@ -1105,15 +1104,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 12rem;
-  padding: 1rem;
+  width: 100%;
+  min-height: 15rem;
+  padding: 1.5rem;
   border-radius: 14px;
   background: linear-gradient(180deg, rgba(0,171,214,0.08) 0%, rgba(0,171,214,0.02) 100%);
   border: 1px solid var(--b-border);
 }
 
 .rr-brand-logo-img {
-  width: min(100%, 13rem);
+  width: min(100%, 14rem);
   height: auto;
   display: block;
 }
@@ -1493,8 +1493,9 @@ header {
 }
 
 @media (max-width: 991px) {
-  .rr-brand-photo-card {
-    padding: 0;
+  .rr-brand-layout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(14rem, 0.85fr);
+    gap: 1.5rem;
   }
 
   .rr-activity-section {
@@ -1541,8 +1542,22 @@ header {
     padding: 1.2rem;
   }
 
+  .rr-brand-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .rr-brand-copy-block {
+    max-width: none;
+  }
+
+  .rr-brand-logo-panel {
+    justify-content: stretch;
+  }
+
   .rr-brand-logo-wrap {
     min-height: 10rem;
+    padding: 1rem;
   }
 
   .rr-brand-photo-card {
