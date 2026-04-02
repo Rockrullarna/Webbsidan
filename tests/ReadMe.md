@@ -222,10 +222,12 @@ cd tests
 
 | Fil | Beskrivning |
 |-----|-------------|
-| `specs/link-checker.spec.ts` | Validerar interna länkar på huvudsidorna |
-| `specs/full-crawl.spec.ts` | Crawlar hela webbplatsen och hittar trasiga sidor |
 | `specs/external-links.spec.ts` | Validerar viktiga externa länkar (skipped by default) |
-| `specs/visual-regression.spec.ts` | Visuella regression-tester med screenshots |
+| `specs/fbclid-query-string.spec.ts` | Validerar så att facebook clid länkar fungerar som de ska |
+| `specs/full-crawl.spec.ts` | Crawlar hela webbplatsen och hittar trasiga sidor |
+| `specs/link-checker.spec.ts` | Validerar interna länkar på huvudsidorna |
+| `specs/navbar-visual.spec.ts` | Visuella regression-tester med screenshots för navbar menyn |
+| `specs/visual-regression.spec.ts` | Visuella regression-tester med screenshots på olika specificerade sidor |
 
 ## Visuella regression-tester (screenshot-tester)
 
