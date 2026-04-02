@@ -159,9 +159,7 @@
     }?>
     <nav class="navbar fixed-top navbar-expand-lg p-0">
       <div class="container-fluid dkrr-navbar-bg">
-        <a class="navbar-brand dkrr-logo-link" href="/">
-          <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="/filer/bilder/rockrullarna-svg-logga.svg" />
-        </a>
+        <a class="navbar-brand dkrr-logo-link" href="/">Rockrullarna</a>
         <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
           <span class="navButton-Line" aria-hidden="true"></span>
           <span class="navButton-Line" aria-hidden="true"></span>
@@ -287,19 +285,6 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex ms-auto">
-            <div class="input-group">
-              <input id="searchValue" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
-              <button class="btn btn-primary border-0" type="submit" onclick="searchFunc()">Sök</button>
-            </div>
-          </form>
-          <script>
-            function searchFunc() {
-              var searchQuery = document.getElementById("searchValue").value;
-              var searchUrl = "https://www.bing.com/search?q=site:rockrullarna.se+" + encodeURIComponent(searchQuery);
-              window.open(searchUrl, '_blank').focus();
-            }
-          </script>
         </div>
       </div>
     </nav>

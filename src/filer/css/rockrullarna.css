@@ -87,11 +87,25 @@ a:hover {
 
 /* #region Branding And Header */
 .dkrr-logo-link {
-  width: 3.5rem;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0 0.4rem;
+  background: none !important;
 }
 
-.dkrr-logo:hover {
-  background-color: #fff;
+.dkrr-logo-link:hover {
+  color: var(--b-accent) !important;
+  background: none !important;
+}
+
+[data-bs-theme=light] .dkrr-logo-link {
+  color: #111 !important;
+}
+
+[data-bs-theme=light] .dkrr-logo-link:hover {
+  color: var(--b-accent2) !important;
 }
 
 /* ─── Bildfokuserad – navbar ─── */
@@ -167,10 +181,6 @@ a:hover {
 
 [data-bs-theme=light] .btn-primary {
   color: #000;
-}
-
-[data-bs-theme=light] .dkrr-logo:hover {
-  background-color: #000;
 }
 
 /* Navbar */
