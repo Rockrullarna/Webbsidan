@@ -251,13 +251,38 @@
             Klubben är till för dig som medlem — vi ställer alla upp ideellt och lär varandra.
           </p>
         </div>
-        <div class="col-12 col-lg-4 d-flex flex-wrap gap-2 justify-content-lg-end" aria-label="Snabbknappar">
+        <div class="col-12 col-lg-4 rr-intro-actions" aria-label="Snabbknappar">
           <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
           <a class="rr-btn-inline" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
           <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
         </div>
       </div>
     </section>
+
+    <section class="rr-brand-strip" aria-labelledby="brand-strip-heading">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-lg-8">
+          <article class="rr-brand-card rr-brand-photo-card">
+            <picture>
+              <source type="image/webp" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
+              <source type="image/jpeg" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
+              <img src="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" alt="Lär dig dansa hos Rockrullarna" class="rr-brand-photo" />
+            </picture>
+          </article>
+        </div>
+        <div class="col-12 col-lg-4">
+          <aside class="rr-brand-card rr-brand-logo-card" aria-labelledby="brand-strip-heading">
+            <p class="rr-style-label" aria-hidden="true">Välkommen till klubben</p>
+            <h2 id="brand-strip-heading">Dansglädje, <em>gemenskap</em> och kurser</h2>
+            <p class="rr-brand-copy">Hos Rockrullarna möts kurskvällar, socialdans och gemenskap i Haga Centrum. Här finns plats för både första stegen och många timmar på dansgolvet.</p>
+            <div class="rr-brand-logo-wrap">
+              <img src="/filer/bilder/rockrullarna-svg-logga.svg" alt="Rockrullarnas logotyp" class="rr-brand-logo-img" />
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
       <section class="rr-activity-section" aria-labelledby="startsida-section-heading">
         <div class="row g-5 align-items-start">
           <div class="col-12 col-lg-5">
