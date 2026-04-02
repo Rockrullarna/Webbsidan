@@ -40,7 +40,7 @@ docker run -p 8080:8080 -v $(pwd)/src:/var/www/html rockrullarna-web
 eller med Podman:
 ```bash
 podman build -t rockrullarna-web .
-podman run -p 8080:8080 -v $(pwd)/src:/var/www/html rockrullarna-web
+podman run -p 8080:8080 -v src:/var/www/html rockrullarna-web
 ```
 
 Öppna sedan webbläsaren på: [http://localhost:8080](http://localhost:8080)
