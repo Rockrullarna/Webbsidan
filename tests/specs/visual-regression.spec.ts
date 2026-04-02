@@ -15,12 +15,17 @@
 
 // ─── Sidor att testa ─────────────────────────────────────────────────────────
 const pages = [
-  { name: 'startsida',          path: '/' },
-  { name: 'danskurser',         path: '/danskurser/' },
-  { name: 'foreningen',         path: '/foreningen/' },
-  { name: 'kontakt',            path: '/kontakt/' },
-  { name: 'kursoversikt',       path: '/danskurser/kursoversikt/' },
-  { name: 'aktivitetskalender', path: '/aktivitetskalender/' },
+  { name: 'startsida',            path: '/' },
+  { name: 'aktivitetskalender',   path: '/aktivitetskalender/' },
+  { name: 'danskurser',           path: '/danskurser/' },
+  { name: 'avanmalan',            path: '/danskurser/avanmalan/' },
+  { name: 'betalning',            path: '/danskurser/betalning/' },
+  { name: 'kursoversikt',         path: '/danskurser/kursoversikt/' },
+  { name: 'foreningen',           path: '/foreningen/' },
+  { name: 'styrande-dokument',    path: '/foreningen/styrande-dokument/' },
+  { name: 'organisation',         path: '/foreningen/organisation/' },
+  { name: 'moten-och-protokoll',  path: '/foreningen/moten-och-protokoll/' },
+  { name: 'kontakt',              path: '/kontakt/' },
 ];
 
 // ─── Viewports att testa ─────────────────────────────────────────────────────

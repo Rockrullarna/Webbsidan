@@ -6,10 +6,113 @@ Playwright-tester för att validera länkar och sidor på RR-Webbsidan.
 
 ### Windows (PowerShell)
 
+Om `npm` inte finns installerat på datorn behöver du först installera Node.js LTS, eftersom `npm` normalt följer med Node.js.
+
+```powershell
+# Installera Node.js LTS med winget
+winget install OpenJS.NodeJS.LTS
+
+# Stäng och öppna terminalen igen, kontrollera sedan att allt finns
+node --version
+npm --version
+```
+
+Om `winget` inte finns kan du installera Node.js LTS manuellt från nodejs.org.
+
+När `node` och `npm` fungerar:
+
 ```sh
 cd tests
 npm install
 npx playwright install chromium
+```
+
+Om `npm install` fortfarande misslyckas trots att `npm --version` fungerar, betyder det oftast att `npm` finns men att något annat i installationen gick fel. Börja då med att köra kommandot igen i `tests/` och läs det faktiska felmeddelandet.
+
+#### Felsökning: `node` känns inte igen i PowerShell
+
+Om du får felet:
+
+```text
+node: The term 'node' is not recognized as a name of a cmdlet, function, script file, or executable program.
+```
+
+så betyder det att Node.js antingen inte är installerat ännu, eller att installationen inte har lagts till i `PATH`.
+
+Gör då så här:
+
+```powershell
+# 1. Installera Node.js LTS
+winget install OpenJS.NodeJS.LTS
+
+# 2. Stäng alla terminalfönster och starta om VS Code
+
+# 3. Kontrollera att node och npm nu finns
+node --version
+npm --version
+Get-Command node
+Get-Command npm
+```
+
+Om det fortfarande inte fungerar, kontrollera om Node faktiskt finns installerat:
+
+```powershell
+Test-Path "C:\Program Files\nodejs\node.exe"
+Test-Path "C:\Program Files\nodejs\npm.cmd"
+```
+
+Om filerna finns men kommandona ändå inte känns igen behöver du lägga till denna sökväg i Windows `Path`:
+
+```text
+C:\Program Files\nodejs\
+```
+
+Det gör du inte genom att köra själva sökvägen som ett kommando i PowerShell. Lägg i stället till den i `Path`.
+
+Tillfälligt, bara i den terminal du har öppen just nu:
+
+```powershell
+$env:Path += ";C:\Program Files\nodejs\"
+
+node --version
+npm --version
+```
+
+Permanent för ditt Windows-användarkonto:
+
+```powershell
+$nodePath = 'C:\Program Files\nodejs\'
+$currentUserPath = [Environment]::GetEnvironmentVariable('Path', 'User')
+
+if ($currentUserPath -notlike "*$nodePath*") {
+   [Environment]::SetEnvironmentVariable('Path', "$currentUserPath;$nodePath", 'User')
+}
+```
+
+Stäng sedan terminalen och öppna en ny, och kontrollera igen:
+
+```powershell
+node --version
+npm --version
+Get-Command node
+Get-Command npm
+```
+
+Du kan också lägga till sökvägen via Windows gränssnitt:
+
+1. Öppna Start-menyn och sök efter `Miljövariabler`
+2. Välj `Redigera systemets miljövariabler`
+3. Klicka på `Miljövariabler...`
+4. Markera `Path` under användarvariabler
+5. Klicka på `Redigera`
+6. Lägg till `C:\Program Files\nodejs\`
+7. Spara och öppna en ny terminal
+
+Därefter öppnar du en ny terminal och testar igen:
+
+```powershell
+node --version
+npm --version
 ```
 
 ### Linux/macOS/Codespaces (Bash)
@@ -24,6 +127,14 @@ chmod +x run-tests.sh
 
 ### Windows (PowerShell)
 
+NPM-skripten i `package.json` är anpassade för Windows. Om du tidigare sett felet:
+
+```text
+'BASE_URL' is not recognized as an internal or external command
+```
+
+så beror det på att Windows inte använder Unix-syntaxen `BASE_URL=... kommando` i `npm run`. Skripten är nu skrivna med Windows-kompatibel syntax.
+
 ```sh
 # Mot lokal utvecklingsmiljö (starta först dev-scripts/start.ps1)
 cd tests
@@ -35,8 +146,11 @@ npm run test:prod
 # Endast visuella regression-tester
 npm run test:visual:local
 
-# Uppdatera referens-screenshots (se nedan)
-npm run test:visual:update
+# Uppdatera referens-screenshots mot produktion
+npm run test:visual:update:prod
+
+# Uppdatera referens-screenshots mot localhost
+npm run test:visual:update:local
 ```
 
 ### Linux/macOS/Codespaces (Bash)
@@ -157,6 +271,30 @@ const pages = [
 ```
 
 Kör sedan `update-screenshots` för att skapa referens-bilder för den nya sidan.
+
+### När nya snapshots skapas automatiskt
+
+När du lägger till en ny sida i `specs/visual-regression.spec.ts` finns det ännu inga referens-bilder
+för den sidan i alla kombinationer av tema och viewport. Då kan Playwright skriva meddelanden som:
+
+```text
+A snapshot doesn't exist at tests/snapshots/visual-regression.spec.ts/...
+writing actual.
+```
+
+Det betyder normalt inte att testet är trasigt. Det betyder bara att en referensbild saknades och att
+Playwright skapade en ny snapshot under körningen med `--update-snapshots`.
+
+Arbetsflödet är då:
+
+1. Lägg till den nya sidan i `pages`-arrayen i `specs/visual-regression.spec.ts`
+2. Kör `npm run test:visual:update` eller `npm run test:visual:update:prod`
+3. Granska de nya bilderna i `tests/snapshots/visual-regression.spec.ts/`
+4. Om bilderna ser korrekta ut, lägg till dem i git och committa dem
+5. Kör sedan testet igen utan update-läge för att verifiera att allt matchar
+
+Det är först om de nya bilderna ser fel ut, eller om vanliga testkörningar fortsätter att klaga på saknade snapshots,
+som det är ett problem som behöver felsökas.
 
 ### Konfiguration
 

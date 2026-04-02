@@ -6,19 +6,19 @@
  */
 
 const externalLinksToCheck = [
-  'https://www.facebook.com/dansklubbenrockrullarna',
-  'https://www.instagram.com/rockrullansen/',
-  'https://www.tiktok.com/@dansklubben_rockrullarna',
+  'https://www.facebook.com/rockrullarna',
+  'https://www.instagram.com/rockrullarna/',
+  'https://www.tiktok.com/@dansklubbrockrullarna',
   'https://www.youtube.com/@dansklubbenrockrullarna',
   'https://dans.se/',
   'https://www.epassi.se/',
 ];
 
 test.describe('Externa länkar', () => {
-  
+
   test.skip('Verifiera att viktiga externa länkar fungerar', async ({ page }) => {
     const brokenLinks: { url: string; status: number }[] = [];
-    
+
     for (const url of externalLinksToCheck) {
       try {
         const response = await page.request.get(url, { timeout: 10000 });
@@ -32,7 +32,7 @@ test.describe('Externa länkar', () => {
         console.log(`❌ ${url} - Fel`);
       }
     }
-    
+
     expect(brokenLinks).toHaveLength(0);
   });
 });

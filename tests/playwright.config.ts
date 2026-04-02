@@ -1,5 +1,9 @@
 ﻿import { defineConfig, devices } from '@playwright/test';
 
+declare const process: {
+  env: Record<string, string | undefined>;
+};
+
 const baseURL = process.env.BASE_URL || 'http://localhost:8080';
 
 export default defineConfig({
