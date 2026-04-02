@@ -161,10 +161,12 @@
       <div class="container-fluid dkrr-navbar-bg">
         <a class="navbar-brand dkrr-logo-link" href="/">Rockrullarna</a>
         <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          Meny
+          <span class="navbar-toggler-icon-wrap" aria-hidden="true">
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+          </span>
+          <span class="navbar-toggler-label">Meny</span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav navbar-nav-scroll mx-auto mb-2 mb-lg-0">

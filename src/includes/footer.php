@@ -1,15 +1,15 @@
 ﻿  </main>
   <footer class="rr-footer">
     <div class="container">
-      <div class="row g-4">
+      <div class="row g-4 rr-footer-main">
         <!-- Brand + beskrivning -->
         <div class="col-12 col-md-4">
-          <a href="/" class="rr-footer-brand">Rockrullarna</a>
-          <p>Ideell dansförening i Örebro</p>
-          <small>Bugg · Fox · West Coast Swing</small>
+          <a href="/" class="rr-footer-brand">Dansklubben Rockrullarna</a>
+          <p>en ideell dansförening i Örebro</p>
+          <small></small>
         </div>
         <!-- Kurser -->
-        <div class="col-6 col-md-2">
+        <div class="col-12 col-sm-6 col-md-2">
           <h5>Kurser</h5>
           <div class="rr-footer-links">
             <a href="/danskurser/kursoversikt/bugg">Bugg</a>
@@ -19,7 +19,7 @@
           </div>
         </div>
         <!-- Föreningen -->
-        <div class="col-6 col-md-2">
+        <div class="col-12 col-sm-6 col-md-2">
           <h5>Föreningen</h5>
           <div class="rr-footer-links">
             <a href="/foreningen">Om oss</a>
@@ -51,7 +51,7 @@
       <hr class="rr-footer-divider">
       <div class="row align-items-center g-2 rr-footer-copyright">
         <div class="col-12 col-sm-auto">
-          &copy; <?php echo date("Y"); ?> Dansklubben Rockrullarna
+          &copy; 1983–<?php echo date("Y"); ?> Dansklubben Rockrullarna
           &nbsp;|&nbsp;
           <a href="/integritetspolicy">Integritetspolicy</a>
           &nbsp;|&nbsp;
