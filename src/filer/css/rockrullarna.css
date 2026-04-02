@@ -345,10 +345,14 @@ header {
 .dropdown-menu {
   background: var(--b-surface);
   border: 1px solid var(--b-border);
+  min-width: 14rem;
+  max-width: min(24rem, calc(100vw - 1.5rem));
+  width: max-content;
 }
 
 .dropdown-item {
   color: var(--b-text);
+  white-space: nowrap;
 }
 
 .dropdown-item:visited {
@@ -411,6 +415,17 @@ header {
 @media(max-width: 991.5px) {
   main {
     padding: 0rem 1rem;
+  }
+
+  .navbar-collapse {
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0.35rem 0 0.85rem;
+  }
+
+  .navbar-nav {
+    flex-wrap: nowrap;
   }
 
   form {
@@ -501,22 +516,24 @@ header {
     margin: 5px 10px;
   }
 
-  .navbar .dropdown-menu {
-    position: static !important;
-    inset: auto !important;
+  .navbar-nav .dropdown-menu {
+    position: static;
+    inset: auto;
     transform: none !important;
     width: 100%;
+    max-width: 100%;
     margin-top: 0.35rem;
-    border: 0;
-    box-shadow: none !important;
+    min-width: 0;
+    overflow-x: hidden;
   }
 
-  .navbar .dropstart .dropdown-menu {
-    margin-left: 1rem;
-  }
-
-  .navbar .dropdown-menu .dropdown-item {
+  .navbar-nav .dropdown-item {
     white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .navbar-nav .dropstart .dropdown-menu {
+    margin-left: 0.85rem;
   }
 }
 /* #endregion Responsive Navigation */
