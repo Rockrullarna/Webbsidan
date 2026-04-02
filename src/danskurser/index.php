@@ -58,8 +58,8 @@
       </tbody>
     </table>
     <p class="mt-5">
-      Våra kursstarter och anmälningsformulär hittar ni via anmälningssidan: 
-      <a href="../anmalan-danskurser" title="rockrullarna.se/Kurser" target="_top">rockrullarna.se/Kurser</a>
+      Våra kursstarter och anmälningsformulär hittar ni via anmälningssidan:
+      <a href="./anmalan-danskurser" title="rockrullarna.se/kurser" target="_top">rockrullarna.se/kurser</a>
     </p>
 <?php
   include_once '../includes/footer.php'
