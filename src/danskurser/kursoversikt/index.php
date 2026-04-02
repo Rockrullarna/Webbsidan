@@ -28,7 +28,6 @@
 
           <div class="rr-courses-style-pills" aria-label="Navigera mellan kursområden">
             <a class="rr-courses-pill-link rr-courses-pill-link--all" href="/danskurser" title="Till sidan för alla danskurser"><span class="rr-value-pill"><span class="rr-value-pill-text">Alla kurser</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-            <a class="rr-courses-pill-link rr-courses-pill-link--overview is-active" href="/danskurser/kursoversikt" title="Du är på kursöversikten" aria-current="page"><span class="rr-value-pill"><span class="rr-value-pill-text">Kursöversikt</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
             <a class="rr-courses-pill-link rr-courses-pill-link--bugg" href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><span class="rr-value-pill"><span class="rr-value-pill-text">Bugg</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
             <a class="rr-courses-pill-link rr-courses-pill-link--fox" href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><span class="rr-value-pill"><span class="rr-value-pill-text">Fox</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
             <a class="rr-courses-pill-link rr-courses-pill-link--wcs" href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><span class="rr-value-pill"><span class="rr-value-pill-text">West Coast Swing</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
@@ -68,8 +67,8 @@
           </div>
         </div>
 
-        <div class="rr-courses-overview-grid">
-          <a class="rr-courses-overview-card rr-courses-overview-card--youth" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">
+        <div class="rr-courses-links-grid">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">
             <span class="rr-courses-link-kicker">Barn och ungdom</span>
             <h3>Dans för barn och ungdom</h3>
             <p>Kurser som ger unga dansare en trygg och rolig väg in i dansen.</p>
@@ -77,7 +76,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card rr-courses-overview-card--bugg" href="/danskurser/kursoversikt/bugg" title="Bugg">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/bugg" title="Bugg">
             <span class="rr-courses-link-kicker">Pardans</span>
             <h3>Bugg</h3>
             <p>Från första stegen till fortsatt utveckling i en av våra mest populära dansstilar.</p>
@@ -85,7 +84,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card rr-courses-overview-card--fox" href="/danskurser/kursoversikt/fox" title="Fox">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/fox" title="Fox">
             <span class="rr-courses-link-kicker">Socialdans</span>
             <h3>Fox</h3>
             <p>Mjuk och följsam pardans för dig som vill dansa nära och utveckla känsla i musiken.</p>
@@ -93,7 +92,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card rr-courses-overview-card--wcs" href="/danskurser/kursoversikt/west-coast-swing" title="West Coast Swing">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/west-coast-swing" title="West Coast Swing">
             <span class="rr-courses-link-kicker">Modern swing</span>
             <h3>West Coast Swing</h3>
             <p>Kreativ, musikalisk och improviserad dansstil med mycket uttryck och lekfullhet.</p>
@@ -101,7 +100,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card" href="/danskurser/kursoversikt/fritraning" title="Fri träningstid">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/fritraning" title="Fri träningstid">
             <span class="rr-courses-link-kicker">Egen träning</span>
             <h3>Friträning</h3>
             <p>Öva i egen takt, repetera det du lärt dig och utveckla din dans mellan kurstillfällena.</p>
@@ -109,7 +108,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card" href="/danskurser/kursoversikt/evenemang" title="Evenemang utanför ordinarie verksamhet">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/evenemang" title="Evenemang utanför ordinarie verksamhet">
             <span class="rr-courses-link-kicker">Särskilda tillfällen</span>
             <h3>Evenemang</h3>
             <p>Helgkurser, workshops och andra dansaktiviteter utanför den ordinarie kursplanen.</p>
@@ -117,7 +116,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card" href="/danskurser/kursoversikt/privatlektioner" title="Privatlektioner">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/privatlektioner" title="Privatlektioner">
             <span class="rr-courses-link-kicker">Personlig utveckling</span>
             <h3>Privatlektioner</h3>
             <p>För dig som vill få mer individuellt stöd eller jobba fokuserat med ett särskilt område.</p>
@@ -125,7 +124,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card" href="/danskurser/kursoversikt/trivselkvallar" title="Trivselkvällar">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/trivselkvallar" title="Trivselkvällar">
             <span class="rr-courses-link-kicker">Gemenskap</span>
             <h3>Trivselkvällar</h3>
             <p>Sociala danskvällar där du får träna, umgås och ha roligt tillsammans med andra medlemmar.</p>
@@ -133,7 +132,7 @@
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
-          <a class="rr-courses-overview-card" href="/danskurser/kursoversikt/utbildningar" title="Utbildningar">
+          <a class="rr-courses-link-card" href="/danskurser/kursoversikt/utbildningar" title="Utbildningar">
             <span class="rr-courses-link-kicker">Fördjupning</span>
             <h3>Utbildningar</h3>
             <p>Utbildningstillfällen för dig som vill fördjupa dig och bidra till verksamheten på fler sätt.</p>
