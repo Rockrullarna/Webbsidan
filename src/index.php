@@ -238,22 +238,23 @@
       </div>
     </section>
 
-    <section class="py-4 mb-4 border-bottom" aria-labelledby="intro-heading">
+    <!-- Intro band ────────────────────────────────────────────────── -->
+    <section class="rr-intro-band" aria-labelledby="intro-heading">
       <div class="row align-items-center g-4">
-        <div class="col-12 col-lg-7">
-          <h2 id="intro-heading" class="display-5 fw-bold">Dansklubben Rockrullarna</h2>
-          <p class="lead">
+        <div class="col-12 col-lg-8">
+          <h2 id="intro-heading">Dansklubben Rockrullarna</h2>
+          <p class="rr-intro-lead">
             Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är
             <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
             <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><strong>Fox</strong></a> och
             <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
+            Klubben är till för dig som medlem — vi ställer alla upp ideellt och lär varandra.
           </p>
-          <p class="mb-3">Klubben är till för dig som medlem. Vi som dansar här ställer alla upp ideellt och lär varandra.</p>
-          <div class="d-flex flex-wrap gap-2 mb-3" aria-label="Snabbknappar">
-            <a class="btn btn-primary btn-lg" role="button" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
-            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
-            <a class="btn btn-outline-secondary d-inline-flex align-items-center" role="button" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
-          </div>
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-wrap gap-2 justify-content-lg-end" aria-label="Snabbknappar">
+          <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig nu</a>
+          <a class="rr-btn-inline" href="/danskurser" title="Läs mer om våra danskurser">Utforska kurser</a>
+          <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
         </div>
       </div>
     </section>

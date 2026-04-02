@@ -822,7 +822,8 @@ header {
   }
 
   .rr-style-card-title { font-size: 1.45rem; }
-}/* #endregion Footer */
+}
+/* #endregion Footer */
 
 /* #region Aktivitetskalender */
 .rr-kal-compact {
@@ -883,3 +884,250 @@ header {
   }
 }
 /* #endregion Aktivitetskalender */
+
+/* #region Intro band */
+.rr-intro-band {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--b-border);
+}
+
+.rr-intro-band h2 {
+  color: var(--b-text);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 0.75rem;
+}
+
+.rr-intro-lead {
+  color: var(--b-text);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+  max-width: 660px;
+  opacity: 0.85;
+}
+/* #endregion Intro band */
+
+/* #region Aktivitetssektion */
+.rr-activity-section {
+  background: var(--b-surface);
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.rr-activity-section h2 {
+  color: var(--b-text);
+}
+
+.rr-activity-section h2 em {
+  font-style: italic;
+  color: var(--b-accent);
+}
+/* #endregion Aktivitetssektion */
+
+/* #region Event cards */
+.rr-event-card {
+  background: var(--b-dark);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--b-border);
+  transition: border-color 0.2s;
+  margin-bottom: 1rem;
+}
+
+.rr-event-card:hover {
+  border-color: var(--b-accent);
+}
+
+.rr-event-card-top {
+  background: linear-gradient(135deg, rgba(0,32,48,0.95), rgba(0,18,32,0.95));
+  padding: 1rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rr-event-date-badge {
+  background: var(--b-accent);
+  border-radius: 8px;
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.rr-event-date-badge.rr-edb-alt {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--b-border);
+}
+
+.rr-edb-day {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.rr-edb-mon {
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rr-edb-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.rr-event-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  color: #fff;
+  font-family: 'DM Sans', Arial, sans-serif;
+}
+
+.rr-event-card-meta {
+  color: var(--b-muted);
+  font-size: 0.8rem;
+}
+
+.rr-event-card-body {
+  padding: 0.9rem 1.2rem;
+  color: var(--b-muted);
+  font-size: 0.87rem;
+  line-height: 1.65;
+}
+/* #endregion Event cards */
+
+/* #region Blockquote */
+.rr-blockquote {
+  background: var(--b-dark);
+  border-left: 4px solid var(--b-accent);
+  padding: 1.5rem 1.8rem;
+  border-radius: 0 12px 12px 0;
+  margin: 0;
+}
+
+.rr-blockquote p {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  color: var(--b-text);
+  margin: 0 0 0.5rem;
+  font-style: italic;
+}
+
+.rr-blockquote footer {
+  font-size: 0.82rem;
+  color: var(--b-muted);
+}
+/* #endregion Blockquote */
+
+/* #region Feature list */
+.rr-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rr-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.rr-feature-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 0.1rem;
+}
+
+.rr-feature-item strong {
+  display: block;
+  color: var(--b-text);
+  font-size: 0.95rem;
+  margin-bottom: 0.15rem;
+}
+
+.rr-feature-item p {
+  color: var(--b-muted);
+  font-size: 0.875rem;
+  margin: 0;
+  line-height: 1.55;
+}
+/* #endregion Feature list */
+
+/* #region Membership card */
+.rr-membership-card {
+  background: var(--b-dark);
+  border: 1px solid var(--b-border);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: border-color 0.2s;
+}
+
+.rr-membership-card:hover {
+  border-color: var(--b-accent);
+}
+
+.rr-membership-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 0.1rem;
+}
+
+.rr-membership-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.15rem;
+  color: var(--b-text);
+  margin: 0 0 0.5rem;
+}
+
+.rr-membership-card p {
+  color: var(--b-muted);
+  font-size: 0.87rem;
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+}
+/* #endregion Membership card */
+
+/* #region Light mode overrides for new components */
+[data-bs-theme=light] .rr-activity-section {
+  background: var(--b-surface);
+}
+
+[data-bs-theme=light] .rr-event-card,
+[data-bs-theme=light] .rr-blockquote,
+[data-bs-theme=light] .rr-membership-card {
+  background: var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-event-card-top {
+  background: linear-gradient(135deg, rgba(0,32,72,0.07), rgba(0,21,48,0.07));
+}
+
+[data-bs-theme=light] .rr-event-card-title {
+  color: var(--b-text);
+}
+
+[data-bs-theme=light] .rr-feature-item strong,
+[data-bs-theme=light] .rr-membership-title,
+[data-bs-theme=light] .rr-activity-section h2 {
+  color: var(--b-text);
+}
+
+[data-bs-theme=light] .rr-intro-band h2 {
+  color: var(--b-text);
+}
+/* #region Light mode overrides for new components */
