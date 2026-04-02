@@ -160,7 +160,7 @@
           Örebros dansgemenskap sedan 1983
         </span>
         <h1 id="hero-heading">Dans&shy;glädjens<br>hem i <em>Örebro</em></h1>
-        <p class="rr-hero-lead">En ideell förening för alla som vill lära sig dansa Bugg, Fox och West Coast Swing — i en varm och välkomnande gemenskap.</p>
+        <p class="rr-hero-lead">En ideell dansförening för dig som vill börja dansa, utvecklas vidare och hitta gemenskap i Bugg, Fox och West Coast Swing.</p>
         <div class="rr-hero-actions">
           <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser">Anmäl dig till kurs</a>
           <a class="rr-hero-link" href="#dansstilar">
@@ -183,7 +183,7 @@
       <div class="row align-items-end mb-4">
         <div class="col-12 col-md-8">
           <h2 id="dansstilar-heading">Tre stilar, <em>ett hjärta</em></h2>
-          <p style="color:var(--b-muted); margin-top:0.25rem; font-size:0.95rem;">Kurser för nybörjare till avancerade — välj den stil som lockar dig!</p>
+          <p style="color:var(--b-muted); margin-top:0.25rem; font-size:0.95rem;">Från första danssteget till fortsatt utveckling. Välj den stil som lockar dig mest, eller prova flera.</p>
         </div>
         <div class="col-12 col-md-4 text-md-end mt-2 mt-md-0">
           <a href="/danskurser" class="rr-btn-inline" title="Visa alla danskurser">Visa alla kurser</a>
@@ -200,7 +200,7 @@
             <div class="rr-style-card-body">
               <span class="rr-style-card-cat">Pardans</span>
               <h3 class="rr-style-card-title">Bugg</h3>
-              <p class="rr-style-card-desc">Sveriges folkligaste pardans — social, energisk och rolig för alla.</p>
+              <p class="rr-style-card-desc">Lekfull, social och full av energi. En perfekt dansstil för dig som vill komma igång snabbt.</p>
               <span class="rr-style-card-link">Läs mer <span aria-hidden="true">→</span></span>
             </div>
           </a>
@@ -213,9 +213,9 @@
                  aria-label="<?= htmlspecialchars($fox['label']) ?>"></div>
             <div class="rr-style-card-overlay" aria-hidden="true"></div>
             <div class="rr-style-card-body">
-              <span class="rr-style-card-cat">Balsal</span>
+              <span class="rr-style-card-cat">Svensk</span>
               <h3 class="rr-style-card-title">Fox</h3>
-              <p class="rr-style-card-desc">Dynamisk och elegant — en tidlös pardans med smidiga rörelser.</p>
+              <p class="rr-style-card-desc">Mjuk, närvarande och följsam. Fox passar dig som vill dansa nära och hitta lugnet i musiken.</p>
               <span class="rr-style-card-link">Läs mer <span aria-hidden="true">→</span></span>
             </div>
           </a>
@@ -230,7 +230,7 @@
             <div class="rr-style-card-body">
               <span class="rr-style-card-cat">Swing</span>
               <h3 class="rr-style-card-title">West Coast Swing</h3>
-              <p class="rr-style-card-desc">Modern, musikalisk och improviserad — dans som lever med musiken.</p>
+              <p class="rr-style-card-desc">Modern, musikalisk och kreativ. För dig som gillar improvisation och samspel på dansgolvet.</p>
               <span class="rr-style-card-link">Läs mer <span aria-hidden="true">→</span></span>
             </div>
           </a>
@@ -244,11 +244,11 @@
         <div class="col-12 col-lg-8">
           <h2 id="intro-heading">Dansklubben Rockrullarna</h2>
           <p class="rr-intro-lead">
-            Välkommen till dansglädjen hos vår ideella dansförening i Örebro! Våra primära dansstilar är
+            Välkommen till en ideell dansförening där medlemmarna tillsammans skapar kurser, socialdans och gemenskap i Örebro. Våra primära dansstilar är
             <a href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><strong>Bugg</strong></a>,
             <a href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><strong>Fox</strong></a> och
             <a href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><strong>West Coast Swing</strong></a>.
-            Klubben är till för dig som medlem — vi ställer alla upp ideellt och lär varandra.
+            Här hjälps vi åt, lär av varandra och driver föreningen framåt tillsammans.
           </p>
         </div>
         <div class="col-12 col-lg-4 rr-intro-actions" aria-label="Snabbknappar">
@@ -273,8 +273,8 @@
         <div class="col-12 col-lg-4">
           <aside class="rr-brand-card rr-brand-logo-card" aria-labelledby="brand-strip-heading">
             <p class="rr-style-label" aria-hidden="true">Välkommen till klubben</p>
-            <h2 id="brand-strip-heading">Dansglädje, <em>gemenskap</em> och kurser</h2>
-            <p class="rr-brand-copy">Hos Rockrullarna möts kurskvällar, socialdans och gemenskap i Haga Centrum. Här finns plats för både första stegen och många timmar på dansgolvet.</p>
+            <h2 id="brand-strip-heading">En förening att <em>dansa och växa i</em></h2>
+            <p class="rr-brand-copy">Hos Rockrullarna är du välkommen både som helt ny och som van dansare. Vi bygger föreningen tillsammans och skapar en miljö där det är lätt att känna sig hemma.</p>
             <div class="rr-brand-logo-wrap">
               <img src="/filer/bilder/rockrullarna-svg-logga.svg" alt="Rockrullarnas logotyp" class="rr-brand-logo-img" />
             </div>
@@ -289,8 +289,7 @@
             <p class="rr-style-label" aria-hidden="true">Gemenskap och kurser</p>
             <h2 id="startsida-section-heading">Allt du behöver för att <em>komma igång</em></h2>
             <p class="rr-activity-lead">
-              Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Hos oss hittar du kurser,
-              aktiviteter och en varm gemenskap som gör det enkelt att komma in i dansen.
+              Vill du lära dig dansa Bugg, Fox eller West Coast Swing? Hos oss hittar du kurser, träningsmöjligheter och en varm gemenskap som gör det lätt att ta första steget ut på dansgolvet.
             </p>
 
             <div class="rr-activity-actions" aria-label="Snabbval för startsidan">
@@ -299,7 +298,7 @@
             </div>
 
             <blockquote class="rr-blockquote">
-              <p>"Rockrullarna erbjuder en varm gemenskap och glädje. Hit vill man komma tillbaka."</p>
+              <p>"Hos Rockrullarna känner man sig välkommen direkt. Det är lätt att trivas, utvecklas och vilja komma tillbaka."</p>
               <footer>Medlem hos <cite>Dansklubben Rockrullarna</cite></footer>
             </blockquote>
 
@@ -308,32 +307,31 @@
                 <span class="rr-feature-marker" aria-hidden="true"></span>
                 <div>
                   <strong>Ideell förening</strong>
-                  <p>Vi ställer upp för varandra och bygger verksamheten tillsammans.</p>
+                  <p>Vi hjälps åt att skapa verksamheten tillsammans och gör föreningen levande genom ideellt engagemang.</p>
                 </div>
               </div>
               <div class="rr-feature-item">
                 <span class="rr-feature-marker" aria-hidden="true"></span>
                 <div>
                   <strong>Alla nivåer</strong>
-                  <p>Kurser för nybörjare, fortsättning och dig som vill utvecklas vidare.</p>
+                  <p>Kurser för dig som är helt ny, för dig som vill fortsätta och för dig som vill utvecklas vidare.</p>
                 </div>
               </div>
               <div class="rr-feature-item">
                 <span class="rr-feature-marker" aria-hidden="true"></span>
                 <div>
                   <strong>Alla välkomna</strong>
-                  <p>Oavsett ålder, bakgrund eller tidigare erfarenhet finns det en plats för dig.</p>
+                  <p>Oavsett ålder, bakgrund eller tidigare erfarenhet finns det plats för dig i vår dansgemenskap.</p>
                 </div>
               </div>
             </div>
 
             <div class="rr-membership-card">
               <div>
-                <p class="rr-membership-label">Stöd klubben</p>
+                <p class="rr-membership-label">Var med och håll föreningen levande</p>
                 <h3 class="rr-membership-title">Bli stödmedlem</h3>
                 <p>
-                  Bli stödmedlem snabbt och enkelt via sidan <a href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">bli medlem</a>.
-                  Du får instruktioner för direktbetalning via Swish eller bankgiro, och medlemskapet är normalt aktivt inom en vecka.
+                  Vill du stötta föreningen även om du inte går kurs just nu? Som stödmedlem hjälper du oss att fortsätta skapa dansglädje, aktiviteter och en levande mötesplats i Örebro.
                 </p>
                 <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
               </div>
@@ -363,7 +361,7 @@
                     </div>
                   </div>
                   <div class="rr-event-card-body">
-                    Information om årsmötet hittar du på sidan
+                    Läs mer om årsmötet, handlingar och praktisk information på sidan
                     <a href="/foreningen/moten-och-protokoll/arsmote" title="Information om årsmötet 2026">Föreningen / Möten och protokoll / Årsmöte 2026</a>.
                   </div>
                 </article>
@@ -379,7 +377,7 @@
                     </div>
                   </div>
                   <div class="rr-event-card-body">
-                    Information om friskvårdsintyg, studentrabatter och betalningssätt finns på vår
+                    Här hittar du information om friskvårdsintyg, studentrabatter och hur du betalar dina kurser på vår
                     <a href="https://rockrullarna.se/danskurser/betalning/#studentrabatt" title="Läs mer om betalningar och rabatter">sida om betalningar</a>.
                   </div>
                 </article>
@@ -395,15 +393,15 @@
                     </div>
                   </div>
                   <div class="rr-event-card-body">
-                    Få fler uppdateringar via <a href="/sociala-media" title="Sociala media">sociala media</a> och håll koll på vad som är på gång i föreningen.
+                    Följ oss i <a href="/sociala-media" title="Sociala media">sociala medier</a> för nyheter, bilder och sådant som händer i och runt föreningen.
                   </div>
                 </article>
               </div>
 
               <div class="rr-calendar-card">
                 <p class="rr-calendar-intro">
-                  Här hittar du våra kommande aktiviteter från <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
-                  Vill du boka en plats går du vidare till
+                  Här hittar du våra kommande aktiviteter, kursstarter och socialdanser i <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
+                  Vill du säkra en plats går du vidare till
                   <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>.
                 </p>
                 <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>

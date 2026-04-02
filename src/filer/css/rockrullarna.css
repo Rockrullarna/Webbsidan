@@ -602,7 +602,8 @@ header {
   min-width: 12.5rem;
 }
 
-.rr-hero-btn {
+.rr-hero-btn,
+.rr-hero-btn:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -622,7 +623,12 @@ header {
   transition: filter 0.2s, transform 0.18s, box-shadow 0.2s;
 }
 
-.rr-hero-btn:hover {
+.rr-hero-btn:hover,
+.rr-hero-btn:focus-visible,
+.rr-hero-btn:active,
+.rr-hero-btn:visited:hover,
+.rr-hero-btn:visited:focus-visible,
+.rr-hero-btn:visited:active {
   background: var(--b-accent);
   filter: brightness(0.92);
   transform: translateY(-2px);
@@ -807,7 +813,8 @@ header {
   transform: translateY(0);
 }
 
-.rr-style-card-link {
+.rr-style-card-link,
+.rr-style-card-link:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -832,13 +839,19 @@ header {
   transform: translateY(0);
 }
 
-.rr-style-card-link:hover {
+.rr-style-card-link:hover,
+.rr-style-card-link:focus-visible,
+.rr-style-card-link:active,
+.rr-style-card-link:visited:hover,
+.rr-style-card-link:visited:focus-visible,
+.rr-style-card-link:visited:active {
   background: var(--b-accent);
   filter: brightness(0.92);
   color: var(--b-button-text);
 }
 
-.rr-btn-inline {
+.rr-btn-inline,
+.rr-btn-inline:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -856,7 +869,12 @@ header {
   transition: filter 0.2s, transform 0.15s;
 }
 
-.rr-btn-inline:hover {
+.rr-btn-inline:hover,
+.rr-btn-inline:focus-visible,
+.rr-btn-inline:active,
+.rr-btn-inline:visited:hover,
+.rr-btn-inline:visited:focus-visible,
+.rr-btn-inline:visited:active {
   background: var(--b-accent);
   filter: brightness(0.92);
   color: var(--b-button-text);
