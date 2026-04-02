@@ -4,14 +4,25 @@
   "description": "Playwright-tester för RR-Webbsidan länkvalidering",
   "scripts": {
     "test": "playwright test",
-    "test:local": "BASE_URL=http://localhost:8080 playwright test",
-    "test:prod": "BASE_URL=https://rockrullarna.se playwright test",
+    "test:local": "set BASE_URL=http://localhost:8080&& playwright test",
+    "test:prod": "set BASE_URL=https://rockrullarna.se&& playwright test",
     "test:links": "playwright test link-checker",
-    "test:links:local": "BASE_URL=http://localhost:8080 playwright test link-checker",
-    "test:links:prod": "BASE_URL=https://rockrullarna.se playwright test link-checker",
+    "test:links:local": "set BASE_URL=http://localhost:8080&& playwright test link-checker",
+    "test:links:prod": "set BASE_URL=https://rockrullarna.se&& playwright test link-checker",
+    "test:external:links": "set BASE_URL=https://rockrullarna.se&& playwright test external-links",
+    "test:visual": "playwright test visual-regression",
+    "test:visual:local": "set BASE_URL=http://localhost:8080&& playwright test visual-regression",
+    "test:visual:prod": "set BASE_URL=https://rockrullarna.se&& playwright test visual-regression",
+    "test:visual:update:local": "set BASE_URL=http://localhost:8080&& playwright test visual-regression --update-snapshots",
+    "test:visual:update:prod": "set BASE_URL=https://rockrullarna.se&& playwright test visual-regression --update-snapshots",
+    "test:navbar:local": "set BASE_URL=http://localhost:8080&& playwright test navbar-visual",
+    "test:navbar:prod": "set BASE_URL=https://rockrullarna.se&& playwright test navbar-visual",
+    "test:navbar:update:local": "set BASE_URL=http://localhost:8080&& playwright test navbar-visual --update-snapshots",
+    "test:navbar:update:prod": "set BASE_URL=https://rockrullarna.se&& playwright test navbar-visual --update-snapshots",
     "report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^22.15.3"
   }
 }

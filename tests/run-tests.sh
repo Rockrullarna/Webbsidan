@@ -27,22 +27,26 @@ show_help() {
     echo "Användning: ./run-tests.sh [KOMMANDO] [ALTERNATIV]"
     echo ""
     echo "Kommandon:"
-    echo "  install       Installera dependencies och Playwright"
-    echo "  local         Kör tester mot localhost:8080"
-    echo "  prod          Kör tester mot rockrullarna.se"
-    echo "  links         Kör endast länkvalidering"
-    echo "  crawl         Kör full webbplatscrawl"
-    echo "  report        Visa HTML-rapport"
-    echo "  help          Visa denna hjälp"
+    echo "  install             Installera dependencies och Playwright"
+    echo "  local               Kör tester mot localhost:8080"
+    echo "  prod                Kör tester mot rockrullarna.se"
+    echo "  links               Kör endast länkvalidering"
+    echo "  crawl               Kör full webbplatscrawl"
+    echo "  screenshots         Kör visuella regression-tester"
+    echo "  update-screenshots  Uppdatera referens-screenshots (kräver localhost)"
+    echo "  report              Visa HTML-rapport"
+    echo "  help                Visa denna hjälp"
     echo ""
     echo "Alternativ:"
     echo "  --url URL     Ange egen bas-URL"
     echo ""
     echo "Exempel:"
-    echo "  ./run-tests.sh install          # Installera först"
-    echo "  ./run-tests.sh local            # Testa mot localhost"
-    echo "  ./run-tests.sh prod             # Testa mot produktion"
+    echo "  ./run-tests.sh install                # Installera först"
+    echo "  ./run-tests.sh local                  # Testa mot localhost"
+    echo "  ./run-tests.sh prod                   # Testa mot produktion"
     echo "  ./run-tests.sh links --url https://example.com"
+    echo "  ./run-tests.sh screenshots            # Kör screenshot-jämförelse"
+    echo "  ./run-tests.sh update-screenshots     # Skapa/uppdatera referens-screenshots"
     echo ""
     echo "För lokal utveckling i Codespaces:"
     echo "  ../codespace-scripts/start.sh   # Starta PHP-server"
@@ -159,6 +163,14 @@ while [[ $# -gt 0 ]]; do
             TEST_TYPE="crawl"
             shift
             ;;
+        screenshots)
+            TEST_TYPE="screenshots"
+            shift
+            ;;
+        update-screenshots)
+            TEST_TYPE="update-screenshots"
+            shift
+            ;;
         report)
             show_report
             exit 0
@@ -192,6 +204,17 @@ case $TEST_TYPE in
         ;;
     crawl)
         run_tests "full-crawl"
+        ;;
+    screenshots)
+        run_tests "visual-regression"
+        ;;
+    update-screenshots)
+        SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+        cd "$SCRIPT_DIR"
+        echo ""
+        echo -e "${CYAN}📸 Uppdaterar referens-screenshots mot: ${YELLOW}$BASE_URL${NC}"
+        echo ""
+        BASE_URL="$BASE_URL" npx playwright test visual-regression --update-snapshots
         ;;
     all)
         run_tests

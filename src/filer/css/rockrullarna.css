@@ -265,6 +265,24 @@ header {
   .navbar-nav .nav-item {
     margin: 5px 10px;
   }
+
+  .navbar .dropdown-menu {
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100%;
+    margin-top: 0.35rem;
+    border: 0;
+    box-shadow: none !important;
+  }
+
+  .navbar .dropstart .dropdown-menu {
+    margin-left: 1rem;
+  }
+
+  .navbar .dropdown-menu .dropdown-item {
+    white-space: normal;
+  }
 }
 
 /* ENDING: BOOTSTRAP 5 Multi-level dropdown */
