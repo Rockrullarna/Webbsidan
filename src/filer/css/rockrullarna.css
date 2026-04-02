@@ -1492,7 +1492,250 @@ header {
   background: #fff;
 }
 
+.rr-page-shell {
+  padding-bottom: 2.5rem;
+}
+
+.rr-courses-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rr-courses-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(18rem, 0.95fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.rr-courses-hero-copy,
+.rr-courses-info-card,
+.rr-courses-links-section {
+  border: 1px solid var(--b-border);
+  border-radius: 18px;
+  background: var(--b-surface);
+  box-shadow: 0 18px 48px rgba(0,0,0,0.14);
+}
+
+.rr-courses-hero-copy {
+  padding: 2rem;
+  background:
+    radial-gradient(circle at top right, rgba(0,171,214,0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)),
+    var(--b-surface);
+}
+
+.rr-courses-hero-copy h1 {
+  color: var(--b-text);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+}
+
+.rr-courses-hero-copy h1 em,
+.rr-courses-links-section h2 em {
+  color: var(--b-accent-strong);
+  font-style: italic;
+}
+
+.rr-courses-lead {
+  color: var(--b-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 46rem;
+  margin-bottom: 1.5rem;
+}
+
+.rr-courses-style-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.rr-courses-pill-link,
+.rr-courses-pill-link:visited {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+
+.rr-courses-pill-link:hover,
+.rr-courses-pill-link:focus-visible,
+.rr-courses-pill-link:active,
+.rr-courses-pill-link:visited:hover,
+.rr-courses-pill-link:visited:focus-visible,
+.rr-courses-pill-link:visited:active {
+  background: none;
+  color: inherit;
+}
+
+.rr-courses-pill-link .rr-value-pill {
+  transition: transform 0.18s, border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.rr-courses-pill-link:hover .rr-value-pill,
+.rr-courses-pill-link:focus-visible .rr-value-pill,
+.rr-courses-pill-link:active .rr-value-pill,
+.rr-courses-pill-link:visited:hover .rr-value-pill,
+.rr-courses-pill-link:visited:focus-visible .rr-value-pill,
+.rr-courses-pill-link:visited:active .rr-value-pill {
+  transform: translateY(-2px);
+  border-color: rgba(0,171,214,0.42);
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.2) 0%, rgba(0,171,214,0.08) 100%),
+    var(--b-surface);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 14px 30px rgba(0,0,0,0.2);
+}
+
+.rr-courses-pill-link:focus-visible {
+  outline: 2px solid var(--b-accent);
+  outline-offset: 4px;
+  border-radius: 999px;
+}
+
+.rr-courses-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.rr-courses-actions > a {
+  min-width: 12rem;
+}
+
+.rr-courses-info-card {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rr-courses-info-card h2 {
+  color: var(--b-text);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.rr-courses-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rr-courses-info-item strong {
+  display: block;
+  color: var(--b-text);
+  margin-bottom: 0.25rem;
+}
+
+.rr-courses-info-item p,
+.rr-courses-note p {
+  margin: 0;
+  color: var(--b-muted);
+  line-height: 1.7;
+}
+
+.rr-courses-note {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid var(--b-border);
+  background: linear-gradient(180deg, rgba(0,171,214,0.08), rgba(0,171,214,0.03));
+}
+
+.rr-courses-note p + p {
+  margin-top: 0.65rem;
+}
+
+.rr-courses-links-section {
+  padding: 1.8rem;
+}
+
+.rr-courses-links-header {
+  margin-bottom: 1.25rem;
+}
+
+.rr-courses-links-section h2 {
+  color: var(--b-text);
+  margin: 0;
+}
+
+.rr-courses-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rr-courses-link-card,
+.rr-courses-link-card:visited {
+  display: block;
+  position: relative;
+  height: 100%;
+  padding: 1.35rem 1.35rem 3.2rem;
+  border-radius: 16px;
+  border: 1px solid var(--b-border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)), var(--b-dark);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.rr-courses-link-card:hover,
+.rr-courses-link-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(0,171,214,0.45);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+  background: linear-gradient(180deg, rgba(0,171,214,0.08), rgba(0,171,214,0.02)), var(--b-dark);
+}
+
+.rr-courses-link-kicker {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+  color: var(--b-accent-strong);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.rr-courses-link-card h3 {
+  color: var(--b-text);
+  font-size: 1.35rem;
+  margin-bottom: 0.45rem;
+}
+
+.rr-courses-link-card p {
+  color: var(--b-muted);
+  margin: 0;
+  line-height: 1.65;
+}
+
+.rr-courses-link-arrow {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1rem;
+  color: var(--b-accent);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.rr-courses-footer-note {
+  margin-top: 1.4rem;
+  color: var(--b-muted);
+  line-height: 1.7;
+}
+
 @media (max-width: 991px) {
+  .rr-courses-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .rr-courses-links-grid {
+    grid-template-columns: 1fr;
+  }
+
   .rr-brand-layout {
     grid-template-columns: minmax(0, 1.25fr) minmax(14rem, 0.85fr);
     gap: 1.5rem;
@@ -1526,6 +1769,30 @@ header {
 }
 
 @media (max-width: 767px) {
+  .rr-page-shell {
+    padding-bottom: 2rem;
+  }
+
+  .rr-courses-page {
+    gap: 1.5rem;
+  }
+
+  .rr-courses-hero-copy,
+  .rr-courses-info-card,
+  .rr-courses-links-section {
+    padding: 1.25rem;
+  }
+
+  .rr-courses-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rr-courses-actions > a {
+    width: 100%;
+    min-width: 0;
+  }
+
   .rr-style-section {
     scroll-margin-top: 5.5rem;
   }
@@ -1626,6 +1893,39 @@ header {
 /* #endregion Calendar card */
 
 /* #region Light mode overrides for new components */
+[data-bs-theme=light] .rr-courses-hero-copy,
+[data-bs-theme=light] .rr-courses-info-card,
+[data-bs-theme=light] .rr-courses-links-section {
+  background: var(--b-surface);
+  box-shadow: 0 18px 42px rgba(0,0,0,0.08);
+}
+
+[data-bs-theme=light] .rr-courses-link-card,
+[data-bs-theme=light] .rr-courses-link-card:visited {
+  background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-courses-link-card:hover,
+[data-bs-theme=light] .rr-courses-link-card:focus-visible {
+  background: linear-gradient(180deg, rgba(0,171,214,0.12), rgba(0,171,214,0.03)), var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-courses-pill-link:hover .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link:focus-visible .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link:active .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link:visited:hover .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link:visited:focus-visible .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link:visited:active .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.16) 0%, rgba(0,171,214,0.06) 100%),
+    var(--b-surface);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 12px 22px rgba(0,0,0,0.08);
+}
+
+[data-bs-theme=light] .rr-courses-note {
+  background: linear-gradient(180deg, rgba(0,171,214,0.12), rgba(0,171,214,0.04));
+}
+
 [data-bs-theme=light] .rr-activity-section {
   background: var(--b-surface);
 }
