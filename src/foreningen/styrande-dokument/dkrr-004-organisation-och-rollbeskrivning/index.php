@@ -2,7 +2,7 @@
   $header_title = "DKRR-004 Organisation och rollbeskrivning - Styrande dokument - Föreningen";
   $header_description = "Organisation och rollbeskrivning ska kunna användas av föreningens medlemmar för att förstå roller och ansvar inom verksamheten";
 
-  $page_updated = "2026-01-05 10:02";
+  $page_updated = "2026-01-05 11:39";
   $page_url = "/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -60,8 +60,8 @@
             <div class="underavsnitt"><a href="#kap4-1-6">4.1.6 Sekreterare</a></div>
             <div class="underavsnitt"><a href="#kap4-1-7">4.1.7 Kassör</a></div>
             <div class="avsnitt"><a href="#kap4-2">4.2 Valberedning</a></div>
-            <div class="underavsnitt"><a href="#kap4-2-1">4.2.1 Ordförande</a></div>
-            <div class="underavsnitt"><a href="#kap4-2-2">4.2.2 Ledamot</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-1">4.2.1 Valberedningens ordförande</a></div>
+            <div class="underavsnitt"><a href="#kap4-2-2">4.2.2 Valberedningens ledamot</a></div>
             <div class="avsnitt"><a href="#kap4-3">4.3 Revisor</a></div>
             <div class="avsnitt"><a href="#kap4-4">4.4 Danskommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-4-1">4.4.1 Danskommittéansvarig</a></div>
@@ -77,13 +77,13 @@
             <div class="underavsnitt"><a href="#kap4-4-11">4.4.11 Hjälpdansare</a></div>
             <div class="avsnitt"><a href="#kap4-5">4.5 Ungdomskommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-5-2">4.5.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-6">4.6 Teknikkommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-6-2">4.6.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-7">4.7 Festkommitté</a></div>
             <div class="underavsnitt"><a href="#kap4-7-1">4.7.1 Festkommittéansvarig</a></div>
-            <div class="underavsnitt"><a href="#kap4-7-2">4.7.2 Genomförandegrupp</a></div>
+            <div class="underavsnitt"><a href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a></div>
             <div class="avsnitt"><a href="#kap4-8">4.8 Föreningsgemensamma roller</a></div>
             <div class="underavsnitt"><a href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a></div>
             <div class="underavsnitt"><a href="#kap4-8-2">4.8.2 Bidragsansvarig</a></div>
@@ -96,7 +96,7 @@
 
     <h2 class="kapitel"><a id="kap1" href="#kap1" class="anchor-link">🔗</a>1 Inledning</h2>
     <h3 class="avsnitt"><a id="kap1-1" href="#kap1-1" class="anchor-link">🔗</a>1.1 Bakgrund</h3>
-    <p>En grundläggande förutsättning till en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
+    <p>En grundläggande förutsättning för en fungerande och hållbar föreningsverksamhet är att det finns tydliga riktlinjer för hur verksamheten ska bedrivas. Dessa riktlinjer utgörs av styrande dokument så som stadgar, arbetsbeskrivningar och policydokument. Genom dessa dokument skapas ett grundfundament som stärker föreningens förmåga att upprätthålla kvalitet samt säkerställa kontinuitet vid förändringar i organisationens bemanning.</p>
     <p>&nbsp;</p>
 
     <h3 class="avsnitt"><a id="kap1-2" href="#kap1-2" class="anchor-link">🔗</a>1.2 Syfte</h3>
@@ -141,6 +141,12 @@
         <td>2025-12-10</td>
         <td>Styrelsen</td>
         <td>Fastställt dokument på styrelsemöte, presenteras under höstmötet 2025-12-11.</td>
+      </tr>
+      <tr>
+        <td>1.1</td>
+        <td>2026-01-05</td>
+        <td>Jonas Arvidson</td>
+        <td>Mindre rättningar av stavfel och formatering.</td>
       </tr>
     </table>
     <p>&nbsp;</p>
@@ -396,12 +402,12 @@
       <li>Följer upp styrelsens arbetsuppgifter och säkerställer att styrelsens beslut verkställs.</li>
       <li>Säkerställer att föreningens verksamhet bedrivs enligt stadgar, beslut och lagar.</li>
       <li>Stödjer och koordinerar övriga styrelsemedlemmars arbete.</li>
-      <li>Granskar och genomför inregistrering av registerkontroller (idrott online).</li>
+      <li>Granskar och genomför inregistrering av registerkontroller (IdrottOnline).</li>
       <li>Följa riktlinjer och förväntningar i kapitel 3.</li>
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -417,7 +423,7 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning idrott online.</li>
+      <li>Utbildning IdrottOnline (<a href="https://login.idrottonline.se/">https://login.idrottonline.se/</a>).</li>
       <li>Grundläggande utbildning i styrelsearbete.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
@@ -456,7 +462,7 @@
 
     <h4><a id="kap4-1-6" href="#kap4-1-6" class="anchor-link">🔗</a>4.1.6 Sekreterare</h4>
     <h5>Uppdragsbeskrivning</h5>
-    <p>Sekreteraren ansvar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
+    <p>Sekreteraren ansvarar för att protokollföra styrelsens möten, arkivera och offentlighetgöra fastställda protokoll. Sekreteraren behöver inte dokumentera allt som sägs på mötet, det är upp till styrelsen att avgöra hur omfattande dokumentationen ska vara. Sekreteraren ska se till att dokument registerförs för spårbarhet.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Ansvarar för att protokollföra möten samt att arkivera och offentlighetgöra fastställda protokoll.</li>
@@ -488,9 +494,9 @@
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <h3 class="avsnitt"><a id="kap4-2" href="#kap4-2" class="anchor-link">🔗</a>4.2 Valberedning</h3>
-    <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
+    <p>Valberedningens arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
 
-    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Ordförande</h4>
+    <h4><a id="kap4-2-1" href="#kap4-2-1" class="anchor-link">🔗</a>4.2.1 Valberedningens ordförande</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Valberedningens ordförande är huvudansvarig för valberedningens arbete. Ordförande sammankallar och leder möten, ser till att dagordningen följs och att alla ledamöter får komma till tals i olika frågor.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -506,7 +512,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Ledamot</h4>
+    <h4><a id="kap4-2-2" href="#kap4-2-2" class="anchor-link">🔗</a>4.2.2 Valberednings ledamot</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som ledamot har du en avgörande roll i att säkerställa en kompetent, engagerad och balanserad styrelse som kan leda föreningen på bästa sätt. Arbetet är strategiskt och bör präglas av objektivitet, långsiktighet och medlemsnytta.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -800,7 +806,7 @@
     <h5>Uppdragsbeskrivning</h5>
     <p>Som tränare ansvarar du för att leda kurs samt i samverkan med tränar-och utbildningsansvarige utse assistenter och ev. hjälpdansare till den kurs du ska hålla. Tränare ansvarar för, och säkerställer att assistenter vet vad som ska göras på kursen samt på vilket sätt. Efter respektive avslutat kurstillfälle ansvarar tränaren för att samla kursteamet i syfte att diskutera kurstillfället gällande vad som var bra, vad som kan bli bättre, om någon har observerat något som strider mot föreningens policy etc.</p>
     <p>Om det finns kursdeltagare som ej förhåller sig till föreningens policy trots tillsägelse har tränaren rätt att avvisa kursdeltagare från lokalen. Alla incidenter som bryter mot föreningens policy ska meddelas till styrelsen.</p>
-    <p>Alla tränare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är tränaren som själv begär ut registerutdraget hos polisen. Tränaren ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla tränare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är tränaren som själv begär ut registerutdraget hos polisen. Tränaren ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Förbereda, planera och leda danskurser.</li>
@@ -824,7 +830,7 @@
     <h4><a id="kap4-4-10" href="#kap4-4-10" class="anchor-link">🔗</a>4.4.10 Assistent</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Som assistent ansvarar du för att vara ett stöd till tränare och kursdeltagare. Assistenten ska vara väl insatt om vad som ska genomföras vid kurstillfällen samt veta hur det ska utföras. Som assistent ska du vara lyhörd till deltagarna och förevisa i enlighet med tränarens beskrivning. Assistenten hjälper tränaren att hålla koll på gruppen och ger feedback till både kursdeltagare och tränare.</p>
-    <p>Alla assistenter ska vart annat år genomföra kontroll från polisens belastningsregister. Det är assistenten som själv begär ut registerutdraget hos polisen. Assistenten ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla assistenter ska vart annat år genomföra kontroll från polisens belastningsregister. Det är assistenten som själv begär ut registerutdraget hos polisen. Assistenten ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Stödja tränaren med teknik (ex. musikutrustning), genomgångar och individuell feedback.</li>
@@ -848,7 +854,7 @@
     <h5>Uppdragsbeskrivning</h5>
     <p>Syftet med hjälpdansare är dels att, vid behov, fylla ut antalet förare/följare till jämna par, dels för att kursdeltagarna ska få uppleva en korrekt utförd dans.</p>
     <p>För att vara hjälpdansare ska du vara en erfaren och tekniskt bra dansare som tydligt kan föra/följa. Hjälpdansarens roll är inte att påpeka vad som är rätt eller fel för kursdeltagarna. Förevisning och utlärning genomförs av tränare och assistenter. Som hjälpdansare ska du hålla dig till det som lärs ut och förevisas och inte gå utanför dessa ramar.</p>
-    <p>Alla hjälpdansare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är hjälpdansaren som själv begär ut registerutdraget hos polisen. Hjälpdansare ska sedan lämna utdraget till den person inom styrelsen som ärt utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
+    <p>Alla hjälpdansare ska vart annat år genomföra kontroll från polisens belastningsregister. Det är hjälpdansaren som själv begär ut registerutdraget hos polisen. Hjälpdansare ska sedan lämna utdraget till den person inom styrelsen som är utsedd för kontroll (ordförande). Registerutdraget får aldrig sparas inom föreningen utan ska lämnas tillbaka till berörd person eller förstöras enligt överenskommelse.</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Att följa tränarens anvisningar.</li>
@@ -913,7 +919,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-5-2" href="#kap4-5-2" class="anchor-link">🔗</a>4.5.2 Genomförandegrupp</h4>
+    <h4><a id="kap4-5-2" href="#kap4-5-2" class="anchor-link">🔗</a>4.5.2 Ungdomskommitténs genomförandegrupp</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Ungdomskommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -945,7 +951,7 @@
       <li>Kontaktperson i teknikrelaterade frågor.</li>
       <li>Leder och samordnar teknikkommitténs arbete.</li>
       <li>Säkerställa att planerade tekniska åtgärder genomförs i tid.</li>
-      <li>Se till att budet tas fram och presenteras till styrelsen vid identifierat behov av teknikanskaffning.</li>
+      <li>Se till att budget tas fram och presenteras till styrelsen vid identifierat behov av teknikanskaffning.</li>
       <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
       <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
       <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
@@ -958,7 +964,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h4><a id="kap4-6-2" href="#kap4-6-2" class="anchor-link">🔗</a>4.6.2 Genomförandegrupp</h4>
+    <h4><a id="kap4-6-2" href="#kap4-6-2" class="anchor-link">🔗</a>4.6.2 Teknikkommitténs genomförandegrupp</h4>
     <h5>Uppdragsbeskrivning</h5>
     <p>Teknikkommitténs genomförandegrupp består av ett antal personer (behovsstyrt) som hjälps åt att verkställa kommittén uppdrag.</p>
     <h5>Huvudsakliga uppgifter</h5>
@@ -991,7 +997,7 @@
       <li>Huvudrepresentant för festkommittén i föreningens beslutande sammanhang.</li>
       <li>Kommunikationslänk mellan styrelse och festkommittén (i båda riktningarna).</li>
       <li>Leder och samordnar festkommitténs arbete.</li>
-      <li>Se till att budet tas fram och presenteras till styrelsen.</li>
+      <li>Se till att budget tas fram och presenteras till styrelsen.</li>
       <li>Ge stöd till kommitténs arbete genom vägledning och regelbundna avstämningar.</li>
       <li>Fördela ansvar inom kommittén och uppmuntra fler medlemmar att engagera sig i kommittén.</li>
       <li>Arbeta för att skapa och bibehålla gruppsammanhållning.</li>
@@ -1085,7 +1091,7 @@
 
     <h4><a id="kap4-8-4" href="#kap4-8-4" class="anchor-link">🔗</a>4.8.4 Lokalansvarig</h4>
     <h5>Uppdragsbeskrivning</h5>
-    <p>Som lokalansvarig ansvarar du för förningens lokal i sin helhet. Du är kontaktyta mellan föreningen och hyresvärden i frågor som berör lokalens ytor, funktion och infrastruktur. Lokalansvarig ska se över och inspektera lokalens skick och identifiera inköpsbehov av förbrukningsvaror så som städartiklar och lampor. Utöver detta ingå även ansvar att administrera tillträden och behörigheter i stödsystemet "Vaka".</p>
+    <p>Som lokalansvarig ansvarar du för föreningens lokal i sin helhet. Du är kontaktyta mellan föreningen och hyresvärden i frågor som berör lokalens ytor, funktion och infrastruktur. Lokalansvarig ska se över och inspektera lokalens skick och identifiera inköpsbehov av förbrukningsvaror så som städartiklar och lampor. Utöver detta ingår även ansvar att administrera tillträden och behörigheter i stödsystemet "Vaka".</p>
     <h5>Huvudsakliga uppgifter</h5>
     <ul>
       <li>Säkerställa att lokalen är i gott skick.</li>
@@ -1144,7 +1150,6 @@
     </ul>
     <h5>Kunskapskrav</h5>
     <ul>
-      <li>Utbildning i dans.se.</li>
       <li>Utbildning i föreningens teknik och IT-miljö.</li>
     </ul>
     <p>&nbsp;</p>
@@ -1176,8 +1181,8 @@
             <a class="nav-link underavsnitt" href="#kap4-1-6">4.1.6 Sekreterare</a>
             <a class="nav-link underavsnitt" href="#kap4-1-7">4.1.7 Kassör</a>
             <a class="nav-link avsnitt" href="#kap4-2">4.2 Valberedning</a>
-            <a class="nav-link underavsnitt" href="#kap4-2-1">4.2.1 Ordförande</a>
-            <a class="nav-link underavsnitt" href="#kap4-2-2">4.2.2 Ledamot</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-1">4.2.1 Valberedningens ordförande</a>
+            <a class="nav-link underavsnitt" href="#kap4-2-2">4.2.2 Valberedningens ledamot</a>
             <a class="nav-link avsnitt" href="#kap4-3">4.3 Revisor</a>
             <a class="nav-link avsnitt" href="#kap4-4">4.4 Danskommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-4-1">4.4.1 Danskommittéansvarig</a>
@@ -1193,13 +1198,13 @@
             <a class="nav-link underavsnitt" href="#kap4-4-11">4.4.11 Hjälpdansare</a>
             <a class="nav-link avsnitt" href="#kap4-5">4.5 Ungdomskommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-5-1">4.5.1 Ungdomskommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-5-2">4.5.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-5-2">4.5.2 Ungdomskommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-6">4.6 Teknikkommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-6-1">4.6.1 Teknikkommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-6-2">4.6.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-6-2">4.6.2 Teknikkommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-7">4.7 Festkommitté</a>
             <a class="nav-link underavsnitt" href="#kap4-7-1">4.7.1 Festkommittéansvarig</a>
-            <a class="nav-link underavsnitt" href="#kap4-7-2">4.7.2 Genomförandegrupp</a>
+            <a class="nav-link underavsnitt" href="#kap4-7-2">4.7.2 Festkommitténs genomförandegrupp</a>
             <a class="nav-link avsnitt" href="#kap4-8">4.8 Föreningsgemensamma roller</a>
             <a class="nav-link underavsnitt" href="#kap4-8-1">4.8.1 Rollutbildningsansvarig</a>
             <a class="nav-link underavsnitt" href="#kap4-8-2">4.8.2 Bidragsansvarig</a>
