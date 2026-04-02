@@ -193,9 +193,15 @@ cd tests
 | `npm run test:prod` | Kör alla tester mot rockrullarna.se |
 | `npm run test:links:local` | Kör endast länkvalidering mot localhost |
 | `npm run test:links:prod` | Kör endast länkvalidering mot produktion |
+| `npm run test:external:links` | Kör och validerar externa webblänkar |
 | `npm run test:visual:local` | Kör visuella regression-tester mot localhost |
 | `npm run test:visual:prod` | Kör visuella regression-tester mot produktion |
-| `npm run test:visual:update` | Uppdatera referens-screenshots mot localhost |
+| `npm run test:visual:update:local` | Uppdatera referens-screenshots mot localhost |
+| `npm run test:visual:update:prod` | Uppdatera referens-screenshots mot produktion |
+| `npm run test:navbar:local` | Kör navbar regression-tester mot localhost |
+| `npm run test:navbar:prod` | Kör navbar regression-tester mot produktion |
+| `npm run test:navbar:update:local` | Uppdatera navbar referens-screenshots mot localhost |
+| `npm run test:navbar:update:prod` | Uppdatera navbar referens-screenshots mot produktion |
 | `npm run report` | Visa HTML-rapport från senaste testkörning |
 
 ### Shell Script (Linux/Codespaces)
