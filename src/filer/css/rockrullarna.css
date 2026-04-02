@@ -205,12 +205,13 @@ a:hover {
 
 [data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link,
 [data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:visited {
-  color: rgba(0,0,0,0.65);
+  color: #24313a;
 }
 
 [data-bs-theme=light] .nav-link:hover,
-[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:hover {
-  color: #000;
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:hover,
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:focus-visible {
+  color: #0a5166;
   background: none;
 }
 
@@ -234,7 +235,7 @@ a:hover {
 }
 
 [data-bs-theme=light] .rr-footer a:hover {
-  color: var(--b-accent2);
+  color: #0a5166;
 }
 
 [data-bs-theme=light] .rr-footer .rr-footer-copyright {
@@ -302,21 +303,50 @@ header {
     margin-bottom: 10px;
 }
 
+.dropdown-menu {
+  background: var(--b-surface);
+  border: 1px solid var(--b-border);
+}
+
 .dropdown-item {
-  color: #00ABD6;
+  color: var(--b-text);
 }
 
 .dropdown-item:visited {
-  color: #00ABD6;
+  color: var(--b-text);
 }
 
 .dropdown-item:focus {
   background-color: #005bd6;
+  color: #fff;
 }
 
 .dropdown-menu .dropdown-item:hover {
     background-color: #00ABD6;
-    color: #fff;
+    color: var(--b-button-text);
+}
+
+.dropdown-item:focus-visible {
+  outline: 2px solid var(--b-accent);
+  outline-offset: -2px;
+}
+
+[data-bs-theme=light] .dropdown-menu {
+  background: #ffffff;
+  border-color: rgba(0,0,0,0.12);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+[data-bs-theme=light] .dropdown-item,
+[data-bs-theme=light] .dropdown-item:visited {
+  color: #24313a;
+}
+
+[data-bs-theme=light] .dropdown-item:hover,
+[data-bs-theme=light] .dropdown-item:focus,
+[data-bs-theme=light] .dropdown-item:focus-visible {
+  background-color: rgba(0,171,214,0.16);
+  color: #0d2b36;
 }
 
 /* .dropdown-mega .dropdown-menu {
@@ -443,6 +473,14 @@ header {
   background: none;
 }
 
+.rr-footer a:focus-visible,
+.rr-footer .rr-footer-social a:focus-visible,
+.dkrr-navbar-bg .navbar-nav .nav-link:focus-visible {
+  outline: 2px solid var(--b-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
 .rr-footer h5 {
   color: #fff;
   font-family: 'DM Sans', Arial, sans-serif;
@@ -493,6 +531,12 @@ header {
 
 [data-bs-theme=light] .rr-footer .rr-footer-brand:hover {
   color: var(--b-logo-hover-light);
+}
+
+[data-bs-theme=light] .rr-footer a:focus-visible,
+[data-bs-theme=light] .rr-footer .rr-footer-social a:focus-visible,
+[data-bs-theme=light] .dkrr-navbar-bg .navbar-nav .nav-link:focus-visible {
+  outline-color: #0a5166;
 }
 
 /* ─── Bildfokuserad – Hero ─── */
