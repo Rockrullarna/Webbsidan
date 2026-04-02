@@ -293,7 +293,7 @@
 
       <section class="rr-activity-section" aria-labelledby="startsida-section-heading">
         <div class="row g-5 align-items-start">
-          <div class="col-12 col-lg-5">
+          <div class="col-12 col-lg-5 rr-activity-main">
             <p class="rr-style-label" aria-hidden="true">Gemenskap och kurser</p>
             <h2 id="startsida-section-heading">Allt du behöver för att <em>komma igång</em></h2>
             <p class="rr-activity-lead">
