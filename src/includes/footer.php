@@ -15,7 +15,7 @@
             <a href="/danskurser/kursoversikt/bugg">Bugg</a>
             <a href="/danskurser/kursoversikt/fox">Fox</a>
             <a href="/danskurser/kursoversikt/west-coast-swing">West Coast Swing</a>
-            <a href="/danskurser">Alla kurser</a>
+            <a href="/danskurser/anmalan-danskurser">Alla kurser</a>
           </div>
         </div>
         <!-- Föreningen -->

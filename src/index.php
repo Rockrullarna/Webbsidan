@@ -341,7 +341,7 @@
                 <p>
                   Vill du stötta föreningen även om du inte går kurs just nu? Som stödmedlem hjälper du oss att fortsätta skapa dansglädje, aktiviteter och en levande mötesplats i Örebro.
                 </p>
-                <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli stödmedlem</a>
+                <a class="rr-btn-inline" href="/bli-medlem" title="Bli stödmedlem i Dansklubben Rockrullarna">Bli medlem</a>
               </div>
             </div>
           </div>
