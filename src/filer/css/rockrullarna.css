@@ -1573,7 +1573,30 @@ header {
 }
 
 .rr-courses-pill-link .rr-value-pill {
+  min-width: 0;
+  gap: 0.85rem;
+  justify-content: space-between;
   transition: transform 0.18s, border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.rr-courses-pill-link .rr-value-pill::before {
+  margin-right: 0;
+}
+
+.rr-value-pill-text {
+  min-width: 0;
+}
+
+.rr-value-pill-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: inherit;
+  opacity: 0.7;
+  transform: translateX(0);
+  transition: transform 0.18s, opacity 0.18s;
 }
 
 .rr-courses-pill-link:hover .rr-value-pill,
@@ -1590,10 +1613,75 @@ header {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 14px 30px rgba(0,0,0,0.2);
 }
 
+.rr-courses-pill-link:hover .rr-value-pill-arrow,
+.rr-courses-pill-link:focus-visible .rr-value-pill-arrow,
+.rr-courses-pill-link:active .rr-value-pill-arrow,
+.rr-courses-pill-link:visited:hover .rr-value-pill-arrow,
+.rr-courses-pill-link:visited:focus-visible .rr-value-pill-arrow,
+.rr-courses-pill-link:visited:active .rr-value-pill-arrow,
+.rr-courses-pill-link.is-active .rr-value-pill-arrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
 .rr-courses-pill-link:focus-visible {
   outline: 2px solid var(--b-accent);
   outline-offset: 4px;
   border-radius: 999px;
+}
+
+.rr-courses-pill-link--all .rr-value-pill {
+  border-color: rgba(0,171,214,0.3);
+}
+
+.rr-courses-pill-link--bugg .rr-value-pill {
+  border-color: rgba(0,171,214,0.28);
+}
+
+.rr-courses-pill-link--fox .rr-value-pill {
+  border-color: rgba(0,200,170,0.26);
+  background:
+    linear-gradient(180deg, rgba(0,200,170,0.12) 0%, rgba(0,200,170,0.04) 100%),
+    var(--b-surface);
+}
+
+.rr-courses-pill-link--fox .rr-value-pill::before {
+  background: #14c8ab;
+  box-shadow: 0 0 0 0.32rem rgba(20,200,171,0.12);
+}
+
+.rr-courses-pill-link--wcs .rr-value-pill {
+  border-color: rgba(103,176,255,0.28);
+  background:
+    linear-gradient(180deg, rgba(103,176,255,0.13) 0%, rgba(103,176,255,0.04) 100%),
+    var(--b-surface);
+}
+
+.rr-courses-pill-link--wcs .rr-value-pill::before {
+  background: #67b0ff;
+  box-shadow: 0 0 0 0.32rem rgba(103,176,255,0.12);
+}
+
+.rr-courses-pill-link--youth .rr-value-pill {
+  border-color: rgba(240,180,41,0.3);
+  background:
+    linear-gradient(180deg, rgba(240,180,41,0.13) 0%, rgba(240,180,41,0.04) 100%),
+    var(--b-surface);
+}
+
+.rr-courses-pill-link--youth .rr-value-pill::before {
+  background: #f0b429;
+  box-shadow: 0 0 0 0.32rem rgba(240,180,41,0.12);
+}
+
+.rr-courses-pill-link.is-active .rr-value-pill,
+.rr-courses-pill-link.is-active:hover .rr-value-pill,
+.rr-courses-pill-link.is-active:focus-visible .rr-value-pill {
+  border-color: rgba(0,171,214,0.48);
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.22) 0%, rgba(0,171,214,0.08) 100%),
+    var(--b-surface);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 14px 30px rgba(0,171,214,0.16);
 }
 
 .rr-courses-actions {
@@ -1920,6 +2008,33 @@ header {
     linear-gradient(180deg, rgba(0,171,214,0.16) 0%, rgba(0,171,214,0.06) 100%),
     var(--b-surface);
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 12px 22px rgba(0,0,0,0.08);
+}
+
+[data-bs-theme=light] .rr-courses-pill-link--fox .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(20,200,171,0.12) 0%, rgba(20,200,171,0.04) 100%),
+    var(--b-surface);
+}
+
+[data-bs-theme=light] .rr-courses-pill-link--wcs .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(103,176,255,0.14) 0%, rgba(103,176,255,0.05) 100%),
+    var(--b-surface);
+}
+
+[data-bs-theme=light] .rr-courses-pill-link--youth .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(240,180,41,0.16) 0%, rgba(240,180,41,0.05) 100%),
+    var(--b-surface);
+}
+
+[data-bs-theme=light] .rr-courses-pill-link.is-active .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link.is-active:hover .rr-value-pill,
+[data-bs-theme=light] .rr-courses-pill-link.is-active:focus-visible .rr-value-pill {
+  background:
+    linear-gradient(180deg, rgba(0,171,214,0.2) 0%, rgba(0,171,214,0.08) 100%),
+    var(--b-surface);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 12px 22px rgba(0,0,0,0.08);
 }
 
 [data-bs-theme=light] .rr-courses-note {

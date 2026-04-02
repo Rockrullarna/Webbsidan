@@ -28,10 +28,11 @@
           </p>
 
           <div class="rr-courses-style-pills" aria-label="V&aring;ra kursomr&aring;den">
-            <a class="rr-courses-pill-link" href="/danskurser/kursoversikt/bugg" title="G&aring; till &ouml;versiktssidan f&ouml;r Bugg"><span class="rr-value-pill">Bugg</span></a>
-            <a class="rr-courses-pill-link" href="/danskurser/kursoversikt/fox" title="G&aring; till &ouml;versiktssidan f&ouml;r Fox"><span class="rr-value-pill">Fox</span></a>
-            <a class="rr-courses-pill-link" href="/danskurser/kursoversikt/west-coast-swing" title="G&aring; till &ouml;versiktssidan f&ouml;r West Coast Swing"><span class="rr-value-pill">West Coast Swing</span></a>
-            <a class="rr-courses-pill-link" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="G&aring; till &ouml;versiktssidan f&ouml;r dans f&ouml;r barn och ungdomar"><span class="rr-value-pill">Barn och ungdom</span></a>
+            <a class="rr-courses-pill-link rr-courses-pill-link--all is-active" href="/danskurser" title="Du &auml;r p&aring; sidan f&ouml;r alla danskurser" aria-current="page"><span class="rr-value-pill"><span class="rr-value-pill-text">Alla kurser</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
+            <a class="rr-courses-pill-link rr-courses-pill-link--bugg" href="/danskurser/kursoversikt/bugg" title="G&aring; till &ouml;versiktssidan f&ouml;r Bugg"><span class="rr-value-pill"><span class="rr-value-pill-text">Bugg</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
+            <a class="rr-courses-pill-link rr-courses-pill-link--fox" href="/danskurser/kursoversikt/fox" title="G&aring; till &ouml;versiktssidan f&ouml;r Fox"><span class="rr-value-pill"><span class="rr-value-pill-text">Fox</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
+            <a class="rr-courses-pill-link rr-courses-pill-link--wcs" href="/danskurser/kursoversikt/west-coast-swing" title="G&aring; till &ouml;versiktssidan f&ouml;r West Coast Swing"><span class="rr-value-pill"><span class="rr-value-pill-text">West Coast Swing</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
+            <a class="rr-courses-pill-link rr-courses-pill-link--youth" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="G&aring; till &ouml;versiktssidan f&ouml;r dans f&ouml;r barn och ungdomar"><span class="rr-value-pill"><span class="rr-value-pill-text">Barn och ungdom</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
           </div>
 
           <div class="rr-courses-actions">
