@@ -63,10 +63,8 @@ test.describe('Visuell regression', () => {
           // Applicera tema efter laddning
           await applyTheme(page, theme);
 
-          // Vänta på att CSS-övergångar ska stabiliseras
-          await page.waitForTimeout(300);
-
-          // Jämför mot referens-screenshot (fullPage = hela sidan, inte bara viewport)
+          // Jämför mot referens-screenshot (fullPage = hela sidan, inte bara viewport).
+          // animations: 'disabled' fryser alla CSS-övergångar i slutläget före skärmdump.
           await expect(page).toHaveScreenshot(
             `${pageName}-${theme}-${viewportName}.png`,
             {
