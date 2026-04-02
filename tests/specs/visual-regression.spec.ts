@@ -49,6 +49,34 @@ async function applyTheme(page: Page, theme: 'light' | 'dark'): Promise<void> {
   }, theme);
 }
 
+/**
+ * Väntar in att sidan blivit visuellt stabil innan screenshot tas.
+ * Fokus ligger på att bilder ska vara laddade och att DOM:en ska ha hunnit sätta sig.
+ */
+async function waitForVisualReadiness(page: Page): Promise<void> {
+  await page.waitForLoadState('load');
+
+  try {
+    await page.waitForLoadState('networkidle', { timeout: 10000 });
+  } catch {
+    // En del sidor kan ha bakgrundsanrop eller tredjepartsskript som aldrig blir helt idle.
+  }
+
+  await page.waitForTimeout(500);
+
+  await page.waitForFunction(() => {
+    const images = Array.from(document.images);
+
+    if (images.length === 0) {
+      return true;
+    }
+
+    return images.every((image) => image.complete && image.naturalWidth > 0);
+  }, { timeout: 10000 });
+
+  await page.waitForTimeout(250);
+}
+
 // ─── Generera tester för alla kombinationer ───────────────────────────────────
 test.describe('Visuell regression', () => {
   for (const { name: pageName, path: pagePath } of pages) {
@@ -67,6 +95,7 @@ test.describe('Visuell regression', () => {
 
           // Applicera tema efter laddning
           await applyTheme(page, theme);
+          await waitForVisualReadiness(page);
 
           // Jämför mot referens-screenshot (fullPage = hela sidan, inte bara viewport).
           // animations: 'disabled' fryser alla CSS-övergångar i slutläget före skärmdump.
