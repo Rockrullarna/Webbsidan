@@ -31,36 +31,43 @@ async function mockCalendarApi(page: Page, body: unknown): Promise<void> {
 }
 
 test('handles nested calendar API payloads', async ({ page }) => {
-  await mockCalendarApi(page, [
-    {
-      name: 'Fixture event from parsed schedule',
-      start: `${formatDate(5)} 18:30:00`,
-      end: `${formatDate(5)} 19:45:00`,
-      location: 'Fixture Hall A',
-      url: 'https://example.test/signup/fixture-a'
-    },
-    {
-      name: 'Fixture follow-up event',
-      start: `${formatDate(6)} 19:00:00`,
-      end: `${formatDate(6)} 20:30:00`,
-      location: 'Fixture Hall B',
-      url: null
-    },
-    {
-      name: 'Fixture event with booking link',
-      start: `${formatDate(7)} 15:00:00`,
-      end: `${formatDate(7)} 16:00:00`,
-      location: 'Fixture Hall C',
-      url: 'https://example.test/signup/direct-schedule'
-    },
-    {
-      name: 'Fixture room split event',
-      start: `${formatDate(8)} 18:00:00`,
-      end: `${formatDate(8)} 20:00:00`,
-      location: 'Lilla salen',
-      url: null
+  await mockCalendarApi(page, {
+    events: [
+      {
+        name: 'Fixture event from parsed schedule',
+        start: `${formatDate(5)} 18:30:00`,
+        end: `${formatDate(5)} 19:45:00`,
+        location: 'Fixture Hall A',
+        url: 'https://example.test/signup/fixture-a'
+      },
+      {
+        name: 'Fixture follow-up event',
+        start: `${formatDate(6)} 19:00:00`,
+        end: `${formatDate(6)} 20:30:00`,
+        location: 'Fixture Hall B',
+        url: null
+      },
+      {
+        name: 'Fixture event with booking link',
+        start: `${formatDate(7)} 15:00:00`,
+        end: `${formatDate(7)} 16:00:00`,
+        location: 'Fixture Hall C',
+        url: 'https://example.test/signup/direct-schedule'
+      },
+      {
+        name: 'Fixture room split event',
+        start: `${formatDate(8)} 18:00:00`,
+        end: `${formatDate(8)} 20:00:00`,
+        location: 'Lilla salen',
+        url: null
+      }
+    ],
+    debug: {
+      cache: {
+        status: 'fresh'
+      }
     }
-  ]);
+  });
 
   await page.goto('/aktivitetskalender/');
 
@@ -81,13 +88,11 @@ test('handles nested calendar API payloads', async ({ page }) => {
   await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });
 
-test('renders future dates for recurring series that started earlier', async ({ page }) => {
-  const pastMondayOffset = offsetToWeekday(1, -2);
-
+test('renders backend-expanded recurring occurrences', async ({ page }) => {
   await mockCalendarApi(page, [
     {
       name: 'Fixture ongoing series',
-      start: `${formatDate(pastMondayOffset)} 18:00:00`,
+      start: `${formatDate(offsetToWeekday(1, 1))} 18:00:00`,
       end: `${formatDate(offsetToWeekday(1, 1))} 20:00:00`,
       location: 'Fixture Hall E',
       url: 'https://example.test/signup/ongoing-series'

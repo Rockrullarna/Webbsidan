@@ -4,6 +4,7 @@ declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
 
 $cacheTtlSeconds = 15 * 60;
+$debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
 $days = filter_input(
     INPUT_GET,
@@ -92,6 +93,53 @@ function write_cache(string $cacheDir, string $cacheFile, string $payload): void
 {
     ensure_cache_directory($cacheDir);
     @file_put_contents($cacheFile, $payload, LOCK_EX);
+}
+
+function decode_cache_payload(string $payload): ?array
+{
+    $decoded = json_decode($payload, true);
+
+    if (is_array($decoded) && isset($decoded['events']) && is_array($decoded['events'])) {
+        return [
+            'events' => $decoded['events'],
+            'meta' => is_array($decoded['meta'] ?? null) ? $decoded['meta'] : []
+        ];
+    }
+
+    if (is_array($decoded) && array_is_list($decoded)) {
+        return [
+            'events' => $decoded,
+            'meta' => []
+        ];
+    }
+
+    return null;
+}
+
+function encode_cache_payload(array $events, array $meta): string
+{
+    $payload = json_encode([
+        'events' => $events,
+        'meta' => $meta
+    ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+
+    if ($payload === false) {
+        throw new RuntimeException('Kunde inte skapa cache-payload.');
+    }
+
+    return $payload;
+}
+
+function build_response_payload(array $events, array $meta, bool $debug): string
+{
+    $payload = $debug ? ['events' => $events, 'debug' => $meta] : $events;
+    $encoded = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+
+    if ($encoded === false) {
+        throw new RuntimeException('Kunde inte skapa svarspayload.');
+    }
+
+    return $encoded;
 }
 
 function normalize_text(string $value): string
@@ -414,7 +462,19 @@ function merge_events(array $primaryEvents, array $supplementalEvents): array
 try {
     $cachedPayload = read_cache_if_fresh($cacheFile, $cacheTtlSeconds);
     if ($cachedPayload !== null) {
-        echo $cachedPayload;
+        $cachedData = decode_cache_payload($cachedPayload);
+        if ($cachedData !== null) {
+            $cacheMeta = $cachedData['meta'];
+            $cacheMeta['cache'] = [
+                'status' => 'fresh',
+                'ttlSeconds' => $cacheTtlSeconds,
+                'file' => basename($cacheFile),
+                'updatedAt' => date('c', (int) filemtime($cacheFile))
+            ];
+            echo build_response_payload($cachedData['events'], $cacheMeta, $debug);
+            return;
+        }
+
         return;
     }
 
@@ -424,23 +484,46 @@ try {
     $scheduleEvents = parse_schedule_events($scheduleHtml, $eventLinks);
     $apiEvents = parse_api_events($eventsJson, $days);
     $mergedEvents = merge_events($scheduleEvents, $apiEvents);
-    $payload = json_encode($mergedEvents, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $meta = [
+        'org' => $org,
+        'days' => $days,
+        'generatedAt' => date('c'),
+        'sources' => [
+            'scheduleCount' => count($scheduleEvents),
+            'apiCount' => count($apiEvents),
+            'mergedCount' => count($mergedEvents)
+        ],
+        'cache' => [
+            'status' => 'miss',
+            'ttlSeconds' => $cacheTtlSeconds,
+            'file' => basename($cacheFile)
+        ]
+    ];
+    $cachePayload = encode_cache_payload($mergedEvents, $meta);
 
-    if ($payload === false) {
-        throw new RuntimeException('Kunde inte skapa JSON-svar.');
-    }
-
-    write_cache($cacheDir, $cacheFile, $payload);
-    echo $payload;
+    write_cache($cacheDir, $cacheFile, $cachePayload);
+    echo build_response_payload($mergedEvents, $meta, $debug);
 } catch (Throwable $throwable) {
     $stalePayload = read_stale_cache($cacheFile);
     if ($stalePayload !== null) {
-        echo $stalePayload;
-        return;
+        $staleData = decode_cache_payload($stalePayload);
+        if ($staleData !== null) {
+            $staleMeta = $staleData['meta'];
+            $staleMeta['cache'] = [
+                'status' => 'stale',
+                'ttlSeconds' => $cacheTtlSeconds,
+                'file' => basename($cacheFile),
+                'updatedAt' => date('c', (int) filemtime($cacheFile))
+            ];
+            $staleMeta['error'] = $throwable->getMessage();
+            echo build_response_payload($staleData['events'], $staleMeta, $debug);
+            return;
+        }
     }
 
     http_response_code(502);
-    echo json_encode([
-        'error' => 'Kunde inte hämta aktivitetskalendern just nu.'
-    ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    echo build_response_payload([], [
+        'error' => 'Kunde inte hämta aktivitetskalendern just nu.',
+        'details' => $debug ? $throwable->getMessage() : null
+    ], true);
 }
