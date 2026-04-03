@@ -12,7 +12,7 @@ function formatDate(offsetDays: number): string {
   return `${year}-${month}-${day}`;
 }
 
-test('aktivitetskalender renders nested object-map payload from dans.se API', async ({ page }) => {
+test('handles nested calendar API payloads', async ({ page }) => {
   await page.route('https://dans.se/api/public/events/**', async (route) => {
     const body = {
       data: {

@@ -122,6 +122,32 @@
     return '';
   }
 
+  function createValidatedDate(year, month, day, hours, minutes, seconds) {
+    var date;
+
+    if (
+      month < 0 || month > 11 ||
+      day < 1 || day > 31 ||
+      hours < 0 || hours > 23 ||
+      minutes < 0 || minutes > 59 ||
+      seconds < 0 || seconds > 59
+    ) {
+      return null;
+    }
+
+    date = new Date(year, month, day, hours, minutes, seconds);
+
+    if (
+      date.getFullYear() !== year ||
+      date.getMonth() !== month ||
+      date.getDate() !== day
+    ) {
+      return null;
+    }
+
+    return date;
+  }
+
   function parseDateValue(value, extraTime) {
     var match;
     var date;
@@ -174,7 +200,7 @@
       hours = parseInt(match[4] || '0', 10);
       minutes = parseInt(match[5] || '0', 10);
       seconds = parseInt(match[6] || '0', 10);
-      return new Date(year, month, day, hours, minutes, seconds);
+      return createValidatedDate(year, month, day, hours, minutes, seconds);
     }
 
     match = str.match(/^(\d{2})\.(\d{2})\.(\d{4})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/);
@@ -185,7 +211,7 @@
       hours = parseInt(match[4] || '0', 10);
       minutes = parseInt(match[5] || '0', 10);
       seconds = parseInt(match[6] || '0', 10);
-      return new Date(year, month, day, hours, minutes, seconds);
+      return createValidatedDate(year, month, day, hours, minutes, seconds);
     }
 
     match = str.match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -193,7 +219,7 @@
       year = parseInt(match[1], 10);
       month = parseInt(match[2], 10) - 1;
       day = parseInt(match[3], 10);
-      return new Date(year, month, day);
+      return createValidatedDate(year, month, day, 0, 0, 0);
     }
 
     date = new Date(str);
@@ -283,6 +309,32 @@
     return [];
   }
 
+  function extractStartDate(occ, ev) {
+    var startValue = firstNonEmpty(occ, [
+      'start', 'startDateTime', 'start_datetime', 'datetime',
+      'dateTime', 'from', 'fromDateTime'
+    ]);
+    var startTime = firstNonEmpty(occ, ['startTime', 'start_time', 'time', 'fromTime', 'from_time']);
+
+    return parseDateValue(startValue, startTime) ||
+      parseDateFromObject(occ, 'start') ||
+      parseDateFromObject(occ, 'from') ||
+      parseDateValue(firstNonEmpty(occ, ['date', 'day']), firstNonEmpty(occ, ['time', 'startTime', 'start_time'])) ||
+      parseDateFromObject(ev, 'start') ||
+      parseDateValue(firstNonEmpty(ev, ['date', 'day']), firstNonEmpty(ev, ['time', 'startTime', 'start_time']));
+  }
+
+  function extractEndDate(occ) {
+    var endValue = firstNonEmpty(occ, [
+      'end', 'endDateTime', 'end_datetime', 'to', 'toDateTime'
+    ]);
+    var endTime = firstNonEmpty(occ, ['endTime', 'end_time', 'toTime', 'to_time']);
+
+    return parseDateValue(endValue, endTime) ||
+      parseDateFromObject(occ, 'end') ||
+      parseDateFromObject(occ, 'to');
+  }
+
   /* ------------------------------------------------------------------ */
   /*  Data-hantering                                                    */
   /* ------------------------------------------------------------------ */
@@ -340,16 +392,7 @@
       }
 
       occasions.forEach(function (occ) {
-        var startDate = parseDateValue(
-          firstNonEmpty(occ, [
-            'start', 'startDateTime', 'start_datetime', 'datetime',
-            'dateTime', 'from', 'fromDateTime'
-          ]),
-          firstNonEmpty(occ, ['startTime', 'start_time', 'time', 'fromTime', 'from_time'])
-        ) || parseDateFromObject(occ, 'start') || parseDateFromObject(occ, 'from') ||
-          parseDateValue(firstNonEmpty(occ, ['date', 'day']), firstNonEmpty(occ, ['time', 'startTime', 'start_time'])) ||
-          parseDateFromObject(ev, 'start') ||
-          parseDateValue(firstNonEmpty(ev, ['date', 'day']), firstNonEmpty(ev, ['time', 'startTime', 'start_time']));
+        var startDate = extractStartDate(occ, ev);
 
         if (!startDate || isNaN(startDate.getTime())) {
           return;
@@ -358,12 +401,7 @@
         /* Filtrera: visa bara framtida och inom maxDays */
         if (startDate < now || startDate > cutoff) return;
 
-        var endDate = parseDateValue(
-          firstNonEmpty(occ, [
-            'end', 'endDateTime', 'end_datetime', 'to', 'toDateTime'
-          ]),
-          firstNonEmpty(occ, ['endTime', 'end_time', 'toTime', 'to_time'])
-        ) || parseDateFromObject(occ, 'end') || parseDateFromObject(occ, 'to');
+        var endDate = extractEndDate(occ);
 
         if (endDate && isNaN(endDate.getTime())) {
           endDate = null;
