@@ -124,6 +124,11 @@
     return '';
   }
 
+  /**
+   * Skapa ett lokalt Date-objekt efter fältvalidering.
+   * Returnerar null om datum/tid är utanför tillåtna intervall
+   * eller om kombinationen inte bildar ett giltigt kalenderdatum.
+   */
   function createValidatedDate(year, month, day, hours, minutes, seconds) {
     var date;
 
@@ -253,6 +258,12 @@
     return parseDateValue(directValue || datePart, timePart);
   }
 
+  /**
+   * Försöker hitta en array av event-liknande objekt genom att packa upp
+   * vanliga wrappers (t.ex. data/results/events) rekursivt.
+   * depth begränsar hur djupt vi går för att undvika att tolka helt
+   * orelaterade nästlade strukturer som kalenderdata.
+   */
   function extractArrayCandidate(value, depth) {
     var preferredKeys = ['results', 'data', 'events', 'items', 'rows', 'entries'];
     var i;
@@ -311,6 +322,11 @@
     return [];
   }
 
+  /**
+   * Hämtar startdatum från ett tillfälle i första hand och faller annars
+   * tillbaka till event-nivån. Stöd finns för både kombinerade och separata
+   * datum/tid-fält samt flera vanliga nyckelnamn från API-varianter.
+   */
   function extractStartDate(occ, ev) {
     var startValue = firstNonEmpty(occ, [
       'start', 'startDateTime', 'start_datetime', 'datetime',
@@ -326,6 +342,10 @@
       parseDateValue(firstNonEmpty(ev, ['date', 'day']), firstNonEmpty(ev, ['time', 'startTime', 'start_time']));
   }
 
+  /**
+   * Hämtar slutdatum från ett tillfälle om sådana fält finns.
+   * Returnerar null när inget slutdatum kan tolkas.
+   */
   function extractEndDate(occ) {
     var endValue = firstNonEmpty(occ, [
       'end', 'endDateTime', 'end_datetime', 'to', 'toDateTime'
