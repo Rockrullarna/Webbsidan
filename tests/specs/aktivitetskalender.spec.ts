@@ -38,6 +38,24 @@ test('handles nested calendar API payloads', async ({ page }) => {
               locationName: 'Haga Centrum'
             }
           ]
+        },
+        'course-3': {
+          name: 'Friträning Bugg & Fox',
+          place: 'Haga Centrum',
+          source: 'https://dans.se/event/266015',
+          registration: {
+            url: 'https://dans.se/rockrullarna/shop/new?event=266015'
+          },
+          schedule: {
+            start: {
+              date: formatDate(7),
+              time: '15:00:00'
+            },
+            end: {
+              date: formatDate(7),
+              time: '16:00:00'
+            }
+          }
         }
       }
     };
@@ -49,12 +67,15 @@ test('handles nested calendar API payloads', async ({ page }) => {
     });
   });
 
-  await page.goto('/');
+  await page.goto('/aktivitetskalender/');
 
   await expect(page.getByRole('table')).toBeVisible();
   await expect(page.getByText('Bugg - Steg 1')).toBeVisible();
   await expect(page.getByText('Fox - Grundkurs')).toBeVisible();
+  await expect(page.getByText('Friträning Bugg & Fox')).toBeVisible();
   await expect(page.getByText('18:30–19:45')).toBeVisible();
   await expect(page.getByText('19:00–20:30')).toBeVisible();
+  await expect(page.getByText('15:00–16:00')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Friträning Bugg & Fox' })).toHaveAttribute('href', 'https://dans.se/rockrullarna/shop/new?event=266015');
   await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });

@@ -339,6 +339,7 @@
       parseDateFromObject(occ, 'from') ||
       parseDateValue(firstNonEmpty(occ, ['date', 'day']), firstNonEmpty(occ, ['time', 'startTime', 'start_time'])) ||
       parseDateFromObject(ev, 'start') ||
+      parseDateFromObject(ev && ev.schedule, 'start') ||
       parseDateValue(firstNonEmpty(ev, ['date', 'day']), firstNonEmpty(ev, ['time', 'startTime', 'start_time']));
   }
 
@@ -346,7 +347,7 @@
    * Hämtar slutdatum från ett tillfälle om sådana fält finns.
    * Returnerar null när inget slutdatum kan tolkas.
    */
-  function extractEndDate(occ) {
+  function extractEndDate(occ, ev) {
     var endValue = firstNonEmpty(occ, [
       'end', 'endDateTime', 'end_datetime', 'to', 'toDateTime'
     ]);
@@ -354,7 +355,8 @@
 
     return parseDateValue(endValue, endTime) ||
       parseDateFromObject(occ, 'end') ||
-      parseDateFromObject(occ, 'to');
+      parseDateFromObject(occ, 'to') ||
+      parseDateFromObject(ev && ev.schedule, 'end');
   }
 
   /* ------------------------------------------------------------------ */
@@ -423,7 +425,7 @@
         /* Filtrera: visa bara framtida och inom maxDays */
         if (startDate < now || startDate > cutoff) return;
 
-        var endDate = extractEndDate(occ);
+        var endDate = extractEndDate(occ, ev);
 
         if (endDate && isNaN(endDate.getTime())) {
           endDate = null;
@@ -440,7 +442,8 @@
           start: startDate,
           end: endDate,
           location: location,
-          url: textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url']))
+          url: textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
+            textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url', 'source']))
         });
       });
     });
