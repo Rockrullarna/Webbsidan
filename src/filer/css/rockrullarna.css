@@ -1,3 +1,4 @@
+/* #region Base Layout */
 body {
   background-color: #000;
   color: #f1f1f1;
@@ -5,7 +6,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00ABD6 
+  color: #00ABD6;
 }
 
 .logo {
@@ -18,7 +19,9 @@ h1, h2, h3, h4, h5, h6 {
 main {
   padding: 0em 5em;
 }
+/* #endregion Base Layout */
 
+/* #region Links */
 a, a:visited {
   padding: .2em;
   color: #0082e6;
@@ -29,7 +32,9 @@ a:hover {
   background-color: #00ABD6;
   color: #fff;
 }
+/* #endregion Links */
 
+/* #region Media And Content Helpers */
 .bild {
   width: 60rem;
   max-width: 98%;
@@ -40,6 +45,16 @@ a:hover {
   margin-bottom: 0.2rem;
 }
 
+.no-visual-search {
+  pointer-events: none;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}
+/* #endregion Media And Content Helpers */
+
+/* #region Buttons */
 .btn {
   border: .1em solid;
 }
@@ -54,7 +69,9 @@ a:hover {
   background-color: #555;
   border-color: #00ABD6;
 }
+/* #endregion Buttons */
 
+/* #region Branding And Header */
 .dkrr-logo-link {
   width: 3.5rem;
 }
@@ -83,18 +100,12 @@ a:hover {
   fill: #00ABD6
 }
 
-.no-visual-search {
-  pointer-events: none;
-}
-
-.word-wrap {
-  word-wrap: break-word;
-}
-
 #BreadCrumbsDiv {
   margin-bottom: 1rem;
 }
+/* #endregion Branding And Header */
 
+/* #region Accessibility */
 .SkipToContentLink {
   background: #00ABD6;
   color: #fff;
@@ -110,8 +121,9 @@ a:hover {
   transform: translateY(0%);
   color: #fff;
 }
+/* #endregion Accessibility */
 
-/* START: LIGHT-mode fixes */
+/* #region Light Theme Fixes */
 [data-bs-theme=light] body {
   color: #000;
   background-color: #fff;
@@ -132,9 +144,9 @@ a:hover {
 [data-bs-theme=light] .theme-icon, [data-bs-theme=light] .theme-icon-active {
   fill: #000;
 }
-/* ENDING: LIGHT-mode fixes */
+/* #endregion Light Theme Fixes */
 
-/* START: Bootstrap 5 Theme-switcher modifyer */
+/* #region Theme Switcher */
 .theme-icon, .theme-icon-active {
   width: 1em;
   height: 1em;
@@ -144,10 +156,11 @@ a:hover {
 #bd-theme { /* Knappen för Theme-switch */
   fill: #000;
 }
-/* ENDING: Bootstrap 5 Theme-switcher modifyer */
+/* #endregion Theme Switcher */
 
-/* START: BOOTSTRAP 5 Multi-level dropdown
-    From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/  */
+/* #region Bootstrap Navigation */
+/* BOOTSTRAP 5 Multi-level dropdown
+    From: https://codes4education.com/responsive-multi-level-dropdown-menu-using-html-css-bootstrap-5/ */
 
 button:focus, .navbar-toggler:focus {
     outline: none;
@@ -216,8 +229,9 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, .125);
     padding: 12px 0;
 }
+/* #endregion Bootstrap Navigation */
 
-/* Responsive */
+/* #region Responsive Navigation */
 @media(max-width: 991.5px) {
   main {
     padding: 0rem 1rem;
@@ -284,5 +298,64 @@ header {
     white-space: normal;
   }
 }
+/* #endregion Responsive Navigation */
 
-/* ENDING: BOOTSTRAP 5 Multi-level dropdown */
+/* #region Aktivitetskalender */
+.rr-kal-compact {
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.375rem;
+}
+
+.rr-kal-table {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.rr-kal-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.rr-kal-date {
+  font-weight: 600;
+}
+
+.rr-kal-time {
+  font-variant-numeric: tabular-nums;
+}
+
+.rr-kal-name a,
+.rr-kal-name a:visited,
+[data-bs-theme=light] .rr-kal-name a,
+[data-bs-theme=light] .rr-kal-name a:visited {
+  color: #00ABD6;
+}
+
+.rr-kal-name a:hover,
+.rr-kal-name a:focus,
+[data-bs-theme=light] .rr-kal-name a:hover,
+[data-bs-theme=light] .rr-kal-name a:focus {
+  color: #fff;
+}
+
+.rr-kal-loading {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-bs-theme=light] .rr-kal-compact {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 575.98px) {
+  .rr-kal-table {
+    font-size: 0.85rem;
+  }
+}
+/* #endregion Aktivitetskalender */
