@@ -56,6 +56,21 @@ test('handles nested calendar API payloads', async ({ page }) => {
               time: '16:00:00'
             }
           }
+        },
+        'course-4': {
+          name: 'Bugg - Steg 1 (pågående serie)',
+          place: 'Stora Salen',
+          schedule: {
+            start: {
+              date: formatDate(-40),
+              time: '18:00:00',
+              dayOfWeek: '1'
+            },
+            end: {
+              date: formatDate(40),
+              time: '19:00:00'
+            }
+          }
         }
       }
     };
@@ -73,6 +88,7 @@ test('handles nested calendar API payloads', async ({ page }) => {
   await expect(page.getByText('Bugg - Steg 1')).toBeVisible();
   await expect(page.getByText('Fox - Grundkurs')).toBeVisible();
   await expect(page.getByText('Friträning Bugg & Fox')).toBeVisible();
+  await expect(page.getByText('Bugg - Steg 1 (pågående serie)')).toBeVisible();
   await expect(page.getByText('18:30–19:45')).toBeVisible();
   await expect(page.getByText('19:00–20:30')).toBeVisible();
   await expect(page.getByText('15:00–16:00')).toBeVisible();

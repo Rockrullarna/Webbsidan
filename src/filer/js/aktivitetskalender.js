@@ -359,6 +359,52 @@
       parseDateFromObject(ev && ev.schedule, 'end');
   }
 
+  function getScheduleDayOfWeek(ev, fallbackDate) {
+    var scheduleStart = ev && ev.schedule && ev.schedule.start;
+    var dayOfWeek = firstNonEmpty(scheduleStart, ['dayOfWeek', 'day_of_week']);
+    var parsedDay;
+
+    if (dayOfWeek !== null && dayOfWeek !== undefined && dayOfWeek !== '') {
+      parsedDay = parseInt(dayOfWeek, 10);
+      if (!isNaN(parsedDay)) {
+        return parsedDay === 7 ? 0 : parsedDay;
+      }
+    }
+
+    return fallbackDate ? fallbackDate.getDay() : null;
+  }
+
+  function resolveDisplayStartDate(startDate, endDate, ev, today) {
+    var dayOfWeek;
+    var nextDate;
+    var daysUntilNext;
+
+    if (!startDate || startDate >= today || !endDate || endDate < today) {
+      return startDate;
+    }
+
+    dayOfWeek = getScheduleDayOfWeek(ev, startDate);
+    if (dayOfWeek === null) {
+      return startDate;
+    }
+
+    nextDate = new Date(today.getTime());
+    nextDate.setHours(startDate.getHours(), startDate.getMinutes(), startDate.getSeconds(), 0);
+
+    daysUntilNext = (dayOfWeek - nextDate.getDay() + 7) % 7;
+    nextDate.setDate(nextDate.getDate() + daysUntilNext);
+
+    if (nextDate < today) {
+      nextDate.setDate(nextDate.getDate() + 7);
+    }
+
+    if (nextDate > endDate) {
+      return startDate;
+    }
+
+    return nextDate;
+  }
+
   /* ------------------------------------------------------------------ */
   /*  Data-hantering                                                    */
   /* ------------------------------------------------------------------ */
@@ -417,19 +463,22 @@
 
       occasions.forEach(function (occ) {
         var startDate = extractStartDate(occ, ev);
+        var displayStartDate;
 
         if (!startDate || isNaN(startDate.getTime())) {
           return;
         }
-
-        /* Filtrera: visa bara framtida och inom maxDays */
-        if (startDate < now || startDate > cutoff) return;
 
         var endDate = extractEndDate(occ, ev);
 
         if (endDate && isNaN(endDate.getTime())) {
           endDate = null;
         }
+
+        displayStartDate = resolveDisplayStartDate(startDate, endDate, ev, now);
+
+        /* Filtrera: visa bara framtida och inom maxDays */
+        if (displayStartDate < now || displayStartDate > cutoff) return;
 
         var location = textValue(firstNonEmpty(occ, [
           'location', 'venue', 'room', 'place', 'locationName', 'location_name'
@@ -439,7 +488,7 @@
 
         events.push({
           name: textValue(firstNonEmpty(occ, ['name', 'title'])) || eventName,
-          start: startDate,
+          start: displayStartDate,
           end: endDate,
           location: location,
           url: textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
