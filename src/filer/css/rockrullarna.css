@@ -314,6 +314,20 @@ header {
   font-variant-numeric: tabular-nums;
 }
 
+.rr-kal-name a,
+.rr-kal-name a:visited,
+[data-bs-theme=light] .rr-kal-name a,
+[data-bs-theme=light] .rr-kal-name a:visited {
+  color: #00ABD6;
+}
+
+.rr-kal-name a:hover,
+.rr-kal-name a:focus,
+[data-bs-theme=light] .rr-kal-name a:hover,
+[data-bs-theme=light] .rr-kal-name a:focus {
+  color: #fff;
+}
+
 .rr-kal-loading {
   min-height: 120px;
   display: flex;
