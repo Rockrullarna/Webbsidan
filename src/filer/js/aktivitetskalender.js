@@ -470,6 +470,49 @@
     return isNaN(count) ? 0 : count;
   }
 
+  function isDateWithinRange(date, startDate, endDate) {
+    return !!date && date >= startDate && date <= endDate;
+  }
+
+  function getEventName(ev, occ, fallbackName) {
+    return textValue(firstNonEmpty(occ, ['name', 'title'])) || fallbackName ||
+      textValue(firstNonEmpty(ev, [
+        'name', 'title', 'eventName', 'event_name', 'productName',
+        'product_name', 'activity', 'activityName', 'headline'
+      ])) || 'Okänd aktivitet';
+  }
+
+  function getEventLocation(ev, occ) {
+    return textValue(firstNonEmpty(occ, [
+      'location', 'venue', 'room', 'place', 'locationName', 'location_name'
+    ])) || textValue(firstNonEmpty(ev, [
+      'location', 'venue', 'room', 'place', 'locationName', 'location_name'
+    ]));
+  }
+
+  function getEventUrl(ev) {
+    return textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
+      textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url', 'source']));
+  }
+
+  function getOccurrenceDates(startDate, endDate, occ, ev, now, cutoff) {
+    var displayStartDate;
+    var occurrenceDates;
+
+    occurrenceDates = occ.syntheticRecurring ?
+      expandRecurringOccurrences(startDate, endDate, ev, now, cutoff) : [];
+
+    if (occurrenceDates.length > 0) {
+      return occurrenceDates;
+    }
+
+    displayStartDate = resolveDisplayStartDate(startDate, endDate, ev, now);
+    return [{
+      start: displayStartDate,
+      end: buildOccurrenceEndDate(displayStartDate, ev, endDate)
+    }];
+  }
+
   function expandRecurringOccurrences(startDate, endDate, ev, now, cutoff) {
     var occurrences = [];
     var plannedCount = getPlannedOccasionsCount(ev);
@@ -535,10 +578,7 @@
     var cutoff = new Date(now.getTime() + maxDays * 24 * 60 * 60 * 1000);
 
     list.forEach(function (ev) {
-      var eventName = textValue(firstNonEmpty(ev, [
-        'name', 'title', 'eventName', 'event_name', 'productName',
-        'product_name', 'activity', 'activityName', 'headline'
-      ])) || 'Okänd aktivitet';
+      var eventName = getEventName(ev, null, null);
 
       /* Hämta tillfällen (occasions, sessions, occurrences) */
       var occasions = extractOccasions(ev);
@@ -567,6 +607,7 @@
         var startDate = extractStartDate(occ, ev);
         var occurrenceDates;
         var location;
+        var eventUrl;
 
         if (!startDate || isNaN(startDate.getTime())) {
           return;
@@ -578,34 +619,21 @@
           endDate = null;
         }
 
-        location = textValue(firstNonEmpty(occ, [
-          'location', 'venue', 'room', 'place', 'locationName', 'location_name'
-        ])) || textValue(firstNonEmpty(ev, [
-          'location', 'venue', 'room', 'place', 'locationName', 'location_name'
-        ]));
-
-        occurrenceDates = occ.syntheticRecurring ?
-          expandRecurringOccurrences(startDate, endDate, ev, now, cutoff) : [];
-
-        if (occurrenceDates.length === 0) {
-          occurrenceDates = [{
-            start: resolveDisplayStartDate(startDate, endDate, ev, now),
-            end: buildOccurrenceEndDate(resolveDisplayStartDate(startDate, endDate, ev, now), ev, endDate)
-          }];
-        }
+        location = getEventLocation(ev, occ);
+        eventUrl = getEventUrl(ev);
+        occurrenceDates = getOccurrenceDates(startDate, endDate, occ, ev, now, cutoff);
 
         occurrenceDates.forEach(function (occurrence) {
-          if (occurrence.start < now || occurrence.start > cutoff) {
+          if (!isDateWithinRange(occurrence.start, now, cutoff)) {
             return;
           }
 
           events.push({
-            name: textValue(firstNonEmpty(occ, ['name', 'title'])) || eventName,
+            name: getEventName(ev, occ, eventName),
             start: occurrence.start,
             end: occurrence.end,
             location: location,
-            url: textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
-              textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url', 'source']))
+            url: eventUrl
           });
         });
       });

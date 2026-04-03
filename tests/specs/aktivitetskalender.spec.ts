@@ -94,3 +94,45 @@ test('handles nested calendar API payloads', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'Friträning Bugg & Fox' })).toHaveAttribute('href', 'https://dans.se/rockrullarna/shop/new?event=266015');
   await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });
+
+test('renders future dates for recurring series that started earlier', async ({ page }) => {
+  await page.route('https://dans.se/api/public/events/**', async (route) => {
+    const body = {
+      events: [
+        {
+          name: 'Bugg Tävlingsträning måndagar',
+          place: 'Haga Centrum',
+          registration: {
+            url: 'https://dans.se/rockrullarna/shop/new?event=276708'
+          },
+          schedule: {
+            start: {
+              date: formatDate(-14),
+              time: '18:00:00',
+              dayOfWeek: '1'
+            },
+            end: {
+              date: formatDate(14),
+              time: '20:00:00'
+            },
+            numberOfPlannedOccasions: 5,
+            dayAndTimeInfo: 'Mån 18.00-20.00'
+          }
+        }
+      ]
+    };
+
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify(body)
+    });
+  });
+
+  await page.goto('/aktivitetskalender/');
+
+  await expect(page.getByText('Bugg Tävlingsträning måndagar')).toHaveCount(2);
+  await expect(page.getByText('18:00–20:00')).toHaveCount(2);
+  await expect(page.getByText('Haga Centrum')).toHaveCount(2);
+  await expect(page.getByRole('link', { name: 'Bugg Tävlingsträning måndagar' }).first()).toHaveAttribute('href', 'https://dans.se/rockrullarna/shop/new?event=276708');
+});
