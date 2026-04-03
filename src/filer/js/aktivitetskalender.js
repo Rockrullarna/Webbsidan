@@ -12,6 +12,7 @@
 (function () {
   'use strict';
 
+  // #region Config
   var API_BASE = '/aktivitetskalender/data.php';
   var DEFAULT_DAYS = 180;
   var DEFAULT_LIMIT = 500;
@@ -21,7 +22,9 @@
     'jul', 'aug', 'sep', 'okt', 'nov', 'dec'
   ];
   var DAYS_SHORT = ['sön', 'mån', 'tis', 'ons', 'tor', 'fre', 'lör'];
+  // #endregion
 
+  // #region Date Formatting
   function formatDateShort(date) {
     return date.getDate() + ' ' + MONTHS_SHORT[date.getMonth()];
   }
@@ -41,7 +44,9 @@
   function formatWeekday(date) {
     return DAYS_SHORT[date.getDay()];
   }
+  // #endregion
 
+  // #region DOM Helpers
   function el(tag, attrs, children) {
     var elem = document.createElement(tag);
     var key;
@@ -68,7 +73,9 @@
 
     return elem;
   }
+  // #endregion
 
+  // #region Data Parsing
   function parseDateValue(value) {
     var date;
 
@@ -111,6 +118,8 @@
     cutoff = new Date(now.getTime() + maxDays * 24 * 60 * 60 * 1000);
 
     list.forEach(function (item) {
+      // Backend levererar färdiga poster, så klienten behöver bara validera
+      // datum och filtrera på valt intervall.
       var startDate = parseDateValue(item && item.start);
       var endDate = parseDateValue(item && item.end);
 
@@ -133,7 +142,9 @@
 
     return events;
   }
+  // #endregion
 
+  // #region Rendering
   function renderLoading(container) {
     container.innerHTML = '';
     var wrapper = el('div', { 'class': 'rr-kal-loading text-center py-4', 'role': 'status' });
@@ -210,6 +221,7 @@
 
     events.forEach(function (eventItem) {
       var row = el('tr');
+      // Upprepa inte datumtexten på varje rad när flera aktiviteter ligger samma dag.
       var dateStr = formatDateShort(eventItem.start);
       var dateCell = el('td', { 'class': 'rr-kal-date text-nowrap' });
       var nameCell = el('td', { 'class': 'rr-kal-name' });
@@ -255,7 +267,9 @@
     wrapper.appendChild(table);
     container.appendChild(wrapper);
   }
+  // #endregion
 
+  // #region Bootstrap
   function init() {
     var container = document.getElementById(CONTAINER_ID);
     var mode;
@@ -295,4 +309,5 @@
   } else {
     init();
   }
+  // #endregion
 })();

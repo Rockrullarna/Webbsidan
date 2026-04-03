@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 header('Content-Type: application/json; charset=utf-8');
 
+// #region Config
 $cacheTtlSeconds = 15 * 60;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
@@ -17,7 +18,9 @@ $scheduleUrl = 'https://dans.se/view/schedule/?org=' . rawurlencode($org) . '&da
 $eventsUrl = 'https://dans.se/api/public/events/?org=' . rawurlencode($org) . '&limit=500';
 $cacheDir = __DIR__ . DIRECTORY_SEPARATOR . 'cache';
 $cacheFile = $cacheDir . DIRECTORY_SEPARATOR . 'calendar-' . $org . '-' . $days . '.json';
+// #endregion
 
+// #region Cache And Remote Fetch
 function fetch_remote_text(string $url): string
 {
     $context = stream_context_create([
@@ -94,7 +97,9 @@ function write_cache(string $cacheDir, string $cacheFile, string $payload): void
     ensure_cache_directory($cacheDir);
     @file_put_contents($cacheFile, $payload, LOCK_EX);
 }
+// #endregion
 
+// #region Response Payloads
 function decode_cache_payload(string $payload): ?array
 {
     $decoded = json_decode($payload, true);
@@ -132,6 +137,7 @@ function encode_cache_payload(array $events, array $meta): string
 
 function build_response_payload(array $events, array $meta, bool $debug): string
 {
+    // Normal trafik får bara en flat lista. Debug-läge får både events och meta.
     $payload = $debug ? ['events' => $events, 'debug' => $meta] : $events;
     $encoded = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
@@ -141,7 +147,9 @@ function build_response_payload(array $events, array $meta, bool $debug): string
 
     return $encoded;
 }
+// #endregion
 
+// #region Shared Helpers
 function normalize_text(string $value): string
 {
     $value = html_entity_decode($value, ENT_QUOTES | ENT_HTML5, 'UTF-8');
@@ -293,7 +301,9 @@ function append_unique_event(array &$events, array &$eventKeys, array $event): v
     $eventKeys[$key] = true;
     $events[] = $event;
 }
+// #endregion
 
+// #region Source Parsers
 function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
 {
     libxml_use_internal_errors(true);
@@ -336,6 +346,7 @@ function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
         $columnCount = min($columnHeadings->length, $timeColumns->length);
 
         for ($index = 0; $index < $columnCount; $index += 1) {
+            // Varje kolumn motsvarar en sal, till exempel Lilla salen eller Stora salen.
             $location = trim(html_entity_decode($columnHeadings->item($index)->textContent, ENT_QUOTES | ENT_HTML5, 'UTF-8'));
             $slots = $xpath->query('.//div[contains(@class, "cwSyncedTimeSlotContent")]', $timeColumns->item($index));
 
@@ -401,6 +412,8 @@ function parse_api_events(string $eventsJson, int $days): array
         $occurrenceCount = max(1, $plannedOccasions);
 
         for ($index = 0; $index < $occurrenceCount; $index += 1) {
+            // API:t returnerar ofta en serie, inte alla enskilda tillfällen.
+            // Här expanderas serien veckovis så att den kan jämföras med schedule-källan.
             $occurrenceStart = $seriesStart->modify('+' . ($index * 7) . ' days');
             if ($occurrenceStart === false) {
                 continue;
@@ -438,7 +451,9 @@ function parse_api_events(string $eventsJson, int $days): array
 
     return $events;
 }
+// #endregion
 
+// #region Merge
 function merge_events(array $primaryEvents, array $supplementalEvents): array
 {
     $mergedEvents = [];
@@ -458,7 +473,9 @@ function merge_events(array $primaryEvents, array $supplementalEvents): array
 
     return $mergedEvents;
 }
+// #endregion
 
+// #region Endpoint Flow
 try {
     $cachedPayload = read_cache_if_fresh($cacheFile, $cacheTtlSeconds);
     if ($cachedPayload !== null) {
@@ -481,6 +498,9 @@ try {
     $eventsJson = fetch_remote_text($eventsUrl);
     $scheduleHtml = fetch_remote_text($scheduleUrl);
     $eventLinks = extract_event_links($eventsJson);
+
+    // Schedule är huvudkälla för faktiska visningstillfällen.
+    // API:t används både för kompletterande poster och för att hitta bokningslänkar.
     $scheduleEvents = parse_schedule_events($scheduleHtml, $eventLinks);
     $apiEvents = parse_api_events($eventsJson, $days);
     $mergedEvents = merge_events($scheduleEvents, $apiEvents);
@@ -506,6 +526,7 @@ try {
 } catch (Throwable $throwable) {
     $stalePayload = read_stale_cache($cacheFile);
     if ($stalePayload !== null) {
+        // Om dans.se inte svarar just nu använder vi senaste cache i stället för tom kalender.
         $staleData = decode_cache_payload($stalePayload);
         if ($staleData !== null) {
             $staleMeta = $staleData['meta'];
@@ -527,3 +548,4 @@ try {
         'details' => $debug ? $throwable->getMessage() : null
     ], true);
 }
+// #endregion
