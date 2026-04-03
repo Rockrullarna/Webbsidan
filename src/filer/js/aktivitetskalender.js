@@ -21,6 +21,8 @@
   var DEFAULT_DAYS = 180;
   var DEFAULT_LIMIT = 500;
   var CONTAINER_ID = 'rr-kalender';
+  var TIMESTAMP_MILLISECONDS_THRESHOLD = 9999999999;
+  var TIME_COMPONENT_PATTERN = /[T ]\d{1,2}:\d{2}/;
 
   /* Svenska månadsnamn (kort) */
   var MONTHS_SHORT = [
@@ -168,7 +170,7 @@
     }
 
     if (typeof value === 'number') {
-      date = new Date(value > 9999999999 ? value : value * 1000);
+      date = new Date(value > TIMESTAMP_MILLISECONDS_THRESHOLD ? value : value * 1000);
       return isNaN(date.getTime()) ? null : date;
     }
 
@@ -184,7 +186,7 @@
       return null;
     }
 
-    if (extraTime && !/[T ]\d{1,2}:\d{2}/.test(str)) {
+    if (extraTime && !TIME_COMPONENT_PATTERN.test(str)) {
       str += ' ' + String(extraTime).trim();
     }
 
