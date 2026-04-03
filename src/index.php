@@ -142,6 +142,9 @@
         </p>
         <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
         <script src="/filer/js/aktivitetskalender.js"></script>
+        <p class="mt-3">
+          <a class="btn btn-outline-secondary" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
+        </p>
       </section>
     </div>
 
