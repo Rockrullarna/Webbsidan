@@ -307,7 +307,7 @@
 
   function extractOccasions(eventItem) {
     var occasionKeys = [
-      'occasions', 'sessions', 'occurrences', 'dates', 'schedule',
+      'occasions', 'sessions', 'occurrences', 'dates',
       'times', 'instances', 'eventDates', 'event_dates', 'meetings'
     ];
     var i;

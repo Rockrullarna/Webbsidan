@@ -12,6 +12,14 @@ function formatDate(offsetDays: number): string {
   return `${year}-${month}-${day}`;
 }
 
+function offsetToWeekday(targetDay: number, weekShift = 0): number {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const daysUntilWeekday = (targetDay - today.getDay() + 7) % 7;
+  return daysUntilWeekday + weekShift * 7;
+}
+
 test('handles nested calendar API payloads', async ({ page }) => {
   await page.route('https://dans.se/api/public/events/**', async (route) => {
     const body = {
@@ -96,6 +104,8 @@ test('handles nested calendar API payloads', async ({ page }) => {
 });
 
 test('renders future dates for recurring series that started earlier', async ({ page }) => {
+  const pastMondayOffset = offsetToWeekday(1, -2);
+
   await page.route('https://dans.se/api/public/events/**', async (route) => {
     const body = {
       events: [
@@ -107,15 +117,15 @@ test('renders future dates for recurring series that started earlier', async ({ 
           },
           schedule: {
             start: {
-              date: formatDate(-14),
+              date: formatDate(pastMondayOffset),
               time: '18:00:00',
               dayOfWeek: '1'
             },
             end: {
-              date: formatDate(14),
+              date: formatDate(offsetToWeekday(1, 1)),
               time: '20:00:00'
             },
-            numberOfPlannedOccasions: 5,
+            numberOfPlannedOccasions: 4,
             dayAndTimeInfo: 'Mån 18.00-20.00'
           }
         }
