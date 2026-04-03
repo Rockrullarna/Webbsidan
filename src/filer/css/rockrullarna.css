@@ -302,7 +302,7 @@ header {
 
 /* #region Aktivitetskalender */
 .rr-kal-compact {
-  max-height: 400px;
+  max-height: 500px;
   overflow-y: auto;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 0.375rem;
