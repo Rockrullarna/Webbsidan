@@ -16,7 +16,8 @@
   /* ------------------------------------------------------------------ */
   /*  Konfigurerbart                                                    */
   /* ------------------------------------------------------------------ */
-  var API_BASE = 'https://dans.se/api/public/events/';
+  var API_BASE = '/aktivitetskalender/data.php';
+  var API_FALLBACK_BASE = 'https://dans.se/api/public/events/';
   var ORG = 'rockrullarna';
   var DEFAULT_DAYS = 180;
   var DEFAULT_LIMIT = 500;
@@ -805,8 +806,9 @@
     var limit = parseInt(container.getAttribute('data-limit'), 10) || DEFAULT_LIMIT;
 
     /* Bygg API-URL */
-    var url = API_BASE + '?org=' + encodeURIComponent(ORG) +
-              '&limit=' + limit;
+    var url = API_BASE + '?days=' + days + '&limit=' + limit;
+    var fallbackUrl = API_FALLBACK_BASE + '?org=' + encodeURIComponent(ORG) +
+      '&limit=' + limit;
 
     /* Visa laddning */
     renderLoading(container);
@@ -822,6 +824,19 @@
       .then(function (data) {
         var events = normalizeEvents(data, days);
         renderTable(container, events, mode);
+      })
+      .catch(function () {
+        return fetch(fallbackUrl)
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error('HTTP ' + response.status);
+            }
+            return response.json();
+          })
+          .then(function (data) {
+            var events = normalizeEvents(data, days);
+            renderTable(container, events, mode);
+          });
       })
       .catch(function (err) {
         console.error('Aktivitetskalender: Kunde inte hämta data:', err);
