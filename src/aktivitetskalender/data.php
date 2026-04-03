@@ -281,9 +281,69 @@ function build_event_url(array $event): ?string
     return $url === '' ? null : $url;
 }
 
-function build_event_key(string $name, string $start, string $location): string
+function score_location(string $location): int
 {
-    return normalize_text($name) . '|' . $start . '|' . normalize_text($location);
+    $trimmedLocation = trim($location);
+    if ($trimmedLocation === '') {
+        return 0;
+    }
+
+    $normalizedLocation = normalize_text($trimmedLocation);
+    $score = 20;
+    $wordCount = preg_match_all('/[\p{L}\p{N}]+/u', $trimmedLocation);
+
+    if (preg_match('/\b(okänd|saknas|tba|senare|info)\b/iu', $trimmedLocation)) {
+        $score -= 12;
+    }
+
+    $score += min(20, mb_strlen($normalizedLocation, 'UTF-8'));
+    $score += min(12, (int) $wordCount * 2);
+
+    if (preg_match('/[,()\-\/]/u', $trimmedLocation)) {
+        $score += 3;
+    }
+
+    return max(0, $score);
+}
+
+function select_better_location(string $existingLocation, string $candidateLocation): string
+{
+    $existingLocation = trim($existingLocation);
+    $candidateLocation = trim($candidateLocation);
+
+    if ($existingLocation === '') {
+        return $candidateLocation;
+    }
+
+    if ($candidateLocation === '') {
+        return $existingLocation;
+    }
+
+    $existingNormalized = normalize_text($existingLocation);
+    $candidateNormalized = normalize_text($candidateLocation);
+
+    if ($existingNormalized === $candidateNormalized) {
+        return mb_strlen($candidateLocation, 'UTF-8') > mb_strlen($existingLocation, 'UTF-8')
+            ? $candidateLocation
+            : $existingLocation;
+    }
+
+    if (str_contains($candidateNormalized, $existingNormalized)) {
+        return $candidateLocation;
+    }
+
+    if (str_contains($existingNormalized, $candidateNormalized)) {
+        return $existingLocation;
+    }
+
+    return score_location($candidateLocation) > score_location($existingLocation)
+        ? $candidateLocation
+        : $existingLocation;
+}
+
+function build_event_key(string $name, string $start, string $end): string
+{
+    return normalize_text($name) . '|' . $start . '|' . $end;
 }
 
 function append_unique_event(array &$events, array &$eventKeys, array $event): void
@@ -291,14 +351,34 @@ function append_unique_event(array &$events, array &$eventKeys, array $event): v
     $key = build_event_key(
         (string) ($event['name'] ?? ''),
         (string) ($event['start'] ?? ''),
-        (string) ($event['location'] ?? '')
+        (string) ($event['end'] ?? '')
     );
 
-    if ($key === '||' || isset($eventKeys[$key])) {
+    if ($key === '||') {
         return;
     }
 
-    $eventKeys[$key] = true;
+    if (isset($eventKeys[$key])) {
+        $existingIndex = $eventKeys[$key];
+        $existingEvent = $events[$existingIndex];
+
+        if (($existingEvent['url'] ?? null) === null && !empty($event['url'])) {
+            $events[$existingIndex]['url'] = $event['url'];
+        }
+
+        $events[$existingIndex]['location'] = select_better_location(
+            (string) ($existingEvent['location'] ?? ''),
+            (string) ($event['location'] ?? '')
+        );
+
+        if (($existingEvent['end'] ?? '') === '' && !empty($event['end'])) {
+            $events[$existingIndex]['end'] = $event['end'];
+        }
+
+        return;
+    }
+
+    $eventKeys[$key] = count($events);
     $events[] = $event;
 }
 // #endregion

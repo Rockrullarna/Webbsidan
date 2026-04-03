@@ -398,19 +398,22 @@
                 </article>
               </div>
 
-              <div class="rr-calendar-card">
-                <p class="rr-calendar-intro">
-                  Här hittar du våra kommande aktiviteter, kursstarter och socialdanser i <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
-                  Vill du säkra en plats går du vidare till
-                  <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>.
-                </p>
-                <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
-                <script src="/filer/js/aktivitetskalender.js"></script>
-                <p class="mt-3">
-                  <a class="btn btn-outline-secondary" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
-                </p>
-              </div>
             </div>
+          </div>
+        </div>
+
+        <div class="rr-calendar-standalone">
+          <div class="rr-calendar-card">
+            <p class="rr-calendar-intro">
+              Här hittar du våra kommande aktiviteter, kursstarter och socialdanser i <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
+              Vill du säkra en plats går du vidare till
+              <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>.
+            </p>
+            <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
+            <script src="/filer/js/aktivitetskalender.js"></script>
+            <p class="rr-calendar-actions">
+              <a class="btn btn-outline-secondary rr-calendar-button" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
+            </p>
           </div>
         </div>
       </section>

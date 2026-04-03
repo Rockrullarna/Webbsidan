@@ -16,6 +16,12 @@ Det enklaste sättet att starta utvecklingsmiljön:
 # Starta utvecklingsmiljön
 .\dev-scripts\start.ps1
 
+# Rensa cache för aktivitetskalendern
+.\dev-scripts\clear-cache.ps1
+
+# Rensa och bygg upp kalendercachen igen direkt
+.\dev-scripts\clear-cache.ps1 -Rebuild
+
 # Stoppa utvecklingsmiljön
 .\dev-scripts\stop.ps1
 
@@ -118,6 +124,7 @@ podman ps
 | Port 8080 är upptagen | Ändra porten med `-p 8081:8080` |
 | Podman-maskinen startar inte | Starta om Podman Desktop eller kör `podman machine start` |
 | Ändringar syns inte | Kontrollera att volymen är korrekt monterad |
+| Kalendern visar gamla poster | Kör `./dev-scripts/clear-cache.ps1 -Rebuild` |
 | `podman` känns inte igen i terminalen | Starta om terminalen efter installation |
 | `podman compose` saknar provider | Använd manuell metod (build + run) eller installera `pip install podman-compose` |
 | Container med samma namn finns redan | Kör `podman rm rr-webbsidan-dev` först |

@@ -101,6 +101,18 @@ Nuvarande cachepolicy:
 2. om cache är färsk returneras den direkt
 3. om livehämtning misslyckas används stale cache om sådan finns
 
+För lokal utveckling kan du rensa cache med:
+
+```powershell
+.\dev-scripts\clear-cache.ps1
+```
+
+Och både rensa och bygga upp den igen med:
+
+```powershell
+.\dev-scripts\clear-cache.ps1 -Rebuild
+```
+
 ## Driftflöde
 
 1. klienten anropar `/aktivitetskalender/data.php?days=180`
