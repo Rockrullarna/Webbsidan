@@ -93,6 +93,196 @@
     return elem;
   }
 
+  function isPlainObject(value) {
+    return Object.prototype.toString.call(value) === '[object Object]';
+  }
+
+  function firstNonEmpty(obj, keys) {
+    var i;
+    var value;
+    for (i = 0; i < keys.length; i += 1) {
+      value = obj && obj[keys[i]];
+      if (value !== undefined && value !== null && value !== '') {
+        return value;
+      }
+    }
+    return null;
+  }
+
+  function textValue(value) {
+    if (value === undefined || value === null) {
+      return '';
+    }
+    if (typeof value === 'string' || typeof value === 'number') {
+      return String(value).trim();
+    }
+    if (isPlainObject(value)) {
+      return textValue(firstNonEmpty(value, ['name', 'title', 'label', 'text', 'value', 'address']));
+    }
+    return '';
+  }
+
+  function parseDateValue(value, extraTime) {
+    var match;
+    var date;
+    var year;
+    var month;
+    var day;
+    var hours;
+    var minutes;
+    var seconds;
+    var str = '';
+
+    if (value === undefined || value === null || value === '') {
+      return null;
+    }
+
+    if (value instanceof Date) {
+      return isNaN(value.getTime()) ? null : value;
+    }
+
+    if (typeof value === 'number') {
+      date = new Date(value > 9999999999 ? value : value * 1000);
+      return isNaN(date.getTime()) ? null : date;
+    }
+
+    if (isPlainObject(value)) {
+      return parseDateValue(
+        firstNonEmpty(value, ['start', 'startDate', 'start_date', 'date', 'day', 'value']),
+        extraTime || firstNonEmpty(value, ['startTime', 'start_time', 'time'])
+      );
+    }
+
+    str = String(value).trim();
+    if (!str) {
+      return null;
+    }
+
+    if (extraTime && !/[T ]\d{1,2}:\d{2}/.test(str)) {
+      str += ' ' + String(extraTime).trim();
+    }
+
+    if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}(?::\d{2})?$/.test(str)) {
+      str = str.replace(' ', 'T');
+    }
+
+    match = str.match(/^(\d{2})\/(\d{2})\/(\d{4})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/);
+    if (match) {
+      day = parseInt(match[1], 10);
+      month = parseInt(match[2], 10) - 1;
+      year = parseInt(match[3], 10);
+      hours = parseInt(match[4] || '0', 10);
+      minutes = parseInt(match[5] || '0', 10);
+      seconds = parseInt(match[6] || '0', 10);
+      return new Date(year, month, day, hours, minutes, seconds);
+    }
+
+    match = str.match(/^(\d{2})\.(\d{2})\.(\d{4})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?$/);
+    if (match) {
+      day = parseInt(match[1], 10);
+      month = parseInt(match[2], 10) - 1;
+      year = parseInt(match[3], 10);
+      hours = parseInt(match[4] || '0', 10);
+      minutes = parseInt(match[5] || '0', 10);
+      seconds = parseInt(match[6] || '0', 10);
+      return new Date(year, month, day, hours, minutes, seconds);
+    }
+
+    match = str.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (match) {
+      year = parseInt(match[1], 10);
+      month = parseInt(match[2], 10) - 1;
+      day = parseInt(match[3], 10);
+      return new Date(year, month, day);
+    }
+
+    date = new Date(str);
+    return isNaN(date.getTime()) ? null : date;
+  }
+
+  function parseDateFromObject(obj, prefix) {
+    var baseKey = prefix ? prefix + '_' : '';
+    var camelPrefix = prefix ? prefix : '';
+    var datePart = firstNonEmpty(obj, [
+      baseKey + 'date',
+      camelPrefix ? camelPrefix + 'Date' : 'date',
+      baseKey + 'day',
+      'date'
+    ]);
+    var timePart = firstNonEmpty(obj, [
+      baseKey + 'time',
+      camelPrefix ? camelPrefix + 'Time' : 'time',
+      baseKey + 'clock',
+      'time'
+    ]);
+    var directValue = firstNonEmpty(obj, [
+      prefix,
+      camelPrefix,
+      baseKey + 'datetime',
+      camelPrefix ? camelPrefix + 'DateTime' : 'dateTime'
+    ]);
+
+    return parseDateValue(directValue || datePart, timePart);
+  }
+
+  function extractArrayCandidate(value, depth) {
+    var preferredKeys = ['results', 'data', 'events', 'items', 'rows', 'entries'];
+    var i;
+    var nested;
+    var values;
+
+    if (!value || depth < 0) {
+      return null;
+    }
+
+    if (Array.isArray(value)) {
+      return value;
+    }
+
+    if (!isPlainObject(value)) {
+      return null;
+    }
+
+    for (i = 0; i < preferredKeys.length; i += 1) {
+      nested = extractArrayCandidate(value[preferredKeys[i]], depth - 1);
+      if (nested && nested.length) {
+        return nested;
+      }
+    }
+
+    values = Object.keys(value).map(function (key) { return value[key]; });
+    if (values.length > 0 && values.every(isPlainObject)) {
+      return values;
+    }
+
+    for (i = 0; i < values.length; i += 1) {
+      nested = extractArrayCandidate(values[i], depth - 1);
+      if (nested && nested.length) {
+        return nested;
+      }
+    }
+
+    return null;
+  }
+
+  function extractOccasions(eventItem) {
+    var occasionKeys = [
+      'occasions', 'sessions', 'occurrences', 'dates', 'schedule',
+      'times', 'instances', 'eventDates', 'event_dates', 'meetings'
+    ];
+    var i;
+    var candidate;
+
+    for (i = 0; i < occasionKeys.length; i += 1) {
+      candidate = extractArrayCandidate(eventItem[occasionKeys[i]], 1);
+      if (candidate && candidate.length) {
+        return candidate;
+      }
+    }
+
+    return [];
+  }
+
   /* ------------------------------------------------------------------ */
   /*  Data-hantering                                                    */
   /* ------------------------------------------------------------------ */
@@ -111,16 +301,9 @@
    */
   function normalizeEvents(raw, maxDays) {
     var events = [];
+    var list = extractArrayCandidate(raw, 4);
 
-    /* Hitta event-arrayen */
-    var list;
-    if (Array.isArray(raw)) {
-      list = raw;
-    } else if (raw && Array.isArray(raw.results)) {
-      list = raw.results;
-    } else if (raw && Array.isArray(raw.data)) {
-      list = raw.data;
-    } else {
+    if (!list || !list.length) {
       return events;
     }
 
@@ -129,45 +312,75 @@
     var cutoff = new Date(now.getTime() + maxDays * 24 * 60 * 60 * 1000);
 
     list.forEach(function (ev) {
-      var eventName = ev.name || ev.title || 'Okänd aktivitet';
+      var eventName = textValue(firstNonEmpty(ev, [
+        'name', 'title', 'eventName', 'event_name', 'productName',
+        'product_name', 'activity', 'activityName', 'headline'
+      ])) || 'Okänd aktivitet';
 
       /* Hämta tillfällen (occasions, sessions, occurrences) */
-      var occasions = ev.occasions || ev.sessions || ev.occurrences || [];
+      var occasions = extractOccasions(ev);
 
-      if (occasions.length === 0 && (ev.start || ev.start_time || ev.startTime || ev.date)) {
+      if (occasions.length === 0) {
         /* Eventet har start/slut direkt */
         occasions = [{
-          start: ev.start || ev.start_time || ev.startTime || ev.date,
-          end: ev.end || ev.end_time || ev.endTime || null,
-          location: ev.location || ev.venue || ev.room || ''
+          start: firstNonEmpty(ev, [
+            'start', 'startDateTime', 'start_datetime', 'startDate',
+            'start_date', 'start_time', 'startTime', 'date', 'day'
+          ]),
+          startDate: firstNonEmpty(ev, ['startDate', 'start_date', 'date', 'day']),
+          startTime: firstNonEmpty(ev, ['startTime', 'start_time', 'time']),
+          end: firstNonEmpty(ev, [
+            'end', 'endDateTime', 'end_datetime', 'endDate',
+            'end_date', 'end_time', 'endTime'
+          ]),
+          endDate: firstNonEmpty(ev, ['endDate', 'end_date']),
+          endTime: firstNonEmpty(ev, ['endTime', 'end_time']),
+          location: firstNonEmpty(ev, ['location', 'venue', 'room', 'place', 'locationName', 'location_name'])
         }];
       }
 
       occasions.forEach(function (occ) {
-        var startStr = occ.start || occ.start_time || occ.startTime || occ.date || '';
-        if (!startStr) return;
+        var startDate = parseDateValue(
+          firstNonEmpty(occ, [
+            'start', 'startDateTime', 'start_datetime', 'datetime',
+            'dateTime', 'from', 'fromDateTime'
+          ]),
+          firstNonEmpty(occ, ['startTime', 'start_time', 'time', 'fromTime', 'from_time'])
+        ) || parseDateFromObject(occ, 'start') || parseDateFromObject(occ, 'from') ||
+          parseDateValue(firstNonEmpty(occ, ['date', 'day']), firstNonEmpty(occ, ['time', 'startTime', 'start_time'])) ||
+          parseDateFromObject(ev, 'start') ||
+          parseDateValue(firstNonEmpty(ev, ['date', 'day']), firstNonEmpty(ev, ['time', 'startTime', 'start_time']));
 
-        var startDate = new Date(startStr);
-        if (isNaN(startDate.getTime())) return;
+        if (!startDate || isNaN(startDate.getTime())) {
+          return;
+        }
 
         /* Filtrera: visa bara framtida och inom maxDays */
         if (startDate < now || startDate > cutoff) return;
 
-        var endDate = null;
-        var endStr = occ.end || occ.end_time || occ.endTime || '';
-        if (endStr) {
-          endDate = new Date(endStr);
-          if (isNaN(endDate.getTime())) endDate = null;
+        var endDate = parseDateValue(
+          firstNonEmpty(occ, [
+            'end', 'endDateTime', 'end_datetime', 'to', 'toDateTime'
+          ]),
+          firstNonEmpty(occ, ['endTime', 'end_time', 'toTime', 'to_time'])
+        ) || parseDateFromObject(occ, 'end') || parseDateFromObject(occ, 'to');
+
+        if (endDate && isNaN(endDate.getTime())) {
+          endDate = null;
         }
 
-        var location = occ.location || occ.venue || occ.room || ev.location || ev.venue || ev.room || '';
+        var location = textValue(firstNonEmpty(occ, [
+          'location', 'venue', 'room', 'place', 'locationName', 'location_name'
+        ])) || textValue(firstNonEmpty(ev, [
+          'location', 'venue', 'room', 'place', 'locationName', 'location_name'
+        ]));
 
         events.push({
-          name: eventName,
+          name: textValue(firstNonEmpty(occ, ['name', 'title'])) || eventName,
           start: startDate,
           end: endDate,
           location: location,
-          url: ev.url || ev.link || ''
+          url: textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url']))
         });
       });
     });
