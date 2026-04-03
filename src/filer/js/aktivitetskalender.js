@@ -23,6 +23,7 @@
   var CONTAINER_ID = 'rr-kalender';
   var TIMESTAMP_MILLISECONDS_THRESHOLD = 9999999999;
   var TIME_COMPONENT_PATTERN = /[T ]\d{1,2}:\d{2}/;
+  var TIME_RANGE_PATTERN = /(\d{1,2})[:.](\d{2})\s*[-–]\s*(\d{1,2})[:.](\d{2})/;
 
   /* Svenska månadsnamn (kort) */
   var MONTHS_SHORT = [
@@ -405,6 +406,106 @@
     return nextDate;
   }
 
+  function cloneDate(date) {
+    return new Date(date.getTime());
+  }
+
+  function setTimeParts(date, hours, minutes, seconds) {
+    var nextDate = cloneDate(date);
+    nextDate.setHours(hours, minutes, seconds || 0, 0);
+    return nextDate;
+  }
+
+  function addDays(date, days) {
+    var nextDate = cloneDate(date);
+    nextDate.setDate(nextDate.getDate() + days);
+    return nextDate;
+  }
+
+  function parseScheduleTimeRange(ev) {
+    var info = textValue(ev && ev.schedule && ev.schedule.dayAndTimeInfo);
+    var match;
+
+    if (!info) {
+      return null;
+    }
+
+    match = info.match(TIME_RANGE_PATTERN);
+    if (!match) {
+      return null;
+    }
+
+    return {
+      startHours: parseInt(match[1], 10),
+      startMinutes: parseInt(match[2], 10),
+      endHours: parseInt(match[3], 10),
+      endMinutes: parseInt(match[4], 10)
+    };
+  }
+
+  function buildOccurrenceEndDate(startDate, ev, fallbackEndDate) {
+    var timeRange = parseScheduleTimeRange(ev);
+    var endDate = fallbackEndDate ? cloneDate(fallbackEndDate) : null;
+
+    if (timeRange) {
+      endDate = setTimeParts(startDate, timeRange.endHours, timeRange.endMinutes, 0);
+      if (endDate < startDate) {
+        endDate = addDays(endDate, 1);
+      }
+      return endDate;
+    }
+
+    if (endDate) {
+      endDate = setTimeParts(startDate, endDate.getHours(), endDate.getMinutes(), endDate.getSeconds());
+      if (endDate < startDate) {
+        endDate = addDays(endDate, 1);
+      }
+    }
+
+    return endDate;
+  }
+
+  function getPlannedOccasionsCount(ev) {
+    var count = parseInt(firstNonEmpty(ev && ev.schedule, ['numberOfPlannedOccasions']), 10);
+    return isNaN(count) ? 0 : count;
+  }
+
+  function expandRecurringOccurrences(startDate, endDate, ev, now, cutoff) {
+    var occurrences = [];
+    var plannedCount = getPlannedOccasionsCount(ev);
+    var occurrenceDate;
+    var occurrenceEndDate;
+    var index;
+
+    if (!startDate || plannedCount <= 1) {
+      return occurrences;
+    }
+
+    for (index = 0; index < plannedCount; index += 1) {
+      occurrenceDate = addDays(startDate, index * 7);
+      occurrenceEndDate = buildOccurrenceEndDate(occurrenceDate, ev, endDate);
+
+      if (occurrenceDate > cutoff) {
+        break;
+      }
+
+      if (occurrenceEndDate && occurrenceEndDate < now) {
+        continue;
+      }
+
+      if (occurrenceDate < now) {
+        continue;
+      }
+
+      occurrences.push({
+        start: occurrenceDate,
+        end: occurrenceEndDate
+      });
+    }
+
+    return occurrences;
+  }
+
   /* ------------------------------------------------------------------ */
   /*  Data-hantering                                                    */
   /* ------------------------------------------------------------------ */
@@ -445,6 +546,7 @@
       if (occasions.length === 0) {
         /* Eventet har start/slut direkt */
         occasions = [{
+          syntheticRecurring: true,
           start: firstNonEmpty(ev, [
             'start', 'startDateTime', 'start_datetime', 'startDate',
             'start_date', 'start_time', 'startTime', 'date', 'day'
@@ -463,7 +565,8 @@
 
       occasions.forEach(function (occ) {
         var startDate = extractStartDate(occ, ev);
-        var displayStartDate;
+        var occurrenceDates;
+        var location;
 
         if (!startDate || isNaN(startDate.getTime())) {
           return;
@@ -475,24 +578,35 @@
           endDate = null;
         }
 
-        displayStartDate = resolveDisplayStartDate(startDate, endDate, ev, now);
-
-        /* Filtrera: visa bara framtida och inom maxDays */
-        if (displayStartDate < now || displayStartDate > cutoff) return;
-
-        var location = textValue(firstNonEmpty(occ, [
+        location = textValue(firstNonEmpty(occ, [
           'location', 'venue', 'room', 'place', 'locationName', 'location_name'
         ])) || textValue(firstNonEmpty(ev, [
           'location', 'venue', 'room', 'place', 'locationName', 'location_name'
         ]));
 
-        events.push({
-          name: textValue(firstNonEmpty(occ, ['name', 'title'])) || eventName,
-          start: displayStartDate,
-          end: endDate,
-          location: location,
-          url: textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
-            textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url', 'source']))
+        occurrenceDates = occ.syntheticRecurring ?
+          expandRecurringOccurrences(startDate, endDate, ev, now, cutoff) : [];
+
+        if (occurrenceDates.length === 0) {
+          occurrenceDates = [{
+            start: resolveDisplayStartDate(startDate, endDate, ev, now),
+            end: buildOccurrenceEndDate(resolveDisplayStartDate(startDate, endDate, ev, now), ev, endDate)
+          }];
+        }
+
+        occurrenceDates.forEach(function (occurrence) {
+          if (occurrence.start < now || occurrence.start > cutoff) {
+            return;
+          }
+
+          events.push({
+            name: textValue(firstNonEmpty(occ, ['name', 'title'])) || eventName,
+            start: occurrence.start,
+            end: occurrence.end,
+            location: location,
+            url: textValue(firstNonEmpty(ev && ev.registration, ['url'])) ||
+              textValue(firstNonEmpty(ev, ['url', 'link', 'publicUrl', 'public_url', 'signupUrl', 'signup_url', 'source']))
+          });
         });
       });
     });
