@@ -41,10 +41,10 @@
           <p>Revisorerna ska även granska att styrelsen följer föreningens stadgar och de beslut som årsmötet fattat.</p>
         </div>
         <ul class="rr-association-inline-list">
-          <li>Revisor (1 år): Karl-Erik Wallin</li>
-          <li>Revisor (1 år): Kjell Englund</li>
-          <li>Revisorersättare (1 år): Jonas Stenström</li>
-          <li>Revisorersättare (1 år): Maria Carneland</li>
+          <li><strong>Revisor (1 år):</strong> Karl-Erik Wallin</li>
+          <li><strong>Revisor (1 år):</strong> Kjell Englund</li>
+          <li><strong>Revisorersättare (1 år):</strong> Jonas Stenström</li>
+          <li><strong>Revisorersättare (1 år):</strong> Maria Carneland</li>
         </ul>
       </section>
     </div>
