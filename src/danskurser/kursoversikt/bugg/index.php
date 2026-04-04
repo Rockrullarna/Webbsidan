@@ -26,16 +26,8 @@
             Hos Rockrullarna möter du bugg både som socialdans och som en stil du kan utveckla vidare över tid. Det gör bugg till en stark start för dig som vill dansa mycket och ha roligt från första kvällen.
           </p>
 
-          <div class="rr-courses-style-pills" aria-label="Navigera mellan kursområden">
-            <a class="rr-courses-pill-link rr-courses-pill-link--all" href="/danskurser" title="Till sidan för alla danskurser"><span class="rr-value-pill"><span class="rr-value-pill-text">Alla kurser</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-            <a class="rr-courses-pill-link rr-courses-pill-link--bugg is-active" href="/danskurser/kursoversikt/bugg" title="Gå till översiktssidan för Bugg"><span class="rr-value-pill"><span class="rr-value-pill-text">Bugg</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-            <a class="rr-courses-pill-link rr-courses-pill-link--fox" href="/danskurser/kursoversikt/fox" title="Gå till översiktssidan för Fox"><span class="rr-value-pill"><span class="rr-value-pill-text">Fox</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-            <a class="rr-courses-pill-link rr-courses-pill-link--wcs" href="/danskurser/kursoversikt/west-coast-swing" title="Gå till översiktssidan för West Coast Swing"><span class="rr-value-pill"><span class="rr-value-pill-text">West Coast Swing</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-            <a class="rr-courses-pill-link rr-courses-pill-link--youth" href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Gå till översiktssidan för dans för barn och ungdomar"><span class="rr-value-pill"><span class="rr-value-pill-text">Barn och ungdom</span><span class="rr-value-pill-arrow" aria-hidden="true">&rarr;</span></span></a>
-          </div>
-
           <div class="rr-courses-actions">
-            <a class="rr-hero-btn" href="/danskurser/anmalan-danskurser" title="Anmäl dig till Rockrullarnas danskurser och aktiviteter">Se aktuella buggkurser</a>
+            <a class="rr-hero-btn" href="#bugg-courses-heading" title="Anmäl dig till Rockrullarnas danskurser och aktiviteter">Se aktuella buggkurser</a>
             <a class="rr-btn-inline" href="/danskurser/betalning" title="Läs om betalning">Betalning och rabatter</a>
           </div>
         </div>

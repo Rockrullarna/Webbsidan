@@ -101,6 +101,94 @@
         </div>
       </div>
     </div>
+    <?php if (!empty($page_url) && strpos($page_url, '/danskurser') === 0) { ?>
+    <script>
+      (function () {
+        function getHashTarget(hash) {
+          if (!hash || hash.charAt(0) !== '#') {
+            return null;
+          }
+
+          var rawId = hash.slice(1);
+          if (!rawId) {
+            return null;
+          }
+
+          var decodedId = rawId;
+
+          try {
+            decodedId = decodeURIComponent(rawId);
+          } catch (error) {
+            decodedId = rawId;
+          }
+
+          return document.getElementById(decodedId) || document.getElementById(rawId);
+        }
+
+        function alignHashTarget() {
+          var target = getHashTarget(window.location.hash);
+
+          if (!target) {
+            return;
+          }
+
+          var navbar = document.querySelector('.navbar.fixed-top');
+          var navbarHeight = navbar ? navbar.getBoundingClientRect().height : 0;
+          var extraOffset = 18;
+          var targetTop = target.getBoundingClientRect().top + window.scrollY - navbarHeight - extraOffset;
+
+          window.scrollTo({
+            top: Math.max(0, targetTop),
+            behavior: 'auto'
+          });
+        }
+
+        function scheduleHashAlignment() {
+          window.requestAnimationFrame(alignHashTarget);
+          window.setTimeout(alignHashTarget, 120);
+          window.setTimeout(alignHashTarget, 420);
+          window.setTimeout(alignHashTarget, 900);
+        }
+
+        document.addEventListener('click', function (event) {
+          var link = event.target.closest('a[href^="#"]');
+
+          if (!link) {
+            return;
+          }
+
+          var href = link.getAttribute('href');
+
+          if (!href || href === '#') {
+            return;
+          }
+
+          var target = getHashTarget(href);
+
+          if (!target) {
+            return;
+          }
+
+          event.preventDefault();
+
+          if (window.location.hash !== href) {
+            history.pushState(null, '', href);
+          }
+
+          scheduleHashAlignment();
+        });
+
+        window.addEventListener('hashchange', scheduleHashAlignment);
+        window.addEventListener('load', scheduleHashAlignment);
+
+        if (document.readyState !== 'loading') {
+          scheduleHashAlignment();
+        } else {
+          document.addEventListener('DOMContentLoaded', scheduleHashAlignment, { once: true });
+        }
+      })();
+    </script>
+    <?php } ?>
     <!-- Bootstrap 5 CDN Links --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="/filer/js/rr-dropdown-shift.js"></script>
   </footer>
