@@ -2945,6 +2945,42 @@ header {
   line-height: 1.7;
 }
 
+.rr-courses-embed-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rr-courses-embed-shell {
+  padding: 1.1rem;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.rr-courses-embed-shell > :last-child {
+  margin-bottom: 0;
+}
+
+.rr-courses-mobile-tip {
+  display: block;
+  margin-top: 0.85rem;
+}
+
+.rr-courses-process-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--b-muted);
+}
+
+.rr-courses-process-list li + li {
+  margin-top: 1rem;
+}
+
+.rr-courses-process-list strong {
+  color: var(--b-text);
+}
+
 .rr-courses-overview-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3286,6 +3322,10 @@ header {
 
 [data-bs-theme=light] .rr-courses-link-card,
 [data-bs-theme=light] .rr-courses-link-card:visited {
+  background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-courses-embed-shell {
   background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
 }
 
