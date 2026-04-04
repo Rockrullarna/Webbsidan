@@ -9,37 +9,45 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Organisation</a> / <span>Revisorer</span>
+    <div class="rr-page-shell rr-association-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Organisation</a> / <span>Revisorer</span>
+      </div>
+
+      <section class="rr-association-layout" aria-labelledby="revisorer-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Oberoende granskning</p>
+          <h1 id="revisorer-heading">Revisorer</h1>
+          <p class="rr-association-lead">Revisorernas uppgift är att årligen granska föreningens räkenskaper och förvaltning. De ska vara oberoende i sitt uppdrag och ha tillgång till det underlag som behövs för revisionen.</p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="revisorer-kontakt-heading">
+          <p class="rr-style-label" aria-hidden="true">Kontakt</p>
+          <h2 id="revisorer-kontakt-heading">Nå revisorerna</h2>
+          <ul class="rr-association-list">
+            <li><strong>Ekonomi</strong><br /><a href="mailto:ekonomi@rockrullarna.se" title="Mejla till ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a></li>
+            <li><strong>Styrelsen</strong><br /><a href="mailto:styrelsen@rockrullarna.se" title="Mejla till styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="rr-association-card rr-association-card--section" aria-labelledby="revisorer-uppdrag-heading">
+        <p class="rr-style-label" aria-hidden="true">Uppdrag och mandatperiod</p>
+        <h2 id="revisorer-uppdrag-heading">Revisorernas arbete 2026-2027</h2>
+        <div class="rr-association-prose">
+          <p>Revisorerna har rätt att fortlöpande ta del av föreningens räkenskaper, årsmötes- och styrelseprotokoll och övriga handlingar som kan tänkas behövas för revisionen.</p>
+          <p>Föreningens räkenskaper för det senaste verksamhets- och räkenskapsåret ska vara revisorerna tillhanda <strong>senast en månad</strong> före årsmötet.</p>
+          <p>Revisorerna ska granska styrelsens förvaltning och räkenskaper för det senaste verksamhets- och räkenskapsåret samt överlämna revisionsberättelse till styrelsen senast 14 dagar före årsmötet.</p>
+          <p>Revisorerna ska även granska att styrelsen följer föreningens stadgar och de beslut som årsmötet fattat.</p>
+        </div>
+        <ul class="rr-association-inline-list">
+          <li>Revisor (1 år): Karl-Erik Wallin</li>
+          <li>Revisor (1 år): Kjell Englund</li>
+          <li>Revisorersättare (1 år): Jonas Stenström</li>
+          <li>Revisorersättare (1 år): Maria Carneland</li>
+        </ul>
+      </section>
     </div>
-    <h1>
-      Revisorer
-    </h1>
-    <p>Revisorernas uppgift är att årligen granska föreningens räkenskaper och förvaltning. Revisorerna ska vara oberoende av dem som de har att granska.</p>
-    <p>Revisorerna har rätt att fortlöpande ta del av föreningens räkenskaper, årsmötes- och styrelseprotokoll och övriga handlingar som kan tänkas behövas för revisionen.</p>
-    <p>Föreningens räkenskaper för det senaste verksamhets- och räkenskapsåret ska vara revisorerna tillhanda <b>senast en månad</b> före årsmötet.</p>
-    <p>Revisorerna ska granska styrelsens förvaltning och räkenskaper för det senaste verksamhets- och räkenskapsåret samt till styrelsen överlämna revisionsberättelse senast 14 dagar före årsmötet.</p>
-    <p>Revisorerna ska även granska att styrelsen följer föreningens stadgar och de beslut som årsmötet fattat.</p>
-    <p>&nbsp;</p>
-    <h2>
-      Revisorerna 2026-2027
-    </h2>
-    <p>Revisorerna för mars 2026 - mars 2027 består av:</p>
-    <ul>
-      <li>Revisor (1 år) Karl-Erik Wallin</li>
-      <li>Revisor (1 år) Kjell Englund</li>
-      <li>Revisor ersättare (1 år) Jonas Stenström</li>
-      <li>Revisor ersättare (1 år) Maria Carneland</li>
-    </ul>
-    <p>&nbsp;</p>
-    <hr />
-    <h2>
-      Kontakt med revisorerna?
-    </h2>
-    <p>Vill du komma i kontakt med våra revisorer? Skicka då ett mejl till:</p>
-    <p>► <a href="mailto:ekonomi@rockrullarna.se" title="Mejla till: ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a></p>
-    <p>► <a href="mailto:styrelsen@rockrullarna.se" title="Mejla till: styrelsen@rockrullarna.se">styrelsen@rockrullarna.se</a></p>
-    <p><em>så hjälper vi dig att komma i kontakt med våra revisorer.</em></p>
 <?php
   include_once '../../../includes/footer.php'
 ?>

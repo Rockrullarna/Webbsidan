@@ -2,35 +2,70 @@
   $header_title = "Medlemsmöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika medlemsmötes-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2025-03-10 17:57";
+  $page_updated = "2026-04-04 22:10";
   $page_url = "/foreningen/moten-och-protokoll/medlemsmote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Möten och protokoll</a> / <span>Medlemsmöte</span>
+    <div class="rr-page-shell rr-association-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Möten och protokoll</a> / <span>Medlemsmöte</span>
+      </div>
+
+      <section class="rr-association-layout" aria-labelledby="medlemsmote-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Dialog med medlemmarna</p>
+          <h1 id="medlemsmote-heading">Medlemsmöte</h1>
+          <p class="rr-association-lead">En gång per hösttermin anordnar föreningen ett medlemsmöte där styrelsen presenterar aktuella frågor, lyssnar in synpunkter och skapar utrymme för dialog.</p>
+          <p class="rr-association-lead">Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg kan variera från år till år.</p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="medlemsmote-info-heading">
+          <p class="rr-style-label" aria-hidden="true">Bra att veta</p>
+          <h2 id="medlemsmote-info-heading">Praktiskt</h2>
+          <div class="rr-association-meta">
+            <div class="rr-association-meta-item">
+              <strong>Anmälan</strong>
+              <p>Anmälan görs via <a href="/danskurser/anmalan-danskurser" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin Fest.</p>
+            </div>
+            <div class="rr-association-meta-item">
+              <strong>Information</strong>
+              <p>Information om medlemsmötet publiceras via sociala medier, hemsida samt via tränare.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="medlemsmote-protokoll-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Protokoll och arkiv</p>
+            <h2 id="medlemsmote-protokoll-heading">Medlemsmötesprotokoll</h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-links-grid">
+          <a class="rr-courses-link-card" href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EpJGcTeiphJPp6evzYUdUBUBBF-3IN0iT5gpXut0w7K98A?e=lDOXYz" target="_blank" rel="noopener" title="Rockrullarnas medlemsmötesprotokoll">
+            <span class="rr-courses-link-kicker">Publik SharePoint-mapp</span>
+            <h3>Medlemsmötesprotokoll</h3>
+            <p>Öppna den publika mappen med protokoll från våra medlemsmöten.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Medlemsmöten" target="_blank" rel="noopener" title="SharePoint-arkiv för medlemsmöten">
+            <span class="rr-courses-link-kicker">Inloggat arkiv</span>
+            <h3>Internt arkiv</h3>
+            <p>Direktlänk till SharePoint-strukturen för medlemsmöten. Kräver inloggning.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+        <div class="rr-courses-footer-note">
+          Sidan fungerar oftast bäst på dator, eftersom mobil ibland försöker öppna länken direkt i OneDrive eller SharePoint-appen.
+        </div>
+      </section>
     </div>
-    <h1>
-      Medlemsmöte
-    </h1>
-    <p>En gång per hösttermin anordnar föreningen ett medlemsmöte. På mötet presenterar styrelsen aktuella frågor och ärenden samt tar emot medlemmarnas synpunkter. Efter mötet avnjuter vi mat tillsammans och kvällen avslutas med dans. Lokal och upplägg för medlemsmötet kan variera från år till år.</p>
-    <p>Anmälan till årsmötet görs via sidan <a href="/danskurser/anmalan-danskurser" title="Anmälan danskurser" target="_top">Anmälan danskurser</a> under kategorin "Fest".</p>
-    <p>Information gällande medlemsmötet kommer ut via sociala medier, hemsida samt via tränare.</p>
-    <p>&nbsp;</p>
-    <h2>Protokollen för medlemsmöten</h2>
-    <p>Här finns protokoll från våra medlemsmöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
-    <p>
-      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EpJGcTeiphJPp6evzYUdUBUBBF-3IN0iT5gpXut0w7K98A?e=lDOXYz" target="_blank" title="Rockrullarnas medlemsmötesprotokoll (öppnas i nytt fönster)">
-        <span style="font-size: x-large;">Medlemsmötesprotokoll (Publikt på SharePoint)</span>
-      </a>
-    </p>
-    <p class="word-wrap">
-      <a href="https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Medlemsmöten" target="_blank" title="Rockrullarnas medlemsmötesprotokoll (öppnas i nytt fönster)">
-        https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Medlemsmöten
-      </a> (kräver inloggning)
-    </p>
 
     <!--
     <table class="GalleryTable" border="0" cellpadding="0" cellspacing="0">

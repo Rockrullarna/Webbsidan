@@ -9,28 +9,45 @@
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Organisation</a> / <span>Valberedningen</span>
+    <div class="rr-page-shell rr-association-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Organisation</a> / <span>Valberedningen</span>
+      </div>
+
+      <section class="rr-association-layout" aria-labelledby="valberedningen-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Valarbete i föreningen</p>
+          <h1 id="valberedningen-heading">Valberedningen</h1>
+          <p class="rr-association-lead">Valberedningens uppgift är att föreslå revisorer och ledamöter till styrelsen. Som representant i valberedningen behöver du ha god kännedom om verksamheten och om de personer som är aktiva i föreningen.</p>
+          <p class="rr-association-lead">Valberedningen är fristående från styrelsen och ska löpande följa verksamheten för att kunna hitta en bra representation av föreningens medlemmar.</p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="valberedningen-kontakt-heading">
+          <p class="rr-style-label" aria-hidden="true">Kontakt</p>
+          <h2 id="valberedningen-kontakt-heading">Nominera någon</h2>
+          <div class="rr-association-meta">
+            <div class="rr-association-meta-item">
+              <strong>E-post</strong>
+              <p><a href="mailto:valberedningen@rockrullarna.se" title="Mejla till valberedningen">valberedningen@rockrullarna.se</a></p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="rr-association-card rr-association-card--section" aria-labelledby="valberedningen-lista-heading">
+        <p class="rr-style-label" aria-hidden="true">Mandatperiod 2026-2027</p>
+        <h2 id="valberedningen-lista-heading">Valberedningen 2026-2027</h2>
+        <ul class="rr-association-inline-list">
+          <li>Martin Braf</li>
+          <li>Anna Gahm ???</li>
+          <li>Johan Haglert ???</li>
+        </ul>
+        <div class="rr-association-note">
+          <p>Har du förslag på personer som vill vara verksamma i styrelsen? Skicka ditt förslag till valberedningen.</p>
+          <p><strong>Obs:</strong> Personen du föreslår måste vara tillfrågad och vilja ställa upp för val till styrelsen.</p>
+        </div>
+      </section>
     </div>
-    <h1>
-      Valberedningen
-    </h1>
-    <p>Valberednings arbetsuppgift är att ge förslag till revisorer och ledamöter till styrelsen. Som representant i valberedningen förväntas du ha god kunskap om verksamheten samt kännedom om de personer som är aktiva i föreningen.</p>
-    <p>Valberedningen är fristående från styrelsen, ska kontinuerligt följa verksamheten och söka efter personer som tillsammans utger en bra representation av föreningens medlemmar.</p>
-    <p>&nbsp;</p>
-    <h2>Valberedningen 2026-2027</h2>
-    <p>Valberedningen för mars 2026 - mars 2027 består av:</p>
-    <ul>
-      <li>Martin Braf</li>
-      <li>Anna Gahm ???</li>
-      <li>Johan Haglert ???</li>
-    </ul>
-    <p>&nbsp;</p>
-    <hr />
-    <h2>Förslag på nominering till styrelsen?</h2>
-    <p>Har du förslag på personer som vill vara verksam i styrelsen? Skicka ditt förslag till valberedningen.</p>
-    <p>► <a href="mailto:valberedningen@rockrullarna.se" title="Mejla till: valberedningen@rockrullarna.se">valberedningen@rockrullarna.se</a></p>
-    <p><em>OBS. Personen du vill föreslå måste vara tillfrågad och vill ställa upp för val till styrelsen.</em></p>
 <?php
   include_once '../../../includes/footer.php'
 ?>
