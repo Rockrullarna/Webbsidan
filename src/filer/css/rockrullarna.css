@@ -2082,7 +2082,9 @@ header {
 .rr-page-shell {
   padding-bottom: 2.5rem;
 }
+/* #endregion Calendar card */
 
+/* #region Föreningssidorna  */
 .rr-association-page {
   display: flex;
   flex-direction: column;
@@ -2307,7 +2309,133 @@ header {
   color: var(--b-text);
   margin-bottom: 0.2rem;
 }
+/* #endregion Föreningssidorna */
 
+/* #region Kontaktsidorna */
+.rr-contact-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rr-contact-details-grid,
+.rr-contact-method-grid,
+.rr-contact-faq-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rr-contact-method-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1.25rem;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.rr-contact-method-card h3,
+.rr-contact-method-card strong {
+  color: var(--b-text);
+}
+
+.rr-contact-method-card p,
+.rr-contact-method-card li {
+  color: var(--b-muted);
+}
+
+.rr-contact-method-card ul,
+.rr-contact-method-card ol {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.rr-contact-method-card > :last-child {
+  margin-bottom: 0;
+}
+
+.rr-contact-map {
+  overflow: hidden;
+  min-height: 26rem;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+}
+
+.rr-contact-map iframe {
+  display: block;
+  width: 100%;
+  min-height: 26rem;
+  border: 0;
+}
+
+.rr-contact-faq-section {
+  scroll-margin-top: 6rem;
+}
+
+.rr-contact-accordion {
+  margin-top: 1rem;
+}
+
+.rr-contact-accordion .accordion-item {
+  overflow: hidden;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.rr-contact-accordion .accordion-item + .accordion-item {
+  margin-top: 0.9rem;
+}
+
+.rr-contact-accordion .accordion-button {
+  padding: 1.1rem 1.2rem;
+  background: transparent;
+  color: var(--b-text);
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.rr-contact-accordion .accordion-button:not(.collapsed) {
+  background: rgba(0,171,214,0.1);
+  color: var(--b-text);
+}
+
+.rr-contact-accordion .accordion-button:focus {
+  box-shadow: inset 0 0 0 1px rgba(0,171,214,0.35);
+}
+
+.rr-contact-accordion .accordion-body {
+  color: var(--b-muted);
+}
+
+.rr-contact-accordion .accordion-body iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 18rem;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 14px;
+}
+
+.rr-contact-accordion .accordion-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--b-border);
+  border-radius: 14px;
+}
+
+.rr-contact-anchor {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.92rem;
+}
+/* #endregion Kontaktsidorna */
+
+/* #region Kurssidorna */
 .rr-courses-page {
   display: flex;
   flex-direction: column;
@@ -2698,7 +2826,9 @@ header {
   gap: 1rem;
   margin-top: 1.25rem;
 }
+/* #endregion Kurssidorna */
 
+/* #region Responsiva regler */
 @media (max-width: 991px) {
   .rr-association-layout,
   .rr-association-link-grid,
@@ -2762,6 +2892,22 @@ header {
   .rr-association-card--aside,
   .rr-association-card--section {
     padding: 1.25rem;
+  }
+
+  .rr-contact-page {
+    gap: 1.5rem;
+  }
+
+  .rr-contact-details-grid,
+  .rr-contact-method-grid,
+  .rr-contact-faq-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .rr-contact-map,
+  .rr-contact-map iframe,
+  .rr-contact-accordion .accordion-body iframe {
+    min-height: 20rem;
   }
 
   .rr-association-actions {
@@ -2904,7 +3050,7 @@ header {
     margin-top: 1.25rem;
   }
 }
-/* #endregion Calendar card */
+/* #endregion Responsiva regler */
 
 /* #region Light mode overrides for new components */
 [data-bs-theme=light] .rr-courses-hero-copy,
@@ -2933,6 +3079,15 @@ header {
 
 [data-bs-theme=light] .rr-association-note {
   background: linear-gradient(180deg, rgba(0,171,214,0.12), rgba(0,171,214,0.04));
+}
+
+[data-bs-theme=light] .rr-contact-method-card,
+[data-bs-theme=light] .rr-contact-accordion .accordion-item {
+  background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-contact-accordion .accordion-button:not(.collapsed) {
+  background: rgba(0,171,214,0.12);
 }
 
 [data-bs-theme=light] .rr-courses-link-card,
