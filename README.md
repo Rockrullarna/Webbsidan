@@ -52,6 +52,21 @@ cd src
 php -S localhost:8080
 ```
 
+## Aktivitetskalender
+Aktivitetskalendern använder en backend-proxy som hämtar både `schedule` och `api/public/events` från dans.se, slår ihop källorna och cachar resultatet lokalt.
+
+Mer detaljer finns i [src/aktivitetskalender/README.md](src/aktivitetskalender/README.md).
+
+Bra att känna till:
+
+1. länkar till dans.se matchas per faktiskt tillfälle, inte bara per namn
+2. om ingen säker match finns blir `url` `null` i stället för att återanvända fel event-id
+3. du kan rensa och bygga om kalendercachen lokalt med:
+
+```powershell
+.\dev-scripts\clear-cache.ps1 -Rebuild
+```
+
 ## Hur laddas hemsidan upp?
 Som standard nu så laddas källkoden upp via SFTP via en GitHub-action när man gör en merge till main.  
 Se filen ```.github\workflows\deploy.yml```.  

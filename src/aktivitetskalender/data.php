@@ -124,9 +124,9 @@ function decode_cache_payload(string $payload): ?array
 function encode_cache_payload(array $events, array $meta): string
 {
     $payload = json_encode([
-        'events' => $events,
-        'meta' => $meta
-    ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        'meta' => $meta,
+        'events' => $events
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
     if ($payload === false) {
         throw new RuntimeException('Kunde inte skapa cache-payload.');
@@ -138,8 +138,8 @@ function encode_cache_payload(array $events, array $meta): string
 function build_response_payload(array $events, array $meta, bool $debug): string
 {
     // Normal trafik får bara en flat lista. Debug-läge får både events och meta.
-    $payload = $debug ? ['events' => $events, 'debug' => $meta] : $events;
-    $encoded = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $payload = $debug ? ['meta' => $meta, 'events' => $events] : $events;
+    $encoded = json_encode($payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
     if ($encoded === false) {
         throw new RuntimeException('Kunde inte skapa svarspayload.');
@@ -172,35 +172,6 @@ function extract_month_day(string $headingText): ?array
 function build_date_string(int $year, int $month, int $day): string
 {
     return sprintf('%04d-%02d-%02d', $year, $month, $day);
-}
-
-function extract_event_links(string $eventsJson): array
-{
-    $decoded = json_decode($eventsJson, true);
-    $events = is_array($decoded['events'] ?? null) ? $decoded['events'] : [];
-    $links = [];
-
-    foreach ($events as $event) {
-        $name = trim((string) ($event['name'] ?? $event['title'] ?? ''));
-        if ($name === '') {
-            continue;
-        }
-
-        $url = trim((string) (
-            $event['registration']['url'] ??
-            $event['url'] ??
-            $event['source'] ??
-            ''
-        ));
-
-        if ($url === '') {
-            continue;
-        }
-
-        $links[normalize_text($name)] = $url;
-    }
-
-    return $links;
 }
 
 function parse_events_payload(string $eventsJson): array
@@ -346,6 +317,39 @@ function build_event_key(string $name, string $start, string $end): string
     return normalize_text($name) . '|' . $start . '|' . $end;
 }
 
+function build_event_start_key(string $name, string $start): string
+{
+    return normalize_text($name) . '|' . $start;
+}
+
+function build_event_url_lookups(array $events): array
+{
+    $urlsByExactKey = [];
+    $urlsByStartKey = [];
+
+    foreach ($events as $event) {
+        $name = trim((string) ($event['name'] ?? ''));
+        $start = trim((string) ($event['start'] ?? ''));
+        $end = trim((string) ($event['end'] ?? ''));
+        $url = trim((string) ($event['url'] ?? ''));
+
+        if ($name === '' || $start === '' || $url === '') {
+            continue;
+        }
+
+        if ($end !== '') {
+            $urlsByExactKey[build_event_key($name, $start, $end)] = $url;
+        }
+
+        $urlsByStartKey[build_event_start_key($name, $start)] = $url;
+    }
+
+    return [
+        'exact' => $urlsByExactKey,
+        'start' => $urlsByStartKey
+    ];
+}
+
 function append_unique_event(array &$events, array &$eventKeys, array $event): void
 {
     $key = build_event_key(
@@ -384,7 +388,7 @@ function append_unique_event(array &$events, array &$eventKeys, array $event): v
 // #endregion
 
 // #region Source Parsers
-function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
+function parse_schedule_events(string $scheduleHtml, array $eventUrlLookups): array
 {
     libxml_use_internal_errors(true);
     $dom = new DOMDocument();
@@ -443,14 +447,16 @@ function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
                 $name = $parsedSlot['title'];
                 $start = $dateString . ' ' . $parsedSlot['startTime'];
                 $end = $dateString . ' ' . $parsedSlot['endTime'];
-                $normalizedTitle = normalize_text($name);
+                $eventUrl = $eventUrlLookups['exact'][build_event_key($name, $start, $end)]
+                    ?? $eventUrlLookups['start'][build_event_start_key($name, $start)]
+                    ?? null;
 
                 append_unique_event($events, $eventKeys, [
                     'name' => $name,
                     'start' => $start,
                     'end' => $end,
                     'location' => $location,
-                    'url' => $eventLinks[$normalizedTitle] ?? null
+                    'url' => $eventUrl
                 ]);
             }
         }
@@ -577,12 +583,12 @@ try {
 
     $eventsJson = fetch_remote_text($eventsUrl);
     $scheduleHtml = fetch_remote_text($scheduleUrl);
-    $eventLinks = extract_event_links($eventsJson);
 
     // Schedule är huvudkälla för faktiska visningstillfällen.
     // API:t används både för kompletterande poster och för att hitta bokningslänkar.
-    $scheduleEvents = parse_schedule_events($scheduleHtml, $eventLinks);
     $apiEvents = parse_api_events($eventsJson, $days);
+    $eventUrlLookups = build_event_url_lookups($apiEvents);
+    $scheduleEvents = parse_schedule_events($scheduleHtml, $eventUrlLookups);
     $mergedEvents = merge_events($scheduleEvents, $apiEvents);
     $meta = [
         'org' => $org,
