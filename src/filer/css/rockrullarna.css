@@ -2435,6 +2435,121 @@ header {
 }
 /* #endregion Kontaktsidorna */
 
+/* #region Webbkarta */
+.rr-sitemap-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rr-sitemap-tree-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rr-sitemap-tree,
+.rr-sitemap-tree ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rr-sitemap-tree {
+  display: grid;
+  gap: 1rem;
+}
+
+.rr-sitemap-tree > li {
+  padding-top: 0.2rem;
+}
+
+.rr-sitemap-tree > li + li {
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--b-border);
+}
+
+.rr-sitemap-tree a,
+.rr-sitemap-tree a:visited {
+  padding: 0;
+  text-decoration: none;
+  background-color: transparent;
+  transition: color 0.18s ease, text-decoration-color 0.18s ease;
+}
+
+.rr-sitemap-tree > li > a,
+.rr-sitemap-tree > li > a:visited {
+  color: var(--b-text);
+  font-weight: 700;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.rr-sitemap-tree > li > a:hover,
+.rr-sitemap-tree > li > a:focus-visible {
+  background-color: transparent;
+  color: var(--b-accent-strong);
+  text-decoration: underline;
+  text-decoration-color: rgba(0,171,214,0.75);
+}
+
+.rr-sitemap-tree ul {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.85rem;
+  margin-left: 0.4rem;
+  padding-left: 1.2rem;
+  border-left: 1px solid var(--b-border);
+}
+
+.rr-sitemap-tree li {
+  position: relative;
+}
+
+.rr-sitemap-tree ul li {
+  padding-left: 1rem;
+}
+
+.rr-sitemap-tree ul li::before {
+  content: "";
+  position: absolute;
+  top: 0.7em;
+  left: 0;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 999px;
+  background: rgba(0,171,214,0.75);
+  transform: translateY(-50%);
+}
+
+.rr-sitemap-tree ul a,
+.rr-sitemap-tree ul a:visited {
+  color: var(--b-muted);
+}
+
+.rr-sitemap-tree ul a:hover,
+.rr-sitemap-tree ul a:focus-visible {
+  background-color: transparent;
+  color: var(--b-text);
+  text-decoration: underline;
+  text-decoration-color: rgba(97,184,255,0.65);
+}
+
+.rr-sitemap-note {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid var(--b-border);
+  background: linear-gradient(180deg, rgba(0,171,214,0.08), rgba(0,171,214,0.03));
+}
+
+.rr-sitemap-note p {
+  margin: 0;
+}
+
+.rr-sitemap-note p + p {
+  margin-top: 0.6rem;
+}
+/* #endregion Webbkarta */
+
 /* #region Kurssidorna */
 .rr-courses-page {
   display: flex;
@@ -3088,6 +3203,10 @@ header {
 
 [data-bs-theme=light] .rr-contact-accordion .accordion-button:not(.collapsed) {
   background: rgba(0,171,214,0.12);
+}
+
+[data-bs-theme=light] .rr-sitemap-note {
+  background: linear-gradient(180deg, rgba(0,171,214,0.12), rgba(0,171,214,0.04));
 }
 
 [data-bs-theme=light] .rr-courses-link-card,

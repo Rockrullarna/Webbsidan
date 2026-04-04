@@ -77,18 +77,18 @@
   <?php
     function redirectToLowercase() {
         $request_uri = $_SERVER['REQUEST_URI'];
-        
+
         // Split the URI into path and query string
         $parts = parse_url($request_uri);
-        
+
         // Handle malformed URLs gracefully
         if ($parts === false) {
             return;
         }
-        
+
         $path = isset($parts['path']) ? $parts['path'] : '';
         $query = isset($parts['query']) ? '?' . $parts['query'] : '';
-        
+
         // Only lowercase the path, preserve query string case
         $lowercase_path = strtolower($path);
         $lowercase_uri = $lowercase_path . $query;
@@ -275,10 +275,10 @@
                   <ul class="dropdown-menu shadow">
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/dans.se">Dans.se</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/friskvard-epassi">Friskvård ePassi</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/teams-mote">Teams-möten</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/zoom-mote">Zoom-möte</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#dans-se">Dans.se</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#friskvard-ePassi">Friskvård ePassi</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#teams-mote">Teams-möten</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#zoom-mote">Zoom-möte</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="/kontakt/skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>

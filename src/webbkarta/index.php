@@ -2,105 +2,129 @@
   $header_title = "Webbkarta";
   $header_description = "Webbkarta (sitemap) för webbsidan: rockrullarna.se";
 
-  $page_updated = "2025-12-20 00:27";
+  $page_updated = "2026-04-04 23:58";
   $page_url = "/webbkarta";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
   include_once '../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../">Rockrullarna.se</a> / <span>Webbkarta</span>
+    <div class="rr-page-shell rr-association-page rr-sitemap-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../">Rockrullarna.se</a> / <span>Webbkarta</span>
+      </div>
+
+      <section class="rr-association-card rr-association-card--hero" aria-labelledby="webbkarta-heading">
+        <p class="rr-style-label" aria-hidden="true">Översikt över hela sajten</p>
+        <h1 id="webbkarta-heading">Webbkarta med <em>länklista</em></h1>
+        <p class="rr-association-lead">
+          Här hittar du hela rockrullarna.se som en sammanhängande länköversikt.
+        </p>
+      </section>
+
+      <section class="rr-association-card rr-association-card--section rr-sitemap-tree-card" aria-labelledby="webbkarta-lista-heading">
+        <p class="rr-style-label" aria-hidden="true">Alla sidor i samma flöde</p>
+        <h2 id="webbkarta-lista-heading">Länköversikt</h2>
+        <div class="rr-sitemap-note">
+          <p><strong>Tips:</strong> Huvudområden ligger överst i varje nivå, och undersidor visas direkt under respektive del av sajten.</p>
+        </div>
+
+        <ul class="rr-sitemap-tree">
+          <li><a href="/sociala-media" title="Sociala media flöden">Sociala media</a></li>
+          <li>
+            <a href="/danskurser" title="Danskurser">Danskurser</a>
+            <ul>
+              <li>
+                <a href="/danskurser/kursoversikt" title="Kursöversikt">Kursöversikt</a>
+                <ul>
+                  <li><a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">Barn och ungdom</a></li>
+                  <li><a href="/danskurser/kursoversikt/bugg" title="Bugg">Bugg</a></li>
+                  <li><a href="/danskurser/kursoversikt/fox" title="Fox">Fox</a></li>
+                  <li><a href="/danskurser/kursoversikt/west-coast-swing" title="West Coast Swing">West Coast Swing</a></li>
+                  <li><a href="/danskurser/kursoversikt/fritraning" title="Friträning">Friträning</a></li>
+                  <li><a href="/danskurser/kursoversikt/evenemang" title="Evenemang utanför ordinarie verksamhet">Evenemang</a></li>
+                  <li><a href="/danskurser/kursoversikt/privatlektioner" title="Privatlektioner">Privatlektioner</a></li>
+                  <li><a href="/danskurser/kursoversikt/trivselkvallar" title="Trivselkvällar">Trivselkvällar</a></li>
+                </ul>
+              </li>
+              <li><a href="/danskurser/anmalan-danskurser" title="Anmälan danskurser">Anmälan danskurser</a></li>
+              <li><a href="/danskurser/avanmalan" title="Avanmälan">Avanmälan</a></li>
+              <li><a href="/danskurser/betalning" title="Betalning">Betalning</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/tavlingsdans" title="Tävlingsdans">Tävlingsdans</a>
+            <ul>
+              <li><a href="/tavlingsdans/kalender" title="Tävlingskalender">Tävlingskalender</a></li>
+              <li><a href="/tavlingsdans/vilka-tavlar-vart" title="Vilka tävlar vart">Vilka tävlar vart</a></li>
+              <li><a href="/tavlingsdans/resultat" title="Tävlingsresultat">Tävlingsresultat</a></li>
+              <li><a href="/tavlingsdans/dans.se" title="Dans.se">Dans.se</a></li>
+              <li><a href="https://www.danssport.se/taevling/taevlingskalender/" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender</a></li>
+              <li><a href="/tavlingsdans/vote4dance" title="Vote 4 Dance">Vote 4 Dance</a></li>
+            </ul>
+          </li>
+          <li><a href="/aktivitetskalender" title="Aktivitetskalender">Aktivitetskalender</a></li>
+          <li><a href="/boka-lilla-salen" title="Boka lilla salen">Boka lilla salen</a></li>
+          <li>
+            <a href="/foreningen" title="Föreningen">Föreningen</a>
+            <ul>
+              <li><a href="/foreningen/historia" title="Historia">Historia</a></li>
+              <li>
+                <a href="/foreningen/styrande-dokument" title="Styrande dokument">Styrande dokument</a>
+                <ul>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning" title="DKRR-001 Verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">DKRR-002 Årshjul och arbetsprocesser</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning" title="DKRR-004 Organisation- och rollbeskrivning">DKRR-004 Organisation- och rollbeskrivning</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-005-policy-mot-diskriminering" title="DKRR-005 Policy mot diskriminering">DKRR-005 Policy mot diskriminering</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-006-integritetspolicy" title="DKRR-006 Integritetspolicy">DKRR-006 Integritetspolicy</a></li>
+                  <li><a href="/foreningen/styrande-dokument/dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">DKRR-007 Blankett för ansökan om evenemang</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/foreningen/moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
+                <ul>
+                  <li><a href="/foreningen/moten-och-protokoll/arsmote" title="Årsmöte">Årsmöte</a></li>
+                  <li><a href="/foreningen/moten-och-protokoll/medlemsmote" title="Medlemsmöte">Medlemsmöte</a></li>
+                  <li><a href="/foreningen/moten-och-protokoll/styrelsemote" title="Styrelsemöte">Styrelsemöte</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="/foreningen/organisation" title="Organisation">Organisation</a>
+                <ul>
+                  <li><a href="/foreningen/organisation/strukturen" title="Strukturen">Strukturen</a></li>
+                  <li><a href="/foreningen/organisation/styrelsen" title="Styrelsen">Styrelsen</a></li>
+                  <li><a href="/foreningen/organisation/tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
+                  <li><a href="/foreningen/organisation/valberedningen" title="Valberedningen">Valberedningen</a></li>
+                  <li><a href="/foreningen/organisation/revisorer" title="Revisorer">Revisorer</a></li>
+                </ul>
+              </li>
+              <li><a href="/foreningen/medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
+              <li><a href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/kontakt" title="Kontakta oss">Kontakta</a>
+            <ul>
+              <li><a href="/kontakt" title="Kontaktinformation">Kontaktinformation</a></li>
+              <li><a href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)">Hitta till oss</a></li>
+              <li>
+                <a href="/kontakt/fragor-och-svar" title="Vanliga frågor och svar (FAQ)">Vanliga frågor och svar (FAQ)</a>
+                <ul>
+                  <li><a href="/kontakt/fragor-och-svar/#dans-se" title="Dans.se">Dans.se</a></li>
+                  <li><a href="/kontakt/fragor-och-svar/#friskvard-ePassi" title="Friskvård med ePassi">Friskvård med ePassi</a></li>
+                  <li><a href="/kontakt/fragor-och-svar/#teams-mote" title="Teams-möte">Teams-möte</a></li>
+                  <li><a href="/kontakt/fragor-och-svar/#zoom-mote" title="Zoom-möte">Zoom-möte</a></li>
+                </ul>
+              </li>
+              <li><a href="/kontakt/skicka-arende-eller-fraga" title="Skicka ärende eller fråga">Skicka ärende eller fråga</a></li>
+              <li><a href="/webbkarta" title="Webbkarta">Webbkarta</a></li>
+              <li><a href="/kontakt/hjalp" title="Hjälp">Hjälp</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </div>
-    <h1>Webbkarta</h1>
-    <p>
-      <ul>
-        <li><a href="/sociala-media" title="Sociala media flöden">Sociala media</a></li>
-        <li class="dropdown">
-          <a href="/danskurser" title="Danskurser">Danskurser</a>
-          <ul>
-            <li class="dropdown"><a href="/danskurser/kursoversikt" title="Kursöversikt">Kursöversikt</a>
-              <ul>
-                <li><a href="/danskurser/kursoversikt/dans-barn-och-ungdom" title="Barn och ungdom">Barn och ungdom</a></li>
-                <li><a href="/danskurser/kursoversikt/bugg" title="Bugg">Bugg</a></li>
-                <li><a href="/danskurser/kursoversikt/fox" title="Fox">Fox</a></li>
-                <li><a href="/danskurser/kursoversikt/west-coast-swing" title="West Coast Swing">West Coast Swing</a></li>
-                <li><a href="/danskurser/kursoversikt/fritraning" title="Friträning">Friträning</a></li>
-                <li><a href="/danskurser/kursoversikt/evenemang" title="Evenemang utanför ordinarie verksamhet">Evenemang</a></li>
-                <li><a href="/danskurser/kursoversikt/privatlektioner" title="Privatlektioner">Privatlektioner</a></li>
-                <li><a href="/danskurser/kursoversikt/trivselkvallar" title="Trivselkvällar">Trivselkvällar</a></li>
-              </ul>
-            </li>
-            <li><a href="/danskurser/anmalan-danskurser" title="Anmälan danskurser">Anmälan danskurser</a></li>
-            <li><a href="/danskurser/avanmalan" title="Avanmälan">Avanmälan</a></li>
-            <li><a href="/danskurser/betalning" title="Betalning">Betalning</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="/tavlingsdans" title="Tävlingsdans">Tävlingsdans</a>
-          <ul>
-            <li><a href="/tavlingsdans/kalender" title="Tävlingskalender">Tävlingskalender</a></li>
-            <li><a href="/tavlingsdans/vilka-tavlar-vart" title="Vilka tävlar vart">Vilka tävlar vart</a></li>
-            <li><a href="/tavlingsdans/resultat" title="Tävlingsresultat">Tävlingsresultat</a></li>
-            <li><a href="/tavlingsdans/dans.se" title="Dans.se">Dans.se</a></li>
-            <li><a href="https://www.danssport.se/taevling/taevlingskalender/" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank">DSF Tävlingskalender</a></li>
-            <li><a href="/tavlingsdans/vote4dance" title="Vote 4 Dance">Vote 4 Dance</a></li>
-          </ul>
-        </li>
-        <li><a href="/aktivitetskalender" title="Aktivitetskalender">Aktivitetskalender</a></li>
-        <li><a href="/boka-lilla-salen" title="Boka lilla salen">Boka lilla salen</a></li>
-        <li class="dropdown"><a href="/foreningen" title="Föreningen">Föreningen</a>
-          <ul>
-            <li><a href="/foreningen/historia" title="Historia">Historia</a></li>
-            <li class="dropdown"><a href="/foreningen/styrande-dokument" title="Styrande dokument">Styrande dokument</a>
-              <ul>
-                <li><a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning" title="DKRR-001 Verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-002-arshjul-och-arbetsprocesser" title="DKRR-002 Årshjul och arbetsprocesser">DKRR-002 Årshjul och arbetsprocesser</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-003-stadgar" title="DKRR-003 Stadgar">DKRR-003 Stadgar</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-004-organisation-och-rollbeskrivning" title="DKRR-004 Organisation- och rollbeskrivning">DKRR-004 Organisation- och rollbeskrivning</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-005-policy-mot-diskriminering" title="DKRR-005 Policy mot diskriminering">DKRR-005 Policy mot diskriminering</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-006-integritetspolicy" title="DKRR-006 Integritetspolicy">DKRR-006 Integritetspolicy</a></li>
-                <li><a href="/foreningen/styrande-dokument/dkrr-007-blankett-for-ansokan-om-evenemang" title="DKRR-007 Blankett för ansökan om evenemang">DKRR-007 Blankett för ansökan om evenemang</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="/foreningen/moten-och-protokoll" title="Möten och protokoll">Möten och protokoll</a>
-              <ul>
-                <li><a href="/foreningen/moten-och-protokoll/arsmote" title="Årsmöte">Årsmöte</a></li>
-                <li><a href="/foreningen/moten-och-protokoll/medlemsmote" title="Medlemsmöte">Medlemsmöte</a></li>
-                <li><a href="/foreningen/moten-och-protokoll/styrelsemote" title="Styrelsemöte">Styrelsemöte</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="/foreningen/organisation" title="Organisation">Organisation</a>
-              <ul>
-              <li><a href="/foreningen/organisation/strukturen" title="Strukturen">Strukturen</a></li>
-                <li><a href="/foreningen/organisation/styrelsen" title="Styrelsen">Styrelsen</a></li>
-                <li><a href="/foreningen/organisation/tidigare-styrelser" title="Tidigare styrelser">Tidigare styrelser</a></li>
-                <li><a href="/foreningen/organisation/valberedningen" title="Valberedningen">Valberedningen</a></li>
-                <li><a href="/foreningen/organisation/revisorer" title="Revisorer">Revisorer</a></li>
-              </ul>
-            </li>
-            <li><a href="/foreningen/medlemsrabatter" title="Medlemsrabatter">Medlemsrabatter</a></li>
-            <li><a href="https://dans.se/shop/?org=rockrullarna&mship" title="Bli medlem hos oss (Öppnas i nytt fönster)" target="_blank">Bli medlem hos oss</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="/kontakt" title="Kontakta oss">Kontakta</a>
-          <ul>
-            <li><a href="/kontakt" title="Kontaktinformation">Kontaktinformation</a></li>
-            <li><a href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps öppnas i nytt fönster)">Hitta till oss</a></li>
-            <li class="dropdown"><a href="/kontakt/fragor-och-svar" title="Vanliga frågor och svar (FAQ)">Vanliga frågor och svar (FAQ)</a>
-              <ul>
-                <li><a href="/kontakt/fragor-och-svar/#teams-mote" title="Teams-möten">Teams-möten</a></li>
-                <li><a href="/kontakt/fragor-och-svar/#zoom-mote" title="Zoom-möte">Zoom-möte</a></li>
-                <li><a href="/kontakt/fragor-och-svar/#dans-se" title="Dans.se">Dans.se</a></li>
-              </ul>
-            </li>
-            <li><a href="/kontakt/skicka-arende-eller-fraga" title="Skicka ärende eller fråga">Skicka ärende eller fråga</a></li>
-            <!-- <li><a href="https://m.me/Rockrullarna" title="Chatta med oss (Messenger öppnas i nytt fönster)" title="_blank">Chatta med oss (Messenger)</a></li> -->
-            <li><a href="/webbkarta" title="Webbkarta">Webbkarta</a></li>
-            <li><a href="/kontakt/hjalp" title="Hjälp">Hjälp</a></li>
-          </ul>
-        </li>
-      </ul>
-    </p>
 <?php
   include_once '../includes/footer.php'
 ?>
