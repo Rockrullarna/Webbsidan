@@ -1104,7 +1104,7 @@ header {
   max-height: min(32rem, 70vh);
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 0.4rem;
+  padding: 0 0.4rem 0.4rem;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 1rem;
   background:
@@ -1150,7 +1150,7 @@ header {
 .rr-kal-table thead {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .rr-kal-table thead th {
