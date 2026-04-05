@@ -1,0 +1,48 @@
+# Detta workflow körs på dev- och feature-brancher och laddar upp
+# alla filer i ./src/ till /beta/-katalogen på webbservern via SFTP.
+#
+# Innan uppladdning ersätts alla href="/" och src="/" med href="/beta/"
+# respektive src="/beta/" så att sökvägar fungerar korrekt i beta-miljön.
+#
+# Miljövariabler/secrets som används är samma som för deploy.yml:
+# https://github.com/organizations/Rockrullarna/settings/secrets/actions
+#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+name: Deploy beta via SFTP
+
+on:
+  push:
+    branches:
+      - 'dev/**'
+      - 'feature/**'
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-beta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Add version.txt file
+        run: echo "v14.$(date +'%Y%m%d').$(date +'%H%M')-beta" > ./src/version.txt
+
+      - name: Rewrite paths for /beta/
+        run: |
+          find ./src -type f \( -name '*.php' -o -name '*.html' -o -name '*.htm' -o -name '*.css' -o -name '*.js' \) \
+            -exec sed -i 's|href="/|href="/beta/|g' {} + \
+            -exec sed -i 's|src="/|src="/beta/|g' {} +
+
+      - name: Deploy files
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SFTP_USER }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          server: ${{ secrets.SFTP_HOST }}
+          local_path: './src/*'
+          remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/beta/'
+          sftp_only: true
+          sftpArgs: '-o ConnectTimeout=15'
