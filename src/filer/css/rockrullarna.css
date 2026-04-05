@@ -290,6 +290,10 @@ a:hover {
 #bd-theme { /* Knappen för Theme-switch */
   fill: #000;
 }
+
+.rr-footer-copyright .dropdown-menu {
+  max-width: calc(100vw - 2rem);
+}
 /* #endregion Theme Switcher */
 
 /* #region Bootstrap Navigation */
