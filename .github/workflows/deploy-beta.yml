@@ -15,7 +15,9 @@ on:
   push:
     branches:
       - 'dev/**'
+      - 'dev**'
       - 'feature/**'
+      - 'feature**'
 
 permissions:
   contents: read
