@@ -1632,15 +1632,15 @@ header {
 }
 
 .rr-kal-location-pill--stora {
-  border-color: rgba(224, 155, 64, 0.28);
-  background: rgba(224, 155, 64, 0.08);
-  color: #c98d30;
-}
-
-.rr-kal-location-pill--lilla {
   border-color: rgba(20, 200, 171, 0.28);
   background: rgba(20, 200, 171, 0.07);
   color: #14c8ab;
+}
+
+.rr-kal-location-pill--lilla {
+  border-color: rgba(160, 100, 240, 0.28);
+  background: rgba(160, 100, 240, 0.07);
+  color: #a064f0;
 }
 
 [data-bs-theme=light] .rr-kal-location-pill {
@@ -1650,15 +1650,15 @@ header {
 }
 
 [data-bs-theme=light] .rr-kal-location-pill--stora {
-  border-color: rgba(180, 108, 20, 0.22);
-  background: rgba(180, 108, 20, 0.07);
-  color: #9a6010;
-}
-
-[data-bs-theme=light] .rr-kal-location-pill--lilla {
   border-color: rgba(10, 140, 118, 0.22);
   background: rgba(10, 140, 118, 0.07);
   color: #0a8c76;
+}
+
+[data-bs-theme=light] .rr-kal-location-pill--lilla {
+  border-color: rgba(120, 60, 200, 0.22);
+  background: rgba(120, 60, 200, 0.07);
+  color: #783cc8;
 }
 
 /* #endregion Aktivitetskalender */
