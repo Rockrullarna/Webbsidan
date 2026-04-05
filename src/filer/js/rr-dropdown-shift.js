@@ -5,6 +5,8 @@
     const PADDING = 12;
 
     document.querySelectorAll('.dropdown').forEach(function (dd) {
+      if (dd.closest('.rr-footer-copyright')) return;
+
       const toggle = dd.querySelector('[data-bs-toggle="dropdown"]');
       if (!toggle) return;
 
