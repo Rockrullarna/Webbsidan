@@ -1,214 +1,61 @@
 <?php
-  function logInstagramFeedIssue($message) {
-    error_log('[sociala-media] ' . $message);
-  }
-
-  function getInstagramConfigValue($key, $default = '') {
-    $value = getenv($key);
-
-    if ($value === false || $value === null) {
-      return $default;
+  function readInstagramFeedCache($filePath) {
+    if (!is_file($filePath)) {
+      return [];
     }
 
-    $value = trim((string)$value);
-
-    if ($value === '') {
-      return $default;
-    }
-
-    return $value;
-  }
-
-  function fetchInstagramJson($endpoint) {
-    $headers = [
-      'Accept: application/json',
-      'User-Agent: RockrullarnaWeb/1.0 (+https://rockrullarna.se/)',
-    ];
-
-    $response = false;
-    $status = 0;
-
-    if (function_exists('curl_init')) {
-      $ch = curl_init($endpoint);
-
-      curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => $headers,
-        CURLOPT_CONNECTTIMEOUT => 5,
-        CURLOPT_TIMEOUT => 8,
-      ]);
-
-      $response = curl_exec($ch);
-      $status = (int)curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
-      curl_close($ch);
-
-      if ($status !== 200 || $response === false) {
-        logInstagramFeedIssue('Instagram Graph API request failed with status ' . (string)$status . '.');
-        return null;
-      }
-    } else {
-      $context = stream_context_create([
-        'http' => [
-          'method' => 'GET',
-          'header' => implode("\r\n", $headers),
-          'timeout' => 8,
-        ],
-      ]);
-
-      $response = @file_get_contents($endpoint, false, $context);
-
-      if ($response === false) {
-        logInstagramFeedIssue('Instagram Graph API request failed when using file_get_contents.');
-        return null;
-      }
-    }
-
-    $payload = json_decode($response, true);
-
-    if (!is_array($payload)) {
-      logInstagramFeedIssue('Instagram Graph API response could not be decoded as JSON.');
-      return null;
-    }
-
-    if (!empty($payload['error']['message'])) {
-      logInstagramFeedIssue('Instagram Graph API returned an error: ' . $payload['error']['message']);
-      return null;
-    }
-
-    return $payload;
-  }
-
-  function getInstagramCachePath($username) {
-    return rtrim(sys_get_temp_dir(), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . 'rr-instagram-feed-' . preg_replace('/[^a-z0-9_-]/i', '-', $username) . '.json';
-  }
-
-  function readInstagramPostCache($username, $ttlSeconds) {
-    $cachePath = getInstagramCachePath($username);
-
-    if (!is_file($cachePath)) {
-      return null;
-    }
-
-    $modifiedTime = @filemtime($cachePath);
-
-    if ($modifiedTime === false || ($modifiedTime + $ttlSeconds) < time()) {
-      return null;
-    }
-
-    $cachedContent = @file_get_contents($cachePath);
+    $cachedContent = @file_get_contents($filePath);
 
     if ($cachedContent === false || $cachedContent === '') {
-      return null;
+      return [];
     }
 
-    $cachedPayload = json_decode($cachedContent, true);
+    $payload = json_decode($cachedContent, true);
 
-    if (!is_array($cachedPayload)) {
-      return null;
+    if (!is_array($payload) || !is_array($payload['posts'] ?? null)) {
+      return [];
     }
 
-    return $cachedPayload;
+    return $payload['posts'];
   }
 
-  function writeInstagramPostCache($username, $posts) {
-    $cachePath = getInstagramCachePath($username);
-    @file_put_contents($cachePath, json_encode($posts, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
+  function formatInstagramPostDate($timestamp) {
+    $timestamp = trim((string)$timestamp);
+
+    if ($timestamp === '') {
+      return '';
+    }
+
+    $date = date_create($timestamp);
+
+    if ($date === false) {
+      return '';
+    }
+
+    return $date->format('Y-m-d');
   }
 
-  function fetchInstagramPosts($username, $limit = 4) {
-    $limit = (int)$limit;
-
-    if ($limit < 1) {
-      return [];
+  function getInstagramMediaTypeLabel($mediaType) {
+    if ($mediaType === 'VIDEO') {
+      return 'Video pa Instagram';
     }
 
-    $cachedPosts = readInstagramPostCache($username, 900);
-
-    if (is_array($cachedPosts) && !empty($cachedPosts)) {
-      return array_slice($cachedPosts, 0, $limit);
+    if ($mediaType === 'CAROUSEL_ALBUM') {
+      return 'Karusell pa Instagram';
     }
 
-    $accessToken = getInstagramConfigValue('RR_INSTAGRAM_ACCESS_TOKEN');
-
-    if ($accessToken === '') {
-      logInstagramFeedIssue('Instagram access token is missing. Set RR_INSTAGRAM_ACCESS_TOKEN to enable the feed.');
-      return [];
-    }
-
-    $endpoint = 'https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp&limit=' . rawurlencode((string)$limit) . '&access_token=' . rawurlencode($accessToken);
-    $payload = fetchInstagramJson($endpoint);
-
-    if (!is_array($payload)) {
-      return [];
-    }
-
-    $mediaItems = $payload['data'] ?? [];
-
-    if (!is_array($mediaItems) || empty($mediaItems)) {
-      logInstagramFeedIssue('Instagram Graph API response did not contain any posts.');
-      return [];
-    }
-
-    $posts = [];
-
-    foreach (array_slice($mediaItems, 0, $limit) as $item) {
-      $permalink = trim((string)($item['permalink'] ?? ''));
-      $mediaUrl = trim((string)($item['media_url'] ?? ''));
-      $thumbnailUrl = trim((string)($item['thumbnail_url'] ?? ''));
-      $mediaType = trim((string)($item['media_type'] ?? ''));
-
-      if ($permalink === '') {
-        continue;
-      }
-
-      $caption = trim((string)($item['caption'] ?? ''));
-
-      if ($caption === '') {
-        $caption = 'Se senaste uppdateringen från Rockrullarna på Instagram.';
-      }
-
-      $imageUrl = $mediaUrl;
-
-      if ($mediaType === 'VIDEO' && $thumbnailUrl !== '') {
-        $imageUrl = $thumbnailUrl;
-      }
-
-      if ($mediaType === 'CAROUSEL_ALBUM' && $imageUrl === '' && $thumbnailUrl !== '') {
-        $imageUrl = $thumbnailUrl;
-      }
-
-      $timestamp = trim((string)($item['timestamp'] ?? ''));
-      $altText = $caption;
-
-      if ($altText === '') {
-        $altText = 'Instagram-inlägg från Rockrullarna';
-      }
-
-      $posts[] = [
-        'url' => $permalink,
-        'image' => $imageUrl,
-        'alt' => $altText,
-        'caption' => $caption,
-        'timestamp' => $timestamp,
-        'mediaType' => $mediaType,
-      ];
-    }
-
-    if (!empty($posts)) {
-      writeInstagramPostCache($username, $posts);
-    }
-
-    return $posts;
+    return 'Bild pa Instagram';
   }
 
   $header_title = "Sociala medier";
   $header_description = "Följ Rockrullarna på sociala medier och se våra senaste uppdateringar från Facebook, Instagram och TikTok";
 
-  $page_updated = "2026-04-06 07:10";
+  $page_updated = "2026-04-06 21:35";
   $page_url = "/sociala-media";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
-  $instagram_posts = fetchInstagramPosts('rockrullarna', 4);
+  $instagramCacheFile = __DIR__ . DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR . 'instagram-rockrullarna.json';
+  $instagram_posts = readInstagramFeedCache($instagramCacheFile);
   $instagram_feed_ready = !empty($instagram_posts);
 
   include_once '../includes/header.php'
@@ -253,12 +100,12 @@
               </span>
               <div>
                 <p class="rr-style-label" aria-hidden="true">Instagram</p>
-                <h3>Senaste inlägg direkt på webben</h3>
+                <h3>Senaste inläggen</h3>
               </div>
             </div>
-            <p>Här visas de fyra senaste publiceringarna från vårt Instagram-konto, hämtade via Instagram Graph API.</p>
+            <p>Här visas de fyra senaste publiceringarna från vårt Instagram-konto, hämtade via vårt eget Instagram-api.</p>
             <a class="rr-btn-inline" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">instagram.com/rockrullarna</a>
-            <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell">
+            <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="/sociala-media/data.php">
               <?php if ($instagram_feed_ready) { ?>
                 <div class="rr-instagram-feed-grid">
                   <?php foreach ($instagram_posts as $instagram_post) { ?>
@@ -267,27 +114,18 @@
                         <img src="<?php echo htmlspecialchars($instagram_post['image']); ?>" alt="<?php echo htmlspecialchars($instagram_post['alt']); ?>" loading="lazy" />
                       <?php } ?>
                       <span class="rr-instagram-feed-card-content">
-                        <?php if (!empty($instagram_post['timestamp'])) { ?>
-                          <time datetime="<?php echo htmlspecialchars($instagram_post['timestamp']); ?>"><?php echo htmlspecialchars(date('Y-m-d', strtotime($instagram_post['timestamp']))); ?></time>
+                        <?php $instagramPostDate = formatInstagramPostDate($instagram_post['timestamp'] ?? ''); ?>
+                        <?php if ($instagramPostDate !== '') { ?>
+                          <time datetime="<?php echo htmlspecialchars($instagram_post['timestamp']); ?>"><?php echo htmlspecialchars($instagramPostDate); ?></time>
                         <?php } ?>
                         <strong><?php echo htmlspecialchars(mb_strimwidth($instagram_post['caption'], 0, 140, '…')); ?></strong>
-                        <small>
-                          <?php
-                            if (($instagram_post['mediaType'] ?? '') === 'VIDEO') {
-                              echo 'Video pa Instagram';
-                            } elseif (($instagram_post['mediaType'] ?? '') === 'CAROUSEL_ALBUM') {
-                              echo 'Karusell pa Instagram';
-                            } else {
-                              echo 'Bild pa Instagram';
-                            }
-                          ?>
-                        </small>
+                        <small><?php echo htmlspecialchars(getInstagramMediaTypeLabel($instagram_post['mediaType'] ?? '')); ?></small>
                       </span>
                     </a>
                   <?php } ?>
                 </div>
               <?php } else { ?>
-                <p class="rr-social-feed-status">Instagram-flödet kunde inte hämtas just nu. Kontrollera att miljövariabeln RR_INSTAGRAM_ACCESS_TOKEN finns satt och öppna annars kontot direkt via länken ovan.</p>
+                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Öppna gärna kontot direkt via länken ovan om inget visas strax.</p>
               <?php } ?>
             </div>
           </article>
@@ -315,6 +153,93 @@
         </div>
       </section>
     </div>
+    <script>
+      (function () {
+        const instagramFeed = document.getElementById('rr-instagram-feed');
+
+        if (!instagramFeed) {
+          return;
+        }
+
+        const apiUrl = instagramFeed.getAttribute('data-instagram-api');
+
+        if (!apiUrl || !window.fetch) {
+          return;
+        }
+
+        const escapeHtml = function (value) {
+          return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+        };
+
+        const mediaTypeLabel = function (mediaType) {
+          if (mediaType === 'VIDEO') {
+            return 'Video pa Instagram';
+          }
+
+          if (mediaType === 'CAROUSEL_ALBUM') {
+            return 'Karusell pa Instagram';
+          }
+
+          return 'Bild pa Instagram';
+        };
+
+        const trimCaption = function (caption) {
+          const text = String(caption || '').trim();
+
+          if (text.length <= 140) {
+            return text;
+          }
+
+          return text.slice(0, 139).trimEnd() + '…';
+        };
+
+        const renderPosts = function (posts) {
+          if (!Array.isArray(posts) || posts.length === 0) {
+            return;
+          }
+
+          const cards = posts.map(function (post) {
+            const imageMarkup = post.image
+              ? '<img src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(post.alt || 'Instagram-inlägg från Rockrullarna') + '" loading="lazy" />'
+              : '';
+
+            const timeMarkup = post.timestamp
+              ? '<time datetime="' + escapeHtml(post.timestamp) + '">' + escapeHtml(String(post.timestamp).slice(0, 10)) + '</time>'
+              : '';
+
+            return '<a class="rr-instagram-feed-card" href="' + escapeHtml(post.url || '#') + '" title="Öppna inlägget på Instagram" target="_blank" rel="noopener noreferrer">'
+              + imageMarkup
+              + '<span class="rr-instagram-feed-card-content">'
+              + timeMarkup
+              + '<strong>' + escapeHtml(trimCaption(post.caption)) + '</strong>'
+              + '<small>' + escapeHtml(mediaTypeLabel(post.mediaType)) + '</small>'
+              + '</span>'
+              + '</a>';
+          }).join('');
+
+          instagramFeed.innerHTML = '<div class="rr-instagram-feed-grid">' + cards + '</div>';
+        };
+
+        fetch(apiUrl, { headers: { 'Accept': 'application/json' } })
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error('Instagram API request failed.');
+            }
+
+            return response.json();
+          })
+          .then(function (payload) {
+            renderPosts(payload.posts || []);
+          })
+          .catch(function () {
+          });
+      }());
+    </script>
     <script async src="https://www.tiktok.com/embed.js"></script>
 <?php
   include_once '../includes/footer.php'
