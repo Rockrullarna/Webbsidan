@@ -1,5 +1,15 @@
 <?php
+  function logInstagramFeedIssue($message) {
+    error_log('[sociala-media] ' . $message);
+  }
+
   function fetchInstagramPosts($username, $limit = 3) {
+    $limit = (int)$limit;
+
+    if ($limit < 1) {
+      return [];
+    }
+
     $endpoint = 'https://www.instagram.com/api/v1/users/web_profile_info/?username=' . rawurlencode($username);
     $headers = [
       'Accept: application/json',
@@ -25,6 +35,7 @@
       curl_close($ch);
 
       if ($status !== 200 || $response === false) {
+        logInstagramFeedIssue('Instagram feed request failed with status ' . (string)$status . '.');
         return [];
       }
     } else {
@@ -39,6 +50,7 @@
       $response = @file_get_contents($endpoint, false, $context);
 
       if ($response === false) {
+        logInstagramFeedIssue('Instagram feed request failed when using file_get_contents.');
         return [];
       }
     }
@@ -46,6 +58,7 @@
     $payload = json_decode($response, true);
 
     if (!is_array($payload)) {
+      logInstagramFeedIssue('Instagram feed response could not be decoded as JSON.');
       return [];
     }
 
@@ -54,12 +67,13 @@
       ?? [];
 
     if (!is_array($edges) || empty($edges)) {
+      logInstagramFeedIssue('Instagram feed response did not contain any posts.');
       return [];
     }
 
     $posts = [];
 
-    foreach (array_slice($edges, 0, max(1, (int)$limit)) as $edge) {
+    foreach (array_slice($edges, 0, $limit) as $edge) {
       $node = $edge['node'] ?? [];
       $shortcode = $node['shortcode'] ?? '';
 
