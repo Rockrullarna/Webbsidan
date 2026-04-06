@@ -255,7 +255,50 @@ function build_event_url(array $event): ?string
         ''
     ));
 
-    return $url === '' ? null : $url;
+    if ($url === '') {
+        return null;
+    }
+
+    if (preg_match('~^https?://~iu', $url)) {
+        return $url;
+    }
+
+    if (str_starts_with($url, '//')) {
+        return 'https:' . $url;
+    }
+
+    if (str_starts_with($url, '/')) {
+        return 'https://dans.se' . $url;
+    }
+
+    return null;
+}
+
+function extract_slot_url(DOMElement $slot): ?string
+{
+    $links = $slot->getElementsByTagName('a');
+    if ($links->length === 0) {
+        return null;
+    }
+
+    $href = trim(html_entity_decode((string) $links->item(0)?->getAttribute('href'), ENT_QUOTES | ENT_HTML5, 'UTF-8'));
+    if ($href === '') {
+        return null;
+    }
+
+    if (preg_match('~^https?://~iu', $href)) {
+        return $href;
+    }
+
+    if (str_starts_with($href, '//')) {
+        return 'https:' . $href;
+    }
+
+    if (str_starts_with($href, '/')) {
+        return 'https://dans.se' . $href;
+    }
+
+    return null;
 }
 
 function score_location(string $location): int
@@ -559,7 +602,8 @@ function parse_schedule_events(string $scheduleHtml, array $eventUrlLookups): ar
                 $name = $parsedSlot['title'];
                 $start = $dateString . ' ' . $parsedSlot['startTime'];
                 $end = $dateString . ' ' . $parsedSlot['endTime'];
-                $eventUrl = find_matching_event_url($eventUrlLookups, $name, $start, $end);
+                $eventUrl = find_matching_event_url($eventUrlLookups, $name, $start, $end)
+                    ?? extract_slot_url($slot);
 
                 append_unique_event($events, $eventKeys, [
                     'name' => $name,
