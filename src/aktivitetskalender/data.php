@@ -8,6 +8,7 @@ $cacheTtlSeconds = 15 * 60;
 $cacheSchemaVersion = 2;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
+const DANS_BASE_URL = 'https://dans.se';
 $days = filter_input(
     INPUT_GET,
     'days',
@@ -248,14 +249,52 @@ function extract_time_range_from_info(?string $value): ?array
 
 function build_event_url(array $event): ?string
 {
-    $url = trim((string) (
+    return normalize_event_url((string) (
         $event['registration']['url'] ??
         $event['url'] ??
         $event['source'] ??
         ''
     ));
+}
 
-    return $url === '' ? null : $url;
+function normalize_event_url(string $url): ?string
+{
+    $url = trim($url);
+    if ($url === '') {
+        return null;
+    }
+
+    if (preg_match('~^https?://~', $url)) {
+        return $url;
+    }
+
+    if (str_starts_with($url, '//')) {
+        return 'https:' . $url;
+    }
+
+    if (str_starts_with($url, '/')) {
+        return DANS_BASE_URL . $url;
+    }
+
+    return null;
+}
+
+function extract_slot_url(DOMElement $slot): ?string
+{
+    $links = $slot->getElementsByTagName('a');
+    if ($links->length === 0) {
+        return null;
+    }
+
+    $firstLink = $links->item(0);
+    $href = $firstLink instanceof DOMElement ? $firstLink->getAttribute('href') : '';
+    $href = html_entity_decode($href, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $href = trim($href);
+    if ($href === '') {
+        return null;
+    }
+
+    return normalize_event_url($href);
 }
 
 function score_location(string $location): int
@@ -559,7 +598,8 @@ function parse_schedule_events(string $scheduleHtml, array $eventUrlLookups): ar
                 $name = $parsedSlot['title'];
                 $start = $dateString . ' ' . $parsedSlot['startTime'];
                 $end = $dateString . ' ' . $parsedSlot['endTime'];
-                $eventUrl = find_matching_event_url($eventUrlLookups, $name, $start, $end);
+                $eventUrl = find_matching_event_url($eventUrlLookups, $name, $start, $end)
+                    ?? extract_slot_url($slot);
 
                 append_unique_event($events, $eventKeys, [
                     'name' => $name,
