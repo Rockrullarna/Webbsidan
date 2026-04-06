@@ -123,42 +123,9 @@
         <a href="../">Rockrullarna.se</a> / <span>Sociala medier</span>
       </div>
 
-      <section class="rr-association-layout" aria-labelledby="sociala-medier-heading">
-        <div class="rr-association-card rr-association-card--hero">
-          <p class="rr-style-label" aria-hidden="true">Facebook, Instagram och TikTok</p>
-          <h1 id="sociala-medier-heading">Följ våra senaste <em>uppdateringar</em></h1>
-          <p class="rr-association-lead">
-            Här samlar vi Rockrullarnas sociala kanaler i en gemensam vy med nyheter,
-            inspiration och glimtar från kurser, evenemang och föreningslivet.
-          </p>
-          <p class="rr-association-lead">
-            Du kan gå vidare till respektive kanal eller följa innehållet direkt här på sidan
-            när du vill få snabb överblick över vad som händer hos oss.
-          </p>
-          <div class="rr-association-actions">
-            <a class="rr-hero-btn" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a class="rr-btn-inline" href="https://fb.me/rockrullarna" title="Öppna Rockrullarna på Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a class="rr-btn-inline" href="https://www.tiktok.com/@dansklubbrockrullarna" title="Öppna Rockrullarna på TikTok" target="_blank" rel="noopener noreferrer">TikTok</a>
-          </div>
-        </div>
-
-        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="sociala-medier-snabbt-heading">
-          <p class="rr-style-label" aria-hidden="true">Snabb överblick</p>
-          <h2 id="sociala-medier-snabbt-heading">Det här hittar du här</h2>
-          <ul class="rr-association-list">
-            <li><strong>Facebook</strong><br />Nyheter, evenemang och uppdateringar från föreningen.</li>
-            <li><strong>Instagram</strong><br />Senaste inlägg direkt på webben med snabb länk till profilen.</li>
-            <li><strong>TikTok</strong><br />Korta klipp från dans, gemenskap och livet i lokalen.</li>
-          </ul>
-          <div class="rr-association-note">
-            <p><strong>Tips:</strong> Sociala medier-flöden laddas från respektive tjänst och kan därför ta någon extra sekund innan de visas fullt ut.</p>
-          </div>
-        </aside>
-      </section>
-
       <section class="rr-association-card rr-association-card--section" aria-labelledby="sociala-medier-floden-heading">
-        <p class="rr-style-label" aria-hidden="true">Direkt från våra kanaler</p>
-        <h2 id="sociala-medier-floden-heading">Flöden i samma <em>designspråk</em></h2>
+        <p class="rr-style-label" aria-hidden="true">Sociala medier</p>
+        <h2 id="sociala-medier-floden-heading">Följ våra senaste <em>uppdateringar</em></h2>
         <div class="rr-contact-method-grid">
           <article class="rr-contact-method-card rr-social-platform-card">
             <div class="rr-social-platform-header">
