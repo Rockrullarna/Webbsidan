@@ -5,8 +5,10 @@ header('Content-Type: application/json; charset=utf-8');
 
 // #region Config
 $cacheTtlSeconds = 15 * 60;
+$cacheSchemaVersion = 3;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
+const DANS_BASE_URL = 'https://dans.se';
 $days = filter_input(
     INPUT_GET,
     'days',
@@ -124,9 +126,9 @@ function decode_cache_payload(string $payload): ?array
 function encode_cache_payload(array $events, array $meta): string
 {
     $payload = json_encode([
-        'events' => $events,
-        'meta' => $meta
-    ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        'meta' => $meta,
+        'events' => $events
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
     if ($payload === false) {
         throw new RuntimeException('Kunde inte skapa cache-payload.');
@@ -138,14 +140,19 @@ function encode_cache_payload(array $events, array $meta): string
 function build_response_payload(array $events, array $meta, bool $debug): string
 {
     // Normal trafik får bara en flat lista. Debug-läge får både events och meta.
-    $payload = $debug ? ['events' => $events, 'debug' => $meta] : $events;
-    $encoded = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $payload = $debug ? ['meta' => $meta, 'events' => $events] : $events;
+    $encoded = json_encode($payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
     if ($encoded === false) {
         throw new RuntimeException('Kunde inte skapa svarspayload.');
     }
 
     return $encoded;
+}
+
+function is_current_cache_version(array $meta, int $cacheSchemaVersion): bool
+{
+    return (int) ($meta['schemaVersion'] ?? 0) === $cacheSchemaVersion;
 }
 // #endregion
 
@@ -172,35 +179,6 @@ function extract_month_day(string $headingText): ?array
 function build_date_string(int $year, int $month, int $day): string
 {
     return sprintf('%04d-%02d-%02d', $year, $month, $day);
-}
-
-function extract_event_links(string $eventsJson): array
-{
-    $decoded = json_decode($eventsJson, true);
-    $events = is_array($decoded['events'] ?? null) ? $decoded['events'] : [];
-    $links = [];
-
-    foreach ($events as $event) {
-        $name = trim((string) ($event['name'] ?? $event['title'] ?? ''));
-        if ($name === '') {
-            continue;
-        }
-
-        $url = trim((string) (
-            $event['registration']['url'] ??
-            $event['url'] ??
-            $event['source'] ??
-            ''
-        ));
-
-        if ($url === '') {
-            continue;
-        }
-
-        $links[normalize_text($name)] = $url;
-    }
-
-    return $links;
 }
 
 function parse_events_payload(string $eventsJson): array
@@ -271,19 +249,285 @@ function extract_time_range_from_info(?string $value): ?array
 
 function build_event_url(array $event): ?string
 {
-    $url = trim((string) (
+    return normalize_event_url((string) (
         $event['registration']['url'] ??
         $event['url'] ??
         $event['source'] ??
         ''
     ));
-
-    return $url === '' ? null : $url;
 }
 
-function build_event_key(string $name, string $start, string $location): string
+function normalize_event_url(string $url): ?string
 {
-    return normalize_text($name) . '|' . $start . '|' . normalize_text($location);
+    $url = trim($url);
+    if ($url === '') {
+        return null;
+    }
+
+    if (preg_match('~^https?://~', $url)) {
+        return $url;
+    }
+
+    if (str_starts_with($url, '//')) {
+        return 'https:' . $url;
+    }
+
+    if (str_starts_with($url, '/')) {
+        return DANS_BASE_URL . $url;
+    }
+
+    return null;
+}
+
+function extract_slot_url(DOMElement $slot): ?string
+{
+    $links = $slot->getElementsByTagName('a');
+    if ($links->length === 0) {
+        return null;
+    }
+
+    $firstLink = $links->item(0);
+    $href = $firstLink instanceof DOMElement ? $firstLink->getAttribute('href') : '';
+    $href = html_entity_decode($href, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $href = trim($href);
+    if ($href === '') {
+        return null;
+    }
+
+    return normalize_event_url($href);
+}
+
+function score_location(string $location): int
+{
+    $trimmedLocation = trim($location);
+    if ($trimmedLocation === '') {
+        return 0;
+    }
+
+    $normalizedLocation = normalize_text($trimmedLocation);
+    $score = 20;
+    $wordCount = preg_match_all('/[\p{L}\p{N}]+/u', $trimmedLocation);
+
+    if (preg_match('/\b(okänd|saknas|tba|senare|info)\b/iu', $trimmedLocation)) {
+        $score -= 12;
+    }
+
+    $score += min(20, mb_strlen($normalizedLocation, 'UTF-8'));
+    $score += min(12, (int) $wordCount * 2);
+
+    if (preg_match('/[,()\-\/]/u', $trimmedLocation)) {
+        $score += 3;
+    }
+
+    return max(0, $score);
+}
+
+function select_better_location(string $existingLocation, string $candidateLocation): string
+{
+    $existingLocation = trim($existingLocation);
+    $candidateLocation = trim($candidateLocation);
+
+    if ($existingLocation === '') {
+        return $candidateLocation;
+    }
+
+    if ($candidateLocation === '') {
+        return $existingLocation;
+    }
+
+    $existingNormalized = normalize_text($existingLocation);
+    $candidateNormalized = normalize_text($candidateLocation);
+
+    if ($existingNormalized === $candidateNormalized) {
+        return mb_strlen($candidateLocation, 'UTF-8') > mb_strlen($existingLocation, 'UTF-8')
+            ? $candidateLocation
+            : $existingLocation;
+    }
+
+    if (str_contains($candidateNormalized, $existingNormalized)) {
+        return $candidateLocation;
+    }
+
+    if (str_contains($existingNormalized, $candidateNormalized)) {
+        return $existingLocation;
+    }
+
+    return score_location($candidateLocation) > score_location($existingLocation)
+        ? $candidateLocation
+        : $existingLocation;
+}
+
+function build_event_key(string $name, string $start, string $end): string
+{
+    return normalize_text($name) . '|' . $start . '|' . $end;
+}
+
+function build_event_start_key(string $name, string $start): string
+{
+    return normalize_text($name) . '|' . $start;
+}
+
+function create_datetime_from_timestamp(string $value): ?DateTimeImmutable
+{
+    $dateTime = DateTimeImmutable::createFromFormat('Y-m-d H:i:s', $value);
+    return $dateTime === false ? null : $dateTime;
+}
+
+function add_event_url_lookup(array &$urlsByExactKey, array &$urlsByStartKey, string $name, DateTimeImmutable $start, DateTimeImmutable $end, string $url): void
+{
+    $formattedStart = $start->format('Y-m-d H:i:s');
+    $formattedEnd = $end->format('Y-m-d H:i:s');
+    $urlsByExactKey[build_event_key($name, $formattedStart, $formattedEnd)] = $url;
+    $urlsByStartKey[build_event_start_key($name, $formattedStart)] = $url;
+}
+
+function build_event_url_lookups(array $sourceEvents): array
+{
+    $urlsByExactKey = [];
+    $urlsByStartKey = [];
+    $recurringEvents = [];
+
+    foreach ($sourceEvents as $event) {
+        $name = trim((string) ($event['name'] ?? $event['title'] ?? ''));
+        $schedule = is_array($event['schedule'] ?? null) ? $event['schedule'] : [];
+        $startInfo = is_array($schedule['start'] ?? null) ? $schedule['start'] : [];
+        $endInfo = is_array($schedule['end'] ?? null) ? $schedule['end'] : [];
+        $timeRange = extract_time_range_from_info((string) ($schedule['dayAndTimeInfo'] ?? ''));
+        $url = build_event_url($event);
+
+        if ($name === '' || $url === null || empty($startInfo['date'])) {
+            continue;
+        }
+
+        $startTime = (string) ($startInfo['time'] ?? ($timeRange['startTime'] ?? '00:00:00'));
+        $endTime = (string) ($endInfo['time'] ?? ($timeRange['endTime'] ?? $startTime));
+        $eventStart = create_datetime((string) $startInfo['date'], $startTime);
+        if ($eventStart === null) {
+            continue;
+        }
+
+        $endDate = (string) ($endInfo['date'] ?? $startInfo['date']);
+        $eventEnd = create_datetime($endDate, $endTime);
+        if ($eventEnd === null) {
+            $eventEnd = $eventStart;
+        }
+
+        if ($eventEnd < $eventStart) {
+            $eventEnd = $eventEnd->modify('+1 day');
+        }
+
+        $plannedOccasions = max(1, (int) ($schedule['numberOfPlannedOccasions'] ?? 0));
+        if ($plannedOccasions <= 1) {
+            add_event_url_lookup($urlsByExactKey, $urlsByStartKey, $name, $eventStart, $eventEnd, $url);
+            continue;
+        }
+
+        $occasions = is_array($schedule['occasions'] ?? null) ? $schedule['occasions'] : [];
+        if (!empty($occasions)) {
+            $defaultDurationSeconds = max(0, $eventEnd->getTimestamp() - $eventStart->getTimestamp());
+
+            foreach ($occasions as $occasion) {
+                $occasionStart = create_datetime_from_timestamp((string) ($occasion['startDateTime'] ?? ''));
+                if ($occasionStart === null) {
+                    continue;
+                }
+
+                $occasionEnd = create_datetime_from_timestamp((string) ($occasion['endDateTime'] ?? ''));
+                if ($occasionEnd === null) {
+                    $occasionLength = max(0, (int) ($occasion['length'] ?? $defaultDurationSeconds));
+                    $occasionEnd = $occasionStart->modify('+' . $occasionLength . ' seconds');
+                }
+
+                if ($occasionEnd === false) {
+                    $occasionEnd = $occasionStart;
+                }
+
+                add_event_url_lookup($urlsByExactKey, $urlsByStartKey, $name, $occasionStart, $occasionEnd, $url);
+            }
+        }
+
+        $recurringEvents[] = [
+            'name' => normalize_text($name),
+            'start' => $eventStart,
+            'end' => $eventEnd,
+            'startTime' => $eventStart->format('H:i:s'),
+            'endTime' => $eventEnd->format('H:i:s'),
+            'endDate' => $endInfo['date'] ?? null,
+            'dayOfWeek' => (int) ($startInfo['dayOfWeek'] ?? 0),
+            'plannedOccasions' => $plannedOccasions,
+            'url' => $url
+        ];
+    }
+
+    return [
+        'exact' => $urlsByExactKey,
+        'start' => $urlsByStartKey,
+        'recurring' => $recurringEvents
+    ];
+}
+
+function find_matching_event_url(array $eventUrlLookups, string $name, string $start, string $end): ?string
+{
+    $exactKey = build_event_key($name, $start, $end);
+    if (isset($eventUrlLookups['exact'][$exactKey])) {
+        return $eventUrlLookups['exact'][$exactKey];
+    }
+
+    $startKey = build_event_start_key($name, $start);
+    if (isset($eventUrlLookups['start'][$startKey])) {
+        return $eventUrlLookups['start'][$startKey];
+    }
+
+    $scheduleStart = create_datetime_from_timestamp($start);
+    if ($scheduleStart === null) {
+        return null;
+    }
+
+    $scheduleEnd = create_datetime_from_timestamp($end);
+    $normalizedName = normalize_text($name);
+
+    foreach ($eventUrlLookups['recurring'] ?? [] as $recurringEvent) {
+        if ($recurringEvent['name'] !== $normalizedName) {
+            continue;
+        }
+
+        if ($scheduleStart->format('H:i:s') !== $recurringEvent['startTime']) {
+            continue;
+        }
+
+        if ($scheduleStart < $recurringEvent['start']) {
+            continue;
+        }
+
+        if ((int) $scheduleStart->format('N') !== (int) $recurringEvent['dayOfWeek']) {
+            continue;
+        }
+
+        if (!empty($recurringEvent['endDate'])) {
+            $seriesEndDate = DateTimeImmutable::createFromFormat('Y-m-d', (string) $recurringEvent['endDate']);
+            if ($seriesEndDate !== false && $scheduleStart->format('Y-m-d') > $seriesEndDate->format('Y-m-d')) {
+                continue;
+            }
+        } else {
+            $intervalDays = (int) $recurringEvent['start']->diff($scheduleStart)->format('%a');
+            if ($intervalDays % 7 !== 0) {
+                continue;
+            }
+
+            $occurrenceIndex = (int) floor($intervalDays / 7);
+            if ($occurrenceIndex >= (int) $recurringEvent['plannedOccasions']) {
+                continue;
+            }
+        }
+
+        if ($scheduleEnd !== null && $scheduleEnd->format('H:i:s') !== $recurringEvent['endTime']) {
+            continue;
+        }
+
+        return $recurringEvent['url'];
+    }
+
+    return null;
 }
 
 function append_unique_event(array &$events, array &$eventKeys, array $event): void
@@ -291,20 +535,40 @@ function append_unique_event(array &$events, array &$eventKeys, array $event): v
     $key = build_event_key(
         (string) ($event['name'] ?? ''),
         (string) ($event['start'] ?? ''),
-        (string) ($event['location'] ?? '')
+        (string) ($event['end'] ?? '')
     );
 
-    if ($key === '||' || isset($eventKeys[$key])) {
+    if ($key === '||') {
         return;
     }
 
-    $eventKeys[$key] = true;
+    if (isset($eventKeys[$key])) {
+        $existingIndex = $eventKeys[$key];
+        $existingEvent = $events[$existingIndex];
+
+        if (($existingEvent['url'] ?? null) === null && !empty($event['url'])) {
+            $events[$existingIndex]['url'] = $event['url'];
+        }
+
+        $events[$existingIndex]['location'] = select_better_location(
+            (string) ($existingEvent['location'] ?? ''),
+            (string) ($event['location'] ?? '')
+        );
+
+        if (($existingEvent['end'] ?? '') === '' && !empty($event['end'])) {
+            $events[$existingIndex]['end'] = $event['end'];
+        }
+
+        return;
+    }
+
+    $eventKeys[$key] = count($events);
     $events[] = $event;
 }
 // #endregion
 
 // #region Source Parsers
-function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
+function parse_schedule_events(string $scheduleHtml, array $eventUrlLookups): array
 {
     libxml_use_internal_errors(true);
     $dom = new DOMDocument();
@@ -363,14 +627,15 @@ function parse_schedule_events(string $scheduleHtml, array $eventLinks): array
                 $name = $parsedSlot['title'];
                 $start = $dateString . ' ' . $parsedSlot['startTime'];
                 $end = $dateString . ' ' . $parsedSlot['endTime'];
-                $normalizedTitle = normalize_text($name);
+                $eventUrl = find_matching_event_url($eventUrlLookups, $name, $start, $end)
+                    ?? extract_slot_url($slot);
 
                 append_unique_event($events, $eventKeys, [
                     'name' => $name,
                     'start' => $start,
                     'end' => $end,
                     'location' => $location,
-                    'url' => $eventLinks[$normalizedTitle] ?? null
+                    'url' => $eventUrl
                 ]);
             }
         }
@@ -393,7 +658,6 @@ function parse_api_events(string $eventsJson, int $days): array
         $schedule = is_array($event['schedule'] ?? null) ? $event['schedule'] : [];
         $startInfo = is_array($schedule['start'] ?? null) ? $schedule['start'] : [];
         $endInfo = is_array($schedule['end'] ?? null) ? $schedule['end'] : [];
-        $plannedOccasions = (int) ($schedule['numberOfPlannedOccasions'] ?? 0);
         $timeRange = extract_time_range_from_info((string) ($schedule['dayAndTimeInfo'] ?? ''));
         $eventUrl = build_event_url($event);
 
@@ -407,46 +671,37 @@ function parse_api_events(string $eventsJson, int $days): array
             continue;
         }
 
-        $defaultEndTime = (string) ($endInfo['time'] ?? ($timeRange['endTime'] ?? $startTime));
-        $seriesEndDate = (string) ($endInfo['date'] ?? '');
-        $occurrenceCount = max(1, $plannedOccasions);
-
-        for ($index = 0; $index < $occurrenceCount; $index += 1) {
-            // API:t returnerar ofta en serie, inte alla enskilda tillfällen.
-            // Här expanderas serien veckovis så att den kan jämföras med schedule-källan.
-            $occurrenceStart = $seriesStart->modify('+' . ($index * 7) . ' days');
-            if ($occurrenceStart === false) {
-                continue;
-            }
-
-            if ($occurrenceStart < $today || $occurrenceStart > $cutoff) {
-                continue;
-            }
-
-            $occurrenceEnd = create_datetime($occurrenceStart->format('Y-m-d'), $defaultEndTime);
-            if ($occurrenceEnd === null) {
-                $occurrenceEnd = $occurrenceStart;
-            }
-
-            if ($occurrenceEnd < $occurrenceStart) {
-                $occurrenceEnd = $occurrenceEnd->modify('+1 day');
-            }
-
-            if ($seriesEndDate !== '') {
-                $seriesEndLimit = create_datetime($seriesEndDate, '23:59:59');
-                if ($seriesEndLimit !== null && $occurrenceStart > $seriesEndLimit) {
-                    break;
-                }
-            }
-
-            append_unique_event($events, $eventKeys, [
-                'name' => $name,
-                'start' => $occurrenceStart->format('Y-m-d H:i:s'),
-                'end' => $occurrenceEnd->format('Y-m-d H:i:s'),
-                'location' => $location,
-                'url' => $eventUrl
-            ]);
+        $plannedOccasions = max(1, (int) ($schedule['numberOfPlannedOccasions'] ?? 0));
+        if ($plannedOccasions > 1) {
+            continue;
         }
+
+        $defaultEndTime = (string) ($endInfo['time'] ?? ($timeRange['endTime'] ?? $startTime));
+        $eventEndDate = (string) ($endInfo['date'] ?? $startInfo['date']);
+        $eventEnd = create_datetime($eventEndDate, $defaultEndTime);
+
+        // Återkommande serier ska inte synas som egna poster här, eftersom API:t
+        // då bara beskriver serien och inte nödvändigtvis de faktiska tillfällena.
+        // Kvar här blir enbart explicita engångsposter från API:t.
+        if ($seriesStart < $today || $seriesStart > $cutoff) {
+            continue;
+        }
+
+        if ($eventEnd === null) {
+            $eventEnd = $seriesStart;
+        }
+
+        if ($eventEnd < $seriesStart) {
+            $eventEnd = $eventEnd->modify('+1 day');
+        }
+
+        append_unique_event($events, $eventKeys, [
+            'name' => $name,
+            'start' => $seriesStart->format('Y-m-d H:i:s'),
+            'end' => $eventEnd->format('Y-m-d H:i:s'),
+            'location' => $location,
+            'url' => $eventUrl
+        ]);
     }
 
     return $events;
@@ -480,7 +735,7 @@ try {
     $cachedPayload = read_cache_if_fresh($cacheFile, $cacheTtlSeconds);
     if ($cachedPayload !== null) {
         $cachedData = decode_cache_payload($cachedPayload);
-        if ($cachedData !== null) {
+        if ($cachedData !== null && is_current_cache_version($cachedData['meta'], $cacheSchemaVersion)) {
             $cacheMeta = $cachedData['meta'];
             $cacheMeta['cache'] = [
                 'status' => 'fresh',
@@ -491,20 +746,20 @@ try {
             echo build_response_payload($cachedData['events'], $cacheMeta, $debug);
             return;
         }
-
-        return;
     }
 
     $eventsJson = fetch_remote_text($eventsUrl);
     $scheduleHtml = fetch_remote_text($scheduleUrl);
-    $eventLinks = extract_event_links($eventsJson);
 
     // Schedule är huvudkälla för faktiska visningstillfällen.
     // API:t används både för kompletterande poster och för att hitta bokningslänkar.
-    $scheduleEvents = parse_schedule_events($scheduleHtml, $eventLinks);
+    $sourceEvents = parse_events_payload($eventsJson);
     $apiEvents = parse_api_events($eventsJson, $days);
+    $eventUrlLookups = build_event_url_lookups($sourceEvents);
+    $scheduleEvents = parse_schedule_events($scheduleHtml, $eventUrlLookups);
     $mergedEvents = merge_events($scheduleEvents, $apiEvents);
     $meta = [
+        'schemaVersion' => $cacheSchemaVersion,
         'org' => $org,
         'days' => $days,
         'generatedAt' => date('c'),
@@ -528,7 +783,7 @@ try {
     if ($stalePayload !== null) {
         // Om dans.se inte svarar just nu använder vi senaste cache i stället för tom kalender.
         $staleData = decode_cache_payload($stalePayload);
-        if ($staleData !== null) {
+        if ($staleData !== null && is_current_cache_version($staleData['meta'], $cacheSchemaVersion)) {
             $staleMeta = $staleData['meta'];
             $staleMeta['cache'] = [
                 'status' => 'stale',

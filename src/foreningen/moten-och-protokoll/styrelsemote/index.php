@@ -2,33 +2,65 @@
   $header_title = "Styrelsemöte - Möten och protokoll - Föreningen";
   $header_description = "Här finner du våra publika styrelsemöte-protokoll från olika möten vi genomfört";
 
-  $page_updated = "2025-03-10 17:59";
+  $page_updated = "2026-04-04 22:10";
   $page_url = "/foreningen/moten-och-protokoll/styrelsemote";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Möten och protokoll</a> / <span>Styrelsemöte</span>
+    <div class="rr-page-shell rr-association-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Föreningen</a> / <a href="../">Möten och protokoll</a> / <span>Styrelsemöte</span>
+      </div>
+
+      <section class="rr-association-layout" aria-labelledby="styrelsemote-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Löpande styrelsearbete</p>
+          <h1 id="styrelsemote-heading">Styrelsemöte</h1>
+          <p class="rr-association-lead">Här samlas protokoll från våra styrelsemöten, så att medlemmar och intresserade kan följa föreningens löpande arbete.</p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="styrelsemote-info-heading">
+          <p class="rr-style-label" aria-hidden="true">Arkiv</p>
+          <h2 id="styrelsemote-info-heading">Om visningen</h2>
+          <div class="rr-association-meta">
+            <div class="rr-association-meta-item">
+              <strong>Publik mapp</strong>
+              <p>Det publika SharePoint-arkivet innehåller de protokoll som delas öppet.</p>
+            </div>
+            <div class="rr-association-meta-item">
+              <strong>Tips</strong>
+              <p>Sidan fungerar oftast bäst på dator, då mobilen gärna försöker öppna SharePoint i app.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="styrelsemote-lankar-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Protokoll och dokument</p>
+            <h2 id="styrelsemote-lankar-heading">Styrelsemötesprotokoll</h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-links-grid">
+          <a class="rr-courses-link-card" href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBDEypef0qldzu1QfBHXShQQ?e=UOi6iC" target="_blank" rel="noopener" title="Rockrullarnas styrelsemötesprotokoll">
+            <span class="rr-courses-link-kicker">Publikt</span>
+            <h3>Öppna SharePoint-mappen</h3>
+            <p>Visa de styrelsemötesprotokoll som delas offentligt via föreningens SharePoint.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten" target="_blank" rel="noopener" title="Rockrullarnas styrelsemötesarkiv">
+            <span class="rr-courses-link-kicker">Kräver inloggning</span>
+            <h3>Internt arkiv</h3>
+            <p>Direktlänk till den underliggande SharePoint-strukturen för styrelsemöten.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </section>
     </div>
-    <h1>
-      Styrelsemöte
-    </h1>
-    <p>Här nedan samlas protokoll från våra styrelsemöten.</p>
-    <p>&nbsp;</p>
-    <h2>Protokollen för styrelsemöten</h2>
-    <p>Här finns protokoll från våra styrelsemöten. Sidan visas enklast och bäst via en dator, då mobilen vill öppna länken via OneDrive/SharePoint appen...</p>
-    <p>
-      <a href="https://rockrullarna.sharepoint.com/:f:/s/Protokoll/EvNLMg1XLj9HjApCpGG3ASgBDEypef0qldzu1QfBHXShQQ?e=UOi6iC" target="_blank" title="Rockrullarnas styrelsemötesprotokoll (öppnas i nytt fönster)">
-        <span style="font-size: x-large;">Styrelsemötesprotokoll (Publikt på SharePoint)</span>
-      </a>
-    </p>
-    <p class="word-wrap">
-      <a href="https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten" target="_blank" title="Rockrullarnas styrelsemötesprotokoll (öppnas i nytt fönster)">
-      https://rockrullarna.sharepoint.com/sites/Protokoll/Delade%20dokument/Styrelsemöten
-      </a> (kräver inloggning)
-    </p>
 
     <!--
     <p>

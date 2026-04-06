@@ -31,6 +31,10 @@ Därför används:
 1. schedule-vyn som primär källa för faktiska tillfällen
 2. public events-API:t som kompletterande källa för länkar och poster som annars saknas
 
+Länkar till dans.se matchas per faktiskt tillfälle, inte bara per namn.
+
+Det betyder att återkommande kurser med samma titel i olika terminer inte ska återanvända gamla event-id:n. Om ingen säker match finns blir `url` i stället `null`.
+
 ## Svarformat
 
 Normal användning:
@@ -51,16 +55,7 @@ Debug-läge:
 
 ```json
 {
-  "events": [
-    {
-      "name": "Exempelaktivitet",
-      "start": "2026-04-13 18:00:00",
-      "end": "2026-04-13 20:00:00",
-      "location": "Lilla salen",
-      "url": null
-    }
-  ],
-  "debug": {
+  "meta": {
     "org": "rockrullarna",
     "days": 180,
     "sources": {
@@ -73,7 +68,16 @@ Debug-läge:
       "ttlSeconds": 900,
       "file": "calendar-rockrullarna-180.json"
     }
-  }
+  },
+  "events": [
+    {
+      "name": "Exempelaktivitet",
+      "start": "2026-04-13 18:00:00",
+      "end": "2026-04-13 20:00:00",
+      "location": "Lilla salen",
+      "url": null
+    }
+  ]
 }
 ```
 
@@ -100,6 +104,18 @@ Nuvarande cachepolicy:
 1. TTL: 15 minuter
 2. om cache är färsk returneras den direkt
 3. om livehämtning misslyckas används stale cache om sådan finns
+
+För lokal utveckling kan du rensa cache med:
+
+```powershell
+.\dev-scripts\clear-cache.ps1
+```
+
+Och både rensa och bygga upp den igen med:
+
+```powershell
+.\dev-scripts\clear-cache.ps1 -Rebuild
+```
 
 ## Driftflöde
 

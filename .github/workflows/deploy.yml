@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Add version.txt file
-        run: echo "v13.$(date +'%Y%m%d').$(date +'%H%M')" > ./src/version.txt
+        run: echo "v14.$(date +'%Y%m%d').$(date +'%H%M')" > ./src/version.txt
 
       - name: Deploy files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4

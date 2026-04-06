@@ -2,26 +2,97 @@
   $header_title = "Frågor och svar (FAQ)";
   $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
-  $page_updated = "2025-01-23 23:26";
+  $page_updated = "2026-04-04 23:45";
   $page_url = "/kontakt/fragor-och-svar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
   include_once '../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../">Rockrullarna.se</a> / <a href="../">Kontakt</a> / <span>Frågor och svar</span>
-    </div>
-    <h1>Vanliga frågor och svar (FAQ)</h1>
-    <p>
-      Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
-    </p>
+    <div class="rr-page-shell rr-association-page rr-contact-page rr-contact-faq">
+      <div id="BreadCrumbsDiv">
+        <a href="../../">Rockrullarna.se</a> / <a href="../">Kontakt</a> / <span>Frågor och svar</span>
+      </div>
 
-    <h2 id="dans-se" class="FAQCategoryHeading">
+      <section class="rr-association-layout" aria-labelledby="faq-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Självhjälp och guider</p>
+          <h1 id="faq-heading">Vanliga frågor och <em>svar</em></h1>
+          <p class="rr-association-lead">
+            Här har vi samlat svar på frågor som ofta kommer in till föreningen. Du hittar guider
+            för dans.se, friskvårdsbetalning med ePassi och hur du ansluter till digitala möten.
+          </p>
+          <p class="rr-association-lead">
+            Om du inte hittar det du söker här kan du alltid gå vidare till vår hjälpsida eller
+            mejla oss så hjälper vi dig vidare.
+          </p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="faq-snabblankar-heading">
+          <p class="rr-style-label" aria-hidden="true">Hoppa direkt</p>
+          <h2 id="faq-snabblankar-heading">Vanliga ämnen</h2>
+          <ul class="rr-association-list">
+            <li><strong>Dans.se</strong><br /><a href="#dans-se" title="Gå till avsnittet Dans.se">Inloggning, kontouppgifter och betalning</a></li>
+            <li><strong>Friskvård</strong><br /><a href="#friskvard-ePassi" title="Gå till avsnittet Friskvård med ePassi">Betala med ePassi</a></li>
+            <li><strong>Digitala möten</strong><br /><a href="#teams-mote" title="Gå till avsnittet Teams-möte">Teams</a> och <a href="#zoom-mote" title="Gå till avsnittet Zoom-möte">Zoom</a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="faq-genvagar-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Genvägar</p>
+            <h2 id="faq-genvagar-heading">Hitta rätt <em>hjälp</em></h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-links-grid">
+          <a class="rr-courses-link-card" href="#dans-se" title="Gå till frågor om dans.se">
+            <span class="rr-courses-link-kicker">System och bokningar</span>
+            <h3>Dans.se</h3>
+            <p>Hjälp med inloggning, personuppgifter och betalning av socialdanskvällar.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#friskvard-ePassi" title="Gå till frågor om ePassi">
+            <span class="rr-courses-link-kicker">Friskvårdsbidrag</span>
+            <h3>ePassi</h3>
+            <p>Steg för steg-guide till hur du loggar in och betalar med friskvårdsappen.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#teams-mote" title="Gå till frågor om Teams">
+            <span class="rr-courses-link-kicker">Digitala möten</span>
+            <h3>Teams</h3>
+            <p>Så ansluter du till mötet och vad som är bra att tänka på under mötets gång.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#zoom-mote" title="Gå till frågor om Zoom">
+            <span class="rr-courses-link-kicker">Digitala möten</span>
+            <h3>Zoom</h3>
+            <p>Guider för mobil, dator och webbläsare när du ska delta i ett Zoom-möte.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="../hjalp" title="Gå till hjälpsidan">
+            <span class="rr-courses-link-kicker">Behöver du mer stöd?</span>
+            <h3>Hjälp</h3>
+            <p>Överblick över hur du snabbast får rätt hjälp beroende på vad ditt ärende gäller.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="../skicka-arende-eller-fraga" title="Gå till sidan Skicka ärende eller fråga">
+            <span class="rr-courses-link-kicker">Kontakta rätt funktion</span>
+            <h3>Skicka ärende eller fråga</h3>
+            <p>Välj rätt mejladress för info, kurser, ekonomi, styrelse eller valberedning.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="dans-se">
+        <h2 id="dans-se" class="FAQCategoryHeading">
         Dans.se
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-DansSe">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-DansSe">
       <div class="accordion-item">
         <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
@@ -36,7 +107,7 @@
               <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
               <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
               <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
-              <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>" </li>
+              <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class='linkSmallIconLeft smallIconEdit' href='https://dans.se/myaccount/edit/contact_info/'>Mina personuppgifter</a>".</li>
               <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
             </ol>
             <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
@@ -65,7 +136,7 @@
         </h3>
         <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
           <div class="accordion-body">
-            <p> OBS! Detta gäller endast för <a href ="./danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
+            <p> OBS! Detta gäller endast för <a href="/danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
             <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
             <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
             <ol>
@@ -93,13 +164,15 @@
           </div>
         </div>
       </div>
-    </div>
+        </div>
+      </section>
 
-    <h2 id="friskvard-ePassi" class="FAQCategoryHeading">
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="friskvard-ePassi">
+        <h2 id="friskvard-ePassi" class="FAQCategoryHeading">
       Friskvård med ePassi
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-friskvard-epassi">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-friskvard-epassi">
       <div class="accordion-item">
         <h3 id="friskvardsbetalning-med-epassi" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-friskvard-epassi-One" aria-expanded="false" aria-controls="panelsStayOpen-collapse-friskvard-epassi-One">
@@ -173,18 +246,20 @@
             <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
             <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-13-tips-om-belopp.jpg" alt="ePassi Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p>
             <p><br /><br /><br /></p>
-            <p>Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-ePassi">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-ePassi</a></p>
+            <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-epassi">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-epassi</a></p>
           </div>
         </div>
       </div>
-    </div>
+        </div>
+      </section>
 
 
-    <h2 id="teams-mote" class="FAQCategoryHeading">
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="teams-mote">
+        <h2 id="teams-mote" class="FAQCategoryHeading">
       Teams-möte
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-Teams">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-Teams">
       <div class="accordion-item">
         <h3 id="teams-ansluta-till-mote" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTeamsOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseTeamsOne">
@@ -229,13 +304,15 @@
           </div>
         </div>
       </div>
-    </div>
+        </div>
+      </section>
 
-    <h2 id="zoom-mote" class="FAQCategoryHeading">
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="zoom-mote">
+        <h2 id="zoom-mote" class="FAQCategoryHeading">
       Zoom-möte
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-Zoom">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-Zoom">
       <div class="accordion-item">
         <h3 id="zoom-ansluta-till-mote-via-mobil" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseZoomOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseZoomOne">
@@ -303,7 +380,98 @@
           </div>
         </div>
       </div>
+        </div>
+      </section>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        function findHashTarget(hash) {
+          if (!hash || hash.length < 2) {
+            return null;
+          }
+
+          var targetId = decodeURIComponent(hash.slice(1));
+
+          if (!targetId) {
+            return null;
+          }
+
+          return document.getElementById(targetId);
+        }
+
+        function getScrollAnchor(target) {
+          if (!target) {
+            return null;
+          }
+
+          var accordionItem = target.closest('.accordion-item');
+
+          if (accordionItem) {
+            return accordionItem.querySelector('.accordion-button') || target;
+          }
+
+          return target;
+        }
+
+        function getFixedHeaderOffset() {
+          var navbar = document.querySelector('.navbar.fixed-top');
+          var headerHeight = navbar ? navbar.getBoundingClientRect().height : 0;
+
+          return headerHeight + 20;
+        }
+
+        function scrollTargetIntoView(target) {
+          var scrollTarget = getScrollAnchor(target);
+
+          if (!scrollTarget) {
+            return;
+          }
+
+          window.requestAnimationFrame(function () {
+            var top = window.scrollY + scrollTarget.getBoundingClientRect().top - getFixedHeaderOffset();
+
+            window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+          });
+        }
+
+        function openFaqTargetFromHash() {
+          var target = findHashTarget(window.location.hash);
+
+          if (!target) {
+            return;
+          }
+
+          var collapseElement = target.classList.contains('accordion-collapse')
+            ? target
+            : target.closest('.accordion-item')
+              ? target.closest('.accordion-item').querySelector('.accordion-collapse')
+              : null;
+
+          if (!collapseElement || typeof bootstrap === 'undefined' || !bootstrap.Collapse) {
+            scrollTargetIntoView(target);
+            return;
+          }
+
+          var collapse = bootstrap.Collapse.getOrCreateInstance(collapseElement, { toggle: false });
+
+          if (collapseElement.classList.contains('show')) {
+            scrollTargetIntoView(target);
+            return;
+          }
+
+          collapseElement.addEventListener('shown.bs.collapse', function handleShown() {
+            collapseElement.removeEventListener('shown.bs.collapse', handleShown);
+            scrollTargetIntoView(target);
+          });
+
+          collapse.show();
+        }
+
+        openFaqTargetFromHash();
+        window.addEventListener('hashchange', openFaqTargetFromHash);
+      });
+    </script>
 
 <?php
   include_once '../../includes/footer.php'

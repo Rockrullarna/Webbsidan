@@ -1,1 +1,937 @@
-{"events":[{"name":"West Coast Swing - Workshop kurs (fortsättning) fredagar","start":"2026-04-03 18:00:00","end":"2026-04-03 19:00:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=266011"},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-05 15:00:00","end":"2026-04-05 16:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-04-05 16:00:00","end":"2026-04-05 17:00:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-04-05 17:05:00","end":"2026-04-05 18:05:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-04-05 18:10:00","end":"2026-04-05 19:10:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-04-06 18:00:00","end":"2026-04-06 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg - Steg 4 (avancerad) måndag","start":"2026-04-06 18:00:00","end":"2026-04-06 19:00:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=265999"},{"name":"Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)","start":"2026-04-06 19:00:00","end":"2026-04-06 21:00:00","location":"Stora Salen","url":"https://dans.se/rockrullarna/shop/new?event=266004"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-04-07 18:00:00","end":"2026-04-07 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-07 19:00:00","end":"2026-04-07 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-07 19:00:00","end":"2026-04-07 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"West Coast Swing - Steg 1 (nybörjare) onsdagar","start":"2026-04-08 18:00:00","end":"2026-04-08 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266008"},{"name":"West Coast Swing - Steg 2 (fortsättning) onsdagar","start":"2026-04-08 19:10:00","end":"2026-04-08 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266009"},{"name":"West Coast Swing - Steg 3 (medelavancerad) onsdagar","start":"2026-04-08 20:20:00","end":"2026-04-08 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266010"},{"name":"Fox - Steg 2 (fortsättning) torsdagar","start":"2026-04-09 18:00:00","end":"2026-04-09 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266005"},{"name":"Fox - Steg 1 (nybörjare) torsdagar","start":"2026-04-09 19:10:00","end":"2026-04-09 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266003"},{"name":"Fox - Steg 4 (avancerad) torsdagar","start":"2026-04-09 20:20:00","end":"2026-04-09 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266007"},{"name":"West Coast Swing - Workshop kurs (fortsättning) fredagar","start":"2026-04-10 18:00:00","end":"2026-04-10 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266011"},{"name":"West Coast Swing fri-träningskväll fre 10 april (gratis för medlemmar)","start":"2026-04-10 19:00:00","end":"2026-04-10 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=274413"},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-12 15:00:00","end":"2026-04-12 16:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-12 15:00:00","end":"2026-04-12 16:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-04-12 16:00:00","end":"2026-04-12 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-04-12 17:05:00","end":"2026-04-12 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-04-12 18:10:00","end":"2026-04-12 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-04-12 19:20:00","end":"2026-04-12 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-04-13 18:00:00","end":"2026-04-13 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg - Steg 4 (avancerad) måndag","start":"2026-04-13 18:00:00","end":"2026-04-13 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265999"},{"name":"Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)","start":"2026-04-13 19:00:00","end":"2026-04-13 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266004"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-04-14 18:00:00","end":"2026-04-14 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-14 19:00:00","end":"2026-04-14 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-14 19:00:00","end":"2026-04-14 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"West Coast Swing - Steg 1 (nybörjare) onsdagar","start":"2026-04-15 18:00:00","end":"2026-04-15 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266008"},{"name":"West Coast Swing - Steg 2 (fortsättning) onsdagar","start":"2026-04-15 19:10:00","end":"2026-04-15 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266009"},{"name":"West Coast Swing - Steg 3 (medelavancerad) onsdagar","start":"2026-04-15 20:20:00","end":"2026-04-15 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266010"},{"name":"Fox - Steg 2 (fortsättning) torsdagar","start":"2026-04-16 18:00:00","end":"2026-04-16 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266005"},{"name":"Fox - Steg 1 (nybörjare) torsdagar","start":"2026-04-16 19:10:00","end":"2026-04-16 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266003"},{"name":"Fox - Steg 4 (avancerad) torsdagar","start":"2026-04-16 20:20:00","end":"2026-04-16 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266007"},{"name":"West Coast Swing - Workshop kurs (fortsättning) fredagar","start":"2026-04-17 18:00:00","end":"2026-04-17 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266011"},{"name":"Trivselkväll Bugg/fox 17 april","start":"2026-04-17 19:30:00","end":"2026-04-17 22:30:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=274763"},{"name":"Bugg Tävlings Workshop Pontus o Anna","start":"2026-04-18 10:00:00","end":"2026-04-18 16:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276729"},{"name":"Bugg Tävlings Workshop Pontus o Anna","start":"2026-04-18 10:00:00","end":"2026-04-18 16:00:00","location":"Haga centrum","url":"https://dans.se/rockrullarna/shop/new?event=276729"},{"name":"Bokat","start":"2026-04-18 15:00:00","end":"2026-04-18 21:00:00","location":"Stora salen","url":null},{"name":"Bokat","start":"2026-04-19 10:00:00","end":"2026-04-19 14:00:00","location":"Stora salen","url":null},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-19 15:00:00","end":"2026-04-19 16:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-19 15:00:00","end":"2026-04-19 16:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-04-19 16:00:00","end":"2026-04-19 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-04-19 17:05:00","end":"2026-04-19 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-04-19 18:10:00","end":"2026-04-19 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-04-19 19:20:00","end":"2026-04-19 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-04-20 18:00:00","end":"2026-04-20 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg - Steg 4 (avancerad) måndag","start":"2026-04-20 18:00:00","end":"2026-04-20 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265999"},{"name":"Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)","start":"2026-04-20 19:00:00","end":"2026-04-20 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266004"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-04-21 18:00:00","end":"2026-04-21 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-21 19:00:00","end":"2026-04-21 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"Bugg Tävlingsträning tisdagar","start":"2026-04-21 19:00:00","end":"2026-04-21 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=266014"},{"name":"West Coast Swing - Steg 1 (nybörjare) onsdagar","start":"2026-04-22 18:00:00","end":"2026-04-22 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266008"},{"name":"West Coast Swing - Steg 2 (fortsättning) onsdagar","start":"2026-04-22 19:10:00","end":"2026-04-22 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266009"},{"name":"West Coast Swing - Steg 3 (medelavancerad) onsdagar","start":"2026-04-22 20:20:00","end":"2026-04-22 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266010"},{"name":"Fox - Steg 2 (fortsättning) torsdagar","start":"2026-04-23 18:00:00","end":"2026-04-23 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266005"},{"name":"Fox - Steg 1 (nybörjare) torsdagar","start":"2026-04-23 19:10:00","end":"2026-04-23 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266003"},{"name":"Fox - Steg 4 (avancerad) torsdagar","start":"2026-04-23 20:20:00","end":"2026-04-23 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266007"},{"name":"West Coast Swing - Workshop kurs (fortsättning) fredagar","start":"2026-04-24 18:00:00","end":"2026-04-24 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266011"},{"name":"Fox socialdanskväll 24 april","start":"2026-04-24 19:30:00","end":"2026-04-24 22:30:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=274415"},{"name":"West Coast Swing - 25 april - Intensivdag - Avancerad nivå & tävlingsträning - med Johanna och Daniel","start":"2026-04-25 13:00:00","end":"2026-04-25 17:45:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=274455"},{"name":"West Coast Swing socialdanskväll 25 april","start":"2026-04-25 19:00:00","end":"2026-04-25 22:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=273902"},{"name":"Friträning Bugg & Fox (gratis för medlemmar)","start":"2026-04-26 15:00:00","end":"2026-04-26 16:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266015"},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-04-26 16:00:00","end":"2026-04-26 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-04-26 17:05:00","end":"2026-04-26 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-04-26 18:10:00","end":"2026-04-26 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Träningskväll sista söndagen i månaden, 26 april - Men medlemsskap 2026 krävs)","start":"2026-04-26 19:15:00","end":"2026-04-26 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266448"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-04-27 18:00:00","end":"2026-04-27 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg - Steg 4 (avancerad) måndag","start":"2026-04-27 18:00:00","end":"2026-04-27 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265999"},{"name":"Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)","start":"2026-04-27 19:00:00","end":"2026-04-27 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266004"},{"name":"Fox - Steg 2 (fortsättning) torsdagar","start":"2026-04-30 18:00:00","end":"2026-04-30 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266005"},{"name":"Fox - Steg 1 (nybörjare) torsdagar","start":"2026-04-30 19:10:00","end":"2026-04-30 20:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266003"},{"name":"Fox - Steg 4 (avancerad) torsdagar","start":"2026-04-30 20:20:00","end":"2026-04-30 21:20:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266007"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-05-04 18:00:00","end":"2026-05-04 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-04 18:00:00","end":"2026-05-04 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-04 18:00:00","end":"2026-05-04 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Fox socialdanskväll 8 maj","start":"2026-05-08 19:30:00","end":"2026-05-08 22:30:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=274416"},{"name":"Bokat","start":"2026-05-09 10:00:00","end":"2026-05-09 12:30:00","location":"Stora salen","url":null},{"name":"West Coast Swing - 9 maj - Intensivdag - Avancerad nivå & tävlingsträning - med Joachim och Sabina","start":"2026-05-09 13:00:00","end":"2026-05-09 17:45:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=275233"},{"name":"West Coast Swing socialdanskväll 9 maj","start":"2026-05-09 19:00:00","end":"2026-05-09 22:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=273903"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-05-11 18:00:00","end":"2026-05-11 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-11 18:00:00","end":"2026-05-11 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-11 18:00:00","end":"2026-05-11 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"West Coast Swing - 16 maj - Intensivdag - Grundläggande teknik med Sara och Andreas","start":"2026-05-16 10:00:00","end":"2026-05-16 15:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=277324"},{"name":"Bokat","start":"2026-05-16 10:00:00","end":"2026-05-16 21:00:00","location":"Stora salen","url":null},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-05-18 18:00:00","end":"2026-05-18 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-18 18:00:00","end":"2026-05-18 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-18 18:00:00","end":"2026-05-18 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-05-25 18:00:00","end":"2026-05-25 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-25 18:00:00","end":"2026-05-25 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-05-25 18:00:00","end":"2026-05-25 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå","start":"2026-06-01 18:00:00","end":"2026-06-01 20:00:00","location":"Lilla salen","url":null},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-01 18:00:00","end":"2026-06-01 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-01 18:00:00","end":"2026-06-01 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-08 18:00:00","end":"2026-06-08 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-08 18:00:00","end":"2026-06-08 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-15 18:00:00","end":"2026-06-15 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-15 18:00:00","end":"2026-06-15 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-22 18:00:00","end":"2026-06-22 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-22 18:00:00","end":"2026-06-22 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-29 18:00:00","end":"2026-06-29 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-06-29 18:00:00","end":"2026-06-29 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-06 18:00:00","end":"2026-07-06 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-06 18:00:00","end":"2026-07-06 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-13 18:00:00","end":"2026-07-13 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-13 18:00:00","end":"2026-07-13 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-20 18:00:00","end":"2026-07-20 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-20 18:00:00","end":"2026-07-20 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-27 18:00:00","end":"2026-07-27 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-07-27 18:00:00","end":"2026-07-27 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-03 18:00:00","end":"2026-08-03 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-03 18:00:00","end":"2026-08-03 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-10 18:00:00","end":"2026-08-10 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-10 18:00:00","end":"2026-08-10 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-17 18:00:00","end":"2026-08-17 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-17 18:00:00","end":"2026-08-17 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-24 18:00:00","end":"2026-08-24 20:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg Tävlingsträning måndagar","start":"2026-08-24 18:00:00","end":"2026-08-24 20:00:00","location":"Haga Centrum","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Friträning Bugg  (gratis för medlemmar)","start":"2026-09-06 15:00:00","end":"2026-09-06 16:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-09-06 16:00:00","end":"2026-09-06 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-09-06 17:05:00","end":"2026-09-06 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-09-06 18:10:00","end":"2026-09-06 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-09-06 19:20:00","end":"2026-09-06 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-09-07 18:00:00","end":"2026-09-07 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning Måndagar","start":"2026-09-07 19:00:00","end":"2026-09-07 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg - Steg 1 (nybörjare) tisdagar","start":"2026-09-08 18:00:00","end":"2026-09-08 19:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 4 (avancerad) tisdag","start":"2026-09-08 19:05:00","end":"2026-09-08 20:05:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 3 (medel) Tisdagar","start":"2026-09-08 20:10:00","end":"2026-09-08 21:10:00","location":"Stora salen","url":null},{"name":"Friträning Bugg  (gratis för medlemmar)","start":"2026-09-13 15:00:00","end":"2026-09-13 16:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-09-13 16:00:00","end":"2026-09-13 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-09-13 17:05:00","end":"2026-09-13 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-09-13 18:10:00","end":"2026-09-13 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-09-13 19:20:00","end":"2026-09-13 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-09-14 18:00:00","end":"2026-09-14 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning Måndagar","start":"2026-09-14 19:00:00","end":"2026-09-14 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg - Steg 1 (nybörjare) tisdagar","start":"2026-09-15 18:00:00","end":"2026-09-15 19:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 4 (avancerad) tisdag","start":"2026-09-15 19:05:00","end":"2026-09-15 20:05:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 3 (medel) Tisdagar","start":"2026-09-15 20:10:00","end":"2026-09-15 21:10:00","location":"Stora salen","url":null},{"name":"Friträning Bugg  (gratis för medlemmar)","start":"2026-09-20 15:00:00","end":"2026-09-20 16:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-09-20 16:00:00","end":"2026-09-20 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-09-20 17:05:00","end":"2026-09-20 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-09-20 18:10:00","end":"2026-09-20 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-09-20 19:20:00","end":"2026-09-20 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-09-21 18:00:00","end":"2026-09-21 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning Måndagar","start":"2026-09-21 19:00:00","end":"2026-09-21 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg - Steg 1 (nybörjare) tisdagar","start":"2026-09-22 18:00:00","end":"2026-09-22 19:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 4 (avancerad) tisdag","start":"2026-09-22 19:05:00","end":"2026-09-22 20:05:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 3 (medel) Tisdagar","start":"2026-09-22 20:10:00","end":"2026-09-22 21:10:00","location":"Stora salen","url":null},{"name":"Friträning Bugg  (gratis för medlemmar)","start":"2026-09-27 15:00:00","end":"2026-09-27 16:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 1 (nybörjare) söndagar","start":"2026-09-27 16:00:00","end":"2026-09-27 17:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265984"},{"name":"Bugg - Steg 2 (fortsättning) söndagar","start":"2026-09-27 17:05:00","end":"2026-09-27 18:05:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265996"},{"name":"Bugg - Steg 3 (medel) söndagar","start":"2026-09-27 18:10:00","end":"2026-09-27 19:10:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=265998"},{"name":"Bugg - Utveckling (avancerad+) söndagar","start":"2026-09-27 19:20:00","end":"2026-09-27 20:40:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266001"},{"name":"Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar","start":"2026-09-28 18:00:00","end":"2026-09-28 19:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=266002"},{"name":"Bugg Tävlingsträning Måndagar","start":"2026-09-28 19:00:00","end":"2026-09-28 21:00:00","location":"Stora salen","url":"https://dans.se/rockrullarna/shop/new?event=276708"},{"name":"Bugg - Steg 1 (nybörjare) tisdagar","start":"2026-09-29 18:00:00","end":"2026-09-29 19:00:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 4 (avancerad) tisdag","start":"2026-09-29 19:05:00","end":"2026-09-29 20:05:00","location":"Stora salen","url":null},{"name":"Bugg - Steg 3 (medel) Tisdagar","start":"2026-09-29 20:10:00","end":"2026-09-29 21:10:00","location":"Stora salen","url":null}],"meta":{"org":"rockrullarna","days":180,"generatedAt":"2026-04-03T19:40:57+00:00","sources":{"scheduleCount":131,"apiCount":73,"mergedCount":161},"cache":{"status":"miss","ttlSeconds":900,"file":"calendar-rockrullarna-180.json"}}}
+{
+    "meta": {
+        "schemaVersion": 3,
+        "org": "rockrullarna",
+        "days": 180,
+        "generatedAt": "2026-04-06T18:56:12+00:00",
+        "sources": {
+            "scheduleCount": 131,
+            "apiCount": 11,
+            "mergedCount": 131
+        },
+        "cache": {
+            "status": "miss",
+            "ttlSeconds": 900,
+            "file": "calendar-rockrullarna-180.json"
+        }
+    },
+    "events": [
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-04-07 18:00:00",
+            "end": "2026-04-07 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266002"
+        },
+        {
+            "name": "Bugg Tävlingsträning tisdagar",
+            "start": "2026-04-07 19:00:00",
+            "end": "2026-04-07 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266014"
+        },
+        {
+            "name": "West Coast Swing - Steg 1 (nybörjare) onsdagar",
+            "start": "2026-04-08 18:00:00",
+            "end": "2026-04-08 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266008"
+        },
+        {
+            "name": "West Coast Swing - Steg 2 (fortsättning) onsdagar",
+            "start": "2026-04-08 19:10:00",
+            "end": "2026-04-08 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266009"
+        },
+        {
+            "name": "West Coast Swing - Steg 3 (medelavancerad) onsdagar",
+            "start": "2026-04-08 20:20:00",
+            "end": "2026-04-08 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266010"
+        },
+        {
+            "name": "Fox - Steg 2 (fortsättning) torsdagar",
+            "start": "2026-04-09 18:00:00",
+            "end": "2026-04-09 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266005"
+        },
+        {
+            "name": "Fox - Steg 1 (nybörjare) torsdagar",
+            "start": "2026-04-09 19:10:00",
+            "end": "2026-04-09 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266003"
+        },
+        {
+            "name": "Fox - Steg 4 (avancerad) torsdagar",
+            "start": "2026-04-09 20:20:00",
+            "end": "2026-04-09 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266007"
+        },
+        {
+            "name": "West Coast Swing - Workshop kurs (fortsättning) fredagar",
+            "start": "2026-04-10 18:00:00",
+            "end": "2026-04-10 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266011"
+        },
+        {
+            "name": "West Coast Swing fri-träningskväll fre 10 april (gratis för medlemmar)",
+            "start": "2026-04-10 19:00:00",
+            "end": "2026-04-10 21:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=274413"
+        },
+        {
+            "name": "Friträning Bugg & Fox (gratis för medlemmar)",
+            "start": "2026-04-12 15:00:00",
+            "end": "2026-04-12 16:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266015"
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-04-12 16:00:00",
+            "end": "2026-04-12 17:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265984"
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-04-12 17:05:00",
+            "end": "2026-04-12 18:05:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265996"
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-04-12 18:10:00",
+            "end": "2026-04-12 19:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265998"
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-04-12 19:20:00",
+            "end": "2026-04-12 20:40:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266001"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-04-13 18:00:00",
+            "end": "2026-04-13 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) måndag",
+            "start": "2026-04-13 18:00:00",
+            "end": "2026-04-13 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265999"
+        },
+        {
+            "name": "Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)",
+            "start": "2026-04-13 19:00:00",
+            "end": "2026-04-13 21:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266004"
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-04-14 18:00:00",
+            "end": "2026-04-14 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266002"
+        },
+        {
+            "name": "Bugg Tävlingsträning tisdagar",
+            "start": "2026-04-14 19:00:00",
+            "end": "2026-04-14 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266014"
+        },
+        {
+            "name": "West Coast Swing - Steg 1 (nybörjare) onsdagar",
+            "start": "2026-04-15 18:00:00",
+            "end": "2026-04-15 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266008"
+        },
+        {
+            "name": "West Coast Swing - Steg 2 (fortsättning) onsdagar",
+            "start": "2026-04-15 19:10:00",
+            "end": "2026-04-15 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266009"
+        },
+        {
+            "name": "West Coast Swing - Steg 3 (medelavancerad) onsdagar",
+            "start": "2026-04-15 20:20:00",
+            "end": "2026-04-15 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266010"
+        },
+        {
+            "name": "Fox - Steg 2 (fortsättning) torsdagar",
+            "start": "2026-04-16 18:00:00",
+            "end": "2026-04-16 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266005"
+        },
+        {
+            "name": "Fox - Steg 1 (nybörjare) torsdagar",
+            "start": "2026-04-16 19:10:00",
+            "end": "2026-04-16 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266003"
+        },
+        {
+            "name": "Fox - Steg 4 (avancerad) torsdagar",
+            "start": "2026-04-16 20:20:00",
+            "end": "2026-04-16 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266007"
+        },
+        {
+            "name": "West Coast Swing - Workshop kurs (fortsättning) fredagar",
+            "start": "2026-04-17 18:00:00",
+            "end": "2026-04-17 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266011"
+        },
+        {
+            "name": "Trivselkväll Bugg/fox 17 april",
+            "start": "2026-04-17 19:30:00",
+            "end": "2026-04-17 22:30:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=274763"
+        },
+        {
+            "name": "Bugg Tävlings Workshop Pontus o Anna",
+            "start": "2026-04-18 10:00:00",
+            "end": "2026-04-18 16:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276729"
+        },
+        {
+            "name": "Bokat",
+            "start": "2026-04-18 15:00:00",
+            "end": "2026-04-18 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bokat",
+            "start": "2026-04-19 10:00:00",
+            "end": "2026-04-19 14:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Friträning Bugg & Fox (gratis för medlemmar)",
+            "start": "2026-04-19 15:00:00",
+            "end": "2026-04-19 16:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266015"
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-04-19 16:00:00",
+            "end": "2026-04-19 17:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265984"
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-04-19 17:05:00",
+            "end": "2026-04-19 18:05:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265996"
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-04-19 18:10:00",
+            "end": "2026-04-19 19:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265998"
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-04-19 19:20:00",
+            "end": "2026-04-19 20:40:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266001"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-04-20 18:00:00",
+            "end": "2026-04-20 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) måndag",
+            "start": "2026-04-20 18:00:00",
+            "end": "2026-04-20 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265999"
+        },
+        {
+            "name": "Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)",
+            "start": "2026-04-20 19:00:00",
+            "end": "2026-04-20 21:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266004"
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-04-21 18:00:00",
+            "end": "2026-04-21 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266002"
+        },
+        {
+            "name": "Bugg Tävlingsträning tisdagar",
+            "start": "2026-04-21 19:00:00",
+            "end": "2026-04-21 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266014"
+        },
+        {
+            "name": "West Coast Swing - Steg 1 (nybörjare) onsdagar",
+            "start": "2026-04-22 18:00:00",
+            "end": "2026-04-22 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266008"
+        },
+        {
+            "name": "West Coast Swing - Steg 2 (fortsättning) onsdagar",
+            "start": "2026-04-22 19:10:00",
+            "end": "2026-04-22 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266009"
+        },
+        {
+            "name": "West Coast Swing - Steg 3 (medelavancerad) onsdagar",
+            "start": "2026-04-22 20:20:00",
+            "end": "2026-04-22 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266010"
+        },
+        {
+            "name": "Fox - Steg 2 (fortsättning) torsdagar",
+            "start": "2026-04-23 18:00:00",
+            "end": "2026-04-23 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266005"
+        },
+        {
+            "name": "Fox - Steg 1 (nybörjare) torsdagar",
+            "start": "2026-04-23 19:10:00",
+            "end": "2026-04-23 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266003"
+        },
+        {
+            "name": "Fox - Steg 4 (avancerad) torsdagar",
+            "start": "2026-04-23 20:20:00",
+            "end": "2026-04-23 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266007"
+        },
+        {
+            "name": "West Coast Swing - Workshop kurs (fortsättning) fredagar",
+            "start": "2026-04-24 18:00:00",
+            "end": "2026-04-24 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266011"
+        },
+        {
+            "name": "Fox socialdanskväll 24 april",
+            "start": "2026-04-24 19:30:00",
+            "end": "2026-04-24 22:30:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=274415"
+        },
+        {
+            "name": "West Coast Swing - 25 april - Intensivdag - Avancerad nivå & tävlingsträning - med Johanna och Daniel",
+            "start": "2026-04-25 13:00:00",
+            "end": "2026-04-25 17:45:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=274455"
+        },
+        {
+            "name": "West Coast Swing socialdanskväll 25 april",
+            "start": "2026-04-25 19:00:00",
+            "end": "2026-04-25 22:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=273902"
+        },
+        {
+            "name": "Friträning Bugg & Fox (gratis för medlemmar)",
+            "start": "2026-04-26 15:00:00",
+            "end": "2026-04-26 16:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266015"
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-04-26 16:00:00",
+            "end": "2026-04-26 17:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265984"
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-04-26 17:05:00",
+            "end": "2026-04-26 18:05:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265996"
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-04-26 18:10:00",
+            "end": "2026-04-26 19:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265998"
+        },
+        {
+            "name": "Träningskväll sista söndagen i månaden, 26 april - Men medlemsskap 2026 krävs)",
+            "start": "2026-04-26 19:15:00",
+            "end": "2026-04-26 21:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266448"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-04-27 18:00:00",
+            "end": "2026-04-27 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) måndag",
+            "start": "2026-04-27 18:00:00",
+            "end": "2026-04-27 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=265999"
+        },
+        {
+            "name": "Bugg - Tävlingsförberedande/ Tävlingsträning med Mikael Moilanen (endast par anmälan)",
+            "start": "2026-04-27 19:00:00",
+            "end": "2026-04-27 21:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266004"
+        },
+        {
+            "name": "Fox - Steg 2 (fortsättning) torsdagar",
+            "start": "2026-04-30 18:00:00",
+            "end": "2026-04-30 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266005"
+        },
+        {
+            "name": "Fox - Steg 1 (nybörjare) torsdagar",
+            "start": "2026-04-30 19:10:00",
+            "end": "2026-04-30 20:10:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266003"
+        },
+        {
+            "name": "Fox - Steg 4 (avancerad) torsdagar",
+            "start": "2026-04-30 20:20:00",
+            "end": "2026-04-30 21:20:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=266007"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-05-04 18:00:00",
+            "end": "2026-05-04 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-05-04 18:00:00",
+            "end": "2026-05-04 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Fox socialdanskväll 8 maj",
+            "start": "2026-05-08 19:30:00",
+            "end": "2026-05-08 22:30:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=274416"
+        },
+        {
+            "name": "Bokat",
+            "start": "2026-05-09 10:00:00",
+            "end": "2026-05-09 12:30:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - 9 maj - Intensivdag - Avancerad nivå & tävlingsträning - med Joachim och Sabina",
+            "start": "2026-05-09 13:00:00",
+            "end": "2026-05-09 17:45:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=275233"
+        },
+        {
+            "name": "West Coast Swing socialdanskväll 9 maj",
+            "start": "2026-05-09 19:00:00",
+            "end": "2026-05-09 22:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=273903"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-05-11 18:00:00",
+            "end": "2026-05-11 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-05-11 18:00:00",
+            "end": "2026-05-11 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "West Coast Swing - 16 maj - Intensivdag - Grundläggande teknik med Sara och Andreas",
+            "start": "2026-05-16 10:00:00",
+            "end": "2026-05-16 15:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=277324"
+        },
+        {
+            "name": "Bokat",
+            "start": "2026-05-16 10:00:00",
+            "end": "2026-05-16 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-05-18 18:00:00",
+            "end": "2026-05-18 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-05-18 18:00:00",
+            "end": "2026-05-18 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-05-25 18:00:00",
+            "end": "2026-05-25 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-05-25 18:00:00",
+            "end": "2026-05-25 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-06-01 18:00:00",
+            "end": "2026-06-01 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-06-01 18:00:00",
+            "end": "2026-06-01 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-06-08 18:00:00",
+            "end": "2026-06-08 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-06-08 18:00:00",
+            "end": "2026-06-08 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-06-15 18:00:00",
+            "end": "2026-06-15 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-06-22 18:00:00",
+            "end": "2026-06-22 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-06-29 18:00:00",
+            "end": "2026-06-29 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-07-06 18:00:00",
+            "end": "2026-07-06 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-07-13 18:00:00",
+            "end": "2026-07-13 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-07-20 18:00:00",
+            "end": "2026-07-20 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-07-27 18:00:00",
+            "end": "2026-07-27 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-08-03 18:00:00",
+            "end": "2026-08-03 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-08-10 18:00:00",
+            "end": "2026-08-10 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-08-17 18:00:00",
+            "end": "2026-08-17 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Bugg Tävlingsträning måndagar",
+            "start": "2026-08-24 18:00:00",
+            "end": "2026-08-24 20:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=276708"
+        },
+        {
+            "name": "Friträning Bugg  (gratis för medlemmar)",
+            "start": "2026-09-06 15:00:00",
+            "end": "2026-09-06 16:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-09-06 16:00:00",
+            "end": "2026-09-06 17:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-09-06 17:05:00",
+            "end": "2026-09-06 18:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-09-06 18:10:00",
+            "end": "2026-09-06 19:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-09-06 19:20:00",
+            "end": "2026-09-06 20:40:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-09-07 18:00:00",
+            "end": "2026-09-07 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning Måndagar",
+            "start": "2026-09-07 19:00:00",
+            "end": "2026-09-07 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) tisdagar",
+            "start": "2026-09-08 18:00:00",
+            "end": "2026-09-08 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) tisdag",
+            "start": "2026-09-08 19:05:00",
+            "end": "2026-09-08 20:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) Tisdagar",
+            "start": "2026-09-08 20:10:00",
+            "end": "2026-09-08 21:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Friträning Bugg  (gratis för medlemmar)",
+            "start": "2026-09-13 15:00:00",
+            "end": "2026-09-13 16:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-09-13 16:00:00",
+            "end": "2026-09-13 17:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-09-13 17:05:00",
+            "end": "2026-09-13 18:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-09-13 18:10:00",
+            "end": "2026-09-13 19:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-09-13 19:20:00",
+            "end": "2026-09-13 20:40:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-09-14 18:00:00",
+            "end": "2026-09-14 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning Måndagar",
+            "start": "2026-09-14 19:00:00",
+            "end": "2026-09-14 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) tisdagar",
+            "start": "2026-09-15 18:00:00",
+            "end": "2026-09-15 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) tisdag",
+            "start": "2026-09-15 19:05:00",
+            "end": "2026-09-15 20:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) Tisdagar",
+            "start": "2026-09-15 20:10:00",
+            "end": "2026-09-15 21:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Friträning Bugg  (gratis för medlemmar)",
+            "start": "2026-09-20 15:00:00",
+            "end": "2026-09-20 16:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-09-20 16:00:00",
+            "end": "2026-09-20 17:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-09-20 17:05:00",
+            "end": "2026-09-20 18:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-09-20 18:10:00",
+            "end": "2026-09-20 19:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-09-20 19:20:00",
+            "end": "2026-09-20 20:40:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-09-21 18:00:00",
+            "end": "2026-09-21 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning Måndagar",
+            "start": "2026-09-21 19:00:00",
+            "end": "2026-09-21 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) tisdagar",
+            "start": "2026-09-22 18:00:00",
+            "end": "2026-09-22 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) tisdag",
+            "start": "2026-09-22 19:05:00",
+            "end": "2026-09-22 20:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) Tisdagar",
+            "start": "2026-09-22 20:10:00",
+            "end": "2026-09-22 21:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Friträning Bugg  (gratis för medlemmar)",
+            "start": "2026-09-27 15:00:00",
+            "end": "2026-09-27 16:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) söndagar",
+            "start": "2026-09-27 16:00:00",
+            "end": "2026-09-27 17:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 2 (fortsättning) söndagar",
+            "start": "2026-09-27 17:05:00",
+            "end": "2026-09-27 18:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) söndagar",
+            "start": "2026-09-27 18:10:00",
+            "end": "2026-09-27 19:10:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Utveckling (avancerad+) söndagar",
+            "start": "2026-09-27 19:20:00",
+            "end": "2026-09-27 20:40:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Coachad par träning - Teknik/förberedande tävling tisdagar",
+            "start": "2026-09-28 18:00:00",
+            "end": "2026-09-28 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg Tävlingsträning Måndagar",
+            "start": "2026-09-28 19:00:00",
+            "end": "2026-09-28 21:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 1 (nybörjare) tisdagar",
+            "start": "2026-09-29 18:00:00",
+            "end": "2026-09-29 19:00:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 4 (avancerad) tisdag",
+            "start": "2026-09-29 19:05:00",
+            "end": "2026-09-29 20:05:00",
+            "location": "Stora salen",
+            "url": null
+        },
+        {
+            "name": "Bugg - Steg 3 (medel) Tisdagar",
+            "start": "2026-09-29 20:10:00",
+            "end": "2026-09-29 21:10:00",
+            "location": "Stora salen",
+            "url": null
+        }
+    ]
+}

@@ -74,6 +74,7 @@ const startPages = [
   '/kontakt/',
   '/bli-medlem/',
   '/aktivitetskalender/',
+  '/webbkarta/',
 ];
 
 test.describe('Länkvalidering', () => {

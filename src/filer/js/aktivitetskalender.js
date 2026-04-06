@@ -44,6 +44,14 @@
   function formatWeekday(date) {
     return DAYS_SHORT[date.getDay()];
   }
+
+  function getDateParts(date) {
+    return {
+      dayNumber: String(date.getDate()),
+      monthShort: MONTHS_SHORT[date.getMonth()],
+      weekdayShort: DAYS_SHORT[date.getDay()]
+    };
+  }
   // #endregion
 
   // #region DOM Helpers
@@ -72,6 +80,38 @@
     }
 
     return elem;
+  }
+
+  function buildLocationPill(location) {
+    var modifier = '';
+    var normalized = location.toLowerCase();
+    if (normalized === 'stora salen') {
+      modifier = ' rr-kal-location-pill--stora';
+    } else if (normalized === 'lilla salen') {
+      modifier = ' rr-kal-location-pill--lilla';
+    }
+    return el('span', { 'class': 'rr-kal-location-pill' + modifier }, location);
+  }
+
+  function buildDateBadge(date, extraClassName) {
+    var parts = getDateParts(date);
+    var className = 'rr-kal-date-badge';
+    var badge;
+
+    if (extraClassName) {
+      className += ' ' + extraClassName;
+    }
+
+    badge = el('div', {
+      'class': className,
+      'aria-label': parts.dayNumber + ' ' + parts.monthShort + ' (' + parts.weekdayShort + ')'
+    });
+
+    badge.appendChild(el('span', { 'class': 'rr-kal-date-badge-month' }, parts.monthShort));
+    badge.appendChild(el('strong', { 'class': 'rr-kal-date-badge-day' }, parts.dayNumber));
+    badge.appendChild(el('span', { 'class': 'rr-kal-date-badge-weekday' }, parts.weekdayShort));
+
+    return badge;
   }
   // #endregion
 
@@ -211,9 +251,6 @@
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Datum'));
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Tid'));
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Aktivitet'));
-    if (!isCompact) {
-      headRow.appendChild(el('th', { 'scope': 'col' }, 'Plats'));
-    }
     thead.appendChild(headRow);
     table.appendChild(thead);
 
@@ -223,14 +260,20 @@
       var row = el('tr');
       // Upprepa inte datumtexten på varje rad när flera aktiviteter ligger samma dag.
       var dateStr = formatDateShort(eventItem.start);
+      var weekdayStr = formatWeekday(eventItem.start);
+      var isNewDate = dateStr !== previousDate;
       var dateCell = el('td', { 'class': 'rr-kal-date text-nowrap' });
       var nameCell = el('td', { 'class': 'rr-kal-name' });
       var timeStr = formatTime(eventItem.start);
 
-      if (dateStr !== previousDate) {
-        dateCell.appendChild(el('time', { 'datetime': formatDateISO(eventItem.start) }, dateStr));
-        dateCell.appendChild(document.createTextNode(' '));
-        dateCell.appendChild(el('small', { 'class': 'text-body-secondary' }, '(' + formatWeekday(eventItem.start) + ')'));
+      // Mobil-layouten använder radens datum-attribut för kortens rubrik.
+      // Samma datum visas bara på första raden för respektive dag.
+      row.setAttribute('data-date', isNewDate ? dateStr : '');
+      row.setAttribute('data-weekday', isNewDate ? weekdayStr : '');
+      row.setAttribute('data-date-repeat', isNewDate ? 'false' : 'true');
+
+      if (isNewDate) {
+        dateCell.appendChild(buildDateBadge(eventItem.start, 'rr-kal-date-badge-main'));
         previousDate = dateStr;
       }
       row.appendChild(dateCell);
@@ -250,15 +293,10 @@
         nameCell.textContent = eventItem.name;
       }
 
-      if (isCompact && eventItem.location) {
-        nameCell.appendChild(el('br'));
-        nameCell.appendChild(el('small', { 'class': 'text-body-secondary' }, eventItem.location));
+      if (eventItem.location) {
+        nameCell.appendChild(buildLocationPill(eventItem.location));
       }
       row.appendChild(nameCell);
-
-      if (!isCompact) {
-        row.appendChild(el('td', { 'class': 'rr-kal-location' }, eventItem.location));
-      }
 
       tbody.appendChild(row);
     });

@@ -7,6 +7,7 @@
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap Theme switcher --><script src="/filer/js/bootstrap-theme-switcher.js"></script>
   <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bildfokuserad – Google Fonts --><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
   <title><?php if (empty($header_title)) {
     echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
@@ -76,18 +77,18 @@
   <?php
     function redirectToLowercase() {
         $request_uri = $_SERVER['REQUEST_URI'];
-        
+
         // Split the URI into path and query string
         $parts = parse_url($request_uri);
-        
+
         // Handle malformed URLs gracefully
         if ($parts === false) {
             return;
         }
-        
+
         $path = isset($parts['path']) ? $parts['path'] : '';
         $query = isset($parts['query']) ? '?' . $parts['query'] : '';
-        
+
         // Only lowercase the path, preserve query string case
         $lowercase_path = strtolower($path);
         $lowercase_uri = $lowercase_path . $query;
@@ -146,8 +147,8 @@
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <?php if (!isset($page_hidden_logo) || $page_hidden_logo == false || empty($page_hidden_logo)) {
-    echo '<div class="m-5 text-center">
-            <a href="/">
+    echo '<div class="rr-header-logo-wrap text-center">
+            <a href="/" class="rr-header-logo-link">
               <picture>
                 <source type="image/webp" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
                 <source type="image/jpeg" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
@@ -158,14 +159,14 @@
     }?>
     <nav class="navbar fixed-top navbar-expand-lg p-0">
       <div class="container-fluid dkrr-navbar-bg">
-        <a class="navbar-brand dkrr-logo-link" href="/">
-          <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="/filer/bilder/rockrullarna-svg-logga.svg" />
-        </a>
+        <a class="navbar-brand dkrr-logo-link" href="/">Rockrullarna</a>
         <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          Meny
+          <span class="navbar-toggler-icon-wrap" aria-hidden="true">
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+          </span>
+          <span class="navbar-toggler-label">Meny</span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav navbar-nav-scroll mx-auto mb-2 mb-lg-0">
@@ -274,10 +275,10 @@
                   <ul class="dropdown-menu shadow">
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/dans.se">Dans.se</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/friskvard-epassi">Friskvård ePassi</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/teams-mote">Teams-möten</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/zoom-mote">Zoom-möte</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#dans-se">Dans.se</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#friskvard-ePassi">Friskvård ePassi</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#teams-mote">Teams-möten</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#zoom-mote">Zoom-möte</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="/kontakt/skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>
@@ -286,21 +287,26 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex ms-auto">
-            <div class="input-group">
-              <input id="searchValue" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
-              <button class="btn btn-primary border-0" type="submit" onclick="searchFunc()">Sök</button>
-            </div>
-          </form>
-          <script>
-            function searchFunc() {
-              var searchQuery = document.getElementById("searchValue").value;
-              var searchUrl = "https://www.bing.com/search?q=site:rockrullarna.se+" + encodeURIComponent(searchQuery);
-              window.open(searchUrl, '_blank').focus();
-            }
-          </script>
         </div>
       </div>
     </nav>
+    <script>
+      (function () {
+        var nav = document.querySelector('.dkrr-navbar-bg');
+        if (!nav) return;
+        var ticking = false;
+        function updateNav() {
+          nav.classList.toggle('scrolled', window.scrollY > 40);
+          ticking = false;
+        }
+        window.addEventListener('scroll', function () {
+          if (!ticking) {
+            requestAnimationFrame(updateNav);
+            ticking = true;
+          }
+        }, { passive: true });
+        updateNav();
+      })();
+    </script>
   </header>
   <main id="ContentStart" class="container-md">

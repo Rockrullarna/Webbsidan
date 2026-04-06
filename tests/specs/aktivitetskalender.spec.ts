@@ -83,7 +83,7 @@ test('handles nested calendar API payloads', async ({ page }) => {
   await expect(page.getByText('19:00–20:30')).toBeVisible();
   await expect(page.getByText('15:00–16:00')).toBeVisible();
   await expect(page.getByText('18:00–20:00')).toBeVisible();
-  await expect(page.getByRole('cell', { name: 'Lilla salen' })).toBeVisible();
+  await expect(page.locator('.rr-kal-location-pill--lilla')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Fixture event with booking link' })).toHaveAttribute('href', 'https://example.test/signup/direct-schedule');
   await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });
