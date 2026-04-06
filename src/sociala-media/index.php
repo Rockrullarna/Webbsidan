@@ -105,10 +105,9 @@
                 <h3>Nyheter och evenemang</h3>
               </div>
             </div>
-            <p>Följ vår Facebook-sida för inbjudningar, uppdateringar och händelser i föreningen.</p>
+            <p>Följ vår Facebook-sida för uppdateringar och händelser i föreningen.</p>
             <a class="rr-btn-inline" href="https://fb.me/rockrullarna" title="Öppna Rockrullarna på Facebook" target="_blank" rel="noopener noreferrer">fb.me/rockrullarna</a>
-            <div class="rr-courses-embed-shell rr-social-embed-shell">
-              <!-- Feed uppdateras från: https://developers.facebook.com/docs/plugins/page-plugin/ -->
+            <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--facebook">
               <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frockrullarna&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=702771861196793"
                 title="Facebook-flöde från Rockrullarna"
@@ -116,6 +115,21 @@
                 scrolling="no"
                 allowfullscreen="true"
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <p class="rr-social-link-panel-status">Om Facebook-pluginen inte laddar, kan ni använda direktlänkarna här under.</p>
+              <div class="rr-social-link-panel-grid">
+                <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna" target="_blank" rel="noopener noreferrer">
+                  <strong>Facebook-sidan</strong>
+                  <span>Läs senaste uppdateringar och inlägg direkt på Facebook.</span>
+                </a>
+                <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna/events" target="_blank" rel="noopener noreferrer">
+                  <strong>Evenemang</strong>
+                  <span>Se kommande danser, kursstarter och andra aktiviteter.</span>
+                </a>
+                <a class="rr-social-link-card" href="https://m.me/rockrullarna" target="_blank" rel="noopener noreferrer">
+                  <strong>Skicka meddelande</strong>
+                  <span>Öppna Messenger om du vill ställa en snabb fråga.</span>
+                </a>
+              </div>
             </div>
           </article>
 

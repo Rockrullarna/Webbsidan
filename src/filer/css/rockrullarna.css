@@ -2458,6 +2458,62 @@ header {
   background: transparent;
 }
 
+.rr-social-embed-shell--facebook {
+  display: grid;
+  gap: 1rem;
+  min-height: 0;
+}
+
+.rr-social-link-panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+}
+
+.rr-social-link-panel-status {
+  margin: 0;
+  color: var(--b-muted);
+}
+
+.rr-social-link-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.rr-social-link-card,
+.rr-social-link-card:visited {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  min-width: 0;
+  border: 1px solid var(--b-border);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.02);
+  color: inherit;
+  text-decoration: none;
+}
+
+.rr-social-link-card:hover,
+.rr-social-link-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(0,171,214,0.45);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+}
+
+.rr-social-link-card strong {
+  color: var(--b-text);
+}
+
+.rr-social-link-card span {
+  color: var(--b-muted);
+  line-height: 1.5;
+}
+
 .rr-instagram-feed-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3412,6 +3468,10 @@ header {
   .rr-instagram-feed-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .rr-social-link-panel-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3441,6 +3501,45 @@ header {
 
   .rr-instagram-feed-grid {
     grid-template-columns: 1fr;
+  }
+
+  .rr-social-platform-header {
+    gap: 0.75rem;
+  }
+
+  .rr-social-platform-header h3 {
+    line-height: 1.12;
+  }
+
+  .rr-social-embed-shell {
+    min-height: 0;
+  }
+
+  .rr-social-embed-shell iframe {
+    min-height: 22rem;
+  }
+
+  .rr-social-link-panel {
+    padding: 1rem;
+  }
+
+  .rr-social-link-panel-status {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .rr-social-link-card,
+  .rr-social-link-card:visited {
+    padding: 0.95rem;
+  }
+
+  .rr-social-link-card strong {
+    font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .rr-social-link-card span {
+    font-size: 0.98rem;
   }
 
   .rr-competition-card-grid,
