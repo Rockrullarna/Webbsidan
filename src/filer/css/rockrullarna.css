@@ -2400,8 +2400,38 @@ header {
   background: transparent;
 }
 
-#rr-instagram-feed {
-  position: relative;
+.rr-instagram-feed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rr-instagram-feed-card,
+.rr-instagram-feed-card:visited {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--b-border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.18s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.rr-instagram-feed-card:hover,
+.rr-instagram-feed-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(0,171,214,0.45);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+}
+
+.rr-instagram-feed-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .rr-social-feed-status {
@@ -2409,9 +2439,11 @@ header {
   color: var(--b-muted);
 }
 
-#rr-instagram-feed[data-rr-instagram-fallback="true"] {
-  display: flex;
-  align-items: center;
+.rr-instagram-feed-card span {
+  display: block;
+  padding: 0.9rem 1rem 1rem;
+  color: var(--b-muted);
+  line-height: 1.6;
 }
 
 .rr-social-embed-shell--tiktok {
@@ -3319,6 +3351,10 @@ header {
     grid-template-columns: 1fr;
   }
 
+  .rr-instagram-feed-grid {
+    grid-template-columns: 1fr;
+  }
+
   .rr-competition-card-grid,
   .rr-competition-stats {
     grid-template-columns: 1fr;
@@ -3516,6 +3552,11 @@ header {
 
 [data-bs-theme=light] .rr-social-platform-icon {
   background: linear-gradient(180deg, rgba(0,171,214,0.2), rgba(0,171,214,0.08));
+}
+
+[data-bs-theme=light] .rr-instagram-feed-card,
+[data-bs-theme=light] .rr-instagram-feed-card:visited {
+  background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
 }
 
 [data-bs-theme=light] .rr-contact-accordion .accordion-button:not(.collapsed) {
