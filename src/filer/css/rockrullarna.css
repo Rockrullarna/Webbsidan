@@ -2460,7 +2460,7 @@ header {
 
 .rr-instagram-feed-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -2502,6 +2502,27 @@ header {
   padding: 0.9rem 1rem 1rem;
   color: var(--b-muted);
   line-height: 1.6;
+}
+
+.rr-instagram-feed-card-content {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.rr-instagram-feed-card-content time {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b-accent-strong);
+}
+
+.rr-instagram-feed-card-content strong {
+  color: var(--b-text);
+  font-weight: 600;
+}
+
+.rr-instagram-feed-card-content small {
+  color: var(--b-muted);
 }
 
 .rr-social-embed-shell--tiktok {

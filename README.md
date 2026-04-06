@@ -52,6 +52,23 @@ cd src
 php -S localhost:8080
 ```
 
+### Instagram-flode pa sociala-media
+Sidan [src/sociala-media/index.php](src/sociala-media/index.php) hamtar de fyra senaste inlaggen via Instagram Graph API.
+
+For att aktivera flodet, satt miljo-variabeln `RR_INSTAGRAM_ACCESS_TOKEN` innan du startar PHP-servern eller containern. Tokenen ska vara en giltig access token for kontot som publicerar inlaggen.
+
+Exempel i PowerShell:
+```powershell
+$env:RR_INSTAGRAM_ACCESS_TOKEN = "din-token-har"
+php -S localhost:8080 -t src
+```
+
+Exempel med Docker Compose:
+```powershell
+$env:RR_INSTAGRAM_ACCESS_TOKEN = "din-token-har"
+docker compose up
+```
+
 ## Aktivitetskalender
 Aktivitetskalendern använder en backend-proxy som hämtar både `schedule` och `api/public/events` från dans.se, slår ihop källorna och cachar resultatet lokalt.
 

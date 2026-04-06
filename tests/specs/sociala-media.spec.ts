@@ -10,4 +10,5 @@ test('sociala medier page shows redesigned content and instagram feed hook', asy
   await expect(page.getByRole('heading', { level: 3, name: /klipp från dansgolvet/i })).toBeVisible();
   await expect(page.locator('#rr-instagram-feed')).toBeVisible();
   await expect(page.getByRole('link', { name: /instagram\.com\/rockrullarna/i })).toBeVisible();
+  await expect(page.getByText(/fyra senaste publiceringarna/i)).toBeVisible();
 });
