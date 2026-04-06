@@ -1,4 +1,18 @@
 <?php
+  function buildInstagramProxyUrl($imageUrl) {
+    $imageUrl = trim((string)$imageUrl);
+
+    if ($imageUrl === '') {
+      return '';
+    }
+
+    if (str_starts_with($imageUrl, '/sociala-media/image.php?url=')) {
+      return $imageUrl;
+    }
+
+    return '/sociala-media/image.php?url=' . rawurlencode($imageUrl);
+  }
+
   function readInstagramFeedCache($filePath) {
     if (!is_file($filePath)) {
       return [];
@@ -16,7 +30,19 @@
       return [];
     }
 
-    return $payload['posts'];
+    $posts = $payload['posts'];
+
+    foreach ($posts as &$post) {
+      if (!is_array($post)) {
+        continue;
+      }
+
+      $post['image'] = buildInstagramProxyUrl($post['image'] ?? '');
+    }
+
+    unset($post);
+
+    return $posts;
   }
 
   function formatInstagramPostDate($timestamp) {
