@@ -82,6 +82,17 @@
     return elem;
   }
 
+  function buildLocationPill(location) {
+    var modifier = '';
+    var normalized = location.toLowerCase();
+    if (normalized === 'stora salen') {
+      modifier = ' rr-kal-location-pill--stora';
+    } else if (normalized === 'lilla salen') {
+      modifier = ' rr-kal-location-pill--lilla';
+    }
+    return el('span', { 'class': 'rr-kal-location-pill' + modifier }, location);
+  }
+
   function buildDateBadge(date, extraClassName) {
     var parts = getDateParts(date);
     var className = 'rr-kal-date-badge';
@@ -240,9 +251,6 @@
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Datum'));
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Tid'));
     headRow.appendChild(el('th', { 'scope': 'col' }, 'Aktivitet'));
-    if (!isCompact) {
-      headRow.appendChild(el('th', { 'scope': 'col' }, 'Plats'));
-    }
     thead.appendChild(headRow);
     table.appendChild(thead);
 
@@ -285,15 +293,10 @@
         nameCell.textContent = eventItem.name;
       }
 
-      if (isCompact && eventItem.location) {
-        nameCell.appendChild(el('br'));
-        nameCell.appendChild(el('small', { 'class': 'text-body-secondary' }, eventItem.location));
+      if (eventItem.location) {
+        nameCell.appendChild(buildLocationPill(eventItem.location));
       }
       row.appendChild(nameCell);
-
-      if (!isCompact) {
-        row.appendChild(el('td', { 'class': 'rr-kal-location' }, eventItem.location));
-      }
 
       tbody.appendChild(row);
     });

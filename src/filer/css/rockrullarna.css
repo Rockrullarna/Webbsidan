@@ -1603,6 +1603,64 @@ header {
     border: 0;
   }
 }
+.rr-kal-location-pill {
+  display: block;
+  width: fit-content;
+  margin-top: 0.3rem;
+  padding: 0.15rem 0.55rem 0.18rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.73rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--b-muted);
+  line-height: 1.5;
+}
+
+.rr-kal-location-pill::before {
+  content: '';
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.35rem;
+  border-radius: 999px;
+  background: currentColor;
+  vertical-align: middle;
+  position: relative;
+  top: -0.05em;
+}
+
+.rr-kal-location-pill--stora {
+  border-color: rgba(20, 200, 171, 0.28);
+  background: rgba(20, 200, 171, 0.07);
+  color: #14c8ab;
+}
+
+.rr-kal-location-pill--lilla {
+  border-color: rgba(160, 100, 240, 0.28);
+  background: rgba(160, 100, 240, 0.07);
+  color: #a064f0;
+}
+
+[data-bs-theme=light] .rr-kal-location-pill {
+  border-color: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--b-muted);
+}
+
+[data-bs-theme=light] .rr-kal-location-pill--stora {
+  border-color: rgba(10, 140, 118, 0.22);
+  background: rgba(10, 140, 118, 0.07);
+  color: #0a8c76;
+}
+
+[data-bs-theme=light] .rr-kal-location-pill--lilla {
+  border-color: rgba(120, 60, 200, 0.22);
+  background: rgba(120, 60, 200, 0.07);
+  color: #783cc8;
+}
+
 /* #endregion Aktivitetskalender */
 
 /* #region Intro band */
