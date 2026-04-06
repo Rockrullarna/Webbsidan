@@ -5,7 +5,7 @@ header('Content-Type: application/json; charset=utf-8');
 
 // #region Config
 $cacheTtlSeconds = 15 * 60;
-$cacheSchemaVersion = 2;
+$cacheSchemaVersion = 3;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
 const DANS_BASE_URL = 'https://dans.se';
@@ -373,6 +373,14 @@ function create_datetime_from_timestamp(string $value): ?DateTimeImmutable
     return $dateTime === false ? null : $dateTime;
 }
 
+function add_event_url_lookup(array &$urlsByExactKey, array &$urlsByStartKey, string $name, DateTimeImmutable $start, DateTimeImmutable $end, string $url): void
+{
+    $formattedStart = $start->format('Y-m-d H:i:s');
+    $formattedEnd = $end->format('Y-m-d H:i:s');
+    $urlsByExactKey[build_event_key($name, $formattedStart, $formattedEnd)] = $url;
+    $urlsByStartKey[build_event_start_key($name, $formattedStart)] = $url;
+}
+
 function build_event_url_lookups(array $sourceEvents): array
 {
     $urlsByExactKey = [];
@@ -410,11 +418,32 @@ function build_event_url_lookups(array $sourceEvents): array
 
         $plannedOccasions = max(1, (int) ($schedule['numberOfPlannedOccasions'] ?? 0));
         if ($plannedOccasions <= 1) {
-            $start = $eventStart->format('Y-m-d H:i:s');
-            $end = $eventEnd->format('Y-m-d H:i:s');
-            $urlsByExactKey[build_event_key($name, $start, $end)] = $url;
-            $urlsByStartKey[build_event_start_key($name, $start)] = $url;
+            add_event_url_lookup($urlsByExactKey, $urlsByStartKey, $name, $eventStart, $eventEnd, $url);
             continue;
+        }
+
+        $occasions = is_array($schedule['occasions'] ?? null) ? $schedule['occasions'] : [];
+        if (!empty($occasions)) {
+            $defaultDurationSeconds = max(0, $eventEnd->getTimestamp() - $eventStart->getTimestamp());
+
+            foreach ($occasions as $occasion) {
+                $occasionStart = create_datetime_from_timestamp((string) ($occasion['startDateTime'] ?? ''));
+                if ($occasionStart === null) {
+                    continue;
+                }
+
+                $occasionEnd = create_datetime_from_timestamp((string) ($occasion['endDateTime'] ?? ''));
+                if ($occasionEnd === null) {
+                    $occasionLength = max(0, (int) ($occasion['length'] ?? $defaultDurationSeconds));
+                    $occasionEnd = $occasionStart->modify('+' . $occasionLength . ' seconds');
+                }
+
+                if ($occasionEnd === false) {
+                    $occasionEnd = $occasionStart;
+                }
+
+                add_event_url_lookup($urlsByExactKey, $urlsByStartKey, $name, $occasionStart, $occasionEnd, $url);
+            }
         }
 
         $recurringEvents[] = [
@@ -474,19 +503,19 @@ function find_matching_event_url(array $eventUrlLookups, string $name, string $s
             continue;
         }
 
-        $intervalDays = (int) $recurringEvent['start']->diff($scheduleStart)->format('%a');
-        if ($intervalDays % 7 !== 0) {
-            continue;
-        }
-
-        $occurrenceIndex = (int) floor($intervalDays / 7);
-        if ($occurrenceIndex >= (int) $recurringEvent['plannedOccasions']) {
-            continue;
-        }
-
         if (!empty($recurringEvent['endDate'])) {
             $seriesEndDate = DateTimeImmutable::createFromFormat('Y-m-d', (string) $recurringEvent['endDate']);
             if ($seriesEndDate !== false && $scheduleStart->format('Y-m-d') > $seriesEndDate->format('Y-m-d')) {
+                continue;
+            }
+        } else {
+            $intervalDays = (int) $recurringEvent['start']->diff($scheduleStart)->format('%a');
+            if ($intervalDays % 7 !== 0) {
+                continue;
+            }
+
+            $occurrenceIndex = (int) floor($intervalDays / 7);
+            if ($occurrenceIndex >= (int) $recurringEvent['plannedOccasions']) {
                 continue;
             }
         }
@@ -717,8 +746,6 @@ try {
             echo build_response_payload($cachedData['events'], $cacheMeta, $debug);
             return;
         }
-
-        return;
     }
 
     $eventsJson = fetch_remote_text($eventsUrl);
