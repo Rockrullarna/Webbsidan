@@ -53,9 +53,11 @@ php -S localhost:8080
 ```
 
 ### Instagram-flode pa sociala-media
-Sidan [src/sociala-media/index.php](src/sociala-media/index.php) hamtar de fyra senaste inlaggen via Instagram Graph API.
+Sidan [src/sociala-media/index.php](src/sociala-media/index.php) visar Instagram-flodet, medan [src/sociala-media/data.php](src/sociala-media/data.php) ar ett separat API som i forsta hand hamtar de fyra senaste inlaggen via Instagram Graph API och annars provar den aldre profil-endpointen som fallback innan cache visas.
 
-For att aktivera flodet, satt miljo-variabeln `RR_INSTAGRAM_ACCESS_TOKEN` innan du startar PHP-servern eller containern. Tokenen ska vara en giltig access token for kontot som publicerar inlaggen.
+For att aktivera stabilast mojliga flode, satt miljo-variabeln `RR_INSTAGRAM_ACCESS_TOKEN` innan du startar PHP-servern eller containern. Tokenen ska vara en giltig access token for kontot som publicerar inlaggen.
+
+API:t skriver cachefilen i `src/sociala-media/cache/instagram-rockrullarna.json` nar det anropas. `index.php` visar den cachade JSON-datan och uppdaterar den via API:t.
 
 Exempel i PowerShell:
 ```powershell
