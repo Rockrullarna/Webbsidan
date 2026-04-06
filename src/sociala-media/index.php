@@ -10,11 +10,12 @@
       return [];
     }
 
-    $endpoint = 'https://www.instagram.com/api/v1/users/web_profile_info/?username=' . rawurlencode($username);
+    $endpoint = 'https://i.instagram.com/api/v1/users/web_profile_info/?username=' . rawurlencode($username);
     $headers = [
-      'Accept: application/json',
+      'Accept: */*',
+      'Accept-Language: sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7',
       'Referer: https://www.instagram.com/' . rawurlencode($username) . '/',
-      'User-Agent: Mozilla/5.0 (compatible; RockrullarnaBot/1.0; +https://www.rockrullarna.se/)',
+      'User-Agent: Instagram 276.0.0.26.129 Android (33/13; 420dpi; 1080x2220; Google/google; Pixel 7; panther; qcom; sv_SE; 456970516)', // App-version uppdaterad 2026-04-06; uppdatera vid behov om flödet slutar fungera
       'X-IG-App-ID: 936619743392459',
     ];
 
