@@ -37,14 +37,14 @@
 
   function getInstagramMediaTypeLabel($mediaType) {
     if ($mediaType === 'VIDEO') {
-      return 'Video pa Instagram';
+      return 'Video på Instagram';
     }
 
     if ($mediaType === 'CAROUSEL_ALBUM') {
-      return 'Karusell pa Instagram';
+      return 'Karusell på Instagram';
     }
 
-    return 'Bild pa Instagram';
+    return 'Bild på Instagram';
   }
 
   $header_title = "Sociala medier";
@@ -103,7 +103,7 @@
                 <h3>Senaste inläggen</h3>
               </div>
             </div>
-            <p>Här visas de fyra senaste publiceringarna från vårt Instagram-konto, hämtade via vårt eget Instagram-api.</p>
+            <p>Här visas de senaste publiceringarna från vårt Instagram-konto.</p>
             <a class="rr-btn-inline" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">instagram.com/rockrullarna</a>
             <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="/sociala-media/data.php">
               <?php if ($instagram_feed_ready) { ?>
@@ -178,14 +178,14 @@
 
         const mediaTypeLabel = function (mediaType) {
           if (mediaType === 'VIDEO') {
-            return 'Video pa Instagram';
+            return 'Video från Instagram';
           }
 
           if (mediaType === 'CAROUSEL_ALBUM') {
-            return 'Karusell pa Instagram';
+            return 'Karusell från Instagram';
           }
 
-          return 'Bild pa Instagram';
+          return 'Bild från Instagram';
         };
 
         const trimCaption = function (caption) {
@@ -215,8 +215,8 @@
             return '<a class="rr-instagram-feed-card" href="' + escapeHtml(post.url || '#') + '" title="Öppna inlägget på Instagram" target="_blank" rel="noopener noreferrer">'
               + imageMarkup
               + '<span class="rr-instagram-feed-card-content">'
-              + timeMarkup
-              + '<strong>' + escapeHtml(trimCaption(post.caption)) + '</strong>'
+              + timeMarkup + '<br />'
+              + '<strong>' + escapeHtml(trimCaption(post.caption)) + '</strong><br />'
               + '<small>' + escapeHtml(mediaTypeLabel(post.mediaType)) + '</small>'
               + '</span>'
               + '</a>';
