@@ -8,6 +8,7 @@ $cacheTtlSeconds = 15 * 60;
 $cacheSchemaVersion = 2;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
+const DANS_BASE_URL = 'https://dans.se';
 $days = filter_input(
     INPUT_GET,
     'days',
@@ -248,18 +249,22 @@ function extract_time_range_from_info(?string $value): ?array
 
 function build_event_url(array $event): ?string
 {
-    $url = trim((string) (
+    return normalize_event_url((string) (
         $event['registration']['url'] ??
         $event['url'] ??
         $event['source'] ??
         ''
     ));
+}
 
+function normalize_event_url(string $url): ?string
+{
+    $url = trim($url);
     if ($url === '') {
         return null;
     }
 
-    if (preg_match('~^https?://~iu', $url)) {
+    if (preg_match('~^https?://~', $url)) {
         return $url;
     }
 
@@ -268,7 +273,7 @@ function build_event_url(array $event): ?string
     }
 
     if (str_starts_with($url, '/')) {
-        return 'https://dans.se' . $url;
+        return DANS_BASE_URL . $url;
     }
 
     return null;
@@ -281,24 +286,15 @@ function extract_slot_url(DOMElement $slot): ?string
         return null;
     }
 
-    $href = trim(html_entity_decode((string) $links->item(0)?->getAttribute('href'), ENT_QUOTES | ENT_HTML5, 'UTF-8'));
+    $firstLink = $links->item(0);
+    $href = $firstLink instanceof DOMElement ? $firstLink->getAttribute('href') : '';
+    $href = html_entity_decode($href, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $href = trim($href);
     if ($href === '') {
         return null;
     }
 
-    if (preg_match('~^https?://~iu', $href)) {
-        return $href;
-    }
-
-    if (str_starts_with($href, '//')) {
-        return 'https:' . $href;
-    }
-
-    if (str_starts_with($href, '/')) {
-        return 'https://dans.se' . $href;
-    }
-
-    return null;
+    return normalize_event_url($href);
 }
 
 function score_location(string $location): int
