@@ -12,6 +12,11 @@ $forceRefresh = filter_input(INPUT_GET, 'refresh', FILTER_VALIDATE_BOOLEAN) ?? f
 $cacheDir = __DIR__ . DIRECTORY_SEPARATOR . 'cache';
 $cacheFile = $cacheDir . DIRECTORY_SEPARATOR . 'instagram-' . $username . '.json';
 
+function build_instagram_image_proxy_url(string $remoteUrl): string
+{
+    return '/sociala-media/image.php?url=' . rawurlencode($remoteUrl);
+}
+
 function log_instagram_feed_issue(string $message): void
 {
     error_log('[sociala-media/data] ' . $message);
@@ -151,7 +156,7 @@ function normalize_instagram_posts(array $mediaItems, int $limit): array
 
         $posts[] = [
             'url' => $permalink,
-            'image' => $imageUrl,
+            'image' => $imageUrl !== '' ? build_instagram_image_proxy_url($imageUrl) : '',
             'alt' => $caption !== '' ? $caption : 'Instagram-inlägg från Rockrullarna',
             'caption' => $caption,
             'timestamp' => trim((string) ($item['timestamp'] ?? '')),
@@ -200,7 +205,9 @@ function normalize_legacy_instagram_posts(array $payload, int $limit): array
 
         $posts[] = [
             'url' => 'https://www.instagram.com/p/' . rawurlencode($shortcode) . '/',
-            'image' => trim((string) ($node['thumbnail_src'] ?? $node['display_url'] ?? '')),
+            'image' => trim((string) ($node['thumbnail_src'] ?? $node['display_url'] ?? '')) !== ''
+                ? build_instagram_image_proxy_url(trim((string) ($node['thumbnail_src'] ?? $node['display_url'] ?? '')))
+                : '',
             'alt' => trim((string) ($node['accessibility_caption'] ?? 'Instagram-inlägg från Rockrullarna')),
             'caption' => $caption,
             'timestamp' => trim((string) ($node['taken_at_timestamp'] ?? '')) !== ''
