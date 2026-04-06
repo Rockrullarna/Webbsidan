@@ -2360,6 +2360,71 @@ header {
   margin-bottom: 0;
 }
 
+.rr-social-platform-card {
+  gap: 1rem;
+}
+
+.rr-social-platform-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+
+.rr-social-platform-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,171,214,0.28);
+  background: linear-gradient(180deg, rgba(0,171,214,0.16), rgba(0,171,214,0.05));
+  color: var(--b-accent-strong);
+  flex-shrink: 0;
+}
+
+.rr-social-platform-card .rr-style-label {
+  margin-bottom: 0.25rem;
+}
+
+.rr-social-embed-shell {
+  overflow: hidden;
+  min-height: 30rem;
+}
+
+.rr-social-embed-shell iframe {
+  display: block;
+  width: 100%;
+  min-height: 30rem;
+  border: 0;
+  background: transparent;
+}
+
+#rr-instagram-feed {
+  position: relative;
+}
+
+.rr-social-feed-status {
+  margin: 0;
+  color: var(--b-muted);
+}
+
+#rr-instagram-feed[data-rr-instagram-fallback="true"] {
+  display: flex;
+  align-items: center;
+}
+
+.rr-social-embed-shell--tiktok {
+  display: flex;
+  justify-content: center;
+}
+
+.rr-social-embed-shell--tiktok .tiktok-embed {
+  margin: 0 !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
 .rr-contact-map {
   overflow: hidden;
   min-height: 26rem;
@@ -3447,6 +3512,10 @@ header {
 [data-bs-theme=light] .rr-contact-method-card,
 [data-bs-theme=light] .rr-contact-accordion .accordion-item {
   background: linear-gradient(180deg, rgba(0,171,214,0.05), rgba(0,171,214,0.01)), var(--b-darker);
+}
+
+[data-bs-theme=light] .rr-social-platform-icon {
+  background: linear-gradient(180deg, rgba(0,171,214,0.2), rgba(0,171,214,0.08));
 }
 
 [data-bs-theme=light] .rr-contact-accordion .accordion-button:not(.collapsed) {
