@@ -334,7 +334,11 @@
         return response.json();
       })
       .then(function (data) {
-        renderTable(container, normalizeEvents(data, days), mode);
+        var events = normalizeEvents(data, days);
+        if (limit > 0 && events.length > limit) {
+          events = events.slice(0, limit);
+        }
+        renderTable(container, events, mode);
       })
       .catch(function (error) {
         console.error('Aktivitetskalender: Kunde inte hämta data:', error);

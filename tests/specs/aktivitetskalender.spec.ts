@@ -88,6 +88,44 @@ test('handles nested calendar API payloads', async ({ page }) => {
   await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });
 
+test('homepage limits calendar to 10 events', async ({ page }) => {
+  const events = Array.from({ length: 15 }, (_, i) => ({
+    name: `Fixture event ${i + 1}`,
+    start: `${formatDate(i + 1)} 18:00:00`,
+    end: `${formatDate(i + 1)} 19:00:00`,
+    location: 'Fixture Hall',
+    url: null
+  }));
+
+  await mockCalendarApi(page, { events });
+
+  await page.goto('/');
+
+  const rows = page.locator('.rr-kal-table tbody tr');
+  await expect(rows).toHaveCount(10);
+  await expect(page.getByRole('cell', { name: 'Fixture event 1 Fixture Hall' })).toBeVisible();
+  await expect(page.getByRole('cell', { name: 'Fixture event 10 Fixture Hall' })).toBeVisible();
+  await expect(page.getByRole('cell', { name: /Fixture event 11/ })).toHaveCount(0);
+});
+
+test('full calendar page shows all events beyond 10', async ({ page }) => {
+  const events = Array.from({ length: 15 }, (_, i) => ({
+    name: `Fixture event ${i + 1}`,
+    start: `${formatDate(i + 1)} 18:00:00`,
+    end: `${formatDate(i + 1)} 19:00:00`,
+    location: 'Fixture Hall',
+    url: null
+  }));
+
+  await mockCalendarApi(page, { events });
+
+  await page.goto('/aktivitetskalender/');
+
+  const rows = page.locator('.rr-kal-table tbody tr');
+  await expect(rows).toHaveCount(15);
+  await expect(page.getByText('Fixture event 15')).toBeVisible();
+});
+
 test('renders backend-expanded recurring occurrences', async ({ page }) => {
   await mockCalendarApi(page, [
     {
