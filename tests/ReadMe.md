@@ -256,7 +256,7 @@ cd ../src && php -S 0.0.0.0:8080 &
 cd ../tests
 ./run-tests.sh update-screenshots
 # eller med npm:
-npm run test:visual:update
+npm run test:visual:update:local
 
 # Granska ändringarna och committa bilderna
 git add snapshots/
@@ -296,7 +296,7 @@ Playwright skapade en ny snapshot under körningen med `--update-snapshots`.
 Arbetsflödet är då:
 
 1. Lägg till den nya sidan i `pages`-arrayen i `specs/visual-regression.spec.ts`
-2. Kör `npm run test:visual:update` eller `npm run test:visual:update:prod`
+2. Kör `npm run test:visual:update:local` eller `npm run test:visual:update:prod`
 3. Granska de nya bilderna i `tests/snapshots/visual-regression.spec.ts/`
 4. Om bilderna ser korrekta ut, lägg till dem i git och committa dem
 5. Kör sedan testet igen utan update-läge för att verifiera att allt matchar

@@ -86,6 +86,16 @@ Bra att känna till:
 .\dev-scripts\clear-cache.ps1 -Rebuild
 ```
 
+## Dokumentation / wiki
+
+Samlad projektdokumentation finns i [wiki/ReadMe.md](wiki/ReadMe.md).
+
+Där finns även:
+
+- deploydokumentation: [wiki/Deploy.md](wiki/Deploy.md)
+- versionshantering: [wiki/Versionsnummer.md](wiki/Versionsnummer.md)
+- komplett index över alla markdownfiler: [wiki/Markdown-index.md](wiki/Markdown-index.md)
+
 ## Hur laddas hemsidan upp?
 Som standard nu så laddas källkoden upp via SFTP via en GitHub-action när man gör en merge till main.  
 Se filen ```.github\workflows\deploy.yml```.  

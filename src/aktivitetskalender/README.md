@@ -4,7 +4,7 @@ Aktivitetskalendern använder en lokal backend-proxy i stället för att låta w
 
 ## Översikt
 
-Backend-endpointen finns i [data.php](c:/GitHub/RR-Webbsidan/src/aktivitetskalender/data.php).
+Backend-endpointen finns i [data.php](data.php).
 
 Den ansvarar för att:
 
@@ -15,7 +15,7 @@ Den ansvarar för att:
 5. cacha resultatet lokalt i 15 minuter
 6. returnera färdiga poster till frontend
 
-Frontend i [../filer/js/aktivitetskalender.js](c:/GitHub/RR-Webbsidan/src/filer/js/aktivitetskalender.js) renderar bara färdiga poster som redan normaliserats av backend.
+Frontend i [../filer/js/aktivitetskalender.js](../filer/js/aktivitetskalender.js) renderar bara färdiga poster som redan normaliserats av backend.
 
 ## Varför två datakällor?
 
@@ -97,7 +97,7 @@ Stödda parametrar för `data.php`:
 
 Cachefiler skrivs till:
 
-1. [cache](c:/GitHub/RR-Webbsidan/src/aktivitetskalender/cache)
+1. [cache](cache)
 
 Nuvarande cachepolicy:
 
@@ -128,15 +128,15 @@ Och både rensa och bygga upp den igen med:
 
 ## Filer
 
-1. [index.php](c:/GitHub/RR-Webbsidan/src/aktivitetskalender/index.php)
+1. [index.php](index.php)
    1. kalenderns sida
-2. [data.php](c:/GitHub/RR-Webbsidan/src/aktivitetskalender/data.php)
+2. [data.php](data.php)
    1. backend-proxy, merge, cache, debug
-3. [../filer/js/aktivitetskalender.js](c:/GitHub/RR-Webbsidan/src/filer/js/aktivitetskalender.js)
+3. [../filer/js/aktivitetskalender.js](../filer/js/aktivitetskalender.js)
    1. frontend-rendering av färdig backenddata
 
 ## Testning
 
-Kalenderns Playwright-tester finns i [../../tests/specs/aktivitetskalender.spec.ts](c:/GitHub/RR-Webbsidan/tests/specs/aktivitetskalender.spec.ts).
+Kalenderns Playwright-tester finns i [../../tests/specs/aktivitetskalender.spec.ts](../../tests/specs/aktivitetskalender.spec.ts).
 
 De använder syntetiska fixtures och är inte bundna till en specifik termin.
