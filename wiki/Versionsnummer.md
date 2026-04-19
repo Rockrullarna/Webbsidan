@@ -12,6 +12,8 @@ Nuvarande format:
 - Produktion: `v14.yyyyMMdd.hhmm`
 - Beta: `v14.yyyyMMdd.hhmm-beta`
 
+`14` avser webbplatsens nuvarande huvudgeneration (v14) och uppdateras bara vid byte till ny huvudgeneration.
+
 Exempel från workflow:
 
 ```yml
