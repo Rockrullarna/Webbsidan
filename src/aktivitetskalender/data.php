@@ -5,7 +5,7 @@ header('Content-Type: application/json; charset=utf-8');
 
 // #region Config
 $cacheTtlSeconds = 15 * 60;
-$cacheSchemaVersion = 3;
+$cacheSchemaVersion = 4;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $org = 'rockrullarna';
 const DANS_BASE_URL = 'https://dans.se';
@@ -170,10 +170,14 @@ function extract_month_day(string $headingText): ?array
         return null;
     }
 
-    return [
-        'day' => (int) $matches[1],
-        'month' => (int) $matches[2]
-    ];
+    $day = (int) $matches[1];
+    $month = (int) $matches[2];
+
+    if ($day < 1 || $day > 31 || $month < 1 || $month > 12) {
+        return null;
+    }
+
+    return ['day' => $day, 'month' => $month];
 }
 
 function build_date_string(int $year, int $month, int $day): string
@@ -486,6 +490,9 @@ function find_matching_event_url(array $eventUrlLookups, string $name, string $s
     $scheduleEnd = create_datetime_from_timestamp($end);
     $normalizedName = normalize_text($name);
 
+    $bestMatch = null;
+    $bestMatchStart = null;
+
     foreach ($eventUrlLookups['recurring'] ?? [] as $recurringEvent) {
         if ($recurringEvent['name'] !== $normalizedName) {
             continue;
@@ -524,10 +531,16 @@ function find_matching_event_url(array $eventUrlLookups, string $name, string $s
             continue;
         }
 
-        return $recurringEvent['url'];
+        // Välj den matchande serie vars start är närmast (men inte efter) schemat,
+        // för att undvika att en äldre serie (t.ex. vårtermin) får företräde framför
+        // en nyare serie (t.ex. hösttermin) med samma namn och tid.
+        if ($bestMatch === null || $recurringEvent['start'] > $bestMatchStart) {
+            $bestMatch = $recurringEvent;
+            $bestMatchStart = $recurringEvent['start'];
+        }
     }
 
-    return null;
+    return $bestMatch !== null ? $bestMatch['url'] : null;
 }
 
 function append_unique_event(array &$events, array &$eventKeys, array $event): void
@@ -589,15 +602,18 @@ function parse_schedule_events(string $scheduleHtml, array $eventUrlLookups): ar
         }
 
         $monthDayKey = sprintf('%02d-%02d', $monthDay['month'], $monthDay['day']);
-        if ($previousMonthDay !== null && strcmp($monthDayKey, $previousMonthDay) < 0) {
-            $currentYear += 1;
-        }
-        $previousMonthDay = $monthDayKey;
 
         $table = find_next_table($heading);
         if ($table === null) {
             continue;
         }
+
+        // Uppdatera årsräknaren bara när ett datumhuvud med tillhörande tabell
+        // hittats, så att icke-schemarelaterade h2-element inte påverkar årsberäkningen.
+        if ($previousMonthDay !== null && strcmp($monthDayKey, $previousMonthDay) < 0) {
+            $currentYear += 1;
+        }
+        $previousMonthDay = $monthDayKey;
 
         $columnHeadings = $xpath->query('.//tr[1]//div[contains(@class, "cwSchemeColumnHeading")]', $table);
         $timeColumns = $xpath->query('.//tr[2]//td[contains(@class, "cwSchemeTimeSlotsColumn")]', $table);

@@ -20,6 +20,22 @@ function offsetToWeekday(targetDay: number, weekShift = 0): number {
   return daysUntilWeekday + weekShift * 7;
 }
 
+/** Returns an ISO date string that falls in October of the upcoming or current year
+ *  within the 180-day window. If October of this year is already within 180 days,
+ *  use that; otherwise use next year. We pick Oct 7 (always a few months ahead from
+ *  typical spring test runs). */
+function octoberDate(day = 7): string {
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  const cutoff = new Date(now.getTime() + 180 * 24 * 60 * 60 * 1000);
+
+  const thisYear = now.getFullYear();
+  const candidate = new Date(thisYear, 9, day); // month 9 = October (0-indexed)
+  const year = candidate > now && candidate <= cutoff ? thisYear : thisYear + 1;
+
+  return `${year}-10-${String(day).padStart(2, '0')}`;
+}
+
 async function mockCalendarApi(page: Page, body: unknown): Promise<void> {
   await page.route('**/aktivitetskalender/data.php**', async (route) => {
     await route.fulfill({
@@ -106,4 +122,46 @@ test('renders backend-expanded recurring occurrences', async ({ page }) => {
   await expect(page.getByText('18:00–20:00')).toHaveCount(1);
   await expect(page.getByText('Fixture Hall E').first()).toBeVisible();
   await expect(page.getByRole('link', { name: 'Fixture ongoing series' }).first()).toHaveAttribute('href', 'https://example.test/signup/ongoing-series');
+});
+
+test('renders October events with correct autumn booking links', async ({ page }) => {
+  const octDate = octoberDate(7);
+
+  await mockCalendarApi(page, [
+    {
+      name: 'Fixture hösttermin kurs',
+      start: `${octDate} 18:30:00`,
+      end: `${octDate} 20:00:00`,
+      location: 'Stora salen',
+      url: 'https://example.test/signup/autumn-course'
+    },
+    {
+      name: 'Fixture hösttermin utan länk',
+      start: `${octDate} 19:00:00`,
+      end: `${octDate} 21:00:00`,
+      location: 'Lilla salen',
+      url: null
+    }
+  ]);
+
+  await page.goto('/aktivitetskalender/');
+
+  const rows = page.locator('.rr-kal-table tbody tr');
+
+  await expect(page.getByRole('table')).toBeVisible();
+  await expect(rows).toHaveCount(2);
+  await expect(page.getByText('Fixture hösttermin kurs')).toBeVisible();
+  await expect(page.getByText('Fixture hösttermin utan länk')).toBeVisible();
+  await expect(page.getByText('18:30–20:00')).toBeVisible();
+  await expect(page.getByText('19:00–21:00')).toBeVisible();
+  await expect(page.locator('.rr-kal-location-pill--stora')).toBeVisible();
+  await expect(page.locator('.rr-kal-location-pill--lilla')).toBeVisible();
+  // Autumn booking link must point to the autumn event, not a spring event
+  await expect(page.getByRole('link', { name: 'Fixture hösttermin kurs' })).toHaveAttribute(
+    'href',
+    'https://example.test/signup/autumn-course'
+  );
+  // Event without URL should be plain text, not a link
+  await expect(page.getByRole('link', { name: 'Fixture hösttermin utan länk' })).toHaveCount(0);
+  await expect(page.getByText('Inga kommande aktiviteter hittades för de närmaste dagarna.')).toHaveCount(0);
 });
