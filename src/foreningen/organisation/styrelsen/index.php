@@ -21,6 +21,7 @@
       Vice ordförande (2 år): Daniel Hjalmarsson<br />
       Kassör (2 år): Annica Kindborg <br />
       Sekreterare (2 år): Linnea Sohlberg Modin<br />
+      Ledamot (1 år): Mathias Grundblad<br />
       Ledamot (1 år): Emil Schyman<br />
       Ledamot (1 år): Elin Sörman<br />
       Suppleant (1 år): Anette Asplund<br />
