@@ -107,24 +107,20 @@
           <div class="rr-courses-media-gallery" aria-label="Bildytor för West Coast Swing">
             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 1</span>
-                <h3>Connection</h3>
-                <p>En bild som visar kontakten mellan dansarna hjälper besökaren att förstå stilen direkt.</p>
+                <h3>Socialdans</h3>
               </div>
             </article>
 
             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/wcs/socialdans-2.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 2</span>
-                <h3>Musikalisk tolkning</h3>
-                <p>Här passar en bild med tydligt uttryck, stopp eller variation i musiken bra.</p>
+                <h3>Connection</h3>
               </div>
             </article>
 
             <article class="rr-courses-media-thumb">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Bild 3</span>
-                <h3>Socialdans</h3>
+                <h3>Connection</h3>
                 <p>Visa gärna hur WCS ser ut i en verklig dansmiljö för att förstärka den sociala sidan av stilen.</p>
               </div>
             </article>
