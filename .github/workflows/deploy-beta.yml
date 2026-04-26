@@ -36,7 +36,8 @@ jobs:
         run: |
           find ./src -type f \( -name '*.php' -o -name '*.html' -o -name '*.htm' -o -name '*.css' -o -name '*.js' \) \
             -exec sed -i 's|href="/|href="/beta/|g' {} + \
-            -exec sed -i 's|src="/|src="/beta/|g' {} +
+            -exec sed -i 's|src="/|src="/beta/|g' {} + \
+            -exec sed -i "s|'/filer/|'/beta/filer/|g" {} +
 
       - name: Deploy files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
