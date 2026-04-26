@@ -105,7 +105,7 @@
           </article>
 
           <div class="rr-courses-media-gallery" aria-label="Bildytor för West Coast Swing">
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Bild 1</span>
                 <h3>Connection</h3>
@@ -113,7 +113,7 @@
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/wcs/socialdans-2.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Bild 2</span>
                 <h3>Musikalisk tolkning</h3>
