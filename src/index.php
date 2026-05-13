@@ -64,13 +64,6 @@
       'credit_name' => 'Rockrullarna',
     ],
     [
-      'img'   => '/filer/bilder/webb/lokalen/lektion-pagar.jpg',
-      'color' => '#080c10',
-      'label' => 'Danslektion pågår',
-      'credit_url'  => '/',
-      'credit_name' => 'Rockrullarna',
-    ],
-    [
       'img'   => '/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg',
       'color' => '#111121',
       'label' => 'Socialdans – Fox',
