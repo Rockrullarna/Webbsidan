@@ -104,12 +104,10 @@
             </div>
           </article>
 
-          <div class="rr-courses-media-gallery" aria-label="Bildytor för fox">
-            <article class="rr-courses-media-thumb">
+          <div class="rr-courses-media-gallery" aria-label="Bilder från fox-kurser och socialdans">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 1</span>
-                <h3>Kontakt i paret</h3>
-                <p>En bild som fångar närvaro och hållning fungerar bra som första intryck av Fox.</p>
+                <h3>Socialdans</h3>
               </div>
             </article>
 
