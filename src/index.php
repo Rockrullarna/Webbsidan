@@ -78,6 +78,13 @@
       'credit_name' => 'Rockrullarna',
     ],
     [
+      'img'   => '/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg',
+      'color' => '#111121',
+      'label' => 'Socialdans – Fox',
+      'credit_url'  => '/',
+      'credit_name' => 'Jens Wiklund / Rockrullarna',
+    ],
+    [
       'img'   => '/filer/bilder/webb/lokalen/skor.jpg',
       'color' => '#0c0810',
       'label' => 'Dansskor vid entrén',
@@ -116,9 +123,9 @@
     ],
     'fox' => [
       [
-        'img'   => 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg',
         'color' => '#001020',
-        'label' => 'Fox – elegant balsalsdans',
+        'label' => 'Fox – socialdans',
       ],
       [
         'img'   => 'https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?auto=format&fit=crop&w=700&h=900&q=80',
