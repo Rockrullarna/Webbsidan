@@ -86,18 +86,19 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-label="Film av West Coast Swing">
+      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="wcs-media-heading">
         <div class="rr-courses-links-header">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
+            <h2 id="wcs-media-heading">Här kan du se <em>West Coast Swing</em></h2>
+          </div>
         </div>
 
         <div class="rr-courses-media-layout">
           <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
-              <span class="rr-courses-media-tag">Kort filmklipp</span>
-              <h3>Plats för ett kort WCS-klipp</h3>
-              <p>Här kan ni lägga in ett klipp som visar connection, musikalitet och hur dansen anpassas till olika typer av musik.</p>
-              <p class="rr-courses-media-note">Ett kort introduktionsklipp eller ett exempel från socialdans fungerar särskilt bra för WCS.</p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h3>West Coast Swing</h3>
             </div>
           </article>
 
