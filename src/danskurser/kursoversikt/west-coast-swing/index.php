@@ -86,12 +86,9 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="wcs-media-heading">
+      <section class="rr-courses-links-section rr-courses-detail-section" aria-label="Film av West Coast Swing">
         <div class="rr-courses-links-header">
-          <div>
-            <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
-            <h2 id="wcs-media-heading">Yta för att visa <em>West Coast Swing</em></h2>
-          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="rr-courses-media-layout">
@@ -117,19 +114,17 @@
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/wcs/socialdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 3</span>
-                <h3>Connection</h3>
-                <p>Visa gärna hur WCS ser ut i en verklig dansmiljö för att förstärka den sociala sidan av stilen.</p>
+                <h3>Socialdans</h3>
               </div>
             </article>
 
             <article class="rr-courses-media-thumb">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 4</span>
-                <h3>Personlig stil</h3>
-                <p>En bild med olika uttryck eller styling lyfter fram den kreativa friheten som många uppskattar i WCS.</p>
+                <span class="rr-courses-media-tag">Bild 3</span>
+                <h3>Connection</h3>
+                <p>Visa gärna hur WCS ser ut i en verklig dansmiljö för att förstärka den sociala sidan av stilen.</p>
               </div>
             </article>
           </div>

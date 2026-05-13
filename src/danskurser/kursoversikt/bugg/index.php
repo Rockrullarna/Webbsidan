@@ -105,35 +105,27 @@
           </article>
 
           <div class="rr-courses-media-gallery" aria-label="Bildytor för bugg">
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/bugg/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 1</span>
-                <h3>Grundsteg</h3>
-                <p>Lägg gärna in en bild som tydligt visar hållning, fotarbete eller första steget in i dansen.</p>
+                <h3>Tävling</h3>
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/bugg/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 2</span>
-                <h3>Tur och rörelse</h3>
-                <p>En bild med snurr, variation eller en lekfull sekvens fungerar bra för att visa energin i stilen.</p>
+                <span class="rr-courses-media-tag">Workshop</span>
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/bugg/tavlingsdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 3</span>
-                <h3>Social dans</h3>
-                <p>Här passar en bild från kurskväll eller socialdans för att förstärka gemenskapen runt Bugg.</p>
+                <h3>Tävlingsdans</h3>
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/bugg/socialdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 4</span>
-                <h3>Utveckling över tid</h3>
-                <p>Använd gärna en bild som visar mer teknik eller ett mer avancerat moment när kursdeltagaren vill ta nästa steg.</p>
+                <span class="rr-courses-media-tag">Social dans</span>
               </div>
             </article>
           </div>

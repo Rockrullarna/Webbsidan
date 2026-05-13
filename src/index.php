@@ -71,13 +71,6 @@
       'credit_name' => 'Rockrullarna',
     ],
     [
-      'img'   => '/filer/bilder/webb/lokalen/utanfor.jpg',
-      'color' => '#090916',
-      'label' => 'Utsidan av lokalen',
-      'credit_url'  => '/',
-      'credit_name' => 'Rockrullarna',
-    ],
-    [
       'img'   => '/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg',
       'color' => '#111121',
       'label' => 'Socialdans – Fox',
@@ -113,17 +106,22 @@
   $style_images = [
     'bugg' => [
       [
-        'img'   => 'https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/bugg/tavling.jpg',
         'color' => '#0d0020',
-        'label' => 'Bugg – pardans i nära omfamning',
+        'label' => 'Bugg – tävling',
       ],
       [
-        'img'   => 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/bugg/workshop.jpg',
+        'color' => '#0d0020',
+        'label' => 'Bugg – workshop',
+      ],
+      [
+        'img'   => '/filer/bilder/webb/bugg/tavlingsdans.jpg',
         'color' => '#10001a',
-        'label' => 'Bugg – nybörjarkurs hos Rockrullarna',
+        'label' => 'Bugg – tävlingsdans',
       ],
       [
-        'img'   => 'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/bugg/socialdans.jpg',
         'color' => '#0a0014',
         'label' => 'Bugg – social dans för alla nivåer',
       ],
@@ -153,6 +151,11 @@
       ],
       [
         'img'   => '/filer/bilder/webb/wcs/socialdans-2.jpg',
+        'color' => '#001618',
+        'label' => 'West Coast Swing – socialdans',
+      ],
+      [
+        'img'   => '/filer/bilder/webb/wcs/socialdans.jpg',
         'color' => '#001618',
         'label' => 'West Coast Swing – socialdans',
       ],

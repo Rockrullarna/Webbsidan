@@ -126,10 +126,10 @@
               </div>
             </article>
 
-             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/narvaro.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
+             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Närvaro</span>
-                <!-- <h3>Närvaro</h3> -->
+                <span class="rr-courses-media-tag">Tävling</span>
+                <!-- <h3>Tävling</h3> -->
               </div>
             </article>
 
