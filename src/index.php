@@ -85,6 +85,13 @@
       'credit_name' => 'Jens Wiklund / Rockrullarna',
     ],
     [
+      'img'   => '/filer/bilder/webb/fox/workshop.jpg',
+      'color' => '#0b5011',
+      'label' => 'Workshop – Fox',
+      'credit_url'  => '/',
+      'credit_name' => 'Fox / Workshop',
+    ],
+    [
       'img'   => '/filer/bilder/webb/lokalen/skor.jpg',
       'color' => '#0c0810',
       'label' => 'Dansskor vid entrén',
@@ -128,26 +135,26 @@
         'label' => 'Fox – socialdans',
       ],
       [
-        'img'   => 'https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/fox/workshop.jpg',
         'color' => '#001018',
-        'label' => 'Fox – smooth och dynamisk dans',
+        'label' => 'Fox – workshops och intensivkurser',
       ],
       [
-        'img'   => 'https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?auto=format&fit=crop&w=700&h=900&q=80',
+        'img'   => '/filer/bilder/webb/fox/kurs.jpg',
         'color' => '#00131f',
-        'label' => 'Fox – kurs för nybörjare och avancerade',
+        'label' => 'Fox – kurser för nybörjare och avancerade',
       ],
     ],
     'wcs' => [
       [
         'img'   => '/filer/bilder/webb/wcs/socialdans-1.jpg',
         'color' => '#001a18',
-        'label' => 'West Coast Swing – socialdans 1',
+        'label' => 'West Coast Swing – socialdans',
       ],
       [
         'img'   => '/filer/bilder/webb/wcs/socialdans-2.jpg',
         'color' => '#001618',
-        'label' => 'West Coast Swing – socialdans 2',
+        'label' => 'West Coast Swing – socialdans',
       ],
     ],
   ];

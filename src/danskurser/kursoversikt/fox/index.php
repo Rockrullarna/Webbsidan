@@ -107,33 +107,39 @@
           <div class="rr-courses-media-gallery" aria-label="Bilder från fox-kurser och socialdans">
             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <h3>Socialdans</h3>
+                <span class="rr-courses-media-tag">Socialdans</span>
+                <!-- <h3>Socialdans</h3> -->
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 2</span>
-                <h3>Glidande rörelse</h3>
-                <p>Visa gärna en bild där stegen och den följsamma dynamiken kommer fram tydligt.</p>
+                <span class="rr-courses-media-tag">Workshop</span>
+                <!-- <h3>Workshop</h3> -->
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+            <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/kurs.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 3</span>
-                <h3>Musikalitet</h3>
-                <p>En stämningsfull bild från golvet kan hjälpa besökaren att förstå hur fri och uttrycksfull Fox kan vara.</p>
+                <span class="rr-courses-media-tag">Kurs</span>
+                <!-- <h3>Kurs</h3> -->
               </div>
             </article>
 
-            <article class="rr-courses-media-thumb">
+             <article class="rr-courses-media-thumb" style="background-image: url('/filer/bilder/webb/fox/narvaro.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Närvaro</span>
+                <!-- <h3>Närvaro</h3> -->
+              </div>
+            </article>
+
+            <!-- <article class="rr-courses-media-thumb">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Bild 4</span>
                 <h3>Kursmiljö</h3>
                 <p>Här passar det bra med en bild från en kurskväll som visar trygghet, gemenskap och fokus.</p>
               </div>
-            </article>
+            </article> -->
           </div>
         </div>
       </section>
