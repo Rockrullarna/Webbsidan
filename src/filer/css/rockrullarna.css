@@ -3387,6 +3387,22 @@ header {
   color: rgba(248,251,255,0.88);
 }
 
+.rr-iframe-responsive {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.rr-iframe-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .rr-courses-media-tag {
   display: inline-flex;
   align-items: center;
@@ -3919,21 +3935,20 @@ header {
 
 /* #region Image Viewer Modal */
 .rr-courses-media-thumb-btn {
-  border: none;
+  border: 1px solid var(--b-border);
+  border-radius: 8px;
   background-color: transparent;
   padding: 0;
   cursor: pointer;
   transition: transform 0.2s ease, filter 0.2s ease;
-  all: revert;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   min-height: 15rem;
-  border: 1px solid var(--b-border);
-  border-radius: 8px;
-  background-attachment: fixed;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 .rr-courses-media-thumb-btn:hover {
@@ -3959,16 +3974,18 @@ header {
   height: 100vh;
   padding: 2rem;
   background: linear-gradient(135deg, rgba(0, 171, 214, 0.05), rgba(0, 32, 72, 0.08));
+  overflow: hidden;
 }
 
 .rr-modal-image {
-  max-width: 95vw;
-  max-height: 95vh;
+  max-width: 90vw;
+  max-height: 90vh;
   width: auto;
   height: auto;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -186,11 +186,24 @@
     </div>
 
     <script>
+      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+
       document.querySelectorAll('.rr-courses-media-thumb-btn').forEach(button => {
         button.addEventListener('click', function() {
           const imageUrl = this.getAttribute('data-image-url');
           document.getElementById('modalImage').src = imageUrl;
+          imageModal.show();
         });
+      });
+
+      // Close modal when clicking on the image or the background
+      document.getElementById('modalImage').addEventListener('click', function(e) {
+        e.stopPropagation();
+        imageModal.hide();
+      });
+
+      document.querySelector('.rr-image-modal-body').addEventListener('click', function() {
+        imageModal.hide();
       });
     </script>
 <?php

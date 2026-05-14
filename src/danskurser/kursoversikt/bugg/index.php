@@ -105,9 +105,9 @@
           </article>
 
           <div class="rr-courses-media-gallery" aria-label="Bildytor för bugg">
-            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/tavling.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavling.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Tävling</h3>
+                <span class="rr-courses-media-tag">Tävling</span>
               </div>
             </button>
 
@@ -119,7 +119,7 @@
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavlingsdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavlingsdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Tävlingsdans</h3>
+                <span class="rr-courses-media-tag">Tävlingsdans</span>
               </div>
             </button>
 
@@ -171,11 +171,24 @@
     </div>
 
     <script>
+      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+
       document.querySelectorAll('.rr-courses-media-thumb-btn').forEach(button => {
         button.addEventListener('click', function() {
           const imageUrl = this.getAttribute('data-image-url');
           document.getElementById('modalImage').src = imageUrl;
+          imageModal.show();
         });
+      });
+
+      // Close modal when clicking on the image or the background
+      document.getElementById('modalImage').addEventListener('click', function(e) {
+        e.stopPropagation();
+        imageModal.hide();
+      });
+
+      document.querySelector('.rr-image-modal-body').addEventListener('click', function() {
+        imageModal.hide();
       });
     </script>
 <?php

@@ -278,7 +278,9 @@
               <li>Nu ser vi till att ha ett riktigt trevligt möte tillsammans!</li>
             </ol>
             <p class="mt-5">Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
-            <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
+            <div class="rr-iframe-responsive">
+              <iframe src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" allowfullscreen></iframe>
+            </div>
             <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-ansluta-till-mote</a></p>
           </div>
         </div>
@@ -299,7 +301,9 @@
               <li><strong>Stäng av ljudet</strong> genom att se till så "mikrofon-ikonen"🎤 (nr 4 i bilden) är överstreckad.<br /><br /></li>
               <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
             </ul>
-            <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
+            <div class="rr-iframe-responsive">
+              <iframe src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" allowfullscreen></iframe>
+            </div>
             <p>Direktlänk till detta svaret: <br /><a href="#teams-information-under-motet">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-information-under-motet</a></p>
           </div>
         </div>

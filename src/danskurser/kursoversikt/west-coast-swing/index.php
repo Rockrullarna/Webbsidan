@@ -97,7 +97,9 @@
         <div class="rr-courses-media-layout">
           <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="rr-iframe-responsive">
+                <iframe src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
               <h3>West Coast Swing</h3>
             </div>
           </article>
@@ -105,25 +107,25 @@
           <div class="rr-courses-media-gallery" aria-label="Bildytor för West Coast Swing">
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Socialdans</h3>
+                <span class="rr-courses-media-tag">Socialdans</span>
               </div>
             </button>
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-2.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-2.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Connection</h3>
+                <span class="rr-courses-media-tag">Connection</span>
               </div>
             </button>
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Socialdans</h3>
+                <span class="rr-courses-media-tag">Socialdans</span>
               </div>
             </button>
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/workshop.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <h3>Workshop</h3>
+                <span class="rr-courses-media-tag">Workshop</span>
               </div>
             </button>
           </div>
@@ -172,11 +174,24 @@
     </div>
 
     <script>
+      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+
       document.querySelectorAll('.rr-courses-media-thumb-btn').forEach(button => {
         button.addEventListener('click', function() {
           const imageUrl = this.getAttribute('data-image-url');
           document.getElementById('modalImage').src = imageUrl;
+          imageModal.show();
         });
+      });
+
+      // Close modal when clicking on the image or the background
+      document.getElementById('modalImage').addEventListener('click', function(e) {
+        e.stopPropagation();
+        imageModal.hide();
+      });
+
+      document.querySelector('.rr-image-modal-body').addEventListener('click', function() {
+        imageModal.hide();
       });
     </script>
 
