@@ -167,6 +167,10 @@
         </div>
       </section>
     </div>
+
 <?php
+  // Inkluderar den modulära bildvisaren på sidan
+  include_once '../../../includes/modal-image-viewer.php';
+
   include_once '../../../includes/footer.php'
 ?>

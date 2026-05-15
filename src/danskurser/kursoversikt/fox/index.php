@@ -173,39 +173,9 @@
       </section>
     </div>
 
-    <!-- Image Viewer Modal -->
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-fullscreen modal-dialog-centered">
-        <div class="modal-content rr-image-modal-content">
-          <button type="button" class="btn-close btn-close-white position-absolute" data-bs-dismiss="modal" aria-label="Stäng" style="z-index: 1050; top: 1rem; right: 1rem;"></button>
-          <div class="modal-body rr-image-modal-body">
-            <img id="modalImage" src="" alt="Förstorad bild" class="rr-modal-image" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
-
-      document.querySelectorAll('.rr-courses-media-thumb-btn').forEach(button => {
-        button.addEventListener('click', function() {
-          const imageUrl = this.getAttribute('data-image-url');
-          document.getElementById('modalImage').src = imageUrl;
-          imageModal.show();
-        });
-      });
-
-      // Close modal when clicking on the image or the background
-      document.getElementById('modalImage').addEventListener('click', function(e) {
-        e.stopPropagation();
-        imageModal.hide();
-      });
-
-      document.querySelector('.rr-image-modal-body').addEventListener('click', function() {
-        imageModal.hide();
-      });
-    </script>
 <?php
+  // Inkluderar den modulära bildvisaren på sidan
+  include_once '../../../includes/modal-image-viewer.php';
+
   include_once '../../../includes/footer.php'
 ?>
