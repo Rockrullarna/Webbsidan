@@ -35,16 +35,13 @@
           <h2 id="historia-fakta-heading">Viktiga milstolpar</h2>
           <div class="rr-association-meta">
             <div class="rr-association-meta-item">
-              <strong>1983</strong>
-              <p>Föreningen grundas den 23 oktober.</p>
+              <p><b>1983</b> Föreningen grundas den 23 oktober.</p>
             </div>
             <div class="rr-association-meta-item">
-              <strong>1985</strong>
-              <p>Kursverksamheten kommer igång.</p>
+              <p><b>1985</b> Kursverksamheten kommer igång.</p>
             </div>
             <div class="rr-association-meta-item">
-              <strong>1999</strong>
-              <p>Verksamheten flyttar in i Haga Centrum, där vi fortfarande håller till.</p>
+              <p><b>1999</b> Verksamheten flyttar in i Haga Centrum, där vi fortfarande håller till.</p>
             </div>
           </div>
         </aside>

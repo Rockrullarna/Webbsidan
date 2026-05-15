@@ -72,7 +72,7 @@
             <span class="rr-courses-link-kicker">Pardans</span>
             <h3>Bugg</h3>
             <p>Från första stegen till fortsatt utveckling i en av våra mest populära dansstilar.</p>
-            <span class="rr-courses-overview-meta">Barn, ungdom och vuxen</span>
+            <span class="rr-courses-overview-meta">Motion som passar alla</span>
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
 
