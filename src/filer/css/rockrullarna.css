@@ -3722,6 +3722,22 @@ header {
 }
 /* #endregion Responsiva regler */
 
+/* #region Mobil - visas enbart på telefon */
+
+/* Göm elementet som standard på stora skärmar */
+.visible-phone {
+  display: none !important;
+}
+
+/* Visa elementet endast på skärmar smalare än 768px */
+@media (max-width: 767px) {
+  .visible-phone {
+    display: block !important; /* Eller 'inline-block' / 'flex' beroende på behov */
+  }
+}
+
+/* #endregion Mobil */
+
 /* #region Light mode overrides for new components */
 [data-bs-theme=light] .rr-courses-hero-copy,
 [data-bs-theme=light] .rr-courses-info-card,

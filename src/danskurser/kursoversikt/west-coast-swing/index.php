@@ -2,7 +2,7 @@
   $header_title = "West Coast Swing - Kursöversikt - Danskurser";
   $header_description = "West Coast Swing (WCS) är en cool pardans med rötter i Lindy hop";
 
-  $page_updated = "2026-04-04 18:40";
+  $page_updated = "2026-05-15 15:24";
   $page_url = "/danskurser/kursoversikt/west-coast-swing";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -135,8 +135,8 @@
       <section class="rr-courses-links-section" aria-labelledby="wcs-courses-heading">
         <div class="rr-courses-links-header">
           <div>
-            <p class="rr-style-label" aria-hidden="true">Kurser</p>
-            <h2 id="wcs-courses-heading">Aktuella <em>West Coast Swing-kurser</em></h2>
+            <p class="rr-style-label" aria-hidden="true">Kursutbud och socialdanser</p>
+            <h2 id="wcs-courses-heading">Aktuellt inom <em>West Coast Swing</em></h2>
           </div>
         </div>
 
@@ -159,6 +159,9 @@
           </div>
         </div>
       </section>
+      <p id="direct-link-wcs" class="mt-3">
+        Direktlänk för att komma till denna sidan är: <a href="https://rockrullarna.se/wcs" title="West Coast Swing-kurser hos Rockrullarna">rockrullarna.se/wcs</a>
+      </p>
     </div>
 
 <?php

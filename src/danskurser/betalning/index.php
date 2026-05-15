@@ -2,7 +2,7 @@
   $header_title = "Betalning - Danskurser";
   $header_description = "Betalningsinformation för vår kursverksamhet";
 
-  $page_updated = "2026-01-20 23:14";
+  $page_updated = "2026-05-15 15:26";
   $page_url = "/danskurser/betalning";
   $page_contact_name = "Kassören";
   $page_contact_email = "ekonomi@rockrullarna.se";
@@ -25,8 +25,14 @@
     </ul>
     <h2 id="betalningsinformation">Betalningsinformation</h2>
     <p>
-      Betalningsinformation för kurs/medlemskap framgår i antagningsbeskedet som skickas ut via e-post.<br />
-      Betalning görs till <b>bankgiro: 865-0277</b> tillsammans med OCR-numret som anges via betalningslänken i antagningsbeskedet.
+      Betalningsinformation för kurs/medlemskap framgår i antagningsbeskedet som skickas ut via e-post.
+    </p>
+    <p>
+      Använd då <b>"Klicka här för att betala"</b>-knappen i det antagningsbesked du får via e-post (<b>"Bekräftelse med betalinfo"</b>). <br />
+      Betala via Bankgiro eller Swish, och ange det referensnummer som står i ditt antagningsbesked så att vi kan matcha din betalning med din anmälan.<br />
+    </p>
+    <p>
+       Betalar du via bankgiro, så gör du det till <b>bankgiro: 865-0277</b> tillsammans med OCR-numret som anges via betalningslänken i antagningsbeskedet.
     </p>
     <p>
       Observera att betalning ska ej genomföras innan du fått ditt antagningsbesked.

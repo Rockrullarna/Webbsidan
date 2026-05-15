@@ -47,14 +47,14 @@
           <div class="rr-courses-info-list">
             <div class="rr-courses-info-item">
               <strong>Anm&auml;lan</strong>
-              <p>Du kan anm&auml;la dig ensam eller i par och v&auml;lja mellan barn-, ungdoms- och vuxenkurser.</p>
+              <p>Du kan anm&auml;la dig som singel eller i par och v&auml;lja mellan barn-, ungdoms- och vuxenkurser.</p>
             </div>
             <div class="rr-courses-info-item">
               <strong>Besked via e-post</strong>
-              <p>N&auml;r du har anm&auml;lt dig f&aring;r du f&ouml;rst en bekr&auml;ftelse och sedan ett nytt besked om du blivit antagen, tillsammans med betalningsinformation.</p>
+              <p>N&auml;r du har anm&auml;lt dig f&aring;r du f&ouml;rst en bekr&auml;ftelse och senare ett besked om du blivit antagen, tillsammans med betalningsinformation.</p>
             </div>
             <div class="rr-courses-note">
-              <p><strong>Obs:</strong> Anm&auml;lan &auml;r bindande inom 14 dagar f&ouml;re aktivitetens start.</p>
+              <p><strong>Observera!</strong> Anm&auml;lan till veckokurserna &auml;r bindande inom 14 dagar f&ouml;re aktivitetens start.</p>
               <p>Alla helgkurser &auml;r bindande fr&aring;n och med att du blivit antagen, eftersom externa tr&auml;nare ofta bokas in i f&ouml;rv&auml;g.</p>
             </div>
           </div>

@@ -2,7 +2,7 @@
   $header_title = "Barn och ungdom - Kursöversikt - Danskurser";
   $header_description = "Information om vår barn och ungdomsverksamhet";
 
-  $page_updated = "2026-04-04 18:40";
+  $page_updated = "2026-05-15 15:02";
   $page_url = "/danskurser/kursoversikt/dans-barn-och-ungdom";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -48,6 +48,23 @@
             </div>
           </div>
         </aside>
+      </section>
+
+      <section id="ledare-eftersoks" class="rr-courses-links-section" aria-labelledby="youth-benefits-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">🕵️ SÖKES 🕵️‍♀️</p>
+            <h2 id="youth-benefits-heading">Vi eftersöker personer som är intresserade av att undervisa inom barndans</h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-benefits-grid">
+          <article class="rr-courses-benefits-card">
+            <p>Just nu söker vi efter personer som är intresserade av att undervisa inom barndans. Kontakta oss på <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a> om du är intresserad av att bli tränare!</p>
+            <p>Vi ser gärna att du har erfarenhet av att arbeta med barn och ungdomar, samt en passion för dans och rörelse. Det är meriterande om du har tidigare erfarenhet av att undervisa eller leda grupper, men det viktigaste är att du är engagerad och vill bidra till en rolig och trygg dansmiljö för våra unga deltagare.</p>
+            <p>Då vi är en ideell förening är det ett krav att du är medlem i Rockrullarna. Vi erbjuder utbildning och stöd för våra tränare, så du behöver inte vara expert på barndans för att börja undervisa hos oss. Det viktigaste är att du har en vilja att lära och utvecklas tillsammans med våra unga dansare.</p>
+          </article>
+        </div>
       </section>
 
       <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="youth-highlights-heading">
@@ -144,6 +161,10 @@
           <div>
             <p class="rr-style-label" aria-hidden="true">Kurser</p>
             <h2 id="youth-courses-heading">Aktuella <em>barn- och ungdomskurser</em></h2>
+            <p class="mt-3">
+              Just nu har vi tyvärr inga barn- och ungdomskurser öppna för anmälan.<br />
+              Däremot eftersöker vi <a href="#ledare-eftersoks" title="Tränare eftersöks">personer som är intresserade av att undervisa</a> inom barndans, hör gärna av dig till oss på <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a> om du är intresserad.
+            </p>
           </div>
         </div>
 

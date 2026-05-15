@@ -416,15 +416,20 @@
 
         <div class="rr-calendar-standalone">
           <div class="rr-calendar-card">
+            <div>
+              <p class="rr-style-label" aria-hidden="true">Schema i danssalarna</p>
+              <h2 id="aktiviteter-heading">Aktivitetskalender</h2>
+            </div>
             <p class="rr-calendar-intro">
-              Här hittar du våra kommande aktiviteter, kursstarter och socialdanser i <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
+              Här hittar du våra kommande aktiviteter, kursstarter och socialdanser från <a href="/aktivitetskalender" title="Gå till aktivitetskalendern">aktivitetskalendern</a>.
               Vill du säkra en plats går du vidare till
-              <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>.
+              <a href="/danskurser/anmalan-danskurser" title="Anmälan till Rockrullarnas danskurser och aktiviteter"><strong>anmälan till danskurser</strong></a>, 
+              alternativt klickar på en av aktiviteterna nedan. Så kommer du direkt till anmälningsformuläret för den aktiviteten.
             </p>
             <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
             <script src="/filer/js/aktivitetskalender.js"></script>
             <p class="rr-calendar-actions">
-              <a class="btn btn-outline-secondary rr-calendar-button" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa alla aktiviteter</a>
+              <a class="btn btn-outline-secondary rr-calendar-button" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa hela aktivitetskalendern</a>
             </p>
           </div>
         </div>
