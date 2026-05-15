@@ -100,7 +100,7 @@
               <div class="rr-iframe-responsive">
                 <iframe src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
-              <h3>West Coast Swing</h3>
+              <h3>West Coast Swing - uppvisning</h3>
             </div>
           </article>
 

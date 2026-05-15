@@ -125,7 +125,7 @@
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/socialdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/socialdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Social dans</span>
+                <span class="rr-courses-media-tag">Socialdans</span>
               </div>
             </button>
           </div>
