@@ -84,13 +84,13 @@
       'credit_url'  => '/',
       'credit_name' => 'Rockrullarna',
     ],
-    [
-      'img'   => '/filer/bilder/webb/lokalen/receptionen.jpg',
-      'color' => '#101214',
-      'label' => 'Receptionen i lokalen',
-      'credit_url'  => '/',
-      'credit_name' => 'Rockrullarna',
-    ],
+    // [
+    //   'img'   => '/filer/bilder/webb/lokalen/receptionen.jpg',
+    //   'color' => '#101214',
+    //   'label' => 'Receptionen i lokalen',
+    //   'credit_url'  => '/',
+    //   'credit_name' => 'Rockrullarna',
+    // ],
   ];
   $hero = $hero_images[array_rand($hero_images)];
 
