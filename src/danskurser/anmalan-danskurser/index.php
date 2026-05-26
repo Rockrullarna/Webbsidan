@@ -2,7 +2,7 @@
   $header_title = "Anmälan till danskurser";
   $header_description = "Här finner du anmälningslänkar till alla våra danskurser! Välkommen med din anmälan";
 
-  $page_updated = "2026-04-06 21:20";
+  $page_updated = "2026-05-26 21:20";
   $page_url = "/danskurser/anmalan-danskurser";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -64,11 +64,11 @@
           </li>
           <li>
             <strong>Vänta på besked</strong><br />
-            När du blivit antagen, får du e-post med betalningsinformation.
+            Ofta genomförs antagningsproceduren manuellt. När du blivit antagen till kursen, får du e-post med betalningsinformation.
           </li>
           <li>
             <strong>Betala efter antagningsbesked</strong><br />
-            Betala inte innan du fått ditt antagningsbesked. För mer info om betalningen,  <a href="/danskurser/betalning" title="Betalning" target="_blank" rel="noopener">se sidan Betalning</a>.
+            Betala inte innan du fått ditt antagningsbesked. <b>OBS!</b> Medlemsavgiften godkänns inte som friskvård enligt Skatteverket, men kursavgifter går utmärkt! Mer <a href="/danskurser/betalning" title="Betalning" target="_blank" rel="noopener">info på betalsidan</a>.
           </li>
           <li>
             <strong>Klart, kvitto skickas</strong><br />
