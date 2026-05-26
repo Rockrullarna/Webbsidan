@@ -51,7 +51,7 @@
         </aside>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="fox-highlights-heading">
+      <section id="hojdpunkter-med-dansen" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="fox-highlights-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Upplevelsen</p>
@@ -86,7 +86,7 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="fox-media-heading">
+      <section id="film-och-bilder" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="fox-media-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
@@ -97,10 +97,10 @@
         <div class="rr-courses-media-layout">
           <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
-              <span class="rr-courses-media-tag">Kort filmklipp</span>
-              <h3>Här kan ett kort Fox-klipp ligga</h3>
+              <span class="rr-courses-media-tag">Filmklipp</span>
+              <h3>Här kan ett Fox-filmklipp ligga</h3>
               <p>Ytan är tänkt för ett lugnt, tydligt videoinslag som visar känslan i dansen, till exempel kontakt, gång och musikalisk tolkning.</p>
-              <p class="rr-courses-media-note">När material finns kan den här panelen bytas mot en inbäddad video eller ett kort lokalt klipp.</p>
+              <!-- <p class="rr-courses-media-note">När material finns kan den här panelen bytas mot en inbäddad video eller ett kort lokalt klipp.</p> -->
             </div>
           </article>
 
@@ -108,38 +108,27 @@
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Socialdans</span>
-                <!-- <h3>Socialdans</h3> -->
               </div>
             </button>
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/fox/workshop.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/fox/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Workshop</span>
-                <!-- <h3>Workshop</h3> -->
               </div>
             </button>
 
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/fox/kurs.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/fox/kurs.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Kurs</span>
-                <!-- <h3>Kurs</h3> -->
               </div>
             </button>
 
              <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/fox/tavling.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/fox/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
               <div class="rr-courses-media-copy">
                 <span class="rr-courses-media-tag">Tävling</span>
-                <!-- <h3>Tävling</h3> -->
               </div>
             </button>
 
-            <!-- <article class="rr-courses-media-thumb">
-              <div class="rr-courses-media-copy">
-                <span class="rr-courses-media-tag">Bild 4</span>
-                <h3>Kursmiljö</h3>
-                <p>Här passar det bra med en bild från en kurskväll som visar trygghet, gemenskap och fokus.</p>
-              </div>
-            </article> -->
           </div>
         </div>
       </section>

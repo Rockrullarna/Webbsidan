@@ -51,7 +51,7 @@
         </aside>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="bugg-highlights-heading">
+      <section id="hojdpunkter-med-dansen" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="bugg-highlights-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Upplevelsen</p>
@@ -86,21 +86,21 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="bugg-media-heading">
+      <section id="film-och-bilder" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="bugg-media-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
-            <h2 id="bugg-media-heading">Visa hur <em>Bugg</em> känns i rörelse</h2>
+            <h2 id="bugg-media-heading">Hur <em>Bugg</em> upplevs i rörelse</h2>
           </div>
         </div>
 
         <div class="rr-courses-media-layout">
           <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
-              <span class="rr-courses-media-tag">Kort filmklipp</span>
-              <h3>Plats för en kort video om Bugg</h3>
-              <p>Den här ytan kan ersättas med ett kort YouTube- eller Vimeo-klipp som visar grundsteg, turer och känslan i dansen.</p>
-              <p class="rr-courses-media-note">Bra innehåll här är till exempel en snabb introduktion, några grundläggande figurer eller ett socialdansklipp från salen.</p>
+              <span class="rr-courses-media-tag">Filmklipp</span>
+              <h3>Plats för en video om Bugg</h3>
+              <p>Den här ytan kommer att ersättas med ett YouTube- eller Vimeo-klipp som visar grundsteg, turer och känslan i dansen.</p>
+              <!-- <p class="rr-courses-media-note">Bra innehåll här är till exempel en snabb introduktion, några grundläggande figurer eller ett socialdansklipp från salen.</p> -->
             </div>
           </article>
 

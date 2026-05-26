@@ -67,7 +67,7 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="youth-highlights-heading">
+      <section id="hojdpunkter-med-dansen" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="youth-highlights-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Upplevelsen</p>
@@ -102,7 +102,7 @@
         </div>
       </section>
 
-      <section class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="youth-media-heading">
+      <!-- <section id="film-och-bilder" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="youth-media-heading">
         <div class="rr-courses-links-header">
           <div>
             <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
@@ -154,7 +154,7 @@
             </article>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="rr-courses-links-section" aria-labelledby="youth-courses-heading">
         <div class="rr-courses-links-header">

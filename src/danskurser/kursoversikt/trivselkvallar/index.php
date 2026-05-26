@@ -55,7 +55,7 @@
     </ul>
     <h2>Facebook evenemang</h2>
     <p>
-      Evenemangen för att lägga till i er kalender, hittar ni på vår Facebook-sida: 
+      Evenemangen för att lägga till i er kalender, hittar ni på vår Facebook-sida:
       <a href="https://www.facebook.com/pg/rockrullarna/events">facebook.com/pg/rockrullarna/events</a>
     </p>
     <h2>Planderade trivselkvällar och socialdanser</h2>
