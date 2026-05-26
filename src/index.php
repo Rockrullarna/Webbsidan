@@ -77,13 +77,13 @@
       'credit_url'  => '/',
       'credit_name' => 'Fox / Workshop',
     ],
-    [
-      'img'   => '/filer/bilder/webb/lokalen/skor.jpg',
-      'color' => '#0c0810',
-      'label' => 'Dansskor vid entrén',
-      'credit_url'  => '/',
-      'credit_name' => 'Rockrullarna',
-    ],
+    // [
+    //   'img'   => '/filer/bilder/webb/lokalen/skor.jpg',
+    //   'color' => '#0c0810',
+    //   'label' => 'Dansskor vid entrén',
+    //   'credit_url'  => '/',
+    //   'credit_name' => 'Rockrullarna',
+    // ],
     // [
     //   'img'   => '/filer/bilder/webb/lokalen/receptionen.jpg',
     //   'color' => '#101214',
