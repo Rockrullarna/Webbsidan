@@ -60,28 +60,28 @@
         <ol class="rr-courses-process-list">
           <li>
             <strong>Anmäl dig</strong><br />
-            Du får först en bekräftelse på att din anmälan har tagits emot.
+            Du får direkt en bekräftelse på att din anmälan är mottagen.
           </li>
           <li>
-            <strong>Vänta på besked</strong><br />
-            Ofta genomförs antagningsproceduren manuellt. När du blivit antagen till kursen, får du e-post med betalningsinformation.
+            <strong>Vänta på antagningsbesked</strong><br />
+            Antagningen sker manuellt. När du fått plats får du ett mejl med betalningsinfo.
           </li>
           <li>
-            <strong>Betala efter antagningsbesked</strong><br />
-            Betala inte innan du fått ditt antagningsbesked. <b>OBS!</b> Medlemsavgiften godkänns inte som friskvård enligt Skatteverket, men kursavgifter går utmärkt! Mer <a href="/danskurser/betalning" title="Betalning" target="_blank" rel="noopener">info på betalsidan</a>.
+            <strong>Betala kursen</strong><br />
+            Betala först efter du fått ett antagningsbesked. <i>Friskvård gäller ej medlemsavgiften.</i> Se <a href="/danskurser/betalning" target="_blank" rel="noopener">betalsidan</a>.
           </li>
           <li>
-            <strong>Klart, kvitto skickas</strong><br />
-            När betalningen är registrerad och klar, så skickas ett kvitto till dig via e-post.
+            <strong>Kvitto via mejl</strong><br />
+            Ett kvitto skickas automatiskt så fort din betalning är registrerad.
           </li>
           <li>
-            <strong>Välkommen på kursen</strong><br />
-            Vi ser fram emot att dansa med dig!
+            <strong>Välkommen på kurs!</strong><br />
+            Vi ses på dansgolvet!
           </li>
         </ol>
         <p class="mt-4">
           <strong>Frågor?</strong><br />
-              Kontakta oss gärna på <a href="mailto:kurser@rockrullarna.se">kurser@rockrullarna.se</a> om du har frågor kring anmälan eller våra kurser så hjälper vi dig!
+          Kontakta oss gärna via <a href="mailto:kurser@rockrullarna.se">kurser@rockrullarna.se</a> om du har frågor kring anmälan eller våra kurser så hjälper vi dig!
         </p>
       </section>
 
