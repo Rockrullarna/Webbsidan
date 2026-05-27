@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap Theme switcher --><script src="/filer/js/bootstrap-theme-switcher.js"></script>
-  <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap 5 CDN Links --><link href="/filer/bootstrap-v5.3.8-dist/bootstrap.min.css" rel="stylesheet">
   <!-- Bildfokuserad – Google Fonts --><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
   <title><?php if (empty($header_title)) {
@@ -63,16 +63,6 @@
   } else {
     echo "$page_updated";
   }?>" />
-
-  <!-- START Clarity tracking code for https://www.rockrullarna.se -->
-  <script>
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "pym2mc24dl");
-  </script>
-  <!-- END Clarity tracking code -->
 
   <?php
     function redirectToLowercase() {
