@@ -101,12 +101,31 @@
             </h3>
             <div id="panelsStayOpen-collapse-betalningar" class="accordion-collapse collapse">
               <div class="accordion-body">
-                <p>Se vår sida för betalningar.</p>
+                <p>Se vår sida för betalningar:</p>
                 <p><a href="/danskurser/betalning" title="Betalning av danskurser">Rockrullarna.se / Danskurser / Betalning</a></p>
                 <p>Där hittar du information om betalningsvillkor, betalningsmetoder i caféet.</p>
                 <p>Däremot information och guider om hur du betalar med friskvård, finns längre ned på denna frågor och svar sidan.</p>
                 <p><br /><br /><br /></p>
                 <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#betalningar">https://www.Rockrullarna.se/kontakt/fragor-och-svar#betalningar</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-avanmalan">
+          <div class="accordion-item">
+            <h3 id="avanmalan" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-avanmalan" aria-expanded="false" aria-controls="panelsStayOpen-collapse-avanmalan">
+                Avanmälan: Hur avanmäler jag mig från en danskurs?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-avanmalan" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för avanmälan:</p>
+                <p><a href="/danskurser/avanmala" title="Avanmälan av danskurser">Rockrullarna.se / Danskurser / Avanmälan</a></p>
+                <p>Där hittar du information om avanmälningsvillkor och hur du avanmäler dig från kurser.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#avanmalan">https://www.Rockrullarna.se/kontakt/fragor-och-svar#avanmalan</a></p>
               </div>
             </div>
           </div>
@@ -121,7 +140,7 @@
             </h3>
             <div id="panelsStayOpen-collapse-styrande-dokument" class="accordion-collapse collapse">
               <div class="accordion-body">
-                <p>Se vår sida för styrande dokument.</p>
+                <p>Se vår sida för styrande dokument:</p>
                 <p><a href="/foreningen/styrande-dokument" title="Styrande dokument">Rockrullarna.se / Föreningen / Styrande dokument</a></p>
                 <p>Där hittar du information om styrande dokument, stadgar, rollbeskrivningar och arbetsprocesser.</p>
                 <p><br /><br /><br /></p>
