@@ -17,8 +17,11 @@ function build_instagram_image_proxy_url(string $remoteUrl): string
     // Hämtar den aktuella mappen dynamiskt (t.ex. "/beta/sociala-media" eller "/sociala-media")
     $currentDir = dirname($_SERVER['SCRIPT_NAME']);
     
+    // Rensa bort eventuella avslutande snedstreck från mappsökvägen
+    $cleanDir = rtrim($currentDir, '/\\');
+    
     // Bygg ihop sökvägen till image.php
-    $proxyPath = rtrim($currentDir, '/') . '/image.php?url=';
+    $proxyPath = $cleanDir . '/image.php?url=';
 
     return $proxyPath . rawurlencode($remoteUrl);
 }
