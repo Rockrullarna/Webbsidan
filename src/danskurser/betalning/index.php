@@ -95,7 +95,7 @@
         </p>
         <p>
           Instruktioner för betalning via Epassi appen, hittar du på vår sida: <br />
-          <a href="https://rockrullarna.se/kontakt/fragor-och-svar/friskvard-epassi">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvård ePassi</a>
+          <a href="/kontakt/fragor-och-svar/#friskvardsbetalning">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvårdsbetalning</a>
         </p>
         <h3 id="benefits">Friskvårdsleverantör: Benefits</h3>
         <p>
@@ -103,6 +103,10 @@
         </p>
         <p>
           Benefits-portalen: <a href="https://benefits.se/for-medarbetare/">https://benefits.se/for-medarbetare</a>
+        </p>
+        <p>
+          Instruktioner för betalning via Benefits appen, hittar du på vår sida: <br />
+          <a href="/kontakt/fragor-och-svar/#friskvardsbetalning">Rockrullarna.se / Kontakt / Frågor och Svar / Friskvårdsbetalning</a>
         </p>
       </div>
     </section>

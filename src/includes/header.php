@@ -266,7 +266,7 @@
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#dans-se">Dans.se</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#friskvard-ePassi">Friskvård ePassi</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#friskvardsbetalning">Friskvårdsbetalning</a></li>
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#teams-mote">Teams-möten</a></li>
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#zoom-mote">Zoom-möte</a></li>
                   </ul>

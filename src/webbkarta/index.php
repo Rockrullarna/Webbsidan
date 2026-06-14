@@ -112,7 +112,7 @@
                 <a href="/kontakt/fragor-och-svar" title="Vanliga frågor och svar (FAQ)">Vanliga frågor och svar (FAQ)</a>
                 <ul>
                   <li><a href="/kontakt/fragor-och-svar/#dans-se" title="Dans.se">Dans.se</a></li>
-                  <li><a href="/kontakt/fragor-och-svar/#friskvard-ePassi" title="Friskvård med ePassi">Friskvård med ePassi</a></li>
+                  <li><a href="/kontakt/fragor-och-svar/#friskvardsbetalning" title="Friskvårdsbetalning">Friskvårdsbetalning</a></li>
                   <li><a href="/kontakt/fragor-och-svar/#teams-mote" title="Teams-möte">Teams-möte</a></li>
                   <li><a href="/kontakt/fragor-och-svar/#zoom-mote" title="Zoom-möte">Zoom-möte</a></li>
                 </ul>
