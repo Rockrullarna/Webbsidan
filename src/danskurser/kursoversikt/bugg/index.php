@@ -95,14 +95,13 @@
         </div>
 
         <div class="rr-courses-media-layout">
-          <article class="rr-courses-media-feature">
+          <!-- <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
               <span class="rr-courses-media-tag">Filmklipp</span>
               <h3>Plats för en video om Bugg</h3>
               <p>Den här ytan kommer att ersättas med ett YouTube- eller Vimeo-klipp som visar grundsteg, turer och känslan i dansen.</p>
-              <!-- <p class="rr-courses-media-note">Bra innehåll här är till exempel en snabb introduktion, några grundläggande figurer eller ett socialdansklipp från salen.</p> -->
             </div>
-          </article>
+          </article> -->
 
           <div class="rr-courses-media-gallery" aria-label="Bildytor för bugg">
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavling.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">

@@ -95,14 +95,13 @@
         </div>
 
         <div class="rr-courses-media-layout">
-          <article class="rr-courses-media-feature">
+          <!-- <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
               <span class="rr-courses-media-tag">Filmklipp</span>
               <h3>Här kan ett Fox-filmklipp ligga</h3>
               <p>Ytan är tänkt för ett lugnt, tydligt videoinslag som visar känslan i dansen, till exempel kontakt, gång och musikalisk tolkning.</p>
-              <!-- <p class="rr-courses-media-note">När material finns kan den här panelen bytas mot en inbäddad video eller ett kort lokalt klipp.</p> -->
             </div>
-          </article>
+          </article> -->
 
           <div class="rr-courses-media-gallery" aria-label="Bilder från fox-kurser och socialdans">
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/fox/socialdans-oland-stranddans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;">

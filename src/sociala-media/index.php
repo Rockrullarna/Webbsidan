@@ -1,16 +1,22 @@
 <?php
   function buildInstagramProxyUrl($imageUrl) {
+    // Hämtar den aktuella mappen dynamiskt (t.ex. "/beta/sociala-media" eller "/sociala-media")
+    $currentDir = dirname($_SERVER['SCRIPT_NAME']);
+
+    // Bygg ihop sökvägen till image.php
+    $proxyPath = rtrim($currentDir, '/') . '/image.php?url=';
+
     $imageUrl = trim((string)$imageUrl);
 
     if ($imageUrl === '') {
       return '';
     }
 
-    if (str_starts_with($imageUrl, '/sociala-media/image.php?url=')) {
+    if (str_starts_with($imageUrl, $proxyPath)) {
       return $imageUrl;
     }
 
-    return '/sociala-media/image.php?url=' . rawurlencode($imageUrl);
+    return $proxyPath . rawurlencode($imageUrl);
   }
 
   function readInstagramFeedCache($filePath) {
@@ -108,14 +114,22 @@
             <p>Följ vår Facebook-sida för uppdateringar och händelser i föreningen.</p>
             <a class="rr-btn-inline" href="https://fb.me/rockrullarna" title="Öppna Rockrullarna på Facebook" target="_blank" rel="noopener noreferrer">fb.me/rockrullarna</a>
             <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--facebook">
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frockrullarna&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=702771861196793"
-                title="Facebook-flöde från Rockrullarna"
-                loading="lazy"
-                scrolling="no"
-                allowfullscreen="true"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-              <p class="rr-social-link-panel-status">Om Facebook-pluginen inte laddar, kan ni använda direktlänkarna här under.</p>
+              <div id="fb-root"></div>
+              <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v19.0">
+              </script>
+
+              <div class="fb-page"
+                data-href="https://www.facebook.com/rockrullarna"
+                data-tabs="timeline"
+                data-width="500"
+                data-height="700"
+                data-small-header="false"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true">
+              </div>
+
               <div class="rr-social-link-panel-grid">
                 <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna" target="_blank" rel="noopener noreferrer">
                   <strong>Facebook-sidan</strong>
@@ -145,7 +159,7 @@
             </div>
             <p>Här visas de senaste publiceringarna från vårt Instagram-konto.</p>
             <a class="rr-btn-inline" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">instagram.com/rockrullarna</a>
-            <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="/sociala-media/data.php">
+            <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="./data.php">
               <?php if ($instagram_feed_ready) { ?>
                 <div class="rr-instagram-feed-grid">
                   <?php foreach ($instagram_posts as $instagram_post) { ?>
@@ -193,7 +207,49 @@
         </div>
       </section>
     </div>
-    <script>
+    <script id="facebook-sdk-loader">
+      document.addEventListener("DOMContentLoaded", function () {
+        // Vänta tills Facebook SDK är redo
+        function waitForFB(callback) {
+            if (typeof FB !== "undefined" && FB.XFBML && FB.XFBML.parse) {
+                callback()
+            } else {
+                setTimeout(() => waitForFB(callback), 100)
+            }
+        }
+
+        waitForFB(function () {
+            const fbShell = document.querySelector(".rr-social-embed-shell--facebook")
+            if (!fbShell) return
+
+            FB.init({
+              appId      : '702771861196793',
+              xfbml      : true,
+              version    : 'v25.0'
+            });
+            FB.getLoginStatus(function(response) {
+              console.log(response);
+            });
+
+            // Rendera direkt om elementet redan är synligt
+            if (fbShell.offsetParent !== null) {
+                FB.XFBML.parse(fbShell)
+                return
+            }
+
+            // Annars: vänta tills elementet blir synligt i viewport
+            const observer = new IntersectionObserver(entries => {
+                if (entries[0].isIntersecting) {
+                    FB.XFBML.parse(fbShell)
+                    observer.disconnect()
+                }
+            })
+
+            observer.observe(fbShell)
+        })
+      })
+    </script>
+    <script id="instagram-feed-loader">
       (function () {
         const instagramFeed = document.getElementById('rr-instagram-feed');
 

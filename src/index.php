@@ -361,7 +361,7 @@
               </div>
 
               <div class="rr-event-list">
-                <article class="rr-event-card" aria-labelledby="arsmote-heading">
+                <!-- <article class="rr-event-card" aria-labelledby="arsmote-heading">
                   <div class="rr-event-card-top">
                     <div class="rr-event-date-badge">
                       <div class="rr-edb-day">28</div>
@@ -375,6 +375,22 @@
                   <div class="rr-event-card-body">
                     Läs mer om årsmötet, handlingar och praktisk information på sidan
                     <a href="/foreningen/moten-och-protokoll/arsmote" title="Information om årsmötet 2026">Föreningen / Möten och protokoll / Årsmöte 2026</a>.
+                  </div>
+                </article> -->
+
+                <article class="rr-event-card" aria-labelledby="hemsidan-heading">
+                  <div class="rr-event-card-top">
+                    <div class="rr-event-date-badge rr-event-date-badge-alt">
+                      <span class="rr-event-date-text">Info</span>
+                    </div>
+                    <div>
+                      <h3 id="hemsidan-heading" class="rr-event-card-title">Ny design på hemsidan!</h3>
+                      <small class="rr-event-card-meta">Välkommen till vår helt nya hemsida!</small>
+                    </div>
+                  </div>
+                  <div class="rr-event-card-body">
+                    Här hittar du information om våra kurser och dansstilar, kommande aktiviteter och allt som rör vår förening. Utforska gärna sidan och hör av dig om du har frågor eller feedback:
+                    <a href="info@rockrullarna.se" title="Mejla oss din feedback!">info@rockrullarna.se</a>.
                   </div>
                 </article>
 

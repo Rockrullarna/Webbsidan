@@ -280,6 +280,22 @@ a:hover {
 }
 /* #endregion Light Theme Fixes */
 
+/* #endregion Dark Theme Fixes */
+/* Om listan ska vara ljus */
+[data-bs-theme=dark] .cw-shopFilterList, 
+[data-bs-theme=dark] .cw-shopFilterOptionList {
+    background-color: #ffffff !important;
+    border: 1px solid #ccc;
+}
+
+/* Tvinga texten till mörkgrå/svart så den syns mot det vita */
+[data-bs-theme=dark] .cw-shopFilterOption,
+[data-bs-theme=dark] .cw-shopFilterOption label,
+[data-bs-theme=dark] .cw-shopFilterOptionList label {
+    color: #222222 !important;
+}
+/* #endregion Dark Theme Fixes */
+
 /* #region Theme Switcher */
 .theme-icon, .theme-icon-active {
   width: 1em;
@@ -2462,6 +2478,29 @@ header {
   display: grid;
   gap: 1rem;
   min-height: 0;
+}
+
+/* Gör iFrame-containern mörk och städa bort den skarpa vita ramen */
+.rr-social-embed-shell--facebook {
+    background-color: #1a1e22 !important;
+    border: 1px solid #2d3238;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Tvinga själva iframen att ha transparent bakgrund */
+.rr-social-embed-shell--facebook iframe {
+    background: transparent !important;
+    color-scheme: light; /* Talar om för webbläsaren att rendera interna scrollister rätt */
+}
+
+/* Lägg lite extra kärlek på textpanelen under så den poppar om flödet dör */
+.rr-social-link-panel-status {
+    font-size: 0.9rem;
+    color: var(--cw-color-page-text-muted, #aaa);
+    margin-bottom: 15px;
+    border-bottom: 1px solid #2d3238;
+    padding-bottom: 10px;
 }
 
 .rr-social-link-panel {

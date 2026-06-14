@@ -14,7 +14,13 @@ $cacheFile = $cacheDir . DIRECTORY_SEPARATOR . 'instagram-' . $username . '.json
 
 function build_instagram_image_proxy_url(string $remoteUrl): string
 {
-    return '/sociala-media/image.php?url=' . rawurlencode($remoteUrl);
+    // Hämtar den aktuella mappen dynamiskt (t.ex. "/beta/sociala-media" eller "/sociala-media")
+    $currentDir = dirname($_SERVER['SCRIPT_NAME']);
+    
+    // Bygg ihop sökvägen till image.php
+    $proxyPath = rtrim($currentDir, '/') . '/image.php?url=';
+
+    return $proxyPath . rawurlencode($remoteUrl);
 }
 
 function log_instagram_feed_issue(string $message): void
