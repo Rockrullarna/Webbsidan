@@ -59,6 +59,7 @@
               <p><strong>Kontakt:</strong> Mejla oss på <a href="mailto:info@rockrullarna.se" title="Maila oss">info@rockrullarna.se</a> om du vill komma i kontakt med rätt person i föreningen.</p>
             </div>
           </div>
+          <a class="rr-btn-inline mt-4" href="/kontakt/fragor-och-svar" title="Läs vanliga frågor och svar">Vanliga frågor och svar</a>
         </aside>
       </section>
 

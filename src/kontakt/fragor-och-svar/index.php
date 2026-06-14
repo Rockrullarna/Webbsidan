@@ -87,83 +87,129 @@
         </div>
       </section>
 
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="information">
+        <h2 id="information" class="FAQCategoryHeading">
+          Information
+        </h2>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-betalningar">
+          <div class="accordion-item">
+            <h3 id="betalningar" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-betalningar" aria-expanded="false" aria-controls="panelsStayOpen-collapse-betalningar">
+                Betalningar: Vart hittar jag information om betalningar?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-betalningar" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för betalningar.</p>
+                <p><a href="/danskurser/betalning" title="Betalning av danskurser">Rockrullarna.se / Danskurser / Betalning</a></p>
+                <p>Där hittar du information om betalningsvillkor, betalningsmetoder i caféet.</p>
+                <p>Däremot information och guider om hur du betalar med friskvård, finns längre ned på denna frågor och svar sidan.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#betalningar">https://www.Rockrullarna.se/kontakt/fragor-och-svar#betalningar</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-styrande-dokument">
+          <div class="accordion-item">
+            <h3 id="styrande-dokument" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-styrande-dokument" aria-expanded="false" aria-controls="panelsStayOpen-collapse-styrande-dokument">
+                Information: Vart hittar jag styrande dokument och arbetsprocesser?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-styrande-dokument" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för styrande dokument.</p>
+                <p><a href="/foreningen/styrande-dokument" title="Styrande dokument">Rockrullarna.se / Föreningen / Styrande dokument</a></p>
+                <p>Där hittar du information om styrande dokument, stadgar, rollbeskrivningar och arbetsprocesser.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#styrande-dokument">https://www.Rockrullarna.se/kontakt/fragor-och-svar#styrande-dokument </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="dans-se">
         <h2 id="dans-se" class="FAQCategoryHeading">
         Dans.se
         </h2>
 
         <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-DansSe">
-      <div class="accordion-item">
-        <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
-            Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <ol>
-              <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
-              <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
-              <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
-              <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
-              <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
-              <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class='linkSmallIconLeft smallIconEdit' href='https://dans.se/myaccount/edit/contact_info/'>Mina personuppgifter</a>".</li>
-              <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
-            </ol>
-            <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
-            <p><br /></p>
-            <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
-            <p> </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+          <div class="accordion-item">
+            <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
+                Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <ol>
+                  <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
+                  <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
+                  <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
+                  <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
+                  <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
+                  <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class='linkSmallIconLeft smallIconEdit' href='https://dans.se/myaccount/edit/contact_info/'>Mina personuppgifter</a>".</li>
+                  <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
+                </ol>
+                <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+                <p><br /></p>
+                <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
+                <p> </p>
+                <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="accordion-item">
-        <h3 id="dans-se-betala-socialdanskvall" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeTwo">
-            Hur betalar jag för socialdanskvällar via dans.se?
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <p> OBS! Detta gäller endast för <a href="/danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
-            <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
-            <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
-            <ol>
-              <li>Checka in dig som vanligt vid incheckningsdisken.</li>
-              <li>Öppna din mejl direkt i mobilen - du har fått en bekräftelse på din incheckning med en betal-länk.</li>
-              <li>Klicka på länken "Klicka här för att betala" och välj betalsätt - vi rekommenderar Swish.</li>
-              <li>När betalningen är genomförd är du redo att dansa! - och vår personal i receptionen kan direkt se att betalningen har kommit in.</li>
-            </ol>
-            <p> 💡 Du behöver alltså inte längre skicka en separat Swish-betalning - allt sker via länken i mejlet. </p>
-            <p> Tack för att du hjälper oss göra kvällen enklare och roligare för alla! </p>
-            <!-- <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
-            <p><br /></p> -->
-            <!-- <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p> -->
-            <p> </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-betala-socialdanskvall">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-betala-socialdanskvall</a></p>
+          <div class="accordion-item">
+            <h3 id="dans-se-betala-socialdanskvall" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeTwo">
+                Hur betalar jag för socialdanskvällar via dans.se?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p> OBS! Detta gäller endast för <a href="/danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
+                <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
+                <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
+                <ol>
+                  <li>Checka in dig som vanligt vid incheckningsdisken.</li>
+                  <li>Öppna din mejl direkt i mobilen - du har fått en bekräftelse på din incheckning med en betal-länk.</li>
+                  <li>Klicka på länken "Klicka här för att betala" och välj betalsätt - vi rekommenderar Swish.</li>
+                  <li>När betalningen är genomförd är du redo att dansa! - och vår personal i receptionen kan direkt se att betalningen har kommit in.</li>
+                </ol>
+                <p> 💡 Du behöver alltså inte längre skicka en separat Swish-betalning - allt sker via länken i mejlet. </p>
+                <p> Tack för att du hjälper oss göra kvällen enklare och roligare för alla! </p>
+                <!-- <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+                <p><br /></p> -->
+                <!-- <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p> -->
+                <p> </p>
+                <p>Direktlänk till detta svaret: <br /><a href="#dans-se-betala-socialdanskvall">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-betala-socialdanskvall</a></p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
         </div>
       </section>
 

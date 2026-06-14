@@ -57,6 +57,8 @@
           &nbsp;|&nbsp;
           <a href="/kontakt">Kontakt</a>
           &nbsp;|&nbsp;
+          <a href="/kontakt/fragor-och-svar">Frågor och svar</a>
+          &nbsp;|&nbsp;
           <a title="Visa källkoden via GitHub (öppnas i nytt fönster)"
               href="https://github.com/Rockrullarna/Webbsidan/tree/main/src/<?php if (empty($page_url)) { echo "index.php"; } else { echo "$page_url/index.php"; }?>"
               target="_blank" rel="noopener">
