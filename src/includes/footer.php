@@ -5,7 +5,7 @@
         <!-- Brand + beskrivning -->
         <div class="col-12 col-md-4">
           <a href="/" class="rr-footer-brand">Dansklubben Rockrullarna</a>
-          <p>en ideell dansförening i Örebro</p>
+          <p>en ideell dansförening i Örebro. Vi drivs av gemensamma medlemsinsatser, för våra dansande medlemmar.</p>
           <small></small>
         </div>
         <!-- Kurser -->
