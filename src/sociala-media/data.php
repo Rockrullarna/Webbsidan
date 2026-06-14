@@ -14,18 +14,14 @@ $cacheFile = $cacheDir . DIRECTORY_SEPARATOR . 'instagram-' . $username . '.json
 
 function build_instagram_image_proxy_url(string $remoteUrl): string
 {
-    // Hämta den aktuella mappsökvägen (t.ex. "/beta/sociala-media" eller "/sociala-media")
+    // Hämtar den aktuella mappen dynamiskt (t.ex. "/beta/sociala-media" eller "/sociala-media")
     $currentDir = dirname($_SERVER['SCRIPT_NAME']);
     
-    // Om vi på något sätt har råkat läsa in en cache utan "/beta", men vi befinner oss på betan:
-    // Eller om $_SERVER['SCRIPT_NAME'] saknar det, kollar vi även hela REQUEST_URI.
-    $isBeta = (str_contains($currentDir, '/beta') || str_contains($_SERVER['REQUEST_URI'], '/beta/'));
-
-    // Bygg den exakta basen baserat på om vi är i beta-miljö eller inte
-    $basePath = $isBeta ? '/beta/sociala-media' : '/sociala-media';
+    // Rensa bort eventuella avslutande snedstreck från mappsökvägen
+    $cleanDir = rtrim($currentDir, '/\\');
     
-    // Sätt ihop till den slutgiltiga proxy-länken
-    $proxyPath = $basePath . '/image.php?url=';
+    // Bygg ihop sökvägen till image.php
+    $proxyPath = $cleanDir . '/image.php?url=';
 
     return $proxyPath . rawurlencode($remoteUrl);
 }
@@ -165,6 +161,15 @@ function normalize_instagram_posts(array $mediaItems, int $limit): array
 
         if ($mediaType === 'CAROUSEL_ALBUM' && $imageUrl === '' && $thumbnailUrl !== '') {
             $imageUrl = $thumbnailUrl;
+        }
+
+        // Kontrollera om URL:en startar med eller innehåller /beta/
+        $isBeta = (strpos($_SERVER['REQUEST_URI'], '/beta/') === 0 || strpos($_SERVER['SCRIPT_NAME'], '/beta/') === 0);
+
+        if ($isBeta) {
+            // Sätt prefixet dynamiskt om vi är i beta-miljön
+            $pathPrefix = $isBeta ? '/beta' : '';
+            $imageUrl = $pathPrefix . $imageUrl;
         }
 
         $posts[] = [
