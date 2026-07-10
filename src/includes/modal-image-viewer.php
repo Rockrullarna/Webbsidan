@@ -94,6 +94,19 @@
       });
     }
 
+    document.addEventListener('keydown', function(e) {
+      if (!imageModalEl.classList.contains('show')) return;
+      if (modalThumbButtons.length <= 1) return;
+
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        setModalImageByIndex(currentImageIndex + 1);
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setModalImageByIndex(currentImageIndex - 1);
+      }
+    });
+
     imageModalEl.addEventListener('hidden.bs.modal', function () {
       if (modalImage) modalImage.removeAttribute('src');
       currentImageIndex = -1;
