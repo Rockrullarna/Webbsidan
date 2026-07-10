@@ -311,7 +311,7 @@
 
             <blockquote class="rr-blockquote">
               <p>"Hos Rockrullarna känner man sig välkommen direkt. Det är lätt att trivas, utvecklas och vilja komma tillbaka."</p>
-              <footer>Medlem hos <cite>Dansklubben Rockrullarna</cite></footer>
+              <footer>- <cite>Nellie, medlem sedan 2021.</cite></footer>
             </blockquote>
 
             <div class="rr-feature-list" aria-label="Fördelar med Rockrullarna">
