@@ -281,20 +281,77 @@ a:hover {
 /* #endregion Light Theme Fixes */
 
 /* #endregion Dark Theme Fixes */
-/* Om listan ska vara ljus */
-[data-bs-theme=dark] .cw-shopFilterList, 
-[data-bs-theme=dark] .cw-shopFilterOptionList {
-    background-color: #ffffff !important;
-    border: 1px solid #ccc;
+/* dans.se cwShop filters in dark mode: keep popup light with dark readable text */
+[data-bs-theme=dark] .cwShopFilterList,
+[data-bs-theme=dark] .cwShopFilterDropdown .js-cwPicklistList {
+  background-color: #f7f9fb !important;
+  border: 1px solid #c6d0db !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
 }
 
-/* Tvinga texten till mörkgrå/svart så den syns mot det vita */
-[data-bs-theme=dark] .cw-shopFilterOption,
-[data-bs-theme=dark] .cw-shopFilterOption label,
-[data-bs-theme=dark] .cw-shopFilterOptionList label {
-    color: #222222 !important;
+[data-bs-theme=dark] .cwShopFilterOption,
+[data-bs-theme=dark] .cwShopFilterOption label,
+[data-bs-theme=dark] .cwShopFilterOption span,
+[data-bs-theme=dark] .cwShopFilterDropdown label {
+  color: #1b2631 !important;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption input[type="checkbox"] {
+  accent-color: #0a84ff;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption:hover {
+  background: #e9eef5;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption .js-cwAgeInput,
+[data-bs-theme=dark] .cwShopFilterOption input[type="number"] {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid #a9b7c8 !important;
+  border-radius: 0.35rem;
+  min-width: 6.25rem;
+  width: 100%;
+  line-height: 1.35;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption .js-cwAgeInput::placeholder,
+[data-bs-theme=dark] .cwShopFilterOption input[type="number"]::placeholder {
+  color: #6b7280 !important;
+}
+
+[data-bs-theme=dark] .cwShopFilterTextSearchInput,
+[data-bs-theme=dark] .cwShopFilterOption .js-cwTextSearchInput,
+[data-bs-theme=dark] .cwShopFilterOption input[type="text"] {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid #a9b7c8 !important;
+  border-radius: 0.35rem;
+}
+
+[data-bs-theme=dark] .cwShopFilterTextSearchInput::placeholder,
+[data-bs-theme=dark] .cwShopFilterOption .js-cwTextSearchInput::placeholder,
+[data-bs-theme=dark] .cwShopFilterOption input[type="text"]::placeholder {
+  color: #6b7280 !important;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption .js-cwTextSearchClear,
+[data-bs-theme=dark] .cwShopFilterOption .js-cwOpenForAgeClear {
+  color: #4b5563 !important;
+}
+
+[data-bs-theme=dark] .cwShopFilterOption .js-cwOpenForAgeClear {
+  color: #4b5563 !important;
 }
 /* #endregion Dark Theme Fixes */
+
+/* dans.se cwShop filters: keep age input wide enough in all themes */
+.cwShopFilterOption .js-cwAgeInput,
+.cwShopFilterOption input[type="number"][data-cwfilter-openforage] {
+  min-width: 6.25rem;
+  width: 100%;
+  line-height: 1.35;
+}
 
 /* #region Theme Switcher */
 .theme-icon, .theme-icon-active {
@@ -4159,6 +4216,26 @@ header {
   letter-spacing: 0.02em;
 }
 
+.rr-image-modal-caption {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1045;
+  max-width: min(60vw, 24rem);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.26);
+  background: rgba(7, 16, 28, 0.72);
+  color: rgba(255,255,255,0.95);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .rr-image-modal-nav {
   position: absolute;
   top: 50%;
@@ -4240,6 +4317,13 @@ header {
   .rr-image-modal-counter {
     bottom: 0.85rem;
     font-size: 0.84rem;
+  }
+
+  .rr-image-modal-caption {
+    top: 0.9rem;
+    left: 0.55rem;
+    max-width: min(70vw, 16rem);
+    font-size: 0.8rem;
   }
 }
 /* #endregion Image Viewer Modal */
