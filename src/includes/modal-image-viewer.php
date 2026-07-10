@@ -15,30 +15,90 @@
 
 <script>
   // Modular image viewer JS - safe to include before or after bootstrap bundle
-  document.querySelectorAll('.rr-courses-media-thumb-btn').forEach(button => {
+  const modalThumbButtons = Array.from(
+    document.querySelectorAll('.rr-courses-media-thumb-btn[data-bs-target="#imageModal"]')
+  );
+
+  let currentImageIndex = -1;
+  const modalImage = document.getElementById('modalImage');
+
+  function setModalImageByIndex(nextIndex) {
+    if (!modalImage || modalThumbButtons.length === 0) return;
+
+    let normalizedIndex = nextIndex;
+    if (normalizedIndex < 0) normalizedIndex = modalThumbButtons.length - 1;
+    if (normalizedIndex >= modalThumbButtons.length) normalizedIndex = 0;
+
+    const button = modalThumbButtons[normalizedIndex];
+    const imageUrl = button ? button.getAttribute('data-image-url') : '';
+
+    if (imageUrl) {
+      modalImage.src = imageUrl;
+      currentImageIndex = normalizedIndex;
+    }
+  }
+
+  modalThumbButtons.forEach((button, index) => {
     button.addEventListener('click', function() {
-      const imageUrl = this.getAttribute('data-image-url');
-      const img = document.getElementById('modalImage');
-      if (img) {
-        if (imageUrl) img.src = imageUrl; else img.removeAttribute('src');
-      }
+      setModalImageByIndex(index);
     });
   });
 
   const imageModalEl = document.getElementById('imageModal');
   if (imageModalEl) {
     imageModalEl.addEventListener('hidden.bs.modal', function () {
-      const img = document.getElementById('modalImage');
-      if (img) img.removeAttribute('src');
+      if (modalImage) modalImage.removeAttribute('src');
+      currentImageIndex = -1;
     });
 
     const dismissBtn = document.querySelector('#imageModal [data-bs-dismiss="modal"]');
-    const modalImage = document.getElementById('modalImage');
     if (modalImage) {
+      let touchStartX = 0;
+      let touchStartY = 0;
+      let suppressImageClickClose = false;
+
       modalImage.addEventListener('click', function(e) {
         e.stopPropagation();
+        if (suppressImageClickClose) {
+          suppressImageClickClose = false;
+          return;
+        }
         if (dismissBtn) dismissBtn.click();
       });
+
+      modalImage.addEventListener('touchstart', function(e) {
+        const touch = e.changedTouches && e.changedTouches[0];
+        if (!touch) return;
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+      }, { passive: true });
+
+      modalImage.addEventListener('touchend', function(e) {
+        const touch = e.changedTouches && e.changedTouches[0];
+        if (!touch) return;
+
+        const deltaX = touch.clientX - touchStartX;
+        const deltaY = touch.clientY - touchStartY;
+        const absX = Math.abs(deltaX);
+        const absY = Math.abs(deltaY);
+
+        // Swipe left/right to navigate between all images tied to this modal.
+        if (absX >= 60 && absX > absY * 1.2) {
+          suppressImageClickClose = true;
+          if (deltaX < 0) {
+            setModalImageByIndex(currentImageIndex + 1);
+          } else {
+            setModalImageByIndex(currentImageIndex - 1);
+          }
+          return;
+        }
+
+        // Close on clear vertical swipe (up or down) while ignoring tiny taps/drags.
+        if (absY >= 70 && absY > absX * 1.2) {
+          suppressImageClickClose = true;
+          if (dismissBtn) dismissBtn.click();
+        }
+      }, { passive: true });
     }
 
     const modalBody = document.querySelector('.rr-image-modal-body');
