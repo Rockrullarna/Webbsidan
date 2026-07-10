@@ -12,6 +12,7 @@
       <button type="button" class="rr-image-modal-nav rr-image-modal-nav--next" aria-label="Nästa bild">
         <span aria-hidden="true">&rarr;</span>
       </button>
+      <div id="imageModalCaption" class="rr-image-modal-caption" aria-live="polite"></div>
       <div id="imageModalCounter" class="rr-image-modal-counter" aria-live="polite"></div>
       <div class="modal-body rr-image-modal-body">
         <img id="modalImage" src="" alt="Förstorad bild" class="rr-modal-image" />
@@ -29,6 +30,7 @@
   let currentImageIndex = -1;
   const modalImage = document.getElementById('modalImage');
   const modalCounter = document.getElementById('imageModalCounter');
+  const modalCaption = document.getElementById('imageModalCaption');
 
   function updateModalCounter() {
     if (!modalCounter) return;
@@ -40,6 +42,28 @@
     }
 
     modalCounter.textContent = 'Bild ' + (currentImageIndex + 1) + ' av ' + totalImages;
+  }
+
+  function updateModalCaption() {
+    if (!modalCaption) return;
+
+    if (currentImageIndex < 0 || currentImageIndex >= modalThumbButtons.length) {
+      modalCaption.textContent = '';
+      modalCaption.hidden = true;
+      return;
+    }
+
+    const currentButton = modalThumbButtons[currentImageIndex];
+    const tagEl = currentButton ? currentButton.querySelector('.rr-courses-media-tag') : null;
+    const captionText = tagEl ? tagEl.textContent.trim() : '';
+
+    if (captionText) {
+      modalCaption.textContent = captionText;
+      modalCaption.hidden = false;
+    } else {
+      modalCaption.textContent = '';
+      modalCaption.hidden = true;
+    }
   }
 
   function updateModalNavState() {
@@ -65,6 +89,7 @@
       modalImage.src = imageUrl;
       currentImageIndex = normalizedIndex;
       updateModalCounter();
+      updateModalCaption();
       updateModalNavState();
     }
   }
@@ -111,6 +136,7 @@
       if (modalImage) modalImage.removeAttribute('src');
       currentImageIndex = -1;
       updateModalCounter();
+      updateModalCaption();
       updateModalNavState();
     });
 
@@ -172,6 +198,7 @@
     }
 
     updateModalCounter();
+    updateModalCaption();
     updateModalNavState();
   }
 </script>
