@@ -203,13 +203,13 @@
             <li class="nav-item"><a class="nav-link" href="/boka-lilla-salen">Boka lilla salen</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Föreningen</a>
-              <ul class="dropdown-menu shadow">
+              <ul class="dropdown-menu shadow" id="menu-foreningen">
                 <li><a class="dropdown-item" href="/foreningen">Föreningen</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="/foreningen/historia">Historia</a></li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Styrande dokument</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-dokument" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-dokument" role="button" aria-expanded="false" aria-controls="submenu-foreningen-dokument">Styrande dokument</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-dokument" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/styrande-dokument">Våra styrande dokument</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></li>
@@ -222,8 +222,8 @@
                   </ul>
                 </li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Möten och protokoll</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-moten" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-moten" role="button" aria-expanded="false" aria-controls="submenu-foreningen-moten">Möten och protokoll</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-moten" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/moten-och-protokoll">Möten och protokoll</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/moten-och-protokoll/arsmote">Årsmöte</a></li>
@@ -232,8 +232,8 @@
                   </ul>
                 </li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Organisation</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-organisation" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-organisation" role="button" aria-expanded="false" aria-controls="submenu-foreningen-organisation">Organisation</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-organisation" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/organisation">Vår organisation</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/strukturen">Strukturen</a></li>
@@ -255,14 +255,14 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Kontakta</a>
-              <ul class="dropdown-menu shadow">
+              <ul class="dropdown-menu shadow" id="menu-kontakta">
                 <li><a class="dropdown-item" href="/kontakt">Kontaktinformation</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps - Öppnas i nytt fönster)" target="_blank" rel="noopener">Hitta till oss (Google maps)</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Frågor och Svar</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-kontakta-faq" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-kontakta-faq" role="button" aria-expanded="false" aria-controls="submenu-kontakta-faq">Frågor och Svar</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-kontakta-faq" data-bs-parent="#menu-kontakta">
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#dans-se">Dans.se</a></li>
