@@ -28,6 +28,7 @@
           </p>
           <div class="rr-association-actions">
             <a class="rr-hero-btn" href="./kalender" title="Öppna tävlingskalendern">Tävlingskalender</a>
+            <a class="rr-btn-inline" href="#tavlingsdans-media-heading" title="Se bilder från tävlingsdans">Se bilder och inspiration</a>
             <a class="rr-btn-inline" href="mailto:tavlingsansvarig@rockrullarna.se" title="Maila tävlingsansvarig">Kontakta tävlingsansvarig</a>
           </div>
         </div>
@@ -46,7 +47,7 @@
         </aside>
       </section>
 
-      <section class="rr-association-card rr-association-card--section" aria-labelledby="tavlingsdans-overview-heading">
+      <!-- <section class="rr-association-card rr-association-card--section" aria-labelledby="tavlingsdans-overview-heading">
         <p class="rr-style-label" aria-hidden="true">Kort om satsningen</p>
         <h2 id="tavlingsdans-overview-heading">Det här hittar du i sektionen</h2>
         <div class="rr-competition-stats">
@@ -54,6 +55,65 @@
           <div class="rr-association-meta-item"><strong>För dig som</strong>vill planera starter, följa tävlingar och hitta praktisk information</div>
           <div class="rr-association-meta-item"><strong>Systemstöd</strong>dans.se för anmälningar och Vote4Dance för liveinformation och resultat</div>
           <div class="rr-association-meta-item"><strong>Extern översikt</strong><a href="https://www.danssport.se/taevling/taevlingskalender" title="Öppna DSF Tävlingskalender" target="_blank" rel="noopener">DSF Tävlingskalender</a></div>
+        </div>
+      </section> -->
+
+      <section id="film-och-bilder" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="tavlingsdans-media-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
+            <h2 id="tavlingsdans-media-heading">Känn pulsen i <em>tävlingsdansen</em></h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-media-layout rr-courses-media-layout--gallery-only">
+          <!-- <article class="rr-courses-media-feature">
+            <div class="rr-courses-media-copy">
+              <div class="rr-iframe-responsive">
+                <iframe src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube-video med tävlingsdans och West Coast Swing" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <h3>Från träningsgolv till tävlingsgolv</h3>
+              <p>Här får du en känsla för uttryck, teknik och närvaro som växer fram när man tränar målmedvetet tillsammans.</p>
+            </div>
+          </article> -->
+
+          <div class="rr-courses-media-gallery" aria-label="Bilder från tävlingsdans">
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavlingsdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavlingsdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Tävlingsstart</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavling.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavling.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">På golvet</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/workshop.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Workshop</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Utveckling</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Utveckling</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Utveckling</span>
+              </div>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -104,7 +164,45 @@
           </a>
         </div>
       </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="tavlingsdans-courses-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Kurser via dans.se</p>
+            <h2 id="tavlingsdans-courses-heading">Tävlingsrelevanta <em>kurser</em> och träning</h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-utility-grid">
+          <a class="rr-courses-link-card" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=bugg;reset" title="Öppna buggkurser på dans.se" target="_blank" rel="noopener">
+            <span class="rr-courses-link-kicker">Teknik och tempo</span>
+            <h3>Buggkurser på dans.se</h3>
+            <p>För dig som vill bygga trygg teknik, bättre tajming och tävlingsmässig kvalitet i buggen.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+
+          <a class="rr-courses-link-card" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;&catId=207;reset" title="Öppna foxkurser på dans.se" target="_blank" rel="noopener">
+            <span class="rr-courses-link-kicker">Flyt och musikalitet</span>
+            <h3>Foxkurser på dans.se</h3>
+            <p>Kurser för dig som vill stärka kontakt, balans och uttryck som även hjälper i tävlingssammanhang.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+
+          <a class="rr-courses-link-card" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Öppna WCS-kurser på dans.se" target="_blank" rel="noopener">
+            <span class="rr-courses-link-kicker">Precision och kreativitet</span>
+            <h3>WCS-kurser på dans.se</h3>
+            <p>Passar dig som vill utveckla connection, improvisation och musikalitet i en modern tävlingsstil.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+        <div class="rr-courses-note mt-3">
+          <p>Hittar du inte det du söker just nu? Se hela utbudet på <a href="../kurser" title="Öppna Rockrullarnas kursutbud på rockrullarna.se" target="_blank" rel="noopener">rockrullarna.se/kurser</a> och filtrera efter nivå, stil och termin.</p>
+        </div>
+      </section>
     </div>
 <?php
+  include_once '../includes/modal-image-viewer.php';
+
   include_once '../includes/footer.php'
 ?>

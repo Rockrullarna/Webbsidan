@@ -3461,6 +3461,14 @@ header {
   gap: 1rem;
 }
 
+.rr-courses-media-layout--gallery-only {
+  display: block;
+}
+
+.rr-courses-media-layout--gallery-only .rr-courses-media-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .rr-courses-media-feature,
 .rr-courses-media-thumb {
   position: relative;
@@ -3725,6 +3733,10 @@ header {
     grid-template-columns: 1fr;
   }
 
+  .rr-courses-media-layout--gallery-only .rr-courses-media-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .rr-courses-media-feature {
     min-height: 19rem;
   }
@@ -3843,6 +3855,12 @@ header {
 
   .rr-calendar-standalone {
     margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .rr-courses-media-layout--gallery-only .rr-courses-media-gallery {
+    grid-template-columns: 1fr;
   }
 }
 /* #endregion Responsiva regler */
