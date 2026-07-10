@@ -196,7 +196,7 @@
                 <li><a class="dropdown-item" href="/tavlingsdans/dans.se">Dans.se</a></li>
                 <li><a class="dropdown-item" href="/tavlingsdans/vote4dance">Vote 4 Dance</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank" rel="noopener">DSF Tävlingskalender (danssport.se)</a></li>
+                <li><a class="dropdown-item" href="https://www.danssport.se/kalender/kalender" title="DSF Tävlingskalender (Öppnas i nytt fönster - Klicka på 'Tävlingskalender')" target="_blank" rel="noopener">DSF - danssport.se (Klicka på Tävlingskalender)</a></li>
               </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/aktivitetskalender">Aktivitetskalender</a></li>

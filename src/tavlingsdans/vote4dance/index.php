@@ -21,7 +21,7 @@
           <p class="rr-association-lead">På Vote4Dance kan du följa kommande tävlingar, resultat direkt från tävlingen och i vissa fall förenklade livesändningar via dansTV.</p>
           <p class="rr-association-lead">Tjänsten är särskilt användbar när du vill följa startlistor och resultat i realtid under pågående tävlingar.</p>
           <div class="rr-association-actions">
-            <a class="rr-hero-btn" href="http://vote4dance.com" title="Öppna Vote4Dance" target="_blank" rel="noopener">Öppna Vote4Dance</a>
+            <a class="rr-hero-btn" href="https://vote4dance.com" title="Öppna Vote4Dance" target="_blank" rel="noopener">Öppna Vote4Dance</a>
             <a class="rr-btn-inline" href="../vilka-tavlar-vart" title="Se vilka som tävlar vart">Vilka tävlar vart?</a>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <p class="rr-style-label" aria-hidden="true">Extern tjänst</p>
           <img alt="Logga för Vote4Dance" src="Vote4Dance.png" />
           <p class="rr-association-lead">Vote4Dance är en praktisk tjänst för att följa tävlingsdagen när du vill hålla koll på resultat, starter och uppdateringar.</p>
-          <a class="rr-btn-inline" href="http://vote4dance.com" title="Öppna Vote4Dance" target="_blank" rel="noopener">Besök www.vote4dance.com</a>
+          <a class="rr-btn-inline" href="https://vote4dance.com" title="Öppna Vote4Dance" target="_blank" rel="noopener">Besök www.vote4dance.com</a>
         </section>
 
         <section class="rr-association-card rr-association-card--section rr-competition-meta-card" aria-labelledby="vote4dance-tips-heading">

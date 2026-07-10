@@ -156,10 +156,10 @@
             <p>Få koll på appen och tjänsten som används för liveinformation, resultat och startlistor.</p>
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
-          <a class="rr-courses-link-card" href="https://www.danssport.se/taevling/taevlingskalender" title="Öppna DSF Tävlingskalender" target="_blank" rel="noopener">
+          <a class="rr-courses-link-card" href="https://www.danssport.se/kalender/kalender/" title="Öppna DSF Tävlingskalender" target="_blank" rel="noopener">
             <span class="rr-courses-link-kicker">Extern resurs</span>
             <h3>DSF Tävlingskalender</h3>
-            <p>Gå vidare till förbundets egen kalender för en bredare överblick över tävlingar.</p>
+            <p>Gå vidare till förbundets egen kalender för en bredare överblick över tävlingar (klicka där på "Tävlingskalender").</p>
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
         </div>
