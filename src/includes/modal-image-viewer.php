@@ -6,6 +6,13 @@
   <div class="modal-dialog modal-fullscreen modal-dialog-centered">
     <div class="modal-content rr-image-modal-content">
       <button type="button" class="btn-close btn-close-white position-absolute" data-bs-dismiss="modal" aria-label="Stäng" style="z-index: 1050; top: 1rem; right: 1rem;"></button>
+      <button type="button" class="rr-image-modal-nav rr-image-modal-nav--prev" aria-label="Föregående bild">
+        <span aria-hidden="true">&larr;</span>
+      </button>
+      <button type="button" class="rr-image-modal-nav rr-image-modal-nav--next" aria-label="Nästa bild">
+        <span aria-hidden="true">&rarr;</span>
+      </button>
+      <div id="imageModalCounter" class="rr-image-modal-counter" aria-live="polite"></div>
       <div class="modal-body rr-image-modal-body">
         <img id="modalImage" src="" alt="Förstorad bild" class="rr-modal-image" />
       </div>
@@ -21,6 +28,28 @@
 
   let currentImageIndex = -1;
   const modalImage = document.getElementById('modalImage');
+  const modalCounter = document.getElementById('imageModalCounter');
+
+  function updateModalCounter() {
+    if (!modalCounter) return;
+
+    const totalImages = modalThumbButtons.length;
+    if (totalImages === 0 || currentImageIndex < 0) {
+      modalCounter.textContent = '';
+      return;
+    }
+
+    modalCounter.textContent = 'Bild ' + (currentImageIndex + 1) + ' av ' + totalImages;
+  }
+
+  function updateModalNavState() {
+    const prevBtn = document.querySelector('#imageModal .rr-image-modal-nav--prev');
+    const nextBtn = document.querySelector('#imageModal .rr-image-modal-nav--next');
+    const hasMultipleImages = modalThumbButtons.length > 1;
+
+    if (prevBtn) prevBtn.hidden = !hasMultipleImages;
+    if (nextBtn) nextBtn.hidden = !hasMultipleImages;
+  }
 
   function setModalImageByIndex(nextIndex) {
     if (!modalImage || modalThumbButtons.length === 0) return;
@@ -35,6 +64,8 @@
     if (imageUrl) {
       modalImage.src = imageUrl;
       currentImageIndex = normalizedIndex;
+      updateModalCounter();
+      updateModalNavState();
     }
   }
 
@@ -46,9 +77,28 @@
 
   const imageModalEl = document.getElementById('imageModal');
   if (imageModalEl) {
+    const prevBtn = imageModalEl.querySelector('.rr-image-modal-nav--prev');
+    const nextBtn = imageModalEl.querySelector('.rr-image-modal-nav--next');
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        setModalImageByIndex(currentImageIndex - 1);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        setModalImageByIndex(currentImageIndex + 1);
+      });
+    }
+
     imageModalEl.addEventListener('hidden.bs.modal', function () {
       if (modalImage) modalImage.removeAttribute('src');
       currentImageIndex = -1;
+      updateModalCounter();
+      updateModalNavState();
     });
 
     const dismissBtn = document.querySelector('#imageModal [data-bs-dismiss="modal"]');
@@ -107,5 +157,8 @@
         if (dismissBtn) dismissBtn.click();
       });
     }
+
+    updateModalCounter();
+    updateModalNavState();
   }
 </script>
