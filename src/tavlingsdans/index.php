@@ -2,10 +2,20 @@
   $header_title = "Tävlingsdans";
   $header_description = "Här hittar du information om vår tävlingsdans";
 
-  $page_updated = "2026-04-05 00:20";
+  $page_updated = "2026-07-10 22:10";
   $page_url = "/tavlingsdans";
   $page_contact_name = "Tävlingsansvarig";
   $page_contact_email = "tavlingsansvarig@rockrullarna.se";
+
+  $media_video_embed_url = "";
+  $media_video_title = "YouTube-video med tävlingsdans och West Coast Swing";
+  $media_video_heading = "Från träningsgolv till tävlingsgolv";
+  $media_video_description = "Här får du en känsla för uttryck, teknik och närvaro som växer fram när man tränar målmedvetet tillsammans.";
+
+  $has_media_video = trim($media_video_embed_url) !== "";
+  $media_layout_class = $has_media_video
+    ? "rr-courses-media-layout"
+    : "rr-courses-media-layout rr-courses-media-layout--gallery-only";
 
   include_once '../includes/header.php'
 ?>
@@ -54,7 +64,7 @@
           <div class="rr-association-meta-item"><strong>Tävlingsformer</strong>Bugg, Fox och West Coast Swing</div>
           <div class="rr-association-meta-item"><strong>För dig som</strong>vill planera starter, följa tävlingar och hitta praktisk information</div>
           <div class="rr-association-meta-item"><strong>Systemstöd</strong>dans.se för anmälningar och Vote4Dance för liveinformation och resultat</div>
-          <div class="rr-association-meta-item"><strong>Extern översikt</strong><a href="https://www.danssport.se/taevling/taevlingskalender" title="Öppna DSF Tävlingskalender" target="_blank" rel="noopener">DSF Tävlingskalender</a></div>
+          <div class="rr-association-meta-item"><strong>Extern översikt</strong><a href="https://www.danssport.se/kalender/kalender/" title="Öppna DSF (Klicka på Tävlingskalender)" target="_blank" rel="noopener">DSF Tävlingskalender</a></div>
         </div>
       </section> -->
 
@@ -66,16 +76,18 @@
           </div>
         </div>
 
-        <div class="rr-courses-media-layout rr-courses-media-layout--gallery-only">
-          <!-- <article class="rr-courses-media-feature">
+        <div class="<?= htmlspecialchars($media_layout_class, ENT_QUOTES, 'UTF-8') ?>">
+          <?php if ($has_media_video): ?>
+          <article class="rr-courses-media-feature">
             <div class="rr-courses-media-copy">
               <div class="rr-iframe-responsive">
-                <iframe src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube-video med tävlingsdans och West Coast Swing" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="<?= htmlspecialchars($media_video_embed_url, ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($media_video_title, ENT_QUOTES, 'UTF-8') ?>" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
-              <h3>Från träningsgolv till tävlingsgolv</h3>
-              <p>Här får du en känsla för uttryck, teknik och närvaro som växer fram när man tränar målmedvetet tillsammans.</p>
+              <h3><?= htmlspecialchars($media_video_heading, ENT_QUOTES, 'UTF-8') ?></h3>
+              <p><?= htmlspecialchars($media_video_description, ENT_QUOTES, 'UTF-8') ?></p>
             </div>
-          </article> -->
+          </article>
+          <?php endif; ?>
 
           <div class="rr-courses-media-gallery" aria-label="Bilder från tävlingsdans">
             <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/bugg/tavlingsdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/bugg/tavlingsdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
