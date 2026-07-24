@@ -12,8 +12,97 @@
   $trainer_meta = [
     'senastUppdaterad' => '',
     'notes' => '',
-    'ansvarig' => '',
   ];
+  $trainer_section_links = [
+    'Barndans' => '/danskurser/kursoversikt/dans-barn-och-ungdom',
+    'Bugg' => '/danskurser/kursoversikt/bugg',
+    'Fox' => '/danskurser/kursoversikt/fox',
+    'West Coast Swing' => '/danskurser/kursoversikt/wcs',
+  ];
+
+  function normalizeTrainerRoleClass(string $role): string {
+    $normalized = strtolower(trim($role));
+    $normalized = strtr($normalized, [
+      'å' => 'a',
+      'ä' => 'a',
+      'ö' => 'o',
+      'é' => 'e',
+      'ü' => 'u',
+    ]);
+    $normalized = preg_replace('/[^a-z0-9]+/', '-', $normalized);
+    return trim((string) $normalized, '-');
+  }
+
+  function getTrainerRolePriority(array $roles): int {
+    $priorityByRole = [
+      'tranare' => 1,
+      'assistent' => 2,
+      'hjalpdansare' => 3,
+    ];
+    $bestPriority = 99;
+
+    foreach ($roles as $roleName) {
+      $roleKey = normalizeTrainerRoleClass((string) $roleName);
+      $rolePriority = $priorityByRole[$roleKey] ?? 99;
+
+      if ($rolePriority < $bestPriority) {
+        $bestPriority = $rolePriority;
+      }
+    }
+
+    return $bestPriority;
+  }
+
+  function getTrainerFirstNameSortKey(string $name): string {
+    $name = trim($name);
+
+    if ($name === '') {
+      return '';
+    }
+
+    $parts = preg_split('/\s+/u', $name);
+    $firstName = is_array($parts) && !empty($parts) ? (string) $parts[0] : $name;
+
+    if (function_exists('mb_strtolower')) {
+      $key = mb_strtolower($firstName, 'UTF-8');
+    } else {
+      $key = strtolower($firstName);
+    }
+
+    // Flytta svenska tecken till efter Z i sorteringen (A-Ö).
+    $key = strtr($key, [
+      'å' => '{',
+      'ä' => '|',
+      'ö' => '}',
+      'é' => 'e',
+      'è' => 'e',
+      'á' => 'a',
+      'à' => 'a',
+      'ü' => 'u',
+    ]);
+
+    return preg_replace('/[^a-z0-9\{\|\}]/u', '', $key) ?? $key;
+  }
+
+  function compareTrainerCards(array $left, array $right): int {
+    $leftRolePriority = getTrainerRolePriority($left['roles'] ?? []);
+    $rightRolePriority = getTrainerRolePriority($right['roles'] ?? []);
+
+    if ($leftRolePriority !== $rightRolePriority) {
+      return $leftRolePriority <=> $rightRolePriority;
+    }
+
+    $leftFirstName = getTrainerFirstNameSortKey((string) ($left['name'] ?? ''));
+    $rightFirstName = getTrainerFirstNameSortKey((string) ($right['name'] ?? ''));
+
+    $firstNameCompare = strcmp($leftFirstName, $rightFirstName);
+
+    if ($firstNameCompare !== 0) {
+      return $firstNameCompare;
+    }
+
+    return strcmp((string) ($left['name'] ?? ''), (string) ($right['name'] ?? ''));
+  }
   $trainer_people = [];
 
   if (is_file($trainerCatalogFile)) {
@@ -28,8 +117,6 @@
 
           $trainer_meta['senastUppdaterad'] = trim((string) ($catalogMeta['senastUppdaterad'] ?? ''));
           $trainer_meta['notes'] = trim((string) ($catalogMeta['notes'] ?? ''));
-          $trainer_meta['ansvarig'] = trim((string) ($catalogMeta['ansvarig'] ?? ''));
-
           if (is_array($catalogMeta['sektioner'] ?? null)) {
             $customSections = [];
 
@@ -148,6 +235,12 @@
     }
   }
 
+  foreach ($section_members as $sectionName => $membersById) {
+    $sortedMembers = array_values($membersById);
+    usort($sortedMembers, 'compareTrainerCards');
+    $section_members[$sectionName] = $sortedMembers;
+  }
+
   $trainer_people_total = count($trainer_people);
   $trainer_assignments_total = 0;
 
@@ -166,7 +259,8 @@
         <div class="rr-association-card rr-association-card--hero">
           <p class="rr-style-label rr-trainer-overline" aria-hidden="true">Klubbens</p>
           <h1 id="tranare-heading">Tränare</h1>
-          <p class="rr-association-lead">Här hittar du Dansklubben Rockrullarnas tränare, assistenter och hjälpdansare uppdelade efter danssektion. Samma person kan ha flera roller i olika dansstilar.</p>
+          <p class="rr-association-lead">Här hittar du tränare, assistenter och hjälpdansare i Dansklubben Rockrullarna, uppdelat efter våra dansstilar Barndans, Bugg, Fox och West Coast Swing.</p>
+          <p class="rr-association-lead">Flera av våra ledare bidrar i mer än en sektion. Därför kan samma person visas med olika roller på flera ställen i sidan.</p>
 
           <div class="rr-trainer-highlights" aria-label="Översikt av tränarteamet">
             <div class="rr-trainer-highlight">
@@ -198,12 +292,6 @@
                 <p><?php echo htmlspecialchars($trainer_meta['senastUppdaterad']); ?></p>
               </div>
             <?php } ?>
-            <?php if ($trainer_meta['ansvarig'] !== '') { ?>
-              <div class="rr-association-meta-item">
-                <strong>Ansvarig</strong>
-                <p><?php echo htmlspecialchars($trainer_meta['ansvarig']); ?></p>
-              </div>
-            <?php } ?>
           </div>
         </aside>
       </section>
@@ -220,12 +308,17 @@
 
         <div class="rr-trainer-sections">
           <?php foreach ($trainer_sections as $sectionName) { ?>
-            <?php $sectionCards = array_values($section_members[$sectionName] ?? []); ?>
+            <?php $sectionCards = $section_members[$sectionName] ?? []; ?>
             <div class="rr-association-roster-block rr-trainer-section" aria-labelledby="tranare-sektion-<?php echo md5($sectionName); ?>">
               <div class="rr-trainer-section-header">
                 <h3 id="tranare-sektion-<?php echo md5($sectionName); ?>" class="rr-association-roster-title"><?php echo htmlspecialchars($sectionName); ?></h3>
                 <p class="rr-association-roster-meta"><?php echo count($sectionCards); ?> personer</p>
               </div>
+              <?php if (!empty($trainer_section_links[$sectionName])) { ?>
+                <p class="rr-trainer-section-link-wrap">
+                  <a class="rr-trainer-section-link" href="<?php echo htmlspecialchars($trainer_section_links[$sectionName]); ?>" title="Läs mer om <?php echo htmlspecialchars($sectionName); ?>">Till kursöversikt för <?php echo htmlspecialchars($sectionName); ?></a>
+                </p>
+              <?php } ?>
 
               <?php if (!empty($sectionCards)) { ?>
                 <div class="rr-trainer-grid" aria-label="<?php echo htmlspecialchars($sectionName); ?> - tränare och assistenter">
@@ -250,7 +343,8 @@
                         <h4 class="rr-trainer-name"><?php echo htmlspecialchars($card['name']); ?></h4>
                         <div class="rr-trainer-role-list" aria-label="Roller i <?php echo htmlspecialchars($sectionName); ?>">
                           <?php foreach ($card['roles'] as $roleName) { ?>
-                            <span class="rr-trainer-role-pill"><?php echo htmlspecialchars($roleName); ?></span>
+                            <?php $roleClass = normalizeTrainerRoleClass($roleName); ?>
+                            <span class="rr-trainer-role-pill rr-trainer-role-pill--<?php echo htmlspecialchars($roleClass); ?>"><?php echo htmlspecialchars($roleName); ?></span>
                           <?php } ?>
                         </div>
                         <?php if (!empty($card['otherSections'])) { ?>

@@ -2541,6 +2541,30 @@ header {
   gap: 0.75rem;
 }
 
+.rr-trainer-section-link-wrap {
+  margin: 0 0 0.75rem;
+}
+
+.rr-trainer-section-link,
+.rr-trainer-section-link:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid rgba(0,171,214,0.25);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--b-link);
+  background: rgba(0,171,214,0.04);
+}
+
+.rr-trainer-section-link:hover,
+.rr-trainer-section-link:focus-visible {
+  background: rgba(0,171,214,0.14);
+  color: var(--b-text);
+  border-color: rgba(0,171,214,0.5);
+}
+
 .rr-trainer-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -2613,6 +2637,37 @@ header {
   font-size: 0.72rem;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.rr-trainer-role-pill--tranare {
+  border-color: rgba(0,171,214,0.48);
+  color: #5fd8ff;
+  background: rgba(0,171,214,0.14);
+}
+
+.rr-trainer-role-pill--assistent {
+  border-color: rgba(140,214,55,0.45);
+  color: #b6ed7a;
+  background: rgba(140,214,55,0.13);
+}
+
+.rr-trainer-role-pill--hjalpdansare {
+  border-color: rgba(255,174,46,0.45);
+  color: #ffd28f;
+  background: rgba(255,174,46,0.12);
+}
+
+.rr-trainer-role-pill--coach {
+  border-color: rgba(195,130,255,0.45);
+  color: #e2c2ff;
+  background: rgba(195,130,255,0.14);
+}
+
+.rr-trainer-role-pill--guest,
+.rr-trainer-role-pill--gasttranare {
+  border-color: rgba(255,110,152,0.45);
+  color: #ffc0d3;
+  background: rgba(255,110,152,0.13);
 }
 
 .rr-trainer-cross-sections {
