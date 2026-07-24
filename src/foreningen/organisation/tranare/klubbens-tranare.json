@@ -64,13 +64,99 @@
       ]
     },
     {
+      "id": "anna-skanebo",
+      "name": "Anna Skanebo",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "elin-yngve",
+      "name": "Elin Yngve",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },{
+      "id": "jennie-modin",
+      "name": "Jennie Modin",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },{
+      "id": "linn-carlsson",
+      "name": "Linn Carlsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "nellie-modin",
+      "name": "Nellie Modin",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "nils-nuszkowski",
+      "name": "Nils Nuszkowski",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "stefan-ericsson",
+      "name": "Stefan Ericsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "thomas-modin",
+      "name": "Thomas Modin",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
       "id": "daniel-hjalmarsson",
       "name": "Daniel Hjalmarsson",
       "image": "",
       "assignments": [
         {
           "section": "Bugg",
-          "role": "Assistent"
+          "role": "Tränare"
         }
       ]
     },
