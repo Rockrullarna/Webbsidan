@@ -13,12 +13,12 @@
     <a href="../">Rockrullarna.se</a> / <span>Logotyp</span>
   </div>
   <h1>Rockrullarnas Logotyp (Grafisk profil)</h1>
-  <p>Denna sidan innehåller vår grafiska profilen vi har på Rockrullarna (beskrivs via: <a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning">Avsnitt 15 i DKRR-001 Verksamhetsbeskrivning</a>).</p>
+  <p>Denna sidan innehåller vår grafiska profil vi har på Rockrullarna (beskrivs via: <a href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning/#kap15-1">Avsnitt 15 i DKRR-001 Verksamhetsbeskrivning</a>&nbsp;).</p>
   <p>Här kan du hämta ned vår logga, typsnitt och mallar för att skapa bilder till Facebook-evenemang och till andra evenemang.&nbsp;</p>
   <p>Direktlänk till denna sidan att dela:<br /><a href="/logotyp/">https://www.Rockrullarna.se/logotyp</a><em><br /></em></p>
   <p>Standardlogga är den som ligger i mappen PNG och heter:&nbsp;<br /><a href="./format/PNG/Rockrullarna-bgSvart-frontRRbla.png" title="Rockrullarna-bgSvart-frontRRbla.png" target="_blank"><strong>Rockrullarna-bgSvart-frontRRbla.png</strong></a></p>
   <p>Färgkoden som vi använder för vår blåa "Rockrullarna-färg" (RRBlå) är: <strong><span style="color: #00abd6;">#00ABD6</span></strong></p>
-  <p>Typsnitt som används i loggan är: <strong>Bernhard Antique D OT</strong><br />(finns att hämta här nedan och bara dubbelklicka för att installera på din dator för användning)</p>
+  <p>Typsnitt som används i loggan är: <b>Bernhard Antique D OT</b><br />(finns att hämta här nedan och bara dubbelklicka för att installera på din dator för användning)<br /> Annat typsnitt som också fungerar på Windows är: <b>Bernard MT Condensed</b>.</p>
   <p>Här kan du sortera på kategori:</p>
   <div id="GalleryChildAlbumSelector">
     <form method="get" action="">
@@ -45,7 +45,6 @@
         <td>Filtyp</td>
         <td>Storlek</td>
       </tr>
-      <!-- TODO: Fixa länken! -->
       <tr data-category="typsnitt"> <!-- Typsnitt -->
         <td colspan="2" class="GalleryTableCellIcon">
           <a href="./Typsnitt/Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt.ttf" title="Bernhard-Antique-D-OT-Bold-Condensed_6777_Font_Typsnitt" target="_blank" rel="gallery">
