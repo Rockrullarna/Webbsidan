@@ -63,9 +63,15 @@
               href="https://github.com/Rockrullarna/Webbsidan/tree/main/src/<?php if (empty($page_url)) { echo "index.php"; } else { echo "$page_url/index.php"; }?>"
               target="_blank" rel="noopener">
             <?php
-              $versionUrl = 'https://rockrullarna.se/version.txt';
-              $versionContent = file_get_contents($versionUrl);
-              echo ($versionContent !== false) ? "Version: " . $versionContent : "Version: –";
+              // Läs lokal version-fil från aktuell miljö (prod/beta) för korrekt versionssuffix.
+              $versionFilePath = dirname(__DIR__) . '/version.txt';
+              $versionContent = @file_get_contents($versionFilePath);
+
+              if ($versionContent !== false && preg_match('/v\d+\.\d{8}\.\d{4}(?:-beta)?/', $versionContent, $versionMatch)) {
+                echo 'Version: ' . htmlspecialchars($versionMatch[0], ENT_QUOTES, 'UTF-8');
+              } else {
+                echo 'Version: –';
+              }
             ?>
           </a>
         </div>

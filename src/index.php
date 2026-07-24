@@ -5,7 +5,7 @@
 
 
   // Läs innehållet från version.txt
-  $versionUrl = 'https://rockrullarna.se/version.txt';
+  $versionUrl = './version.txt';
   $versionContent = file_get_contents($versionUrl);
 
   // Kontrollera om läsningen lyckades
