@@ -2682,6 +2682,8 @@ header {
 
 .rr-social-link-card:hover,
 .rr-social-link-card:focus-visible {
+  background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
+  color: var(--b-text);
   transform: translateY(-2px);
   border-color: rgba(0,171,214,0.45);
   box-shadow: 0 14px 30px rgba(0,0,0,0.18);
@@ -2718,9 +2720,36 @@ header {
 
 .rr-instagram-feed-card:hover,
 .rr-instagram-feed-card:focus-visible {
+  background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
+  color: var(--b-text);
   transform: translateY(-2px);
   border-color: rgba(0,171,214,0.45);
   box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+}
+
+.rr-instagram-feed-card:focus-visible,
+.rr-social-link-card:focus-visible {
+  outline: 2px solid rgba(0,171,214,0.75);
+  outline-offset: 2px;
+}
+
+.rr-instagram-feed-card:hover .rr-instagram-feed-card-content strong,
+.rr-instagram-feed-card:focus-visible .rr-instagram-feed-card-content strong,
+.rr-instagram-feed-card:hover .rr-instagram-feed-card-content small,
+.rr-instagram-feed-card:focus-visible .rr-instagram-feed-card-content small,
+.rr-instagram-feed-card:hover .rr-instagram-feed-card-content time,
+.rr-instagram-feed-card:focus-visible .rr-instagram-feed-card-content time {
+  color: inherit;
+}
+
+.rr-instagram-feed-card:hover .rr-instagram-feed-card-content time,
+.rr-instagram-feed-card:focus-visible .rr-instagram-feed-card-content time {
+  color: var(--b-accent-strong);
+}
+
+.rr-instagram-feed-card:hover .rr-instagram-feed-card-content small,
+.rr-instagram-feed-card:focus-visible .rr-instagram-feed-card-content small {
+  color: var(--b-muted);
 }
 
 .rr-instagram-feed-card img {
