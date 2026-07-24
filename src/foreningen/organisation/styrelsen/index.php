@@ -6,68 +6,39 @@
   $page_url = "/foreningen/organisation/styrelsen";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
-  $board_members = [
-    [
-      'role' => 'Ordförande',
-      'term' => '2 år',
-      'name' => 'Petra Johansson',
-      'image' => '',
-    ],
-    [
-      'role' => 'Vice ordförande',
-      'term' => '2 år',
-      'name' => 'Daniel Hjalmarsson',
-      'image' => '',
-    ],
-    [
-      'role' => 'Kassör',
-      'term' => '2 år',
-      'name' => 'Annica Kindborg',
-      'image' => '',
-    ],
-    [
-      'role' => 'Sekreterare',
-      'term' => '2 år',
-      'name' => 'Linnea Sohlberg Modin',
-      'image' => '',
-    ],
-    [
-      'role' => 'Ledamot',
-      'term' => '1 år',
-      'name' => 'Emil Schyman',
-      'image' => '',
-    ],
-    [
-      'role' => 'Ledamot',
-      'term' => '1 år',
-      'name' => 'Elin Sörman',
-      'image' => '',
-    ],
-    [
-      'role' => 'Suppleant',
-      'term' => '1 år',
-      'name' => 'Anette Asplund',
-      'image' => '',
-    ],
-    [
-      'role' => 'Suppleant',
-      'term' => '1 år',
-      'name' => 'Emma Söderström Arnell',
-      'image' => '',
-    ],
-    [
-      'role' => 'Suppleant',
-      'term' => '1 år',
-      'name' => 'Henrik Larsson',
-      'image' => '',
-    ],
-    [
-      'role' => 'Suppleant',
-      'term' => '1 år',
-      'name' => 'Johan Gullberg',
-      'image' => '',
-    ],
-  ];
+  $boardMembersFile = __DIR__ . DIRECTORY_SEPARATOR . 'medlemmar-styrelsen.json';
+  $board_members = [];
+
+  if (is_file($boardMembersFile)) {
+    $membersContent = @file_get_contents($boardMembersFile);
+
+    if ($membersContent !== false && $membersContent !== '') {
+      $membersPayload = json_decode($membersContent, true);
+
+      if (is_array($membersPayload)) {
+        foreach ($membersPayload as $member) {
+          if (!is_array($member)) {
+            continue;
+          }
+
+          $name = trim((string) ($member['name'] ?? ''));
+          $role = trim((string) ($member['role'] ?? ''));
+          $term = trim((string) ($member['term'] ?? ''));
+
+          if ($name === '' || $role === '' || $term === '') {
+            continue;
+          }
+
+          $board_members[] = [
+            'role' => $role,
+            'term' => $term,
+            'name' => $name,
+            'image' => trim((string) ($member['image'] ?? '')),
+          ];
+        }
+      }
+    }
+  }
   $board_regular_members = array_values(array_filter(
     $board_members,
     static fn($member) => ($member['role'] ?? '') !== 'Suppleant'
