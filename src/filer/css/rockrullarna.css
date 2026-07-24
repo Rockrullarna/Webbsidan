@@ -2505,6 +2505,34 @@ header {
   margin-top: 0.9rem;
 }
 
+.rr-trainer-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.rr-trainer-jump-link,
+.rr-trainer-jump-link:visited {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.38rem 0.72rem;
+  border: 1px solid rgba(0,171,214,0.28);
+  border-radius: 999px;
+  background: rgba(0,171,214,0.07);
+  color: var(--b-link);
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.rr-trainer-jump-link:hover,
+.rr-trainer-jump-link:focus-visible {
+  background: rgba(0,171,214,0.16);
+  color: var(--b-text);
+  border-color: rgba(0,171,214,0.52);
+}
+
 .rr-trainer-highlight {
   display: grid;
   gap: 0.2rem;
