@@ -6,6 +6,68 @@
   $page_url = "/foreningen/organisation/styrelsen";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
+  $board_members = [
+    [
+      'role' => 'Ordförande',
+      'term' => '2 år',
+      'name' => 'Petra Johansson',
+      'image' => '',
+    ],
+    [
+      'role' => 'Vice ordförande',
+      'term' => '2 år',
+      'name' => 'Daniel Hjalmarsson',
+      'image' => '',
+    ],
+    [
+      'role' => 'Kassör',
+      'term' => '2 år',
+      'name' => 'Annica Kindborg',
+      'image' => '',
+    ],
+    [
+      'role' => 'Sekreterare',
+      'term' => '2 år',
+      'name' => 'Linnea Sohlberg Modin',
+      'image' => '',
+    ],
+    [
+      'role' => 'Ledamot',
+      'term' => '1 år',
+      'name' => 'Emil Schyman',
+      'image' => '',
+    ],
+    [
+      'role' => 'Ledamot',
+      'term' => '1 år',
+      'name' => 'Elin Sörman',
+      'image' => '',
+    ],
+    [
+      'role' => 'Suppleant',
+      'term' => '1 år',
+      'name' => 'Anette Asplund',
+      'image' => '',
+    ],
+    [
+      'role' => 'Suppleant',
+      'term' => '1 år',
+      'name' => 'Emma Söderström Arnell',
+      'image' => '',
+    ],
+    [
+      'role' => 'Suppleant',
+      'term' => '1 år',
+      'name' => 'Henrik Larsson',
+      'image' => '',
+    ],
+    [
+      'role' => 'Suppleant',
+      'term' => '1 år',
+      'name' => 'Johan Gullberg',
+      'image' => '',
+    ],
+  ];
 
   include_once '../../../includes/header.php'
 ?>
@@ -36,18 +98,31 @@
       <section class="rr-association-card rr-association-card--section" aria-labelledby="styrelsen-lista-heading">
         <p class="rr-style-label" aria-hidden="true">Sammansättning</p>
         <h2 id="styrelsen-lista-heading">Styrelsen 2026-2027</h2>
-        <ul class="rr-association-inline-list">
-          <li><strong>Ordförande (2 år):</strong> Petra Johansson</li>
-          <li><strong>Vice ordförande (2 år):</strong> Daniel Hjalmarsson</li>
-          <li><strong>Kassör (2 år):</strong> Annica Kindborg</li>
-          <li><strong>Sekreterare (2 år):</strong> Linnea Sohlberg Modin</li>
-          <li><strong>Ledamot (1 år):</strong> Emil Schyman</li>
-          <li><strong>Ledamot (1 år):</strong> Elin Sörman</li>
-          <li><strong>Suppleant (1 år):</strong> Anette Asplund</li>
-          <li><strong>Suppleant (1 år):</strong> Emma Söderström Arnell</li>
-          <li><strong>Suppleant (1 år):</strong> Henrik Larsson</li>
-          <li><strong>Suppleant (1 år):</strong> Johan Gullberg</li>
-        </ul>
+        <div class="rr-board-grid" aria-label="Styrelsemedlemmar i kortformat">
+          <?php foreach ($board_members as $member) { ?>
+            <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
+            <article class="rr-board-card">
+              <div class="rr-board-photo-shell">
+                <?php if ($memberImage !== '') { ?>
+                  <img
+                    src="<?php echo htmlspecialchars($memberImage); ?>"
+                    alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
+                    class="rr-board-photo"
+                    loading="lazy"
+                  />
+                <?php } else { ?>
+                  <div class="rr-board-photo-placeholder" role="img" aria-label="Bild saknas för <?php echo htmlspecialchars($member['name']); ?>">
+                    <span>Bild saknas</span>
+                  </div>
+                <?php } ?>
+              </div>
+              <div class="rr-board-card-content">
+                <p class="rr-board-role"><?php echo htmlspecialchars($member['role']); ?> (<?php echo htmlspecialchars($member['term']); ?>)</p>
+                <h3 class="rr-board-name"><?php echo htmlspecialchars($member['name']); ?></h3>
+              </div>
+            </article>
+          <?php } ?>
+        </div>
       </section>
     </div>
 <?php

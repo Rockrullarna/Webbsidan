@@ -2424,6 +2424,68 @@ header {
   color: var(--b-text);
 }
 
+.rr-board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rr-board-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--b-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.rr-board-photo-shell {
+  width: 100%;
+}
+
+.rr-board-photo,
+.rr-board-photo-placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.rr-board-photo {
+  object-fit: cover;
+}
+
+.rr-board-photo-placeholder {
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 30% 18%, rgba(0,171,214,0.24), rgba(255,255,255,0.03));
+  color: var(--b-accent-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+}
+
+.rr-board-card-content {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.95rem 1rem 1rem;
+}
+
+.rr-board-role {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b-accent-strong);
+}
+
+.rr-board-name {
+  margin: 0;
+  color: var(--b-text);
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
 .rr-association-link-grid,
 .rr-association-roster-grid {
   display: grid;
@@ -3733,6 +3795,10 @@ header {
     grid-template-columns: 1fr;
   }
 
+  .rr-board-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .rr-instagram-feed-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3765,6 +3831,10 @@ header {
   .rr-contact-method-grid,
   .rr-contact-faq-nav {
     grid-template-columns: 1fr;
+  }
+
+  .rr-board-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .rr-instagram-feed-grid {
