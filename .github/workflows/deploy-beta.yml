@@ -47,6 +47,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           server: ${{ secrets.SFTP_HOST }}
+          # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './src/*'
           remote_path: '/customers/c/3/d/rockrullarna.se/httpd.www/beta/'
           sftp_only: true
