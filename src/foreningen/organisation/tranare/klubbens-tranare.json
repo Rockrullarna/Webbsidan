@@ -53,28 +53,13 @@
       ]
     },
     {
-      "id": "elin-sorman",
-      "name": "Elin Sörman",
-      "image": "",
-      "assignments": [
-        {
-          "section": "Fox",
-          "role": "Hjälpdansare"
-        }
-      ]
-    },
-    {
       "id": "linnea-sohlberg-modin",
       "name": "Linnea Sohlberg Modin",
       "image": "",
       "assignments": [
         {
-          "section": "Barndans",
-          "role": "Tränare"
-        },
-        {
           "section": "Bugg",
-          "role": "Assistent"
+          "role": "Tränare"
         }
       ]
     },
@@ -85,7 +70,187 @@
       "assignments": [
         {
           "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "asa-nystrom",
+      "name": "Åsa Nyström",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
           "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "lars-norman",
+      "name": "Lars Norman",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "camilla-wellsen",
+      "name": "Camilla Wellsén",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "milla-olsson",
+      "name": "Milla Olsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "asa-hakansson",
+      "name": "Åsa Håkansson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "andreas-johansson",
+      "name": "Andreas Johansson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "sara-sjostrom",
+      "name": "Sara Sjöström",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "elin-reuterwall",
+      "name": "Elin Reuterwall",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "hakan-viklund",
+      "name": "Håkan Viklund",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "lena-larsson",
+      "name": "Lena Larsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "helena-jansson",
+      "name": "Helena Jansson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "max-huss",
+      "name": "Max Huss",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "simon-sjodahl",
+      "name": "Simon Sjödahl",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "helena-luthman",
+      "name": "Helena Luthman",
+      "image": "",
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "ulrika-aronsson",
+      "name": "Ulrika Aronsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "david-pilblad",
+      "name": "David Pilblad",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Assistent"
         }
       ]
     }

@@ -25,6 +25,12 @@
     'Fox' => 'tranare-fox',
     'West Coast Swing' => 'tranare-wcs',
   ];
+  $trainer_section_classes = [
+    'Barndans' => 'rr-trainer-section--barndans',
+    'Bugg' => 'rr-trainer-section--bugg',
+    'Fox' => 'rr-trainer-section--fox',
+    'West Coast Swing' => 'rr-trainer-section--wcs',
+  ];
 
   function normalizeTrainerRoleClass(string $role): string {
     $normalized = strtolower(trim($role));
@@ -266,7 +272,7 @@
           <p class="rr-style-label rr-trainer-overline" aria-hidden="true">Klubbens</p>
           <h1 id="tranare-heading">Tränare</h1>
           <p class="rr-association-lead">Här hittar du tränare, assistenter och hjälpdansare i Dansklubben Rockrullarna, uppdelat efter våra dansstilar Barndans, Bugg, Fox och West Coast Swing.</p>
-          <p class="rr-association-lead">Flera av våra ledare bidrar i mer än en sektion. Därför kan samma person visas med olika roller på flera ställen i sidan.</p>
+          <p class="rr-association-lead">Flera av våra ledare bidrar i mer än en danssektion. Därför kan samma person visas med olika roller på flera ställen i sidan.</p>
 
           <nav class="rr-trainer-jump-nav" aria-label="Hoppa till danssektion">
             <?php foreach ($trainer_sections as $sectionName) { ?>
@@ -323,7 +329,7 @@
         <div class="rr-trainer-sections">
           <?php foreach ($trainer_sections as $sectionName) { ?>
             <?php $sectionCards = $section_members[$sectionName] ?? []; ?>
-            <div id="<?php echo htmlspecialchars($trainer_section_ids[$sectionName] ?? ('tranare-' . md5($sectionName))); ?>" class="rr-association-roster-block rr-trainer-section" aria-labelledby="tranare-sektion-<?php echo md5($sectionName); ?>">
+            <div id="<?php echo htmlspecialchars($trainer_section_ids[$sectionName] ?? ('tranare-' . md5($sectionName))); ?>" class="rr-association-roster-block rr-trainer-section <?php echo htmlspecialchars($trainer_section_classes[$sectionName] ?? ''); ?>" aria-labelledby="tranare-sektion-<?php echo md5($sectionName); ?>">
               <div class="rr-trainer-section-header">
                 <h3 id="tranare-sektion-<?php echo md5($sectionName); ?>" class="rr-association-roster-title"><?php echo htmlspecialchars($sectionName); ?></h3>
                 <p class="rr-association-roster-meta"><?php echo count($sectionCards); ?> personer</p>
@@ -369,7 +375,7 @@
                   <?php } ?>
                 </div>
               <?php } else { ?>
-                <p class="rr-social-feed-status">Inga publicerade tränare i denna sektion ännu.</p>
+                <p class="rr-social-feed-status">Inga publicerade tränare i denna danssektion ännu.</p>
               <?php } ?>
             </div>
           <?php } ?>
