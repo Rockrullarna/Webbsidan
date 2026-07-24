@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "senastUppdaterad": "2026-07-24",
+    "ansvarig": "DKRR - Tränarteamet",
+    "notes": "Lista över tränare, assistenter och hjälpdansare. En person kan ha flera roller i flera sektioner.",
+    "sektioner": [
+      "Barndans",
+      "Bugg",
+      "Fox",
+      "West Coast Swing"
+    ]
+  },
+  "data": [
+    {
+      "id": "jonas-arvidson",
+      "name": "Jonas Arvidson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "andreas-milton",
+      "name": "Andreas Milton",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "jens-wiklund",
+      "name": "Jens Wiklund",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "elin-sorman",
+      "name": "Elin Sörman",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Hjälpdansare"
+        }
+      ]
+    },
+    {
+      "id": "linnea-sohlberg-modin",
+      "name": "Linnea Sohlberg Modin",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Barndans",
+          "role": "Tränare"
+        },
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "daniel-hjalmarsson",
+      "name": "Daniel Hjalmarsson",
+      "image": "",
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    }
+  ]
+}

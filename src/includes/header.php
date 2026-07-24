@@ -242,6 +242,8 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/valberedningen">Valberedningen</a></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/revisorer">Revisorer</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/foreningen/organisation/tranare">Tränare i klubben</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="/foreningen/medlemsrabatter">Medlemsrabatter</a></li>
