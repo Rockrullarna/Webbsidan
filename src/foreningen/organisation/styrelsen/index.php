@@ -68,6 +68,14 @@
       'image' => '',
     ],
   ];
+  $board_regular_members = array_values(array_filter(
+    $board_members,
+    static fn($member) => ($member['role'] ?? '') !== 'Suppleant'
+  ));
+  $board_substitutes = array_values(array_filter(
+    $board_members,
+    static fn($member) => ($member['role'] ?? '') === 'Suppleant'
+  ));
 
   include_once '../../../includes/header.php'
 ?>
@@ -98,30 +106,64 @@
       <section class="rr-association-card rr-association-card--section" aria-labelledby="styrelsen-lista-heading">
         <p class="rr-style-label" aria-hidden="true">Sammansättning</p>
         <h2 id="styrelsen-lista-heading">Styrelsen 2026-2027</h2>
-        <div class="rr-board-grid" aria-label="Styrelsemedlemmar i kortformat">
-          <?php foreach ($board_members as $member) { ?>
-            <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
-            <article class="rr-board-card">
-              <div class="rr-board-photo-shell">
-                <?php if ($memberImage !== '') { ?>
-                  <img
-                    src="<?php echo htmlspecialchars($memberImage); ?>"
-                    alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
-                    class="rr-board-photo"
-                    loading="lazy"
-                  />
-                <?php } else { ?>
-                  <div class="rr-board-photo-placeholder" role="img" aria-label="Bild saknas för <?php echo htmlspecialchars($member['name']); ?>">
-                    <span>Bild saknas</span>
-                  </div>
-                <?php } ?>
-              </div>
-              <div class="rr-board-card-content">
-                <p class="rr-board-role"><?php echo htmlspecialchars($member['role']); ?> (<?php echo htmlspecialchars($member['term']); ?>)</p>
-                <h3 class="rr-board-name"><?php echo htmlspecialchars($member['name']); ?></h3>
-              </div>
-            </article>
-          <?php } ?>
+        <div class="rr-association-roster-block" aria-labelledby="styrelsen-ledamoter-heading">
+          <h3 id="styrelsen-ledamoter-heading" class="rr-association-roster-title">Ledamöter</h3>
+          <p class="rr-association-roster-meta"><?php echo count($board_regular_members); ?> personer</p>
+          <div class="rr-board-grid" aria-label="Ledamöter i kortformat">
+            <?php foreach ($board_regular_members as $member) { ?>
+              <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
+              <article class="rr-board-card">
+                <div class="rr-board-photo-shell">
+                  <?php if ($memberImage !== '') { ?>
+                    <img
+                      src="<?php echo htmlspecialchars($memberImage); ?>"
+                      alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
+                      class="rr-board-photo"
+                      loading="lazy"
+                    />
+                  <?php } else { ?>
+                    <div class="rr-board-photo-placeholder" role="img" aria-label="Bild saknas för <?php echo htmlspecialchars($member['name']); ?>">
+                      <span>Bild saknas</span>
+                    </div>
+                  <?php } ?>
+                </div>
+                <div class="rr-board-card-content">
+                  <p class="rr-board-role"><?php echo htmlspecialchars($member['role']); ?> (<?php echo htmlspecialchars($member['term']); ?>)</p>
+                  <h4 class="rr-board-name"><?php echo htmlspecialchars($member['name']); ?></h4>
+                </div>
+              </article>
+            <?php } ?>
+          </div>
+        </div>
+
+        <div class="rr-association-roster-block" aria-labelledby="styrelsen-suppleanter-heading">
+          <h3 id="styrelsen-suppleanter-heading" class="rr-association-roster-title">Suppleanter</h3>
+          <p class="rr-association-roster-meta"><?php echo count($board_substitutes); ?> personer</p>
+          <div class="rr-board-grid" aria-label="Suppleanter i kortformat">
+            <?php foreach ($board_substitutes as $member) { ?>
+              <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
+              <article class="rr-board-card">
+                <div class="rr-board-photo-shell">
+                  <?php if ($memberImage !== '') { ?>
+                    <img
+                      src="<?php echo htmlspecialchars($memberImage); ?>"
+                      alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
+                      class="rr-board-photo"
+                      loading="lazy"
+                    />
+                  <?php } else { ?>
+                    <div class="rr-board-photo-placeholder" role="img" aria-label="Bild saknas för <?php echo htmlspecialchars($member['name']); ?>">
+                      <span>Bild saknas</span>
+                    </div>
+                  <?php } ?>
+                </div>
+                <div class="rr-board-card-content">
+                  <p class="rr-board-role"><?php echo htmlspecialchars($member['role']); ?> (<?php echo htmlspecialchars($member['term']); ?>)</p>
+                  <h4 class="rr-board-name"><?php echo htmlspecialchars($member['name']); ?></h4>
+                </div>
+              </article>
+            <?php } ?>
+          </div>
         </div>
       </section>
     </div>
