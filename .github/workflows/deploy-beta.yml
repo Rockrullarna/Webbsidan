@@ -30,7 +30,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Add version.txt file
-        run: echo "v14.$(date +'%Y%m%d').$(date +'%H%M')-beta" > ./src/version.txt
+        run: |
+          VERSION_DateTimeTZ="$(TZ=Europe/Stockholm date +'%Y%m%d.%H%M')"
+          echo "v14.${VERSION_DateTimeTZ}-beta" > ./src/version.txt
 
       - name: Rewrite paths for /beta/
         run: |
