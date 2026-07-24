@@ -6,7 +6,7 @@ header('Content-Type: application/json; charset=utf-8');
 $username = 'rockrullarna';
 $limit = 4;
 $cacheTtlSeconds = 15 * 60;
-$cacheSchemaVersion = 2;
+$cacheSchemaVersion = 3;
 $debug = filter_input(INPUT_GET, 'debug', FILTER_VALIDATE_BOOLEAN) ?? false;
 $forceRefresh = filter_input(INPUT_GET, 'refresh', FILTER_VALIDATE_BOOLEAN) ?? false;
 $cacheDir = __DIR__ . DIRECTORY_SEPARATOR . 'cache';
@@ -22,6 +22,18 @@ function build_instagram_image_proxy_url(string $remoteUrl): string
     
     // Bygg ihop sökvägen till image.php
     $proxyPath = $cleanDir . '/image.php?url=';
+
+    $parts = parse_url($remoteUrl);
+    $query = [];
+
+    if (is_array($parts) && !empty($parts['query'])) {
+        parse_str((string) $parts['query'], $query);
+    }
+
+    // Om URL:en redan pekar mot image.php plockas original-URL ut och återanvänds.
+    if (is_array($parts) && isset($parts['path']) && str_ends_with((string) $parts['path'], '/image.php') && !empty($query['url'])) {
+        $remoteUrl = trim((string) $query['url']);
+    }
 
     return $proxyPath . rawurlencode($remoteUrl);
 }
@@ -161,15 +173,6 @@ function normalize_instagram_posts(array $mediaItems, int $limit): array
 
         if ($mediaType === 'CAROUSEL_ALBUM' && $imageUrl === '' && $thumbnailUrl !== '') {
             $imageUrl = $thumbnailUrl;
-        }
-
-        // Kontrollera om URL:en startar med eller innehåller /beta/
-        $isBeta = (strpos($_SERVER['REQUEST_URI'], '/beta/') === 0 || strpos($_SERVER['SCRIPT_NAME'], '/beta/') === 0);
-
-        if ($isBeta) {
-            // Sätt prefixet dynamiskt om vi är i beta-miljön
-            $pathPrefix = $isBeta ? '/beta' : '';
-            $imageUrl = $pathPrefix . $imageUrl;
         }
 
         $posts[] = [

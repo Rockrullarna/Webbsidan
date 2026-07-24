@@ -2730,9 +2730,33 @@ header {
   object-fit: cover;
 }
 
+.rr-instagram-feed-card--no-image::before {
+  content: "Instagram";
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: radial-gradient(circle at 30% 20%, rgba(0,171,214,0.24), rgba(255,255,255,0.03));
+  color: var(--b-accent-strong);
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .rr-social-feed-status {
   margin: 0;
   color: var(--b-muted);
+}
+
+.rr-instagram-fallback-links {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.rr-social-link-panel-grid--instagram {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
 }
 
 .rr-instagram-feed-card span {
@@ -2772,6 +2796,12 @@ header {
   margin: 0 !important;
   max-width: 100% !important;
   min-width: 0 !important;
+}
+
+@media (max-width: 767.98px) {
+  .rr-social-link-panel-grid--instagram {
+    grid-template-columns: 1fr;
+  }
 }
 
 .rr-contact-map {

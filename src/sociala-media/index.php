@@ -12,8 +12,22 @@
       return '';
     }
 
-    if (str_starts_with($imageUrl, $proxyPath)) {
-      return $imageUrl;
+    $parsedUrl = parse_url($imageUrl);
+    $query = [];
+
+    if (is_array($parsedUrl) && !empty($parsedUrl['query'])) {
+      parse_str((string) $parsedUrl['query'], $query);
+    }
+
+    // Om URL:en redan är proxad, extrahera originalbilden och bygg om med rätt mapp-prefix.
+    if (is_array($parsedUrl) && isset($parsedUrl['path']) && str_ends_with((string) $parsedUrl['path'], '/image.php') && !empty($query['url'])) {
+      $imageUrl = trim((string) $query['url']);
+
+      if ($imageUrl === '') {
+        return '';
+      }
+
+      return $proxyPath . rawurlencode($imageUrl);
     }
 
     return $proxyPath . rawurlencode($imageUrl);
@@ -161,7 +175,7 @@
             <a class="rr-btn-inline" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">instagram.com/rockrullarna</a>
             <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="./data.php">
               <?php if ($instagram_feed_ready) { ?>
-                <div class="rr-instagram-feed-grid">
+                <div class="rr-instagram-feed-grid" data-instagram-grid>
                   <?php foreach ($instagram_posts as $instagram_post) { ?>
                     <a class="rr-instagram-feed-card" href="<?php echo htmlspecialchars($instagram_post['url']); ?>" title="Öppna inlägget på Instagram" target="_blank" rel="noopener noreferrer">
                       <?php if (!empty($instagram_post['image'])) { ?>
@@ -179,7 +193,21 @@
                   <?php } ?>
                 </div>
               <?php } else { ?>
-                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Öppna gärna kontot direkt via länken ovan om inget visas strax.</p>
+                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Se våra kanaler direkt:</p>
+                <div class="rr-social-link-panel-grid rr-social-link-panel-grid--instagram">
+                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna" target="_blank" rel="noopener noreferrer">
+                    <strong>Instagram-profilen</strong>
+                    <span>Öppna hela flödet med bilder, reels och uppdateringar.</span>
+                  </a>
+                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/reels" target="_blank" rel="noopener noreferrer">
+                    <strong>Senaste reels</strong>
+                    <span>Snabba klipp från kurser, socialdans och event.</span>
+                  </a>
+                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/tagged" target="_blank" rel="noopener noreferrer">
+                    <strong>Taggade inlägg</strong>
+                    <span>Foton och inlägg där Rockrullarna har blivit taggade.</span>
+                  </a>
+                </div>
               <?php } ?>
             </div>
           </article>
@@ -318,7 +346,47 @@
               + '</a>';
           }).join('');
 
-          instagramFeed.innerHTML = '<div class="rr-instagram-feed-grid">' + cards + '</div>';
+          instagramFeed.innerHTML = '<div class="rr-instagram-feed-grid" data-instagram-grid>' + cards + '</div>';
+
+          hydrateInstagramImagePlaceholders();
+        };
+
+        const hydrateInstagramImagePlaceholders = function () {
+          const grid = instagramFeed.querySelector('[data-instagram-grid]');
+
+          if (!grid) {
+            return;
+          }
+
+          const images = Array.from(grid.querySelectorAll('img'));
+
+          if (images.length === 0) {
+            return;
+          }
+
+          images.forEach(function (image) {
+            const card = image.closest('.rr-instagram-feed-card');
+
+            const markBroken = function () {
+              if (card) {
+                card.classList.add('rr-instagram-feed-card--no-image');
+              }
+
+              image.remove();
+            };
+
+            if (image.complete) {
+              if (image.naturalWidth > 0) {
+                return;
+              } else {
+                markBroken();
+              }
+
+              return;
+            }
+
+            image.addEventListener('error', markBroken, { once: true });
+          });
         };
 
         fetch(apiUrl, { headers: { 'Accept': 'application/json' } })
@@ -333,7 +401,10 @@
             renderPosts(payload.posts || []);
           })
           .catch(function () {
+            hydrateInstagramImagePlaceholders();
           });
+
+        hydrateInstagramImagePlaceholders();
       }());
     </script>
     <script async src="https://www.tiktok.com/embed.js"></script>
