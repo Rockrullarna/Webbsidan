@@ -36,7 +36,7 @@ jobs:
 
       - name: Rewrite paths for /beta/
         run: |
-          find ./src -type f \( -name '*.php' -o -name '*.html' -o -name '*.htm' -o -name '*.css' -o -name '*.js' \) \
+          find ./src -type f \( -name '*.php' -o -name '*.html' -o -name '*.htm' -o -name '*.json' -o -name '*.css' -o -name '*.js' \) \
             -exec sed -i 's|href="/|href="/beta/|g' {} + \
             -exec sed -i 's|src="/|src="/beta/|g' {} + \
             -exec sed -i "s|'/filer/|'/beta/filer/|g" {} + \
