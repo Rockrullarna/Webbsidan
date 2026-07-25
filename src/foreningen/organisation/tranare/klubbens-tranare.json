@@ -14,7 +14,7 @@
     {
       "id": "jonas-arvidson",
       "name": "Jonas Arvidson",
-      "image": "/filer/bilder/webb/tranare/jonas-arvidson.jpg",
+      "image": "/filer/bilder/webb/personer/jonas-arvidson.jpg",
       "thumbnailOffsetY": 20,
       "assignments": [
         {
@@ -164,7 +164,19 @@
     {
       "id": "daniel-hjalmarsson",
       "name": "Daniel Hjalmarsson",
-      "image": "/filer/bilder/webb/tranare/daniel-hjalmarsson.jpg",
+      "image": "/filer/bilder/webb/personer/daniel-hjalmarsson.jpg",
+      "thumbnailOffsetY": 40,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "patrik-sjoberg",
+      "name": "Patrik Sjöberg",
+      "image": "",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -172,7 +184,20 @@
           "role": "Tränare"
         }
       ]
-    },    {
+    },
+    {
+      "id": "sara-karlsson",
+      "name": "Sara Karlsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
       "id": "mathias-grundblad",
       "name": "Mathias Grundblad",
       "image": "",
@@ -199,7 +224,7 @@
     {
       "id": "emma-exinge",
       "name": "Emma Exinge",
-      "image": "/filer/bilder/webb/tranare/emma-exinge.jpg",
+      "image": "/filer/bilder/webb/personer/emma-exinge.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -215,12 +240,12 @@
     {
       "id": "pernilla-soderqvist",
       "name": "Pernilla Söderqvist",
-      "image": "/filer/bilder/webb/tranare/pernilla-soderqvist.jpg",
-      "thumbnailOffsetY": 50,
+      "image": "/filer/bilder/webb/personer/pernilla-soderqvist.jpg",
+      "thumbnailOffsetY": 30,
       "assignments": [
         {
           "section": "Bugg",
-          "role": "Assistent"
+          "role": "Tränare"
         }
       ]
     },
@@ -299,7 +324,7 @@
     {
       "id": "sara-sjostrom",
       "name": "Sara Sjöström",
-      "image": "/filer/bilder/webb/tranare/sara-sjostrom.jpg",
+      "image": "/filer/bilder/webb/personer/sara-sjostrom.jpg",
       "thumbnailOffsetY": 30,
       "assignments": [
         {
