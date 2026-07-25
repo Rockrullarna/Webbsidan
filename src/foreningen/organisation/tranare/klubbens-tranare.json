@@ -164,12 +164,63 @@
     {
       "id": "daniel-hjalmarsson",
       "name": "Daniel Hjalmarsson",
-      "image": "",
+      "image": "/filer/bilder/webb/tranare/daniel-hjalmarsson.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
           "role": "Tränare"
+        }
+      ]
+    },    {
+      "id": "mathias-grundblad",
+      "name": "Mathias Grundblad",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "pierre-hagstrom",
+      "name": "Pierre Hagström",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "emma-exinge",
+      "name": "Emma Exinge",
+      "image": "/filer/bilder/webb/tranare/emma-exinge.jpg",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "pernilla-soderqvist",
+      "name": "Pernilla Söderqvist",
+      "image": "/filer/bilder/webb/tranare/pernilla-soderqvist.jpg",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
         }
       ]
     },
