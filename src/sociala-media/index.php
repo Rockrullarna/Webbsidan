@@ -127,7 +127,24 @@
             </div>
             <p>Följ vår Facebook-sida för uppdateringar och händelser i föreningen.</p>
             <a class="rr-btn-inline" href="https://fb.me/rockrullarna" title="Öppna Rockrullarna på Facebook" target="_blank" rel="noopener noreferrer">fb.me/rockrullarna</a>
+            <p class="rr-social-feed-status">Om Facebook-flödet inte visas nedan kan du öppna innehållet direkt på Facebook:</p>
+            <div class="rr-social-link-panel-grid">
+              <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna" target="_blank" rel="noopener noreferrer">
+                <strong>Facebook-sidan</strong>
+                <span>Öppna hela sidan med alla inlägg direkt på facebook.com.</span>
+              </a>
+              <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna/events" target="_blank" rel="noopener noreferrer">
+                <strong>Evenemang</strong>
+                <span>Öppna kommande aktiviteter och kursstarter direkt på Facebook.</span>
+              </a>
+              <a class="rr-social-link-card" href="https://m.me/rockrullarna" target="_blank" rel="noopener noreferrer">
+                <strong>Skicka meddelande</strong>
+                <span>Öppna Messenger på Facebook och skicka en snabb fråga.</span>
+              </a>
+            </div>
+
             <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--facebook">
+
               <div id="fb-root"></div>
               <script async defer crossorigin="anonymous"
                 src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v19.0">
@@ -143,21 +160,36 @@
                 data-hide-cover="false"
                 data-show-facepile="true">
               </div>
+            </div>
+          </article>
 
-              <div class="rr-social-link-panel-grid">
-                <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna" target="_blank" rel="noopener noreferrer">
-                  <strong>Facebook-sidan</strong>
-                  <span>Läs senaste uppdateringar och inlägg direkt på Facebook.</span>
-                </a>
-                <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna/events" target="_blank" rel="noopener noreferrer">
-                  <strong>Evenemang</strong>
-                  <span>Se kommande danser, kursstarter och andra aktiviteter.</span>
-                </a>
-                <a class="rr-social-link-card" href="https://m.me/rockrullarna" target="_blank" rel="noopener noreferrer">
-                  <strong>Skicka meddelande</strong>
-                  <span>Öppna Messenger om du vill ställa en snabb fråga.</span>
-                </a>
+          <article class="rr-contact-method-card rr-social-platform-card">
+            <div class="rr-social-platform-header">
+              <span class="rr-social-platform-icon" aria-hidden="true">
+                <svg width="28" height="28" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
+              </span>
+              <div>
+                <p class="rr-style-label" aria-hidden="true">TikTok</p>
+                <h3>Klipp från dansgolvet</h3>
               </div>
+            </div>
+            <p>Se korta klipp från träningar, socialdans och andra nedslag från verksamheten.</p>
+            <a class="rr-btn-inline" href="https://www.tiktok.com/@dansklubbrockrullarna" title="Öppna Rockrullarna på TikTok" target="_blank" rel="noopener noreferrer">tiktok.com/@dansklubbrockrullarna</a>
+            <p class="rr-social-feed-status">Om TikTok-inbäddningen inte visas kan du öppna klippen direkt på TikTok:</p>
+            <div class="rr-social-link-panel-grid">
+              <a class="rr-social-link-card" href="https://www.tiktok.com/@dansklubbrockrullarna" target="_blank" rel="noopener noreferrer">
+                <strong>TikTok-profilen</strong>
+                <span>Öppna hela profilen med alla videoklipp direkt på tiktok.com.</span>
+              </a>
+            </div>
+
+            <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--tiktok">
+
+              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dansklubbrockrullarna" data-unique-id="dansklubbrockrullarna" data-embed-type="creator">
+                <section>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@dansklubbrockrullarna?refer=creator_embed">@dansklubbrockrullarna</a>
+                </section>
+              </blockquote>
             </div>
           </article>
 
@@ -193,43 +225,22 @@
                   <?php } ?>
                 </div>
               <?php } else { ?>
-                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Se våra kanaler direkt:</p>
+                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Öppna innehållet direkt på Instagram:</p>
                 <div class="rr-social-link-panel-grid rr-social-link-panel-grid--instagram">
                   <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna" target="_blank" rel="noopener noreferrer">
                     <strong>Instagram-profilen</strong>
-                    <span>Öppna hela flödet med bilder, reels och uppdateringar.</span>
+                    <span>Öppna hela flödet med bilder och uppdateringar direkt på instagram.com.</span>
                   </a>
                   <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/reels" target="_blank" rel="noopener noreferrer">
                     <strong>Senaste reels</strong>
-                    <span>Snabba klipp från kurser, socialdans och event.</span>
+                    <span>Öppna videoklipp och reels direkt på Instagram.</span>
                   </a>
                   <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/tagged" target="_blank" rel="noopener noreferrer">
                     <strong>Taggade inlägg</strong>
-                    <span>Foton och inlägg där Rockrullarna har blivit taggade.</span>
+                    <span>Öppna foton och inlägg där Rockrullarna är taggade direkt på Instagram.</span>
                   </a>
                 </div>
               <?php } ?>
-            </div>
-          </article>
-
-          <article class="rr-contact-method-card rr-social-platform-card">
-            <div class="rr-social-platform-header">
-              <span class="rr-social-platform-icon" aria-hidden="true">
-                <svg width="28" height="28" fill="currentColor" class="bi bi-tiktok"><use href="#tiktok"></use></svg>
-              </span>
-              <div>
-                <p class="rr-style-label" aria-hidden="true">TikTok</p>
-                <h3>Klipp från dansgolvet</h3>
-              </div>
-            </div>
-            <p>Se korta klipp från träningar, socialdans och andra nedslag från verksamheten.</p>
-            <a class="rr-btn-inline" href="https://www.tiktok.com/@dansklubbrockrullarna" title="Öppna Rockrullarna på TikTok" target="_blank" rel="noopener noreferrer">tiktok.com/@dansklubbrockrullarna</a>
-            <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--tiktok">
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dansklubbrockrullarna" data-unique-id="dansklubbrockrullarna" data-embed-type="creator">
-                <section>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@dansklubbrockrullarna?refer=creator_embed">@dansklubbrockrullarna</a>
-                </section>
-              </blockquote>
             </div>
           </article>
         </div>
