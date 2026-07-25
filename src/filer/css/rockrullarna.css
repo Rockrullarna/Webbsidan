@@ -4131,12 +4131,50 @@ header {
     line-height: 1.12;
   }
 
+  .rr-social-page .rr-association-card--section {
+    padding: 1rem 0.8rem;
+  }
+
+  .rr-social-page .rr-contact-method-grid {
+    gap: 0.85rem;
+  }
+
+  .rr-social-page .rr-contact-method-card {
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
   .rr-social-embed-shell {
     min-height: 0;
   }
 
   .rr-social-embed-shell iframe {
     min-height: 22rem;
+  }
+
+  .rr-social-page .rr-courses-embed-shell,
+  .rr-social-page .rr-social-embed-shell {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .rr-social-page .rr-social-embed-shell--facebook {
+    background-color: transparent !important;
+    border: 0 !important;
+    border-radius: 0;
+    padding: 0 !important;
+  }
+
+  .rr-social-page .rr-social-link-panel-grid {
+    gap: 0.7rem;
+  }
+
+  .rr-social-page .rr-social-link-card,
+  .rr-social-page .rr-social-link-card:visited {
+    padding: 0.85rem;
+    border-radius: 12px;
   }
 
   .rr-social-link-panel {
