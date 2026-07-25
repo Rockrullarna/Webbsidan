@@ -2,7 +2,7 @@
   $header_title = "Bugg - Kursöversikt - Danskurser";
   $header_description = "Bugg är en vanlig svensk pardans som dansas till musik i fyrafjärdedelstakt i vanligtvis snabbt tempo, 120-180 BPM. Dansen är helt improviserad där föraren har till uppgift att föra följaren i olika snurrar, turer och kombinationer";
 
-  $page_updated = "2026-05-15 10:40";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/danskurser/kursoversikt/bugg";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -83,6 +83,19 @@
             <h3>Från grundsteg till fler variationer</h3>
             <p>När grunderna sitter kan du bygga vidare med variationer, musikalitet och bättre kontroll i både snabba och lugnare partier.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="bugg-trainers-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Tränarteamet</p>
+            <h2 id="bugg-trainers-heading">Möt våra <em>buggtränare</em></h2>
+          </div>
+        </div>
+        <div class="rr-association-note">
+          <p>Vill du se vilka som tränar, assisterar och hjälper till inom bugg? På tränarsidan hittar du alla personer med bilder och roller.</p>
+          <p><a class="rr-btn-inline" href="/foreningen/organisation/tranare#bugg" title="Se tränare inom bugg">Gå till buggens tränare</a></p>
         </div>
       </section>
 

@@ -2,7 +2,7 @@
   $header_title = "Organisation - Föreningen";
   $header_description = "Vår ideella förenings organisationsträd";
 
-  $page_updated = "2026-04-04 22:10";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/foreningen/organisation";
   $page_contact_name = "Styrelsen";
   $page_contact_email = "styrelsen@rockrullarna.se";
@@ -76,6 +76,12 @@
             <span class="rr-courses-link-kicker">Granskning</span>
             <h3>Revisorer</h3>
             <p>Se vilka som granskar föreningens ekonomi och förvaltning samt hur revisionen fungerar.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="./tranare" title="Se klubbens tränare">
+            <span class="rr-courses-link-kicker">Klubbens</span>
+            <h3>Tränare och Assistenter</h3>
+            <p>Möt klubbens tränare, tränarassistenter och hjälpdansare inom våra olika dansstilar.</p>
             <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
           </a>
         </div>

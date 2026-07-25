@@ -2,7 +2,7 @@
   $header_title = "Fox - Kursöversikt - Danskurser";
   $header_description = "Svensk fox, är en modern utveckling av den traditionella dansen Foxtrot. Det är en pardans med fokus på samspel i paret";
 
-  $page_updated = "2026-05-15 15:20";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/danskurser/kursoversikt/fox";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -83,6 +83,19 @@
             <h3>Från grund till personlig stil</h3>
             <p>När grundmönster och timing sitter öppnas mycket utrymme för mer variation, bättre kontakt och personlig tolkning.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="fox-trainers-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Tränarteamet</p>
+            <h2 id="fox-trainers-heading">Möt våra <em>foxtränare</em></h2>
+          </div>
+        </div>
+        <div class="rr-association-note">
+          <p>På tränarsidan ser du vilka som håller i fox som tränare, assistenter och hjälpdansare, inklusive bilder och rollfördelning.</p>
+          <p><a class="rr-btn-inline" href="/foreningen/organisation/tranare#fox" title="Se tränare inom fox">Gå till foxens tränare</a></p>
         </div>
       </section>
 

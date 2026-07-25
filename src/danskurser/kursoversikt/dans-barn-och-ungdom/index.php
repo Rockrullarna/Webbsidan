@@ -2,7 +2,7 @@
   $header_title = "Barn och ungdom - Kursöversikt - Danskurser";
   $header_description = "Information om vår barn och ungdomsverksamhet";
 
-  $page_updated = "2026-05-15 15:02";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/danskurser/kursoversikt/dans-barn-och-ungdom";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
@@ -99,6 +99,19 @@
             <h3>En bra grund för framtiden</h3>
             <p>Kurserna hjälper unga dansare att bygga koordination, musikalitet och trygghet som de har nytta av även i andra stilar.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="youth-trainers-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Tränarteamet</p>
+            <h2 id="youth-trainers-heading">Möt ledare inom <em>barndans</em></h2>
+          </div>
+        </div>
+        <div class="rr-association-note">
+          <p>På vår tränarsida kan du se vilka som leder barndansen i klubben, med bilder och roller för varje person.</p>
+          <p><a class="rr-btn-inline" href="/foreningen/organisation/tranare#barndans" title="Se tränare inom barndans">Gå till barndansens tränare</a></p>
         </div>
       </section>
 

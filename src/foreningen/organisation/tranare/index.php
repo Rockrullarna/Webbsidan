@@ -2,7 +2,7 @@
   $header_title = "Tränare - Organisation - Föreningen";
   $header_description = "Klubbens tränare, assistenter och hjälpdansare inom Barndans, Bugg, Fox och West Coast Swing";
 
-  $page_updated = "2026-07-24 14:10";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/foreningen/organisation/tranare";
   $page_contact_name = "Tränare";
   $page_contact_email = "info@rockrullarna.se";
@@ -17,7 +17,7 @@
     'Barndans' => '/danskurser/kursoversikt/dans-barn-och-ungdom',
     'Bugg' => '/danskurser/kursoversikt/bugg',
     'Fox' => '/danskurser/kursoversikt/fox',
-    'West Coast Swing' => '/danskurser/kursoversikt/wcs',
+    'West Coast Swing' => '/danskurser/kursoversikt/west-coast-swing',
   ];
   $trainer_section_ids = [
     'Barndans' => 'barndans',
@@ -293,7 +293,7 @@
         <div class="rr-association-card rr-association-card--hero">
           <p class="rr-style-label rr-trainer-overline" aria-hidden="true">Klubbens</p>
           <h1 id="tranare-heading">Tränare</h1>
-          <p class="rr-association-lead">Här hittar du tränare, assistenter och hjälpdansare i Dansklubben Rockrullarna, uppdelat efter våra dansstilar Barndans, Bugg, Fox och West Coast Swing.</p>
+          <p class="rr-association-lead">Här hittar du våra tränare och assistenter inom Dansklubben Rockrullarna, uppdelat efter våra dansstilar Barndans, Bugg, Fox och West Coast Swing.</p>
           <p class="rr-association-lead">Flera av våra ledare bidrar i mer än en danssektion. Därför kan samma person visas med olika roller på flera ställen i sidan.</p>
 
           <nav class="rr-trainer-jump-nav" aria-label="Hoppa till danssektion">
