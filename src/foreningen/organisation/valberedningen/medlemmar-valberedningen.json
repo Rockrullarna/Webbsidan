@@ -1,14 +1,17 @@
 [
   {
     "name": "Martin Braf",
-    "image": ""
+    "image": "",
+    "thumbnailOffsetY": 50
   },
   {
     "name": "Anna Gahm ???",
-    "image": ""
+    "image": "",
+    "thumbnailOffsetY": 50
   },
   {
     "name": "Johan Haglert ???",
-    "image": ""
+    "image": "",
+    "thumbnailOffsetY": 50
   }
 ]

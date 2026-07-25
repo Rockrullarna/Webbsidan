@@ -2453,6 +2453,7 @@ header {
 
 .rr-board-photo {
   object-fit: cover;
+  object-position: var(--rr-thumb-focus-y, center 50%);
 }
 
 .rr-board-photo-placeholder {
@@ -2660,6 +2661,7 @@ header {
 
 .rr-trainer-photo {
   object-fit: cover;
+  object-position: var(--rr-thumb-focus-y, center 50%);
 }
 
 .rr-trainer-photo-placeholder {

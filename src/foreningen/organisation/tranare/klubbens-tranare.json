@@ -15,6 +15,7 @@
       "id": "jonas-arvidson",
       "name": "Jonas Arvidson",
       "image": "/filer/bilder/webb/tranare/jonas-arvidson.jpg",
+      "thumbnailOffsetY": 20,
       "assignments": [
         {
           "section": "Fox",
@@ -30,6 +31,7 @@
       "id": "andreas-milton",
       "name": "Andreas Milton",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -45,6 +47,7 @@
       "id": "jens-wiklund",
       "name": "Jens Wiklund",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -56,6 +59,7 @@
       "id": "linnea-sohlberg-modin",
       "name": "Linnea Sohlberg Modin",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -67,6 +71,7 @@
       "id": "anna-skanebo",
       "name": "Anna Skanebo",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -78,6 +83,7 @@
       "id": "elin-yngve",
       "name": "Elin Yngve",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -88,6 +94,7 @@
       "id": "jennie-modin",
       "name": "Jennie Modin",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -98,6 +105,7 @@
       "id": "linn-carlsson",
       "name": "Linn Carlsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -109,6 +117,7 @@
       "id": "nellie-modin",
       "name": "Nellie Modin",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -120,6 +129,7 @@
       "id": "nils-nuszkowski",
       "name": "Nils Nuszkowski",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -131,6 +141,7 @@
       "id": "stefan-ericsson",
       "name": "Stefan Ericsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -142,6 +153,7 @@
       "id": "thomas-modin",
       "name": "Thomas Modin",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -153,6 +165,7 @@
       "id": "daniel-hjalmarsson",
       "name": "Daniel Hjalmarsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
@@ -164,6 +177,7 @@
       "id": "asa-nystrom",
       "name": "Åsa Nyström",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -175,6 +189,7 @@
       "id": "lars-norman",
       "name": "Lars Norman",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -186,6 +201,7 @@
       "id": "camilla-wellsen",
       "name": "Camilla Wellsén",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -197,6 +213,7 @@
       "id": "milla-olsson",
       "name": "Milla Olsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -208,6 +225,7 @@
       "id": "asa-hakansson",
       "name": "Åsa Håkansson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -219,6 +237,7 @@
       "id": "andreas-johansson",
       "name": "Andreas Johansson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -230,6 +249,7 @@
       "id": "sara-sjostrom",
       "name": "Sara Sjöström",
       "image": "/filer/bilder/webb/tranare/sara-sjostrom.jpg",
+      "thumbnailOffsetY": 30,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -241,6 +261,7 @@
       "id": "elin-reuterwall",
       "name": "Elin Reuterwall",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -252,6 +273,7 @@
       "id": "hakan-viklund",
       "name": "Håkan Viklund",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -263,6 +285,7 @@
       "id": "lena-larsson",
       "name": "Lena Larsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -274,6 +297,7 @@
       "id": "helena-jansson",
       "name": "Helena Jansson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -285,6 +309,7 @@
       "id": "max-huss",
       "name": "Max Huss",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -296,6 +321,7 @@
       "id": "simon-sjodahl",
       "name": "Simon Sjödahl",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -311,6 +337,7 @@
       "id": "helena-luthman",
       "name": "Helena Luthman",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -322,6 +349,7 @@
       "id": "ulrika-aronsson",
       "name": "Ulrika Aronsson",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -333,6 +361,7 @@
       "id": "david-pilblad",
       "name": "David Pilblad",
       "image": "",
+      "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
@@ -342,3 +371,5 @@
     }
   ]
 }
+
+

@@ -9,6 +9,24 @@
   $boardMembersFile = __DIR__ . DIRECTORY_SEPARATOR . 'medlemmar-styrelsen.json';
   $board_members = [];
 
+  function clampThumbnailOffsetPercent($value): int {
+    if (!is_numeric($value)) {
+      return 50;
+    }
+
+    $number = (int) round((float) $value);
+
+    if ($number < 0) {
+      return 0;
+    }
+
+    if ($number > 100) {
+      return 100;
+    }
+
+    return $number;
+  }
+
   if (is_file($boardMembersFile)) {
     $membersContent = @file_get_contents($boardMembersFile);
 
@@ -34,6 +52,7 @@
             'term' => $term,
             'name' => $name,
             'image' => trim((string) ($member['image'] ?? '')),
+            'thumbnailOffsetY' => clampThumbnailOffsetPercent($member['thumbnailOffsetY'] ?? 50),
           ];
         }
       }
@@ -83,6 +102,7 @@
           <div class="rr-board-grid" aria-label="Ledamöter i kortformat">
             <?php foreach ($board_regular_members as $member) { ?>
               <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
+              <?php $thumbFocusY = clampThumbnailOffsetPercent($member['thumbnailOffsetY'] ?? 50); ?>
               <article class="rr-board-card">
                 <div class="rr-board-photo-shell">
                   <?php if ($memberImage !== '') { ?>
@@ -90,6 +110,7 @@
                       src="<?php echo htmlspecialchars($memberImage); ?>"
                       alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
                       class="rr-board-photo"
+                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
                       loading="lazy"
                     />
                   <?php } else { ?>
@@ -113,6 +134,7 @@
           <div class="rr-board-grid" aria-label="Suppleanter i kortformat">
             <?php foreach ($board_substitutes as $member) { ?>
               <?php $memberImage = trim((string) ($member['image'] ?? '')); ?>
+              <?php $thumbFocusY = clampThumbnailOffsetPercent($member['thumbnailOffsetY'] ?? 50); ?>
               <article class="rr-board-card">
                 <div class="rr-board-photo-shell">
                   <?php if ($memberImage !== '') { ?>
@@ -120,6 +142,7 @@
                       src="<?php echo htmlspecialchars($memberImage); ?>"
                       alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
                       class="rr-board-photo"
+                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
                       loading="lazy"
                     />
                   <?php } else { ?>

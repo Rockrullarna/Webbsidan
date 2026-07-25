@@ -115,6 +115,25 @@
 
     return strcmp((string) ($left['name'] ?? ''), (string) ($right['name'] ?? ''));
   }
+
+  function clampThumbnailOffsetPercent($value): int {
+    if (!is_numeric($value)) {
+      return 50;
+    }
+
+    $number = (int) round((float) $value);
+
+    if ($number < 0) {
+      return 0;
+    }
+
+    if ($number > 100) {
+      return 100;
+    }
+
+    return $number;
+  }
+
   $trainer_people = [];
 
   if (is_file($trainerCatalogFile)) {
@@ -161,6 +180,7 @@
             }
 
             $image = trim((string) ($person['image'] ?? ''));
+            $thumbnailOffsetY = clampThumbnailOffsetPercent($person['thumbnailOffsetY'] ?? 50);
             $personId = trim((string) ($person['id'] ?? ''));
 
             if ($personId === '') {
@@ -205,6 +225,7 @@
               'id' => $personId,
               'name' => $name,
               'image' => $image,
+              'thumbnailOffsetY' => $thumbnailOffsetY,
               'assignments' => $assignments,
               'sections' => array_keys($personSections),
             ];
@@ -236,6 +257,7 @@
         $section_members[$sectionName][$entryKey] = [
           'name' => $person['name'],
           'image' => $person['image'],
+          'thumbnailOffsetY' => (int) ($person['thumbnailOffsetY'] ?? 50),
           'roles' => [],
           'otherSections' => array_values(array_diff($person['sections'], [$sectionName])),
         ];
@@ -344,6 +366,7 @@
                 <div class="rr-trainer-grid" aria-label="<?php echo htmlspecialchars($sectionName); ?> - tränare och assistenter">
                   <?php foreach ($sectionCards as $card) { ?>
                     <?php $memberImage = trim((string) ($card['image'] ?? '')); ?>
+                    <?php $thumbFocusY = clampThumbnailOffsetPercent($card['thumbnailOffsetY'] ?? 50); ?>
                     <article class="rr-trainer-card">
                       <div class="rr-trainer-photo-shell">
                         <?php if ($memberImage !== '') { ?>
@@ -351,6 +374,7 @@
                             src="<?php echo htmlspecialchars($memberImage); ?>"
                             alt="Porträtt av <?php echo htmlspecialchars($card['name']); ?>"
                             class="rr-trainer-photo"
+                            style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
                             loading="lazy"
                           />
                         <?php } else { ?>
