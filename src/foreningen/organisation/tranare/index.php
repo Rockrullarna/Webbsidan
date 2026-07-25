@@ -20,10 +20,10 @@
     'West Coast Swing' => '/danskurser/kursoversikt/wcs',
   ];
   $trainer_section_ids = [
-    'Barndans' => 'tranare-barndans',
-    'Bugg' => 'tranare-bugg',
-    'Fox' => 'tranare-fox',
-    'West Coast Swing' => 'tranare-wcs',
+    'Barndans' => 'barndans',
+    'Bugg' => 'bugg',
+    'Fox' => 'fox',
+    'West Coast Swing' => 'wcs',
   ];
   $trainer_section_classes = [
     'Barndans' => 'rr-trainer-section--barndans',

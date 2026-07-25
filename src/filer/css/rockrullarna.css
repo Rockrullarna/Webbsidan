@@ -2562,6 +2562,7 @@ header {
 .rr-trainer-section {
   position: relative;
   margin-top: 0;
+  scroll-margin-top: calc(var(--rr-fixed-nav-offset) + 1.25rem);
   padding: 1.05rem 1.1rem 1.15rem;
   border: 1px solid var(--b-border);
   border-radius: 18px;
