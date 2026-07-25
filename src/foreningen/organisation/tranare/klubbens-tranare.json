@@ -30,7 +30,7 @@
     {
       "id": "andreas-milton",
       "name": "Andreas Milton",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/andreas-milton.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -40,6 +40,18 @@
         {
           "section": "West Coast Swing",
           "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "camila-estrada-nilsson",
+      "name": "Camila Estrada Nilsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
         }
       ]
     },
@@ -174,26 +186,14 @@
       ]
     },
     {
-      "id": "patrik-sjoberg",
-      "name": "Patrik Sjöberg",
+      "id": "emma-elfstrom",
+      "name": "Emma Elfström",
       "image": "",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Bugg",
-          "role": "Tränare"
-        }
-      ]
-    },
-    {
-      "id": "sara-karlsson",
-      "name": "Sara Karlsson",
-      "image": "",
-      "thumbnailOffsetY": 50,
-      "assignments": [
-        {
-          "section": "Bugg",
-          "role": "Tränare"
+          "role": "Assistent"
         }
       ]
     },
@@ -222,6 +222,18 @@
       ]
     },
     {
+      "id": "magnus-pettersson",
+      "name": "Magnus Pettersson",
+      "image": "/filer/bilder/webb/personer/magnus-pettersson.jpg",
+      "thumbnailOffsetY": 22,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
       "id": "emma-exinge",
       "name": "Emma Exinge",
       "image": "/filer/bilder/webb/personer/emma-exinge.jpg",
@@ -229,7 +241,7 @@
       "assignments": [
         {
           "section": "Bugg",
-          "role": "Tränare"
+          "role": "Assistent"
         },
         {
           "section": "West Coast Swing",
