@@ -4259,10 +4259,15 @@ header {
 
   .rr-style-section {
     scroll-margin-top: 5.5rem;
+    margin: 2.15rem 0 1.75rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
   }
 
   .rr-intro-band {
     padding: 2.45rem 0 2.3rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
   }
 
   .rr-intro-lead {
@@ -4329,6 +4334,27 @@ header {
   .rr-activity-section {
     margin: 2rem 0;
     border-radius: 14px;
+    padding: 1.25rem 0.85rem;
+    box-shadow: 0 14px 34px rgba(0,0,0,0.14);
+  }
+
+  .rr-activity-section > .row {
+    --bs-gutter-x: 0.9rem;
+  }
+
+  .rr-activity-panel {
+    padding: 1rem 0.85rem;
+    border-radius: 12px;
+  }
+
+  .rr-calendar-standalone .rr-calendar-card {
+    padding: 1rem 0.85rem;
+    border-radius: 12px;
+  }
+
+  .rr-kal-compact {
+    padding: 0 0.2rem 0.2rem;
+    border-radius: 0.9rem;
   }
 
   .rr-activity-actions,

@@ -314,7 +314,7 @@
               <footer>- <cite>Nellie, medlem sedan 2021.</cite></footer>
             </blockquote>
 
-            <div class="rr-feature-list" aria-label="Fördelar med Rockrullarna">
+            <div class="rr-feature-list my-2" aria-label="Fördelar med Rockrullarna">
               <div class="rr-feature-item">
                 <span class="rr-feature-marker" aria-hidden="true"></span>
                 <div>
