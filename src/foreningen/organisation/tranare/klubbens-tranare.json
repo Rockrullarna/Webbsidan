@@ -58,12 +58,24 @@
     {
       "id": "jens-wiklund",
       "name": "Jens Wiklund",
+      "image": "/filer/bilder/webb/personer/jens-wiklund.jpg",
+      "thumbnailOffsetY": 5,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+        {
+      "id": "elin-ostlund",
+      "name": "Elin Östlund",
       "image": "",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
           "section": "Fox",
-          "role": "Tränare"
+          "role": "Assistent"
         }
       ]
     },
