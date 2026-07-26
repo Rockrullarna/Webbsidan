@@ -1,8 +1,7 @@
 {
   "meta": {
-    "senastUppdaterad": "2026-07-24",
-    "ansvarig": "DKRR - Tränarteamet",
-    "notes": "Lista över tränare, assistenter och hjälpdansare. En person kan ha flera roller i flera sektioner.",
+    "senastUppdaterad": "2026-07-26",
+    "notes": "Lista över huvudtränare, tränare, assistenter och hjälpdansare. En person kan ha flera roller i flera sektioner. Editera gärna nedan.",
     "sektioner": [
       "Barndans",
       "Bugg",
@@ -31,7 +30,7 @@
       "id": "andreas-milton",
       "name": "Andreas Milton",
       "image": "/filer/bilder/webb/personer/andreas-milton.jpg",
-      "thumbnailOffsetY": 50,
+      "thumbnailOffsetY": 30,
       "assignments": [
         {
           "section": "Bugg",
@@ -63,7 +62,11 @@
       "assignments": [
         {
           "section": "Fox",
-          "role": "Tränare"
+          "role": "Huvudtränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
         }
       ]
     },
@@ -181,7 +184,7 @@
       "assignments": [
         {
           "section": "Bugg",
-          "role": "Tränare"
+          "role": "Huvudtränare"
         }
       ]
     },
@@ -353,7 +356,7 @@
       "assignments": [
         {
           "section": "West Coast Swing",
-          "role": "Tränare"
+          "role": "Huvudtränare"
         }
       ]
     },

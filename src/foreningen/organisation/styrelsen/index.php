@@ -110,7 +110,7 @@
                       src="<?php echo htmlspecialchars($memberImage); ?>"
                       alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
                       class="rr-board-photo"
-                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
+                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"
                       loading="lazy"
                     />
                   <?php } else { ?>
@@ -142,7 +142,7 @@
                       src="<?php echo htmlspecialchars($memberImage); ?>"
                       alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
                       class="rr-board-photo"
-                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
+                      style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"
                       loading="lazy"
                     />
                   <?php } else { ?>

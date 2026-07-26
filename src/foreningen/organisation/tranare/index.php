@@ -2,7 +2,7 @@
   $header_title = "Tränare - Organisation - Föreningen";
   $header_description = "Klubbens tränare, assistenter och hjälpdansare inom Barndans, Bugg, Fox och West Coast Swing";
 
-  $page_updated = "2026-07-25 20:10";
+  $page_updated = "2026-07-26 18:10";
   $page_url = "/foreningen/organisation/tranare";
   $page_contact_name = "Tränare";
   $page_contact_email = "info@rockrullarna.se";
@@ -47,9 +47,10 @@
 
   function getTrainerRolePriority(array $roles): int {
     $priorityByRole = [
-      'tranare' => 1,
-      'assistent' => 2,
-      'hjalpdansare' => 3,
+      'huvudtranare' => 1,
+      'tranare' => 2,
+      'assistent' => 3,
+      'hjalpdansare' => 4,
     ];
     $bestPriority = 99;
 
@@ -341,12 +342,9 @@
       <section class="rr-association-card rr-association-card--section" aria-labelledby="tranare-sektioner-heading">
         <p class="rr-style-label" aria-hidden="true">Danssektioner</p>
         <h2 id="tranare-sektioner-heading">Klubbens tränare per dansstil</h2>
-
-        <?php if ($trainer_meta['notes'] !== '') { ?>
-          <div class="rr-association-note">
-            <p><?php echo htmlspecialchars($trainer_meta['notes']); ?></p>
-          </div>
-        <?php } ?>
+        <div class="mb-5">
+          <p>Lista över huvudtränare, tränare och assistenter inom Dansklubben Rockrullarna (DKRR). En person kan ha flera roller i flera sektioner.</p>
+        </div>
 
         <div class="rr-trainer-sections">
           <?php foreach ($trainer_sections as $sectionName) { ?>
@@ -374,7 +372,7 @@
                             src="<?php echo htmlspecialchars($memberImage); ?>"
                             alt="Porträtt av <?php echo htmlspecialchars($card['name']); ?>"
                             class="rr-trainer-photo"
-                            style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%;"
+                            style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"
                             loading="lazy"
                           />
                         <?php } else { ?>
