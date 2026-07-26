@@ -237,6 +237,58 @@
       ]
     },
     {
+      "id": "annika-kindborg",
+      "name": "Annika Kindborg",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "sofie-asker",
+      "name": "Sofie Asker",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "david-saflund",
+      "name": "David Säflund",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        },
+        {
+          "section": "Fox",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "sofia-ohlsen",
+      "name": "Sofia Ohlsen",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
       "id": "magnus-pettersson",
       "name": "Magnus Pettersson",
       "image": "/filer/bilder/webb/personer/magnus-pettersson.jpg",
