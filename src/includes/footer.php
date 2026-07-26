@@ -55,7 +55,11 @@
           &nbsp;|&nbsp;
           <a href="/integritetspolicy">Integritetspolicy</a>
           &nbsp;|&nbsp;
+          <a href="/webbkarta">Webbkarta</a>
+          &nbsp;|&nbsp;
           <a href="/kontakt">Kontakt</a>
+          &nbsp;|&nbsp;
+          <a href="/kontakt/hjalp">Hjälp</a>
           &nbsp;|&nbsp;
           <a href="/kontakt/fragor-och-svar">Frågor och svar</a>
           &nbsp;|&nbsp;

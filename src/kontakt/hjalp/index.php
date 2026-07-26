@@ -2,7 +2,7 @@
   $header_title = "Hjälp - Kontakt";
   $header_description = "Här finner du hjälp hur du kommer i kontakt med oss";
 
-  $page_updated = "2026-04-04 23:15";
+  $page_updated = "2026-07-26 22:15";
   $page_url = "/kontakt/hjalp";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
@@ -32,7 +32,7 @@
           <p class="rr-style-label" aria-hidden="true">Snabbhjälp</p>
           <h2 id="kontakt-hjalp-snabb-heading">Tre enkla steg</h2>
           <ul class="rr-association-list">
-            <li><strong>1. Läs FAQ</strong><br />Se om frågan redan är besvarad.</li>
+            <li><strong>1. Läs "Frågor och svar"</strong><br />Se om frågan redan är besvarad.</li>
             <li><strong>2. Mejla oss</strong><br />Skriv till rätt funktion om du behöver mer hjälp.</li>
             <li><strong>3. Besök lokalen</strong><br />Kontrollera kalendern innan du kommer förbi.</li>
           </ul>
@@ -46,11 +46,11 @@
           <article class="rr-contact-method-card">
             <h3>Vanliga frågor och svar</h3>
             <p>Vi har samlat svar på återkommande frågor om dans.se, friskvård med ePassi, Teams-möten och Zoom-möten.</p>
-            <a class="rr-btn-inline" href="../fragor-och-svar" title="Gå till vanliga frågor och svar">Gå till FAQ</a>
+            <a class="rr-btn-inline" href="../fragor-och-svar" title="Gå till vanliga frågor och svar">Gå till "Frågor och svar"</a>
           </article>
           <article class="rr-contact-method-card">
             <h3>Kontakta oss via e-post</h3>
-            <p>Om du inte hittar svaret i FAQ kan du alltid mejla oss på <a href="mailto:info@rockrullarna.se" title="Maila info@rockrullarna.se">info@rockrullarna.se</a>.</p>
+            <p>Om du inte hittar svaret i FAQ kan du alltid mejla oss på:<br/> <a href="mailto:info@rockrullarna.se" title="Maila info@rockrullarna.se">info@rockrullarna.se</a></p>
             <a class="rr-btn-inline" href="../skicka-arende-eller-fraga" title="Gå till Skicka ärende eller fråga">Se alla kontaktvägar</a>
           </article>
           <article class="rr-contact-method-card">
