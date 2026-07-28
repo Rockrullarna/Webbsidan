@@ -66,7 +66,7 @@
         },
         {
           "section": "West Coast Swing",
-          "role": "Assistent"
+          "role": "Tränare"
         }
       ]
     },
@@ -203,7 +203,7 @@
     {
       "id": "emma-elfstrom",
       "name": "Emma Elfström",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/emma-elfstrom.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -239,6 +239,18 @@
     {
       "id": "annika-kindborg",
       "name": "Annika Kindborg",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "cecilia-palmkvist",
+      "name": "Cecilia Palmkvist",
       "image": "",
       "thumbnailOffsetY": 50,
       "assignments": [
