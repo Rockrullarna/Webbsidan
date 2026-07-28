@@ -73,8 +73,8 @@
         {
       "id": "elin-ostlund",
       "name": "Elin Östlund",
-      "image": "",
-      "thumbnailOffsetY": 50,
+      "image": "/filer/bilder/webb/personer/elin-ostlund.jpg",
+      "thumbnailOffsetY": 40,
       "assignments": [
         {
           "section": "Fox",
@@ -204,7 +204,7 @@
       "id": "emma-elfstrom",
       "name": "Emma Elfström",
       "image": "/filer/bilder/webb/personer/emma-elfstrom.jpg",
-      "thumbnailOffsetY": 50,
+      "thumbnailOffsetY": 15,
       "assignments": [
         {
           "section": "Bugg",
@@ -251,8 +251,8 @@
     {
       "id": "cecilia-palmkvist",
       "name": "Cecilia Palmkvist",
-      "image": "",
-      "thumbnailOffsetY": 50,
+      "image": "/filer/bilder/webb/personer/cecilia-palmkvist.jpg",
+      "thumbnailOffsetY": 10,
       "assignments": [
         {
           "section": "Bugg",
