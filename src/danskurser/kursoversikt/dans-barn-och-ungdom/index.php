@@ -182,7 +182,7 @@
         </div>
 
         <div class="rr-courses-embed-card">
-          <div class="rr-courses-embed-shell">
+          <div id="kursutbud-lista" class="rr-courses-embed-shell">
             <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_children;reset" title="Hämtar data om barn- och ungdomskurser ifrån dans.se">
               Hämtar data om barndans-kurser hos Rockrullarna ifrån dans.se... <br />
               (testa uppdatera sidan om detta meddelande inte försvinner)

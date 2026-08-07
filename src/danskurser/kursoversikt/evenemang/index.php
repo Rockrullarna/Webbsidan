@@ -20,7 +20,7 @@
       Evenemang utanför ordinarie verksamhet styrs bland annat av efterfrågan. Styrelsen välkomnar önskemål från föreningens medlemmar.
     </p>
     <h2>Här nedan visas våra helg och intensivkurser:</h2>
-    <p>
+    <p id="kursutbud-lista">
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?eventGroup1=helg;sorting=startDate+asc;lang=sv;showPrice=1;reset">
         Hämtar data om foxkurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)

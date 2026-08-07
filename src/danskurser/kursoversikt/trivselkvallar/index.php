@@ -60,7 +60,7 @@
     </p>
     <h2>Planderade trivselkvällar och socialdanser</h2>
     <p>Här visas vilka trivselkvällar och socialdanser vi har planerade: </p>
-    <p>
+    <p id="kursutbud-lista">
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?eventGroup1=trivsel;lang=sv;showPrice=1;sorting=startDate+asc;reset">
         Hämtar data om foxkurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)

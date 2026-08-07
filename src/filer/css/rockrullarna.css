@@ -343,6 +343,22 @@ a:hover {
 [data-bs-theme=dark] .cwShopFilterOption .js-cwOpenForAgeClear {
   color: #4b5563 !important;
 }
+
+/* dans.se vendor dark rule fallback: keep imported registration links readable */
+@media (prefers-color-scheme: dark) {
+  #kursutbud-lista a.regLink,
+  #kursutbud-lista a.regLink:visited {
+    color: #e6edf3 !important;
+  }
+
+  #kursutbud-lista .cwEvents tr:hover a.regLink,
+  #kursutbud-lista .cwEvents tr:hover a.regLink:visited,
+  #kursutbud-lista a.regLink:hover,
+  #kursutbud-lista a.regLink:focus,
+  #kursutbud-lista a.regLink:focus-visible {
+    color: #0f172a !important;
+  }
+}
 /* #endregion Dark Theme Fixes */
 
 /* dans.se cwShop filters: keep age input wide enough in all themes */

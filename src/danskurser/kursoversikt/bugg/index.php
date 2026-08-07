@@ -153,7 +153,7 @@
         </div>
 
         <div class="rr-courses-embed-card">
-          <div class="rr-courses-embed-shell">
+          <div id="kursutbud-lista" class="rr-courses-embed-shell">
             <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=bugg;reset" title="Hämtar data om bugg-kurser ifrån dans.se">Hämtar data om buggkurser ifrån dans.se... <br />(testa uppdatera sidan om detta meddelande inte försvinner)</a>
             <script src="https://dans.se/api/init.js" type="text/javascript"></script>
           </div>
