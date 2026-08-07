@@ -8,3 +8,4 @@ services:
     command: php -S 0.0.0.0:8080 -t /var/www/html
     environment:
       - PHP_CLI_SERVER_WORKERS=4
+      - RR_INSTAGRAM_ACCESS_TOKEN=${RR_INSTAGRAM_ACCESS_TOKEN:-}

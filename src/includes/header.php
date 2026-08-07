@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/filer/bilder/Rockrullarna-favicon.png?w=32" rel="shortcut icon" type="image/x-icon">
   <!-- Bootstrap Theme switcher --><script src="/filer/js/bootstrap-theme-switcher.js"></script>
-  <!-- Bootstrap 5 CDN Links --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap 5 CDN Links --><link href="/filer/bootstrap-v5.3.8-dist/bootstrap.min.css" rel="stylesheet">
+  <!-- Bildfokuserad – Google Fonts --><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/filer/css/rockrullarna.css" />
   <title><?php if (empty($header_title)) {
     echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
@@ -63,31 +64,21 @@
     echo "$page_updated";
   }?>" />
 
-  <!-- START Clarity tracking code for https://www.rockrullarna.se -->
-  <script>
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "pym2mc24dl");
-  </script>
-  <!-- END Clarity tracking code -->
-
   <?php
     function redirectToLowercase() {
         $request_uri = $_SERVER['REQUEST_URI'];
-        
+
         // Split the URI into path and query string
         $parts = parse_url($request_uri);
-        
+
         // Handle malformed URLs gracefully
         if ($parts === false) {
             return;
         }
-        
+
         $path = isset($parts['path']) ? $parts['path'] : '';
         $query = isset($parts['query']) ? '?' . $parts['query'] : '';
-        
+
         // Only lowercase the path, preserve query string case
         $lowercase_path = strtolower($path);
         $lowercase_uri = $lowercase_path . $query;
@@ -146,8 +137,8 @@
       </symbol>
     </svg><!-- ENDING: Bootstrap Icons symbols -->
     <?php if (!isset($page_hidden_logo) || $page_hidden_logo == false || empty($page_hidden_logo)) {
-    echo '<div class="m-5 text-center">
-            <a href="/">
+    echo '<div class="rr-header-logo-wrap text-center">
+            <a href="/" class="rr-header-logo-link">
               <picture>
                 <source type="image/webp" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.webp" />
                 <source type="image/jpeg" srcset="/filer/bilder/Rockrullarna-lar-dig-dansa-hos-oss.jpg" />
@@ -158,14 +149,14 @@
     }?>
     <nav class="navbar fixed-top navbar-expand-lg p-0">
       <div class="container-fluid dkrr-navbar-bg">
-        <a class="navbar-brand dkrr-logo-link" href="/">
-          <img class="dkrr-logo" alt="Dansklubben Rockrullarna" src="/filer/bilder/rockrullarna-svg-logga.svg" />
-        </a>
+        <a class="navbar-brand dkrr-logo-link" href="/">Rockrullarna</a>
         <button class="navbar-toggler collapsed" title="Visa menyn" aria-label="Visa menyn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          <span class="navButton-Line" aria-hidden="true"></span>
-          Meny
+          <span class="navbar-toggler-icon-wrap" aria-hidden="true">
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+            <span class="navButton-Line"></span>
+          </span>
+          <span class="navbar-toggler-label">Meny</span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav navbar-nav-scroll mx-auto mb-2 mb-lg-0">
@@ -205,20 +196,20 @@
                 <li><a class="dropdown-item" href="/tavlingsdans/dans.se">Dans.se</a></li>
                 <li><a class="dropdown-item" href="/tavlingsdans/vote4dance">Vote 4 Dance</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://www.danssport.se/taevling/taevlingskalender" title="DSF Tävlingskalender (Öppnas i nytt fönster)" target="_blank" rel="noopener">DSF Tävlingskalender (danssport.se)</a></li>
+                <li><a class="dropdown-item" href="https://www.danssport.se/kalender/kalender" title="DSF Tävlingskalender (Öppnas i nytt fönster - Klicka på 'Tävlingskalender')" target="_blank" rel="noopener">DSF - danssport.se (Klicka på Tävlingskalender)</a></li>
               </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/aktivitetskalender">Aktivitetskalender</a></li>
             <li class="nav-item"><a class="nav-link" href="/boka-lilla-salen">Boka lilla salen</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Föreningen</a>
-              <ul class="dropdown-menu shadow">
+              <ul class="dropdown-menu shadow" id="menu-foreningen">
                 <li><a class="dropdown-item" href="/foreningen">Föreningen</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="/foreningen/historia">Historia</a></li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Styrande dokument</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-dokument" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-dokument" role="button" aria-expanded="false" aria-controls="submenu-foreningen-dokument">Styrande dokument</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-dokument" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/styrande-dokument">Våra styrande dokument</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/styrande-dokument/dkrr-001-verksamhetsbeskrivning">DKRR-001 Verksamhetsbeskrivning</a></li>
@@ -231,8 +222,8 @@
                   </ul>
                 </li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Möten och protokoll</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-moten" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-moten" role="button" aria-expanded="false" aria-controls="submenu-foreningen-moten">Möten och protokoll</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-moten" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/moten-och-protokoll">Möten och protokoll</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/moten-och-protokoll/arsmote">Årsmöte</a></li>
@@ -241,8 +232,8 @@
                   </ul>
                 </li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Organisation</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-foreningen-organisation" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-foreningen-organisation" role="button" aria-expanded="false" aria-controls="submenu-foreningen-organisation">Organisation</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-foreningen-organisation" data-bs-parent="#menu-foreningen">
                     <li><a class="dropdown-item" href="/foreningen/organisation">Vår organisation</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/strukturen">Strukturen</a></li>
@@ -251,6 +242,8 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/valberedningen">Valberedningen</a></li>
                     <li><a class="dropdown-item" href="/foreningen/organisation/revisorer">Revisorer</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/foreningen/organisation/tranare">Tränare i klubben</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="/foreningen/medlemsrabatter">Medlemsrabatter</a></li>
@@ -264,20 +257,20 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Kontakta</a>
-              <ul class="dropdown-menu shadow">
+              <ul class="dropdown-menu shadow" id="menu-kontakta">
                 <li><a class="dropdown-item" href="/kontakt">Kontaktinformation</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.google.se/maps/place/Rockrullarna+i+%C3%96rebro/@59.2747154,15.1734813,14.12z/data=!4m5!3m4!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754033!4d15.1647323" title="Hitta till oss (Google maps - Öppnas i nytt fönster)" target="_blank" rel="noopener">Hitta till oss (Google maps)</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="dropstart">
-                  <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Frågor och Svar</a>
-                  <ul class="dropdown-menu shadow">
+                  <a href="#submenu-kontakta-faq" class="dropdown-item dropdown-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#submenu-kontakta-faq" role="button" aria-expanded="false" aria-controls="submenu-kontakta-faq">Frågor och Svar</a>
+                  <ul class="dropdown-menu shadow collapse rr-submenu-collapse" id="submenu-kontakta-faq" data-bs-parent="#menu-kontakta">
                     <li><a class="dropdown-item" href="/kontakt/fragor-och-svar">Frågor och Svar</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/dans.se">Dans.se</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/friskvard-epassi">Friskvård ePassi</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/teams-mote">Teams-möten</a></li>
-                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/zoom-mote">Zoom-möte</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#dans-se">Dans.se</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#friskvardsbetalning">Friskvårdsbetalning</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#teams-mote">Teams-möten</a></li>
+                    <li><a class="dropdown-item" href="/kontakt/fragor-och-svar/#zoom-mote">Zoom-möte</a></li>
                   </ul>
                 </li>
                 <li><a class="dropdown-item" href="/kontakt/skicka-arende-eller-fraga">Skicka ärende/fråga</a></li>
@@ -286,21 +279,26 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex ms-auto">
-            <div class="input-group">
-              <input id="searchValue" class="form-control border-0 mr-2" type="search" placeholder="Sök på sidan" aria-label="Sök på sidan">
-              <button class="btn btn-primary border-0" type="submit" onclick="searchFunc()">Sök</button>
-            </div>
-          </form>
-          <script>
-            function searchFunc() {
-              var searchQuery = document.getElementById("searchValue").value;
-              var searchUrl = "https://www.bing.com/search?q=site:rockrullarna.se+" + encodeURIComponent(searchQuery);
-              window.open(searchUrl, '_blank').focus();
-            }
-          </script>
         </div>
       </div>
     </nav>
+    <script>
+      (function () {
+        var nav = document.querySelector('.dkrr-navbar-bg');
+        if (!nav) return;
+        var ticking = false;
+        function updateNav() {
+          nav.classList.toggle('scrolled', window.scrollY > 40);
+          ticking = false;
+        }
+        window.addEventListener('scroll', function () {
+          if (!ticking) {
+            requestAnimationFrame(updateNav);
+            ticking = true;
+          }
+        }, { passive: true });
+        updateNav();
+      })();
+    </script>
   </header>
   <main id="ContentStart" class="container-md">

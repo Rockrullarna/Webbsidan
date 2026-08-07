@@ -14,19 +14,19 @@
     </div>
     <h1>Avanmälan</h1>
     <p>
-      På denna sida kan du avboka dig från en kurs du tidigare har anmält dig till.
-    </p>
-    <p>
-      Efter att du avanmält dig kan det ta några dagar upp till en vecka innan du blivit borttagen. Det system för kursbokningar vi använder skickar annars automatiskt ut ett antal påminnelser om utebliven betalning.
-    </p>
-    <p>
-      Observera att anmälan till föreningens aktiviteter är bindande inom 14 dagar före start (gäller ej nybörjarkurs med ”prova på”). <br />
-      Vid sjukdom kan återbetalning endast genomföras vid uppvisande av läkarintyg.
-    </p>
-    <p>
       Skicka oss ett mail via: <a href="kurser@rockrullarna.se">kurser@rockrullarna.se</a> för att avanmäla dig från danskursen.<br />
-      Uppge gärna ditt referensnummer för anmälan (ex. R1234567).
-    </p> 
+      Uppge gärna ditt referensnummer för anmälan (<b>t.ex. R1234567</b>).
+    </p>
+    <p>
+      Efter att du skickat in din avanmälan, kan det ta några dagar upp till en vecka innan vi hunnit hantera och avboka din anmälan, då vi alla jobbar ideellt inom föreningen.
+    </p>
+    <p>
+      Har du missat att avanmäla dig från en danskurs, så skickar det system för kursbokningar vi använder annars automatiskt ut ett antal påminnelser om utebliven betalning.
+    </p>
+    <p>
+      Observera att anmälan till föreningens aktiviteter är bindande inom 14 dagar före start (gäller ej nybörjarkurserna).<br />
+      Vid sjukdom kan återbetalning genomföras mot uppvisande av läkarintyg.
+    </p>
     <!--
     <table id="id_matrix">
       <tbody>

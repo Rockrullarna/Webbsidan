@@ -1,0 +1,79 @@
+[
+  {
+    "role": "Ordförande",
+    "term": "2 år",
+    "name": "Petra Johansson",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Vice ordförande",
+    "term": "2 år",
+    "name": "Daniel Hjalmarsson",
+    "image": "/filer/bilder/webb/personer/daniel-hjalmarsson.jpg",
+    "thumbnailOffsetY": 40
+  },
+  {
+    "role": "Kassör",
+    "term": "2 år",
+    "name": "Annica Kindborg",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Sekreterare",
+    "term": "2 år",
+    "name": "Linnea Sohlberg Modin",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Ledamot",
+    "term": "1 år",
+    "name": "Mathias Grundblad",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Ledamot",
+    "term": "1 år",
+    "name": "Emil Schyman",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Ledamot",
+    "term": "1 år",
+    "name": "Elin Sörman",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Suppleant",
+    "term": "1 år",
+    "name": "Anette Asplund",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Suppleant",
+    "term": "1 år",
+    "name": "Emma Söderström Arnell",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Suppleant",
+    "term": "1 år",
+    "name": "Henrik Larsson",
+    "image": "",
+    "thumbnailOffsetY": 50
+  },
+  {
+    "role": "Suppleant",
+    "term": "1 år",
+    "name": "Johan Gullberg",
+    "image": "",
+    "thumbnailOffsetY": 50
+  }
+]

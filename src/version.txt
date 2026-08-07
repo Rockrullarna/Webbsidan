@@ -1,4 +1,4 @@
-v13.20250330.1837
+v14.20260402.2202
 
 # Denna fil innehåller enbart versionsnummer efter uppdatering från GItHub release-pipeline. 
 
@@ -6,6 +6,6 @@ v13.20250330.1837
 # https://rockrullarna.se/version.txt
 
 # Så visas versionummer: 
-# v13.20250330.1837
+# v14.20260402.2202
 
-# Efter en release den 30 mars 2025, kl 18:37.
+# Efter en release den 02 april 2026, kl 22:02.

@@ -1,4 +1,4 @@
 <?php
-  header('Location: ../foreningen/styrande-dokument/integritetspolicy');
+  header('Location: ../foreningen/styrande-dokument/dkrr-006-integritetspolicy');
   exit;
 ?>

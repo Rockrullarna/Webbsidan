@@ -2,189 +2,408 @@
   $header_title = "Frågor och svar (FAQ)";
   $header_description = "Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ)";
 
-  $page_updated = "2025-01-23 23:26";
+  $page_updated = "2026-04-04 23:45";
   $page_url = "/kontakt/fragor-och-svar";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
 
   include_once '../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../">Rockrullarna.se</a> / <a href="../">Kontakt</a> / <span>Frågor och svar</span>
-    </div>
-    <h1>Vanliga frågor och svar (FAQ)</h1>
-    <p>
-      Här finner du svar på vanliga frågor som ställs till oss (engelska: Frequently Asked Questions - FAQ).
-    </p>
+    <div class="rr-page-shell rr-association-page rr-contact-page rr-contact-faq">
+      <div id="BreadCrumbsDiv">
+        <a href="../../">Rockrullarna.se</a> / <a href="../">Kontakt</a> / <span>Frågor och svar</span>
+      </div>
 
-    <h2 id="dans-se" class="FAQCategoryHeading">
+      <section class="rr-association-layout" aria-labelledby="faq-heading">
+        <div class="rr-association-card rr-association-card--hero">
+          <p class="rr-style-label" aria-hidden="true">Självhjälp och guider</p>
+          <h1 id="faq-heading">Vanliga frågor och <em>svar</em></h1>
+          <p class="rr-association-lead">
+            Här har vi samlat svar på frågor som ofta kommer in till föreningen. Du hittar guider
+            för dans.se, friskvårdsbetalning med ePassi och hur du ansluter till digitala möten.
+          </p>
+          <p class="rr-association-lead">
+            Om du inte hittar det du söker här kan du alltid gå vidare till vår hjälpsida eller
+            mejla oss så hjälper vi dig vidare.
+          </p>
+        </div>
+
+        <aside class="rr-association-card rr-association-card--aside" aria-labelledby="faq-snabblankar-heading">
+          <p class="rr-style-label" aria-hidden="true">Hoppa direkt</p>
+          <h2 id="faq-snabblankar-heading">Vanliga ämnen</h2>
+          <ul class="rr-association-list">
+            <li><strong>Dans.se</strong><br /><a href="#dans-se" title="Gå till avsnittet Dans.se">Inloggning, kontouppgifter och betalning</a></li>
+            <li><strong>Friskvård</strong><br /><a href="#friskvardsbetalning" title="Gå till avsnittet Friskvårdsbetalning">Betala med friskvård</a></li>
+            <li><strong>Digitala möten</strong><br /><a href="#teams-mote" title="Gå till avsnittet Teams-möte">Teams</a> och <a href="#zoom-mote" title="Gå till avsnittet Zoom-möte">Zoom</a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="faq-genvagar-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Genvägar</p>
+            <h2 id="faq-genvagar-heading">Hitta rätt <em>hjälp</em></h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-links-grid">
+          <a class="rr-courses-link-card" href="#dans-se" title="Gå till frågor om dans.se">
+            <span class="rr-courses-link-kicker">System och bokningar</span>
+            <h3>Dans.se</h3>
+            <p>Hjälp med inloggning, personuppgifter och betalning av socialdanskvällar.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#friskvardsbetalning" title="Gå till frågor om friskvårdsbetalning">
+            <span class="rr-courses-link-kicker">Friskvårdsbidrag</span>
+            <h3>Friskvårdsbetalning</h3>
+            <p>Steg för steg-guide till hur du loggar in och betalar med friskvårdsappar.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#teams-mote" title="Gå till frågor om Teams">
+            <span class="rr-courses-link-kicker">Digitala möten</span>
+            <h3>Teams</h3>
+            <p>Så ansluter du till mötet och vad som är bra att tänka på under mötets gång.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="#zoom-mote" title="Gå till frågor om Zoom">
+            <span class="rr-courses-link-kicker">Digitala möten</span>
+            <h3>Zoom</h3>
+            <p>Guider för mobil, dator och webbläsare när du ska delta i ett Zoom-möte.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="../hjalp" title="Gå till hjälpsidan">
+            <span class="rr-courses-link-kicker">Behöver du mer stöd?</span>
+            <h3>Hjälp</h3>
+            <p>Överblick över hur du snabbast får rätt hjälp beroende på vad ditt ärende gäller.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="rr-courses-link-card" href="../skicka-arende-eller-fraga" title="Gå till sidan Skicka ärende eller fråga">
+            <span class="rr-courses-link-kicker">Kontakta rätt funktion</span>
+            <h3>Skicka ärende eller fråga</h3>
+            <p>Välj rätt mejladress för info, kurser, ekonomi, styrelse eller valberedning.</p>
+            <span class="rr-courses-link-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="information">
+        <h2 id="information" class="FAQCategoryHeading">
+          Information
+        </h2>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-betalningar">
+          <div class="accordion-item">
+            <h3 id="betalningar" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-betalningar" aria-expanded="false" aria-controls="panelsStayOpen-collapse-betalningar">
+                Betalningar: Vart hittar jag information om betalningar?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-betalningar" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för betalningar:</p>
+                <p><a href="/danskurser/betalning" title="Betalning av danskurser">Rockrullarna.se / Danskurser / Betalning</a></p>
+                <p>Där hittar du information om betalningsvillkor, betalningsmetoder i caféet.</p>
+                <p>Däremot information och guider om hur du betalar med friskvård, finns längre ned på denna frågor och svar sidan.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#betalningar">https://www.Rockrullarna.se/kontakt/fragor-och-svar#betalningar</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-avanmalan">
+          <div class="accordion-item">
+            <h3 id="avanmalan" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-avanmalan" aria-expanded="false" aria-controls="panelsStayOpen-collapse-avanmalan">
+                Avanmälan: Hur avanmäler jag mig från en danskurs?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-avanmalan" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för avanmälan:</p>
+                <p><a href="/danskurser/avanmala" title="Avanmälan av danskurser">Rockrullarna.se / Danskurser / Avanmälan</a></p>
+                <p>Där hittar du information om avanmälningsvillkor och hur du avanmäler dig från kurser.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#avanmalan">https://www.Rockrullarna.se/kontakt/fragor-och-svar#avanmalan</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-styrande-dokument">
+          <div class="accordion-item">
+            <h3 id="styrande-dokument" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-styrande-dokument" aria-expanded="false" aria-controls="panelsStayOpen-collapse-styrande-dokument">
+                Information: Vart hittar jag styrande dokument och arbetsprocesser?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-styrande-dokument" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Se vår sida för styrande dokument:</p>
+                <p><a href="/foreningen/styrande-dokument" title="Styrande dokument">Rockrullarna.se / Föreningen / Styrande dokument</a></p>
+                <p>Där hittar du information om styrande dokument, stadgar, rollbeskrivningar och arbetsprocesser.</p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#styrande-dokument">https://www.Rockrullarna.se/kontakt/fragor-och-svar#styrande-dokument </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="dans-se">
+        <h2 id="dans-se" class="FAQCategoryHeading">
         Dans.se
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-DansSe">
-      <div class="accordion-item">
-        <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
-            Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <ol>
-              <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
-              <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
-              <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
-              <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
-              <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
-              <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class="linkSmallIconLeft smallIconEdit" href="https://dans.se/myaccount/edit/contact_info/">Mina personuppgifter</a>" </li>
-              <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
-            </ol>
-            <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
-            <p><br /></p>
-            <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
-            <p> </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-DansSe">
+          <div class="accordion-item">
+            <h3 id="dans-se-inloggning-och-andra-personuppgifter" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeOne">
+                Hur loggar jag in och ändrar jag mina personuppgifter i dans.se?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapseDansSeOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <ol>
+                  <li>Gå in via <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a></li>
+                  <li>Om du inte kommer ihåg dina inloggningsuppgifter gå via "Har redan ett konto men glömt dina uppgifter?" </li>
+                  <li>Fyll i ditt förnamn och din e-postadress, samt tryck på: "Skicka inloggningsnyckel"</li>
+                  <li>Du får nu ett mail till din mailadress så du kan sätta ett lösenord till ditt konto. </li>
+                  <li>Logga sedan in i <a href="https://dans.se/" title="dans.se" target="_blank" rel="noopener">dans.se</a> -&gt; "Logga in med befintliga inloggningsuppgifter"</li>
+                  <li>När du är inloggad på ditt dans.se-konto, så trycker du på: "<a class='linkSmallIconLeft smallIconEdit' href='https://dans.se/myaccount/edit/contact_info/'>Mina personuppgifter</a>".</li>
+                  <li>Här kan du nu ändra dina personuppgifter som alla dansklubbar använder om dig vid anmälningar till danskurser. </li>
+                </ol>
+                <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+                <p><br /></p>
+                <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p>
+                <p> </p>
+                <p>Direktlänk till detta svaret: <br /><a href="#dans-se-inloggning-och-andra-personuppgifter">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-inloggning-och-andra-personuppgifter</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 id="dans-se-betala-socialdanskvall" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeTwo">
+                Hur betalar jag för socialdanskvällar via dans.se?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p> OBS! Detta gäller endast för <a href="/danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
+                <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
+                <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
+                <ol>
+                  <li>Checka in dig som vanligt vid incheckningsdisken.</li>
+                  <li>Öppna din mejl direkt i mobilen - du har fått en bekräftelse på din incheckning med en betal-länk.</li>
+                  <li>Klicka på länken "Klicka här för att betala" och välj betalsätt - vi rekommenderar Swish.</li>
+                  <li>När betalningen är genomförd är du redo att dansa! - och vår personal i receptionen kan direkt se att betalningen har kommit in.</li>
+                </ol>
+                <p> 💡 Du behöver alltså inte längre skicka en separat Swish-betalning - allt sker via länken i mejlet. </p>
+                <p> Tack för att du hjälper oss göra kvällen enklare och roligare för alla! </p>
+                <!-- <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
+                <p><br /></p> -->
+                <!-- <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
+                <p><br /><br /></p>
+                <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
+                <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p> -->
+                <p> </p>
+                <p>Direktlänk till detta svaret: <br /><a href="#dans-se-betala-socialdanskvall">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-betala-socialdanskvall</a></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="accordion-item">
-        <h3 id="dans-se-betala-socialdanskvall" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseDansSeTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseDansSeTwo">
-            Hur betalar jag för socialdanskvällar via dans.se?
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapseDansSeTwo" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <p> OBS! Detta gäller endast för <a href ="./danskurser/kursoversikt/trivselkvallar" title="Gå till översiktssidan för socialdanskvällar">socialdanskvällar</a> som har en avgift, inte för våra gratis trivselkvällar som ingår i medlemskapet. </p>
-            <p> Sedan sommaren 2025, så använder vi Swish Handel för betalning vid våra socialdanskvällar. Det innebär ett enklare och smidigare sätt för dig som medlem - och mindre administration för oss! </p>
-            <p>För att betala för din socialdanskväll, följ dessa steg när du kommer till oss:</p>
-            <ol>
-              <li>Checka in dig som vanligt vid incheckningsdisken.</li>
-              <li>Öppna din mejl direkt i mobilen - du har fått en bekräftelse på din incheckning med en betal-länk.</li>
-              <li>Klicka på länken "Klicka här för att betala" och välj betalsätt - vi rekommenderar Swish.</li>
-              <li>När betalningen är genomförd är du redo att dansa! - och vår personal i receptionen kan direkt se att betalningen har kommit in.</li>
-            </ol>
-            <p> 💡 Du behöver alltså inte längre skicka en separat Swish-betalning - allt sker via länken i mejlet. </p>
-            <p> Tack för att du hjälper oss göra kvällen enklare och roligare för alla! </p>
-            <!-- <p> Bilder finns nedan som hjälper dig i några steg här ovan. </p>
-            <p><br /></p> -->
-            <!-- <p>Lyckas du inte själv ändra dina personuppgifter i dans.se, så kan du alltid kontakta oss via: <a href="mailto:kurser@rockrullarna.se" title="mejla till: kurser@rockrullarna.se">kurser@rockrullarna.se</a> eller någon i receptionen, så hjälper vi dig få korrekta uppgifter i systemet.</p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 2 - Glömt dina uppgifter?: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning1.png" alt="Dans.se - Glömt dina uppgifter?" width="600" height="417" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 3 - Fyll i förnamn och e-post:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning2.png" alt="Fyll i förnamn och e-post" width="600" height="397" /></p>
-            <p><br /><br /></p>
-            <p><strong>Bild till steg 6 - Mina personuppgifter:</strong></p>
-            <p><img class="no-visual-search img-fluid" src="./dans.se/bild-Dans-se-inloggning3.png" alt="Mina personuppgifter" width="600" height="447" /></p> -->
-            <p> </p>
-            <p>Direktlänk till detta svaret: <br /><a href="#dans-se-betala-socialdanskvall">https://www.Rockrullarna.se/kontakt/fragor-och-svar#dans-se-betala-socialdanskvall</a></p>
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="friskvardsbetalning">
+        <h2 id="friskvardsbetalning" class="FAQCategoryHeading">
+          Friskvårdsbetalning
+        </h2>
+
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-friskvard-epassi">
+          <div class="accordion-item">
+            <h3 id="friskvardsbetalning-med-epassi" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-friskvard-epassi-One" aria-expanded="false" aria-controls="panelsStayOpen-collapse-friskvard-epassi-One">
+                ePassi: Hur loggar jag in och betalar med friskvårdsappen ePassi?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-friskvard-epassi-One" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Epassi är en friskvårdsleverantör som vi har avtal med för att kunna ta emot fristvårdsbetalningar. Du kan även ha avtal via din arbetsgivare att betala in kursavgiften och sedan få tillbaka pengar för friskvårsutlägg mot uppvisande av vårt kvitto.</p>
+                <p>OBS! Du får inte betala medlemsavgiften via ditt friskvårdsbidrag, mer <a href="https://www.skatteverket.se/privat/skatter/arbeteochinkomst/formaner/personalvardmotionochfriskvard.4.7459477810df5bccdd4800014540.html?q=medlemsavgifter" target="_blank" title="Mer information om friskvårdsbidrag hos Skatteverket" alt="Information om friskvårdsbidrag hos Skatteverket">info hos Skatteverket.se</a></p>
+                <p>För att logga in och betala med Epassi-appen så kan du göra på följande sätt: </p>
+                <ol>
+                  <li>Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter.</li>
+                  <li>Installera applikationen på din mobiltelefon och öppna sedan Epassi.</li>
+                  <li>Välj "Sverige" som land.</li>
+                  <li>Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare.</li>
+                  <li>Byt till BankID-appen och legitimera din identifikation.</li>
+                  <li>Ange om Epassi ska få komma åt din platsinformation eller ej (kan nekas, då vi kommer att söka fram Rockrullarna).</li>
+                  <li>Markera sökfältet.</li>
+                  <li>Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna".</li>
+                  <li>Klicka sedan in på "Dansklubben Rockrullarna".</li>
+                  <li>Navigera ned rutan för att "ANGE BELOPP".</li>
+                  <li>Fyll i kursavgiften som du tänkt betala in (alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</li>
+                  <li>Du får nu en extra påminnelse om att verkligen bekräfta köpet, här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</li>
+                  <li>Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna.</li>
+                </ol>
+                <p> Det finns även bilder här nedanför som hjälper dig att förklara allt steg för steg. </p>
+                <p><br /></p>
+                <p>Lyckas du inte genomföra betalningen på egen hand, kan du alltid prata med oss i receptionen innan eller efter en danskurs hos oss. Alternativt mejla till vår kassör via e-post: <a href="mailto:ekonomi@rockrullarna.se" title="mejla till: ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>, så hjälper vi dig med friskvårdsbetalningen.</p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 1 - Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-01-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 1 - Ladda ned appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Installera applikationen på din mobiltelefon och öppna sedan Epassi: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-02-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 2 - Ladda ned appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 3 - Välj "Sverige" som land: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-03-starta-appen-valj-sverige.jpg" alt="ePassi Bild på Steg 3 - Starta appen och välj Sverige" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 4 - Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-04-logga-in-med-bankId.jpg" alt="ePassi Bild på Steg 4 - Logga in med BankID" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 5 - Byt till BankID-appen och legitimera din identifikation: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-05-logga-in-i-bankId-appen.jpg" alt="ePassi Bild på Steg 5 - Logga in i BankId-appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 6 - Ange om Epassi ska få komma åt din platsinformation eller ej: </strong></p>
+                <p>(kan nekas, då vi kommer att söka fram Rockrullarna).</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-06-acceptera-eller-neka-plats-info.jpg" alt="ePassi Bild på Steg 6 - Acceptera eller neka plats-info" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 7 - Markera sökfältet: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-07-sok-efter-leverantor.jpg" alt="ePassi Bild på Steg 7 - Sök efter leverantör" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 8 - Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-08-skriv-in-Rockrullarna.jpg" alt="ePassi Bild på Steg 8 - Skriv in Rockrullarna" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 9 - Klicka sedan in på "Dansklubben Rockrullarna": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-09-klicka-in-pa-Dansklubben-Rockrullarna.jpg" alt="ePassi Bild på Steg 9 - Klicka in på Dansklubben Rockrullarna" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 10 - Navigera ned rutan för att "ANGE BELOPP": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-10-tryck-pa-ange-belopp.jpg" alt="ePassi Bild på Steg 10 - Tryck på ANGE BELOPP" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 11 - Fyll i kursavgiften som du tänkt betala in: </strong></p>
+                <p>(alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-11-ange-beloppet-for-kursavgiften.jpg" alt="ePassi Bild på Steg 11 - Ange beloppet för kursavgiften" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 12 - Du får nu en extra påminnelse om att verkligen bekräfta köpet: </strong></p>
+                <p>Här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-12-bekrafta-betalningen.jpg" alt="ePassi Bild på Steg 12 - Bekräfta betalningen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Steg 13 - Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna! </strong></p>
+                <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-13-tips-om-belopp.jpg" alt="ePassi Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p>
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-epassi">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-epassi</a></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <h2 id="friskvard-ePassi" class="FAQCategoryHeading">
-      Friskvård med ePassi
-    </h2>
-
-    <div class="accordion" id="accordionPanelsStayOpen-friskvard-epassi">
-      <div class="accordion-item">
-        <h3 id="friskvardsbetalning-med-epassi" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-friskvard-epassi-One" aria-expanded="false" aria-controls="panelsStayOpen-collapse-friskvard-epassi-One">
-            Hur loggar jag in och betalar med friskvårdsappen ePassi?
-          </button>
-        </h3>
-        <div id="panelsStayOpen-collapse-friskvard-epassi-One" class="accordion-collapse collapse">
-          <div class="accordion-body">
-            <p>Epassi är den app som vi har avtal med för att kunna ta emot fristvårdsbetalningar. Du kan även ha avtal via din arbetsgivare att betala in kursavgiften och sedan få tillbaka pengar för friskvårsutlägg mot uppvisande av vårt kvitto.</p>
-            <p>OBS! Du får inte betala medlemsavgiften via ditt friskvårdsbidrag, mer <a href="https://www.skatteverket.se/privat/skatter/arbeteochinkomst/formaner/personalvardmotionochfriskvard.4.7459477810df5bccdd4800014540.html?q=medlemsavgifter" target="_blank" title="Mer information om friskvårdsbidrag hos Skatteverket" alt="Information om friskvårdsbidrag hos Skatteverket">info hos Skatteverket.se</a></p>
-            <p>För att logga in och betala med Epassi-appen så kan du göra på följande sätt: </p>
-            <ol>
-              <li>Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter.</li>
-              <li>Installera applikationen på din mobiltelefon och öppna sedan Epassi.</li>
-              <li>Välj "Sverige" som land.</li>
-              <li>Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare.</li>
-              <li>Byt till BankID-appen och legitimera din identifikation.</li>
-              <li>Ange om Epassi ska få komma åt din platsinformation eller ej (kan nekas, då vi kommer att söka fram Rockrullarna).</li>
-              <li>Markera sökfältet.</li>
-              <li>Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna".</li>
-              <li>Klicka sedan in på "Dansklubben Rockrullarna".</li>
-              <li>Navigera ned rutan för att "ANGE BELOPP".</li>
-              <li>Fyll i kursavgiften som du tänkt betala in (alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</li>
-              <li>Du får nu en extra påminnelse om att verkligen bekräfta köpet, här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</li>
-              <li>Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna.</li>
-            </ol>
-            <p> Det finns även bilder här nedanför som hjälper dig att förklara allt steg för steg. </p>
-            <p><br /></p>
-            <p>Lyckas du inte genomföra betalningen på egen hand, kan du alltid prata med oss i receptionen innan eller efter en danskurs hos oss. Alternativt mejla till vår kassör via e-post: <a href="mailto:ekonomi@rockrullarna.se" title="mejla till: ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>, så hjälper vi dig med friskvårdsbetalningen.</p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 1 - Sök fram ePassi appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Epassi appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Epassi appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-01-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 1 - Ladda ned appen" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 2 - Installera applikationen på din mobiltelefon och öppna sedan Epassi: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-02-ladda-ned-appen.jpg" alt="ePassi Bild på Steg 2 - Ladda ned appen" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 3 - Välj "Sverige" som land: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-03-starta-appen-valj-sverige.jpg" alt="ePassi Bild på Steg 3 - Starta appen och välj Sverige" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 4 - Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-04-logga-in-med-bankId.jpg" alt="ePassi Bild på Steg 4 - Logga in med BankID" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 5 - Byt till BankID-appen och legitimera din identifikation: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-05-logga-in-i-bankId-appen.jpg" alt="ePassi Bild på Steg 5 - Logga in i BankId-appen" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 6 - Ange om Epassi ska få komma åt din platsinformation eller ej: </strong></p>
-            <p>(kan nekas, då vi kommer att söka fram Rockrullarna).</p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-06-acceptera-eller-neka-plats-info.jpg" alt="ePassi Bild på Steg 6 - Acceptera eller neka plats-info" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 7 - Markera sökfältet: </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-07-sok-efter-leverantor.jpg" alt="ePassi Bild på Steg 7 - Sök efter leverantör" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 8 - Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna": </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-08-skriv-in-Rockrullarna.jpg" alt="ePassi Bild på Steg 8 - Skriv in Rockrullarna" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 9 - Klicka sedan in på "Dansklubben Rockrullarna": </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-09-klicka-in-pa-Dansklubben-Rockrullarna.jpg" alt="ePassi Bild på Steg 9 - Klicka in på Dansklubben Rockrullarna" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 10 - Navigera ned rutan för att "ANGE BELOPP": </strong></p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-10-tryck-pa-ange-belopp.jpg" alt="ePassi Bild på Steg 10 - Tryck på ANGE BELOPP" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 11 - Fyll i kursavgiften som du tänkt betala in: </strong></p>
-            <p>(alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-11-ange-beloppet-for-kursavgiften.jpg" alt="ePassi Bild på Steg 11 - Ange beloppet för kursavgiften" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Bild till steg 12 - Du får nu en extra påminnelse om att verkligen bekräfta köpet: </strong></p>
-            <p>Här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-12-bekrafta-betalningen.jpg" alt="ePassi Bild på Steg 12 - Bekräfta betalningen" width="200" height="433" /></p>
-            <p><br /><br /></p>
-            <p><strong> Steg 13 - Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna! </strong></p>
-            <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
-            <p><img class="no-visual-search img-fluid" src="./friskvard-epassi/ePassi-13-tips-om-belopp.jpg" alt="ePassi Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p>
-            <p><br /><br /><br /></p>
-            <p>Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-ePassi">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-ePassi</a></p>
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-friskvard-benefits">
+          <div class="accordion-item">
+            <h3 id="friskvardsbetalning-med-benefits" class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse-friskvard-benefits-One" aria-expanded="false" aria-controls="panelsStayOpen-collapse-friskvard-benefits-One">
+                Benefits: Hur loggar jag in och betalar med friskvårdsappen Benefits?
+              </button>
+            </h3>
+            <div id="panelsStayOpen-collapse-friskvard-benefits-One" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <p>Benefits är en friskvårdsleverantör som vi har avtal med för att kunna ta emot fristvårdsbetalningar. Du kan även ha avtal via din arbetsgivare att betala in kursavgiften och sedan få tillbaka pengar för friskvårsutlägg mot uppvisande av vårt kvitto.</p>
+                <p>OBS! Du får inte betala medlemsavgiften via ditt friskvårdsbidrag, mer <a href="https://www.skatteverket.se/privat/skatter/arbeteochinkomst/formaner/personalvardmotionochfriskvard.4.7459477810df5bccdd4800014540.html?q=medlemsavgifter" target="_blank" title="Mer information om friskvårdsbidrag hos Skatteverket" alt="Information om friskvårdsbidrag hos Skatteverket">info hos Skatteverket.se</a></p>
+                <p>För att logga in och betala via Benefits-webbportal så kan du göra på följande sätt: </p>
+                <ol>
+                  <li>Logga in som anställd (medarbetare) via Benefits-webbportal: <a href="https://benefits.se/login/" title="Benefits webbportal inloggningssida (benefits.se - Öppnas i nytt fönster)" target="_blank" rel="noopener">https://benefits.se/login/</a>.</li>
+                  <li>Välj logga in som anställd (medarbetare).</li>
+                  <li>Logga in med BankID eller lösenord som du har registrerat via din arbetsgivare.</li>
+                  <li>Byt till BankID-appen och legitimera din identifikation.</li>
+                  <li>????....Uppdatera med mer info....????</li>
+                  <li>Sök fram "Rockrullarna" eller "Dansklubben Rockrullarna".</li>
+                  <li>Klicka sedan in på "Dansklubben Rockrullarna".</li>
+                  <li>Navigera ned rutan för att "ANGE BELOPP".</li>
+                  <li>Fyll i kursavgiften som du tänkt betala in (alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</li>
+                  <li>Du får nu en extra påminnelse om att verkligen bekräfta köpet, här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</li>
+                  <li>Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna.</li>
+                  <li>????....Uppdatera med mer info....????</li>
+                </ol>
+                <p> Det finns även bilder här nedanför som hjälper dig att förklara allt steg för steg. </p>
+                <p><br /></p>
+                <p>Lyckas du inte genomföra betalningen på egen hand, kan du alltid prata med oss i receptionen innan eller efter en danskurs hos oss. Alternativt mejla till vår kassör via e-post: <a href="mailto:ekonomi@rockrullarna.se" title="mejla till: ekonomi@rockrullarna.se">ekonomi@rockrullarna.se</a>, så hjälper vi dig med friskvårdsbetalningen.</p>
+                <p><br /><br /></p>
+                <!-- <p><strong> Bild till steg 1 - Sök fram Benefits appen i <a href="https://play.google.com/store/apps/details?id=fi.eventbrokers.sporttipassimobile" title="Benefits appen i Android Google Play-butiken (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Google Play-butiken på Android</a> eller <a href="https://apps.apple.com/se/app/epassi/id651335156" title="Benefits appen i Appstore på Apple enheter (play.google.com - Öppnas i nytt fönster)" target="_blank" rel="noopener">Appstore på iOS Apple</a> enheter: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-01-ladda-ned-appen.jpg" alt="Benefits Bild på Steg 1 - Ladda ned appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 2 - Installera applikationen på din mobiltelefon och öppna sedan Benefits: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-02-ladda-ned-appen.jpg" alt="Benefits Bild på Steg 2 - Ladda ned appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 3 - Välj "Sverige" som land: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-03-starta-appen-valj-sverige.jpg" alt="Benefits Bild på Steg 3 - Starta appen och välj Sverige" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 4 - Logga in med BankID eller telefonnummer/e-post som du har registrerat via din arbetsgivare: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-04-logga-in-med-bankId.jpg" alt="Benefits Bild på Steg 4 - Logga in med BankID" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 5 - Byt till BankID-appen och legitimera din identifikation: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-05-logga-in-i-bankId-appen.jpg" alt="Benefits Bild på Steg 5 - Logga in i BankId-appen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 6 - Ange om Benefits ska få komma åt din platsinformation eller ej: </strong></p>
+                <p>(kan nekas, då vi kommer att söka fram Rockrullarna).</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-06-acceptera-eller-neka-plats-info.jpg" alt="Benefits Bild på Steg 6 - Acceptera eller neka plats-info" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 7 - Markera sökfältet: </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-07-sok-efter-leverantor.jpg" alt="Benefits Bild på Steg 7 - Sök efter leverantör" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 8 - Skriv in "Rockrullarna" eller "Dansklubben Rockrullarna": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-08-skriv-in-Rockrullarna.jpg" alt="Benefits Bild på Steg 8 - Skriv in Rockrullarna" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 9 - Klicka sedan in på "Dansklubben Rockrullarna": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-09-klicka-in-pa-Dansklubben-Rockrullarna.jpg" alt="Benefits Bild på Steg 9 - Klicka in på Dansklubben Rockrullarna" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 10 - Navigera ned rutan för att "ANGE BELOPP": </strong></p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-10-tryck-pa-ange-belopp.jpg" alt="Benefits Bild på Steg 10 - Tryck på ANGE BELOPP" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 11 - Fyll i kursavgiften som du tänkt betala in: </strong></p>
+                <p>(alternativt om du vill betala mer så sätts pengarna som tillgodohavande för kommande danskurser hos oss). Dra sedan "klossen" längst ned åt höger för att bekräfta köpet.</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-11-ange-beloppet-for-kursavgiften.jpg" alt="Benefits Bild på Steg 11 - Ange beloppet för kursavgiften" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Bild till steg 12 - Du får nu en extra påminnelse om att verkligen bekräfta köpet: </strong></p>
+                <p>Här står det att du måste vara nära en kassa, men eftersom vår kassör får ett e-post meddelande om betalningen så kan du ignorera detta och bekräfta, så vi kan verifiera köpet oavsett om du är i receptionen hos oss eller hemma när du betalar.</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-12-bekrafta-betalningen.jpg" alt="Benefits Bild på Steg 12 - Bekräfta betalningen" width="200" height="433" /></p>
+                <p><br /><br /></p>
+                <p><strong> Steg 13 - Nu är köpet klart! Välkommen på danskurs hos oss på Dansklubben Rockrullarna! </strong></p>
+                <p>(Uppe till höger när du loggat in i ePassi, så ser du vilket kvarstående belopp du har att nyttja)</p>
+                <p><img class="no-visual-search img-fluid" src="./friskvard-benefits/Benefits-13-tips-om-belopp.jpg" alt="Benefits Bild på Steg 13 - Tips om vart du ser kvarstående belopp" width="200" height="433" /></p> -->
+                <p><br /><br /><br /></p>
+                <p class="rr-contact-anchor">Direktlänk till detta svaret: <br /><a href="#friskvardsbetalning-med-benefits">https://www.Rockrullarna.se/kontakt/fragor-och-svar#friskvardsbetalning-med-benefits</a></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
 
-    <h2 id="teams-mote" class="FAQCategoryHeading">
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="teams-mote">
+        <h2 id="teams-mote" class="FAQCategoryHeading">
       Teams-möte
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-Teams">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-Teams">
       <div class="accordion-item">
         <h3 id="teams-ansluta-till-mote" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTeamsOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseTeamsOne">
@@ -203,7 +422,9 @@
               <li>Nu ser vi till att ha ett riktigt trevligt möte tillsammans!</li>
             </ol>
             <p class="mt-5">Alla steg finns här beskrivna i en kortare (2 min) informations-film: </p>
-            <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" width="560"></iframe></p>
+            <div class="rr-iframe-responsive">
+              <iframe src="https://www.youtube-nocookie.com/embed/_6rVoiQCPz4" title="YouTube video player" allowfullscreen></iframe>
+            </div>
             <p>Direktlänk till detta svaret: <br /><a href="#teams-ansluta-till-mote">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-ansluta-till-mote</a></p>
           </div>
         </div>
@@ -224,18 +445,22 @@
               <li><strong>Stäng av ljudet</strong> genom att se till så "mikrofon-ikonen"🎤 (nr 4 i bilden) är överstreckad.<br /><br /></li>
               <li><strong>Skicka en reaktion</strong> kan du göra genom att trycka på "räck upp handen figuren"🙋&zwj;♀️ (nr 1 i bilden) och sedan närsomhelst under mötet skicka en "tumme upp"👍, "hjärta"💓, "applåd"👏 eller "skratt"😄 reaktion (nr 5 i bilden) under mötets gång, som kommer synas för alla deltagare. </li>
             </ul>
-            <p><iframe frameborder="0" allowfullscreen="allowfullscreen" height="315" src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" width="560"></iframe></p>
+            <div class="rr-iframe-responsive">
+              <iframe src="https://www.youtube-nocookie.com/embed/5DA5eYaQlR4" title="YouTube video player" allowfullscreen></iframe>
+            </div>
             <p>Direktlänk till detta svaret: <br /><a href="#teams-information-under-motet">https://www.Rockrullarna.se/kontakt/fragor-och-svar#teams-information-under-motet</a></p>
           </div>
         </div>
       </div>
-    </div>
+        </div>
+      </section>
 
-    <h2 id="zoom-mote" class="FAQCategoryHeading">
+      <section class="rr-association-card rr-association-card--section rr-contact-faq-section" aria-labelledby="zoom-mote">
+        <h2 id="zoom-mote" class="FAQCategoryHeading">
       Zoom-möte
-    </h2>
+        </h2>
 
-    <div class="accordion" id="accordionPanelsStayOpen-Zoom">
+        <div class="accordion rr-contact-accordion" id="accordionPanelsStayOpen-Zoom">
       <div class="accordion-item">
         <h3 id="zoom-ansluta-till-mote-via-mobil" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseZoomOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseZoomOne">
@@ -303,7 +528,98 @@
           </div>
         </div>
       </div>
+        </div>
+      </section>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        function findHashTarget(hash) {
+          if (!hash || hash.length < 2) {
+            return null;
+          }
+
+          var targetId = decodeURIComponent(hash.slice(1));
+
+          if (!targetId) {
+            return null;
+          }
+
+          return document.getElementById(targetId);
+        }
+
+        function getScrollAnchor(target) {
+          if (!target) {
+            return null;
+          }
+
+          var accordionItem = target.closest('.accordion-item');
+
+          if (accordionItem) {
+            return accordionItem.querySelector('.accordion-button') || target;
+          }
+
+          return target;
+        }
+
+        function getFixedHeaderOffset() {
+          var navbar = document.querySelector('.navbar.fixed-top');
+          var headerHeight = navbar ? navbar.getBoundingClientRect().height : 0;
+
+          return headerHeight + 20;
+        }
+
+        function scrollTargetIntoView(target) {
+          var scrollTarget = getScrollAnchor(target);
+
+          if (!scrollTarget) {
+            return;
+          }
+
+          window.requestAnimationFrame(function () {
+            var top = window.scrollY + scrollTarget.getBoundingClientRect().top - getFixedHeaderOffset();
+
+            window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+          });
+        }
+
+        function openFaqTargetFromHash() {
+          var target = findHashTarget(window.location.hash);
+
+          if (!target) {
+            return;
+          }
+
+          var collapseElement = target.classList.contains('accordion-collapse')
+            ? target
+            : target.closest('.accordion-item')
+              ? target.closest('.accordion-item').querySelector('.accordion-collapse')
+              : null;
+
+          if (!collapseElement || typeof bootstrap === 'undefined' || !bootstrap.Collapse) {
+            scrollTargetIntoView(target);
+            return;
+          }
+
+          var collapse = bootstrap.Collapse.getOrCreateInstance(collapseElement, { toggle: false });
+
+          if (collapseElement.classList.contains('show')) {
+            scrollTargetIntoView(target);
+            return;
+          }
+
+          collapseElement.addEventListener('shown.bs.collapse', function handleShown() {
+            collapseElement.removeEventListener('shown.bs.collapse', handleShown);
+            scrollTargetIntoView(target);
+          });
+
+          collapse.show();
+        }
+
+        openFaqTargetFromHash();
+        window.addEventListener('hashchange', openFaqTargetFromHash);
+      });
+    </script>
 
 <?php
   include_once '../../includes/footer.php'

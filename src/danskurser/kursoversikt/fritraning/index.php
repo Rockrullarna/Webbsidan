@@ -27,7 +27,7 @@
       Den fria träningen är kostnadsfri för alla medlemmar som går en kurs.
     </p>
     <p>
-      För aktuella tider se i vår: 
+      För aktuella tider se i vår:
       <a href="/aktivitetskalender" title="Aktivitetskalender" target="_top">Aktivitetskalender</a>
     </p>
 <?php

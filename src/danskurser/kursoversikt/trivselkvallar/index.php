@@ -55,12 +55,12 @@
     </ul>
     <h2>Facebook evenemang</h2>
     <p>
-      Evenemangen för att lägga till i er kalender, hittar ni på vår Facebook-sida: 
+      Evenemangen för att lägga till i er kalender, hittar ni på vår Facebook-sida:
       <a href="https://www.facebook.com/pg/rockrullarna/events">facebook.com/pg/rockrullarna/events</a>
     </p>
-    <h2>Planderade trivselkvällar</h2>
-    <p>Här visas vilka trivselkvällar vi har planerade. </p>
-    <p>
+    <h2>Planderade trivselkvällar och socialdanser</h2>
+    <p>Här visas vilka trivselkvällar och socialdanser vi har planerade: </p>
+    <p id="kursutbud-lista">
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?eventGroup1=trivsel;lang=sv;showPrice=1;sorting=startDate+asc;reset">
         Hämtar data om foxkurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)

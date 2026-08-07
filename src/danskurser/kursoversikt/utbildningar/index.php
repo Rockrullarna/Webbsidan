@@ -18,7 +18,7 @@
     </p>
     <h2>Planderade utbildningar</h2>
     <p>Här visas våra planerade utbildningstillfällen.</p>
-    <p>
+    <p id="kursutbud-lista">
       <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?eventGroup1=UTB;lang=sv;showPrice=1;sorting=startDate+asc;reset">
         Hämtar data om foxkurser ifrån dans.se... <br />
         (testa uppdatera sidan om detta meddelande inte försvinner)

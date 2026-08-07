@@ -2,44 +2,184 @@
   $header_title = "West Coast Swing - Kursöversikt - Danskurser";
   $header_description = "West Coast Swing (WCS) är en cool pardans med rötter i Lindy hop";
 
-  $page_updated = "2026-01-26 18:26";
+  $page_updated = "2026-07-25 20:10";
   $page_url = "/danskurser/kursoversikt/west-coast-swing";
   $page_contact_name = "Kurser";
   $page_contact_email = "kurser@rockrullarna.se";
 
   include_once '../../../includes/header.php'
 ?>
-    <div id="BreadCrumbsDiv">
-      <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>West Coast Swing</span>
+    <div class="rr-page-shell rr-courses-page rr-courses-detail-page">
+      <div id="BreadCrumbsDiv">
+        <a href="../../../">Rockrullarna.se</a> / <a href="../../">Danskurser</a> / <a href="../">Kursöversikt</a> / <span>West Coast Swing</span>
+      </div>
+
+      <section class="rr-courses-hero" aria-labelledby="wcs-heading">
+        <div class="rr-courses-hero-copy">
+          <p class="rr-style-label" aria-hidden="true">Modern swing</p>
+          <h1 id="wcs-heading">West Coast Swing med <em>musikalitet</em> och kreativ frihet</h1>
+          <p class="rr-courses-lead">
+            West Coast Swing, ofta förkortat WCS, är en dynamisk pardans med rötter i Lindy Hop som har utvecklats till en modern, lekfull och flexibel stil.
+            Den fungerar till många olika musikgenrer, från blues och ballader till pop, R&amp;B och funk.
+          </p>
+          <p class="rr-courses-lead">
+            Det som gör WCS speciell är den smidiga elasticiteten mellan dansarna, utrymmet för improvisation och möjligheten att sätta personlig prägel på musiken.
+          </p>
+
+          <div class="rr-courses-actions">
+            <a class="rr-hero-btn" href="#wcs-courses-heading" title="Anmäl dig till Rockrullarnas danskurser och aktiviteter">Se aktuella WCS-kurser</a>
+            <a class="rr-btn-inline" href="/danskurser/betalning" title="Läs om betalning">Betalning och rabatter</a>
+          </div>
+        </div>
+
+        <aside class="rr-courses-info-card" aria-labelledby="wcs-info-heading">
+          <p class="rr-style-label" aria-hidden="true">Kort om stilen</p>
+          <h2 id="wcs-info-heading">Det här kännetecknar WCS</h2>
+          <div class="rr-courses-info-list">
+            <div class="rr-courses-info-item">
+              <strong>Musikalitet i centrum</strong>
+              <p>WCS passar dig som vill tolka olika typer av musik och låta dansen formas av rytm, pauser och uttryck.</p>
+            </div>
+            <div class="rr-courses-info-item">
+              <strong>Kreativ och interaktiv</strong>
+              <p>Båda dansarna bidrar aktivt till känslan i dansen, vilket skapar en levande dialog på golvet.</p>
+            </div>
+            <div class="rr-courses-note">
+              <p><strong>Styrka:</strong> En kombination av teknik, frihet och personlig stil gör WCS till en dans där du kan utvecklas länge.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="hojdpunkter-med-dansen" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="wcs-highlights-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Upplevelsen</p>
+            <h2 id="wcs-highlights-heading">Vad som gör <em>WCS</em> så speciell</h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-detail-grid">
+          <article class="rr-courses-detail-card">
+            <span class="rr-courses-detail-meta">Passar dig som</span>
+            <h3>Vill dansa till många musikstilar</h3>
+            <p>WCS fungerar till allt från blues till radiohits, vilket gör det lätt att hitta musik du tycker om att dansa till.</p>
+          </article>
+
+          <article class="rr-courses-detail-card">
+            <span class="rr-courses-detail-meta">Fokus i kursen</span>
+            <h3>Elasticitet, timing och kontakt</h3>
+            <p>Kurserna hjälper dig att bygga en tydlig grund i teknik och connection samtidigt som du får utrymme att leka med musiken.</p>
+          </article>
+
+          <article class="rr-courses-detail-card">
+            <span class="rr-courses-detail-meta">Känslan</span>
+            <h3>Smidig, cool och uttrycksfull</h3>
+            <p>WCS kan vara både avslappnad och energifylld. Den öppnar för små detaljer, pauser och personliga val i dansen.</p>
+          </article>
+
+          <article class="rr-courses-detail-card">
+            <span class="rr-courses-detail-meta">Utveckling</span>
+            <h3>Bygg din egen stil</h3>
+            <p>När tekniken sitter blir det naturligt att börja jobba mer med improvisation, musikalitet och din egen personliga känsla.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="wcs-trainers-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Tränarteamet</p>
+            <h2 id="wcs-trainers-heading">Möt våra ledare i <em>West Coast Swing</em></h2>
+          </div>
+        </div>
+        <div class="rr-association-note">
+          <p>Vill du veta vilka som undervisar i WCS? På tränarsidan hittar du hela teamet med bilder, roller och vilka sektioner de är aktiva i.</p>
+          <p><a class="rr-btn-inline" href="/foreningen/organisation/tranare#wcs" title="Se tränare inom West Coast Swing">Gå till WCS-tränarna</a></p>
+        </div>
+      </section>
+
+      <section id="film-och-bilder" class="rr-courses-links-section rr-courses-detail-section" aria-labelledby="wcs-media-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Film och bilder</p>
+            <h2 id="wcs-media-heading">Här kan du se <em>West Coast Swing</em></h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-media-layout">
+          <article class="rr-courses-media-feature">
+            <div class="rr-courses-media-copy">
+              <div class="rr-iframe-responsive">
+                <iframe src="https://www.youtube.com/embed/JLGORQXvldA?si=Py-zlQuh_fEQePu3" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <h3>West Coast Swing - uppvisning</h3>
+            </div>
+          </article>
+
+          <div class="rr-courses-media-gallery" aria-label="Bildytor för West Coast Swing">
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-1.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-1.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Socialdans</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans-2.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans-2.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Connection</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/socialdans.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/socialdans.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Socialdans</span>
+              </div>
+            </button>
+
+            <button class="rr-courses-media-thumb rr-courses-media-thumb-btn" data-image-url="/filer/bilder/webb/wcs/workshop.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" style="background-image: url('/filer/bilder/webb/wcs/workshop.jpg'), radial-gradient(circle at top right, rgba(255,255,255,0.14), transparent 34%), linear-gradient(145deg, rgba(0,171,214,0.42), rgba(0,32,72,0.8)); background-size: cover, auto, auto; background-position: center, right top, 0 0; background-repeat: no-repeat, no-repeat, no-repeat;" title="Klicka för att visa bilden i fullskärm">
+              <div class="rr-courses-media-copy">
+                <span class="rr-courses-media-tag">Workshop</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="rr-courses-links-section" aria-labelledby="wcs-courses-heading">
+        <div class="rr-courses-links-header">
+          <div>
+            <p class="rr-style-label" aria-hidden="true">Kursutbud och socialdanser</p>
+            <h2 id="wcs-courses-heading">Aktuellt inom <em>West Coast Swing</em></h2>
+          </div>
+        </div>
+
+        <div class="rr-courses-embed-card">
+          <div id="kursutbud-lista" class="rr-courses-embed-shell">
+            <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Hämtar data om WCS-kurser ifrån dans.se">
+              Hämtar data om WCS-kurser ifrån dans.se... <br />
+              (testa uppdatera sidan om detta meddelande inte försvinner)
+            </a>
+            <script src="https://dans.se/api/init.js" type="text/javascript"></script>
+          </div>
+
+          <p class="rr-courses-mobile-tip visible-phone">
+            <strong>Tips</strong> eftersom att du kollar på en mobiltelefon:<br />
+            Har du telefonen liggandes så ser du fler fält i listan. Till exempel: <strong>Pris</strong> och om <strong>anmälan är öppen/stängd</strong>.
+          </p>
+
+          <div class="rr-courses-note">
+            <p>Om listan inte laddas automatiskt hittar du kurserna via <a href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Rockrullarna på dans.se" target="_blank">dans.se/rockrullarna/shop</a>.</p>
+          </div>
+        </div>
+      </section>
+      <p id="direct-link-wcs" class="mt-3">
+        Direktlänk för att komma till denna sidan är: <a href="https://rockrullarna.se/wcs" title="West Coast Swing-kurser hos Rockrullarna">rockrullarna.se/wcs</a>
+      </p>
     </div>
-    <h1>West Coast Swing (WCS)</h1>
-    <p>
-      West Coast Swing (även kallat: WCS) är en dynamisk och kreativ pardans som har sina rötter i lindy hop men har utvecklats till en mer modern och flexibel stil. Den dansas till många olika musikgenrer, från blues och radiohits/pop till R&amp;B och funk samt ballader, vilket gör den mångsidig och anpassningsbar.
-    </p>
-    <p>
-      Det som utmärker West Coast Swing är dess smidiga rörelser, improvisation och eleganta "elasticitet" mellan dansarna. Det är en dans där båda parter kan bidra till musikaliteten och kreativiteten, vilket skapar en lekfull och interaktiv känsla.
-    </p>
-    <p>
-      En annan charm med West Coast Swing är att den uppmuntrar individuell stil och personlig tolkning av musiken, vilket gör att dansen kan se lite olika ut beroende på vilka som dansar tillsammans. Det är en perfekt kombination av teknik, frihet och musikalitet!
-    </p>
-    <p>
-      Vill du lära dig mer eller kanske prova på en kurs? Anmäl dig då här nedan. 🤩💃🕺
-    </p>
-    <h2>Här nedan visas våra West Coast Swing-kurser:</h2>
-    <p>
-      <a class="cwLoadContent" href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Hämtar data om WCS-kurser ifrån dans.se">
-        Hämtar data om WCS-kurser ifrån dans.se... <br />
-        (testa uppdatera sidan om detta meddelande inte försvinner)
-      </a>
-      <script src="https://dans.se/api/init.js" type="text/javascript"></script>
-    </p>
-    <p class="visible-phone">
-      <strong>Tips</strong> eftersom att du kollar på en mobiltelefon:<br />
-      Har du telefonen liggandes så ser du fler fält i listan. Till exempel: <strong>Pris</strong> och om <strong>anmälan är öppen/stängd</strong>.
-    </p>
-    <p>
-      Om hämtningen inte fungerar automatiskt, hittar ni kurserna via: <a href="https://dans.se/rockrullarna/shop/?lang=sv;showPrice=1;cat=dance_West_Coast_Swing;reset" title="Rockrullarna på dans.se" target="_blank">dans.se/rockrullarna/shop</a>
-    </p>
+
 <?php
+  // Inkluderar den modulära bildvisaren på sidan
+  include_once '../../../includes/modal-image-viewer.php';
+
   include_once '../../../includes/footer.php'
 ?>

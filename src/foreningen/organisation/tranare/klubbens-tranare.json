@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "senastUppdaterad": "2026-07-28",
+    "notes": "Lista över huvudtränare, tränare, assistenter och hjälpdansare. En person kan ha flera roller i flera sektioner. Editera gärna nedan.",
+    "sektioner": [
+      "Barndans",
+      "Bugg",
+      "Fox",
+      "West Coast Swing"
+    ]
+  },
+  "data": [
+    {
+      "id": "jonas-arvidson",
+      "name": "Jonas Arvidson",
+      "image": "/filer/bilder/webb/personer/jonas-arvidson.jpg",
+      "thumbnailOffsetY": 20,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "andreas-milton",
+      "name": "Andreas Milton",
+      "image": "/filer/bilder/webb/personer/andreas-milton.jpg",
+      "thumbnailOffsetY": 30,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "camila-estrada-nilsson",
+      "name": "Camila Estrada Nilsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "jens-wiklund",
+      "name": "Jens Wiklund",
+      "image": "/filer/bilder/webb/personer/jens-wiklund.jpg",
+      "thumbnailOffsetY": 5,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Huvudtränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+        {
+      "id": "elin-ostlund",
+      "name": "Elin Östlund",
+      "image": "/filer/bilder/webb/personer/elin-ostlund.jpg",
+      "thumbnailOffsetY": 40,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "linnea-sohlberg-modin",
+      "name": "Linnea Sohlberg Modin",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "anna-skanebo",
+      "name": "Anna Skanebo",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "elin-yngve",
+      "name": "Elin Yngve",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },{
+      "id": "jennie-modin",
+      "name": "Jennie Modin",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },{
+      "id": "linn-carlsson",
+      "name": "Linn Carlsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "nellie-modin",
+      "name": "Nellie Modin",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "nils-nuszkowski",
+      "name": "Nils Nuszkowski",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "stefan-ericsson",
+      "name": "Stefan Ericsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "thomas-modin",
+      "name": "Thomas Modin",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Huvudtränare"
+        }
+      ]
+    },
+    {
+      "id": "daniel-hjalmarsson",
+      "name": "Daniel Hjalmarsson",
+      "image": "/filer/bilder/webb/personer/daniel-hjalmarsson.jpg",
+      "thumbnailOffsetY": 40,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "emma-elfstrom",
+      "name": "Emma Elfström",
+      "image": "/filer/bilder/webb/personer/emma-elfstrom.jpg",
+      "thumbnailOffsetY": 15,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "mathias-grundblad",
+      "name": "Mathias Grundblad",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "pierre-hagstrom",
+      "name": "Pierre Hagström",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "annika-kindborg",
+      "name": "Annika Kindborg",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "cecilia-palmkvist",
+      "name": "Cecilia Palmkvist",
+      "image": "/filer/bilder/webb/personer/cecilia-palmkvist.jpg",
+      "thumbnailOffsetY": 10,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "sofie-asker",
+      "name": "Sofie Asker",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "david-saflund",
+      "name": "David Säflund",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "sofia-ohlsen",
+      "name": "Sofia Ohlsen",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "magnus-pettersson",
+      "name": "Magnus Pettersson",
+      "image": "/filer/bilder/webb/personer/magnus-pettersson.jpg",
+      "thumbnailOffsetY": 22,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "emma-exinge",
+      "name": "Emma Exinge",
+      "image": "/filer/bilder/webb/personer/emma-exinge.jpg",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Assistent"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "pernilla-soderqvist",
+      "name": "Pernilla Söderqvist",
+      "image": "/filer/bilder/webb/personer/pernilla-soderqvist.jpg",
+      "thumbnailOffsetY": 30,
+      "assignments": [
+        {
+          "section": "Bugg",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "asa-nystrom",
+      "name": "Åsa Nyström",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "lars-norman",
+      "name": "Lars Norman",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "camilla-wellsen",
+      "name": "Camilla Wellsén",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "milla-olsson",
+      "name": "Milla Olsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "asa-hakansson",
+      "name": "Åsa Håkansson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "andreas-johansson",
+      "name": "Andreas Johansson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "sara-sjostrom",
+      "name": "Sara Sjöström",
+      "image": "/filer/bilder/webb/personer/sara-sjostrom.jpg",
+      "thumbnailOffsetY": 30,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Huvudtränare"
+        }
+      ]
+    },
+    {
+      "id": "elin-reuterwall",
+      "name": "Elin Reuterwall",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "hakan-viklund",
+      "name": "Håkan Viklund",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "lena-larsson",
+      "name": "Lena Larsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "helena-jansson",
+      "name": "Helena Jansson",
+      "image": "/filer/bilder/webb/personer/helena-jansson.jpg",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "max-huss",
+      "name": "Max Huss",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "simon-sjodahl",
+      "name": "Simon Sjödahl",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        },
+        {
+          "section": "West Coast Swing",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "helena-luthman",
+      "name": "Helena Luthman",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "West Coast Swing",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "johan-therus",
+      "name": "Johan Thérus",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "ulrika-leijonhufvud-bertilsdotter",
+      "name": "Ulrika Leijonhufvud Bertilsdotter",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Tränare"
+        }
+      ]
+    },
+    {
+      "id": "ulrika-aronsson",
+      "name": "Ulrika Aronsson",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Assistent"
+        }
+      ]
+    },
+    {
+      "id": "david-pilblad",
+      "name": "David Pilblad",
+      "image": "",
+      "thumbnailOffsetY": 50,
+      "assignments": [
+        {
+          "section": "Fox",
+          "role": "Assistent"
+        }
+      ]
+    }
+  ]
+}
+
+
