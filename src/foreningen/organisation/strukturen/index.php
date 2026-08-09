@@ -2,7 +2,7 @@
 $header_title = "Styrelsen - Organisation - Organisationsstruktur";
 $header_description = "Information om den ideella dansföreningen Rockrullarnas styrelse";
 
-$page_updated = "2026-03-31 22:40";
+$page_updated = "2026-08-10 00:10";
 $page_url = "/foreningen/organisation/styrelsen";
 $page_contact_name = "Styrelsen";
 $page_contact_email = "styrelsen@rockrullarna.se";
@@ -121,7 +121,7 @@ include_once '../../../includes/header.php'
   </ul>
   <p><br /><br /></p>
   <h3 id="fox-kommitteen">Fox-kommittén</h3>
-  <p>Jens Wiklund, Milla Olsson, Ulrika Bertilsdotter, Ulrika Aronsson, Elin Östlund, Jonas Arvidson, Åsa Nyström.</p>
+  <p>Jens Wiklund, Milla Olsson, Ulrika Aronsson, Elin Östlund, Jonas Arvidson, Åsa Nyström.</p>
   <h4>Fox-kommitténs sammankallande</h4>
   <ul>
     <li>Jens Wiklund</li>
