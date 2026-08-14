@@ -1,4 +1,4 @@
 <?php
-  header('Location: ../danskurser/anmalan-danskurser');
+  header('Location: ../danskurser/anmalan-danskurser/#kursutbud');
   exit;
 ?>
