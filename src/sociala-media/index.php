@@ -127,7 +127,7 @@
             </div>
             <p>Följ vår Facebook-sida för uppdateringar och händelser i föreningen.</p>
             <a class="rr-btn-inline" href="https://fb.me/rockrullarna" title="Öppna Rockrullarna på Facebook" target="_blank" rel="noopener noreferrer">fb.me/rockrullarna</a>
-            <p class="rr-social-feed-status">Om Facebook-flödet inte visas nedan kan du öppna innehållet direkt på Facebook:</p>
+            <p class="rr-social-feed-status">Öppna Rockrullarna direkt på Facebook:</p>
             <div class="rr-social-link-panel-grid">
               <a class="rr-social-link-card" href="https://www.facebook.com/rockrullarna" target="_blank" rel="noopener noreferrer">
                 <strong>Facebook-sidan</strong>
@@ -141,25 +141,6 @@
                 <strong>Skicka meddelande</strong>
                 <span>Öppna Messenger på Facebook och skicka en snabb fråga.</span>
               </a>
-            </div>
-
-            <div class="rr-courses-embed-shell rr-social-embed-shell rr-social-embed-shell--facebook">
-
-              <div id="fb-root"></div>
-              <script async defer crossorigin="anonymous"
-                src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v19.0">
-              </script>
-
-              <div class="fb-page"
-                data-href="https://www.facebook.com/rockrullarna"
-                data-tabs="timeline"
-                data-width="500"
-                data-height="700"
-                data-small-header="false"
-                data-adapt-container-width="true"
-                data-hide-cover="false"
-                data-show-facepile="true">
-              </div>
             </div>
           </article>
 
@@ -175,7 +156,7 @@
             </div>
             <p>Se korta klipp från träningar, socialdans och andra nedslag från verksamheten.</p>
             <a class="rr-btn-inline" href="https://www.tiktok.com/@dansklubbrockrullarna" title="Öppna Rockrullarna på TikTok" target="_blank" rel="noopener noreferrer">tiktok.com/@dansklubbrockrullarna</a>
-            <p class="rr-social-feed-status">Om TikTok-inbäddningen inte visas kan du öppna klippen direkt på TikTok:</p>
+            <p class="rr-social-feed-status">Öppna Rockrullarna direkt på TikTok:</p>
             <div class="rr-social-link-panel-grid">
               <a class="rr-social-link-card" href="https://www.tiktok.com/@dansklubbrockrullarna" target="_blank" rel="noopener noreferrer">
                 <strong>TikTok-profilen</strong>
@@ -225,7 +206,6 @@
                   <?php } ?>
                 </div>
               <?php } else { ?>
-                <p class="rr-social-feed-status">Instagram-flödet laddas eller saknar cache just nu. Öppna innehållet direkt på Instagram:</p>
                 <div class="rr-social-link-panel-grid rr-social-link-panel-grid--instagram">
                   <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna" target="_blank" rel="noopener noreferrer">
                     <strong>Instagram-profilen</strong>
@@ -246,48 +226,7 @@
         </div>
       </section>
     </div>
-    <script id="facebook-sdk-loader">
-      document.addEventListener("DOMContentLoaded", function () {
-        // Vänta tills Facebook SDK är redo
-        function waitForFB(callback) {
-            if (typeof FB !== "undefined" && FB.XFBML && FB.XFBML.parse) {
-                callback()
-            } else {
-                setTimeout(() => waitForFB(callback), 100)
-            }
-        }
-
-        waitForFB(function () {
-            const fbShell = document.querySelector(".rr-social-embed-shell--facebook")
-            if (!fbShell) return
-
-            FB.init({
-              appId      : '702771861196793',
-              xfbml      : true,
-              version    : 'v25.0'
-            });
-            FB.getLoginStatus(function(response) {
-              console.log(response);
-            });
-
-            // Rendera direkt om elementet redan är synligt
-            if (fbShell.offsetParent !== null) {
-                FB.XFBML.parse(fbShell)
-                return
-            }
-
-            // Annars: vänta tills elementet blir synligt i viewport
-            const observer = new IntersectionObserver(entries => {
-                if (entries[0].isIntersecting) {
-                    FB.XFBML.parse(fbShell)
-                    observer.disconnect()
-                }
-            })
-
-            observer.observe(fbShell)
-        })
-      })
-    </script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
     <script id="instagram-feed-loader">
       (function () {
         const instagramFeed = document.getElementById('rr-instagram-feed');
@@ -418,7 +357,6 @@
         hydrateInstagramImagePlaceholders();
       }());
     </script>
-    <script async src="https://www.tiktok.com/embed.js"></script>
 <?php
   include_once '../includes/footer.php'
 ?>
