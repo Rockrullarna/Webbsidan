@@ -73,6 +73,10 @@
                 <strong>Senaste reels</strong>
                 <span>Öppna videoklipp och reels direkt på Instagram.</span>
               </a>
+              <a class="rr-social-link-card" href="https://ig.me/m/rockrullarna" target="_blank" rel="noopener noreferrer">
+                <strong>Skicka meddelande</strong>
+                <span>Öppna Instagram och skicka ett Direkt meddelande till @rockrullarna.</span>
+              </a>
               <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/tagged" target="_blank" rel="noopener noreferrer">
                 <strong>Taggade inlägg</strong>
                 <span>Öppna foton och inlägg där Rockrullarna är taggade direkt på Instagram.</span>
