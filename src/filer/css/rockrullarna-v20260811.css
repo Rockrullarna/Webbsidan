@@ -2470,6 +2470,9 @@ header {
 .rr-board-photo {
   object-fit: cover;
   object-position: var(--rr-thumb-focus-y, center 50%);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  filter: blur(0.3px);
 }
 
 .rr-board-photo-placeholder {
@@ -2679,6 +2682,9 @@ header {
 .rr-trainer-photo {
   object-fit: cover;
   object-position: var(--rr-thumb-focus-y, center 50%);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  filter: blur(0.3px);
 }
 
 .rr-trainer-photo-placeholder {
