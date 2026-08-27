@@ -1,98 +1,4 @@
 <?php
-  function buildInstagramProxyUrl($imageUrl) {
-    // Hämtar den aktuella mappen dynamiskt (t.ex. "/beta/sociala-media" eller "/sociala-media")
-    $currentDir = dirname($_SERVER['SCRIPT_NAME']);
-
-    // Bygg ihop sökvägen till image.php
-    $proxyPath = rtrim($currentDir, '/') . '/image.php?url=';
-
-    $imageUrl = trim((string)$imageUrl);
-
-    if ($imageUrl === '') {
-      return '';
-    }
-
-    $parsedUrl = parse_url($imageUrl);
-    $query = [];
-
-    if (is_array($parsedUrl) && !empty($parsedUrl['query'])) {
-      parse_str((string) $parsedUrl['query'], $query);
-    }
-
-    // Om URL:en redan är proxad, extrahera originalbilden och bygg om med rätt mapp-prefix.
-    if (is_array($parsedUrl) && isset($parsedUrl['path']) && str_ends_with((string) $parsedUrl['path'], '/image.php') && !empty($query['url'])) {
-      $imageUrl = trim((string) $query['url']);
-
-      if ($imageUrl === '') {
-        return '';
-      }
-
-      return $proxyPath . rawurlencode($imageUrl);
-    }
-
-    return $proxyPath . rawurlencode($imageUrl);
-  }
-
-  function readInstagramFeedCache($filePath) {
-    if (!is_file($filePath)) {
-      return [];
-    }
-
-    $cachedContent = @file_get_contents($filePath);
-
-    if ($cachedContent === false || $cachedContent === '') {
-      return [];
-    }
-
-    $payload = json_decode($cachedContent, true);
-
-    if (!is_array($payload) || !is_array($payload['posts'] ?? null)) {
-      return [];
-    }
-
-    $posts = $payload['posts'];
-
-    foreach ($posts as &$post) {
-      if (!is_array($post)) {
-        continue;
-      }
-
-      $post['image'] = buildInstagramProxyUrl($post['image'] ?? '');
-    }
-
-    unset($post);
-
-    return $posts;
-  }
-
-  function formatInstagramPostDate($timestamp) {
-    $timestamp = trim((string)$timestamp);
-
-    if ($timestamp === '') {
-      return '';
-    }
-
-    $date = date_create($timestamp);
-
-    if ($date === false) {
-      return '';
-    }
-
-    return $date->format('Y-m-d');
-  }
-
-  function getInstagramMediaTypeLabel($mediaType) {
-    if ($mediaType === 'VIDEO') {
-      return 'Video på Instagram';
-    }
-
-    if ($mediaType === 'CAROUSEL_ALBUM') {
-      return 'Karusell på Instagram';
-    }
-
-    return 'Bild på Instagram';
-  }
-
   $header_title = "Sociala medier";
   $header_description = "Följ Rockrullarna på sociala medier och se våra senaste uppdateringar från Facebook, Instagram och TikTok";
 
@@ -100,9 +6,6 @@
   $page_url = "/sociala-media";
   $page_contact_name = "Info";
   $page_contact_email = "info@rockrullarna.se";
-  $instagramCacheFile = __DIR__ . DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR . 'instagram-rockrullarna.json';
-  $instagram_posts = readInstagramFeedCache($instagramCacheFile);
-  $instagram_feed_ready = !empty($instagram_posts);
 
   include_once '../includes/header.php'
 ?>
@@ -184,179 +87,27 @@
                 <h3>Senaste inläggen</h3>
               </div>
             </div>
-            <p>Här visas de senaste publiceringarna från vårt Instagram-konto.</p>
+            <p>Se våra senaste bilder och klipp på Instagram.</p>
             <a class="rr-btn-inline" href="https://www.instagram.com/rockrullarna" title="Öppna Rockrullarna på Instagram" target="_blank" rel="noopener noreferrer">instagram.com/rockrullarna</a>
-            <div id="rr-instagram-feed" class="rr-courses-embed-shell rr-social-embed-shell" data-instagram-api="./data.php">
-              <?php if ($instagram_feed_ready) { ?>
-                <div class="rr-instagram-feed-grid" data-instagram-grid>
-                  <?php foreach ($instagram_posts as $instagram_post) { ?>
-                    <a class="rr-instagram-feed-card" href="<?php echo htmlspecialchars($instagram_post['url']); ?>" title="Öppna inlägget på Instagram" target="_blank" rel="noopener noreferrer">
-                      <?php if (!empty($instagram_post['image'])) { ?>
-                        <img src="<?php echo htmlspecialchars($instagram_post['image']); ?>" alt="<?php echo htmlspecialchars($instagram_post['alt']); ?>" loading="lazy" />
-                      <?php } ?>
-                      <span class="rr-instagram-feed-card-content">
-                        <?php $instagramPostDate = formatInstagramPostDate($instagram_post['timestamp'] ?? ''); ?>
-                        <?php if ($instagramPostDate !== '') { ?>
-                          <time datetime="<?php echo htmlspecialchars($instagram_post['timestamp']); ?>"><?php echo htmlspecialchars($instagramPostDate); ?></time>
-                        <?php } ?>
-                        <strong><?php echo htmlspecialchars(mb_strimwidth($instagram_post['caption'], 0, 140, '…')); ?></strong>
-                        <small><?php echo htmlspecialchars(getInstagramMediaTypeLabel($instagram_post['mediaType'] ?? '')); ?></small>
-                      </span>
-                    </a>
-                  <?php } ?>
-                </div>
-              <?php } else { ?>
-                <div class="rr-social-link-panel-grid rr-social-link-panel-grid--instagram">
-                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna" target="_blank" rel="noopener noreferrer">
-                    <strong>Instagram-profilen</strong>
-                    <span>Öppna hela flödet med bilder och uppdateringar direkt på instagram.com.</span>
-                  </a>
-                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/reels" target="_blank" rel="noopener noreferrer">
-                    <strong>Senaste reels</strong>
-                    <span>Öppna videoklipp och reels direkt på Instagram.</span>
-                  </a>
-                  <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/tagged" target="_blank" rel="noopener noreferrer">
-                    <strong>Taggade inlägg</strong>
-                    <span>Öppna foton och inlägg där Rockrullarna är taggade direkt på Instagram.</span>
-                  </a>
-                </div>
-              <?php } ?>
+            <div class="rr-social-link-panel-grid">
+              <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna" target="_blank" rel="noopener noreferrer">
+                <strong>Instagram-profilen</strong>
+                <span>Öppna hela flödet med bilder och uppdateringar direkt på instagram.com.</span>
+              </a>
+              <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/reels" target="_blank" rel="noopener noreferrer">
+                <strong>Senaste reels</strong>
+                <span>Öppna videoklipp och reels direkt på Instagram.</span>
+              </a>
+              <a class="rr-social-link-card" href="https://www.instagram.com/rockrullarna/tagged" target="_blank" rel="noopener noreferrer">
+                <strong>Taggade inlägg</strong>
+                <span>Öppna foton och inlägg där Rockrullarna är taggade direkt på Instagram.</span>
+              </a>
             </div>
           </article>
         </div>
       </section>
     </div>
     <script async src="https://www.tiktok.com/embed.js"></script>
-    <script id="instagram-feed-loader">
-      (function () {
-        const instagramFeed = document.getElementById('rr-instagram-feed');
-
-        if (!instagramFeed) {
-          return;
-        }
-
-        const apiUrl = instagramFeed.getAttribute('data-instagram-api');
-
-        if (!apiUrl || !window.fetch) {
-          return;
-        }
-
-        const escapeHtml = function (value) {
-          return String(value)
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#39;');
-        };
-
-        const mediaTypeLabel = function (mediaType) {
-          if (mediaType === 'VIDEO') {
-            return 'Video från Instagram';
-          }
-
-          if (mediaType === 'CAROUSEL_ALBUM') {
-            return 'Karusell från Instagram';
-          }
-
-          return 'Bild från Instagram';
-        };
-
-        const trimCaption = function (caption) {
-          const text = String(caption || '').trim();
-
-          if (text.length <= 140) {
-            return text;
-          }
-
-          return text.slice(0, 139).trimEnd() + '…';
-        };
-
-        const renderPosts = function (posts) {
-          if (!Array.isArray(posts) || posts.length === 0) {
-            return;
-          }
-
-          const cards = posts.map(function (post) {
-            const imageMarkup = post.image
-              ? '<img src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(post.alt || 'Instagram-inlägg från Rockrullarna') + '" loading="lazy" />'
-              : '';
-
-            const timeMarkup = post.timestamp
-              ? '<time datetime="' + escapeHtml(post.timestamp) + '">' + escapeHtml(String(post.timestamp).slice(0, 10)) + '</time>'
-              : '';
-
-            return '<a class="rr-instagram-feed-card" href="' + escapeHtml(post.url || '#') + '" title="Öppna inlägget på Instagram" target="_blank" rel="noopener noreferrer">'
-              + imageMarkup
-              + '<span class="rr-instagram-feed-card-content">'
-              + timeMarkup + '<br />'
-              + '<strong>' + escapeHtml(trimCaption(post.caption)) + '</strong><br />'
-              + '<small>' + escapeHtml(mediaTypeLabel(post.mediaType)) + '</small>'
-              + '</span>'
-              + '</a>';
-          }).join('');
-
-          instagramFeed.innerHTML = '<div class="rr-instagram-feed-grid" data-instagram-grid>' + cards + '</div>';
-
-          hydrateInstagramImagePlaceholders();
-        };
-
-        const hydrateInstagramImagePlaceholders = function () {
-          const grid = instagramFeed.querySelector('[data-instagram-grid]');
-
-          if (!grid) {
-            return;
-          }
-
-          const images = Array.from(grid.querySelectorAll('img'));
-
-          if (images.length === 0) {
-            return;
-          }
-
-          images.forEach(function (image) {
-            const card = image.closest('.rr-instagram-feed-card');
-
-            const markBroken = function () {
-              if (card) {
-                card.classList.add('rr-instagram-feed-card--no-image');
-              }
-
-              image.remove();
-            };
-
-            if (image.complete) {
-              if (image.naturalWidth > 0) {
-                return;
-              } else {
-                markBroken();
-              }
-
-              return;
-            }
-
-            image.addEventListener('error', markBroken, { once: true });
-          });
-        };
-
-        fetch(apiUrl, { headers: { 'Accept': 'application/json' } })
-          .then(function (response) {
-            if (!response.ok) {
-              throw new Error('Instagram API request failed.');
-            }
-
-            return response.json();
-          })
-          .then(function (payload) {
-            renderPosts(payload.posts || []);
-          })
-          .catch(function () {
-            hydrateInstagramImagePlaceholders();
-          });
-
-        hydrateInstagramImagePlaceholders();
-      }());
-    </script>
 <?php
   include_once '../includes/footer.php'
 ?>
