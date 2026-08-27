@@ -28,7 +28,9 @@
           $pageFileTimestamp = filemtime($pageFilePath);
 
           if ($pageFileTimestamp !== false) {
-            return 'Senast uppdaterad: ' . htmlspecialchars(date('Y-m-d H:i', $pageFileTimestamp), ENT_QUOTES, 'UTF-8');
+            $pageFileDateTime = (new DateTimeImmutable('@' . $pageFileTimestamp))->setTimezone(new DateTimeZone('Europe/Stockholm'));
+
+            return 'Senast uppdaterad: ' . htmlspecialchars($pageFileDateTime->format('Y-m-d H:i'), ENT_QUOTES, 'UTF-8');
           }
         }
 
@@ -44,7 +46,7 @@
       }
     }
   ?>
-  <p class="small text-body-secondary mt-4 mb-0 rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
+  <p class="small text-body-secondary mt-4 rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
   </main>
   <footer class="rr-footer">
     <div class="container">
