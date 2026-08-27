@@ -369,7 +369,7 @@
                       <div class="rr-trainer-photo-shell">
                         <?php if ($memberImage !== '') { ?>
                           <img
-                            src="<?php echo htmlspecialchars($memberImage); ?>"
+                            src="https://rockrullarna.se<?php echo htmlspecialchars($memberImage); ?>"
                             alt="Porträtt av <?php echo htmlspecialchars($card['name']); ?>"
                             class="rr-trainer-photo"
                             style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"
