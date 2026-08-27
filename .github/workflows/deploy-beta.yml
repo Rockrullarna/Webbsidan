@@ -14,10 +14,10 @@ name: Deploy beta via SFTP
 on:
   push:
     branches:
-      - 'dev/**'
       - 'dev**'
-      - 'feature/**'
+      - 'beta**'
       - 'feature**'
+      - 'copilot**'
 
 permissions:
   contents: read
