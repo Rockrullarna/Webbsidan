@@ -1,39 +1,6 @@
 ﻿  <?php
     if (!function_exists('rrGetLastUpdatedText')) {
       function rrGetLastUpdatedText($pageUpdated = null) {
-        $pageFilePath = null;
-
-        if (!empty($_SERVER['SCRIPT_FILENAME']) && is_string($_SERVER['SCRIPT_FILENAME'])) {
-          $resolvedScriptPath = realpath($_SERVER['SCRIPT_FILENAME']);
-
-          if ($resolvedScriptPath !== false && is_file($resolvedScriptPath)) {
-            $pageFilePath = $resolvedScriptPath;
-          }
-        }
-
-        if ($pageFilePath === null) {
-          $includedFiles = get_included_files();
-          $mainScriptPath = $includedFiles[0] ?? null;
-
-          if (is_string($mainScriptPath)) {
-            $resolvedMainScriptPath = realpath($mainScriptPath);
-
-            if ($resolvedMainScriptPath !== false && is_file($resolvedMainScriptPath)) {
-              $pageFilePath = $resolvedMainScriptPath;
-            }
-          }
-        }
-
-        if ($pageFilePath !== null) {
-          $pageFileTimestamp = filemtime($pageFilePath);
-
-          if ($pageFileTimestamp !== false) {
-            $pageFileDateTime = (new DateTimeImmutable('@' . $pageFileTimestamp))->setTimezone(new DateTimeZone('Europe/Stockholm'));
-
-            return 'Sidan uppdaterad: ' . htmlspecialchars($pageFileDateTime->format('Y-m-d H:i'), ENT_QUOTES, 'UTF-8');
-          }
-        }
-
         if (is_string($pageUpdated)) {
           $trimmedPageUpdated = trim($pageUpdated);
 
@@ -46,7 +13,7 @@
       }
     }
   ?>
-  <p class="small text-body-secondary rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
+  <p class="small text-body-secondary rr-last-updated"><?php echo rrGetLastUpdatedText($page_updated ?? null); ?></p>
   </main>
   <footer class="rr-footer">
     <div class="container">

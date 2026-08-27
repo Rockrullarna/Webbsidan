@@ -16,7 +16,7 @@ test.describe('Senast uppdaterad', () => {
 
       await expect(lastUpdated).toBeVisible();
       await expect(footerAfterMain).toBeVisible();
-      await expect(lastUpdated).toContainText(/^Senast uppdaterad: \d{4}-\d{2}-\d{2} \d{2}:\d{2}$|^Senast uppdaterad: datum saknas$/);
+      await expect(lastUpdated).toContainText(/^Sidan uppdaterad: \d{4}-\d{2}-\d{2} \d{2}:\d{2}$|^Sidan uppdaterad: datum saknas$/);
     });
   }
 });
