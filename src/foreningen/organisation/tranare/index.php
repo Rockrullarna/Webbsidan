@@ -2,7 +2,7 @@
   $header_title = "Tränare - Organisation - Föreningen";
   $header_description = "Klubbens tränare, assistenter och hjälpdansare inom Barndans, Bugg, Fox och West Coast Swing";
 
-  $page_updated = "2026-07-26 18:10";
+  $page_updated = "2026-08-27 08:08";
   $page_url = "/foreningen/organisation/tranare";
   $page_contact_name = "Tränare";
   $page_contact_email = "info@rockrullarna.se";

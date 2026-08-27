@@ -1,6 +1,6 @@
 {
   "meta": {
-    "senastUppdaterad": "2026-07-28",
+    "senastUppdaterad": "2026-08-27",
     "notes": "Lista över huvudtränare, tränare, assistenter och hjälpdansare. En person kan ha flera roller i flera sektioner. Editera gärna nedan.",
     "sektioner": [
       "Barndans",
@@ -97,7 +97,7 @@
     {
       "id": "anna-skanebo",
       "name": "Anna Skanebo",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/anna-skanebo.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -109,7 +109,7 @@
     {
       "id": "elin-yngve",
       "name": "Elin Yngve",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/elin-yngve.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -120,7 +120,7 @@
     },{
       "id": "jennie-modin",
       "name": "Jennie Modin",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/jennie-modin.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -237,9 +237,9 @@
       ]
     },
     {
-      "id": "annika-kindborg",
-      "name": "Annika Kindborg",
-      "image": "",
+      "id": "annica-kindborg",
+      "name": "Annica Kindborg",
+      "image": "/filer/bilder/webb/personer/annica-kindborg.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -261,21 +261,9 @@
       ]
     },
     {
-      "id": "sofie-asker",
-      "name": "Sofie Asker",
-      "image": "",
-      "thumbnailOffsetY": 50,
-      "assignments": [
-        {
-          "section": "Bugg",
-          "role": "Assistent"
-        }
-      ]
-    },
-    {
       "id": "david-saflund",
       "name": "David Säflund",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/david-saflund.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
@@ -435,7 +423,7 @@
     {
       "id": "hakan-viklund",
       "name": "Håkan Viklund",
-      "image": "",
+      "image": "/filer/bilder/webb/personer/hakan-viklund.jpg",
       "thumbnailOffsetY": 50,
       "assignments": [
         {
