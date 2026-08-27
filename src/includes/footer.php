@@ -1,4 +1,49 @@
-﻿  </main>
+﻿  <?php
+    function rrGetLastUpdatedText($pageUpdated = null) {
+      $pageFilePath = null;
+
+      if (!empty($_SERVER['SCRIPT_FILENAME']) && is_string($_SERVER['SCRIPT_FILENAME'])) {
+        $resolvedScriptPath = realpath($_SERVER['SCRIPT_FILENAME']);
+
+        if ($resolvedScriptPath !== false && is_file($resolvedScriptPath)) {
+          $pageFilePath = $resolvedScriptPath;
+        }
+      }
+
+      if ($pageFilePath === null) {
+        $includedFiles = get_included_files();
+        $mainScriptPath = $includedFiles[0] ?? null;
+
+        if (is_string($mainScriptPath)) {
+          $resolvedMainScriptPath = realpath($mainScriptPath);
+
+          if ($resolvedMainScriptPath !== false && is_file($resolvedMainScriptPath)) {
+            $pageFilePath = $resolvedMainScriptPath;
+          }
+        }
+      }
+
+      if ($pageFilePath !== null) {
+        $pageFileTimestamp = filemtime($pageFilePath);
+
+        if ($pageFileTimestamp !== false) {
+          return 'Senast uppdaterad: ' . htmlspecialchars(date('Y-m-d H:i', $pageFileTimestamp), ENT_QUOTES, 'UTF-8');
+        }
+      }
+
+      if (is_string($pageUpdated)) {
+        $trimmedPageUpdated = trim($pageUpdated);
+
+        if ($trimmedPageUpdated !== '') {
+          return 'Senast uppdaterad: ' . htmlspecialchars($trimmedPageUpdated, ENT_QUOTES, 'UTF-8');
+        }
+      }
+
+      return 'Senast uppdaterad: datum saknas';
+    }
+  ?>
+  <p class="small text-body-secondary mt-4 mb-0 rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
+  </main>
   <footer class="rr-footer">
     <div class="container">
       <div class="row g-4 rr-footer-main">
