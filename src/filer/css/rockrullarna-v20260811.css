@@ -66,10 +66,7 @@ main {
 }
 
 .rr-last-updated {
-  margin-top: 3rem;
-  margin-bottom: 0;
-  padding-top: 1rem;
-  border-top: 1px solid var(--b-border);
+  margin-bottom: 1rem;
 }
 /* #endregion Base Layout */
 

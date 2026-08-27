@@ -30,7 +30,7 @@
           if ($pageFileTimestamp !== false) {
             $pageFileDateTime = (new DateTimeImmutable('@' . $pageFileTimestamp))->setTimezone(new DateTimeZone('Europe/Stockholm'));
 
-            return 'Senast uppdaterad: ' . htmlspecialchars($pageFileDateTime->format('Y-m-d H:i'), ENT_QUOTES, 'UTF-8');
+            return 'Sidan uppdaterad: ' . htmlspecialchars($pageFileDateTime->format('Y-m-d H:i'), ENT_QUOTES, 'UTF-8');
           }
         }
 
@@ -38,15 +38,15 @@
           $trimmedPageUpdated = trim($pageUpdated);
 
           if ($trimmedPageUpdated !== '') {
-            return 'Senast uppdaterad: ' . htmlspecialchars($trimmedPageUpdated, ENT_QUOTES, 'UTF-8');
+            return 'Sidan uppdaterad: ' . htmlspecialchars($trimmedPageUpdated, ENT_QUOTES, 'UTF-8');
           }
         }
 
-        return 'Senast uppdaterad: datum saknas';
+        return 'Sidan uppdaterad: datum saknas';
       }
     }
   ?>
-  <p class="small text-body-secondary mt-4 rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
+  <p class="small text-body-secondary rr-last-updated"><?php echo rrGetLastUpdatedText(isset($page_updated) ? $page_updated : null); ?></p>
   </main>
   <footer class="rr-footer">
     <div class="container">
