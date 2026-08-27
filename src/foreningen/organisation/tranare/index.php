@@ -117,6 +117,13 @@
     return strcmp((string) ($left['name'] ?? ''), (string) ($right['name'] ?? ''));
   }
 
+  function getOriginalImagePath(string $imagePath): string {
+    if ($imagePath === '') {
+      return '';
+    }
+    return dirname($imagePath) . '/original/' . basename($imagePath);
+  }
+
   function clampThumbnailOffsetPercent($value): int {
     if (!is_numeric($value)) {
       return 50;
@@ -370,6 +377,7 @@
                         <?php if ($memberImage !== '') { ?>
                           <img
                             src="https://rockrullarna.se<?php echo htmlspecialchars($memberImage); ?>"
+                            srcset="https://rockrullarna.se<?php echo htmlspecialchars($memberImage); ?> 1x, https://rockrullarna.se<?php echo htmlspecialchars(getOriginalImagePath($memberImage)); ?> 2x"
                             alt="Porträtt av <?php echo htmlspecialchars($card['name']); ?>"
                             class="rr-trainer-photo"
                             style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"

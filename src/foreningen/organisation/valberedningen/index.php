@@ -9,6 +9,13 @@
   $committeeMembersFile = __DIR__ . DIRECTORY_SEPARATOR . 'medlemmar-valberedningen.json';
   $committee_members = [];
 
+  function getOriginalImagePath(string $imagePath): string {
+    if ($imagePath === '') {
+      return '';
+    }
+    return dirname($imagePath) . '/original/' . basename($imagePath);
+  }
+
   function clampThumbnailOffsetPercent($value): int {
     if (!is_numeric($value)) {
       return 50;
@@ -94,7 +101,8 @@
                 <div class="rr-board-photo-shell">
                   <?php if ($memberImage !== '') { ?>
                     <img
-                      src="<?php echo htmlspecialchars($memberImage); ?>"
+                      src="https://rockrullarna.se<?php echo htmlspecialchars($memberImage); ?>"
+                      srcset="https://rockrullarna.se<?php echo htmlspecialchars($memberImage); ?> 1x, https://rockrullarna.se<?php echo htmlspecialchars(getOriginalImagePath($memberImage)); ?> 2x"
                       alt="Porträtt av <?php echo htmlspecialchars($member['name']); ?>"
                       class="rr-board-photo"
                       style="--rr-thumb-focus-y: center <?php echo $thumbFocusY; ?>%; object-position: center <?php echo $thumbFocusY; ?>%;"
