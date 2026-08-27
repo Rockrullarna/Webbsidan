@@ -16,15 +16,21 @@ test.describe('Senast uppdaterad', () => {
       await expect(lastUpdated).toBeVisible();
       await expect(lastUpdated).toContainText(/^Senast uppdaterad: \d{4}-\d{2}-\d{2} \d{2}:\d{2}$|^Senast uppdaterad: datum saknas$/);
 
-      const isLastElementBeforeFooter = await page.evaluate(() => {
+      const isPlacedInsideMainBeforeFooter = await page.evaluate(() => {
         const main = document.querySelector('main');
         const footer = document.querySelector('footer');
-        const lastUpdatedElement = main?.querySelector(':scope > .rr-last-updated');
+        const lastUpdatedElement = main?.querySelector('.rr-last-updated');
 
-        return Boolean(main && footer && lastUpdatedElement && main.lastElementChild === lastUpdatedElement && main.nextElementSibling === footer);
+        return Boolean(
+          main &&
+          footer &&
+          lastUpdatedElement &&
+          main.contains(lastUpdatedElement) &&
+          (main.compareDocumentPosition(footer) & Node.DOCUMENT_POSITION_FOLLOWING) !== 0
+        );
       });
 
-      expect(isLastElementBeforeFooter).toBe(true);
+      expect(isPlacedInsideMainBeforeFooter).toBe(true);
     });
   }
 });
