@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 main {
   padding: 0em 5em;
 }
+
+.rr-last-updated {
+  margin-bottom: 1rem;
+}
 /* #endregion Base Layout */
 
 /* #region Links */

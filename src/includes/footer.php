@@ -1,4 +1,20 @@
-﻿  </main>
+﻿  <?php
+    if (!function_exists('rrGetLastUpdatedText')) {
+      function rrGetLastUpdatedText($pageUpdated = null) {
+        if (is_string($pageUpdated)) {
+          $trimmedPageUpdated = trim($pageUpdated);
+
+          if ($trimmedPageUpdated !== '') {
+            return 'Sidan uppdaterad: ' . htmlspecialchars($trimmedPageUpdated, ENT_QUOTES, 'UTF-8');
+          }
+        }
+
+        return 'Sidan uppdaterad: datum saknas';
+      }
+    }
+  ?>
+  <p class="small text-body-secondary rr-last-updated"><?php echo rrGetLastUpdatedText($page_updated ?? null); ?></p>
+  </main>
   <footer class="rr-footer">
     <div class="container">
       <div class="row g-4 rr-footer-main">
