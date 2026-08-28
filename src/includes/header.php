@@ -161,6 +161,7 @@
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav navbar-nav-scroll mx-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" href="/sociala-media">Sociala media</a></li>
+            <li class="nav-item"><a class="nav-link" href="/nyheter">Nyheter</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Danskurser</a>
               <ul class="dropdown-menu shadow">

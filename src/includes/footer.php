@@ -80,7 +80,19 @@
           <a href="/kontakt/fragor-och-svar">Frågor och svar</a>
           &nbsp;|&nbsp;
           <a title="Visa källkoden via GitHub (öppnas i nytt fönster)"
-              href="https://github.com/Rockrullarna/Webbsidan/tree/main/src/<?php if (empty($page_url)) { echo "index.php"; } else { echo "$page_url/index.php"; }?>"
+              href="https://github.com/Rockrullarna/Webbsidan/tree/main/src/<?php
+                if (empty($page_url)) {
+                  echo "index.php";
+                } else {
+                  $sourcePath = ltrim((string) $page_url, '/');
+                  $sourcePath = preg_replace('/\?.*$/', '', $sourcePath) ?? $sourcePath;
+                  if (str_ends_with($sourcePath, '.php')) {
+                    echo $sourcePath;
+                  } else {
+                    echo $sourcePath . '/index.php';
+                  }
+                }
+              ?>"
               target="_blank" rel="noopener">
             <?php
               // Läs lokal version-fil från aktuell miljö (prod/beta) för korrekt versionssuffix.

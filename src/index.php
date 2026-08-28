@@ -41,6 +41,8 @@
   $page_contact_name = "";
   $page_contact_email = "";
 
+  require_once __DIR__ . '/api/posts-cache.php';
+
   include_once 'includes/header.php'
 ?>
 <?php
@@ -157,6 +159,29 @@
   $bugg = $style_images['bugg'][array_rand($style_images['bugg'])];
   $fox  = $style_images['fox'][array_rand($style_images['fox'])];
   $wcs  = $style_images['wcs'][array_rand($style_images['wcs'])];
+
+  $home_all_posts = rrPostsGetAll();
+  $home_featured_posts = array_values(array_filter($home_all_posts, static function (array $post): bool {
+    return !empty($post['is_featured']);
+  }));
+
+  $home_latest_posts = array_slice($home_all_posts, 0, 10);
+  $home_news_posts = [];
+  $home_added_ids = [];
+
+  foreach (array_merge($home_featured_posts, $home_latest_posts) as $post) {
+    if (count($home_news_posts) >= 5) {
+      break;
+    }
+
+    $postId = (string) ($post['id'] ?? '');
+    if ($postId === '' || isset($home_added_ids[$postId])) {
+      continue;
+    }
+
+    $home_added_ids[$postId] = true;
+    $home_news_posts[] = $post;
+  }
 ?>
     <!-- Hero – bildfokuserad ────────────────────────────────────────────── -->
     <section class="rr-hero" aria-label="Välkommen till Dansklubben Rockrullarna">
@@ -361,6 +386,31 @@
               </div>
 
               <div class="rr-event-list">
+                <?php foreach ($home_news_posts as $newsPost) { ?>
+                  <article class="rr-event-card rr-event-card--news" aria-labelledby="news-home-<?= htmlspecialchars((string) $newsPost['id'], ENT_QUOTES, 'UTF-8') ?>">
+                    <div class="rr-event-card-top">
+                      <div class="rr-event-date-badge rr-event-date-badge-alt">
+                        <span class="rr-event-date-text"><?= htmlspecialchars((string) ($newsPost['category'] ?: 'Nyhet'), ENT_QUOTES, 'UTF-8') ?></span>
+                      </div>
+                      <div>
+                        <h3 id="news-home-<?= htmlspecialchars((string) $newsPost['id'], ENT_QUOTES, 'UTF-8') ?>" class="rr-event-card-title"><?= htmlspecialchars((string) $newsPost['title'], ENT_QUOTES, 'UTF-8') ?></h3>
+                        <small class="rr-event-card-meta">
+                          <?= htmlspecialchars(rrPostsFormatDate((string) $newsPost['published_at']), ENT_QUOTES, 'UTF-8') ?>
+                          •
+                          <?= htmlspecialchars((string) $newsPost['author'], ENT_QUOTES, 'UTF-8') ?>
+                          <?php if (!empty($newsPost['is_featured'])) { ?>
+                            • Utvald
+                          <?php } ?>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="rr-event-card-body">
+                      <?= htmlspecialchars((string) $newsPost['excerpt'], ENT_QUOTES, 'UTF-8') ?>
+                      <a href="/nyheter/post.php?slug=<?= rawurlencode((string) $newsPost['slug']) ?>" title="Läs mer om <?= htmlspecialchars((string) $newsPost['title'], ENT_QUOTES, 'UTF-8') ?>">Läs mer</a>.
+                    </div>
+                  </article>
+                <?php } ?>
+
                 <!-- <article class="rr-event-card" aria-labelledby="arsmote-heading">
                   <div class="rr-event-card-top">
                     <div class="rr-event-date-badge">
@@ -425,6 +475,7 @@
                   </div>
                 </article>
               </div>
+              <a class="rr-btn-inline" href="/nyheter/" title="Visa alla nyheter">Visa alla nyheter</a>
 
             </div>
           </div>
