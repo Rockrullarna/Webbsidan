@@ -4457,6 +4457,201 @@ header {
 /* #endregion Mobil */
 
 /* #region Light mode overrides for new components */
+
+/* #region Nyheter */
+.rr-news-page {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.rr-news-intro {
+  color: var(--b-muted);
+  margin: 0;
+}
+
+.rr-news-filter-form {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--b-border);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--b-surface);
+}
+
+.rr-news-filter-check,
+.rr-news-filter-actions {
+  grid-column: 1 / -1;
+}
+
+.rr-news-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.rr-news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.rr-news-card {
+  border: 1px solid var(--b-border);
+  border-radius: 12px;
+  background: var(--b-surface);
+  overflow: hidden;
+}
+
+.rr-news-image-link {
+  display: block;
+  border-bottom: 1px solid var(--b-border);
+}
+
+.rr-news-thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.rr-news-thumbnail--placeholder {
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  color: var(--b-muted);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.rr-news-card-body {
+  padding: 1rem;
+}
+
+.rr-news-card-meta {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  font-size: 0.87rem;
+  color: var(--b-muted);
+}
+
+.rr-news-card-category {
+  color: var(--b-accent);
+  text-transform: uppercase;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  margin: 0.55rem 0 0.3rem;
+}
+
+.rr-news-card-title {
+  font-size: 1.2rem;
+  margin: 0 0 0.45rem;
+}
+
+.rr-news-card-title a {
+  color: var(--b-text);
+  text-decoration: none;
+}
+
+.rr-news-card-title a:hover {
+  text-decoration: underline;
+}
+
+.rr-news-card-excerpt {
+  color: var(--b-muted);
+  margin-bottom: 0.85rem;
+}
+
+.rr-news-empty {
+  padding: 1rem;
+  border: 1px dashed var(--b-border);
+  border-radius: 10px;
+}
+
+.rr-news-pagination {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.rr-news-pagination a {
+  min-width: 2rem;
+  text-align: center;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--b-border);
+  border-radius: 8px;
+  color: var(--b-text);
+  text-decoration: none;
+}
+
+.rr-news-pagination a.is-active {
+  border-color: var(--b-accent);
+  color: var(--b-accent);
+}
+
+.rr-news-post {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.rr-news-post-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.rr-news-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  color: var(--b-muted);
+}
+
+.rr-news-post-image img {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--b-border);
+}
+
+.rr-news-post-content {
+  color: var(--b-text);
+}
+
+.rr-news-post-content p,
+.rr-news-post-content li {
+  line-height: 1.7;
+}
+
+.rr-news-share-links,
+.rr-news-related-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.rr-news-related-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.rr-news-related-card {
+  border: 1px solid var(--b-border);
+  border-radius: 10px;
+  padding: 0.85rem;
+  background: var(--b-surface);
+}
+
+.rr-event-card--news .rr-event-date-text {
+  font-size: 0.72rem;
+}
+
+@media (max-width: 767px) {
+  .rr-news-filter-form {
+    grid-template-columns: 1fr;
+  }
+}
+/* #endregion Nyheter */
 [data-bs-theme=light] .rr-courses-hero-copy,
 [data-bs-theme=light] .rr-courses-info-card,
 [data-bs-theme=light] .rr-courses-links-section,
