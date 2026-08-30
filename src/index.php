@@ -443,7 +443,7 @@
               alternativt klickar på en av aktiviteterna nedan. Så kommer du direkt till anmälningsformuläret för den aktiviteten.
             </p>
             <div id="rr-kalender" data-mode="compact" data-days="180" data-limit="500" aria-label="Kommande aktiviteter"></div>
-            <script src="/filer/js/aktivitetskalender-v20260811.js"></script>
+            <script src="/filer/js/aktivitetskalender-v20260830.js"></script>
             <p class="rr-calendar-actions">
               <a class="btn btn-outline-secondary rr-calendar-button" role="button" href="/aktivitetskalender" title="Visa alla aktiviteter i Aktivitetskalendern">Visa hela aktivitetskalendern</a>
             </p>

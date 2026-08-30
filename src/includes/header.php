@@ -8,7 +8,7 @@
   <!-- Bootstrap Theme switcher --><script src="/filer/js/bootstrap-theme-switcher.js"></script>
   <!-- Bootstrap 5 CDN Links --><link href="/filer/bootstrap-v5.3.8-dist/bootstrap.min.css" rel="stylesheet">
   <!-- Bildfokuserad – Google Fonts --><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/filer/css/rockrullarna-v20260811.css" />
+  <link rel="stylesheet" href="/filer/css/rockrullarna-v20260830.css" />
   <title><?php if (empty($header_title)) {
     echo "Dansklubben Rockrullarna | Välkommen till vår ideella dansförening i Örebro!";
   } else {
