@@ -348,20 +348,24 @@ a:hover {
   color: #4b5563 !important;
 }
 
-/* dans.se vendor dark rule fallback: keep imported registration links readable */
-@media (prefers-color-scheme: dark) {
-  #kursutbud-lista a.regLink,
-  #kursutbud-lista a.regLink:visited {
-    color: #e6edf3 !important;
-  }
+/* dans.se vendor dark rule fallback: keep imported registration links readable.
+   Must key off the site's own [data-bs-theme] attribute (set by
+   bootstrap-theme-switcher.js) rather than the OS-level
+   `prefers-color-scheme` media query, since the site defaults to dark theme
+   regardless of the device's system preference. Using the media query here
+   caused the text to render unreadable (dark-on-dark) for visitors whose
+   device preference was light while the site itself displayed in dark mode. */
+[data-bs-theme=dark] #kursutbud-lista a.regLink,
+[data-bs-theme=dark] #kursutbud-lista a.regLink:visited {
+  color: #e6edf3 !important;
+}
 
-  #kursutbud-lista .cwEvents tr:hover a.regLink,
-  #kursutbud-lista .cwEvents tr:hover a.regLink:visited,
-  #kursutbud-lista a.regLink:hover,
-  #kursutbud-lista a.regLink:focus,
-  #kursutbud-lista a.regLink:focus-visible {
-    color: #0f172a !important;
-  }
+[data-bs-theme=dark] #kursutbud-lista .cwEvents tr:hover a.regLink,
+[data-bs-theme=dark] #kursutbud-lista .cwEvents tr:hover a.regLink:visited,
+[data-bs-theme=dark] #kursutbud-lista a.regLink:hover,
+[data-bs-theme=dark] #kursutbud-lista a.regLink:focus,
+[data-bs-theme=dark] #kursutbud-lista a.regLink:focus-visible {
+  color: #0f172a !important;
 }
 /* #endregion Dark Theme Fixes */
 
