@@ -411,8 +411,8 @@
     {
       "id": "elin-reuterwall",
       "name": "Elin Reuterwall",
-      "image": "",
-      "thumbnailOffsetY": 50,
+      "image": "/filer/bilder/webb/personer/elin-reuterwall.jpg",
+      "thumbnailOffsetY": 30,
       "assignments": [
         {
           "section": "West Coast Swing",
@@ -457,18 +457,6 @@
       ]
     },
     {
-      "id": "max-huss",
-      "name": "Max Huss",
-      "image": "",
-      "thumbnailOffsetY": 50,
-      "assignments": [
-        {
-          "section": "West Coast Swing",
-          "role": "Tränare"
-        }
-      ]
-    },
-    {
       "id": "simon-sjodahl",
       "name": "Simon Sjödahl",
       "image": "",
@@ -477,10 +465,6 @@
         {
           "section": "West Coast Swing",
           "role": "Tränare"
-        },
-        {
-          "section": "West Coast Swing",
-          "role": "Assistent"
         }
       ]
     },

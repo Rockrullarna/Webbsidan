@@ -3,11 +3,11 @@
         "schemaVersion": 4,
         "org": "rockrullarna",
         "days": 180,
-        "generatedAt": "2026-08-27T20:34:26+00:00",
+        "generatedAt": "2026-09-06T05:41:01+00:00",
         "sources": {
-            "scheduleCount": 223,
-            "apiCount": 14,
-            "mergedCount": 223
+            "scheduleCount": 240,
+            "apiCount": 13,
+            "mergedCount": 240
         },
         "cache": {
             "status": "miss",
@@ -16,34 +16,6 @@
         }
     },
     "events": [
-        {
-            "name": "Bugg Tävlingsträning måndagar",
-            "start": "2026-08-31 18:00:00",
-            "end": "2026-08-31 20:00:00",
-            "location": "Stora salen",
-            "url": null
-        },
-        {
-            "name": "West Coast Swing - International Rally West Coast Swing 2026-Flashmob",
-            "start": "2026-09-01 18:30:00",
-            "end": "2026-09-01 20:30:00",
-            "location": "Stora salen",
-            "url": "https://dans.se/rockrullarna/shop/new?event=283423"
-        },
-        {
-            "name": "West Coast Swing Tävlingsträning HT26",
-            "start": "2026-09-02 19:00:00",
-            "end": "2026-09-02 21:00:00",
-            "location": "Stora salen",
-            "url": null
-        },
-        {
-            "name": "Fox socialdanskväll 4 September",
-            "start": "2026-09-04 19:30:00",
-            "end": "2026-09-04 22:30:00",
-            "location": "Stora salen",
-            "url": "https://dans.se/rockrullarna/shop/new?event=290158"
-        },
         {
             "name": "Friträning Bugg  (gratis för medlemmar)",
             "start": "2026-09-06 15:00:00",
@@ -78,6 +50,13 @@
             "end": "2026-09-06 20:40:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-09-07 18:00:00",
+            "end": "2026-09-07 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -220,6 +199,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-09-14 18:00:00",
+            "end": "2026-09-14 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-09-14 18:00:00",
             "end": "2026-09-14 19:00:00",
@@ -311,6 +297,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=289695"
         },
         {
+            "name": "Bokat",
+            "start": "2026-09-19 09:00:00",
+            "end": "2026-09-19 14:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Friträning Bugg  (gratis för medlemmar)",
             "start": "2026-09-20 15:00:00",
             "end": "2026-09-20 16:00:00",
@@ -344,6 +337,13 @@
             "end": "2026-09-20 20:40:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-09-21 18:00:00",
+            "end": "2026-09-21 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -463,6 +463,13 @@
             "end": "2026-09-27 21:00:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=282350"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-09-28 18:00:00",
+            "end": "2026-09-28 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -589,6 +596,13 @@
             "end": "2026-10-04 20:40:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-10-05 18:00:00",
+            "end": "2026-10-05 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -731,6 +745,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-10-12 18:00:00",
+            "end": "2026-10-12 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-10-12 18:00:00",
             "end": "2026-10-12 19:00:00",
@@ -857,6 +878,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-10-19 18:00:00",
+            "end": "2026-10-19 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-10-19 18:00:00",
             "end": "2026-10-19 19:00:00",
@@ -976,6 +1004,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=282353"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-10-26 18:00:00",
+            "end": "2026-10-26 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-10-26 18:00:00",
             "end": "2026-10-26 19:00:00",
@@ -1053,13 +1088,6 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279937"
         },
         {
-            "name": "West Coast Swing - Workshop kurs (fortsättning) fredagar",
-            "start": "2026-10-30 18:00:00",
-            "end": "2026-10-30 19:00:00",
-            "location": "Stora salen",
-            "url": "https://dans.se/rockrullarna/shop/new?event=279941"
-        },
-        {
             "name": "Trivselkväll Bugg/fox 30 oktober",
             "start": "2026-10-30 19:30:00",
             "end": "2026-10-30 22:30:00",
@@ -1100,6 +1128,13 @@
             "end": "2026-11-01 20:40:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-11-02 18:00:00",
+            "end": "2026-11-02 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -1226,6 +1261,13 @@
             "end": "2026-11-08 20:40:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-11-09 18:00:00",
+            "end": "2026-11-09 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         },
         {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
@@ -1375,6 +1417,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279176"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-11-16 18:00:00",
+            "end": "2026-11-16 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-11-16 18:00:00",
             "end": "2026-11-16 19:00:00",
@@ -1494,6 +1543,13 @@
             "url": "https://dans.se/rockrullarna/shop/new?event=279172"
         },
         {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-11-23 18:00:00",
+            "end": "2026-11-23 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
             "name": "Bugg - Coachad par träning - Teknik/ förberedande tävling måndagar",
             "start": "2026-11-23 18:00:00",
             "end": "2026-11-23 19:00:00",
@@ -1576,6 +1632,69 @@
             "end": "2026-11-27 19:00:00",
             "location": "Stora salen",
             "url": "https://dans.se/rockrullarna/shop/new?event=279941"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-11-30 18:00:00",
+            "end": "2026-11-30 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Workshop kurs (fortsättning) fredagar",
+            "start": "2026-12-04 18:00:00",
+            "end": "2026-12-04 19:00:00",
+            "location": "Stora salen",
+            "url": "https://dans.se/rockrullarna/shop/new?event=279941"
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-12-07 18:00:00",
+            "end": "2026-12-07 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-12-14 18:00:00",
+            "end": "2026-12-14 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-12-21 18:00:00",
+            "end": "2026-12-21 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2026-12-28 18:00:00",
+            "end": "2026-12-28 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2027-01-04 18:00:00",
+            "end": "2027-01-04 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2027-01-11 18:00:00",
+            "end": "2027-01-11 20:00:00",
+            "location": "Lilla salen",
+            "url": null
+        },
+        {
+            "name": "West Coast Swing - Måndags-träning för tävlande på Novice eller högre nivå",
+            "start": "2027-01-18 18:00:00",
+            "end": "2027-01-18 20:00:00",
+            "location": "Lilla salen",
+            "url": null
         }
     ]
 }
