@@ -47,7 +47,10 @@
         <!-- Kontakt -->
         <div class="col-12 col-md-4">
           <h5>Kontakt</h5>
-          <p>
+          <div class="rr-footer-links">
+            <a href="/kontakt">Kontaktinformation</a>
+          </div>
+          <p class="mt-3">
             <a href="https://www.google.se/maps/place/Dansklubben+Rockrullarna+i+%C3%96rebro/@59.2756333,15.160794,16.44z/data=!4m6!3m5!1s0x465c14d4a35b37db:0x948d71326b2d8b7c!8m2!3d59.2754194!4d15.1647762!16s%2Fg%2F11c76mt8xm" rel="noopener" target="_blank">Vaktelvägen 2, Haga Centrum<br>70348 Örebro</a>
           </p>
           <a href="mailto:info@rockrullarna.se">info@rockrullarna.se</a>
@@ -71,13 +74,11 @@
           &nbsp;|&nbsp;
           <a href="/integritetspolicy">Integritetspolicy</a>
           &nbsp;|&nbsp;
-          <a href="/webbkarta">Webbkarta</a>
-          &nbsp;|&nbsp;
-          <a href="/kontakt">Kontakt</a>
-          &nbsp;|&nbsp;
           <a href="/kontakt/hjalp">Hjälp</a>
           &nbsp;|&nbsp;
           <a href="/kontakt/fragor-och-svar">Frågor och svar</a>
+          &nbsp;|&nbsp;
+          <a href="/webbkarta">Webbkarta</a>
           &nbsp;|&nbsp;
           <a title="Visa källkoden via GitHub (öppnas i nytt fönster)"
               href="https://github.com/Rockrullarna/Webbsidan/tree/main/src/<?php if (empty($page_url)) { echo "index.php"; } else { echo "$page_url/index.php"; }?>"
